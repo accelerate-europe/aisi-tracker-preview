@@ -1,0 +1,303 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "0023bc7dcb8406118bb01106d66839ed0eaed2e4",
+      "built": "2026-11-21T14:22:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/55",
+  "record": {
+    "id": "FJ",
+    "name": "Fiji",
+    "summary": "No qualifying institute identified. Fiji is developing AI governance within its National Digital Strategy and takes part in an Australian-funded programme on responsible AI adoption, but no national AI evaluation body was found.",
+    "related_bodies": [
+      {
+        "name": "Pacific Islands Forum (regional AI principles and planned governance framework)",
+        "role": "Leaders endorsed regional AI principles in September 2026 and a regional AI Governance Framework is to be considered in 2027; this is a regional process, not a national body.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "recheck-eap-pina-leaders-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-25bbc00e0d165c859ff1ac720f1435b3",
+        "citations": {
+          "name": [],
+          "role": [
+            "recheck-eap-pina-leaders-2026"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "recheck-eap-pina-leaders-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "recheck-eap-pina-leaders-2026"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-04-30",
+      "reason": "Whether a national AI strategy or any national AI evaluation body is adopted."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Fiji\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Fiji national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "au-industry",
+            "catalogue-jp-23-9"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: A national digital statement and regional digital-readiness discussion do not establish two substantive institute-status evidence origins. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence.",
+      "governance_source_ids": [
+        "fj-un-statement-2026"
+      ],
+      "governance_note": "Fiji's national UN statement says a National AI Framework is to be developed within its digital and cybersecurity strategy programme. The regional Standards Australia project is not used as country-governance proof."
+    },
+    "source_ids": [
+      "fj-un-statement-2026",
+      "recheck-eap-standards-au-2026",
+      "recheck-eap-devpolicy-2025",
+      "recheck-eap-undp-pacific-2026",
+      "recheck-eap-pina-leaders-2026",
+      "eap-pina-2026"
+    ],
+    "notes": "Searched in English for national AI strategy, AI agency or regulator and AI safety or testing institute (2024 to 2026); none found. Fiji is one of six governments in the Standards Australia responsible-AI project (June 2026 to March 2027).",
+    "region": {
+      "id": "009",
+      "name": "Oceania",
+      "subregion_id": "054",
+      "subregion": "Melanesia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 933154,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "FJI",
+    "m49": "242",
+    "wikidata": "Q712",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "related_bodies": [
+        "recheck-eap-pina-leaders-2026"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "recheck-eap-pina-leaders-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "au-industry",
+        "fj-un-statement-2026",
+        "eap-pina-2026",
+        "recheck-eap-undp-pacific-2026",
+        "recheck-eap-pina-leaders-2026",
+        "recheck-eap-standards-au-2026",
+        "recheck-eap-devpolicy-2025",
+        "gb-approach-2024",
+        "catalogue-jp-23-9"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "au-industry",
+      "title": "AI Safety Institute",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261015131505/https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "catalogue-jp-23-9",
+      "title": "Guide to Evaluation Perspectives on AI Safety, version 1.01",
+      "url": "https://aisi.go.jp/assets/pdf/ai_safety_eval_v1.01_en.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "eap-pina-2026",
+      "title": "Pacific Ministers back AI rules and safer digital spaces as connectivity expands",
+      "url": "https://pina.com.fj/2026/08/14/pacific-ministers-back-ai-rules-and-safer-digital-spaces-as-connectivity-expands/",
+      "archive_url": "https://web.archive.org/web/20260831144102/https://pina.com.fj/2026/08/14/pacific-ministers-back-ai-rules-and-safer-digital-spaces-as-connectivity-expands/",
+      "excerpts": []
+    },
+    {
+      "id": "fj-un-statement-2026",
+      "title": "Fiji national statement, Global Dialogue on AI Governance",
+      "url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-07/104._fiji.pdf",
+      "archive_url": "https://web.archive.org/web/20261016204240if_/https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-07/104._fiji.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-eap-devpolicy-2025",
+      "title": "Bridging the divide: building Pacific agency in the AI era",
+      "url": "https://devpolicy.org/bridging-the-divide-building-pacific-agency-in-the-ai-era-20250711/",
+      "archive_url": "https://web.archive.org/web/20260314232243/https://devpolicy.org/bridging-the-divide-building-pacific-agency-in-the-ai-era-20250711/",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-eap-pina-leaders-2026",
+      "title": "Pacific Islands Forum leaders endorse Pacific Digital and AI Technology Principles",
+      "url": "https://pina.com.fj/2026/09/06/pacific-leaders-set-ai-rules-push-stronger-digital-connectivity/",
+      "archive_url": "https://web.archive.org/web/20261017010351/https://pina.com.fj/2026/09/06/pacific-leaders-set-ai-rules-push-stronger-digital-connectivity/",
+      "excerpts": [
+        {
+          "text": "leaders endorsed the Pacific Digital and Artificial Intelligence Technology Principles as the region’s first collective regional position on AI and responsible digital technologies.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recheck-eap-standards-au-2026",
+      "title": "Responsible Adoption of AI in the Pacific",
+      "url": "https://www.standards.org.au/engagement-events/international/responsible-adoption-of-ai-in-the-pacific",
+      "archive_url": "https://web.archive.org/web/20261017010535/https://www.standards.org.au/engagement-events/international/responsible-adoption-of-ai-in-the-pacific",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-eap-undp-pacific-2026",
+      "title": "The Pacific's Stake in Shaping AI's Future",
+      "url": "https://www.undp.org/pacific/blog/pacifics-stake-shaping-ais-future",
+      "archive_url": "https://web.archive.org/web/20261017010213/https://www.undp.org/pacific/blog/pacifics-stake-shaping-ais-future",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

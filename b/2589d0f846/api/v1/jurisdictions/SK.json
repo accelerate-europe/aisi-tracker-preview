@@ -1,0 +1,783 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "2589d0f846dca60f4ca3d524d89c5430cc9bbb46",
+      "built": "2026-11-21T16:56:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/24",
+  "record": {
+    "id": "SK",
+    "name": "Slovakia",
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "AI CyberLab",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "sk-oecd-cyberlab-primary-proposal",
+          "sk-oecd-cyberlab",
+          "sk-ai-cyberlab-zamer",
+          "sk-r6-cyberlab-call"
+        ],
+        "kind": "other",
+        "id": "related_bodies-79e93e398efc50d3aa6d1d88ae3e6308",
+        "role": "The ministry's project plan says research organisations develop new knowledge, models and methods, while \"AI CyberLab will ensure their verification, testing and implementation support\" when they are introduced into public administration information systems, from a cybersecurity perspective. The ministry's project plan says the laboratory will enable public authorities to test the security and robustness of AI solutions before they are deployed. The minutes of the Programme Slovakia monitoring committee's commission record a ministry representative saying AI CyberLab will enable verification of solutions, for example in AI, from a cybersecurity perspective and of their compliance with national and international standards.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": []
+        },
+        "display": {
+          "source_links": [
+            "sk-ai-cyberlab-zamer",
+            "sk-oecd-cyberlab",
+            "sk-oecd-cyberlab-primary-proposal",
+            "sk-r6-cyberlab-call"
+          ]
+        }
+      },
+      {
+        "name": "Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky (MIRRI SR)",
+        "name_en": "Ministry of Investment, Regional Development and Informatics of the Slovak Republic",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "sk-ai-governance-government-bill-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "proposed",
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-a6e07da58c8353baadda29f2efea1372",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "sk-ai-governance-government-bill-2026"
+          ],
+          "authority_roles": [],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "sk-ai-governance-government-bill-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "sk-ai-governance-government-bill-2026"
+          ]
+        }
+      },
+      {
+        "name": "Úrad pre normalizáciu, metrológiu a skúšobníctvo Slovenskej republiky",
+        "name_en": "Office for Standardisation, Metrology and Testing of the Slovak Republic",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "sk-ai-governance-government-bill-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "proposed",
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-df4ae7e268805b7390d577eef564c628",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "sk-ai-governance-government-bill-2026"
+          ],
+          "authority_roles": [],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "sk-ai-governance-government-bill-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "sk-ai-governance-government-bill-2026"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-11-30",
+      "reason": "Follow government bill 1447 (MIRRI as AI supervisor and single point of contact), and promote MIRRI only once the act is promulgated; then check the AI CyberLab award and final technical mandate, including whether generative-model testing covers capabilities or behaviour risks of advanced models."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English search and official project text confirm proposed AI CyberLab. Its work includes threats from generative models, adversarial testing and AI-enabled cyber incidents, but the stated deployment and infrastructure focus is public administration. Retain a mandate-scope review flag without changing status. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Slovak and English search and primary-source review of AI CyberLab mandate, funding call and related SIMULAB call; not a full record recheck."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Selected the closest body against retrieved source text and excerpts; recorded its stage, evidence gap and limits. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Changed status confidence from low to medium because the individual check has recorded English and national or official-language queries and retrieved primary governance evidence; classification disagreement no longer lowers confidence. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Slovak, with the regional development and informatisation ministry's news page (newest 10 November). No qualifying item was found. The parliamentary vote on paper 1447 was a first reading on 17 September, before the window, and the parliamentary policy overview could not be read. No final implementation law or CyberLab grant award was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "sk",
+          "national_or_official": true,
+          "query": "Slovensko inštitút bezpečnosti umelej inteligencie hodnotenie modelov vláda",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Slovakia national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "site:mirri.gov.sk \"AI CyberLab\" 2026",
+          "source_ids": [
+            "ov-wikipedia",
+            "sk-oecd-cyberlab",
+            "sk-oecd-cyberlab-primary-proposal",
+            "sk-r6-cyberlab-call",
+            "sk-r6-simulab-call"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Slovakia AI CyberLab national AI safety institute 2026",
+          "source_ids": [
+            "ov-wikipedia",
+            "sk-oecd-cyberlab",
+            "sk-oecd-cyberlab-primary-proposal",
+            "sk-r6-cyberlab-call",
+            "sk-r6-simulab-call"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "sk",
+          "national_or_official": true,
+          "query": "site:gov.sk \"laboratórium\" \"kybernetickú bezpečnosť\" \"AI\" 2026",
+          "source_ids": [
+            "sk-ai-cyberlab-zamer",
+            "sk-oecd-cyberlab-primary-proposal",
+            "sk-r6-cyberlab-call",
+            "sk-r6-cyberlab-project-approval"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "sk",
+          "national_or_official": true,
+          "query": "site:mirri.gov.sk \"AI CyberLab\" výsledky schválenie 2026",
+          "source_ids": [
+            "sk-ai-cyberlab-zamer",
+            "sk-oecd-cyberlab-primary-proposal",
+            "sk-r6-cyberlab-call",
+            "sk-r6-cyberlab-project-approval"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "This check used Slovak and English searches. Earlier queries and their language labels remain in the search history. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved results; an empty list means no registered source URL was matched, not that the response was empty. Governance_source_ids identifies the selected primary governance evidence; independent_source_ids belongs to the earlier audit. Search batches for the additional status review, using 1-based positions in check.searches: 3, 4; 5, 6. Each group records the same exact registered URLs found in its combined search results, without attribution to an individual query. Explicit page opens and finds and unverified URL variants are excluded. Groups list the recorded queries; some requests also contained additional queries retained in the research evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "sk-ai-cyberlab-zamer",
+        "sk-oecd-cyberlab-primary-proposal",
+        "sk-r6-cyberlab-call",
+        "sk-r6-cyberlab-project-approval"
+      ],
+      "governance_note": "The ministry proposal, official call and project approval establish a national public-administration cybersecurity project. Its platform and model testing serves cyber protection and safe deployment; no separate qualifying capability or behaviour-risk assignment was identified. Delivery remains unverified.",
+      "log": []
+    },
+    "source_ids": [
+      "sk-ai-cyberlab-zamer",
+      "sk-oecd-cyberlab-primary-proposal",
+      "sk-nrsr-ai-overview-2026",
+      "sk-ai-governance-government-bill-2026",
+      "sk-oecd-cyberlab",
+      "sk-infosk-ai-bill-2026",
+      "sk-r6-cyberlab-call",
+      "sk-r6-simulab-call",
+      "sk-r6-cyberlab-project-approval"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "151",
+      "subregion": "Eastern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 5419451,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": true,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "SVK",
+    "m49": "703",
+    "wikidata": "Q214",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "closest_body": {
+      "name": "AI CyberLab",
+      "stage": "planned",
+      "gap": "remit",
+      "source_ids": [
+        "sk-r6-cyberlab-project-approval",
+        "sk-ai-cyberlab-zamer"
+      ],
+      "body_id": "related_bodies-79e93e398efc50d3aa6d1d88ae3e6308",
+      "note": "The ministry's project plan says the laboratory will enable public authorities to test the security and robustness of AI solutions before they are deployed. The minutes of the Programme Slovakia monitoring committee's commission record a ministry representative saying AI CyberLab will enable verification of solutions, for example in AI, from a cybersecurity perspective and of their compliance with national and international standards.",
+      "citations": {
+        "name": [
+          "sk-ai-cyberlab-zamer"
+        ],
+        "stage": [
+          "sk-r6-cyberlab-project-approval"
+        ],
+        "gap": [
+          "sk-r6-cyberlab-project-approval"
+        ],
+        "body_id": [],
+        "note": [],
+        "display": [
+          "sk-ai-cyberlab-zamer",
+          "sk-r6-cyberlab-project-approval"
+        ]
+      },
+      "display": {
+        "source_links": [
+          "sk-ai-cyberlab-zamer",
+          "sk-r6-cyberlab-project-approval"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-09e925bbd91c4afcbbf7758414009ffb",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "mandate",
+        "body_id": "related_bodies-79e93e398efc50d3aa6d1d88ae3e6308",
+        "lead": true,
+        "text": "The ministry's project plan says research organisations develop new knowledge, models and methods, while \"AI CyberLab will ensure their verification, testing and implementation support\" when they are introduced into public administration information systems, from a cybersecurity perspective.",
+        "source_ids": [
+          "sk-ai-cyberlab-zamer"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "lead": [],
+          "text": [
+            "sk-ai-cyberlab-zamer"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "sk-ai-cyberlab-zamer"
+          ]
+        }
+      },
+      {
+        "id": "claims-e797cbc878284b7db79d4ef2e4cc6f01",
+        "kind": "function",
+        "code": "capacity_building",
+        "basis": "mandate",
+        "body_id": "related_bodies-79e93e398efc50d3aa6d1d88ae3e6308",
+        "text": "The ministry's project plan says the laboratory will enable public authorities to test the security and robustness of AI solutions before they are deployed.",
+        "source_ids": [
+          "sk-ai-cyberlab-zamer"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "sk-ai-cyberlab-zamer"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "sk-ai-cyberlab-zamer"
+          ]
+        }
+      },
+      {
+        "id": "claims-96ae73ca15c24c89a412a0b4026ed80e",
+        "kind": "function",
+        "code": "certification",
+        "basis": "mandate",
+        "body_id": "related_bodies-79e93e398efc50d3aa6d1d88ae3e6308",
+        "text": "The minutes of the Programme Slovakia monitoring committee's commission record a ministry representative saying AI CyberLab will enable verification of solutions, for example in AI, from a cybersecurity perspective and of their compliance with national and international standards.",
+        "source_ids": [
+          "sk-r6-cyberlab-project-approval"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "sk-r6-cyberlab-project-approval"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "sk-r6-cyberlab-project-approval"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. Closest body: AI CyberLab, planned and not yet set up. The ministry's project plan says research organisations develop new knowledge, models and methods, while \"AI CyberLab will ensure their verification, testing and implementation support\" when they are introduced into public administration information systems, from a cybersecurity perspective.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Slovak and English.\n\nNext check due by 30 November 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "related_bodies": [
+        "sk-ai-governance-government-bill-2026"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "closest_body": [
+        "sk-ai-cyberlab-zamer",
+        "sk-r6-cyberlab-project-approval"
+      ],
+      "claims": [
+        "sk-ai-cyberlab-zamer",
+        "sk-r6-cyberlab-project-approval"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "sk-ai-cyberlab-zamer",
+        "sk-ai-governance-government-bill-2026",
+        "sk-r6-cyberlab-project-approval"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "sk-ai-cyberlab-zamer",
+        "sk-r6-cyberlab-project-approval"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "eurostat-pop",
+        "sk-ai-cyberlab-zamer",
+        "sk-oecd-cyberlab",
+        "sk-infosk-ai-bill-2026",
+        "sk-nrsr-ai-overview-2026",
+        "ov-wikipedia",
+        "sk-oecd-cyberlab-primary-proposal",
+        "eu-ai-act-authorities-2026",
+        "sk-ai-governance-government-bill-2026",
+        "sk-r6-cyberlab-call",
+        "sk-r6-simulab-call",
+        "sk-r6-cyberlab-project-approval"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": []
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,SK,2025,5419451",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "sk-ai-cyberlab-zamer",
+      "title": "Zámer národného projektu: Národné laboratórium umelej inteligencie pre kybernetickú bezpečnosť (AI CyberLab)",
+      "title_en": "National project proposal: National Artificial Intelligence Laboratory for Cybersecurity (AI CyberLab)",
+      "url": "https://eurofondy.gov.sk/wp-content/uploads/2026/04/Zamer_NP_AI_CyberLab.pdf",
+      "archive_url": "https://web.archive.org/web/20261017011409if_/https://eurofondy.gov.sk/wp-content/uploads/2026/04/Zamer_NP_AI_CyberLab.pdf",
+      "excerpts": [
+        {
+          "text": "AI CyberLab",
+          "accessed": "2026-10-18",
+          "gloss": "AI CyberLab",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/name"
+          ]
+        },
+        {
+          "text": "Výskumné organizácie vyvíjajú nové poznatky, modely a metodiky, pričom AI CyberLab zabezpečí ich overenie, testovanie a implementačnú podporu pri zavádzaní do informačných systémov verejnej správy z pohľadu kybernetickej bezpečnosti.",
+          "gloss": "Research organisations develop new knowledge, models and methods, while AI CyberLab will ensure their verification, testing and implementation support when they are introduced into public administration information systems, from a cybersecurity perspective.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "Laboratórium zároveň umožní orgánom verejnej moci testovať bezpečnosť a robustnosť AI riešení pred \nich nasadením, čím vytvára prirodzené pokračovanie výskumno vývojového cyklu smerom k reálnej \nprevádzke vo verejnej správe.",
+          "gloss": "The laboratory will also enable public authorities to test the security and robustness of AI solutions before deployment, creating a natural continuation of the R&D cycle towards real operation in public administration.",
+          "anchors": [
+            {
+              "text": "Názov národného projektu  (ďalej aj „ NP“): Národné laboratórium umelej inteligencie pre \nkybernetickú bezpečnosť (AI CyberLab)",
+              "kind": "definition",
+              "gloss": "Name of the national project (hereinafter also 'NP'): National Artificial Intelligence Laboratory for Cybersecurity (AI CyberLab)"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sk-ai-governance-government-bill-2026",
+      "title": "Vládny návrh zákona, parlamentná tlač 1447",
+      "title_en": "Government bill, parliamentary paper 1447",
+      "url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=596316",
+      "excerpts": [
+        {
+          "text": "1447 VLÁDNY NÁVRH",
+          "gloss": "1447 government bill",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/2/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sk-infosk-ai-bill-2026",
+      "title": "Vláda schválila dohľad nad umelou inteligenciou: MIRRI povedie kontrolu AI a zriadi sandbox",
+      "title_en": "Government approved artificial intelligence oversight: MIRRI will lead AI supervision and establish a sandbox",
+      "url": "https://www.info.sk/sprava/281740/vlada-schvalila-dohlad-nad-umelou-inteligenciou-mirri-povedie-kontrolu-ai-a-zriadi-sandbox/",
+      "archive_url": "https://web.archive.org/web/20261017014820/https://www.info.sk/sprava/281740/vlada-schvalila-dohlad-nad-umelou-inteligenciou-mirri-povedie-kontrolu-ai-a-zriadi-sandbox/",
+      "excerpts": []
+    },
+    {
+      "id": "sk-nrsr-ai-overview-2026",
+      "title": "Prehľad politík v oblasti umelej inteligencie pre Národnú radu Slovenskej republiky č. 8/2026",
+      "title_en": "Overview of artificial intelligence policies for the National Council of the Slovak Republic, No. 8/2026",
+      "url": "https://www.nrsr.sk/web/Dynamic/Download.aspx?DocID=596793",
+      "archive_url": "https://web.archive.org/web/20261017014909if_/https://www.nrsr.sk/web/Dynamic/Download.aspx?DocID=596793",
+      "excerpts": []
+    },
+    {
+      "id": "sk-oecd-cyberlab",
+      "title": "Slovakia Plans National AI Cybersecurity Laboratory",
+      "url": "https://oecd.ai/en/incidents/2026-02-20-4c28",
+      "archive_url": "https://web.archive.org/web/20261017011528/https://oecd.ai/en/incidents/2026-02-20-4c28",
+      "excerpts": []
+    },
+    {
+      "id": "sk-oecd-cyberlab-primary-proposal",
+      "title": "Public consultation on the planned national AI CyberLab project",
+      "url": "https://mirri.gov.sk/aktuality/csirt/oznamenie-o-verejnom-pripomienkovani-projektovej-dokumentacie-k-pripravovanemu-narodnemu-projektu-narodne-laboratorium-umelej-inteligencie-pre-kyberneticku-bezpecnost-ai-cyberlab/",
+      "archive_url": "https://web.archive.org/web/20260610054538/https://mirri.gov.sk/aktuality/csirt/oznamenie-o-verejnom-pripomienkovani-projektovej-dokumentacie-k-pripravovanemu-narodnemu-projektu-narodne-laboratorium-umelej-inteligencie-pre-kyberneticku-bezpecnost-ai-cyberlab/",
+      "excerpts": []
+    },
+    {
+      "id": "sk-r6-cyberlab-call",
+      "title": "Národné laboratórium umelej inteligencie pre kybernetickú bezpečnosť (AI CyberLab)",
+      "title_en": "National Artificial Intelligence Laboratory for Cybersecurity (AI CyberLab)",
+      "url": "https://mapapartnerstva.gov.sk/?vyzvy=narodne-laboratorium-umelej-inteligencie-pre-kyberneticku-bezpecnost-ai-cyberlab",
+      "excerpts": []
+    },
+    {
+      "id": "sk-r6-cyberlab-project-approval",
+      "title": "Zápisnica z 18. zasadnutia Komisie pri Monitorovacom výbore pre Program Slovensko pre cieľ 1",
+      "title_en": "Minutes of the eighteenth meeting of the Programme Slovakia monitoring committee commission for objective 1",
+      "url": "https://eurofondy.gov.sk/wp-content/uploads/2026/05/Zapisnica_Komisia-CP1_01_04_2026_final.pdf",
+      "excerpts": [
+        {
+          "text": "Komisia schválila uznesenie č. 8/2026, ktorým schvaľuje zámer národného projektu",
+          "gloss": "The commission approved resolution 8/2026 approving the national project intent.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/stage"
+          ]
+        },
+        {
+          "text": "Komisia schválila uznesenie č. 8/2026, ktorým schvaľuje zámer národného projektu v rámci Programu Slovensko s názvom \"Národné laboratórium umelej inteligencie pre kybernetickú bezpečnosť (AI CyberLab)\"",
+          "gloss": "The commission approved resolution 8/2026, which approves the national project intent under Programme Slovakia named \"National Artificial Intelligence Laboratory for Cybersecurity (AI CyberLab)\"",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/gap"
+          ]
+        },
+        {
+          "text": "Tieto inštitúcie budú môcť do laboratória predkladať svoje riešenia, napríklad v oblasti umelej \ninteligencie, ktoré budú následne testované a vyhodnocované. Laboratórium umožní overovanie riešení \nz pohľadu kybernetickej bezpečnosti a ich súladu s národnými aj medzinárodnými štandardmi.",
+          "gloss": "These institutions will be able to submit their solutions to the laboratory, for example in the field of artificial intelligence, which will then be tested and evaluated. The laboratory will enable verification of solutions from a cybersecurity perspective and of their compliance with national and international standards.",
+          "anchors": [
+            {
+              "text": "9. Návrh zámeru národného projektu v rámci Programu Slovensko s názvom „Národné \nlaboratórium umelej inteligencie pre kybernetickú bezpečnosť (AI CyberLab)“",
+              "kind": "heading",
+              "gloss": "9. Proposal for a national project intent under Programme Slovakia entitled 'National Artificial Intelligence Laboratory for Cybersecurity (AI CyberLab)'"
+            },
+            {
+              "text": "Názov národného projektu  (ďalej aj „ NP“): Národné laboratórium umelej inteligencie pre \nkybernetickú bezpečnosť (AI CyberLab)",
+              "kind": "definition",
+              "gloss": "Name of the national project (hereinafter also 'NP'): National Artificial Intelligence Laboratory for Cybersecurity (AI CyberLab)",
+              "source_id": "sk-ai-cyberlab-zamer"
+            }
+          ],
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sk-r6-simulab-call",
+      "title": "Ministerstvo školstva vyhlásilo výzvu na národný projekt z Programu Slovensko s názvom SIMULAB - Výskum a vývoj systému pre komplexné zvládanie bezpečnostných hrozieb (AI Security Lab)",
+      "title_en": "Ministry of Education announces a national project call under Programme Slovakia for SIMULAB: research and development of a system for comprehensive management of security threats (AI Security Lab)",
+      "url": "https://www.minedu.sk/ministerstvo-skolstva-vyhlasilo-vyzvu-na-narodny-projekt-z-programu-slovensko-s-nazvom-simulab-vyskum-a-vyvoj-systemu-pre-komplexne-zvladanie-bezpecnostnych-hrozieb-ai-security-lab/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

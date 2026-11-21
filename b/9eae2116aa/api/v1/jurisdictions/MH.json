@@ -1,0 +1,348 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "9eae2116aa13c45039646e9027324b49aef4487d",
+      "built": "2026-11-21T17:08:48Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/58",
+  "record": {
+    "id": "MH",
+    "name": "Marshall Islands",
+    "summary": "No qualifying institute or commitment identified. Digital RMI documents describe digital government platforms, cybersecurity, skills and telecommunications reform, without a national mandate to evaluate advanced models.",
+    "related_bodies": [
+      {
+        "name": "Digital RMI project",
+        "role": "It is a government programme for telecommunications reform, digital government, cybersecurity and digital skills; no qualifying AI institute was identified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "mh-recheck2-digital-rmi-2021"
+        ],
+        "kind": "other",
+        "id": "related_bodies-7d734d29691e5dc8925294f3605fe96f",
+        "citations": {
+          "name": [],
+          "role": [
+            "mh-recheck2-digital-rmi-2021"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "mh-recheck2-digital-rmi-2021"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "mh-recheck2-digital-rmi-2021"
+          ]
+        }
+      },
+      {
+        "name": "Pacific Islands Forum (regional AI principles and planned governance framework)",
+        "role": "Leaders endorsed regional AI principles in September 2026 and a regional AI Governance Framework is to be considered in 2027; this is a regional process, not a national body.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-c523719cba8a5c0392dce5b56bb407c2",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-04-30",
+      "reason": "Whether a national AI strategy or any national AI evaluation body is adopted."
+    },
+    "check": {
+      "last_checked": "2026-10-17",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; no Marshall Islands result was returned; results concerned other island jurisdictions. Kept low: no primary source from the jurisdiction describing its AI governance set-up was found; the cited ICT and digital documents mention AI only in passing or not at all. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Marshall Islands\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Marshall Islands national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "au-industry",
+            "depth-network-launch"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Marshall Islands artificial intelligence policy government 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Marshall Islands AI safety institute evaluation advanced AI models government",
+          "source_ids": [
+            "gb-approach-2024"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Republic of the Marshall Islands government artificial intelligence Nitijela ministry AI policy rmigovernment",
+          "source_ids": [
+            "mv-presidency-2024"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. On 24 October 2026 the record was searched again in English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration."
+    },
+    "source_ids": [
+      "mh-recheck2-digital-rmi-2021",
+      "recheck-eap-pina-leaders-2026",
+      "eap-pina-2026",
+      "recheck-eap-devpolicy-2025"
+    ],
+    "notes": "Earlier local-name probes did not yield a substantive official Marshallese AI-institute text; they are not a fluent full-language review. Read the Finance Ministry Digital RMI page (https://mof.gov.mh/dida-digital-rmi/) and its linked 14 June 2021 Environmental and Social Management Plan (https://mof.gov.mh/wp-content/uploads/2024/12/DIGITAL-RMI-ESMP-June-2021_FINAL.pdf), especially components 2 and 3: \"Digital Government Platforms, Cybersecurity and Digital Skills\". This establishes the programme scope, not absence of a later institute. No AI Security Institute, commitment, formal proposal or government study of that option found.",
+    "kind": "state",
+    "status_confidence": "low",
+    "region": {
+      "id": "009",
+      "name": "Oceania",
+      "subregion_id": "057",
+      "subregion": "Micronesia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 36282,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "iso3": "MHL",
+    "m49": "584",
+    "wikidata": "Q709",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "related_bodies": [
+        "mh-recheck2-digital-rmi-2021"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [],
+      "kind": [],
+      "status_confidence": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "mh-recheck2-digital-rmi-2021"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "au-industry",
+        "eap-pina-2026",
+        "recheck-eap-pina-leaders-2026",
+        "recheck-eap-devpolicy-2025",
+        "mv-presidency-2024",
+        "gb-approach-2024",
+        "mh-recheck2-digital-rmi-2021",
+        "depth-network-launch"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "au-industry",
+      "title": "AI Safety Institute",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261015131505/https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "depth-network-launch",
+      "title": "Launch of the International Network of AI Safety Institutes at inaugural convening",
+      "url": "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+      "excerpts": []
+    },
+    {
+      "id": "eap-pina-2026",
+      "title": "Pacific Ministers back AI rules and safer digital spaces as connectivity expands",
+      "url": "https://pina.com.fj/2026/08/14/pacific-ministers-back-ai-rules-and-safer-digital-spaces-as-connectivity-expands/",
+      "archive_url": "https://web.archive.org/web/20260831144102/https://pina.com.fj/2026/08/14/pacific-ministers-back-ai-rules-and-safer-digital-spaces-as-connectivity-expands/",
+      "excerpts": []
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "mh-recheck2-digital-rmi-2021",
+      "title": "Digital RMI Project: Environmental and Social Management Plan, version 4",
+      "url": "https://mof.gov.mh/wp-content/uploads/2024/12/DIGITAL-RMI-ESMP-June-2021_FINAL.pdf",
+      "excerpts": [
+        {
+          "text": "establish the critical foundations for digital government services and the RMI digital economy.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mv-presidency-2024",
+      "title": "President announces masterplan for the application of AI for economic advantage",
+      "url": "https://presidency.gov.mv/Press/Article/31907",
+      "archive_url": "https://web.archive.org/web/20260405185309/https://presidency.gov.mv/Press/Article/31907",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-eap-devpolicy-2025",
+      "title": "Bridging the divide: building Pacific agency in the AI era",
+      "url": "https://devpolicy.org/bridging-the-divide-building-pacific-agency-in-the-ai-era-20250711/",
+      "archive_url": "https://web.archive.org/web/20260314232243/https://devpolicy.org/bridging-the-divide-building-pacific-agency-in-the-ai-era-20250711/",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-eap-pina-leaders-2026",
+      "title": "Pacific Islands Forum leaders endorse Pacific Digital and AI Technology Principles",
+      "url": "https://pina.com.fj/2026/09/06/pacific-leaders-set-ai-rules-push-stronger-digital-connectivity/",
+      "archive_url": "https://web.archive.org/web/20261017010351/https://pina.com.fj/2026/09/06/pacific-leaders-set-ai-rules-push-stronger-digital-connectivity/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

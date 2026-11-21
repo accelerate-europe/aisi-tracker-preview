@@ -1,0 +1,277 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "2589d0f846dca60f4ca3d524d89c5430cc9bbb46",
+      "built": "2026-11-21T16:56:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/137",
+  "record": {
+    "id": "DZ",
+    "name": "Algeria",
+    "institute_id": null,
+    "summary": "No qualifying institute identified. A national AI strategy (announced December 2024) is being implemented through a coordination committee, and the only AI body found is an advisory scientific council.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English search identified no qualifying national institute, commitment, proposal or study for safety or evaluation of advanced models. The retained MESRS primary account describes a scientific advisory council, research/education and AI-governance principles. This supports advisory and general governance activity, not the qualifying technical mandate. Partial check only; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "ar",
+          "national_or_official": true,
+          "query": "الجزائر معهد سلامة الذكاء الاصطناعي تقييم النماذج حكومة",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Algeria national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded ar query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "dz-radioalgerie-council-2024-primary-proposal"
+      ],
+      "governance_note": "The primary government account describes AI-governance coordination and the scientific advisory council; the strategy's adoption status remains uncertain."
+    },
+    "source_ids": [
+      "dz-radioalgerie-council-2024-primary-proposal",
+      "dz-radioalgerie-2024",
+      "dz-radioalgerie-council-2024",
+      "dz-elbilad-2026"
+    ],
+    "related_bodies": [
+      {
+        "name": "National Scientific Council on AI",
+        "role": "It assesses resources and proposes training plans and international cooperation. It is an advisory body under the higher education and knowledge economy ministers.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "dz-radioalgerie-2024"
+        ],
+        "kind": "other",
+        "id": "related_bodies-e1591f0594185156b2de4648e454b308",
+        "citations": {
+          "name": [],
+          "role": [
+            "dz-radioalgerie-2024"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "dz-radioalgerie-2024"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "dz-radioalgerie-2024"
+          ]
+        }
+      },
+      {
+        "name": "Ministry of Higher Education and Scientific Research",
+        "role": "It chairs the strategy's implementation coordination meetings.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-1fbfa445e7585bdc9f1f607a020681b3",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "notes": "All sources are Algerian state or national media reports; the strategy document itself was not found. Searches in French and Arabic found no AI safety institute, evaluation centre or AI regulator. Reports on the strategy's status vary (adopted in December 2024; a June 2026 report still described it as under preparation).",
+    "next_check": {
+      "date": "2027-04-15",
+      "reason": "Whether the implementation roadmap names a safety, testing or regulatory body."
+    },
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "015",
+      "subregion": "Northern Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 47435312,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "DZA",
+    "m49": "012",
+    "wikidata": "Q262",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "summary": [],
+      "check": [],
+      "related_bodies": [
+        "dz-radioalgerie-2024"
+      ],
+      "notes": [],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "dz-radioalgerie-2024"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "dz-radioalgerie-2024",
+        "dz-radioalgerie-council-2024",
+        "dz-elbilad-2026",
+        "dz-radioalgerie-council-2024-primary-proposal"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "dz-elbilad-2026",
+      "title": "First coordination meeting on implementing the national AI strategy",
+      "url": "https://www.elbilad.net/national/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A-%D9%8A%D8%AA%D8%B1%D8%A3%D8%B3-%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%A7%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%AE%D8%B5%D8%B5-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D9%84%D8%AE%D8%B7%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-145225",
+      "archive_url": "https://web.archive.org/web/20261017024708/https://www.elbilad.net/national/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%8A-%D9%8A%D8%AA%D8%B1%D8%A3%D8%B3-%D8%A3%D8%B9%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9-%D8%A7%D9%84%D8%AA%D9%86%D8%B3%D9%8A%D9%82%D9%8A-%D8%A7%D9%84%D8%A3%D9%88%D9%84-%D8%A7%D9%84%D9%85%D8%AE%D8%B5%D8%B5-%D9%84%D8%AA%D9%86%D9%81%D9%8A%D8%B0-%D8%A7%D9%84%D8%AE%D8%B7%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D8%AC%D9%8A%D8%A9-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A%D8%A9-%D9%81%D9%8A-%D9%85%D8%AC%D8%A7%D9%84-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-145225",
+      "excerpts": []
+    },
+    {
+      "id": "dz-radioalgerie-2024",
+      "title": "L'Algérie adopte une stratégie nationale de l'intelligence artificielle",
+      "title_en": "Algeria adopts a national artificial intelligence strategy",
+      "url": "https://news.radioalgerie.dz/fr/node/56441",
+      "archive_url": "https://web.archive.org/web/20260612150345/https://news.radioalgerie.dz/fr/node/56441",
+      "excerpts": [
+        {
+          "text": "le diagnostic des moyens humains et matériels disponibles dans la sphère de l'intelligence artificielle, la proposition de plans de formation",
+          "gloss": "assessment of the human and material resources available in the field of artificial intelligence, and the proposal of training plans",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dz-radioalgerie-council-2024",
+      "title": "Minister Bedari on AI governance (Shanghai conference)",
+      "url": "https://news.radioalgerie.dz/ar/node/48177",
+      "archive_url": "https://web.archive.org/web/20261017024509/https://news.radioalgerie.dz/ar/node/48177",
+      "excerpts": []
+    },
+    {
+      "id": "dz-radioalgerie-council-2024-primary-proposal",
+      "title": "Conférence mondiale pour la gouvernance de l’intelligence artificielle pour le bien et pour tous",
+      "title_en": "World Conference on Artificial Intelligence Governance for Good and for All",
+      "url": "https://www.mesrs.dz/fr/2024/07/conference-mondiale-pour-la-gouvernance-de-lintelligence-artificielle-pour-le-bien-et-pour-tous-2/",
+      "archive_url": "https://web.archive.org/web/20260618111010/https://www.mesrs.dz/fr/2024/07/conference-mondiale-pour-la-gouvernance-de-lintelligence-artificielle-pour-le-bien-et-pour-tous-2/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

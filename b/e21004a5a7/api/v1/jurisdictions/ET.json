@@ -1,0 +1,417 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "e21004a5a7b5e59656e44227cc212e8c66554b48",
+      "built": "2026-11-21T14:25:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/159",
+  "record": {
+    "id": "ET",
+    "name": "Ethiopia",
+    "kind": "state",
+    "summary": "No qualifying institute identified. The Ethiopian Artificial Intelligence Institute leads AI research and policy implementation. The national policy assigns developer licensing and AI product and service certification; the cited policy and official accounts do not establish a role for the institute in evaluating the safety of advanced models.",
+    "related_bodies": [
+      {
+        "name": "Ethiopian Artificial Intelligence Institute (EAII)",
+        "role": "Its remit covers research, development and policy implementation. The national policy also assigns developer licensing and certification of domestic and imported AI products and services. It is an autonomous federal AI institute accountable to the Prime Minister under regulation 510/2022. No qualifying role in evaluating the safety of advanced models was identified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "et-aii-regulation-2022",
+          "et-unesco-ram-2026",
+          "et-r6-national-ai-policy"
+        ],
+        "kind": "other",
+        "id": "related_bodies-991735ac2b0a5ff586e1e88ad9fe2ba5",
+        "citations": {
+          "name": [],
+          "role": [
+            "et-aii-regulation-2022",
+            "et-unesco-ram-2026",
+            "et-r6-national-ai-policy"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "et-aii-regulation-2022",
+            "et-unesco-ram-2026",
+            "et-r6-national-ai-policy"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "et-aii-regulation-2022",
+            "et-unesco-ram-2026",
+            "et-r6-national-ai-policy"
+          ]
+        }
+      }
+    ],
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Checked source quotations against retained source material and documented extraction limitations; this was a partial excerpt-evidence audit, not a new search or a full recheck of the jurisdiction."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. No qualifying institute for the safety of advanced models was established by the English searches or the primary regulation/UNESCO account. The Ethiopian Artificial Intelligence Institute has broad research, deployment, policy, authorisation and imported-technology certification powers. Those clauses are a real evaluation-adjacent signal, but do not specify technical evaluation of advanced general-purpose model capabilities or severe risks. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Focused status and mandate review, including Amharic and English policy text and later official announcements; not a full recheck."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Retrieved the mirrored government policy and official Finance Ministry account again. The Ministry of Justice regulation landing page returned HTTP 403, its single request for a fallback text copy timed out, and the discovered legal-document CDN URL returned HTTP 500. Retained medium confidence explicitly on mirrored primary policy evidence and the recorded bilingual searches; no full recheck or status change."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "am",
+          "national_or_official": true,
+          "query": "ኢትዮጵያ ሰው ሰራሽ አስተውሎት ደህንነት ኢንስቲትዩት",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Ethiopia national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Ethiopian Artificial Intelligence Institute evaluation safety models certification mandate",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "am",
+          "national_or_official": true,
+          "query": "ኢትዮጵያ ሰው ሰራሽ አስተውሎት ደህንነት ግምገማ ኢንስቲትዩት 2026",
+          "source_ids": [
+            "et-r6-finance-ai-roundtable",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Ethiopia artificial intelligence institute advanced model evaluation safety government 2026",
+          "source_ids": [
+            "et-r6-finance-ai-roundtable",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Ethiopian Artificial Intelligence Institute official mandate safety 2026",
+          "source_ids": [
+            "et-r6-national-ai-policy"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded am queries use a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. The earlier English-search pass on 17 October 2026 left the then-recorded national or official-language coverage unchanged; the work is described below. The additional status review searched Amharic and English and read the bilingual national policy; other Ethiopian languages were not exhaustively searched. Search batches for the additional status review, using 1-based positions in check.searches: 4, 5; 6. Each group records the same exact registered URLs found in its combined search results, without attribution to an individual query. Explicit page opens and finds and unverified URL variants are excluded. Groups list the recorded queries; some requests also contained additional queries retained in the research evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: The UNESCO readiness assessment was produced with national authorities. Independence from the government statutory institute account was not substantiated. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence.",
+      "governance_source_ids": [
+        "et-aii-regulation-2022",
+        "et-r6-national-ai-policy",
+        "et-unesco-ram-2026",
+        "et-r6-finance-ai-roundtable"
+      ],
+      "governance_note": "Medium confidence rests on the retrieved government policy text hosted by Law Ethiopia, a mirrored primary source, and the recorded Amharic and English searches. The policy distinguishes EAII's product and service certification from monitoring policy implementation. The establishing regulation is also held as a mirror; UNESCO provides supporting governance context. The official Finance Ministry account describes dedicated AI institutions and development priorities, without setting out an evaluation mandate. No official-host copy of the policy or establishing regulation was retrieved in the partial check. This remains a bounded negative finding, not proof of absence."
+    },
+    "source_ids": [
+      "et-aii-regulation-2022",
+      "et-unesco-ram-2026",
+      "et-r6-national-ai-policy",
+      "et-r6-finance-ai-roundtable"
+    ],
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 135472051,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "ETH",
+    "m49": "231",
+    "wikidata": "Q115",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "notes": "The national AI policy was read in Amharic and English. It assigns the Ethiopian Artificial Intelligence Institute policy coordination, developer licensing and certification of domestic and imported AI products and services. Its monitoring and evaluation provisions concern policy implementation. These provisions do not establish a role evaluating capabilities or behaviour risks of advanced models. Later official material, including the Finance Ministry's 15 October 2026 account of AI institutions and development priorities, did not identify a superseding designation or institute proposal. This is a bounded search finding, not a finding that such work cannot exist.\n\nThe policy text supporting medium confidence was retrieved from Law Ethiopia, not an official government host. The regulation is also a mirrored primary text. The official Finance Ministry account supports the institutional context but does not supply the detailed mandate. An attempt to obtain an official-host legal text failed; medium confidence therefore retains this access limitation.",
+    "next_check": {
+      "date": "2026-11-30",
+      "reason": "Check future EAII regulations or technical mandates for evaluation of the safety of advanced models; current reviewed powers concern certification and policy coordination."
+    },
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [
+        "et-r6-national-ai-policy"
+      ],
+      "related_bodies": [
+        "et-aii-regulation-2022",
+        "et-unesco-ram-2026",
+        "et-r6-national-ai-policy"
+      ],
+      "check": [],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "notes": [],
+      "next_check": [],
+      "status": [],
+      "display": [
+        "et-aii-regulation-2022",
+        "et-unesco-ram-2026",
+        "et-r6-national-ai-policy"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "et-r6-national-ai-policy"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "et-aii-regulation-2022",
+        "et-unesco-ram-2026",
+        "ov-wikipedia",
+        "et-r6-national-ai-policy",
+        "et-r6-finance-ai-roundtable"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "et-aii-regulation-2022",
+      "title": "Council of Ministers Regulation 510/2022 establishing the Ethiopian Artificial Intelligence Institute",
+      "url": "https://justice.gov.et/wp-content/uploads/2025/02/%E1%8B%B0%E1%8A%95%E1%89%A5-%E1%89%81%E1%8C%A5%E1%88%AD-510-2014.pdf",
+      "excerpts": [
+        {
+          "text": "Formulate, draft, and monitor the implementation of National Artificial Intelligence policies, laws and regulatory frameworks",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "The Artificial Intelligence Institute shall be established by this Regulation as an autonomous Federal Government Institution. 2/ The Institute shall be accountable to the Prime Minister.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "Be an institute of excellence for research, development and deployment of Artificial intelligence solutions that benefit the National interest;",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et-r6-finance-ai-roundtable",
+      "title": "Ethiopia Participates in AI Roundtable, Reaffirms Readiness to Work with Partners on AI",
+      "url": "https://www.mofed.gov.et/blog/ethiopia-participates-in-ai-roundtable-reaffirms-readiness-to-work-with-partners-on-ai/",
+      "excerpts": []
+    },
+    {
+      "id": "et-r6-national-ai-policy",
+      "title": "ብሔራዊ የአርቲፊሻል ኢንተለጀንስ ፖሊሲ / National Artificial Intelligence Policy",
+      "title_en": "National Artificial Intelligence Policy",
+      "url": "https://www.lawethiopia.com/images/Policy_documents/Ethiopian%20ai%20policy.pdf",
+      "excerpts": [
+        {
+          "text": "certify AI products and services developed or imported into the country",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et-unesco-ram-2026",
+      "title": "Ethiopia: AI readiness assessment",
+      "url": "https://www.unesco.org/ethics-ai/en/global-hub/ethiopia",
+      "archive_url": "https://web.archive.org/web/20261017004235/https://www.unesco.org/ethics-ai/en/global-hub/ethiopia",
+      "excerpts": [
+        {
+          "text": "The Ethiopian Artificial Intelligence Institute holds a statutory mandate to formulate, draft and monitor national AI policies",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

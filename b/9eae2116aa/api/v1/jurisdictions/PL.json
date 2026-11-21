@@ -1,0 +1,928 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "9eae2116aa13c45039646e9027324b49aef4487d",
+      "built": "2026-11-21T17:08:48Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/9",
+  "record": {
+    "id": "PL",
+    "name": "Poland",
+    "kind": "state",
+    "europe_scope": true,
+    "eu_member": true,
+    "population": {
+      "value": 36497495,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji (KRiBSI)",
+        "name_en": "Commission for the Development and Safety of Artificial Intelligence (KRiBSI)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "pl-ai-act1003-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-9abdac50986a5525bca90d58733feba6",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [
+            "pl-ai-act1003-2026"
+          ],
+          "designation_state": [
+            "eu-ai-act-authorities-2026",
+            "pl-ai-act1003-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "pl-ai-act1003-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "pl-ai-act1003-2026"
+          ]
+        }
+      },
+      {
+        "name": "NASK AI Safety Research Centre",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "pl-nask",
+          "pl-r8-resolution130",
+          "pl-r8-research-teams"
+        ],
+        "kind": "other",
+        "id": "related_bodies-8e2bf69316145732aea04a2f9bbd82eb",
+        "role": "The Ministry of Digital Affairs says the new centre's researchers \"focus on innovative AI research, with an emphasis on cybersecurity\". NASK's director describes \"the cooperation between the Korea AI Safety Institute at ETRI and the AI Safety Research Center at NASK\". On NASK's research teams page, the centre's Department of Security and Transparency of Artificial Intelligence says \"We develop methods for generating, analyzing and auditing models, and develop methods and software to support their analysis\". The Ministry of Digital Affairs quotes the centre's director: the centre \"is also tasked with educating and supporting society in the informed use of modern AI technologies\". NASK says the centre will lead its cooperation with OpenAI and \"will research the safety of increasingly advanced AI systems\" with it.",
+        "citations": {
+          "name": [
+            "pl-nask"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "pl-nask"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "pl-nask",
+            "pl-r8-resolution130",
+            "pl-r8-research-teams"
+          ]
+        }
+      },
+      {
+        "name": "Minister właściwy do spraw informatyzacji",
+        "name_en": "Minister responsible for digitalisation",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "pl-ai-act1003-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-de1e7f85821a52ce902ccb245f304536",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [
+            "pl-ai-act1003-2026"
+          ],
+          "designation_state": [
+            "pl-ai-act1003-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "pl-ai-act1003-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "pl-ai-act1003-2026"
+          ]
+        }
+      }
+    ],
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English searches found NASK's AI Safety Research Centre and the funded Eval FM research project on model safety evaluation. These are substantive safety research activities, but a national institute designation and severe-risk frontier-model mandate were not established. The existing AI Act law addresses regulatory supervision. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Retained none_identified at low confidence after reading Resolution 130, the ministry account and NASK's research-team description; updated the summary and related-body role. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Selected the closest body against retrieved source text and excerpts; recorded its stage, evidence gap and limits. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Changed status confidence from low to medium because the individual check has recorded English and national or official-language queries and retrieved primary governance evidence; classification disagreement no longer lowers confidence. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "Re-read Resolution 130 of the Council of Ministers of 9 June 2026 (Monitor Polski, 18 June 2026, position 620): it adopts the State Digitalisation Strategy and contains both passages on NASK's AI Safety Research Centre that the record quotes. The strategy names the AI policy of 2020 (Resolution 196 of 28 December 2020) as the one in force, with an update planned for 2026; no record text says an AI policy to 2030 was adopted. No change. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Polish, with the digital affairs ministry's news page (newest 10 November). Added NASK's announcement of 23 October 2026 of its agreement with OpenAI on AI safety research, led on NASK's side by its AI Safety Research Centre, with OpenAI's description of the work from an archived copy, and CERT Polska's access to OpenAI cyber models from July 2026. No separate ministry announcement of the agreement, no new government act assigning national frontier evaluation, and no centre funding, staffing or centre-specific model-access terms were found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "pl",
+          "national_or_official": true,
+          "query": "Polska instytut bezpieczeństwa sztucznej inteligencji ocena modeli rząd",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Poland national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [
+            "pl-r4-nask-eval-fm"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Poland NASK \"AI Safety\" \"Centre\" government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded pl query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "pl-ai-act1003-2026"
+      ],
+      "governance_note": "The enacted AI law allocates AI Act supervisory and notifying responsibilities; the NASK research centre is separately described without a qualifying mandate covering advanced models.",
+      "log": [],
+      "passes": [
+        {
+          "date": "2026-11-15",
+          "languages": [
+            "pl",
+            "en"
+          ],
+          "places": [
+            "NASK's site",
+            "the Ministry of Digital Affairs' site",
+            "the official journals",
+            "NASK's public information bulletin",
+            "OpenAI's pages"
+          ],
+          "fields": [
+            "status",
+            "head",
+            "staff",
+            "agreements",
+            "national_partners"
+          ]
+        }
+      ]
+    },
+    "source_ids": [
+      "pl-nask",
+      "pl-ai-act1003-2026",
+      "pl-ai-law-signed-2026",
+      "ai-act-tracker",
+      "pl-r4-nask-eval-fm",
+      "pl-r8-resolution130",
+      "pl-r8-research-teams",
+      "pl-nask-aitas-2026",
+      "pl-nask-openai-2026",
+      "pl-openai-nask-2026",
+      "pl-nask-cert-openai-2026",
+      "pl-kribsi-first-meeting-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "151",
+      "subregion": "Eastern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "POL",
+    "m49": "616",
+    "wikidata": "Q36",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "next_check": {
+      "date": "2027-01-31",
+      "reason": "Check whether KRiBSI, which held its first meeting on 28 October 2026, or the minister assigns NASK or its AITAS laboratory a national role in evaluating advanced models, and whether Poland joins the International Network for Advanced AI Measurement, Evaluation and Science."
+    },
+    "closest_body": {
+      "name": "NASK AI Safety Research Centre",
+      "stage": "exists",
+      "gap": "remit",
+      "source_ids": [
+        "pl-nask",
+        "pl-r8-resolution130",
+        "pl-r8-research-teams",
+        "pl-nask-aitas-2026",
+        "pl-nask-openai-2026",
+        "pl-openai-nask-2026"
+      ],
+      "body_id": "related_bodies-8e2bf69316145732aea04a2f9bbd82eb",
+      "note": "The Ministry of Digital Affairs says the new centre's researchers \"focus on innovative AI research, with an emphasis on cybersecurity\". NASK's director describes \"the cooperation between the Korea AI Safety Institute at ETRI and the AI Safety Research Center at NASK\". The Ministry of Digital Affairs quotes the centre's director: the centre \"is also tasked with educating and supporting society in the informed use of modern AI technologies\". NASK says the centre will lead its cooperation with OpenAI and \"will research the safety of increasingly advanced AI systems\" with it.",
+      "active_in": [
+        {
+          "code": "evaluation_methods",
+          "claim_ids": [
+            "claims-1bf9b314ae6a4e4d8bf782ce4dfa908c"
+          ]
+        },
+        {
+          "code": "research",
+          "claim_ids": [
+            "claims-bb5ea3f0ab994d51932261f30ee36269"
+          ]
+        },
+        {
+          "code": "international_cooperation",
+          "claim_ids": [
+            "claims-5c00c4e30b05411da066d352a4619ac3"
+          ]
+        }
+      ],
+      "citations": {
+        "name": [
+          "pl-nask"
+        ],
+        "stage": [
+          "pl-nask"
+        ],
+        "gap": [
+          "pl-r8-resolution130"
+        ],
+        "body_id": [],
+        "note": [],
+        "active_in": [],
+        "display": [
+          "pl-nask",
+          "pl-r8-resolution130"
+        ]
+      },
+      "display": {
+        "source_links": [
+          "pl-nask",
+          "pl-r8-resolution130",
+          "pl-r8-research-teams",
+          "pl-nask-aitas-2026",
+          "pl-nask-openai-2026",
+          "pl-openai-nask-2026"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-bb5ea3f0ab994d51932261f30ee36269",
+        "kind": "function",
+        "code": "research",
+        "basis": "activity",
+        "body_id": "related_bodies-8e2bf69316145732aea04a2f9bbd82eb",
+        "text": "The Ministry of Digital Affairs says the new centre's researchers \"focus on innovative AI research, with an emphasis on cybersecurity\".",
+        "source_ids": [
+          "pl-nask"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "pl-nask"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "pl-nask"
+          ]
+        }
+      },
+      {
+        "id": "claims-5c00c4e30b05411da066d352a4619ac3",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "activity",
+        "body_id": "related_bodies-8e2bf69316145732aea04a2f9bbd82eb",
+        "text": "NASK's director describes \"the cooperation between the Korea AI Safety Institute at ETRI and the AI Safety Research Center at NASK\".",
+        "source_ids": [
+          "pl-nask-korea-aisi-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "pl-nask-korea-aisi-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "pl-nask-korea-aisi-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-1bf9b314ae6a4e4d8bf782ce4dfa908c",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "activity",
+        "body_id": "related_bodies-8e2bf69316145732aea04a2f9bbd82eb",
+        "lead": true,
+        "text": "On NASK's research teams page, the centre's Department of Security and Transparency of Artificial Intelligence says \"We develop methods for generating, analyzing and auditing models, and develop methods and software to support their analysis\".",
+        "source_ids": [
+          "pl-r8-research-teams"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "lead": [],
+          "text": [
+            "pl-r8-research-teams"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "pl-r8-research-teams"
+          ]
+        }
+      },
+      {
+        "id": "claims-77618512de744bbc8291bfbf5b3560ce",
+        "kind": "function",
+        "code": "talent",
+        "basis": "mandate",
+        "body_id": "related_bodies-8e2bf69316145732aea04a2f9bbd82eb",
+        "text": "The Ministry of Digital Affairs quotes the centre's director: the centre \"is also tasked with educating and supporting society in the informed use of modern AI technologies\".",
+        "source_ids": [
+          "pl-nask"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "pl-nask"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "pl-nask"
+          ]
+        }
+      },
+      {
+        "id": "claims-1e75bf0fbfcd4b829a0294ed13f131bb",
+        "kind": "function",
+        "code": "research",
+        "basis": "mandate",
+        "body_id": "related_bodies-8e2bf69316145732aea04a2f9bbd82eb",
+        "text": "NASK says the centre will lead its cooperation with OpenAI and \"will research the safety of increasingly advanced AI systems\" with it.",
+        "source_ids": [
+          "pl-nask-openai-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "pl-nask-openai-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "pl-nask-openai-2026"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. Closest body: NASK AI Safety Research Centre. On NASK's research teams page, the centre's Department of Security and Transparency of Artificial Intelligence says \"We develop methods for generating, analyzing and auditing models, and develop methods and software to support their analysis\".",
+    "notes": "Checked in full on or before 16 October 2026, searching in Polish and English.\n\nNext check due by 31 January 2027.\n\nOn 15 November 2026 we searched NASK's site, the Ministry of Digital Affairs' site, the official journals, NASK's public information bulletin and OpenAI's pages in Polish and English, for information on status, head, staff, agreements and partners.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "eu_member": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "institute_id": [],
+      "related_bodies": [
+        "pl-nask",
+        "eu-ai-act-authorities-2026",
+        "pl-ai-act1003-2026"
+      ],
+      "check": [],
+      "region": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "next_check": [],
+      "closest_body": [
+        "pl-nask",
+        "pl-r8-resolution130"
+      ],
+      "claims": [
+        "pl-nask",
+        "pl-r8-research-teams",
+        "pl-nask-openai-2026",
+        "pl-nask-korea-aisi-2026"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "pl-nask",
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026",
+        "pl-ai-act1003-2026",
+        "pl-r8-resolution130",
+        "pl-r8-research-teams"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "pl-nask",
+        "pl-r8-research-teams"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "pl-nask",
+        "ai-act-tracker",
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026",
+        "pl-ai-law-signed-2026",
+        "pl-ai-act1003-2026",
+        "pl-r4-nask-eval-fm",
+        "pl-r8-resolution130",
+        "pl-r8-research-teams",
+        "pl-nask-aitas-2026",
+        "pl-nask-openai-2026",
+        "pl-openai-nask-2026",
+        "pl-nask-cert-openai-2026",
+        "pl-kribsi-first-meeting-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Poland Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji (KRiBSI)",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,PL,2025,36497495",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl-ai-act1003-2026",
+      "title": "Ustawa z dnia 3 lipca 2026 r. o systemach sztucznej inteligencji, Dz.U.2026 poz.1003",
+      "title_en": "Act of 3 July 2026 on artificial intelligence systems, Journal of Laws 2026, item 1003",
+      "url": "https://eli.gov.pl/api/acts/DU/2026/1003/text/T/D20261003L.pdf",
+      "excerpts": [
+        {
+          "text": "Komisja Rozwoju i Bezpieczeństwa Sztucznej Inteligencji, zwana dalej „Komisją”, jest organem nadzoru rynku w zakresie systemów sztucznej inteligencji w rozumieniu art. 70 ust. 1 rozporządzenia 2024/1689.",
+          "gloss": "The Commission for the Development and Safety of Artificial Intelligence, hereinafter \"the Commission\", is the market surveillance authority for artificial intelligence systems within the meaning of Article 70(1) of Regulation 2024/1689.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/authority_roles",
+            "/record/related_bodies/0/designation_state"
+          ]
+        },
+        {
+          "text": "Komisja działa jako pojedynczy punkt kontaktowy, o którym mowa w art. 70 ust. 2 rozporządzenia 2024/1689.",
+          "gloss": "The Commission acts as the single point of contact referred to in Article 70(2) of Regulation 2024/1689.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/authority_roles"
+          ]
+        },
+        {
+          "text": "Minister właściwy do spraw informatyzacji jest organem notyfikującym, o którym mowa w rozdziale III sekcja 4 rozporządzenia 2024/1689.",
+          "gloss": "The minister responsible for digitalisation is the notifying authority referred to in Chapter III, Section 4 of Regulation 2024/1689.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/authority_roles",
+            "/record/related_bodies/2/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl-ai-law-signed-2026",
+      "title": "Ustawa o systemach AI - bezpieczny rozwój sztucznej inteligencji w Polsce",
+      "title_en": "AI Systems Act: safe development of artificial intelligence in Poland",
+      "url": "https://www.gov.pl/web/cyfryzacja/ustawa-o-systemach-ai--bezpieczny-rozwoj-sztucznej-inteligencji-w-polsce",
+      "excerpts": []
+    },
+    {
+      "id": "pl-kribsi-first-meeting-2026",
+      "title": "Pierwsze posiedzenie Komisji Rozwoju i Bezpieczeństwa Sztucznej Inteligencji",
+      "title_en": "First meeting of the Commission for the Development and Safety of Artificial Intelligence",
+      "url": "https://www.gov.pl/web/kribsi/pierwsze-posiedzenie-komisji-rozwoju-i-bezpieczenstwa-sztucznej-inteligencji",
+      "excerpts": []
+    },
+    {
+      "id": "pl-nask",
+      "title": "Powstanie Ośrodka Badań nad Bezpieczeństwem Sztucznej Inteligencji w NASK",
+      "title_en": "Establishment of the Artificial Intelligence Safety Research Centre at NASK",
+      "url": "https://www.gov.pl/web/cyfryzacja/powstanie-osrodka-badan-nad-bezpieczenstwem-sztucznej-inteligencji-w-nask",
+      "archive_url": "https://web.archive.org/web/20260218053853/https://www.gov.pl/web/cyfryzacja/powstanie-osrodka-badan-nad-bezpieczenstwem-sztucznej-inteligencji-w-nask",
+      "excerpts": [
+        {
+          "text": "w NASK powstał Ośrodek Badań nad Bezpieczeństwem Sztucznej Inteligencji.",
+          "gloss": "An AI Safety Research Centre was established within NASK.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/name",
+            "/record/closest_body/name",
+            "/record/closest_body/stage"
+          ]
+        },
+        {
+          "text": "Naukowcy z nowego Ośrodka skupiają się na prowadzeniu innowacyjnych badań w obszarze AI, z naciskiem na cyberbezpieczeństwo, które jest dla NASK kluczowe.",
+          "gloss": "The new centre's researchers focus on innovative AI research, with an emphasis on cybersecurity, which is key for NASK.",
+          "anchors": [
+            {
+              "text": "w NASK powstał Ośrodek Badań nad Bezpieczeństwem Sztucznej Inteligencji",
+              "kind": "definition",
+              "gloss": "an AI Safety Research Centre was established within NASK"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "Ośrodek ma również za zadanie edukować i wspierać społeczeństwo w świadomym korzystaniu z nowoczesnych technologii AI",
+          "gloss": "The centre is also tasked with educating and supporting society in the informed use of modern AI technologies",
+          "anchors": [
+            {
+              "text": "w NASK powstał Ośrodek Badań nad Bezpieczeństwem Sztucznej Inteligencji",
+              "kind": "definition",
+              "gloss": "an AI Safety Research Centre was established within NASK"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl-nask-aitas-2026",
+      "title": "W NASK powstaje Laboratorium AITAS. Będzie sprawdzać odporność AI",
+      "title_en": "The AITAS Laboratory is being set up at NASK. It will check the resilience of AI",
+      "url": "https://www.nask.pl/aktualnosci/w-nask-powstaje-laboratorium-aitas-bedzie-sprawdzac-odpornosc-ai",
+      "excerpts": []
+    },
+    {
+      "id": "pl-nask-cert-openai-2026",
+      "title": "NASK z przełomowym narzędziem od OpenAI",
+      "title_en": "NASK gets a breakthrough tool from OpenAI",
+      "url": "https://www.nask.pl/aktualnosci/nask-z-przelomowym-narzedziem-od-openai",
+      "excerpts": []
+    },
+    {
+      "id": "pl-nask-korea-aisi-2026",
+      "title": "Polsko-koreańska współpraca nad bezpieczeństwem AI",
+      "title_en": "Polish-Korean cooperation on AI safety",
+      "url": "https://www.nask.pl/aktualnosci/polsko-koreanska-wspolpraca-nad-bezpieczenstwem-ai",
+      "excerpts": [
+        {
+          "text": "The cooperation between the Korea AI Safety Institute at ETRI and the AI Safety Research Center at NASK strengthens our joint commitment to safe and trustworthy artificial intelligence.",
+          "gloss": "The cooperation between the Korea AI Safety Institute at ETRI and the AI Safety Research Center at NASK strengthens our joint commitment to safe and trustworthy artificial intelligence.",
+          "accessed": "2026-11-15",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl-nask-openai-2026",
+      "title": "Jedyna taka umowa w UE. Partnerstwo NASK i OpenAI w obszarze bezpieczeństwa sztucznej inteligencji",
+      "title_en": "The only agreement of its kind in the EU: NASK and OpenAI partner on artificial intelligence safety",
+      "url": "https://www.nask.pl/aktualnosci/jedyna-taka-umowa-w-ue-partnerstwo-nask-i-openai-w-obszarze-bezpieczenstwa-sztucznej-inteligencji",
+      "excerpts": [
+        {
+          "text": "Po stronie NASK współpracę poprowadzi Ośrodek Badań nad Bezpieczeństwem Sztucznej Inteligencji, który pełni funkcję polskiego Instytutu Bezpieczeństwa Sztucznej Inteligencji (AISI). Wspólnie z OpenAI będzie badać bezpieczeństwo coraz bardziej zaawansowanych systemów AI.",
+          "gloss": "On NASK's side the cooperation will be led by the AI Safety Research Centre, which serves as the Polish Artificial Intelligence Safety Institute (AISI). Together with OpenAI it will research the safety of increasingly advanced AI systems.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl-openai-nask-2026",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership/",
+      "archive_url": "http://web.archive.org/web/20261029085646/https://openai.com/index/openai-nask-ai-safety-security-partnership/",
+      "excerpts": []
+    },
+    {
+      "id": "pl-r4-nask-eval-fm",
+      "title": "NASK Researcher Awarded SONATA 21 Grant for AI Safety Research Project",
+      "url": "https://www.science.nask.pl/en/news/18745",
+      "excerpts": []
+    },
+    {
+      "id": "pl-r8-research-teams",
+      "title": "Research teams",
+      "url": "https://www.science.nask.pl/en/about/structure/2118",
+      "excerpts": [
+        {
+          "text": "We develop methods for generating, analyzing and auditing models, and develop methods and software to support their analysis.",
+          "anchors": [
+            {
+              "text": "AI Safety Research Center",
+              "kind": "heading"
+            }
+          ],
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pl-r8-resolution130",
+      "title": "UCHWAŁA NR 130 RADY MINISTRÓW z dnia 9 czerwca 2026 r. w sprawie przyjęcia strategii dotyczącej informatyzacji państwa",
+      "title_en": "Council of Ministers Resolution 130 of 9 June 2026 adopting the State Digitalisation Strategy",
+      "url": "https://monitorpolski.gov.pl/M2026000062001.pdf",
+      "excerpts": [
+        {
+          "text": "g) zbudowanie wokół Ośrodka Badań nad Bezpieczeństwem Sztucznej Inteligencji \norganizacji skupiającej przedstawicieli firm i instytucji badawczych mającej na \ncelu promowanie wzajemnej współpracy w zakresie prac badawczo-rozwojowych \nw obszarze bezpieczeństwa sztucznej inteligencji i ich promocji,",
+          "gloss": "g) building around the AI Safety Research Centre an organisation bringing together representatives of companies and research institutions, with the aim of promoting mutual cooperation on research and development work in the field of artificial intelligence safety and the promotion of that work,",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-18",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/closest_body/gap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

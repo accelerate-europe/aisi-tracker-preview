@@ -1,0 +1,377 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "e21004a5a7b5e59656e44227cc212e8c66554b48",
+      "built": "2026-11-21T14:25:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/98",
+  "record": {
+    "id": "DM",
+    "name": "Dominica",
+    "summary": "No qualifying institute or commitment identified. Official project pages describe digital infrastructure and skills, and CARICOM IMPACS reports government cyber-awareness training including safe AI use. A local report describes a government/UNDP AI readiness assessment launched on 12 October 2026, but no study of creating an institute to evaluate advanced models was found.",
+    "check": {
+      "last_checked": "2026-10-17",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results mostly concerned the Dominican Republic, and the only Dominica government page found (the digital economy ministry's About page) does not mention AI. Kept low: no government source on AI governance was found; the reported AI landscape assessment is known only from a radio report. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Dominica\" \"AI\" institute safety",
+          "source_ids": [
+            "dm-recheck2-cyber-training"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Dominica national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "depth-network-launch",
+            "au-industry",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Dominica Artificial Intelligence Landscape Assessment launch October 2026 government UNDP",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Dominica national AI safety institute model evaluation government 2026",
+          "source_ids": [
+            "il-r6-atih-catalogue"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Dominica government artificial intelligence policy Ministry of Public Works Digital Economy news.gov.dm AI",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Dominica\" Skerrit artificial intelligence policy 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. On 24 October 2026 the record was searched again in English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: The regional cyber-training activity involved the national government and is not independent institute-status evidence. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence."
+    },
+    "source_ids": [
+      "dm-cardtp-home",
+      "dm-recheck2-strategy-catalogue",
+      "recheck-lac-ctu-caitf-2026",
+      "dm-recheck2-cyber-training",
+      "dm-recheck2-aila"
+    ],
+    "notes": "Individual recheck conducted 17 October 2026. The earlier limited Creole probe returned irrelevant Haitian/Dominican Republic material; it was not a fluent Dominican Kwéyòl search. Read the government CARDTP homepage, components and strategy catalogue, CARICOM IMPACS training report and Q95FM readiness report individually. The CARICOM programme includes \"the safe, responsible use of AI\"; Q95FM reports readiness rather than an AISI-option review. Avoided conflating Dominica with the Dominican Republic. No direct government/UNDP AILA launch source found; the catalogue is not a reading of the complete digital strategy. Existing regional citations retained as background only. No qualifying start of exploration, because the reported assessment concerns general AI readiness.",
+    "next_check": {
+      "date": "2027-01-31",
+      "reason": "Check AILA findings and any national AI policy or evaluation-body proposal."
+    },
+    "kind": "state",
+    "status_confidence": "low",
+    "related_bodies": [
+      {
+        "name": "Caribbean Digital Transformation Project, Dominica",
+        "role": "It is a government digital infrastructure, skills and service modernisation project; no mandate to evaluate advanced models was found.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-6fd1479bacc25b808d8698af4de641c4",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "Government of Dominica / UNDP Artificial Intelligence Landscape Assessment (reported)",
+        "role": "Q95FM reports a 12 October 2026 readiness-assessment launch covering the AI ecosystem, government use, regulation and ethics. This concerns general AI readiness; it is not a verified government study of establishing an AISI.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "dm-recheck2-aila"
+        ],
+        "kind": "other",
+        "id": "related_bodies-16cb9a9d51e15e31aeba6888e32a3163",
+        "citations": {
+          "name": [],
+          "role": [
+            "dm-recheck2-aila"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "dm-recheck2-aila"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "dm-recheck2-aila"
+          ]
+        }
+      }
+    ],
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 65871,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "iso3": "DMA",
+    "m49": "212",
+    "wikidata": "Q784",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [],
+      "notes": [],
+      "next_check": [],
+      "kind": [],
+      "status_confidence": [],
+      "related_bodies": [
+        "dm-recheck2-aila"
+      ],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "dm-recheck2-aila"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "au-industry",
+        "recheck-lac-ctu-caitf-2026",
+        "dm-cardtp-home",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "dm-recheck2-cyber-training",
+        "dm-recheck2-aila",
+        "dm-recheck2-strategy-catalogue",
+        "depth-network-launch",
+        "il-r6-atih-catalogue"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "au-industry",
+      "title": "AI Safety Institute",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261015131505/https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "depth-network-launch",
+      "title": "Launch of the International Network of AI Safety Institutes at inaugural convening",
+      "url": "https://www.nist.gov/news-events/news/2024/11/fact-sheet-us-department-commerce-us-department-state-launch-international",
+      "excerpts": []
+    },
+    {
+      "id": "dm-cardtp-home",
+      "title": "Caribbean Digital Transformation Project, Dominica",
+      "url": "https://cardtp.gov.dm",
+      "archive_url": "https://web.archive.org/web/20260608074509/https://cardtp.gov.dm/",
+      "excerpts": []
+    },
+    {
+      "id": "dm-recheck2-aila",
+      "title": "Dominica launches Artificial Intelligence Landscape Assessment",
+      "url": "https://www.q95da.com/news/an-artificial-intelligence-landscape-assessment-aila-was-launched-in-dominica-on-october-12-with-technical-and-financial-support-from-the-undp-to-explore-the-countrys-readiness-for-artificial-intelligence-ai",
+      "excerpts": [
+        {
+          "text": "An Artificial Intelligence Landscape Assessment (AILA) was launched in Dominica on Monday, October 12, 2026.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dm-recheck2-cyber-training",
+      "title": "CARICOM IMPACS and Dominica partner to boost government cyber security",
+      "url": "https://www.caricomimpacs.org/articles/caricom-impacs-and-dominica-partner-to-boost-government-cyber-security",
+      "excerpts": []
+    },
+    {
+      "id": "dm-recheck2-strategy-catalogue",
+      "title": "Dynamic Dominica National Digital Transformation Strategy 2022-2026: catalogue entry",
+      "url": "https://cardtp.gov.dm/documents/1-documents/2-dynamic-dominica-national-digital-transformation-strategy-2022-2026",
+      "excerpts": []
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "il-r6-atih-catalogue",
+      "title": "The Global Landscape of AI Safety Institutes",
+      "url": "https://alltechishuman.org/all-tech-is-human-blog/the-global-landscape-of-ai-safety-institutes",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-lac-ctu-caitf-2026",
+      "title": "Final Report: Toward Harmonized AI Policies and Recommendations for the Caribbean",
+      "url": "https://ctu.int/wp-content/uploads/2026/07/CAITF-Final-Report.pdf",
+      "archive_url": "https://web.archive.org/web/20261017022216if_/https://ctu.int/wp-content/uploads/2026/07/CAITF-Final-Report.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

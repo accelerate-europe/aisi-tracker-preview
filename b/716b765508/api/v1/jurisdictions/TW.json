@@ -1,0 +1,882 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "716b7655085469b9155ab082742f99985e836e96",
+      "built": "2026-11-21T18:33:19Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/40",
+  "record": {
+    "id": "TW",
+    "name": "Taiwan",
+    "kind": "territory",
+    "population": {
+      "value": 23299132,
+      "year": 2025,
+      "source_ids": [
+        "tw-moi-pop-2025"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "summary": "No qualifying institute identified. AIEC evaluates language models for trustworthiness and performance; NICS tests model safeguards and AI-agent security. Neither has been designated or tasked by the government to test models for their capabilities and risks.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English search and the selected Ministry of Digital Affairs page confirm AIEC evaluations of language models, Taiwanese cultural knowledge and values, and trustworthiness. These are real model evaluations; the bounded search did not establish a severe-risk frontier-model evaluation mandate or government AISI designation. Flag scope without changing status. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Focused Mandarin Chinese and English status review of AIEC and related NICS evaluation work; not a full record recheck."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Reread the ministry's AIEC launch and language-model evaluation accounts and NICS's safeguard and agent-test releases; clarified the government-assignment test while retaining none_identified at low confidence. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Selected the closest body against retrieved source text and excerpts; recorded its stage, evidence gap and limits. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Changed status confidence from low to medium because the individual check has recorded English and national or official-language queries and retrieved primary governance evidence; classification disagreement no longer lowers confidence. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "台灣 人工智慧安全研究所 政府 前沿模型 安全評估",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Taiwan\" national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "site:moda.gov.tw 人工智慧 評測 中心 風險 2026",
+          "source_ids": [
+            "tw-r6-aiec-sovereign",
+            "tw-r6-aiec-sovereign-en",
+            "tw-r6-nics-agent-tests",
+            "tw-r6-nics-deepseek"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "site:nics.nat.gov.tw AI 評測 安全 模型 2026",
+          "source_ids": [
+            "tw-r6-aiec-sovereign",
+            "tw-r6-aiec-sovereign-en",
+            "tw-r6-nics-agent-tests",
+            "tw-r6-nics-deepseek"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Taiwan AIEC advanced model safety evaluation 2026 institute",
+          "source_ids": [
+            "tw-r6-aiec-sovereign",
+            "tw-r6-aiec-sovereign-en",
+            "tw-r6-nics-agent-tests",
+            "tw-r6-nics-deepseek"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "site:gov.tw \"人工智慧安全研究所\" 2026",
+          "source_ids": [
+            "tw-moda-aiec-2026",
+            "tw-r6-aiec-ministerial-transcript"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "site:gov.tw \"AI Safety Institute\" Taiwan 2026",
+          "source_ids": [
+            "tw-moda-aiec-2026",
+            "tw-r6-aiec-ministerial-transcript"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded zh queries use a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. The additional status review used Mandarin Chinese and English searches; other languages were not exhaustively searched. Search batches for the additional status review, using 1-based positions in check.searches: 3, 4, 5; 6, 7. Each group records the same exact registered URLs found in its combined search results, without attribution to an individual query. Explicit page opens and finds and unverified URL variants are excluded. Groups list the recorded queries; some requests also contained additional queries retained in the research evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "tw-moda-aiec-2023",
+        "tw-r6-aiec-sovereign",
+        "tw-r6-aiec-ministerial-transcript",
+        "tw-r6-aiec-sovereign-en",
+        "tw-aiec-service"
+      ],
+      "governance_note": "The ministry's establishment announcement, later accounts and ministerial transcript confirm government responsibility for AIEC and language-model evaluation. Safety is one item in its trustworthiness criteria, alongside fairness, explainability and other criteria; the transcript also discusses frontier-model progress. These tasks do not by themselves establish the qualifying capability or behaviour-risk assignment. AIEC's methods site lists accuracy, reliability, fairness, privacy and security as its main evaluation items."
+    },
+    "source_ids": [
+      "tw-moda-aiec-2023",
+      "tw-moda-aiec-2026",
+      "tw-nstc-ai-act-2025",
+      "tw-itri-lab-2024",
+      "tw-r6-aiec-sovereign",
+      "tw-r6-aiec-ministerial-transcript",
+      "tw-r6-aiec-sovereign-en",
+      "tw-r6-nics-deepseek",
+      "tw-r6-nics-agent-tests",
+      "tw-aiec-service"
+    ],
+    "notes": "Not a UN member; tracked as a territory. The AI Basic Act (passed 23 Dec 2025) requires the Ministry of Digital Affairs to provide AI evaluation and verification tools. AIEC is tracked as a related body because product testing alone does not meet the definition.\n\nChinese and English government accounts confirm AIEC's language-model evaluations, including Taiwan's language, social context and values. A 2024 ministerial transcript also discusses evaluating frontier models and working with international safety institutes. Separately, the National Institute of Cyber Security published DeepSeek jailbreak tests in February 2025 and AI-agent security tests in May 2026. The AIEC criteria concern trustworthiness and performance; NICS tests protection against attacks. Neither these activities nor the ministerial discussion alone establishes designation under route (a) or an ongoing qualifying public assignment under route (b). AIEC's methods site lists accuracy, reliability, fairness, privacy and security as its main evaluation items; security there means protecting the system against attack and misuse.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "030",
+      "subregion": "Eastern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "related_bodies": [
+      {
+        "name": "AI Product and System Evaluation Center (AIEC)",
+        "role": "It evaluates language models for trustworthiness, local-language performance and Taiwan's social context and values. It is a Ministry of Digital Affairs programme. The ministry works closely with ITRI and the National Institute of Cyber Security and discussed evaluation of frontier models in 2024. Trustworthiness and performance testing do not by themselves establish the qualifying model-evaluation assignment.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "tw-moda-aiec-2026",
+          "tw-r6-aiec-sovereign",
+          "tw-r6-aiec-ministerial-transcript"
+        ],
+        "kind": "other",
+        "id": "related_bodies-b99e96dc6b88504faf9248e18a9b61eb",
+        "citations": {
+          "name": [
+            "tw-moda-aiec-2026"
+          ],
+          "role": [
+            "tw-r6-aiec-sovereign",
+            "tw-r6-aiec-ministerial-transcript"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "tw-moda-aiec-2026",
+            "tw-r6-aiec-sovereign",
+            "tw-r6-aiec-ministerial-transcript"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "tw-moda-aiec-2026",
+            "tw-r6-aiec-sovereign",
+            "tw-r6-aiec-ministerial-transcript"
+          ]
+        }
+      },
+      {
+        "name": "National Institute of Cyber Security (NICS)",
+        "role": "It has tested DeepSeek model safeguards and jailbreak resistance, and OpenClaw and NemoClaw agent security. It is an institute under the Ministry of Digital Affairs. These tests do not by themselves establish designation as the national advanced-AI safety institute.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "source_ids": [
+          "tw-r6-nics-deepseek",
+          "tw-r6-nics-agent-tests"
+        ],
+        "id": "related_bodies-ad99656201255d8690cf43829abf205b",
+        "citations": {
+          "name": [],
+          "role": [
+            "tw-r6-nics-deepseek",
+            "tw-r6-nics-agent-tests"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "tw-r6-nics-deepseek",
+            "tw-r6-nics-agent-tests"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "tw-r6-nics-deepseek",
+            "tw-r6-nics-agent-tests"
+          ]
+        }
+      }
+    ],
+    "status_confidence": "medium",
+    "iso3": "TWN",
+    "m49": "158",
+    "wikidata": "Q865",
+    "identifier_source_ids": [
+      "wikidata-jurisdiction-identifiers",
+      "un-m49-taiwan-statistical-code"
+    ],
+    "identifier_notes": "UN M49 overview omits Taiwan as a separate area, but the UN M49 FAQ explicitly permits numeric code 158 for strictly statistical purposes. Retrieved Wikidata Q865 independently gives TW/TWN/158.",
+    "next_check": {
+      "date": "2027-01-15",
+      "reason": "Check whether the National AI Development Guidelines or the national AI strategy committee assign AIEC, NICS or a new body evaluation of advanced models for capabilities or behaviour risks."
+    },
+    "closest_body": {
+      "name": "AI Product and System Evaluation Center (AIEC)",
+      "stage": "exists",
+      "gap": "remit",
+      "note": "The ministry created AIEC and describes language-model trustworthiness criteria. A ministerial transcript also discusses checking whether frontier models regress or progress. These published tasks do not establish an assigned capability or behaviour-risk remit under the qualifying-body rule. Its methods site lists accuracy, reliability, fairness, privacy and security as its main evaluation items.",
+      "source_ids": [
+        "tw-moda-aiec-2023",
+        "tw-moda-aiec-2026",
+        "tw-r6-aiec-ministerial-transcript",
+        "tw-aiec-service"
+      ],
+      "body_id": "related_bodies-b99e96dc6b88504faf9248e18a9b61eb",
+      "citations": {
+        "name": [
+          "tw-moda-aiec-2023"
+        ],
+        "stage": [
+          "tw-moda-aiec-2023"
+        ],
+        "gap": [],
+        "note": [
+          "tw-moda-aiec-2023",
+          "tw-moda-aiec-2026",
+          "tw-r6-aiec-ministerial-transcript",
+          "tw-aiec-service"
+        ],
+        "body_id": [],
+        "display": [
+          "tw-moda-aiec-2023",
+          "tw-moda-aiec-2026",
+          "tw-r6-aiec-ministerial-transcript",
+          "tw-aiec-service"
+        ]
+      },
+      "display": {
+        "source_links": [
+          "tw-moda-aiec-2023",
+          "tw-moda-aiec-2026",
+          "tw-r6-aiec-ministerial-transcript",
+          "tw-aiec-service"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-dc6ca05a48a34dda85e7a2f13d6188db",
+        "kind": "function",
+        "code": "certification",
+        "basis": "mandate",
+        "body_id": "related_bodies-b99e96dc6b88504faf9248e18a9b61eb",
+        "text": "The ministry's launch announcement says the centre will successively establish certification bodies and testing laboratories next year (113) to provide AI evaluation and verification services.",
+        "source_ids": [
+          "tw-moda-aiec-2023"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "tw-moda-aiec-2023"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "tw-moda-aiec-2023"
+          ]
+        }
+      },
+      {
+        "id": "claims-8c501f1f60e24065a531712186ff46a3",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "mandate",
+        "body_id": "related_bodies-b99e96dc6b88504faf9248e18a9b61eb",
+        "text": "The ministry's launch announcement says the centre will draw up an evaluation system and evaluation guidelines for AI products and systems, setting the evaluation methods and norms they are to follow.",
+        "source_ids": [
+          "tw-moda-aiec-2023"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "tw-moda-aiec-2023"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "tw-moda-aiec-2023"
+          ]
+        }
+      },
+      {
+        "id": "claims-224d4c07a01a4cc4893ad07fba5c96c9",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "activity",
+        "body_id": "related_bodies-b99e96dc6b88504faf9248e18a9b61eb",
+        "lead": true,
+        "text": "The ministry says AIEC \"published its latest round of evaluation results for domestic and foreign open-source language models\", using three indicators highly relevant to Taiwan to examine performance in Traditional Chinese comprehension, Taiwan's social and cultural context, and local knowledge.",
+        "source_ids": [
+          "tw-moda-aiec-2026"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "lead": [],
+          "text": [
+            "tw-moda-aiec-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "tw-moda-aiec-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-d9a9c1b3131f4c309e57c519b1beb2c0",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "mandate",
+        "body_id": "related_bodies-b99e96dc6b88504faf9248e18a9b61eb",
+        "text": "The ministry's launch announcement says the centre will provide domestic AI product evaluation services.",
+        "source_ids": [
+          "tw-moda-aiec-2023"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "tw-moda-aiec-2023"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "tw-moda-aiec-2023"
+          ]
+        }
+      },
+      {
+        "id": "claims-820540e3f8c946c9a6e60a3511c15751",
+        "kind": "function",
+        "code": "risk_monitoring",
+        "basis": "activity",
+        "body_id": "related_bodies-b99e96dc6b88504faf9248e18a9b61eb",
+        "text": "The Ministry of Digital Affairs' Administration for Digital Industries says AIEC has continuously published language model benchmark evaluation results since October of year 114 and has so far completed a cumulative total of 131 model tests.",
+        "source_ids": [
+          "tw-moda-aiec-2026"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "tw-moda-aiec-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "tw-moda-aiec-2026"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "population": [],
+      "summary": [
+        "tw-r6-aiec-sovereign",
+        "tw-r6-nics-deepseek",
+        "tw-r6-nics-agent-tests"
+      ],
+      "check": [
+        "tw-aiec-service"
+      ],
+      "notes": [
+        "tw-r6-aiec-ministerial-transcript",
+        "tw-aiec-service"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "related_bodies": [
+        "tw-moda-aiec-2026",
+        "tw-r6-aiec-sovereign",
+        "tw-r6-aiec-ministerial-transcript",
+        "tw-r6-nics-deepseek",
+        "tw-r6-nics-agent-tests"
+      ],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "identifier_notes": [],
+      "next_check": [],
+      "closest_body": [
+        "tw-moda-aiec-2023",
+        "tw-moda-aiec-2026",
+        "tw-r6-aiec-ministerial-transcript",
+        "tw-aiec-service"
+      ],
+      "claims": [
+        "tw-moda-aiec-2023",
+        "tw-moda-aiec-2026"
+      ],
+      "status": [],
+      "display": [
+        "tw-moda-aiec-2023",
+        "tw-moda-aiec-2026",
+        "tw-r6-aiec-sovereign",
+        "tw-r6-aiec-ministerial-transcript",
+        "tw-r6-nics-deepseek",
+        "tw-r6-nics-agent-tests",
+        "tw-aiec-service"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "tw-r6-aiec-sovereign",
+        "tw-r6-nics-deepseek",
+        "tw-r6-nics-agent-tests"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "tw-moda-aiec-2023",
+        "tw-moda-aiec-2026",
+        "tw-itri-lab-2024",
+        "tw-nstc-ai-act-2025",
+        "tw-r6-aiec-sovereign",
+        "tw-r6-aiec-sovereign-en",
+        "tw-r6-aiec-ministerial-transcript",
+        "tw-r6-nics-deepseek",
+        "tw-r6-nics-agent-tests",
+        "tw-aiec-service"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "tw-aiec-service",
+      "title": "主要評測項目 - AIEC",
+      "title_en": "Main evaluation items - AIEC",
+      "url": "https://www.aiec.org.tw/web/guest/service",
+      "excerpts": [
+        {
+          "text": "指AI系統在對待不同群體和個體時能夠公正和平等",
+          "gloss": "Refers to the AI system treating different groups and individuals fairly and equally.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/notes",
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "指AI系統在面對外部攻擊、未授權訪問或不當使用時能夠保護其資源、功能和資料的完整性和機密性",
+          "gloss": "Refers to the AI system being able to protect the integrity and confidentiality of its resources, functions and data when facing external attack, unauthorised access or improper use.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/notes",
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw-itri-lab-2024",
+      "title": "ITRI opens Taiwan's first AI testing laboratory for language models",
+      "url": "https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=01_content&MGID=113103018085866398&MmmID=1036276263153520257&SiteID=1",
+      "archive_url": "https://web.archive.org/web/20260422120942/https://www.itri.org.tw/ListStyle.aspx?DisplayStyle=01_content&SiteID=1&MmmID=1036276263153520257&MGID=113103018085866398",
+      "excerpts": []
+    },
+    {
+      "id": "tw-moda-aiec-2023",
+      "title": "Ministry of Digital Affairs launches the AI Product and System Evaluation Center",
+      "url": "https://moda.gov.tw/ADI/news/latest-news/9295",
+      "archive_url": "https://web.archive.org/web/20260814130528/https://moda.gov.tw/ADI/news/latest-news/9295",
+      "excerpts": [
+        {
+          "text": "數位發展部已展開AI評測工作，並在今(6)日於台北科技大學舉辦「AI產品與系統評測中心」啟動活動",
+          "accessed": "2026-10-18",
+          "gloss": "The Ministry of Digital Affairs has begun AI evaluation work and held the launch of the AI Product and System Evaluation Center at Taipei Tech today, the sixth.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/name",
+            "/record/closest_body/stage",
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "建立語言模型(Large Language Model, LLM)的初步評測項目，涵蓋安全性(Safety)、可解釋性(Explainable)、彈性(Resilient)、公平性(Fair)、準確性(Accuracy)、透明性(Transparency)、當責性(Accountable)、可靠性(Reliability)、隱私(Privacy)及資安(Secure)等10項",
+          "accessed": "2026-10-18",
+          "gloss": "Initial LLM evaluation items cover ten areas: safety, explainability, resilience, fairness, accuracy, transparency, accountability, reliability, privacy and security.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "AI評測中心涵蓋制度推動委員會、技術審議小組等架構，將制定「AI產品與系統評測制度」與「AI產品與系統評測指引」，建構我國AI產品與系統遵循之評測方式與規範，提供國內AI產品評測服務，以期保障產品使用者權益，並將陸續於明(113)年成立驗證機構、測試實驗室，提供AI評測與驗證服務，達到促進AI產業正向發展之目的，確保AI技術可被正確使用，提升國內AI產品效能與安全，為我國推動可信任AI環境發展邁出重要的一步。",
+          "gloss": "The AI Evaluation Centre includes structures such as a system promotion committee and a technical review panel, will formulate the 'AI Product and System Evaluation System' and the 'AI Product and System Evaluation Guidelines', establish the evaluation methods and norms that our country's AI products and systems are to follow, and provide domestic AI product evaluation services with a view to protecting product users' rights; it will also successively establish certification bodies and testing laboratories next year (113) to provide AI evaluation and verification services, achieve the aim of promoting the positive development of the AI industry, ensure that AI technology can be used correctly, improve the performance and safety of domestic AI products, and take an important step towards developing a trustworthy AI environment in our country.",
+          "anchors": [
+            {
+              "text": "數位發展部已展開AI評測工作，並在今(6)日於台北科技大學舉辦「AI產品與系統評測中心」啟動活動",
+              "kind": "definition",
+              "gloss": "The Ministry of Digital Affairs has begun AI evaluation work and held a launch event for the AI Product and System Evaluation Center at Taipei Tech today, the sixth."
+            },
+            {
+              "text": "數位發展部「AI產品與系統評測中心」啟動 推動我國AI評測制度與可信任AI環境發展",
+              "kind": "heading",
+              "gloss": "The Ministry of Digital Affairs launches the AI Product and System Evaluation Center, promoting the development of our country's AI evaluation system and a trustworthy AI environment"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text",
+            "/record/claims/1/text",
+            "/record/claims/3/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw-moda-aiec-2026",
+      "title": "AIEC publishes latest language model evaluation results",
+      "url": "https://moda.gov.tw/ADI/news/latest-news/19588",
+      "archive_url": "https://web.archive.org/web/20260913103813/https://moda.gov.tw/ADI/news/latest-news/19588",
+      "excerpts": [
+        {
+          "text": "數位發展部 AI 產品與系統評測中心（Artificial Intelligence Evaluation Center，下稱 AIEC）於 5 月 1 日公布最新一波國內外開源語言模型評測結果，透過三項與臺灣高度相關的指標「臺灣價值觀」、「高中學測國文」及「高中學測社會」，檢視現行 AI 模型在繁體中文理解、臺灣社會文化脈絡，以及本土知識能力上的實際表現。",
+          "gloss": "On 1 May, the Ministry of Digital Affairs' AI Product and System Evaluation Center (Artificial Intelligence Evaluation Center, hereafter AIEC) published its latest round of evaluation results for domestic and foreign open-source language models, using three indicators highly relevant to Taiwan, 'Taiwanese values', 'high school GSAT Chinese' and 'high school GSAT social studies', to examine how current AI models actually perform in Traditional Chinese comprehension, Taiwan's social and cultural context, and local knowledge.",
+          "accessed": "2026-10-17",
+          "url": "https://web.archive.org/web/20261016200740/https://moda.gov.tw/ADI/news/latest-news/19588",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/2/text",
+            "/record/related_bodies/0/name",
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "AIEC 自 114 年 10 月起持續發布語言模型基準（benchmark）評測成果，至今已累計完成 131 個模型測試。",
+          "gloss": "Since October of year 114, AIEC has continuously published language model benchmark evaluation results, and has so far completed a cumulative total of 131 model tests.",
+          "anchors": [
+            {
+              "text": "數位發展部 AI 產品與系統評測中心（Artificial Intelligence Evaluation Center，下稱 AIEC）",
+              "kind": "definition",
+              "gloss": "The Ministry of Digital Affairs' AI Product and System Evaluation Center (Artificial Intelligence Evaluation Center, hereafter AIEC)"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "url": "https://web.archive.org/web/20261016200740/https://moda.gov.tw/ADI/news/latest-news/19588",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw-moi-pop-2025",
+      "title": "Household registration statistics, December 2025 (114年12月戶口統計資料分析)",
+      "title_en": "Household registration statistics, December 2025 (analysis of household registration statistics for December, year 114)",
+      "url": "https://www.ris.gov.tw/info-liferay/app/channel/newsDetail/26007114",
+      "archive_url": "https://web.archive.org/web/20261016201108/https://www.ris.gov.tw/info-liferay/app/channel/newsDetail/26007114",
+      "excerpts": []
+    },
+    {
+      "id": "tw-nstc-ai-act-2025",
+      "title": "AI Basic Act passes third reading",
+      "url": "https://www.nstc.gov.tw/folksonomy/detail/ed981806-1852-4b63-8dfd-9eea04157971",
+      "archive_url": "https://web.archive.org/web/20261016200921/https://www.nstc.gov.tw/folksonomy/detail/ed981806-1852-4b63-8dfd-9eea04157971",
+      "excerpts": []
+    },
+    {
+      "id": "tw-r6-aiec-ministerial-transcript",
+      "title": "Meeting with international AI companies on information integrity alignment assembly",
+      "url": "https://moda.gov.tw/en/press/background-information/12616",
+      "excerpts": [
+        {
+          "text": "so you can also learn whether your Frontier models have regressed or progressed.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/0/role",
+            "/record/closest_body/note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw-r6-aiec-sovereign",
+      "title": "讓你的AI懂臺灣！數位發展部公布臺灣主權AI評測結果，攜手產官打造可信任AI生態系",
+      "title_en": "Make your AI understand Taiwan: the Ministry of Digital Affairs publishes Taiwan's sovereign AI evaluation results and works with industry and government on trustworthy AI",
+      "url": "https://web.moda.gov.tw/ADI/news/latest-news/20538",
+      "excerpts": [
+        {
+          "text": "檢驗模型是否具備臺灣語言、社會文化與價值觀等3大理解能力",
+          "gloss": "Assess whether models understand Taiwan's language, social culture and values.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw-r6-aiec-sovereign-en",
+      "title": "Make Your AI Understand Taiwan! MODA Releases Taiwan's Sovereign AI Evaluation Results and Brings Government and Industry Together to Build a Trustworthy AI Ecosystem",
+      "url": "https://investtaiwan.nat.gov.tw/newsPage62747eng?lang=eng&search=62747",
+      "excerpts": []
+    },
+    {
+      "id": "tw-r6-nics-agent-tests",
+      "title": "資安院發布OpenClaw與NemoClaw資安檢測報告，提醒各界謹慎使用AI代理工具",
+      "title_en": "NICS publishes OpenClaw and NemoClaw security test report and urges care with AI agent tools",
+      "url": "https://www.nics.nat.gov.tw/latest_news/announcements/Latest_Announcement/58756447-b350-4bbe-88cc-c994b5549acf/",
+      "excerpts": [
+        {
+          "text": "針對未具防護措施之OpenClaw與具備隔離機制之NemoClaw共2個AI代理工具進行實測比較",
+          "gloss": "Conducted comparative tests of OpenClaw without safeguards and NemoClaw with isolation mechanisms.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/1/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tw-r6-nics-deepseek",
+      "title": "資安院公布 DeepSeek AI 模型資安測試結果：安全性及防護機制不足 建議不要使用",
+      "title_en": "NICS publishes DeepSeek AI model security test results: inadequate safety and safeguards, use not recommended",
+      "url": "https://www.nics.nat.gov.tw/latest_news/announcements/Latest_Announcement/6924d1a7-9f1a-4097-9d61-dec9b25a5724/",
+      "excerpts": [
+        {
+          "text": "評估重點包含模型安全防護機制、越獄攻擊(Jail-breaking)防禦能力",
+          "gloss": "The evaluation focuses include model safeguards and defence against jailbreak attacks.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/1/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49-taiwan-statistical-code",
+      "title": "UN M49 FAQ: Taiwan statistical code",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

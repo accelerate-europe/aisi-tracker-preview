@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>AISI tracker previews</title><style>
+:root { color-scheme: light; --ground: #FAF7F2; --ink: #1A1A1A; --muted: #6E6760; --link: #8F5A23; --accent: #BE773D; --line: #E8E3DD; }
+@media (prefers-color-scheme: dark) { :root { color-scheme: dark; --ground: #17191A; --ink: #F3F0EB; --muted: #B0ADA7; --link: #E9AA79; --accent: #E9AA79; --line: #2A2D2F; } }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 1rem/1.5 "Segoe UI", Arial, sans-serif; }
+main { box-sizing: border-box; max-width: var(--pv-measure); margin-inline: auto; padding: 1.5rem var(--pv-gutter) 3rem; overflow-wrap: anywhere; }
+a { color: var(--link); text-underline-offset: .2em; }
+td, th { text-align: left; vertical-align: top; padding: .5rem .5rem .5rem 0; border-bottom: 1px solid var(--line); }
+table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+
+.preview-banner { box-sizing: border-box; margin: 0; color: var(--ink, inherit);
+  background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas));
+  border-bottom: 1px solid color-mix(in srgb, var(--accent, #BE773D) 45%, var(--ground, Canvas));
+  font: var(--type-meta, .875rem/1.5 "Segoe UI", Arial, sans-serif); text-align: left; }
+.preview-banner .pv-col { box-sizing: border-box; max-width: var(--pv-measure); margin-inline: auto; padding-inline: var(--pv-gutter); }
+.preview-banner .measure, .preview-banner .pv-col { container: pv / inline-size; }
+.preview-banner .pv-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "title id actions";
+  column-gap: var(--sp-4, 1rem); align-items: baseline; padding-block: var(--sp-2, .5rem); }
+.preview-banner .pv-title { grid-area: title; font-weight: 600; white-space: nowrap; }
+.preview-banner .pv-id { grid-area: id; color: var(--muted, inherit); display: flex; min-width: 0; white-space: nowrap; }
+.preview-banner .pv-branch { overflow: hidden; text-overflow: ellipsis; min-width: 2ch; flex: 0 1 auto; }
+.preview-banner .pv-build { flex: none; }
+.preview-banner .pv-actions { grid-area: actions; display: flex; gap: var(--sp-4, 1rem); align-items: baseline; white-space: nowrap; }
+.preview-banner .pv-toggle { font: inherit; color: var(--link, LinkText); background: none; border: 0; padding: 0; margin: 0; cursor: pointer;
+  text-decoration: underline; text-decoration-thickness: var(--underline-width, auto); text-underline-offset: var(--underline-offset, .2em);
+  text-decoration-color: var(--underline-colour, currentColor); }
+.preview-banner .pv-toggle::after { content: " +"; }
+.preview-banner .pv-toggle[aria-expanded="true"]::after { content: " \2212"; }
+.preview-banner .pv-toggle:focus-visible { outline: 2px solid var(--focus, var(--link, currentColor)); outline-offset: 2px; }
+.preview-banner .pv-details { list-style: none; margin: 0; padding: 0 0 var(--sp-2, .5rem); }
+.preview-banner .pv-details[hidden] { display: none; }
+/* Preview chrome inside the page: what the preview adds or replaces, in the band's look, so page and preview stay
+   distinguishable. */
+.cite.pv-chrome, .pv-draft-note.pv-chrome { background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas)); padding-block: var(--sp-2, .5rem); user-select: auto; }
+/* The marker: once the band has scrolled away, one short fixed line in the corner keeps the build identifiable on
+   screen and in screenshots. Nothing else on the page is fixed there (the theme switch is in the header). */
+.preview-banner .pv-marker { position: fixed; right: max(var(--sp-4, 1rem), env(safe-area-inset-right)); bottom: max(var(--sp-4, 1rem), env(safe-area-inset-bottom));
+  z-index: 40; display: inline-flex; align-items: baseline; max-width: min(60vw, 20rem); box-sizing: border-box; margin: 0;
+  padding: .125rem var(--sp-3, .75rem); border: 1px solid color-mix(in srgb, var(--accent, #BE773D) 45%, var(--ground, Canvas)); border-radius: 999px;
+  background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas)); color: var(--ink, CanvasText);
+  font: var(--type-meta, .875rem/1.5 "Segoe UI", Arial, sans-serif); white-space: nowrap; cursor: pointer; }
+.preview-banner .pv-marker[hidden], .preview-banner .pv-marker.pv-away { display: none; }
+.preview-banner .pv-marker:focus-visible { outline: 2px solid var(--focus, var(--link, currentColor)); outline-offset: 2px; }
+@media print { .preview-banner .pv-marker { display: none; } }
+@container pv (max-width: 40rem) {
+  .preview-banner .pv-row { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "title actions" "id id"; }
+  .preview-banner .pv-actions { justify-self: end; }
+}
+</style></head><body style="--pv-measure: 75rem; --pv-gutter: 1.5rem"><header class="preview-banner"><div class="pv-col"><div class="pv-row"><span class="pv-title">Preview, not published</span><span class="pv-id">Previews of the AISI tracker</span></div></div></header><main><h1>Branch previews</h1><table><thead><tr><th>Branch</th><th>Current build</th><th>Last attempt</th></tr></thead><tbody><tr><td><a href="code-1.1.2-page/">code-1.1.2-page</a></td><td>0c3c25159d<br>21 Nov 2026, 20:21 CET</td><td>built<br>0c3c25159d<br>21 Nov 2026, 20:22 CET<br><a data-run="44940384653" href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44940384653">CI run</a></td></tr><tr><td><a href="next/">next</a></td><td>369c310284<br>21 Nov 2026, 18:49 CET</td><td>built<br>369c310284<br>21 Nov 2026, 18:51 CET<br><a data-run="44932058306" href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44932058306">CI run</a></td></tr></tbody></table><h2>Frozen builds</h2><p>The 10 newest unkept frozen builds stay, each for 21 days at most, and fewer if space runs out; kept builds and the current build of each branch stay and do not count. To keep one, add its ten-character commit to <a href="https://github.com/accelerate-europe/aisi-tracker-preview/edit/gh-pages/keep.txt">keep.txt in the preview repository</a>.</p><table><thead><tr><th>Commit</th><th>Built from</th><th>Retention</th></tr></thead><tbody><tr><td><a href="b/0c3c25159d/">0c3c25159d</a></td><td>code-1.1.2-page<br>21 Nov 2026, 20:21 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44940384653">CI run</a></td><td>Stays while it is a branch's current build</td></tr><tr><td><a href="b/d0b9434a96/">d0b9434a96</a></td><td>code-1.1.2-page<br>21 Nov 2026, 20:13 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44939678992">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/eb6eb20f49/">eb6eb20f49</a></td><td>code-1.1.2-page<br>21 Nov 2026, 20:01 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44938508628">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/716b765508/">716b765508</a></td><td>code-1.1.2-page<br>21 Nov 2026, 19:33 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44936059033">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/369c310284/">369c310284</a></td><td>code-1.1.2-trim<br>21 Nov 2026, 18:41 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44931335487">CI run</a></td><td>Stays while it is a branch's current build</td></tr><tr><td><a href="b/9eae2116aa/">9eae2116aa</a></td><td>code-1.1.2-trim<br>21 Nov 2026, 18:08 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44928345776">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/2589d0f846/">2589d0f846</a></td><td>code-1.1.2-trim<br>21 Nov 2026, 17:56 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44927245836">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/43f04dacb7/">43f04dacb7</a></td><td>data-1.1.2<br>21 Nov 2026, 15:47 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44915707916">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/bd50b370fb/">bd50b370fb</a></td><td>data-1.1.2<br>21 Nov 2026, 15:35 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44914638101">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/e21004a5a7/">e21004a5a7</a></td><td>data-1.1.2<br>21 Nov 2026, 15:25 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44913799332">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/0023bc7dcb/">0023bc7dcb</a></td><td>code-1.1.2-trim<br>21 Nov 2026, 15:22 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44913535272">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr><tr><td><a href="b/f3faa5d65e/">f3faa5d65e</a></td><td>code-1.1.2-trim<br>21 Nov 2026, 14:53 CET<br><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44911065636">CI run</a></td><td>Until 2026-12-12 at most, sooner by the rule above</td></tr></tbody></table></main><script>
+document.querySelectorAll('[data-run]').forEach(async function (link) {
+  try {
+    const response = await fetch('https://api.github.com/repos/accelerate-europe/aisi-tracker/actions/runs/' + link.dataset.run);
+    if (!response.ok) return;
+    const run = await response.json();
+    link.textContent = run.status !== 'completed' ? 'CI running' : run.conclusion === 'success' ? 'CI passed' : 'CI failed';
+  } catch (_) { /* The run link remains usable when the public API is unavailable. */ }
+});
+</script></body></html>

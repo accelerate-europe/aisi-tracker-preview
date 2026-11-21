@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+
+<title>Page not found | AI Security Institutes tracker</title>
+<link href="favicon.svg" rel="icon" type="image/svg+xml"/>
+<script>try { var t = localStorage.getItem("aisi-theme"); if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t); } catch (e) {}</script>
+<style>
+    /* Standalone recovery page. Use the tracker's palette, a readable measure
+       and system fonts so missing paths need no external assets. Theme as on the
+       tracker: the system scheme unless the reader chose light or dark there. */
+    :root { color-scheme: light; --ground: #FAF7F2; --ink: #1A1A1A; --link: #8F5A23; }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --ground: #17191A; --ink: #F3F0EB; --link: #E9AA79; } }
+    :root[data-theme="dark"] { color-scheme: dark; --ground: #17191A; --ink: #F3F0EB; --link: #E9AA79; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--ground); color: var(--ink); font: 1rem/1.5 "Segoe UI", Arial, sans-serif; }
+    main { max-width: 42rem; margin: 12vh auto; padding: 1.5rem; }
+    h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 400; line-height: 1.15; }
+    p { margin-block: 1.5rem; }
+    a { color: var(--link); text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid var(--link); outline-offset: 4px; }
+  </style>
+<meta content="noindex, nofollow" name="robots"/><style>
+.preview-banner { box-sizing: border-box; margin: 0; color: var(--ink, inherit);
+  background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas));
+  border-bottom: 1px solid color-mix(in srgb, var(--accent, #BE773D) 45%, var(--ground, Canvas));
+  font: var(--type-meta, .875rem/1.5 "Segoe UI", Arial, sans-serif); text-align: left; }
+.preview-banner .pv-col { box-sizing: border-box; max-width: var(--pv-measure); margin-inline: auto; padding-inline: var(--pv-gutter); }
+.preview-banner .measure, .preview-banner .pv-col { container: pv / inline-size; }
+.preview-banner .pv-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "title id actions";
+  column-gap: var(--sp-4, 1rem); align-items: baseline; padding-block: var(--sp-2, .5rem); }
+.preview-banner .pv-title { grid-area: title; font-weight: 600; white-space: nowrap; }
+.preview-banner .pv-id { grid-area: id; color: var(--muted, inherit); display: flex; min-width: 0; white-space: nowrap; }
+.preview-banner .pv-branch { overflow: hidden; text-overflow: ellipsis; min-width: 2ch; flex: 0 1 auto; }
+.preview-banner .pv-build { flex: none; }
+.preview-banner .pv-actions { grid-area: actions; display: flex; gap: var(--sp-4, 1rem); align-items: baseline; white-space: nowrap; }
+.preview-banner .pv-toggle { font: inherit; color: var(--link, LinkText); background: none; border: 0; padding: 0; margin: 0; cursor: pointer;
+  text-decoration: underline; text-decoration-thickness: var(--underline-width, auto); text-underline-offset: var(--underline-offset, .2em);
+  text-decoration-color: var(--underline-colour, currentColor); }
+.preview-banner .pv-toggle::after { content: " +"; }
+.preview-banner .pv-toggle[aria-expanded="true"]::after { content: " \2212"; }
+.preview-banner .pv-toggle:focus-visible { outline: 2px solid var(--focus, var(--link, currentColor)); outline-offset: 2px; }
+.preview-banner .pv-details { list-style: none; margin: 0; padding: 0 0 var(--sp-2, .5rem); }
+.preview-banner .pv-details[hidden] { display: none; }
+/* Preview chrome inside the page: what the preview adds or replaces, in the band's look, so page and preview stay
+   distinguishable. */
+.cite.pv-chrome, .pv-draft-note.pv-chrome { background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas)); padding-block: var(--sp-2, .5rem); user-select: auto; }
+/* The marker: once the band has scrolled away, one short fixed line in the corner keeps the build identifiable on
+   screen and in screenshots. Nothing else on the page is fixed there (the theme switch is in the header). */
+.preview-banner .pv-marker { position: fixed; right: max(var(--sp-4, 1rem), env(safe-area-inset-right)); bottom: max(var(--sp-4, 1rem), env(safe-area-inset-bottom));
+  z-index: 40; display: inline-flex; align-items: baseline; max-width: min(60vw, 20rem); box-sizing: border-box; margin: 0;
+  padding: .125rem var(--sp-3, .75rem); border: 1px solid color-mix(in srgb, var(--accent, #BE773D) 45%, var(--ground, Canvas)); border-radius: 999px;
+  background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas)); color: var(--ink, CanvasText);
+  font: var(--type-meta, .875rem/1.5 "Segoe UI", Arial, sans-serif); white-space: nowrap; cursor: pointer; }
+.preview-banner .pv-marker[hidden], .preview-banner .pv-marker.pv-away { display: none; }
+.preview-banner .pv-marker:focus-visible { outline: 2px solid var(--focus, var(--link, currentColor)); outline-offset: 2px; }
+@media print { .preview-banner .pv-marker { display: none; } }
+@container pv (max-width: 40rem) {
+  .preview-banner .pv-row { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "title actions" "id id"; }
+  .preview-banner .pv-actions { justify-self: end; }
+}
+</style><script>
+(function () {
+  function frozen(link) {
+    const logical = link.dataset.previewPath;
+    const depth = logical.split('/').length - 1;
+    const site = new URL('../'.repeat(depth) || './', location.href);
+    const parent = /\/b\/[0-9a-f]{10}\/$/.test(site.pathname) ? '../../' : '../';
+    const target = new URL(parent + 'b/' + link.dataset.previewFrozen + '/' + logical, site);
+    target.hash = location.hash;
+    link.href = target.href;
+  }
+  function all() { document.querySelectorAll('[data-preview-frozen]').forEach(frozen); }
+  ['click', 'auxclick', 'contextmenu', 'focusin', 'pointerover'].forEach(function (type) {
+    document.addEventListener(type, function (event) {
+      const link = event.target.closest && event.target.closest('[data-preview-frozen]');
+      if (link) frozen(link);
+    }, true);
+  });
+  document.addEventListener('DOMContentLoaded', all);
+  window.addEventListener('hashchange', all);
+  // Details: a button with aria-expanded; delegated, since hydration replaces the band.
+  document.addEventListener('click', function (event) {
+    const toggle = event.target.closest && event.target.closest('.preview-banner .pv-toggle');
+    if (!toggle) return;
+    const open = toggle.getAttribute('aria-expanded') !== 'true';
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.closest('.preview-banner').querySelector('.pv-details').hidden = !open;
+  });
+  // The marker shows only while the band is out of view; it brings the band back with Details open. It stays hidden
+  // without this script, and steps aside while the focused element sits under it.
+  function band() { return document.querySelector('body > .preview-banner'); }
+  function place() {
+    const b = band(), marker = b && b.querySelector('.pv-marker');
+    if (!marker) return;
+    marker.hidden = b.getBoundingClientRect().bottom > 0;
+    marker.classList.remove('pv-away');
+    const focused = document.activeElement;
+    if (marker.hidden || !focused || focused === document.body || marker.contains(focused)) return;
+    const m = marker.getBoundingClientRect(), f = focused.getBoundingClientRect();
+    if (f.right > m.left && f.left < m.right && f.bottom > m.top && f.top < m.bottom) marker.classList.add('pv-away');
+  }
+  let frame = 0;
+  function soon() { if (!frame) frame = requestAnimationFrame(function () { frame = 0; place(); }); }
+  window.addEventListener('scroll', soon, { passive: true });
+  window.addEventListener('resize', soon);
+  document.addEventListener('DOMContentLoaded', function () {
+    place();
+    new MutationObserver(soon).observe(document.body, { childList: true }); // hydration replaces the band
+  });
+  document.addEventListener('click', function (event) {
+    const marker = event.target.closest && event.target.closest('.preview-banner .pv-marker');
+    if (!marker) return;
+    const b = marker.closest('.preview-banner'), toggle = b.querySelector('.pv-toggle');
+    toggle.setAttribute('aria-expanded', 'true');
+    b.querySelector('.pv-details').hidden = false;
+    window.scrollTo(0, 0);
+    b.scrollIntoView({ block: 'start' });
+    toggle.focus({ preventScroll: true });
+    place();
+  });
+  document.addEventListener('focusin', place);
+  document.addEventListener('focusout', soon);
+})();
+</script></head>
+<body><aside aria-label="Preview build" class="preview-banner pv-chrome" style="--pv-measure: 45rem; --pv-gutter: 1.5rem"><div class="pv-col"><div class="pv-row"><span class="pv-title">Preview, not published</span><span class="pv-id"><span class="pv-branch" title="code-1.1.2-page">code-1.1.2-page</span><span class="pv-build"> · 716b765508 · 21 Nov 2026, 19:33 CET</span></span><span class="pv-actions"><a href="mailto:contact@accelerate-europe.org?subject=AISI%20preview%20code-1.1.2-page%20716b765508">Feedback</a><button aria-controls="preview-details" aria-expanded="false" class="pv-toggle" type="button">Details</button></span></div><ul class="pv-details" hidden="" id="preview-details"><li>Data as of 20 Nov 2026</li><li><a href="https://github.com/accelerate-europe/aisi-tracker/actions/runs/44936059033">CI run for this build</a></li><li><a data-preview-frozen="716b765508" data-preview-path="404.html" href="#">Link to this exact build</a></li><li><a data-preview-published="" href="https://aisi.accelerate-europe.org/">Published site</a></li></ul></div><button aria-label="Preview · code-1.1.2-page · 716b765508: show the build details" class="pv-marker" hidden="" type="button">Preview · <span class="pv-branch">code-1.1.2-page</span> · 716b765508</button></aside>
+<main>
+<p>AI Security Institutes tracker</p>
+<h1>Page not found</h1>
+<p>The address may have changed or the page may no longer exist.</p>
+<p><a href="./">Return to the tracker</a></p>
+</main>
+</body>
+</html>

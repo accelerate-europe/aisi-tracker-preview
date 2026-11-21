@@ -1,0 +1,362 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "eb6eb20f4916e06e5deef3c7b096e84b97957a5a",
+      "built": "2026-11-21T19:01:01Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/171",
+  "record": {
+    "id": "ML",
+    "name": "Mali",
+    "summary": "No qualifying institute identified. The state-run Centre for AI and Robotics (CIAR-Mali), created by ordinance in August 2023, has a training, research and applications mandate; no evaluation or testing role is described.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. No qualifying institute was identified. The preserved ministry account of the September 2026 AI/robotics centre inauguration describes training and applications in economic/public-service sectors; it does not specify evaluation of the safety of advanced models. Partial check only; the last full-check date is unchanged. Confidence remains low: The recorded national-language query remains unvalidated; adding English searches does not resolve that coverage limit."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in French and English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the state AI and robotics centre, a May 2026 government colloquium on AI benefits and threats meant to inform a future national AI strategy, and a recommendation at the August 2026 Digital Week to draw up a national AI strategy. French counts as the working language under Article 31 of the 2023 Constitution. Retrieved Mali's July 2026 statement to the UN Global Dialogue on AI Governance as new primary governance evidence. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "bm",
+          "national_or_official": true,
+          "query": "Mali hakilina masinɛ lakana CIAR institut intelligence artificielle",
+          "source_ids": [
+            "ml-osiris-ciar-2026-primary-proposal"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Mali national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Mali institut national sécurité intelligence artificielle évaluation des modèles gouvernement 2026",
+          "source_ids": [
+            "ml-osiris-ciar-2026-primary-proposal"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Mali national AI safety institute advanced model evaluation government strategy 2026",
+          "source_ids": [
+            "ml-osiris-ciar-2026-primary-proposal",
+            "ml-un-global-dialogue-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "Bambara is a recognised national or official language. The recorded query mixes Bambara terms with French; its translation and coverage were not validated sufficiently to count as adequate national-language verification. The true national_or_official flag records language status, not adequacy. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in French and English; the result links of each query were matched against registered sources in the same way. Under Article 31 of the 2023 Constitution the national languages are the official languages and French is the working language; following the owner's decision for Burkina Faso, the French query of 24 October 2026 counts as a national or official-language search.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration. The mixed national-language/French query is exploratory; adequate national-language coverage was not established.",
+      "governance_source_ids": [
+        "ml-un-global-dialogue-2026"
+      ],
+      "governance_note": "Mali's statement to the UN Global Dialogue on AI Governance in July 2026 says its national strategy for emergence and sustainable development and its national digital-economy policy document make digital innovation, AI included, a central pillar of its economic transformation, and names the state AI and robotics centre and the national digital economy directorate as the spearheads of its national ambition in this field. It names no body to evaluate advanced models."
+    },
+    "source_ids": [
+      "ml-osiris-ciar-2026-primary-proposal",
+      "ml-osiris-ciar-2026",
+      "ml-un-global-dialogue-2026"
+    ],
+    "related_bodies": [
+      {
+        "name": "Centre d'intelligence artificielle et de robotique du Mali (CIAR-Mali)",
+        "role": "It is a public scientific and technological institution for training, research and AI/robotics solutions; no evaluation mandate was described.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "ml-osiris-ciar-2026-primary-proposal"
+        ],
+        "kind": "other",
+        "id": "related_bodies-699d8f5b6ff55399aabbc95b220f8a51",
+        "citations": {
+          "name": [
+            "ml-osiris-ciar-2026-primary-proposal"
+          ],
+          "role": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "ml-osiris-ciar-2026-primary-proposal"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "ml-osiris-ciar-2026-primary-proposal"
+          ]
+        }
+      }
+    ],
+    "notes": "The retained government account of the AI and robotics centre inauguration was read. It describes training, research and applications. The founding ordinance itself was not read; no remit to evaluate advanced models was established. Earlier search results also reported an April 2026 AI forum and a digital-economy policy revision; these remain unverified leads. The national-language query remains unvalidated.",
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 25198821,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "MLI",
+    "m49": "466",
+    "wikidata": "Q912",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "next_check": {
+      "date": "2027-09-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [
+        "ml-un-global-dialogue-2026"
+      ],
+      "related_bodies": [
+        "ml-osiris-ciar-2026-primary-proposal"
+      ],
+      "notes": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "next_check": [],
+      "status": [],
+      "display": [
+        "ml-osiris-ciar-2026-primary-proposal"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ml-osiris-ciar-2026",
+        "ml-osiris-ciar-2026-primary-proposal",
+        "ml-un-global-dialogue-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ml-osiris-ciar-2026",
+      "title": "Mali : un centre public d'intelligence artificielle inauguré près de Bamako",
+      "title_en": "Mali: a public artificial intelligence centre inaugurated near Bamako",
+      "url": "https://osiris.sn/mali-un-centre-public-d-intelligence-artificielle-inaugure-pres-de-bamako.html",
+      "archive_url": "https://web.archive.org/web/20261017034817/https://osiris.sn/mali-un-centre-public-d-intelligence-artificielle-inaugure-pres-de-bamako.html",
+      "excerpts": []
+    },
+    {
+      "id": "ml-osiris-ciar-2026-primary-proposal",
+      "title": "Le Président de la Transition inaugure le Centre d’intelligence artificielle et de robotique du Mali",
+      "title_en": "President of the Transition inaugurates Mali's Centre for Artificial Intelligence and Robotics",
+      "url": "https://gouvernement.ml/souverainete-technologique-le-president-de-la-transition-inaugure-le-centre-dintelligence-artificielle-et-de-robotique-du-mali/",
+      "excerpts": [
+        {
+          "text": "à l’inauguration du Centre d’intelligence artificielle et de robotique du Mali (CIAR-Mali), à Kati Sirakoro Niaré",
+          "gloss": "at the inauguration of Mali's Artificial Intelligence and Robotics Centre (CIAR-Mali), in Kati Sirakoro Niaré",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ml-un-global-dialogue-2026",
+      "title": "Dialogue mondial sur la gouvernance de l'intelligence artificielle, Genève (Suisse), 6–7 juillet 2026: déclaration de la République du Mali",
+      "title_en": "Global Dialogue on AI Governance, Geneva (Switzerland), 6 to 7 July 2026: statement by the Republic of Mali",
+      "url": "https://www.un.org/global-dialogue-ai-governance/sites/default/files/2026-07/52.republic_of_mali.pdf",
+      "excerpts": [
+        {
+          "text": "La Stratégie nationale pour l'Émergence et le Développement durable",
+          "accessed": "2026-10-24",
+          "gloss": "The National Strategy for Emergence and Sustainable Development",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "le Document de Politique nationale de Développement de l’Economie numérique",
+          "accessed": "2026-10-24",
+          "gloss": "the National Policy Document for the Development of the Digital Economy",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "y compris l'IA, un pilier central de notre transformation économique",
+          "accessed": "2026-10-24",
+          "gloss": "including AI, a central pillar of our economic transformation",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "Le Centre d'Intelligence Artificielle et Robotique du Mali, et la Direction nationale de l’Economie numérique",
+          "accessed": "2026-10-24",
+          "gloss": "The Artificial Intelligence and Robotics Centre of Mali and the National Directorate of the Digital Economy",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "de lance de notre ambition nationale dans ce domaine",
+          "accessed": "2026-10-24",
+          "gloss": "(spear)heads of our national ambition in this field",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

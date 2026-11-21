@@ -1,0 +1,324 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "369c310284c313aa7568b21712c64c4fbeb01403",
+      "built": "2026-11-21T17:41:32Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/70",
+  "record": {
+    "id": "BA",
+    "name": "Bosnia and Herzegovina",
+    "institute_id": null,
+    "summary": "No qualifying institute or commitment identified. The Federation development strategy envisages an AI institute for application research. Sarajevo Canton also backed a feasibility study for the Blum computing, AI and robotics institute in 2024. The published mandates concern applied research and economic development, not evaluating advanced models for their capabilities or behaviour risks.",
+    "next_check": {
+      "date": "2028-07-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-17",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English queries did not identify a qualifying national institute or institute-specific commitment. The Federation strategy proposes an AI institute for innovative applications and public-sector and economic development; this is subnational applied-research evidence. The Blum Institute's public mission also concerns applied AI and innovation. The Blum Institute result was read only as a search excerpt. Partial check only; the last full-check date is unchanged. Confidence remains low: The retained Federation strategy is subnational; it does not sufficiently establish the national AI governance set-up."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English and Bosnian for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described a parliamentary AI roadmap and the absence of a dedicated AI authority. Kept low: national primary governance evidence remains limited to the Council of Europe convention process. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "bs",
+          "national_or_official": true,
+          "query": "Bosna Hercegovina institut sigurnost umjetne inteligencije modeli vlada",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Bosnia and Herzegovina\" national AI safety security institute evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Bosnia and Herzegovina\" \"AI\" institute safety government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Bosnia and Herzegovina artificial intelligence strategy institute safety government 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "bs",
+          "national_or_official": true,
+          "query": "Bosna i Hercegovina umjetna inteligencija strategija institut sigurnost Vijeće ministara 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded bs query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in English and Bosnian; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "ba-recheck2-federation-strategy"
+      ],
+      "governance_note": "The Federation development strategy's AI-institute provision concerns innovative applications. This is subnational strategy evidence, not proof about all national institutions. National governance coverage remains insufficient for medium confidence."
+    },
+    "source_ids": [
+      "ba-council-ministers",
+      "ba-recheck2-federation-strategy",
+      "ba-recheck2-blum-proposal",
+      "ba-recheck2-convention"
+    ],
+    "notes": "Read Federation strategy measure 1.1.4 (PDF page 31), the Sarajevo ministry Blum feasibility-study announcement, the 23 May 2024 cantonal proposal cover decision and the national Council of Ministers ratification announcement. The Federation institute would research AI applications across sectors; Blum focuses on health, energy, education and manufacturing. Neither has a retrieved mandate to evaluate advanced models for their capabilities or behaviour risks, and both initiatives are subnational. The Council of Europe convention process is not an institute commitment. The Sarajevo government duplicate returned 502; the ministry version was readable. The 115-page Blum attachment yielded text only for the cover decision, so its remaining pages were not treated as read. Native-language search results were limited and included foreign institutes; no claim of exhaustive coverage. Previous broad-search source retained.",
+    "kind": "state",
+    "status_confidence": "low",
+    "related_bodies": [
+      {
+        "name": "Federation of Bosnia and Herzegovina AI institute envisaged in the 2021-2027 development strategy",
+        "role": "Measure 1.1.4 envisages a federally funded institute researching AI applications with academic, business and public-sector partners; no mandate to evaluate advanced models for their capabilities or behaviour risks was identified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "ba-recheck2-federation-strategy"
+        ],
+        "kind": "other",
+        "id": "related_bodies-1f8f9d411d6c5414b030d8e34ad609ba",
+        "citations": {
+          "name": [],
+          "role": [
+            "ba-recheck2-federation-strategy"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "ba-recheck2-federation-strategy"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "ba-recheck2-federation-strategy"
+          ]
+        }
+      },
+      {
+        "name": "Blum research institute for computer science and engineering, artificial intelligence and autonomous robotic systems",
+        "role": "The 2024 Sarajevo Canton feasibility-study announcement describes applied AI research in health, energy, education and manufacturing. This subnational proposal does not identify a national mandate to evaluate the safety of advanced models.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-c8c4fcf7ad5b55899b30d2c8ec4eb002",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "039",
+      "subregion": "Southern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 3140095,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "iso3": "BIH",
+    "m49": "070",
+    "wikidata": "Q225",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "summary": [],
+      "next_check": [],
+      "check": [],
+      "notes": [],
+      "kind": [],
+      "status_confidence": [],
+      "related_bodies": [
+        "ba-recheck2-federation-strategy"
+      ],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "ba-recheck2-federation-strategy"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ba-council-ministers",
+        "ba-recheck2-federation-strategy",
+        "ba-recheck2-blum-proposal",
+        "ba-recheck2-convention"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ba-council-ministers",
+      "title": "Council of Ministers of Bosnia and Herzegovina, home page",
+      "url": "https://www.vijeceministara.gov.ba/hr",
+      "archive_url": "https://web.archive.org/web/20261017013904/https://www.vijeceministara.gov.ba/hr",
+      "excerpts": []
+    },
+    {
+      "id": "ba-recheck2-blum-proposal",
+      "title": "Sarajevo Canton approves the feasibility study for the Blum research institute",
+      "url": "https://mon.ks.gov.ba/aktuelno/vlada-kantona-sarajevo-dala-saglasnost-na-elaborat-o-opravdanosti-osnivanja",
+      "archive_url": "https://web.archive.org/web/20250515151401/https://mon.ks.gov.ba/aktuelno/vlada-kantona-sarajevo-dala-saglasnost-na-elaborat-o-opravdanosti-osnivanja",
+      "excerpts": []
+    },
+    {
+      "id": "ba-recheck2-convention",
+      "title": "Council of Ministers: 104th session, proposal to ratify the Council of Europe AI Framework Convention",
+      "url": "https://vijeceministara.gov.ba/en/portal/post/council-of-ministers-of-bosnia-and-herzegovina-hodsl-its-104th-session-1772801442489",
+      "excerpts": []
+    },
+    {
+      "id": "ba-recheck2-federation-strategy",
+      "title": "Development Strategy of the Federation of Bosnia and Herzegovina 2021-2027, measure 1.1.4",
+      "url": "https://www.vladazzh.com/Dokumenti/ZPP/strategija-razvoja-fbih-2021-2027_bos.pdf",
+      "archive_url": "https://web.archive.org/web/20250913175103/https://www.vladazzh.com/Dokumenti/ZPP/strategija-razvoja-fbih-2021-2027_bos.pdf",
+      "excerpts": [
+        {
+          "text": "Razvijati inovativna rješenja u oblasti vještačke inteligencije putem Instituta i platforme za",
+          "gloss": "Develop innovative AI solutions through an institute and platform.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

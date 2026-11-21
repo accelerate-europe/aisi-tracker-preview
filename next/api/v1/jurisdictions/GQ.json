@@ -1,0 +1,449 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "369c310284c313aa7568b21712c64c4fbeb01403",
+      "built": "2026-11-21T17:49:54Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/164",
+  "record": {
+    "id": "GQ",
+    "name": "Equatorial Guinea",
+    "summary": "No qualifying institute identified. The government reports a Secretary of State responsible for AI Systems within the transport ministry; a draft AI bill remains unconfirmed.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. No qualifying institute was identified. The retrieved UNESCO account identifies government participation through a ministry with AI in its portfolio at a green-digital event; it does not describe a national model-evaluation mandate. The government ministry page remained JavaScript-only and the attempt to retrieve a text copy failed. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in Spanish and English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; Spanish and English searches returned no Equatorial Guinea results on an AI law, strategy or body, only material on Ecuador and on Guinea. Retrieved the presidential decree appointing the Secretary of State responsible for AI systems as new primary governance evidence, found by the independent review. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Confirmed from Decree 61/2026 (the official Boletín Oficial copy and the government press text) that Óscar Ondo Ngomo was appointed Secretary of State responsible for AI Systems; government press of 7 July 2026 reports him taking office. No later replacement, adopted AI law or evaluation body found; the Boletín Oficial's search needs a browser. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "es",
+          "national_or_official": true,
+          "query": "\"Guinea Ecuatorial\" instituto seguridad inteligencia artificial",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Equatorial Guinea national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "Guinea Ecuatorial inteligencia artificial ley proyecto gobierno Secretaría de Estado Sistemas de Inteligencia Artificial 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Equatorial Guinea AI safety institute evaluation advanced models government 2026",
+          "source_ids": [
+            "fix-output-international-safety-report-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "guineaecuatorialpress.com inteligencia artificial Óscar Ondo Ngomo",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "\"Guinea Ecuatorial\" \"inteligencia artificial\" anteproyecto ley OR estrategia nacional gobierno Malabo 2026",
+          "source_ids": [
+            "gn-ecofin-2025"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded es query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in Spanish and English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: The Lawyers Hub desk-research profile was read, but independence of its underlying citations from the paired national or press source was not verified. It is not counted as a second evidence origin. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence.",
+      "governance_source_ids": [
+        "gq-decreto-61-2026",
+        "r3-gq-government-ministry-2026"
+      ],
+      "governance_note": "A June 2026 presidential decree appoints a Secretary of State in the Ministry of Transport, Telecommunications and Civil Aviation responsible for artificial intelligence systems, and the government's account of 30 June 2026 names him in that role. Neither describes an AI strategy, law or body to evaluate advanced models."
+    },
+    "source_ids": [
+      "r3-gq-government-ministry-2026",
+      "gq-unesco-malabo-2026",
+      "gq-aipolicy-2026",
+      "gq-decreto-61-2026"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Transport, Telecommunications and Civil Aviation",
+        "role": "It includes a Secretary of State responsible for AI Systems, according to the government's June 2026 account; no mandate to evaluate advanced models was identified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "r3-gq-government-ministry-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-9a3e9c62190f524bbb6726d0ff552011",
+        "citations": {
+          "name": [
+            "r3-gq-government-ministry-2026"
+          ],
+          "role": [
+            "r3-gq-government-ministry-2026"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "r3-gq-government-ministry-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "r3-gq-government-ministry-2026"
+          ]
+        }
+      },
+      {
+        "name": "ARCGEM",
+        "role": "It is a telecom regulator; it has no AI mandate.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-77fbe0b67f595964b0b6eddc6ef3fa35",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "notes": "The June 2026 government account names the Ministry of Transport, Telecommunications and Civil Aviation and a Secretary of State responsible for AI Systems; Decree 61/2026 of 23 June 2026 appoints Óscar Ondo Ngomo to that office. UNESCO names the Ministry of Transport, Telecommunications and Artificial Intelligence Systems; this differs from the government account, and the titles have not been reconciled. No primary confirmation of the draft AI bill or an evaluation institute was retrieved. Earlier searches covered Spanish, French and English; only the Spanish query is retained in the structured search log.",
+    "next_check": {
+      "date": "2027-03-31",
+      "reason": "Check for the digital economy strategy and any AI bill."
+    },
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 1938431,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "GNQ",
+    "m49": "226",
+    "wikidata": "Q983",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [
+        "r3-gq-government-ministry-2026",
+        "gq-decreto-61-2026"
+      ],
+      "related_bodies": [
+        "r3-gq-government-ministry-2026"
+      ],
+      "notes": [
+        "gq-unesco-malabo-2026",
+        "r3-gq-government-ministry-2026",
+        "gq-decreto-61-2026"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "gq-unesco-malabo-2026",
+        "r3-gq-government-ministry-2026",
+        "gq-decreto-61-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "gq-aipolicy-2026",
+        "gn-ecofin-2025",
+        "gq-unesco-malabo-2026",
+        "ov-wikipedia",
+        "fix-output-international-safety-report-2026",
+        "r3-gq-government-ministry-2026",
+        "gq-decreto-61-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "fix-output-international-safety-report-2026",
+      "title": "International AI Safety Report 2026",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "excerpts": []
+    },
+    {
+      "id": "gn-ecofin-2025",
+      "title": "Guinea validates 10-year national AI roadmap",
+      "url": "https://www.ecofinagency.com/news-digital/2212-51603-guinea-validates-10-year-national-ai-roadmap",
+      "archive_url": "https://web.archive.org/web/20260215200842/https://www.ecofinagency.com/news-digital/2212-51603-guinea-validates-10-year-national-ai-roadmap",
+      "excerpts": []
+    },
+    {
+      "id": "gq-aipolicy-2026",
+      "title": "Country Profile on AI Governance: Equatorial Guinea (Africa AI Governance Index 2026, v1.2)",
+      "url": "https://www.aipolicy.africa/country-profiles/equatorial-guinea",
+      "archive_url": "https://web.archive.org/web/20261017033101/https://www.aipolicy.africa/country-profiles/equatorial-guinea",
+      "excerpts": []
+    },
+    {
+      "id": "gq-decreto-61-2026",
+      "title": "Decreto Núm. 61/2026, de fecha 23 de junio, por el que se Nombra Secretarios de Estado en los Departamentos Ministeriales",
+      "title_en": "Decree No. 61/2026 of 23 June appointing Secretaries of State in the ministerial departments",
+      "url": "https://boe.gob.gq/files/Decreto%20Nombramientos%20de%20Secretarios%20de%20Estado.pdf",
+      "excerpts": [
+        {
+          "text": "Encargado de Sistemas de Inteligencia Artificial",
+          "accessed": "2026-11-09",
+          "gloss": "Responsible for Artificial Intelligence Systems",
+          "url": "https://www.guineaecuatorialpress.com/noticias/decreto_presidencial_de_nombramiento_de_los_secretarios_de_estado",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-09",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "Secretario de Estado del Ministerio de Transportes, Telecomunicaciones y Aviación Civil, Encargado de Sistemas de Inteligencia Artificial",
+          "accessed": "2026-11-09",
+          "gloss": "Secretary of State of the Ministry of Transport, Telecommunications and Civil Aviation, responsible for Artificial Intelligence Systems",
+          "url": "https://www.guineaecuatorialpress.com/noticias/decreto_presidencial_de_nombramiento_de_los_secretarios_de_estado",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-09",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "Óscar Ondo Ngomo",
+          "accessed": "2026-11-09",
+          "url": "https://www.guineaecuatorialpress.com/noticias/decreto_presidencial_de_nombramiento_de_los_secretarios_de_estado",
+          "gloss": "Óscar Ondo Ngomo (the office holder named in item 16)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-09",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gq-unesco-malabo-2026",
+      "title": "ITU and UNESCO strengthen collaboration on green digital transformation in Equatorial Guinea",
+      "url": "https://www.unesco.org/en/articles/itu-and-unesco-strengthen-collaboration-green-digital-transformation-equatorial-guinea",
+      "archive_url": "https://web.archive.org/web/20261017034123/https://www.unesco.org/en/articles/itu-and-unesco-strengthen-collaboration-green-digital-transformation-equatorial-guinea",
+      "excerpts": [
+        {
+          "text": "Organized by ITU and the Ministry of Transport, Telecommunications and Artificial Intelligence Systems of the Republic of Equatorial Guinea",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "r3-gq-government-ministry-2026",
+      "title": "Impulso positivo en el Ministerio de Transportes, Telecomunicaciones y Aviación Civil",
+      "title_en": "Positive momentum in the Ministry of Transport, Telecommunications and Civil Aviation",
+      "url": "https://www.guineaecuatorialpress.com/noticias/impulso_positivo_en_el_ministerio_de_transportes_telecomunicaciones_y_aviacion_civil",
+      "excerpts": [
+        {
+          "text": "Secretario de Estado Encargado de Sistemas de Inteligencia Artificial, Óscar Ondo Ngomo",
+          "accessed": "2026-10-17",
+          "gloss": "Secretary of State responsible for Artificial Intelligence Systems, Óscar Ondo Ngomo.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/0/role",
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "El Ministerio de Transportes, Telecomunicaciones y Aviación Civil ha iniciado este lunes una nueva etapa.",
+          "accessed": "2026-10-17",
+          "gloss": "The Ministry of Transport, Telecommunications and Civil Aviation began a new stage this Monday.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name",
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

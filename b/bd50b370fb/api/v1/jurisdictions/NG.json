@@ -1,0 +1,300 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "bd50b370fb214b2b0e8385fb3220bf8e1226c6a1",
+      "built": "2026-11-21T14:35:33Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/178",
+  "record": {
+    "id": "NG",
+    "name": "Nigeria",
+    "kind": "state",
+    "summary": "No qualifying institute identified. The September 2025 National AI Strategy proposes an AI ethics commission and governance structures, but no safety institute.",
+    "related_bodies": [
+      {
+        "name": "National Centre for AI and Robotics (NCAIR), NITDA",
+        "role": "It is a NITDA research and innovation centre for AI and other emerging technologies; no advanced-AI-model evaluation mandate was identified.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-b8fd48df28b75e5589903c3d98733d7b",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-10-16",
+      "reason": "Routine yearly re-check of a state where an institute is plausible (in Europe, the G20 or the OECD, or a signatory of the Bletchley Declaration)."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described NITDA-led oversight and a pending bill. Reviewed the national strategy as primary governance evidence. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "site.nitda.gov.ng \"artificial intelligence\" \"responsible\"",
+          "source_ids": [
+            "negative-second-ng-2026",
+            "ng-nais-2025"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "site.ncair.nitda.gov.ng \"mandate\"",
+          "source_ids": [
+            "negative-second-ng-2026",
+            "ng-nais-2025"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Nigeria AI safety institute government",
+          "source_ids": [
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "site.gov.ng artificial intelligence safety evaluation institute",
+          "source_ids": [
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Nigeria national AI safety institute evaluation advanced models NITDA government 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Some submitted strings contain site. rather than site:; these literal strings are preserved and are not treated as domain-restricted searches. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: NG-extra-search = searches 1, 2 (en, en); NG-search = searches 3, 4 (en, en). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger. On 24 October 2026 the record was searched again in English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "ng-nais-2025"
+      ],
+      "governance_note": "The September 2025 National AI Strategy plans an independent AI governance regulatory body to oversee the national AI principles and compliance with ethical standards. No body in it is given a remit to evaluate advanced models for their capabilities or behaviour risks."
+    },
+    "source_ids": [
+      "ng-nais-2025",
+      "negative-second-ng-2026"
+    ],
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 237527782,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "NGA",
+    "m49": "566",
+    "wikidata": "Q1033",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "notes": "NITDA describes responsible AI adoption, sovereignty and innovation. Government designation of the private Responsible AI Governance Institute was not verified in the retrieved sources. English-language searches for a government-designated AI safety institute with a remit to evaluate advanced models included a separate search of gov.ng.",
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [],
+      "related_bodies": [],
+      "next_check": [],
+      "check": [
+        "ng-nais-2025"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "notes": [
+        "negative-second-ng-2026"
+      ],
+      "status": [],
+      "display": [
+        "negative-second-ng-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ng-nais-2025",
+        "ov-wikipedia",
+        "negative-second-ng-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "negative-second-ng-2026",
+      "title": "NITDA Leads Push for Responsible AI Adoption as Nigeria Moves from Policy to Progress – NITDA",
+      "url": "https://nitda.gov.ng/nitda-leads-push-for-responsible-ai-adoption-as-nigeria-moves-from-policy-to-progress/9608/",
+      "excerpts": [
+        {
+          "text": "responsible AI adoption, digital sovereignty, and homegrown innovation.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ng-nais-2025",
+      "title": "National Artificial Intelligence Strategy, September 2025",
+      "url": "https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf",
+      "archive_url": "https://web.archive.org/web/20261011173058/https://ncair.nitda.gov.ng/wp-content/uploads/2025/09/National-Artificial-Intelligence-Strategy-19092025.pdf",
+      "excerpts": [
+        {
+          "text": "This independent body will oversee the implementation of the National AI Principles, ensure compliance with ethical standards, and mediate potential disputes.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

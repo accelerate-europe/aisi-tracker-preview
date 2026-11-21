@@ -1,0 +1,259 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "d0b9434a96d7106acd94ff669f996665b8c47f91",
+      "built": "2026-11-21T19:13:43Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/173",
+  "record": {
+    "id": "MU",
+    "name": "Mauritius",
+    "kind": "state",
+    "summary": "No qualifying institute identified. The AI strategy and FAIR Guidelines were launched on 9 April 2026; the strategy also plans regulatory sandboxes and sectoral AI Centres of Excellence with testing and evaluation facilities.",
+    "related_bodies": [
+      {
+        "name": "AI Unit, Ministry of Information Technology, Communication and Innovation",
+        "role": "It leads the national AI strategy; it is a policy unit, and no model evaluation mandate was found.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "mu-ai-launch-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-a9d41d460c2353b89d3891f779f9e18a",
+        "citations": {
+          "name": [],
+          "role": [
+            "mu-ai-launch-2026"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "mu-ai-launch-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "mu-ai-launch-2026"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-10-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Mauritius\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Mauritius national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "mu-ai-launch-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "mu-ai-launch-2026"
+      ],
+      "governance_note": "The government launch account identifies the AI Unit, national AI strategy and FAIR guidelines as the governance framework for responsible adoption."
+    },
+    "source_ids": [
+      "mu-ai-strategy-2026",
+      "mu-ai-launch-2026"
+    ],
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 1243741,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "MUS",
+    "m49": "480",
+    "wikidata": "Q1027",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [],
+      "related_bodies": [
+        "mu-ai-launch-2026"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "mu-ai-launch-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "mu-ai-strategy-2026",
+        "mu-ai-launch-2026",
+        "ov-wikipedia",
+        "gb-approach-2024"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "mu-ai-launch-2026",
+      "title": "National AI Strategy and FAIR Guidelines unveiled",
+      "url": "https://govmu.org/EN/newsgov/SitePages/National-AI-Strategy-and-FAIR-Guidelines-unveiled-to-position-Mauritius-as-a-high-tech%2C-innovation-driven-econ.aspx",
+      "archive_url": "https://web.archive.org/web/20261012111749/https://govmu.org/EN/newsgov/SitePages/National-AI-Strategy-and-FAIR-Guidelines-unveiled-to-position-Mauritius-as-a-high-tech%2C-innovation-driven-econ.aspx",
+      "excerpts": [
+        {
+          "text": "the AI Unit has spearheaded the development of the National Artificial Intelligence (AI) Strategy and the FAIR Guidelines",
+          "url": "https://r.jina.ai/https://govmu.org/EN/newsgov/SitePages/National-AI-Strategy-and-FAIR-Guidelines-unveiled-to-position-Mauritius-as-a-high-tech%2C-innovation-driven-econ.aspx",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mu-ai-strategy-2026",
+      "title": "National AI Strategy",
+      "url": "https://aim.govmu.org/aim/assets/documents/aistrategy.pdf?v=1786634214",
+      "archive_url": "https://web.archive.org/web/20260827231721if_/https://aim.govmu.org/aim/wp-content/uploads/2026/04/aistrategy.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

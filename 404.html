@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Preview not found</title><style>
+:root { color-scheme: light; --ground: #FAF7F2; --ink: #1A1A1A; --muted: #6E6760; --link: #8F5A23; --accent: #BE773D; --line: #E8E3DD; }
+@media (prefers-color-scheme: dark) { :root { color-scheme: dark; --ground: #17191A; --ink: #F3F0EB; --muted: #B0ADA7; --link: #E9AA79; --accent: #E9AA79; --line: #2A2D2F; } }
+body { margin: 0; background: var(--ground); color: var(--ink); font: 1rem/1.5 "Segoe UI", Arial, sans-serif; }
+main { box-sizing: border-box; max-width: var(--pv-measure); margin-inline: auto; padding: 1.5rem var(--pv-gutter) 3rem; overflow-wrap: anywhere; }
+a { color: var(--link); text-underline-offset: .2em; }
+td, th { text-align: left; vertical-align: top; padding: .5rem .5rem .5rem 0; border-bottom: 1px solid var(--line); }
+table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+
+.preview-banner { box-sizing: border-box; margin: 0; color: var(--ink, inherit);
+  background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas));
+  border-bottom: 1px solid color-mix(in srgb, var(--accent, #BE773D) 45%, var(--ground, Canvas));
+  font: var(--type-meta, .875rem/1.5 "Segoe UI", Arial, sans-serif); text-align: left; }
+.preview-banner .pv-col { box-sizing: border-box; max-width: var(--pv-measure); margin-inline: auto; padding-inline: var(--pv-gutter); }
+.preview-banner .measure, .preview-banner .pv-col { container: pv / inline-size; }
+.preview-banner .pv-row { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; grid-template-areas: "title id actions";
+  column-gap: var(--sp-4, 1rem); align-items: baseline; padding-block: var(--sp-2, .5rem); }
+.preview-banner .pv-title { grid-area: title; font-weight: 600; white-space: nowrap; }
+.preview-banner .pv-id { grid-area: id; color: var(--muted, inherit); display: flex; min-width: 0; white-space: nowrap; }
+.preview-banner .pv-branch { overflow: hidden; text-overflow: ellipsis; min-width: 2ch; flex: 0 1 auto; }
+.preview-banner .pv-build { flex: none; }
+.preview-banner .pv-actions { grid-area: actions; display: flex; gap: var(--sp-4, 1rem); align-items: baseline; white-space: nowrap; }
+.preview-banner .pv-toggle { font: inherit; color: var(--link, LinkText); background: none; border: 0; padding: 0; margin: 0; cursor: pointer;
+  text-decoration: underline; text-decoration-thickness: var(--underline-width, auto); text-underline-offset: var(--underline-offset, .2em);
+  text-decoration-color: var(--underline-colour, currentColor); }
+.preview-banner .pv-toggle::after { content: " +"; }
+.preview-banner .pv-toggle[aria-expanded="true"]::after { content: " \2212"; }
+.preview-banner .pv-toggle:focus-visible { outline: 2px solid var(--focus, var(--link, currentColor)); outline-offset: 2px; }
+.preview-banner .pv-details { list-style: none; margin: 0; padding: 0 0 var(--sp-2, .5rem); }
+.preview-banner .pv-details[hidden] { display: none; }
+/* Preview chrome inside the page: what the preview adds or replaces, in the band's look, so page and preview stay
+   distinguishable. */
+.cite.pv-chrome, .pv-draft-note.pv-chrome { background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas)); padding-block: var(--sp-2, .5rem); user-select: auto; }
+/* The marker: once the band has scrolled away, one short fixed line in the corner keeps the build identifiable on
+   screen and in screenshots. Nothing else on the page is fixed there (the theme switch is in the header). */
+.preview-banner .pv-marker { position: fixed; right: max(var(--sp-4, 1rem), env(safe-area-inset-right)); bottom: max(var(--sp-4, 1rem), env(safe-area-inset-bottom));
+  z-index: 40; display: inline-flex; align-items: baseline; max-width: min(60vw, 20rem); box-sizing: border-box; margin: 0;
+  padding: .125rem var(--sp-3, .75rem); border: 1px solid color-mix(in srgb, var(--accent, #BE773D) 45%, var(--ground, Canvas)); border-radius: 999px;
+  background: color-mix(in srgb, var(--accent, #BE773D) 12%, var(--ground, Canvas)); color: var(--ink, CanvasText);
+  font: var(--type-meta, .875rem/1.5 "Segoe UI", Arial, sans-serif); white-space: nowrap; cursor: pointer; }
+.preview-banner .pv-marker[hidden], .preview-banner .pv-marker.pv-away { display: none; }
+.preview-banner .pv-marker:focus-visible { outline: 2px solid var(--focus, var(--link, currentColor)); outline-offset: 2px; }
+@media print { .preview-banner .pv-marker { display: none; } }
+@container pv (max-width: 40rem) {
+  .preview-banner .pv-row { grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "title actions" "id id"; }
+  .preview-banner .pv-actions { justify-self: end; }
+}
+</style></head><body style="--pv-measure: 75rem; --pv-gutter: 1.5rem"><header class="preview-banner"><div class="pv-col"><div class="pv-row"><span class="pv-title">Preview, not published</span><span class="pv-id">Previews of the AISI tracker</span></div></div></header><main><h1 id="missing">Preview not found</h1><p id="commit"></p><p><a href="/aisi-tracker-preview/">Preview index</a> · <a href="/aisi-tracker-preview/next/">next</a></p></main><script>
+const match = location.pathname.match(/\/b\/([0-9a-f]{10})(?:\/|$)/);
+if (match) {
+  document.getElementById('missing').textContent = 'This frozen build was removed';
+  const link = document.createElement('a');
+  link.href = 'https://github.com/accelerate-europe/aisi-tracker/commit/' + match[1];
+  link.textContent = match[1]; document.getElementById('commit').append(link);
+}
+</script></body></html>

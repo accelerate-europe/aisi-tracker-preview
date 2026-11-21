@@ -1,0 +1,341 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "0023bc7dcb8406118bb01106d66839ed0eaed2e4",
+      "built": "2026-11-21T14:22:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/63",
+  "record": {
+    "id": "TV",
+    "name": "Tuvalu",
+    "summary": "No qualifying institute or commitment identified. The government 2021 ICT policy recognises AI applications and proposes a computer emergency response team for cyber threats; these do not establish an institute to evaluate advanced models.",
+    "related_bodies": [
+      {
+        "name": "Tuvalu Computer Emergency Response Team (proposed in the 2021 ICT policy)",
+        "role": "The 2021 policy proposes a cyber task force.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "tv-recheck2-ict-policy-2021"
+        ],
+        "kind": "other",
+        "id": "related_bodies-ee71c79e9eeb561784841f46c7837bc3",
+        "citations": {
+          "name": [],
+          "role": [
+            "tv-recheck2-ict-policy-2021"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "tv-recheck2-ict-policy-2021"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "tv-recheck2-ict-policy-2021"
+          ]
+        }
+      },
+      {
+        "name": "Pacific Islands Forum (regional AI principles and planned governance framework)",
+        "role": "Leaders endorsed regional AI principles in September 2026 and a regional AI Governance Framework is to be considered in 2027; this is a regional process, not a national body.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-bf93d326854758808672ba36a426be5c",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-04-30",
+      "reason": "Whether a national AI strategy or any national AI evaluation body is adopted."
+    },
+    "check": {
+      "last_checked": "2026-10-17",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the Digital Nation programme, the Vaka cable and the regional AI principles. Kept low: no primary source from the jurisdiction describing its AI governance set-up was found; the cited ICT and digital documents mention AI only in passing or not at all. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Tuvalu\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Tuvalu national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "ov-wikipedia",
+            "catalogue-jp-18-3"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Tuvalu artificial intelligence policy government 2026",
+          "source_ids": [
+            "eap-pina-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Tuvalu AI safety institute evaluation advanced AI models government",
+          "source_ids": [
+            "gb-approach-2024"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Tuvalu Ministry of Transport Energy Communications artificial intelligence digital nation AI 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. On 24 October 2026 the record was searched again in English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration."
+    },
+    "source_ids": [
+      "tv-recheck2-ict-policy-2021",
+      "recheck-eap-undp-pacific-2026",
+      "recheck-eap-pina-leaders-2026",
+      "eap-pina-2026"
+    ],
+    "notes": "Indexed Tuvaluan text uses the English term artificial intelligence, but no national institute source emerged; this remains limited local-language coverage. Read the Finance Ministry-hosted National ICT Policy 2021 (https://finance.gov.tv/wp-content/uploads/2022/08/National-ICT-Policy-2021.pdf), sections 6.4.4 and 6.5, including \"ESTABLISH A TUVALU COMPUTER EMERGENCY RESPONSE TEAM (CERT)\". This is a cyber-response proposal, not a qualifying AI institute. The newer ICT Department PDF (https://ict.gov.tv/wp-content/uploads/2025/01/Tuvalu-National-ICT-Policy_final-y.pdf), its discovered 2024/11 version and https://ict.gov.tv/policies/ failed direct opening; one attempt to retrieve a text copy for the 2025 PDF and one for the policies page also failed. The older document is not treated as the latest policy. No qualifying institute, commitment, formal proposal or government study of that option identified.",
+    "kind": "state",
+    "status_confidence": "low",
+    "region": {
+      "id": "009",
+      "name": "Oceania",
+      "subregion_id": "061",
+      "subregion": "Polynesia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 9492,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "iso3": "TUV",
+    "m49": "798",
+    "wikidata": "Q672",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "related_bodies": [
+        "tv-recheck2-ict-policy-2021"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [],
+      "kind": [],
+      "status_confidence": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "tv-recheck2-ict-policy-2021"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "eap-pina-2026",
+        "recheck-eap-undp-pacific-2026",
+        "recheck-eap-pina-leaders-2026",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "tv-recheck2-ict-policy-2021",
+        "catalogue-jp-18-3"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "catalogue-jp-18-3",
+      "title": "Guide to Evaluation Perspectives on AI Safety, version 1.10",
+      "url": "https://aisi.go.jp/assets/pdf/ai_safety_eval_v1.10_en.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "eap-pina-2026",
+      "title": "Pacific Ministers back AI rules and safer digital spaces as connectivity expands",
+      "url": "https://pina.com.fj/2026/08/14/pacific-ministers-back-ai-rules-and-safer-digital-spaces-as-connectivity-expands/",
+      "archive_url": "https://web.archive.org/web/20260831144102/https://pina.com.fj/2026/08/14/pacific-ministers-back-ai-rules-and-safer-digital-spaces-as-connectivity-expands/",
+      "excerpts": []
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-eap-pina-leaders-2026",
+      "title": "Pacific Islands Forum leaders endorse Pacific Digital and AI Technology Principles",
+      "url": "https://pina.com.fj/2026/09/06/pacific-leaders-set-ai-rules-push-stronger-digital-connectivity/",
+      "archive_url": "https://web.archive.org/web/20261017010351/https://pina.com.fj/2026/09/06/pacific-leaders-set-ai-rules-push-stronger-digital-connectivity/",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-eap-undp-pacific-2026",
+      "title": "The Pacific's Stake in Shaping AI's Future",
+      "url": "https://www.undp.org/pacific/blog/pacifics-stake-shaping-ais-future",
+      "archive_url": "https://web.archive.org/web/20261017010213/https://www.undp.org/pacific/blog/pacifics-stake-shaping-ais-future",
+      "excerpts": []
+    },
+    {
+      "id": "tv-recheck2-ict-policy-2021",
+      "title": "Tuvalu National ICT Policy 2021",
+      "url": "https://finance.gov.tv/wp-content/uploads/2022/08/National-ICT-Policy-2021.pdf",
+      "archive_url": "https://web.archive.org/web/20250822120434if_/https://finance.gov.tv/wp-content/uploads/2022/08/National-ICT-Policy-2021.pdf",
+      "excerpts": [
+        {
+          "text": "The Government will form a cyber taskforce",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "9eae2116aa13c45039646e9027324b49aef4487d",
+      "built": "2026-11-21T17:08:48Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/102",
+  "record": {
+    "id": "GT",
+    "name": "Guatemala",
+    "summary": "No qualifying institute identified. A UNDP-supported landscape assessment scored Guatemala 2.0 out of 5, and a national AI strategy is to be co-created in 2026 with UNDP, UNESCO and SENACYT.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English searches returned the government-led national strategy co-creation process and the AILA landscape assessment. The cached Commission GAE account organises work around the AI ecosystem, government use, regulation and ethics. Readiness/landscape assessment evaluates the national ecosystem rather than frontier models; no qualifying institute-specific proposal was found. Partial check only; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "es",
+          "national_or_official": true,
+          "query": "\"Guatemala\" instituto seguridad inteligencia artificial",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Guatemala national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [
+            "gt-undp-aila-primary-proposal"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Guatemala\" \"AI safety\" institute government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded es query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "gt-undp-aila-primary-proposal"
+      ],
+      "governance_note": "GAE's government account describes a multisector AI-policy dialogue with UNDP support and UNDP's presentation of the AI Landscape Assessment."
+    },
+    "source_ids": [
+      "gt-undp-aila-primary-proposal",
+      "gt-undp-aila"
+    ],
+    "related_bodies": [
+      {
+        "name": "Comision Presidencial de Gobierno Abierto y Electronico (GAE)",
+        "role": "GAE's own account describes a multisector AI-policy dialogue with UNDP support and UNDP's presentation of the AI Landscape Assessment; no mandate to evaluate advanced models was identified in the retrieved material.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "gt-undp-aila-primary-proposal",
+          "gt-undp-aila"
+        ],
+        "kind": "other",
+        "id": "related_bodies-fdc5b8cadb685c978241fe08fd319e4b",
+        "citations": {
+          "name": [],
+          "role": [
+            "gt-undp-aila",
+            "gt-undp-aila-primary-proposal"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "gt-undp-aila",
+            "gt-undp-aila-primary-proposal"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "gt-undp-aila",
+            "gt-undp-aila-primary-proposal"
+          ]
+        }
+      },
+      {
+        "name": "SENACYT",
+        "role": "It leads AI strategy work as a science and technology secretariat. No evaluation mandate was found.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-f9499c734ce859488fc0183a326320e4",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "notes": "The UN page (secondary) says regulation and governance are weak and a national strategy is to be co-created in 2026. A press report seen in search results gave a timetable (executive strategy in late November or December 2026; national policy in the first quarter of 2027, lead institution not decided); this is unverified and was not opened.",
+    "next_check": {
+      "date": "2027-02-16",
+      "reason": "Check whether the government AI strategy has been published."
+    },
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 18687881,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "GTM",
+    "m49": "320",
+    "wikidata": "Q774",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [],
+      "related_bodies": [
+        "gt-undp-aila",
+        "gt-undp-aila-primary-proposal"
+      ],
+      "notes": [],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "gt-undp-aila",
+        "gt-undp-aila-primary-proposal"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "gt-undp-aila",
+        "gt-undp-aila-primary-proposal"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "gt-undp-aila",
+      "title": "Guatemala advances toward inclusive and responsible use of artificial intelligence",
+      "url": "https://jointsdgfund.org/article/guatemala-advances-toward-inclusive-and-responsible-use-artificial-intelligence",
+      "archive_url": "https://web.archive.org/web/20260516053147/https://jointsdgfund.org/article/guatemala-advances-toward-inclusive-and-responsible-use-artificial-intelligence",
+      "excerpts": [
+        {
+          "text": "the Presidential Commission for Open and Electronic Government (GAE), with support from the United Nations Development Programme (UNDP), launched the AI Landscape Assessment",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gt-undp-aila-primary-proposal",
+      "title": "Evaluación del Panorama de IA (AILA) para Guatemala",
+      "title_en": "AI Landscape Assessment (AILA) for Guatemala",
+      "url": "https://gae.gob.gt/evaluacion-del-panorama-de-ia-aila-para-guatemala/",
+      "excerpts": [
+        {
+          "text": "El PNUD presentó la Evaluación del Panorama de IA (AILA)",
+          "accessed": "2026-10-17",
+          "gloss": "UNDP presented the AI Landscape Assessment (AILA).",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

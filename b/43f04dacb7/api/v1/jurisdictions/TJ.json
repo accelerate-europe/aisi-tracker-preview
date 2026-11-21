@@ -1,0 +1,302 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "43f04dacb7fa26c7bbe592d556680b2f9b1cf271",
+      "built": "2026-11-21T14:47:55Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/82",
+  "record": {
+    "id": "TJ",
+    "name": "Tajikistan",
+    "institute_id": null,
+    "summary": "No qualifying institute or commitment identified. The AI strategy covers economic adoption, regulation and coordination. A university Institute of Digital Technologies and Artificial Intelligence was created in March 2026 for specialist education; a regional AI centre in the IT Hub Dushanbe project is planned for research, model training and infrastructure. No mandate to evaluate advanced models for their capabilities or behaviour risks was found for either.",
+    "next_check": {
+      "date": "2028-10-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-17",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English results concern national AI development, education, research infrastructure and safe-AI diplomacy. The existing amended strategy provisions describe development and coordination. The university institute and regional AI-centre proposals remain teaching, research and model-training infrastructure without a retrieved mandate to evaluate advanced models for severe risks. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "tg",
+          "national_or_official": true,
+          "query": "Тоҷикистон институти бехатарии зеҳни сунъӣ ҳукумат",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Tajikistan national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Tajikistan\" \"AI safety\" institute government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded tg query uses a national or official language selected for this country-specific check. Indexed results were sparse or noisy; the recorded language search does not establish complete coverage. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "tj-recheck2-strategy-2040"
+      ],
+      "governance_note": "The national AI strategy's institutional, coordination and standards provisions were retrieved; the teaching institute and regional centre are not established as evaluators of advanced models."
+    },
+    "source_ids": [
+      "tj-president-home",
+      "tj-recheck2-strategy-2040",
+      "tj-recheck2-teaching-institute",
+      "tj-recheck2-regional-ai-centre"
+    ],
+    "notes": "Read the Russian AI strategy institutional provisions (paragraphs 33 and 45-51), the university explanation of the 10 March 2026 creation decree, and the Tajik official publication on the 9 June 2026 IT Hub groundbreaking. The latter describes model training and regional research infrastructure, not evaluation of frontier-model risks. Also read the University of Innovation and Digital Technologies English article on the proposed international day for safe AI; it describes diplomacy and educational priorities, not an AISI. No institute-specific safety study found. The strategy copy includes its January 2025 amendment; it is not evidence that all listed institutional actions have been completed. Previous broad-search source retained.",
+    "kind": "state",
+    "status_confidence": "medium",
+    "related_bodies": [
+      {
+        "name": "Institute of Digital Technologies and Artificial Intelligence, International University of Tourism and Entrepreneurship of Tajikistan",
+        "role": "It was established by government resolution on 10 March 2026 as a university educational institution for specialist training; no national mandate to evaluate the safety of advanced models was identified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "tj-recheck2-teaching-institute"
+        ],
+        "kind": "other",
+        "id": "related_bodies-80e96e8fbff750a291e31aa275f2c8d1",
+        "citations": {
+          "name": [],
+          "role": [
+            "tj-recheck2-teaching-institute"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "tj-recheck2-teaching-institute"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "tj-recheck2-teaching-institute"
+          ]
+        }
+      },
+      {
+        "name": "Regional Artificial Intelligence Centre, IT Hub Dushanbe (planned)",
+        "role": "The June 2026 official announcement describes research laboratories, specialist training, model training and data infrastructure; no mandate to evaluate advanced models for their capabilities or behaviour risks was identified.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-4dcc643b7dc157aeb8415e2842419cbb",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "Agency of Innovation and Digital Technologies under the President of Tajikistan",
+        "role": "The amended AI strategy identifies the agency as the public authority for digital technologies and the digital economy; general coordination and regulatory functions do not establish an AISI.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-9c5fa69247965495b00e812f5907ffef",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "143",
+      "subregion": "Central Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 10786734,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "iso3": "TJK",
+    "m49": "762",
+    "wikidata": "Q863",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "summary": [],
+      "next_check": [],
+      "check": [],
+      "notes": [],
+      "kind": [],
+      "status_confidence": [],
+      "related_bodies": [
+        "tj-recheck2-teaching-institute"
+      ],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "tj-recheck2-teaching-institute"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "tj-president-home",
+        "tj-recheck2-strategy-2040",
+        "tj-recheck2-teaching-institute",
+        "tj-recheck2-regional-ai-centre"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "tj-president-home",
+      "title": "President of Tajikistan, home page",
+      "url": "https://www.president.tj/",
+      "archive_url": "https://web.archive.org/web/20261001151838/https://www.president.tj/",
+      "excerpts": []
+    },
+    {
+      "id": "tj-recheck2-regional-ai-centre",
+      "title": "Rustam Emomali lays the foundation for the regional AI centre",
+      "url": "https://jumhuriyat.tj/8549-rustami-jemomal-markazi-mintaavii-zeni-suniro-sangi-asos-guzosht.html",
+      "excerpts": []
+    },
+    {
+      "id": "tj-recheck2-strategy-2040",
+      "title": "AI Development Strategy to 2040, government resolution 483 of 30 September 2022, amended 31 January 2025",
+      "url": "https://egov.tj/uploads/2025/9/25/db29ff250e97ee01de3339e6bf2423e6_original.144805.pdf",
+      "archive_url": "https://web.archive.org/web/20260509071434if_/https://egov.tj/uploads/2025/9/25/db29ff250e97ee01de3339e6bf2423e6_original.144805.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "tj-recheck2-teaching-institute",
+      "title": "Explanation of government resolutions establishing university institutes including digital technologies and AI",
+      "url": "https://iutet.tj/ru/%D1%80%D0%B0%D0%B7%D1%8A%D1%8F%D1%81%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C/",
+      "archive_url": "https://web.archive.org/web/20260607050612/https://iutet.tj/ru/%D1%80%D0%B0%D0%B7%D1%8A%D1%8F%D1%81%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9-%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C/",
+      "excerpts": [
+        {
+          "text": "В целях подготовки высококвалифицированных, владеющих иностранными языками и современными знаниями специалистов",
+          "gloss": "To train highly qualified specialists with foreign-language skills and modern knowledge.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

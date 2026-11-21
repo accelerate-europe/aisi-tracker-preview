@@ -1,0 +1,821 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "0023bc7dcb8406118bb01106d66839ed0eaed2e4",
+      "built": "2026-11-21T14:22:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/74",
+  "record": {
+    "id": "KZ",
+    "name": "Kazakhstan",
+    "kind": "state",
+    "institute_id": null,
+    "summary": "No qualifying institute identified. KAISI describes advanced-AI safety research, but no government designation of it was found; the government framework assigns AI-system audits to independent auditors.",
+    "related_bodies": [
+      {
+        "name": "Department of Artificial Intelligence and Data Management, Ministry of AI and Digital Development",
+        "role": "It is responsible for AI regulation, data and coordination of the National AI Platform. It is a ministry unit. The ministry's October 2026 briefing separates rule-making from audits conducted by independent specialists and organisations.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "kz-maidd-brief",
+          "kz-r6-maidd-brief-primary"
+        ],
+        "kind": "other",
+        "id": "related_bodies-5934f4cbf85a539ba754b8f582779a44",
+        "citations": {
+          "name": [],
+          "role": [
+            "kz-maidd-brief",
+            "kz-r6-maidd-brief-primary"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "kz-maidd-brief",
+            "kz-r6-maidd-brief-primary"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "kz-maidd-brief",
+            "kz-r6-maidd-brief-primary"
+          ]
+        }
+      },
+      {
+        "name": "Kazakhstan AI Safety Institute (kaisi.kz)",
+        "role": "Its archived site describes research on capabilities, risks and mitigations concerning advanced models. It is a research organisation using the Kazakhstan AI Safety Institute name.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "source_ids": [
+          "kz-kaisi"
+        ],
+        "id": "related_bodies-a49acea8ed815892870f572bf579dca7",
+        "citations": {
+          "name": [],
+          "role": [
+            "kz-kaisi"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "kz-kaisi"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "kz-kaisi"
+          ]
+        }
+      }
+    ],
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The KAISI about-page search extract explicitly describes AI safety evaluation frameworks and assessment infrastructure. The existing record already identifies KAISI as a private nonprofit; these searches found no government designation or new official commitment. The separate ministry briefing and AI-law context concern regulation and independent audits of high-risk systems. KAISI direct access failed; one attempt to retrieve a text copy was made, but the combined saved response is truncated before a usable text copy. No stronger government-status claim is warranted. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Focused Kazakh, Russian and English review of KAISI designation, the ministry department and later regulation; not a full record recheck."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Selected the closest body against retrieved source text and excerpts; recorded its stage, evidence gap and limits. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Changed status confidence from low to medium using the recorded English, Kazakh and Russian searches, retrieved primary ministry and legal evidence, and retained KAISI archive. Unresolved designation does not itself lower confidence; live-page limits remain explicit. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Compared the ministry web view with the saved loading shell and documented that the private copy does not preserve the quoted passage. The quotation was not changed. This was a partial evidence check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-02",
+          "scope": "Rechecked KazNIC RDAP: HTTP 404 states that kaisi.kz does not exist in the registry. DNS for www.kaisi.kz returned NXDOMAIN. Updated the domain notes and follow-up reason, retaining the earlier valid snapshot because the snapshot tool discards HTTP error bodies. Reviewed the supplied English, Russian and Kazakh searches; no new qualifying designation found. Domain removal does not establish organisational closure. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "kk",
+          "national_or_official": true,
+          "query": "Қазақстан жасанды интеллект қауіпсіздік институты модельдерді бағалау үкімет",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Kazakhstan national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Kazakhstan\" \"AI safety\" institute government",
+          "source_ids": [
+            "kz-maidd-brief"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "site:gov.kz \"институт безопасности искусственного интеллекта\"",
+          "source_ids": [
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "kk",
+          "national_or_official": true,
+          "query": "site:gov.kz \"жасанды интеллект\" \"қауіпсіздігі\" институты",
+          "source_ids": [
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Kazakhstan AI Safety Institute KAISI government mandate 2026",
+          "source_ids": [
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "site:gov.kz \"Kazakhstan AI Safety Institute\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "site:akorda.kz \"институт\" \"безопасности\" \"искусственного\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "language": "en",
+          "national_or_official": false,
+          "query": "https://rdap.nic.kz/domain/kaisi.kz",
+          "source_ids": [
+            "kz-kaisi-rdap-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"kaisi.kz\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "site:gov.kz \"институт\" \"безопасности\" \"искусственного интеллекта\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "language": "kk",
+          "national_or_official": true,
+          "query": "site:gov.kz \"жасанды интеллект\" \"қауіпсіздігі\" \"институт\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded kk queries use a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. The additional status review searched Kazakh, Russian and English. The Russian ministry briefing and current law were retrieved; the English briefing is a secondary portal account. KAISI was assessed from its previously retained archive copy because fresh access failed. Search batches for the additional status review, using 1-based positions in check.searches: 4, 5, 6; 7, 8. Each group records the same exact registered URLs found in its combined search results, without attribution to an individual query. Explicit page opens and finds and unverified URL variants are excluded. Groups list the recorded queries; some requests also contained additional queries retained in the research evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: The KAISI source access note says that neither the live contents nor the archived snapshot contents were retrieved. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence. That earlier access limitation was resolved for the declared Wayback capture on 17 October 2026, as recorded in the source access note; the earlier attempts to retrieve the original and a text copy did not supply a new readable live copy. The earlier confidence rule remains superseded.",
+      "governance_source_ids": [
+        "kz-r6-maidd-brief-primary",
+        "kz-ai-law-2025"
+      ],
+      "governance_note": "The primary ministry briefing and current AI Law were retrieved in Russian. They describe regulation, data governance and independent auditing. They do not identify a national designation as an institute for the safety of advanced models. KAISI's current live pages remain unavailable; its retained archive of its own website describes the research function. The recorded government-source and language evidence supports a bounded medium-confidence finding without treating a missing designation as evidence of absence."
+    },
+    "source_ids": [
+      "kz-ai-law-2025",
+      "kz-maidd-brief",
+      "kz-kaisi",
+      "kz-r6-maidd-brief-primary",
+      "kz-kaisi-rdap-2026",
+      "kz-akorda-ai-council-2026-10",
+      "kz-harvard-hsil-2026"
+    ],
+    "notes": "kaisi.kz uses the name 'Kazakhstan AI Safety Institute' and describes research on the safety of advanced models; no national government designation was found. The AI Law (November 2025) provides for audits of AI systems by independent auditors.\n\nThe ministry's 14 October briefing was retrieved directly in Russian, alongside the English account on memleket.kz and the current Russian AI Law. The ministry distinguishes its rules and coordination functions from audits carried out by independent specialists and organisations. This supports keeping the ministry department as a related body. KAISI's retained archive describes research on the safety of advanced models and risk mitigation, but no national government designation was found in Kazakh, Russian or English searches. Its live and about pages could not be read reliably. The earlier private non-profit description and staff range were not reverified; the retained home-page copy does not itself establish them. These limits leave the KAISI designation question open.\n\nThe KazNIC registry record retrieved on 21 October 2026 showed the status server hold and registration expiry on 1 October 2026. On 2 November 2026 the same registry lookup stated that kaisi.kz does not exist in the registry, and www.kaisi.kz did not resolve. This does not establish whether KAISI still operates or has moved; its government designation remains unverified.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "143",
+      "subregion": "Central Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 20843754,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "KAZ",
+    "m49": "398",
+    "wikidata": "Q232",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "next_check": {
+      "date": "2027-01-15",
+      "reason": "Check whether KAISI still operates or has moved now that the KazNIC registry no longer lists kaisi.kz (2 November 2026); check whether Kazakhstan's AI initiative for the December 2026 G20 summit or AI Development Council proposals name a body to evaluate advanced models."
+    },
+    "closest_body": {
+      "name": "Kazakhstan AI Safety Institute (KAISI)",
+      "stage": "exists",
+      "gap": "designation",
+      "note": "The retained website archive presents KAISI as an institute researching advanced-AI capabilities and behaviour and testing risk mitigations. No government assignment was identified. Existence and function are self-described; the live home and about pages could not be reverified. Harvard's Health Systems Innovation Lab lists the Kazakhstan AI Safety Institute as the Astana hub of its 2026 hackathon, scheduled for 10 and 11 April 2026. Whether KAISI still operates after its domain was removed from the registry (by 2 November 2026) is unconfirmed.",
+      "source_ids": [
+        "kz-kaisi",
+        "kz-harvard-hsil-2026",
+        "kz-kaisi-rdap-2026"
+      ],
+      "body_id": "related_bodies-a49acea8ed815892870f572bf579dca7",
+      "citations": {
+        "name": [
+          "kz-kaisi"
+        ],
+        "stage": [
+          "kz-kaisi"
+        ],
+        "gap": [],
+        "note": [
+          "kz-kaisi",
+          "kz-harvard-hsil-2026"
+        ],
+        "body_id": [],
+        "display": [
+          "kz-kaisi",
+          "kz-harvard-hsil-2026"
+        ]
+      },
+      "display": {
+        "source_links": [
+          "kz-kaisi",
+          "kz-kaisi-rdap-2026",
+          "kz-harvard-hsil-2026"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-85e472076129414f91fee5d2bf2151ba",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "activity",
+        "body_id": "related_bodies-a49acea8ed815892870f572bf579dca7",
+        "lead": true,
+        "text": "It says it creates \"tools for safe model control and evaluation\" to make advanced AI systems more transparent, reliable and aligned with human intentions.",
+        "source_ids": [
+          "kz-kaisi"
+        ],
+        "reread": {
+          "state": "source_gone",
+          "last_found": "2026-10-17",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "lead": [],
+          "text": [
+            "kz-kaisi"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "kz-kaisi"
+          ]
+        }
+      },
+      {
+        "id": "claims-6f1f18372ea2476db7d3b02347797234",
+        "kind": "function",
+        "code": "policy_advice",
+        "basis": "activity",
+        "body_id": "related_bodies-a49acea8ed815892870f572bf579dca7",
+        "text": "It says its policy research explores how governance frameworks, regulatory approaches and international cooperation can ensure the safe and beneficial deployment of advanced AI systems.",
+        "source_ids": [
+          "kz-kaisi"
+        ],
+        "reread": {
+          "state": "source_gone",
+          "last_found": "2026-10-17",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "kz-kaisi"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "kz-kaisi"
+          ]
+        }
+      },
+      {
+        "id": "claims-3e4c1322d98143d8bef676bcb94530be",
+        "kind": "function",
+        "code": "research",
+        "basis": "activity",
+        "body_id": "related_bodies-a49acea8ed815892870f572bf579dca7",
+        "text": "It says it investigates how neural representations emerge and interact, applying techniques such as \"activation steering, adversarial robustness analysis, and mechanistic interpretability\".",
+        "source_ids": [
+          "kz-kaisi"
+        ],
+        "reread": {
+          "state": "source_gone",
+          "last_found": "2026-10-17",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "kz-kaisi"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "kz-kaisi"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "institute_id": [],
+      "summary": [
+        "kz-kaisi",
+        "kz-r6-maidd-brief-primary"
+      ],
+      "related_bodies": [
+        "kz-maidd-brief",
+        "kz-kaisi",
+        "kz-r6-maidd-brief-primary"
+      ],
+      "check": [],
+      "notes": [
+        "kz-kaisi-rdap-2026"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "next_check": [
+        "kz-akorda-ai-council-2026-10"
+      ],
+      "closest_body": [
+        "kz-kaisi",
+        "kz-harvard-hsil-2026"
+      ],
+      "claims": [
+        "kz-kaisi"
+      ],
+      "status": [],
+      "display": [
+        "kz-maidd-brief",
+        "kz-kaisi",
+        "kz-r6-maidd-brief-primary",
+        "kz-kaisi-rdap-2026",
+        "kz-akorda-ai-council-2026-10",
+        "kz-harvard-hsil-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "kz-kaisi",
+        "kz-r6-maidd-brief-primary"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "kz-maidd-brief",
+        "kz-kaisi",
+        "kz-ai-law-2025",
+        "ov-wikipedia",
+        "kz-r6-maidd-brief-primary",
+        "kz-kaisi-rdap-2026",
+        "kz-akorda-ai-council-2026-10",
+        "kz-harvard-hsil-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "kz-ai-law-2025",
+      "title": "Law on Artificial Intelligence No. 230-VIII (17 Nov 2025)",
+      "url": "https://adilet.zan.kz/rus/docs/Z2500000230",
+      "excerpts": []
+    },
+    {
+      "id": "kz-akorda-ai-council-2026-10",
+      "title": "President Kassym-Jomart Tokayev Chairs Third Meeting of the Artificial Intelligence Development Council",
+      "url": "https://www.akorda.kz/en/president-kassym-jomart-tokayev-chairs-third-meeting-of-the-artificial-intelligence-development-council-294127",
+      "excerpts": [
+        {
+          "text": "Our common vision will be presented at the G20 Summit in Miami this December",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/next_check/reason"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kz-harvard-hsil-2026",
+      "title": "HSIL Hackathon 2026 – Building High-Value Health Systems: Leveraging AI",
+      "url": "https://hsph.harvard.edu/research/health-systems-innovation-lab/work/hsil-hackathon-2026-building-high-value-health-systems-leveraging-ai/",
+      "excerpts": [
+        {
+          "text": "Kazakhstan – Astana Kazakhstan AI Safety Institute",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "Two-day Hackathon Event = April 10-11, 2026",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kz-kaisi",
+      "title": "Kazakhstan AI Safety Institute",
+      "url": "https://www.kaisi.kz/",
+      "archive_url": "https://web.archive.org/web/20260608151050/https://www.kaisi.kz/",
+      "excerpts": [
+        {
+          "text": "understand the capabilities and impacts of advanced AI and to develop and test risk mitigations.",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/related_bodies/1/role",
+            "/record/summary"
+          ]
+        },
+        {
+          "text": "Kazakhstan AI Safety Institute",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/closest_body/name"
+          ]
+        },
+        {
+          "text": "We are conducting research and building infrastructure to understand the capabilities and impacts of advanced AI and to develop and test risk mitigations.",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/closest_body/stage",
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "aiming to understand, interpret, and control the behavior of large-scale models.",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "By creating tools for safe model control and evaluation, we strive to make advanced AI systems more transparent, reliable, and aligned with human intentions.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "Our policy research explores how governance frameworks, regulatory approaches, and international cooperation can ensure the safe and beneficial deployment of advanced AI systems.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "We investigate how neural representations emerge and interact by applying techniques such as activation steering, adversarial robustness analysis, and mechanistic interpretability.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kz-kaisi-rdap-2026",
+      "title": "kaisi.kz domain registration record (RDAP)",
+      "url": "https://rdap.nic.kz/domain/kaisi.kz",
+      "excerpts": [
+        {
+          "text": "server hold",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "2026-10-01T17:02:04Z",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "source_gone",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kz-maidd-brief",
+      "title": "Briefing note on the role of the Department of Artificial Intelligence and Data Management in Kazakhstan's framework for AI regulation and safety assessment",
+      "url": "https://memleket.kz/en/documents/47143-briefing-note-on-the-role-of-the-department-of-artificial-intelligence-and-data-management-in-kazakhstans-framework-for-ai-regulation-and-safety-assessment",
+      "archive_url": "https://web.archive.org/web/20261016205148/https://memleket.kz/en/documents/47143-briefing-note-on-the-role-of-the-department-of-artificial-intelligence-and-data-management-in-kazakhstans-framework-for-ai-regulation-and-safety-assessment",
+      "excerpts": [
+        {
+          "text": "the Department of Artificial Intelligence and Data Management operates as a specialized unit of the authorized government body",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kz-r6-maidd-brief-primary",
+      "title": "СПРАВКА о роли Департамента искусственного интеллекта и управления данными в государственной системе регулирования и оценки безопасности ИИ",
+      "title_en": "Briefing on the role of the Department of Artificial Intelligence and Data Management in the state system of AI regulation and safety assessment",
+      "url": "https://www.gov.kz/org/maidd/documents/details/1083089?lang=ru",
+      "excerpts": [
+        {
+          "text": "а непосредственный аудит проводят независимые специалисты и организации",
+          "gloss": "Direct audits are performed by independent specialists and organisations.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

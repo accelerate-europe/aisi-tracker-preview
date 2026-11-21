@@ -1,0 +1,1492 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "0c3c25159d4d22f4f7f1cb82d5f9c08cca289961",
+      "built": "2026-11-21T19:21:15Z"
+    }
+  },
+  "aisi_json_pointer": "/institutes/3",
+  "record": {
+    "id": "es-isia",
+    "name": "AI Security Institute (planned)",
+    "name_local": "Instituto de Seguridad de la Inteligencia Artificial",
+    "short_name": "Spain AISI",
+    "jurisdiction_id": "ES",
+    "host": "Spanish Agency for the Supervision of Artificial Intelligence (AESIA)",
+    "legal_form": "unit_in_existing_body",
+    "mandate": "Will evaluate the most advanced models before and after deployment, with voluntary pre-release access and in cooperation with the EU AI Office; incident protocols; a periodic report on frontier capabilities and risks.",
+    "website": null,
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Rechecked mandate wording against es-plan, page 6; restored future tense and the singular periodic report."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Mandate wording and source title translation rechecked against the IA360 plan. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "National partner entries rechecked against the works-with rule; entries without a task assigned with the institute removed. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Mandate and staff texts rechecked against their sources in a blind meaning check; drifted wording corrected and the supporting quotes bound. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Post-release re-check of AESIA news and studies and the digital ministry press page: nothing new about the planned institute. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-04",
+          "scope": "Pre-launch re-check of AESIA news, the digital ministry and La Moncloa press pages and the BOE since 16 October: no evidence that the initial technical core has been set up. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-02",
+          "scope": "Searched BOE and AESIA for a constitutive act or institute appointment. BOE-A-2026-22898, published 2 November 2026, appoints an AESIA deputy director-general, not an institute head. No constitutive act found; no factual record change. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "News re-check since 2 November 2026: AESIA news, Official State Gazette searches and the Council of Ministers' references. No constitutive act and no institute appointment found. Left for review: the gazette's daily summaries for 3 to 7 November (searched, not opened). Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Post-release news re-check from 6 November 2026: AESIA news, the digital ministry's press releases to 4 November, and the Official State Gazette summaries for 3 to 9 November (no issue on 8 November). No constitutive act and no institute appointment found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "Post-release news re-check from 8 November 2026: AESIA news (newest 20 October), the ministry's press (4 November) and the BOE daily summaries of 9 and 10 November, in which no constitutive act or appointment for the institute was found. A separate list of AESIA publications was not found, so a new study cannot be ruled out. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-13",
+          "scope": "Post-release news re-check from 10 November 2026: AESIA news (newest fetched article 12 November), the ministry's press (newest 4 November, before the window) and the BOE daily summaries of 11, 12 and 13 November, in which no constitutive act or appointment for the institute was found. AESIA's article of 12 November on the sandbox and market surveillance does not establish an institute launch or an institute output. Dates were not recovered for all AESIA listing items. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-14",
+          "scope": "Sources checked for developments from 13 November 2026: AESIA's news (titles undated; the newest article read is dated 12 November), its studies page (one undated study), the digital ministry's press (4 November) and the BOE daily summaries of 13 and 14 November. No constitutive act or appointment for the institute was found in the summaries read, which does not establish that none exists. No separate publication list for the institute was found, and the dates of AESIA's news list remain unresolved. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-20",
+          "scope": "Sources checked for developments from 14 November 2026: AESIA's news (newest 12 November) and studies, the digitalisation ministry's press (19 November) and the official gazette's daily summaries of 14 and 16 to 19 November. No constitutive act, appointment or publication for the planned institute was found. The ministry's guide of 19 November on ethical adoption is credited to the ministry, not to the institute. The calendar showed no issue link for 20 November, and long daily summaries were read only in part. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "log": [
+        {
+          "date": "2026-11-14",
+          "text": "Searched for a budget amount or staff count for the Instituto de Seguridad de la Inteligencia Artificial itself: the IA360 plan, AESIA's own plan and pages, Finance Ministry and Council of Ministers spending notes, written questions and answers in the Congress, and the press, in Spanish and English."
+        },
+        {
+          "date": "2026-10-24",
+          "text": "The plan was read for a constitutive instrument for the institute."
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Cyber agency searched on 19 October 2026 in Spanish and English: INCIBE and CCN; the plan and five cyber-related documents were read, and signed instruments naming them were searched for."
+        },
+        {
+          "date": "2026-10-24",
+          "text": "Testing: the IA360 plan was read for a constitutive instrument and for testing by the institute or its partner bodies."
+        },
+        {
+          "date": "2026-10-24",
+          "text": "Model access: searched for an access event, legal power or agreement with a developer that has a model in Epoch AI's frontier set, and the plan was read for an agreement with a developer."
+        }
+      ],
+      "functions": {
+        "date": "2026-11-14",
+        "codes": [
+          "model_testing",
+          "evaluation_methods",
+          "research",
+          "standards_guidance",
+          "regulatory_enforcement",
+          "regulatory_support",
+          "risk_monitoring",
+          "foresight",
+          "policy_advice",
+          "incident_response",
+          "international_cooperation",
+          "convening",
+          "capacity_building",
+          "talent",
+          "adoption",
+          "public_access_continuity",
+          "certification",
+          "sandbox"
+        ]
+      }
+    },
+    "source_ids": [
+      "es-plan",
+      "es-moncloa",
+      "es-incibe-aesia-campaign",
+      "j8-es-nis2-commission",
+      "j8-es-incibe-role"
+    ],
+    "mandate_short": "Will evaluate the most advanced models before and after deployment.",
+    "placement": {
+      "host_type": "government_agency",
+      "source_ids": [
+        "es-plan"
+      ],
+      "citations": {
+        "host_type": [],
+        "display": []
+      }
+    },
+    "wikidata": null,
+    "identifier_notes": "No matching Wikidata institute item verified in label and official-name searches on 17 October 2026; null does not establish that no item exists.",
+    "agreements": [],
+    "outputs": [],
+    "head": {
+      "state": "not_published",
+      "notes": "Searched the IA360 plan, AESIA's organisational and institutional pages, and Spanish and English appointment queries on 19 October 2026 for a named head of the planned institute."
+    },
+    "reports_to": {
+      "state": "stated",
+      "name": "Ministerio para la Transformación Digital y de la Función Pública",
+      "name_en": "Ministry for Digital Transformation and the Civil Service",
+      "source_ids": [
+        "es-plan",
+        "es-aesia-institutional"
+      ],
+      "citations": {
+        "state": [],
+        "name": [
+          "es-plan",
+          "es-aesia-institutional"
+        ],
+        "name_en": [],
+        "display": [
+          "es-plan",
+          "es-aesia-institutional"
+        ]
+      }
+    },
+    "national_partners": {
+      "state": "stated",
+      "entries": [
+        {
+          "id": "np-es-incibe",
+          "name": "Instituto Nacional de Ciberseguridad",
+          "name_en": "National Cybersecurity Institute",
+          "acronym": "INCIBE",
+          "what": "national cybersecurity institute",
+          "relation": "planned",
+          "cyber_agency": true,
+          "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+          "source_ids": [
+            "es-plan",
+            "es-incibe-aesia-campaign",
+            "j8-es-nis2-commission",
+            "j8-es-incibe-role"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "es-plan",
+              "es-incibe-aesia-campaign"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "es-incibe-aesia-campaign"
+            ],
+            "relation": [
+              "es-plan"
+            ],
+            "cyber_agency": [
+              "j8-es-nis2-commission",
+              "j8-es-incibe-role"
+            ],
+            "how": [
+              "es-plan"
+            ],
+            "display": [
+              "es-plan",
+              "es-incibe-aesia-campaign",
+              "j8-es-nis2-commission",
+              "j8-es-incibe-role"
+            ]
+          }
+        },
+        {
+          "id": "np-es-ccn",
+          "name": "Centro Criptológico Nacional",
+          "name_en": "National Cryptologic Centre",
+          "acronym": "CCN",
+          "what": "national cryptologic centre",
+          "relation": "planned",
+          "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+          "source_ids": [
+            "es-plan"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "es-plan"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "es-plan"
+            ],
+            "relation": [
+              "es-plan"
+            ],
+            "how": [
+              "es-plan"
+            ],
+            "display": [
+              "es-plan"
+            ]
+          }
+        },
+        {
+          "id": "np-es-dsn",
+          "name": "Departamento de Seguridad Nacional",
+          "name_en": "Department of National Security",
+          "acronym": "DSN",
+          "what": "national security department",
+          "relation": "planned",
+          "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+          "source_ids": [
+            "es-plan"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "es-plan"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "es-plan"
+            ],
+            "relation": [
+              "es-plan"
+            ],
+            "how": [
+              "es-plan"
+            ],
+            "display": [
+              "es-plan"
+            ]
+          }
+        },
+        {
+          "id": "np-es-bsc",
+          "name": "Barcelona Supercomputing Center",
+          "acronym": "BSC",
+          "what": "supercomputing centre",
+          "relation": "planned",
+          "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+          "source_ids": [
+            "es-plan"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "es-plan"
+            ],
+            "acronym": [],
+            "what": [
+              "es-plan"
+            ],
+            "relation": [
+              "es-plan"
+            ],
+            "how": [
+              "es-plan"
+            ],
+            "display": [
+              "es-plan"
+            ]
+          }
+        },
+        {
+          "id": "np-es-aepd",
+          "name": "Agencia Española de Protección de Datos",
+          "name_en": "Spanish Data Protection Agency",
+          "acronym": "AEPD",
+          "what": "national data protection agency",
+          "relation": "planned",
+          "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+          "source_ids": [
+            "es-plan"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "es-plan"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "es-plan"
+            ],
+            "relation": [
+              "es-plan"
+            ],
+            "how": [
+              "es-plan"
+            ],
+            "display": [
+              "es-plan"
+            ]
+          }
+        }
+      ]
+    },
+    "testing_capacity": {
+      "state": "planned",
+      "notes": "The plan says the institute's functions will include evaluating the most advanced models before and after their deployment.",
+      "source_ids": [
+        "es-plan",
+        "es-moncloa"
+      ],
+      "citations": {
+        "state": [
+          "es-plan"
+        ],
+        "notes": [
+          "es-plan"
+        ],
+        "display": [
+          "es-plan"
+        ]
+      }
+    },
+    "model_access": {
+      "notes": "The plan says the institute's functions will be evaluating the most advanced models before and after their deployment, with pre-launch access obtained through voluntary agreements with developers.",
+      "source_ids": [
+        "es-plan"
+      ],
+      "searches": [
+        {
+          "date": "2026-10-21",
+          "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+          "language": "en",
+          "sources_read": [
+            "https://epoch.ai/data/ai-models",
+            "https://epoch.ai/data/ai-models-documentation",
+            "https://epoch.ai/data/all_ai_models.csv",
+            "https://epoch.ai/data/frontier_ai_models.csv",
+            "https://epoch.ai/data/notable_ai_models.csv"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Recorded sources re-read for testing and access wording",
+          "language": "es, en",
+          "sources_read": [
+            "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2026/20260920%20Plan%20IA360.pdf",
+            "https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2026/20260921-ia360-plan-presentation.aspx",
+            "https://www.lamoncloa.gob.es/consejodeministros/referencias/paginas/2026/20260526-referencia-rueda-de-prensa-ministros.aspx",
+            "https://aesia.digital.gob.es/storage/media/informacion-institucional.pdf",
+            "https://aesia.digital.gob.es/es/actualidad/el-incibe-y-la-aesia-lanzan-una-campana-de-concienciacion-sobre-el-uso-de-la-ia"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Instituto de Seguridad de la Inteligencia Artificial AESIA acceso voluntario modelos evaluación",
+          "language": "es",
+          "sources_read": [
+            "web search result list (datos.gob.es, digital.gob.es); nothing on the institute"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "\"Instituto de Seguridad de la Inteligencia Artificial\" AESIA octubre 2026",
+          "language": "es",
+          "sources_read": [
+            "web search result list (opsiocloud.com, legaltoday.com, boe.es, economistjurist.es); no constitution or access agreement found"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Plan IA360 Consejo de Ministros aprueba Instituto de Seguridad IA AESIA acuerdos voluntarios desarrolladores",
+          "language": "es",
+          "sources_read": [
+            "web search result list (lamoncloa.gob.es, ecosistemastartup.com, hacienda.gob.es); no Council of Ministers act on the institute found"
+          ]
+        }
+      ],
+      "value": "none_found",
+      "citations": {
+        "notes": [
+          "es-plan"
+        ],
+        "searches": [],
+        "value": [],
+        "display": [
+          "es-plan"
+        ]
+      }
+    },
+    "staffing_model": {
+      "code": "planned",
+      "source_ids": [
+        "es-plan"
+      ],
+      "notes": "The plan says the institute will be organised through agreements with INCIBE, the National Cryptologic Centre, the Department of National Security, the Spanish Data Protection Agency and the Barcelona Supercomputing Center, which can provide staff, computing capacity and expertise.",
+      "citations": {
+        "code": [
+          "es-plan"
+        ],
+        "notes": [
+          "es-plan"
+        ],
+        "display": [
+          "es-plan"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-2283d1a3fa4f43fabf8f64a126e05904",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "mandate",
+        "text": "The government's IA360 plan assigns it the evaluation of the most advanced models before and after deployment, with pre-launch access through voluntary agreements with developers.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-13e6bdd9512f4b9f804f7eb6078d01a5",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "mandate",
+        "text": "The government's IA360 plan assigns it the development of evaluation methodology and tools, and of standards for safe testing environments.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-43bbb1c65d3447d4943af63125102155",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "text": "The national plan says it will give technical support to AESIA, the supervisory authority, in market surveillance and in helping companies prepare.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-e0203a1b22b0440b8a930ebbb4fc054e",
+        "kind": "function",
+        "code": "risk_monitoring",
+        "basis": "mandate",
+        "text": "The government's IA360 plan assigns it a periodic report to the General State Administration on how the capabilities and risks of frontier models evolve.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-fd3fdb842f724856937f29ae38c0d00a",
+        "kind": "fact",
+        "text": "The government's IA360 plan assigns it technical advice to the General State Administration.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-91406200d0e949c3bdaaecb45287f261",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "mandate",
+        "text": "The government's IA360 plan assigns it international cooperation with counterpart institutes in other countries and with the European AI Office.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-e2b863a4395843dda8d06717bf1c7371",
+        "kind": "fact",
+        "text": "The IA360 plan sets as a milestone the setting up of the institute's initial technical core before the end of 2026.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-21cfb6551d944991a2eb59149bb2a453",
+        "kind": "function",
+        "code": "incident_response",
+        "basis": "mandate",
+        "text": "The government's plan lists among the institute's functions defining response protocols for incidents arising from the behaviour of advanced models or agents, in coordination with INCIBE and the National Cryptologic Centre.",
+        "source_ids": [
+          "es-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "es-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "es-plan"
+          ]
+        }
+      }
+    ],
+    "status": "planned",
+    "announced": "2026-09-21",
+    "functions": [
+      {
+        "code": "model_testing",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-2283d1a3fa4f43fabf8f64a126e05904"
+        ]
+      },
+      {
+        "code": "evaluation_methods",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-13e6bdd9512f4b9f804f7eb6078d01a5"
+        ]
+      },
+      {
+        "code": "research",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "standards_guidance",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "regulatory_enforcement",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "regulatory_support",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-43bbb1c65d3447d4943af63125102155"
+        ]
+      },
+      {
+        "code": "risk_monitoring",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-e0203a1b22b0440b8a930ebbb4fc054e"
+        ]
+      },
+      {
+        "code": "foresight",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "policy_advice",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "incident_response",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-21cfb6551d944991a2eb59149bb2a453"
+        ]
+      },
+      {
+        "code": "international_cooperation",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-91406200d0e949c3bdaaecb45287f261"
+        ]
+      },
+      {
+        "code": "convening",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "capacity_building",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "talent",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "adoption",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "public_access_continuity",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "certification",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "sandbox",
+        "value": "not_found",
+        "claim_ids": []
+      }
+    ],
+    "operating": [],
+    "intervals": {
+      "announced_to_established": null,
+      "established_to_first_qualifying_activity": null,
+      "announced_to_first_qualifying_activity": null
+    },
+    "citations": {
+      "id": [],
+      "name": [
+        "es-plan"
+      ],
+      "name_local": [],
+      "short_name": [],
+      "jurisdiction_id": [],
+      "host": [
+        "es-plan"
+      ],
+      "legal_form": [],
+      "mandate": [
+        "es-plan"
+      ],
+      "website": [],
+      "check": [],
+      "mandate_short": [
+        "es-plan"
+      ],
+      "placement": [],
+      "wikidata": [],
+      "identifier_notes": [],
+      "agreements": [],
+      "outputs": [],
+      "head": [],
+      "reports_to": [
+        "es-plan",
+        "es-aesia-institutional"
+      ],
+      "national_partners": [
+        "es-plan",
+        "es-incibe-aesia-campaign",
+        "j8-es-nis2-commission",
+        "j8-es-incibe-role"
+      ],
+      "testing_capacity": [
+        "es-plan"
+      ],
+      "model_access": [
+        "es-plan"
+      ],
+      "staffing_model": [
+        "es-plan"
+      ],
+      "claims": [
+        "es-plan"
+      ],
+      "status": [
+        "es-plan",
+        "es-moncloa"
+      ],
+      "announced": [
+        "es-moncloa"
+      ],
+      "functions": [],
+      "operating": [],
+      "intervals": [],
+      "display": [
+        "es-plan",
+        "es-moncloa",
+        "es-aesia-institutional",
+        "es-incibe-aesia-campaign",
+        "j8-es-nis2-commission",
+        "j8-es-incibe-role"
+      ],
+      "form": [
+        "es-plan"
+      ],
+      "inst": [
+        "es-plan"
+      ],
+      "institute": [
+        "es-plan"
+      ],
+      "established": [],
+      "announced_to_established": [],
+      "established_to_first_qualifying_activity": [],
+      "announced_to_first_qualifying_activity": []
+    },
+    "display": {
+      "intervals": {
+        "status_since": null,
+        "known_activity": null
+      },
+      "comparison_funding": null,
+      "budget": null,
+      "staff": null,
+      "total_staff": null,
+      "technical_staff": null,
+      "funding_records": {},
+      "funding_ids": [],
+      "staff_records": {},
+      "staff_ids": [],
+      "related_funding_ids": [],
+      "operating": {
+        "since": null,
+        "first_lineage": null,
+        "items": []
+      },
+      "rows": {
+        "head": {
+          "state": "not_published",
+          "text": null,
+          "cited": []
+        },
+        "reports_to": {
+          "state": "stated",
+          "text": "Ministry for Digital Transformation and the Civil Service",
+          "cited": [
+            "es-plan",
+            "es-aesia-institutional"
+          ],
+          "original": "Ministerio para la Transformación Digital y de la Función Pública"
+        },
+        "partners": {
+          "state": "stated",
+          "items": [
+            {
+              "id": "np-es-incibe",
+              "text": "INCIBE (national cybersecurity institute, planned)",
+              "name": "INCIBE",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan",
+                "es-incibe-aesia-campaign"
+              ]
+            },
+            {
+              "id": "np-es-ccn",
+              "text": "CCN (national cryptologic centre, planned)",
+              "name": "CCN",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan"
+              ]
+            },
+            {
+              "id": "np-es-dsn",
+              "text": "DSN (national security department, planned)",
+              "name": "DSN",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan"
+              ]
+            }
+          ],
+          "fold_items": [
+            {
+              "id": "np-es-incibe",
+              "text": "INCIBE (national cybersecurity institute, planned)",
+              "name": "INCIBE",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan",
+                "es-incibe-aesia-campaign"
+              ]
+            },
+            {
+              "id": "np-es-ccn",
+              "text": "CCN (national cryptologic centre, planned)",
+              "name": "CCN",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan"
+              ]
+            },
+            {
+              "id": "np-es-dsn",
+              "text": "DSN (national security department, planned)",
+              "name": "DSN",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan"
+              ]
+            },
+            {
+              "id": "np-es-bsc",
+              "text": "BSC (supercomputing centre, planned)",
+              "name": "BSC",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan"
+              ]
+            },
+            {
+              "id": "np-es-aepd",
+              "text": "AEPD (national data protection agency, planned)",
+              "name": "AEPD",
+              "how": "Is to be tied to the institute by agreement and can contribute staff, computing capacity and specialist knowledge.",
+              "cited": [
+                "es-plan"
+              ]
+            }
+          ],
+          "tail": null,
+          "cited": [
+            "es-plan",
+            "es-incibe-aesia-campaign",
+            "j8-es-nis2-commission",
+            "j8-es-incibe-role"
+          ]
+        }
+      },
+      "source_links": [
+        "es-plan",
+        "es-moncloa",
+        "es-aesia-institutional",
+        "es-incibe-aesia-campaign",
+        "j8-es-nis2-commission",
+        "j8-es-incibe-role"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "es-aesia-institutional",
+      "title": "Información institucional",
+      "title_en": "Institutional information",
+      "url": "https://aesia.digital.gob.es/storage/media/informacion-institucional.pdf",
+      "excerpts": [
+        {
+          "text": "La Agencia Española de Supervisión de Inteligencia Artificial (AESIA) es una agencia del sector público estatal adscrita al Ministerio para la Transformación Digital y de la Función Pública",
+          "gloss": "The Spanish Agency for the Supervision of Artificial Intelligence (AESIA) is a state public-sector agency attached to the Ministry for Digital Transformation and the Civil Service",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "es-incibe-aesia-campaign",
+      "title": "El INCIBE y la AESIA lanzan una campaña de concienciación sobre el uso de la IA",
+      "title_en": "INCIBE and AESIA launch an awareness campaign on the use of AI",
+      "url": "https://aesia.digital.gob.es/es/actualidad/el-incibe-y-la-aesia-lanzan-una-campana-de-concienciacion-sobre-el-uso-de-la-ia",
+      "excerpts": [
+        {
+          "text": "El Instituto Nacional de Ciberseguridad (INCIBE), entidad dependiente del Ministerio para la Transformación Digital y de la Función Pública",
+          "gloss": "The National Cybersecurity Institute (INCIBE), an entity under the Ministry for Digital Transformation and the Civil Service",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name"
+          ]
+        },
+        {
+          "text": "El Instituto Nacional de Ciberseguridad (INCIBE)",
+          "accessed": "2026-10-20",
+          "gloss": "The National Cybersecurity Institute (INCIBE)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "es-moncloa",
+      "title": "Pedro Sánchez presents the IA360 Plan",
+      "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2026/20260921-ia360-plan-presentation.aspx",
+      "excerpts": []
+    },
+    {
+      "id": "es-plan",
+      "title": "Plan IA360, measure 4: Instituto de Seguridad de la Inteligencia Artificial en la AESIA",
+      "title_en": "IA360 Plan, measure 4: Artificial Intelligence Security Institute within AESIA",
+      "url": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2026/20260920%20Plan%20IA360.pdf",
+      "archive_url": "https://web.archive.org/web/20261005174229if_/https://www.lamoncloa.gob.es/presidente/actividades/Documents/2026/20260920%20Plan%20IA360.pdf",
+      "excerpts": [
+        {
+          "text": "El Instituto nacerá dentro de la AESIA",
+          "gloss": "The institute will be created within AESIA",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/host"
+          ]
+        },
+        {
+          "text": "evaluación de los modelos más avanzados antes y después",
+          "gloss": "evaluation of the most advanced models before and after",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial, una unidad técnico-científica para reforzar y concentrar las capacidades de análisis, evaluación y asesoramiento.",
+          "accessed": "2026-10-17",
+          "gloss": "Spain will establish an Artificial Intelligence Security Institute, a technical and scientific unit to strengthen and concentrate analytical, evaluation and advisory capabilities.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/name",
+            "/record/testing_capacity/state",
+            "/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "Serán funciones del Instituto la evaluación de los modelos más avanzados antes y después de su despliegue",
+          "accessed": "2026-10-18",
+          "url": "https://www.lamoncloa.gob.es/presidente/actividades/Documents/2026/20260920%20Plan%20IA360.pdf",
+          "gloss": "The institute’s functions will include evaluating the most advanced models before and after deployment.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "El Instituto nacerá dentro de la AESIA, que asumirá su dirección y aportará su condición de autoridad de supervisión",
+          "gloss": "The Institute will be born within AESIA, which will take on its leadership and contribute its status as a supervisory authority",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name",
+            "/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "se articulará mediante convenios con el INCIBE, el Centro Criptológico Nacional, el Departamento de Seguridad Nacional, la Agencia Española de Protección de Datos y el Barcelona Supercomputing Center, que pueden aportar personal, capacidad de cómputo y conocimiento especializado",
+          "gloss": "it will be organised through agreements with INCIBE, the National Cryptologic Centre, the Department of National Security, the Spanish Data Protection Agency and the Barcelona Supercomputing Center, which can contribute staff, computing capacity and specialised knowledge",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name",
+            "/record/national_partners/entries/0/relation",
+            "/record/national_partners/entries/0/how",
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how",
+            "/record/national_partners/entries/2/name",
+            "/record/national_partners/entries/2/relation",
+            "/record/national_partners/entries/2/how",
+            "/record/national_partners/entries/3/name",
+            "/record/national_partners/entries/3/relation",
+            "/record/national_partners/entries/3/how",
+            "/record/national_partners/entries/4/name",
+            "/record/national_partners/entries/4/relation",
+            "/record/national_partners/entries/4/how",
+            "/record/staffing_model/code",
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "el Centro Criptológico Nacional",
+          "accessed": "2026-10-20",
+          "gloss": "The National Cryptologic Centre",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/what"
+          ]
+        },
+        {
+          "text": "el Departamento de Seguridad Nacional",
+          "accessed": "2026-10-20",
+          "gloss": "The Department of National Security",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/what"
+          ]
+        },
+        {
+          "text": "el Barcelona Supercomputing Center",
+          "accessed": "2026-10-20",
+          "gloss": "The Barcelona Supercomputing Center",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/3/what"
+          ]
+        },
+        {
+          "text": "la Agencia Española de Protección de Datos",
+          "accessed": "2026-10-20",
+          "gloss": "The Spanish Data Protection Agency",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/what"
+          ]
+        },
+        {
+          "text": "Serán funciones del Instituto la evaluación de los modelos más avanzados antes y después de su despliegue, con acceso previo al lanzamiento obtenido mediante acuerdos voluntarios con los desarrolladores y en cooperación con la Oficina Europea de Inteligencia Artificial",
+          "gloss": "The Institute's functions will be the evaluation of the most advanced models before and after their deployment, with pre-launch access obtained through voluntary agreements with developers and in cooperation with the European AI Office",
+          "accessed": "2026-10-21",
+          "anchors": [
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/testing_capacity/state",
+            "/record/mandate",
+            "/record/claims/0/text",
+            "/record/testing_capacity/notes",
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "incluido un informe periódico sobre la evolución de las capacidades y los riesgos de los modelos de frontera; la definición de protocolos de respuesta ante incidentes derivados del comportamiento de modelos o agentes avanzados",
+          "accessed": "2026-10-24",
+          "gloss": "including a periodic report on the evolution of the capabilities and risks of frontier models; the definition of response protocols for incidents arising from the behaviour of advanced models or agents",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "el desarrollo de metodología y herramientas de evaluación y de estándares para entornos de prueba seguros",
+          "accessed": "2026-10-17",
+          "gloss": "the development of evaluation methodology and tools and of standards for safe testing environments",
+          "anchors": [
+            {
+              "text": "Serán funciones del Instituto",
+              "kind": "heading",
+              "gloss": "The functions of the Institute will be"
+            },
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "La AESIA, primera autoridad de supervisión de la Unión, ejercerá la vigilancia de mercado en ese calendario y acompañará a las empresas en su preparación, con el apoyo técnico del Instituto.",
+          "accessed": "2026-10-17",
+          "gloss": "AESIA, the Union's first supervisory authority, will carry out market surveillance on that timetable and accompany companies in their preparation, with the Institute's technical support.",
+          "anchors": [
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "el asesoramiento técnico a la Administración General del Estado, incluido un informe periódico sobre la evolución de las capacidades y los riesgos de los modelos de frontera",
+          "accessed": "2026-10-17",
+          "gloss": "technical advice to the General State Administration, including a periodic report on the evolution of the capabilities and risks of frontier models",
+          "anchors": [
+            {
+              "text": "Serán funciones del Instituto",
+              "kind": "heading",
+              "gloss": "The functions of the Institute will be"
+            },
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "el asesoramiento técnico a la Administración General del Estado",
+          "accessed": "2026-10-17",
+          "gloss": "technical advice to the General State Administration",
+          "anchors": [
+            {
+              "text": "Serán funciones del Instituto",
+              "kind": "heading",
+              "gloss": "The functions of the Institute will be"
+            },
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "la cooperación internacional con los institutos homólogos de terceros países y con la Oficina Europea de Inteligencia Artificial, contribuyendo a la armonización de estándares de evaluación",
+          "accessed": "2026-10-17",
+          "gloss": "international cooperation with counterpart institutes in third countries and with the European AI Office, contributing to the harmonisation of evaluation standards",
+          "anchors": [
+            {
+              "text": "Serán funciones del Instituto",
+              "kind": "heading",
+              "gloss": "The functions of the Institute will be"
+            },
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/5/text"
+          ]
+        },
+        {
+          "text": "constituir al Instituto como interlocutor de referencia ante los institutos de seguridad de la inteligencia artificial de terceros países. Hitos: constitución del núcleo técnico inicial antes de final de 2026",
+          "gloss": "make the Institute the reference counterpart for the artificial intelligence safety institutes of third countries. Milestones: setting up the initial technical core before the end of 2026",
+          "anchors": [
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/6/text"
+          ]
+        },
+        {
+          "text": "la definición de protocolos de respuesta ante incidentes derivados del comportamiento de modelos o agentes avanzados, en coordinación con el INCIBE y el Centro Criptológico Nacional",
+          "gloss": "the definition of response protocols for incidents arising from the behaviour of advanced models or agents, in coordination with INCIBE and the National Cryptologic Centre",
+          "anchors": [
+            {
+              "text": "Serán funciones del Instituto",
+              "kind": "heading",
+              "gloss": "The Institute's functions will be"
+            },
+            {
+              "text": "España se dotará de un Instituto de Seguridad de la Inteligencia Artificial",
+              "kind": "definition",
+              "gloss": "Spain will establish an Artificial Intelligence Safety Institute"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/7/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j8-es-incibe-role",
+      "title": "Qué hacemos | INCIBE | INCIBE",
+      "url": "https://www.incibe.es/incibe/informacion-corporativa/que-hacemos",
+      "excerpts": [
+        {
+          "text": "Dentro de la actividad del Instituto se encuentra INCIBE-CERT, el centro de respuesta a incidentes de seguridad de referencia para los ciudadanos y entidades de derecho privado en España.",
+          "accessed": "2026-10-20",
+          "gloss": "The institute’s activities include INCIBE-CERT, the reference security incident response centre for citizens and private-law entities in Spain.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/cyber_agency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j8-es-nis2-commission",
+      "title": "NIS2 Directive implementation in Spain | Shaping Europe’s digital future",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive-spain",
+      "excerpts": [
+        {
+          "text": "National CSIRTs Private sector INCIBE-CERT, National Cybersecurity Institute",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/cyber_agency"
+          ]
+        }
+      ]
+    }
+  ]
+}

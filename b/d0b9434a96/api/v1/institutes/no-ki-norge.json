@@ -1,0 +1,2811 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "d0b9434a96d7106acd94ff669f996665b8c47f91",
+      "built": "2026-11-21T19:13:43Z"
+    }
+  },
+  "aisi_json_pointer": "/institutes/4",
+  "record": {
+    "id": "no-ki-norge",
+    "name": "KI Norge AI safety mandate (proposed)",
+    "jurisdiction_id": "NO",
+    "host": "KI Norge, Norwegian Digitalisation Agency (Digitaliseringsdirektoratet)",
+    "legal_form": "unit_in_existing_body",
+    "mandate": "Would extend KI Norge's mandate to AI safety: capacity to evaluate AI models and to build knowledge of the consequences and risks of advanced AI, with research communities and other actors, and to give guidance on suitable models for different uses; contact point for AI Safety Institutes.",
+    "website": null,
+    "funding": [
+      {
+        "kind": "annual",
+        "amount": 45100000,
+        "currency": "NOK",
+        "period": "2027 budget proposal",
+        "description": "NOK 45.1m proposed for KI Norge (budget post 28) in 2027, including the NOK 30m for model evaluation",
+        "source_ids": [
+          "no-prop1s-2026-27-dfd",
+          "no-budget",
+          "r11-no-fiscal-year"
+        ],
+        "confidence": "high",
+        "commitment": "proposed",
+        "funding_source": "national_government",
+        "annual_amount": 45100000,
+        "annual_basis": "Proposed 2027 appropriation for KI Norge's budget post as a whole; not enacted funding or expenditure.",
+        "decision_date": "2026-10-07",
+        "annual_basis_code": "other",
+        "annual_period": {
+          "start": "2027-01-01",
+          "end": "2027-12-31"
+        },
+        "coverage": "whole_institute",
+        "id": "funding-07dc8b2c007b4b80a356aef8e5afa53c",
+        "notes": "The appropriation covers the development and running of KI Norge as a whole, not only its AI safety work.",
+        "eur_per_year_est": 3849010,
+        "citations": {
+          "kind": [],
+          "amount": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "currency": [],
+          "period": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "description": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "confidence": [],
+          "commitment": [],
+          "funding_source": [],
+          "annual_amount": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "annual_basis": [],
+          "decision_date": [
+            "no-budget"
+          ],
+          "annual_basis_code": [],
+          "annual_period": [],
+          "coverage": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "id": [],
+          "notes": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "eur_per_year_est": [
+            "eu-ecb-exchange-rates-2025",
+            "no-prop1s-2026-27-dfd"
+          ],
+          "display": [
+            "no-budget",
+            "eu-ecb-exchange-rates-2025",
+            "no-prop1s-2026-27-dfd"
+          ]
+        },
+        "display": {
+          "annual_estimate": true,
+          "value": "~NOK 45m",
+          "qualifiers": [
+            "a year",
+            "2027 budget proposal"
+          ],
+          "native_value": "~NOK 45m",
+          "native_qualifiers": [
+            "a year",
+            "2027 budget proposal"
+          ],
+          "budget_citations": [
+            "no-prop1s-2026-27-dfd"
+          ]
+        }
+      },
+      {
+        "kind": "annual",
+        "amount": 30000000,
+        "currency": "NOK",
+        "period": "2027 budget proposal",
+        "description": "NOK 30m proposed for AI safety and model-evaluation capacity in KI Norge in 2027",
+        "source_ids": [
+          "no-budget",
+          "r11-no-fiscal-year",
+          "no-prop1s-2026-27-dfd"
+        ],
+        "confidence": "high",
+        "commitment": "proposed",
+        "funding_source": "national_government",
+        "annual_amount": 30000000,
+        "annual_basis": "Proposed allocation for 2027 for the added AI safety and model-evaluation remit in KI Norge; not enacted funding or expenditure.",
+        "decision_date": "2026-10-07",
+        "annual_basis_code": "other",
+        "annual_period": {
+          "start": "2027-01-01",
+          "end": "2027-12-31"
+        },
+        "coverage": "component",
+        "id": "funding-0475119a71cc5e2099e293d3a48356b0",
+        "notes": "The 2027 budget proposal puts the whole KI Norge budget post (post 28) at NOK 45.1m, which includes this NOK 30m. The ministry recommended Prop. 1 S and the Council of State approved it on 25 September 2026; it was published on 7 October 2026, the decision date recorded.",
+        "eur_per_year_est": 2560320,
+        "citations": {
+          "kind": [],
+          "amount": [
+            "no-budget"
+          ],
+          "currency": [],
+          "period": [],
+          "description": [
+            "no-budget",
+            "no-prop1s-2026-27-dfd"
+          ],
+          "confidence": [],
+          "commitment": [],
+          "funding_source": [],
+          "annual_amount": [
+            "no-budget"
+          ],
+          "annual_basis": [],
+          "decision_date": [],
+          "annual_basis_code": [],
+          "annual_period": [
+            "r11-no-fiscal-year"
+          ],
+          "coverage": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "id": [],
+          "notes": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "eur_per_year_est": [
+            "no-budget",
+            "eu-ecb-exchange-rates-2025"
+          ],
+          "display": [
+            "no-budget",
+            "eu-ecb-exchange-rates-2025",
+            "r11-no-fiscal-year",
+            "no-prop1s-2026-27-dfd"
+          ]
+        },
+        "display": {
+          "annual_estimate": true,
+          "value": "NOK 30m",
+          "qualifiers": [
+            "a year",
+            "2027 budget proposal"
+          ],
+          "native_value": "NOK 30m",
+          "native_qualifiers": [
+            "a year",
+            "2027 budget proposal"
+          ],
+          "budget_citations": [
+            "no-budget"
+          ]
+        }
+      },
+      {
+        "currency": "NOK",
+        "confidence": "high",
+        "funding_source": "national_government",
+        "coverage": "not_institute_specific",
+        "kind": "not_institute_specific",
+        "annual_basis_code": "other",
+        "amount": 10000000,
+        "period": "2026 adopted budget",
+        "commitment": "adopted",
+        "description": "NOK 10.0m adopted for KI Norge (budget post 28) in 2026, before the proposed AI safety mandate.",
+        "source_ids": [
+          "no-prop1s-2026-27-dfd",
+          "r11-no-fiscal-year",
+          "no-budget"
+        ],
+        "annual_amount": 10000000,
+        "annual_basis": "Adopted 2026 appropriation for KI Norge's general work, shown as the 2026 adopted budget in the 2027 budget proposal; funding of the body before its proposed AI safety mandate, not expenditure.",
+        "annual_period": {
+          "start": "2026-01-01",
+          "end": "2026-12-31"
+        },
+        "notes": "This is the body's budget before the proposed AI safety remit. The appropriation covers the costs of developing and running KI Norge.",
+        "id": "funding-e47a2c9b1d5f4086b3c8a1e6d9f2b705",
+        "eur_per_year_est": 853440,
+        "citations": {
+          "currency": [],
+          "confidence": [],
+          "funding_source": [],
+          "coverage": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "kind": [],
+          "annual_basis_code": [],
+          "amount": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "period": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "commitment": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "description": [
+            "no-budget",
+            "no-prop1s-2026-27-dfd"
+          ],
+          "annual_amount": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "annual_basis": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "annual_period": [
+            "r11-no-fiscal-year"
+          ],
+          "notes": [
+            "no-budget",
+            "no-prop1s-2026-27-dfd"
+          ],
+          "id": [],
+          "eur_per_year_est": [
+            "eu-ecb-exchange-rates-2025",
+            "no-prop1s-2026-27-dfd"
+          ],
+          "display": [
+            "no-budget",
+            "r11-no-fiscal-year",
+            "no-prop1s-2026-27-dfd"
+          ]
+        },
+        "display": {
+          "annual_estimate": false,
+          "value": "NOK 10m",
+          "qualifiers": [
+            "2026 adopted budget"
+          ],
+          "native_value": "NOK 10m",
+          "native_qualifiers": [
+            "2026 adopted budget"
+          ],
+          "budget_citations": [
+            "no-prop1s-2026-27-dfd"
+          ]
+        }
+      }
+    ],
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Verified newly added funding or leadership evidence, preserving source scope and date limits. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Rechecked mandate wording against no-budget; restored the proposed status of the mandate extension."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Clarified the counterpart basis for the proposed mandate and linked the contact-point excerpt. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Compared the appointment announcement with KI Norge’s June article. Removed the unconfirmed actual start date and distinguished the existing agency department from its proposed safety mandate. Partial check only."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Leadership checked against official sources and newer-appointment searches from the 20 October evidence review; name and title unchanged."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "National partner entries rechecked against the works-with rule; entries without a task assigned with the institute removed. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Mandate and staff texts rechecked against their sources in a blind meaning check; drifted wording corrected and the supporting quotes bound. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Dated funding, staff, outputs, agreements and legal basis searches (search-log run); added the KI Norge budget post for 2026 and 2027 as related funding. Funding only, not a full re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Post-release re-check of KI Norge and Digdir news: nothing new. The 2027 budget proposition and a government press release describe the measure further; regjeringen.no refused automated access, so they are left for review. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "News re-check since 24 October 2026: ki.norge.no, the ministry's budget press release and its budget bill (Prop. 1 S (2026-2027), section 2.3), ministry releases of 30 October and 5 and 6 November, and Digitalisation Agency items through search. The mandate now follows the budget bill's wording; status stays proposed. Left for review: the original procurement notice for the executive-assistant contract. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Post-release news re-check from 6 November 2026: ki.norge.no, the Digitalisation Agency's news and the government's news list to 9 November. Nothing new on the mandate. Added the contract award notice of 22 October 2026 for an executive assistant to KI Norge's management to the staffing-model notes as a contractor. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "Post-release news re-check from 8 November 2026: KI Norge articles (newest 24 September), Digdir news (28 October) and the digitalisation ministry's releases (10 November). Nothing new on the mandate was found in these listings; no separate KI Norge publications list was found, and not every ministry article was opened. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-13",
+          "scope": "Post-release news re-check from 10 November 2026: KI Norge articles (newest dated 1 September), Digdir news (28 October) and the government's releases (12 November). Added the UK-Norway joint statement of intent of 12 November, a non-binding commitment to explore cooperation between KI Norge and the UK institute on AI security, testing and evaluation; the Norwegian release says a more concrete memorandum of understanding is intended later. The statement gives no evidence of tests, model access, funding, staff or adoption of the proposed mandate. Dates were not recovered for all KI Norge articles, and no separate newer publication list was found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-14",
+          "scope": "Sources checked for developments from 13 November 2026: KI Norge's articles (newest dated 1 September, first item undated), Digdir's news archive (undated) and cooperation-portal news (13 November), the government's news (13 November), the government's release of 12 November on the UK-Norway statement of intent and its release of 13 November on a security expert group. The statement and the later memorandum it contemplates are already recorded; the expert-group release assigns KI Norge no task. KI Norge's publications or research listing was not found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-20",
+          "scope": "Sources checked for developments from 14 November 2026: KI Norge's home page and articles (newest 24 September), Digdir's news (18 November), cooperation news (17 November) and reports, and the government's releases (19 November). Added the UK government's written answer of 19 November that no dedicated funding has been allocated under the joint statement of 12 November. The Norwegian government's release of 12 November on the statement was read but could not be saved as a source copy, so it is not cited. The digitalisation ministry's own news list was stale, and the 2027 budget proposal is still a proposal. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "functions": {
+        "date": "2026-11-14",
+        "codes": [
+          "model_testing",
+          "evaluation_methods",
+          "research",
+          "standards_guidance",
+          "regulatory_enforcement",
+          "regulatory_support",
+          "risk_monitoring",
+          "foresight",
+          "policy_advice",
+          "incident_response",
+          "international_cooperation",
+          "convening",
+          "capacity_building",
+          "talent",
+          "adoption",
+          "public_access_continuity",
+          "certification",
+          "sandbox"
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-10-21",
+          "text": "Testing: the budget release of 7 October 2026 was read for testing by the institute, and the membership list of the international network was checked for Norway."
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Model access: searched on 21 October 2026 in Norwegian and English for an access event, legal power or agreement with a developer that has a model in Epoch AI's frontier set; KI Norge's AI Act page and Nkom's enforcement page were read."
+        },
+        {
+          "date": "2026-11-17",
+          "text": "Searched on 17 November 2026 in Norwegian and English for KI Norge's organisational placement, set-up dates, staff, open posts and any 2027 staffing target, and for the Norwegian government's release on the United Kingdom-Norway statement of intent of 12 November 2026. That release refused our retrieval routes (plain request, headless browser and reader proxy) and our Wayback availability check returned no capture, so the signed English text on gov.uk stays the cited source."
+        }
+      ]
+    },
+    "source_ids": [
+      "no-budget",
+      "r5-no-holte-appointment",
+      "no-ki-holte-june",
+      "no-ki-about",
+      "j7-no-datatilsynet-en",
+      "no-prop1s-2026-27-dfd",
+      "r11-no-fiscal-year",
+      "no-altinget-holte-2026",
+      "no-techwatch-2026-05",
+      "no-karrierestart-kin-2026",
+      "no-doffin-2026-116502",
+      "no-gov-uk-ai-2026-11-12",
+      "gb-no-ai-statement-2026",
+      "no-digdir-ki-norge-report-2025"
+    ],
+    "mandate_short": "Would add AI safety and model evaluation to KI Norge's remit.",
+    "placement": {
+      "host_type": "government_agency",
+      "source_ids": [
+        "no-budget",
+        "r5-no-holte-appointment"
+      ],
+      "citations": {
+        "host_type": [
+          "r5-no-holte-appointment"
+        ],
+        "display": [
+          "r5-no-holte-appointment"
+        ]
+      }
+    },
+    "name_local": "KI Norge",
+    "short_name": "KI Norge",
+    "notes": "The budget proposal combines an AI safety mandate with a contact-point role for international safety communities, including AI Safety Institutes. It also describes guidance on risk and suitable use when choosing specific models. The counterpart route supports proposed status. Other staff figures differ: a May 2026 press report gave about ten staff, and a job advertisement offered 16 permanent posts.",
+    "wikidata": null,
+    "identifier_notes": "No matching Wikidata institute item verified in label and official-name searches on 17 October 2026; null does not establish that no item exists.",
+    "agreements": [
+      {
+        "counterparty_type": "government",
+        "counterparty": "UK Government, for the UK AI Security Institute",
+        "state": "signed",
+        "date": "2026-11-12",
+        "scope": "Non-binding joint statement of intent to explore cooperation, including sharing best practices between the two institutes on AI security, testing and evaluation, and exchanging knowledge of the capabilities and risks of advanced AI systems. The UK government said on 19 November 2026 that the statement creates no financial commitments and that no dedicated funding had been allocated to activities under it. Norway's government calls it a letter of intent, signed with a view to a later memorandum of understanding that sets out the cooperation in each area.",
+        "source_ids": [
+          "no-gov-uk-ai-2026-11-12",
+          "gb-no-ai-statement-2026",
+          "gb-pq-43807-2026"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-558e5548aaf54f04a8a17b3f5939783b",
+        "news": "The two governments sign a non-binding statement of intent to explore cooperation, including between their institutes on AI security testing and evaluation.",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "gb-no-ai-statement-2026",
+            "no-gov-uk-ai-2026-11-12"
+          ],
+          "state": [
+            "gb-no-ai-statement-2026",
+            "no-gov-uk-ai-2026-11-12"
+          ],
+          "date": [
+            "gb-no-ai-statement-2026",
+            "no-gov-uk-ai-2026-11-12"
+          ],
+          "scope": [
+            "gb-no-ai-statement-2026",
+            "gb-pq-43807-2026",
+            "no-gov-uk-ai-2026-11-12"
+          ],
+          "participation": [
+            "gb-no-ai-statement-2026",
+            "no-gov-uk-ai-2026-11-12"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "news": [
+            "gb-no-ai-statement-2026"
+          ],
+          "display": [
+            "gb-no-ai-statement-2026",
+            "gb-pq-43807-2026",
+            "no-gov-uk-ai-2026-11-12"
+          ]
+        }
+      }
+    ],
+    "outputs": [],
+    "people": [
+      {
+        "name": "Hans Christian Holte",
+        "role": "Director of KI Norge",
+        "confidence": "high",
+        "title_status": "published",
+        "source_ids": [
+          "r5-no-holte-appointment",
+          "no-ki-holte-june",
+          "no-holte-appointment-dfd",
+          "no-budget"
+        ],
+        "notes": "Digdir's 7 May 2026 announcement gave August 2026 as the planned start. KI Norge's article published on 1 June 2026 presents Holte as director and gives 12 June 2026 as the organisation's official launch. The additional AI safety and model-evaluation mandate remains proposed.",
+        "id": "people-2d72b937814c5e4885e71e2f8af219e3",
+        "background": "Holte was Director of Labour and Welfare from 2020 to 2025.",
+        "citations": {
+          "name": [
+            "r5-no-holte-appointment",
+            "no-ki-holte-june"
+          ],
+          "role": [
+            "r5-no-holte-appointment",
+            "no-ki-holte-june"
+          ],
+          "confidence": [],
+          "title_status": [],
+          "notes": [
+            "no-budget",
+            "r5-no-holte-appointment",
+            "no-ki-holte-june"
+          ],
+          "id": [],
+          "background": [
+            "no-holte-appointment-dfd"
+          ],
+          "display": [
+            "no-budget",
+            "r5-no-holte-appointment",
+            "no-ki-holte-june",
+            "no-holte-appointment-dfd"
+          ]
+        }
+      }
+    ],
+    "head": {
+      "state": "stated",
+      "person_id": "people-2d72b937814c5e4885e71e2f8af219e3",
+      "source_ids": [
+        "no-ki-holte-june"
+      ],
+      "citations": {
+        "state": [],
+        "person_id": [
+          "no-ki-holte-june"
+        ],
+        "display": [
+          "no-ki-holte-june"
+        ]
+      }
+    },
+    "reports_to": {
+      "state": "stated",
+      "name": "Digitaliserings- og forvaltningsdepartementet",
+      "name_en": "Ministry of Digitalisation and Public Governance",
+      "source_ids": [
+        "no-ki-about",
+        "no-digdir-report-2024"
+      ],
+      "citations": {
+        "state": [],
+        "name": [
+          "no-ki-about",
+          "no-digdir-report-2024"
+        ],
+        "name_en": [],
+        "display": [
+          "no-ki-about",
+          "no-digdir-report-2024"
+        ]
+      }
+    },
+    "national_partners": {
+      "state": "stated",
+      "entries": [
+        {
+          "id": "np-no-nkom",
+          "name": "Nasjonal kommunikasjonsmyndighet",
+          "acronym": "Nkom",
+          "what": "national communications authority",
+          "relation": "planned",
+          "how": "Is jointly tasked with KI Norge and the data protection authority to establish and run Norway's regulatory AI sandbox.",
+          "source_ids": [
+            "no-ki-about",
+            "no-prop1s-2026-27-dfd"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "no-ki-about",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "acronym": [],
+            "what": [
+              "no-ki-about"
+            ],
+            "relation": [
+              "no-ki-about"
+            ],
+            "how": [
+              "no-ki-about",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "display": [
+              "no-ki-about",
+              "no-prop1s-2026-27-dfd"
+            ]
+          }
+        },
+        {
+          "id": "np-no-datatilsynet",
+          "name": "Datatilsynet",
+          "name_en": "Norwegian Data Protection Authority",
+          "what": "data protection authority",
+          "relation": "planned",
+          "how": "Is jointly tasked with KI Norge and the communications authority to establish and run Norway's regulatory AI sandbox.",
+          "source_ids": [
+            "no-ki-about",
+            "no-prop1s-2026-27-dfd",
+            "j7-no-datatilsynet-en"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "no-ki-about",
+              "j7-no-datatilsynet-en",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "name_en": [
+              "j7-no-datatilsynet-en"
+            ],
+            "what": [
+              "j7-no-datatilsynet-en"
+            ],
+            "relation": [
+              "no-ki-about"
+            ],
+            "how": [
+              "no-ki-about",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "display": [
+              "no-ki-about",
+              "j7-no-datatilsynet-en",
+              "no-prop1s-2026-27-dfd"
+            ]
+          }
+        }
+      ],
+      "notes": "Cyber agency searched on 19 October 2026 in Norwegian and English: NSM (including NCSC Norway); six documents were read, including the institute's current pages, its host's report and NSM's own pages."
+    },
+    "testing_capacity": {
+      "state": "not_published",
+      "notes": "The budget release says the government will extend KI Norge's mandate to include AI safety work and proposes NOK 30 million to strengthen this work.",
+      "source_ids": [
+        "no-budget"
+      ],
+      "searches": [
+        {
+          "date": "2026-10-21",
+          "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+          "language": "en",
+          "sources_read": [
+            "https://epoch.ai/data/ai-models",
+            "https://epoch.ai/data/ai-models-documentation",
+            "https://epoch.ai/data/all_ai_models.csv",
+            "https://epoch.ai/data/frontier_ai_models.csv",
+            "https://epoch.ai/data/notable_ai_models.csv"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Recorded sources re-read for testing and access wording",
+          "language": "nn, nb, en",
+          "sources_read": [
+            "https://www.regjeringen.no/no/aktuelt/foreslar-kraftfull-satsing-pa-ki-og-digitalisering/id3173740/",
+            "https://ki.norge.no/om-oss",
+            "https://ki.norge.no/artikler/hans-christian-holte-leder-ki-norge",
+            "https://kommunikasjon.ntb.no/pressemelding/18892399/hans-christian-holte-blir-direktor-for-ki-norge?publisherId=17847227"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "KI Norge KI-sikkerhet evaluere KI-modeller Prop. 1 S 2026-2027 Digitaliserings- og forvaltningsdepartementet",
+          "language": "nb",
+          "sources_read": [
+            "search results only; no Norwegian primary hit"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "KI Norge KI-sikkerhet evaluering av KI-modeller forskningsinstitusjoner Prop. 1 S (2026–2027)",
+          "language": "nb, nn",
+          "sources_read": [
+            "https://www.regjeringen.no/no/aktuelt/foreslar-kraftfull-satsing-pa-ki-og-digitalisering/id3173740/",
+            "https://www.regjeringen.no/contentassets/9c922694cba941a5884132809284fe07/2025-digitaliseringsdirektoratet-supplerende-tildelingsbrev-nr-3.pdf",
+            "https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412 (highlights)",
+            "https://www.simula.no/about/news/simulas-ki-rad-til-regjeringen",
+            "https://www.langsikt.no/publikasjoner/noen-ma-teste-ki-modellene-norge-gjor-seg-avhengig-av",
+            "https://e24.no/boers-og-finans/i/ln6LOL/regjeringen-vil-bruke-120-millioner-paa-ai-tiltak (highlights)"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "KI-loven 2026 Stortinget vedtatt Nkom markedstilsynsmyndighet KI Norge sandkasse tilgang til KI-modeller",
+          "language": "nb",
+          "sources_read": [
+            "https://ki.norge.no/veiledning/ki-loven-informasjon",
+            "https://nkom.no/ki/regulering/hvem-handhever",
+            "https://ki.norge.no/sandkasse",
+            "https://nkom.no/ki/regulering/regulatorisk-sandkasse"
+          ]
+        }
+      ],
+      "citations": {
+        "state": [],
+        "notes": [
+          "no-budget"
+        ],
+        "searches": [],
+        "display": [
+          "no-budget"
+        ]
+      }
+    },
+    "model_access": {
+      "notes": "The budget release says the contact-point role is to give access to methods, test tools and assessments that Norway cannot build up alone.",
+      "source_ids": [
+        "no-ki-norge-ki-loven",
+        "no-budget"
+      ],
+      "searches": [
+        {
+          "date": "2026-10-21",
+          "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+          "language": "en",
+          "sources_read": [
+            "https://epoch.ai/data/ai-models",
+            "https://epoch.ai/data/ai-models-documentation",
+            "https://epoch.ai/data/all_ai_models.csv",
+            "https://epoch.ai/data/frontier_ai_models.csv",
+            "https://epoch.ai/data/notable_ai_models.csv"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Recorded sources re-read for testing and access wording",
+          "language": "nn, nb, en",
+          "sources_read": [
+            "https://www.regjeringen.no/no/aktuelt/foreslar-kraftfull-satsing-pa-ki-og-digitalisering/id3173740/",
+            "https://ki.norge.no/om-oss",
+            "https://ki.norge.no/artikler/hans-christian-holte-leder-ki-norge",
+            "https://kommunikasjon.ntb.no/pressemelding/18892399/hans-christian-holte-blir-direktor-for-ki-norge?publisherId=17847227"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "KI Norge KI-sikkerhet evaluere KI-modeller Prop. 1 S 2026-2027 Digitaliserings- og forvaltningsdepartementet",
+          "language": "nb",
+          "sources_read": [
+            "search results only; no Norwegian primary hit"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "KI Norge KI-sikkerhet evaluering av KI-modeller forskningsinstitusjoner Prop. 1 S (2026–2027)",
+          "language": "nb, nn",
+          "sources_read": [
+            "https://www.regjeringen.no/no/aktuelt/foreslar-kraftfull-satsing-pa-ki-og-digitalisering/id3173740/",
+            "https://www.regjeringen.no/contentassets/9c922694cba941a5884132809284fe07/2025-digitaliseringsdirektoratet-supplerende-tildelingsbrev-nr-3.pdf",
+            "https://www.digdir.no/kunstig-intelligens/digdir-etablerer-ki-norge/7412 (highlights)",
+            "https://www.simula.no/about/news/simulas-ki-rad-til-regjeringen",
+            "https://www.langsikt.no/publikasjoner/noen-ma-teste-ki-modellene-norge-gjor-seg-avhengig-av",
+            "https://e24.no/boers-og-finans/i/ln6LOL/regjeringen-vil-bruke-120-millioner-paa-ai-tiltak (highlights)"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "KI-loven 2026 Stortinget vedtatt Nkom markedstilsynsmyndighet KI Norge sandkasse tilgang til KI-modeller",
+          "language": "nb",
+          "sources_read": [
+            "https://ki.norge.no/veiledning/ki-loven-informasjon",
+            "https://nkom.no/ki/regulering/hvem-handhever",
+            "https://ki.norge.no/sandkasse",
+            "https://nkom.no/ki/regulering/regulatorisk-sandkasse"
+          ]
+        }
+      ],
+      "value": "none_found",
+      "citations": {
+        "notes": [
+          "no-budget"
+        ],
+        "searches": [],
+        "value": [],
+        "display": [
+          "no-budget"
+        ]
+      }
+    },
+    "staffing_model": {
+      "code": "host_unit",
+      "source_ids": [
+        "no-budget",
+        "no-ki-about",
+        "no-doffin-2026-116502",
+        "no-digdir-ki-norge-report-2025"
+      ],
+      "notes": "proposed: 'foreslår 30 millionar kroner' (proposes NOK 30 million) to give KI Norge 'auka kapasitet til å evaluere KI-modeller' (more capacity to evaluate AI models), with the work done 'i samarbeid med forskingsinstitusjonane' (in cooperation with the research institutions), budget press release of the Ministry of Digitalisation and Public Governance, 7 October 2026. KI Norge is a unit of the Norwegian Digitalisation Agency. Contractor: a contract award notice of 22 October 2026 records a need for one administrative support for the management in an executive assistant role, a new role for one consultant, full time for one year with an option of 6 plus 6 months.",
+      "citations": {
+        "code": [
+          "no-digdir-ki-norge-report-2025"
+        ],
+        "notes": [
+          "no-budget",
+          "no-ki-about",
+          "no-doffin-2026-116502"
+        ],
+        "display": [
+          "no-budget",
+          "no-ki-about",
+          "no-doffin-2026-116502",
+          "no-digdir-ki-norge-report-2025"
+        ]
+      }
+    },
+    "staff": [
+      {
+        "total": null,
+        "as_of": "2026-08-24",
+        "description": "12 to 15 people",
+        "source_ids": [
+          "no-altinget-holte-2026"
+        ],
+        "confidence": "low",
+        "figure_source": "press_report",
+        "id": "staff-a2a3ec64e2e4440497c92d90c838943a",
+        "citations": {
+          "total": [],
+          "as_of": [
+            "no-altinget-holte-2026"
+          ],
+          "description": [
+            "no-altinget-holte-2026"
+          ],
+          "confidence": [],
+          "figure_source": [],
+          "id": [],
+          "display": [
+            "no-altinget-holte-2026"
+          ]
+        },
+        "display": {
+          "total": null,
+          "technical": null,
+          "target": null
+        }
+      }
+    ],
+    "claims": [
+      {
+        "id": "claims-c5714a4546514d44a64c162bb4f13632",
+        "kind": "fact",
+        "source_ids": [
+          "no-digdir-ki-norge-report-2025"
+        ],
+        "text": "To make KI Norge fully operational, Digdir brought technical, legal, innovation and public administration expertise together in an interim organisation from 1 December 2025.",
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "no-digdir-ki-norge-report-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-digdir-ki-norge-report-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-7fd387533a8f45fe918533a749033b3a",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "mandate",
+        "text": "The government's 2027 budget bill assigns it the evaluation of AI models, including their safety, in 2027.",
+        "source_ids": [
+          "no-prop1s-2026-27-dfd"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-24",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-prop1s-2026-27-dfd"
+          ]
+        }
+      },
+      {
+        "id": "claims-9bd2c6db801149b1b310cc9dd14e0d9a",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "mandate",
+        "text": "The government's 2027 budget bill makes it the contact point towards international AI safety communities such as AI Safety Institutes, aiming at cooperation on methods, assessments and test tools.",
+        "source_ids": [
+          "no-prop1s-2026-27-dfd"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-24",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-prop1s-2026-27-dfd"
+          ]
+        }
+      },
+      {
+        "id": "claims-0132732c8534478a827e1d638e013617",
+        "kind": "function",
+        "code": "adoption",
+        "basis": "activity",
+        "text": "KI Norge says it makes it easier for businesses, especially small and medium-sized ones, to understand the rules, find relevant tools and get started with artificial intelligence.",
+        "source_ids": [
+          "no-ki-about"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "no-ki-about"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-ki-about"
+          ]
+        }
+      },
+      {
+        "id": "claims-ac0da99673694210bb257cac9b905ceb",
+        "kind": "function",
+        "code": "adoption",
+        "basis": "mandate",
+        "text": "Digdir's report on the assignment says KI Norge is to drive innovative and responsible development and use of AI.",
+        "source_ids": [
+          "no-digdir-ki-norge-report-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "no-digdir-ki-norge-report-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-digdir-ki-norge-report-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-4a54b14b493840d6bb3a6c280e221021",
+        "kind": "function",
+        "code": "convening",
+        "basis": "mandate",
+        "text": "Digdir's report records the assignment to establish KI Norge as a national arena for responsible innovation, development and use of AI.",
+        "source_ids": [
+          "no-digdir-ki-norge-report-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "no-digdir-ki-norge-report-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-digdir-ki-norge-report-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-70abefe509fa472ea0e10af88e03c7fb",
+        "kind": "function",
+        "code": "sandbox",
+        "basis": "mandate",
+        "text": "The ministry's press release says KI Norge is to operate the national AI sandbox together with the Data Protection Authority and the Norwegian Communications Authority.",
+        "source_ids": [
+          "no-holte-appointment-dfd"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-14",
+          "since": "2026-11-16"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "no-holte-appointment-dfd"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-holte-appointment-dfd"
+          ]
+        }
+      },
+      {
+        "id": "claims-cd365bf008df42d68a3c2878770697dc",
+        "kind": "function",
+        "code": "standards_guidance",
+        "basis": "mandate",
+        "text": "The ministry's budget proposition says that through KI Norge the agency has a particular responsibility to guide on, and drive, responsible and innovative use of AI in the public and private sectors.",
+        "source_ids": [
+          "no-prop1s-2026-27-dfd"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-24",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "no-prop1s-2026-27-dfd"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "no-prop1s-2026-27-dfd"
+          ]
+        }
+      }
+    ],
+    "status": "proposed",
+    "announced": "2026-10-07",
+    "functions": [
+      {
+        "code": "model_testing",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-7fd387533a8f45fe918533a749033b3a"
+        ]
+      },
+      {
+        "code": "evaluation_methods",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "research",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "standards_guidance",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-cd365bf008df42d68a3c2878770697dc"
+        ]
+      },
+      {
+        "code": "regulatory_enforcement",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "regulatory_support",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "risk_monitoring",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "foresight",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "policy_advice",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "incident_response",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "international_cooperation",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-9bd2c6db801149b1b310cc9dd14e0d9a"
+        ]
+      },
+      {
+        "code": "convening",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-4a54b14b493840d6bb3a6c280e221021"
+        ]
+      },
+      {
+        "code": "capacity_building",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "talent",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "adoption",
+        "value": "both",
+        "claim_ids": [
+          "claims-0132732c8534478a827e1d638e013617",
+          "claims-ac0da99673694210bb257cac9b905ceb"
+        ]
+      },
+      {
+        "code": "public_access_continuity",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "certification",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "sandbox",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-70abefe509fa472ea0e10af88e03c7fb"
+        ]
+      }
+    ],
+    "operating": [],
+    "intervals": {
+      "announced_to_established": null,
+      "established_to_first_qualifying_activity": null,
+      "announced_to_first_qualifying_activity": null
+    },
+    "citations": {
+      "id": [],
+      "name": [
+        "no-budget"
+      ],
+      "jurisdiction_id": [],
+      "host": [
+        "r5-no-holte-appointment"
+      ],
+      "legal_form": [
+        "r5-no-holte-appointment"
+      ],
+      "mandate": [
+        "no-budget",
+        "no-prop1s-2026-27-dfd"
+      ],
+      "website": [],
+      "funding": [
+        "no-budget",
+        "r11-no-fiscal-year",
+        "no-prop1s-2026-27-dfd"
+      ],
+      "check": [],
+      "mandate_short": [
+        "no-budget"
+      ],
+      "placement": [
+        "r5-no-holte-appointment"
+      ],
+      "name_local": [],
+      "short_name": [],
+      "notes": [
+        "no-budget",
+        "no-techwatch-2026-05",
+        "no-karrierestart-kin-2026"
+      ],
+      "wikidata": [],
+      "identifier_notes": [],
+      "agreements": [
+        "gb-no-ai-statement-2026",
+        "gb-pq-43807-2026",
+        "no-gov-uk-ai-2026-11-12"
+      ],
+      "outputs": [],
+      "people": [
+        "no-budget",
+        "r5-no-holte-appointment",
+        "no-ki-holte-june",
+        "no-holte-appointment-dfd"
+      ],
+      "head": [
+        "no-ki-holte-june"
+      ],
+      "reports_to": [
+        "no-ki-about",
+        "no-digdir-report-2024"
+      ],
+      "national_partners": [
+        "no-ki-about",
+        "j7-no-datatilsynet-en",
+        "no-prop1s-2026-27-dfd"
+      ],
+      "testing_capacity": [
+        "no-budget"
+      ],
+      "model_access": [
+        "no-budget"
+      ],
+      "staffing_model": [
+        "no-budget",
+        "no-ki-about",
+        "no-doffin-2026-116502",
+        "no-digdir-ki-norge-report-2025"
+      ],
+      "staff": [
+        "no-altinget-holte-2026"
+      ],
+      "claims": [
+        "no-ki-about",
+        "no-prop1s-2026-27-dfd",
+        "no-holte-appointment-dfd",
+        "no-digdir-ki-norge-report-2025"
+      ],
+      "status": [
+        "no-budget"
+      ],
+      "announced": [
+        "no-budget"
+      ],
+      "functions": [],
+      "operating": [],
+      "intervals": [],
+      "display": [
+        "no-budget",
+        "r5-no-holte-appointment",
+        "r11-no-fiscal-year",
+        "no-ki-holte-june",
+        "no-ki-about",
+        "no-digdir-report-2024",
+        "j7-no-datatilsynet-en",
+        "no-prop1s-2026-27-dfd",
+        "no-altinget-holte-2026",
+        "no-techwatch-2026-05",
+        "no-karrierestart-kin-2026",
+        "gb-no-ai-statement-2026",
+        "no-holte-appointment-dfd",
+        "gb-pq-43807-2026",
+        "no-gov-uk-ai-2026-11-12"
+      ],
+      "form": [
+        "r5-no-holte-appointment"
+      ],
+      "inst": [
+        "no-budget"
+      ],
+      "institute": [
+        "no-budget"
+      ],
+      "established": [],
+      "announced_to_established": [],
+      "established_to_first_qualifying_activity": [],
+      "announced_to_first_qualifying_activity": []
+    },
+    "display": {
+      "intervals": {
+        "status_since": null,
+        "known_activity": null
+      },
+      "comparison_funding": null,
+      "budget": "funding-07dc8b2c007b4b80a356aef8e5afa53c",
+      "staff": "staff-a2a3ec64e2e4440497c92d90c838943a",
+      "total_staff": null,
+      "technical_staff": null,
+      "funding_records": {
+        "funding-07dc8b2c007b4b80a356aef8e5afa53c": {
+          "kind": "annual",
+          "amount": 45100000,
+          "currency": "NOK",
+          "period": "2027 budget proposal",
+          "description": "NOK 45.1m proposed for KI Norge (budget post 28) in 2027, including the NOK 30m for model evaluation",
+          "source_ids": [
+            "no-prop1s-2026-27-dfd",
+            "no-budget",
+            "r11-no-fiscal-year"
+          ],
+          "confidence": "high",
+          "commitment": "proposed",
+          "funding_source": "national_government",
+          "annual_amount": 45100000,
+          "annual_basis": "Proposed 2027 appropriation for KI Norge's budget post as a whole; not enacted funding or expenditure.",
+          "decision_date": "2026-10-07",
+          "annual_basis_code": "other",
+          "annual_period": {
+            "start": "2027-01-01",
+            "end": "2027-12-31"
+          },
+          "coverage": "whole_institute",
+          "id": "funding-07dc8b2c007b4b80a356aef8e5afa53c",
+          "notes": "The appropriation covers the development and running of KI Norge as a whole, not only its AI safety work.",
+          "eur_per_year_est": 3849010,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "currency": [],
+            "period": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "description": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "annual_amount": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "annual_basis": [],
+            "decision_date": [
+              "no-budget"
+            ],
+            "annual_basis_code": [],
+            "annual_period": [],
+            "coverage": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "id": [],
+            "notes": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "eur_per_year_est": [
+              "eu-ecb-exchange-rates-2025",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "display": [
+              "no-budget",
+              "eu-ecb-exchange-rates-2025",
+              "no-prop1s-2026-27-dfd"
+            ]
+          },
+          "display": {
+            "annual_estimate": true,
+            "value": "~NOK 45m",
+            "qualifiers": [
+              "a year",
+              "2027 budget proposal"
+            ],
+            "native_value": "~NOK 45m",
+            "native_qualifiers": [
+              "a year",
+              "2027 budget proposal"
+            ],
+            "budget_citations": [
+              "no-prop1s-2026-27-dfd"
+            ]
+          }
+        },
+        "funding-0475119a71cc5e2099e293d3a48356b0": {
+          "kind": "annual",
+          "amount": 30000000,
+          "currency": "NOK",
+          "period": "2027 budget proposal",
+          "description": "NOK 30m proposed for AI safety and model-evaluation capacity in KI Norge in 2027",
+          "source_ids": [
+            "no-budget",
+            "r11-no-fiscal-year",
+            "no-prop1s-2026-27-dfd"
+          ],
+          "confidence": "high",
+          "commitment": "proposed",
+          "funding_source": "national_government",
+          "annual_amount": 30000000,
+          "annual_basis": "Proposed allocation for 2027 for the added AI safety and model-evaluation remit in KI Norge; not enacted funding or expenditure.",
+          "decision_date": "2026-10-07",
+          "annual_basis_code": "other",
+          "annual_period": {
+            "start": "2027-01-01",
+            "end": "2027-12-31"
+          },
+          "coverage": "component",
+          "id": "funding-0475119a71cc5e2099e293d3a48356b0",
+          "notes": "The 2027 budget proposal puts the whole KI Norge budget post (post 28) at NOK 45.1m, which includes this NOK 30m. The ministry recommended Prop. 1 S and the Council of State approved it on 25 September 2026; it was published on 7 October 2026, the decision date recorded.",
+          "eur_per_year_est": 2560320,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "no-budget"
+            ],
+            "currency": [],
+            "period": [],
+            "description": [
+              "no-budget",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "annual_amount": [
+              "no-budget"
+            ],
+            "annual_basis": [],
+            "decision_date": [],
+            "annual_basis_code": [],
+            "annual_period": [
+              "r11-no-fiscal-year"
+            ],
+            "coverage": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "id": [],
+            "notes": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "eur_per_year_est": [
+              "no-budget",
+              "eu-ecb-exchange-rates-2025"
+            ],
+            "display": [
+              "no-budget",
+              "eu-ecb-exchange-rates-2025",
+              "r11-no-fiscal-year",
+              "no-prop1s-2026-27-dfd"
+            ]
+          },
+          "display": {
+            "annual_estimate": true,
+            "value": "NOK 30m",
+            "qualifiers": [
+              "a year",
+              "2027 budget proposal"
+            ],
+            "native_value": "NOK 30m",
+            "native_qualifiers": [
+              "a year",
+              "2027 budget proposal"
+            ],
+            "budget_citations": [
+              "no-budget"
+            ]
+          }
+        },
+        "funding-e47a2c9b1d5f4086b3c8a1e6d9f2b705": {
+          "currency": "NOK",
+          "confidence": "high",
+          "funding_source": "national_government",
+          "coverage": "not_institute_specific",
+          "kind": "not_institute_specific",
+          "annual_basis_code": "other",
+          "amount": 10000000,
+          "period": "2026 adopted budget",
+          "commitment": "adopted",
+          "description": "NOK 10.0m adopted for KI Norge (budget post 28) in 2026, before the proposed AI safety mandate.",
+          "source_ids": [
+            "no-prop1s-2026-27-dfd",
+            "r11-no-fiscal-year",
+            "no-budget"
+          ],
+          "annual_amount": 10000000,
+          "annual_basis": "Adopted 2026 appropriation for KI Norge's general work, shown as the 2026 adopted budget in the 2027 budget proposal; funding of the body before its proposed AI safety mandate, not expenditure.",
+          "annual_period": {
+            "start": "2026-01-01",
+            "end": "2026-12-31"
+          },
+          "notes": "This is the body's budget before the proposed AI safety remit. The appropriation covers the costs of developing and running KI Norge.",
+          "id": "funding-e47a2c9b1d5f4086b3c8a1e6d9f2b705",
+          "eur_per_year_est": 853440,
+          "citations": {
+            "currency": [],
+            "confidence": [],
+            "funding_source": [],
+            "coverage": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "kind": [],
+            "annual_basis_code": [],
+            "amount": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "period": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "commitment": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "description": [
+              "no-budget",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "annual_amount": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "annual_basis": [
+              "no-prop1s-2026-27-dfd"
+            ],
+            "annual_period": [
+              "r11-no-fiscal-year"
+            ],
+            "notes": [
+              "no-budget",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "id": [],
+            "eur_per_year_est": [
+              "eu-ecb-exchange-rates-2025",
+              "no-prop1s-2026-27-dfd"
+            ],
+            "display": [
+              "no-budget",
+              "r11-no-fiscal-year",
+              "no-prop1s-2026-27-dfd"
+            ]
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "NOK 10m",
+            "qualifiers": [
+              "2026 adopted budget"
+            ],
+            "native_value": "NOK 10m",
+            "native_qualifiers": [
+              "2026 adopted budget"
+            ],
+            "budget_citations": [
+              "no-prop1s-2026-27-dfd"
+            ]
+          }
+        }
+      },
+      "funding_ids": [
+        "funding-e47a2c9b1d5f4086b3c8a1e6d9f2b705",
+        "funding-0475119a71cc5e2099e293d3a48356b0",
+        "funding-07dc8b2c007b4b80a356aef8e5afa53c"
+      ],
+      "staff_records": {
+        "staff-a2a3ec64e2e4440497c92d90c838943a": {
+          "total": null,
+          "as_of": "2026-08-24",
+          "description": "12 to 15 people",
+          "source_ids": [
+            "no-altinget-holte-2026"
+          ],
+          "confidence": "low",
+          "figure_source": "press_report",
+          "id": "staff-a2a3ec64e2e4440497c92d90c838943a",
+          "citations": {
+            "total": [],
+            "as_of": [
+              "no-altinget-holte-2026"
+            ],
+            "description": [
+              "no-altinget-holte-2026"
+            ],
+            "confidence": [],
+            "figure_source": [],
+            "id": [],
+            "display": [
+              "no-altinget-holte-2026"
+            ]
+          },
+          "display": {
+            "total": null,
+            "technical": null,
+            "target": null
+          }
+        }
+      },
+      "staff_ids": [
+        "staff-a2a3ec64e2e4440497c92d90c838943a"
+      ],
+      "related_funding_ids": [
+        "funding-e47a2c9b1d5f4086b3c8a1e6d9f2b705"
+      ],
+      "operating": {
+        "since": null,
+        "first_lineage": null,
+        "items": []
+      },
+      "rows": {
+        "head": {
+          "state": "stated",
+          "text": "Hans Christian Holte, Director",
+          "cited": [
+            "no-ki-holte-june"
+          ]
+        },
+        "reports_to": {
+          "state": "stated",
+          "text": "Ministry of Digitalisation and Public Governance",
+          "cited": [
+            "no-ki-about",
+            "no-digdir-report-2024"
+          ],
+          "original": "Digitaliserings- og forvaltningsdepartementet"
+        },
+        "partners": {
+          "state": "stated",
+          "items": [
+            {
+              "id": "np-no-nkom",
+              "text": "Nkom (national communications authority, planned)",
+              "name": "Nkom",
+              "how": "Is jointly tasked with KI Norge and the data protection authority to establish and run Norway's regulatory AI sandbox.",
+              "cited": [
+                "no-ki-about",
+                "no-prop1s-2026-27-dfd"
+              ]
+            },
+            {
+              "id": "np-no-datatilsynet",
+              "text": "Norwegian Data Protection Authority (data protection authority, planned)",
+              "name": "Norwegian Data Protection Authority",
+              "how": "Is jointly tasked with KI Norge and the communications authority to establish and run Norway's regulatory AI sandbox.",
+              "cited": [
+                "no-ki-about",
+                "j7-no-datatilsynet-en",
+                "no-prop1s-2026-27-dfd"
+              ]
+            }
+          ],
+          "fold_items": [
+            {
+              "id": "np-no-nkom",
+              "text": "Nkom (national communications authority, planned)",
+              "name": "Nkom",
+              "how": "Is jointly tasked with KI Norge and the data protection authority to establish and run Norway's regulatory AI sandbox.",
+              "cited": [
+                "no-ki-about",
+                "no-prop1s-2026-27-dfd"
+              ]
+            },
+            {
+              "id": "np-no-datatilsynet",
+              "text": "Norwegian Data Protection Authority (data protection authority, planned)",
+              "name": "Norwegian Data Protection Authority",
+              "how": "Is jointly tasked with KI Norge and the communications authority to establish and run Norway's regulatory AI sandbox.",
+              "cited": [
+                "no-ki-about",
+                "j7-no-datatilsynet-en",
+                "no-prop1s-2026-27-dfd"
+              ]
+            }
+          ],
+          "tail": "cyber agency not published",
+          "cited": [
+            "no-ki-about",
+            "no-prop1s-2026-27-dfd",
+            "j7-no-datatilsynet-en"
+          ]
+        }
+      },
+      "source_links": [
+        "no-budget",
+        "r5-no-holte-appointment",
+        "eu-ecb-exchange-rates-2025",
+        "r11-no-fiscal-year",
+        "no-ki-holte-june",
+        "no-ki-about",
+        "no-digdir-report-2024",
+        "j7-no-datatilsynet-en",
+        "no-prop1s-2026-27-dfd",
+        "no-altinget-holte-2026",
+        "no-techwatch-2026-05",
+        "no-karrierestart-kin-2026",
+        "no-doffin-2026-116502",
+        "gb-no-ai-statement-2026",
+        "no-holte-appointment-dfd",
+        "no-digdir-ki-norge-report-2025",
+        "gb-pq-43807-2026",
+        "no-gov-uk-ai-2026-11-12"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "eu-ecb-exchange-rates-2025",
+      "title": "ECB euro foreign exchange reference rates, annual averages for 2025",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.AUD+CAD+GBP+INR+JPY+KRW+MYR+NOK+SGD+USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+      "excerpts": []
+    },
+    {
+      "id": "gb-no-ai-statement-2026",
+      "title": "United Kingdom-Norway Joint Statement of intent on Artificial Intelligence",
+      "url": "https://www.gov.uk/government/news/united-kingdom-norway-joint-statement-of-intent-on-artificial-intelligence",
+      "excerpts": [
+        {
+          "text": "The ministers committed to explore collaboration in the following potential areas:",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope",
+            "/record/agreements/0/news"
+          ]
+        },
+        {
+          "text": "Strengthening cooperation between UK AISI and AI Norway through the sharing of best practices on AI security, testing, and evaluation, including as they relate to cybersecurity, via NCSC and NSM;",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/counterparty",
+            "/record/agreements/0/participation",
+            "/record/agreements/0/scope",
+            "/record/agreements/0/news"
+          ]
+        },
+        {
+          "text": "exchanging knowledge of the capabilities and risks of advanced AI systems; and exploring other opportunities for practical cooperation.",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        },
+        {
+          "text": "This Statement expresses the intentions of the Participants and does not create rights or obligations under international or domestic law.",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope",
+            "/record/agreements/0/news"
+          ]
+        },
+        {
+          "text": "Signed in Oslo on [12 November 2026], in two copies in the English language.",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/state",
+            "/record/agreements/0/date",
+            "/record/agreements/0/news"
+          ]
+        },
+        {
+          "text": "For the Government of the United Kingdom of Great Britain and Northern Ireland",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/counterparty",
+            "/record/agreements/0/news"
+          ]
+        },
+        {
+          "text": "For the Government of the Kingdom of Norway",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-pq-43807-2026",
+      "title": "Artificial Intelligence: Norway (UIN 43807)",
+      "url": "https://questions-statements.parliament.uk/written-questions/detail/2026-11-16/43807",
+      "excerpts": [
+        {
+          "text": "The Statement creates no financial commitments.",
+          "accessed": "2026-11-20",
+          "url": "https://questions-statements-api.parliament.uk/api/writtenquestions/questions/1960677?expandMember=true",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        },
+        {
+          "text": "No dedicated funding has been allocated to activities under the Statement.",
+          "accessed": "2026-11-20",
+          "url": "https://questions-statements-api.parliament.uk/api/writtenquestions/questions/1960677?expandMember=true",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j7-no-datatilsynet-en",
+      "title": "Frontpage | Datatilsynet",
+      "url": "https://www.datatilsynet.no/en/",
+      "excerpts": [
+        {
+          "text": "The Norwegian Data Protection Authority (Datatilsynet)",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-20",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/what",
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/name_en"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-altinget-holte-2026",
+      "title": "Takeoff for meg, for KI Norge og for KI i Norge",
+      "title_en": "Takeoff for me, for KI Norge and for AI in Norway",
+      "url": "https://www.altinget.no/arbeidsliv/artikkel/takeoff-for-meg-for-ki-norge-og-for-ki-i-norge",
+      "excerpts": [
+        {
+          "text": "Vi ble etablert av regjeringen i juni i år, for å bidra til en ansvarlig og innovativ bruk av KI i Norge. Vi er en del av Digitaliseringsdirektoratet. Og – det er viktig å ha med seg: vi er per i dag 12-15 personer.",
+          "gloss": "We were established by the government in June this year to contribute to responsible and innovative use of AI in Norway. We are part of the Norwegian Digitalisation Agency. And, importantly: we are currently 12 to 15 people.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/staff/0/description",
+            "/record/staff/0/as_of"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-budget",
+      "title": "Vil styrke satsinga på KI med over 120 millionar og vil samla bruke 2,2 milliardar på nye digitaliseringstiltak",
+      "title_en": "Will increase investment in AI by more than 120 million and spend a total of 2.2 billion on new digitalisation measures",
+      "url": "https://www.regjeringen.no/no/aktuelt/foreslar-kraftfull-satsing-pa-ki-og-digitalisering/id3173740/",
+      "archive_url": "https://web.archive.org/web/20261017030330/https://www.regjeringen.no/no/aktuelt/foreslar-kraftfull-satsing-pa-ki-og-digitalisering/id3173740/",
+      "excerpts": [
+        {
+          "text": "07.10.2026",
+          "gloss": "7 October 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/staffing_model/notes",
+            "/record/funding/0/decision_date"
+          ]
+        },
+        {
+          "text": "foreslår 30 millionar kroner",
+          "gloss": "proposes 30 million kroner",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/description"
+          ]
+        },
+        {
+          "text": "evaluere KI-modeller",
+          "gloss": "evaluate AI models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate",
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Regjeringa vil utvide mandatet til KI Norge så det inkluderer arbeid med KI-sikkerheit, og foreslår 30 millionar kroner til å styrke arbeidet på dette feltet.",
+          "gloss": "The government will extend KI Norge's mandate to include AI safety work and proposes NOK 30 million to strengthen work in this field.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/amount",
+            "/record/funding/1/annual_amount",
+            "/record/testing_capacity/notes",
+            "/record/staffing_model/notes",
+            "/record/funding/2/description",
+            "/record/funding/2/notes",
+            "/record/notes",
+            "/record/people/0/notes"
+          ]
+        },
+        {
+          "text": "Regjeringa vil utvide mandatet til KI Norge så det inkluderer arbeid med KI-sikkerheit",
+          "accessed": "2026-10-17",
+          "gloss": "The Government intends to expand KI Norge's mandate to include work on AI safety.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate_short",
+            "/record/name",
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "I tillegg skal KI Norge vere kontaktpunktet mot internasjonale sikkerheitsmiljø, for eksempel AI Safety Institutes.",
+          "accessed": "2026-10-18",
+          "gloss": "In addition, KI Norge will be the contact point for international safety communities, for example AI Safety Institutes.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate",
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "Forslaget skal gi auka kapasitet til å evaluere KI-modeller og rettleie om risiko og eigna bruk ved val av konkrete modellar til ulike bruksområde.",
+          "accessed": "2026-10-24",
+          "gloss": "The proposal is to increase capacity to evaluate AI models and to give guidance on risk and suitable use when choosing specific models for different uses.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate",
+            "/record/staffing_model/notes",
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "Evalueringsarbeidet skal skje i samarbeid med forskingsinstitusjonane",
+          "accessed": "2026-10-24",
+          "gloss": "The evaluation work is to be done in cooperation with the research institutions",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate",
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "I tillegg skal KI Norge vere kontaktpunktet mot internasjonale sikkerheitsmiljø, for eksempel AI Safety Institutes. Dette skal gi tilgang til metodar, testverktøy og vurderingar som Noreg ikkje kan bygge opp åleine.",
+          "gloss": "In addition, KI Norge is to be the contact point towards international safety communities, for example AI Safety Institutes. This is to give access to methods, test tools and assessments that Norway cannot build up alone.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Forslaget skal gi auka kapasitet til å evaluere KI-modeller",
+          "gloss": "The proposal is to increase capacity to evaluate AI models.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/people/0/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-digdir-ki-norge-report-2025",
+      "title": "Rapportering på oppdrag om KI Norge",
+      "title_en": "Report on the KI Norge assignment",
+      "url": "https://www.digdir.no/media/6966/download",
+      "excerpts": [
+        {
+          "text": "KI Norge skal bli et samlende spiss- miljø for utvikling og bruk av innovativ og ansvarlig kunstig intelligens, og skal være fullt operativt fra august 2026. For å nå målet, samlet Digdir teknisk, juridisk, innovasjons- og forvaltningskompetanse i en interimsorganisasjon fra 1. desember 2025.",
+          "gloss": "KI Norge is to become a unifying centre of expertise for the development and use of innovative and responsible artificial intelligence, and is to be fully operational from August 2026. To reach that goal, Digdir brought technical, legal, innovation and public administration expertise together in an interim organisation from 1 December 2025.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "KI Norge skal være en pådriver for  \ninnovativ og ansvarlig utvikling og bruk av kunstig  \nintelligens, og et spissmilijø som samler kompetanse og \ninnsikt fra det offentlige, næringslivet, forskningsmiljøene  \nog sivilsamfunnet.",
+          "gloss": "KI Norge is to be a driving force for innovative and responsible development and use of artificial intelligence, and a specialist centre that gathers expertise and insight from the public sector, business, research communities and civil society.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "Oppdrag om å etablere KI Norge – nasjonal arena  \nfor ansvarlig innovasjon, utvikling og bruk av kunstig  \nintelligens",
+          "gloss": "Assignment to establish KI Norge: a national arena for responsible innovation, development and use of artificial intelligence",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/5/text"
+          ]
+        },
+        {
+          "text": "KI Norge er nå en avdeling i Digdir med både faste og utlånte ressurser.",
+          "gloss": "KI Norge is now a department in Digdir with both permanent and loaned staff.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-14",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-digdir-report-2024",
+      "title": "Årsrapport 2024",
+      "title_en": "Annual report 2024",
+      "url": "https://www.digdir.no/media/5902/download",
+      "excerpts": [
+        {
+          "text": "Digdir er et statlig direktorat direkte underlagt Digitaliserings- og forvaltningsdepartementet.",
+          "gloss": "Digdir is a state directorate directly subordinate to the Ministry of Digitalisation and Public Governance.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-doffin-2026-116502",
+      "title": "Kontraktstildeling - Administrativ støtte/Executive assistant til KI Norge - Dynamisk innkjøpsordning",
+      "title_en": "Contract award: administrative support/executive assistant for KI Norge (dynamic purchasing system)",
+      "url": "https://www.doffin.no/notices/2026-116502",
+      "excerpts": [
+        {
+          "text": "har behov for 1 administrativ støtte for ledelsen – executive assistant-funksjon",
+          "gloss": "needs one administrative support for the management, an executive assistant function",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Dette er en ny rolle for 1 konsulent.",
+          "gloss": "This is a new role for one consultant.",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Stilling er 100 % i 1 år; opsjon på 6+6 måneder.",
+          "gloss": "The position is 100 per cent for one year; option of 6+6 months.",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-gov-uk-ai-2026-11-12",
+      "title": "Norge og Storbritannia etablerer samarbeid om kunstig intelligens",
+      "title_en": "Norway and the United Kingdom establish cooperation on artificial intelligence",
+      "url": "https://www.regjeringen.no/no/aktuelt/norge-og-storbritannia-etablerer-samarbeid-om-kunstig-intelligens/id3192548/",
+      "excerpts": [
+        {
+          "text": "Landene vil blant annet utforske samarbeid om:",
+          "gloss": "The countries will, among other things, explore cooperation on:",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        },
+        {
+          "text": "tettere samarbeid mellom KI Norge og AI Security Institute om KI-sikkerhet, testing og evaluering av KI-modeller, samt samarbeid om å forstå risiko ved avansert KI",
+          "gloss": "closer cooperation between KI Norge and the AI Security Institute on AI security, testing and evaluation of AI models, and cooperation on understanding the risks of advanced AI",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/counterparty",
+            "/record/agreements/0/participation",
+            "/record/agreements/0/scope"
+          ]
+        },
+        {
+          "text": "På møtet undertegnet ministrene en intensjonsavtale om samarbeidet med sikte på senere å utvikle en MoU (Memorandum of Understanding) som skal konkretisere samarbeidet på de ulike områdene.",
+          "gloss": "At the meeting the ministers signed a letter of intent on the cooperation, with a view to later developing an MoU (Memorandum of Understanding) that will make the cooperation concrete in the various areas.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/state",
+            "/record/agreements/0/scope"
+          ]
+        },
+        {
+          "text": "Digitaliserings- og forvaltningsminister Torgeir Micaelsen og Storbritannias minister for kunstig intelligens, Kanishka Narayan, møttes 12. november i forbindelse med Atlantic Future Forum",
+          "gloss": "The Minister of Digitalisation and Public Governance, Torgeir Micaelsen, and the United Kingdom's Minister for Artificial Intelligence, Kanishka Narayan, met on 12 November in connection with the Atlantic Future Forum",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-holte-appointment-dfd",
+      "title": "Hans Christian Holte blir direktør for KI Norge",
+      "title_en": "Hans Christian Holte becomes director of KI Norge",
+      "url": "https://www.regjeringen.no/no/aktuelt/hans-christian-holte-blir-direktor-for-ki-norge/id3158721/",
+      "excerpts": [
+        {
+          "text": "Holte var arbeids- og velferdsdirektør fra 2020 til 2025.",
+          "gloss": "Holte was Director of Labour and Welfare from 2020 to 2025.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-14",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/people/0/background"
+          ]
+        },
+        {
+          "text": "KI Norge skal gi veiledning og drifte den nasjonale KI-sandkassen sammen med Datatilsynet og Nasjonal kommunikasjonsmyndighet.",
+          "gloss": "KI Norge is to provide guidance and operate the national AI sandbox together with the Data Protection Authority and the Norwegian Communications Authority.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-14",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/claims/6/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-karrierestart-kin-2026",
+      "title": "KI Norge (KIN), Digitaliseringsdirektoratet (Digdir) - Vil du være med og forme KI-utviklingen i Norge?",
+      "title_en": "KI Norge (KIN), Norwegian Digitalisation Agency (Digdir): do you want to help shape AI development in Norway?",
+      "url": "https://karrierestart.no/ledig-stilling/3018130",
+      "excerpts": [
+        {
+          "text": "Antall stillinger 16",
+          "gloss": "Number of posts 16",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "Fast ansettelse, Heltid",
+          "gloss": "Permanent employment, full time",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-ki-about",
+      "title": "Hva er KI Norge?",
+      "title_en": "What is KI Norge?",
+      "url": "https://ki.norge.no/om-oss",
+      "excerpts": [
+        {
+          "text": "KI Norge er en enhet i Digitaliseringsdirektoratet.",
+          "gloss": "KI Norge is a unit in the Norwegian Digitalisation Agency.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name",
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "KI Norge gjør det enklere for virksomheter, særlig små og mellomstore, å forstå regelverk, finne relevante verktøy og komme i gang med kunstig intelligens på en innovativ og ansvarlig måte.",
+          "gloss": "KI Norge makes it easier for businesses, especially small and medium-sized ones, to understand the rules, find relevant tools and get started with artificial intelligence in an innovative and responsible way.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "I et fellesoppdrag med Nasjonal kommunikasjonsmyndighet (Nkom) og Datatilsynet skal KI Norge etablere og drive Norges regulatoriske sandkasse for kunstig intelligens, etter KI-loven.",
+          "gloss": "In a joint assignment with the National Communications Authority (Nkom) and the Data Protection Authority, KI Norge is to establish and run Norway's regulatory sandbox for artificial intelligence, under the AI Act.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-19",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name",
+            "/record/national_partners/entries/0/relation",
+            "/record/national_partners/entries/0/how",
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how"
+          ]
+        },
+        {
+          "text": "Nasjonal kommunikasjonsmyndighet (Nkom)",
+          "gloss": "National Communications Authority (Nkom)",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-19",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-ki-holte-june",
+      "title": "Hans Christian Holte leder KI Norge",
+      "title_en": "Hans Christian Holte leads KI Norge",
+      "url": "https://ki.norge.no/artikler/hans-christian-holte-leder-ki-norge",
+      "excerpts": [
+        {
+          "text": "12. juni 2026 er den offisielle lanseringsdatoen for KI Norge",
+          "gloss": "12 June 2026 is the official launch date of KI Norge.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/notes"
+          ]
+        },
+        {
+          "text": "I direktørstolen sitter Hans Christian Holte.",
+          "gloss": "Hans Christian Holte is in the director’s chair.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/notes",
+            "/record/people/0/name",
+            "/record/people/0/role",
+            "/record/head/person_id"
+          ]
+        },
+        {
+          "text": "Publisert1. juni 2026",
+          "gloss": "Published 1 June 2026.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/notes"
+          ]
+        },
+        {
+          "text": "Som direktør for KI Norge skal Holte bygge KI Norge videre og lede satsingen i praksis.",
+          "gloss": "As director of KI Norge, Holte is to build KI Norge further and lead the initiative in practice.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/head/person_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-ki-norge-ki-loven",
+      "title": "Hva betyr KI-loven for norske virksomheter?",
+      "title_en": "What does the AI Act mean for Norwegian businesses?",
+      "url": "https://ki.norge.no/veiledning/ki-loven-informasjon",
+      "excerpts": []
+    },
+    {
+      "id": "no-prop1s-2026-27-dfd",
+      "title": "Prop. 1 S (2026–2027) Digitaliserings- og forvaltningsdepartementet",
+      "title_en": "Budget proposition 1 S (2026-2027), Ministry of Digitalisation and Public Governance",
+      "url": "https://www.regjeringen.no/contentassets/df4dc3a3497342129b6d1681ad6d4c9e/nn-no/pdfs/prp202620270001dfddddpdfs.pdf",
+      "archive_url": "https://web.archive.org/web/20261012015622if_/https://www.regjeringen.no/contentassets/df4dc3a3497342129b6d1681ad6d4c9e/nn-no/pdfs/prp202620270001dfddddpdfs.pdf",
+      "excerpts": [
+        {
+          "text": "under post 01 27 860 21 405 22 197 28 KI Noreg 10 000 45 100 29 Brukarutløyste",
+          "gloss": "under post 01 27 860 21 405 22 197 28 KI Norge 10 000 45 100 29 User-triggered",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/2/amount",
+            "/record/funding/2/annual_amount",
+            "/record/funding/2/description",
+            "/record/funding/1/notes",
+            "/record/funding/2/notes",
+            "/record/funding/0/amount"
+          ]
+        },
+        {
+          "text": "Saldert budsjett 2026",
+          "gloss": "Adopted budget 2026",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/2/period",
+            "/record/funding/2/commitment",
+            "/record/funding/2/annual_basis"
+          ]
+        },
+        {
+          "text": "(i 1 000 kr)",
+          "gloss": "(in NOK 1,000)",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/2/amount",
+            "/record/funding/1/notes",
+            "/record/funding/2/description",
+            "/record/funding/0/amount"
+          ]
+        },
+        {
+          "text": "Løyvinga dekker utgifter til vidareutvikling og drift av KI Noreg.",
+          "gloss": "The appropriation covers costs of developing and running KI Norge.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/2/coverage",
+            "/record/funding/2/notes",
+            "/record/funding/1/notes",
+            "/record/funding/0/coverage",
+            "/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "med 30 mill. kroner til å styrkje KI Noreg med",
+          "gloss": "by NOK 30 million to strengthen KI Norge with",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/notes",
+            "/record/funding/1/coverage"
+          ]
+        },
+        {
+          "text": "Samla blir det foreslått å løyve 45,1 mill. kroner.",
+          "gloss": "In total, an appropriation of NOK 45.1 million is proposed.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/notes",
+            "/record/funding/0/amount",
+            "/record/funding/0/annual_amount",
+            "/record/funding/0/description"
+          ]
+        },
+        {
+          "text": "Tilråding frå Digitaliserings- og forvaltningsdepartementet 25. september 2026, godkjend i statsråd same dagen.",
+          "gloss": "Recommendation from the Ministry of Digitalisation and Public Governance of 25 September 2026, approved in the Council of State the same day.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Det blir foreslått 30 mill. kroner til å styrkje KI Noreg med kapasitet til å evaluere KI-modellar samt skaffe kunnskap om konsekvensar og risiko knytt til avansert kunstig intelligens.",
+          "gloss": "NOK 30 million is proposed to strengthen KI Norge with capacity to evaluate AI models and to acquire knowledge of the consequences and risks of advanced artificial intelligence.",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "Arbeidet skal skje i samarbeid med forskingsmiljø og andre relevante aktørar.",
+          "gloss": "The work is to be done in cooperation with research communities and other relevant actors.",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "KI Noreg skal rettleie om eignaheit ved val av konkrete modellar til ulike bruksområde.",
+          "gloss": "KI Noreg is to give guidance on suitability when choosing specific models for different uses.",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "I 2027 får KI Noreg i oppgåve å evaluere KI-modellar, inkludert sikkerheita i desse.",
+          "accessed": "2026-10-24",
+          "url": "https://web.archive.org/web/20261012015622if_/https://www.regjeringen.no/contentassets/df4dc3a3497342129b6d1681ad6d4c9e/nn-no/pdfs/prp202620270001dfddddpdfs.pdf",
+          "gloss": "In 2027 KI Norge is given the task of evaluating AI models, including their safety.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "KI Noreg skal vere kontaktpunktet mot internasjonale sikkerheitsmiljø innan KI, til dømes AI Safety Institutes, med mål om samarbeid om mellom anna metodar, vurderingar og testverktøy Noreg ikkje kan bygge opp åleine.",
+          "accessed": "2026-10-24",
+          "url": "https://web.archive.org/web/20261012015622if_/https://www.regjeringen.no/contentassets/df4dc3a3497342129b6d1681ad6d4c9e/nn-no/pdfs/prp202620270001dfddddpdfs.pdf",
+          "gloss": "KI Norge is to be the contact point towards international AI safety communities, for example AI Safety Institutes, with the aim of cooperation on, among other things, methods, assessments and test tools Norway cannot build up alone.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "Gjennom KI Noreg har direktoratet òg eit særskilt ansvar for å rettleie om, og vere ein pådrivar for ansvarleg og innovativ bruk av KI i både offentleg og privat sektor.",
+          "gloss": "Through KI Norge the directorate also has a particular responsibility to guide on, and be a driving force for, responsible and innovative use of AI in both the public and private sectors.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/7/text"
+          ]
+        },
+        {
+          "text": "Frå 2027 blir det foreslått å auke løyvinga med 30 mill. kroner til å styrkje KI Noreg med kapasitet til å evaluere KI-modellar, samt skaffe kunnskap om konsekvensar og risiko knytt til avansert kunstig intelligens.",
+          "gloss": "From 2027, an increase of NOK 30 million is proposed to strengthen KI Norge's capacity to evaluate AI models and obtain knowledge about the consequences and risks of advanced artificial intelligence.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/description",
+            "/record/funding/0/description"
+          ]
+        },
+        {
+          "text": "Rekneskap 2025 Saldert budsjett 2026 Forslag 2027",
+          "gloss": "Accounts 2025; adopted budget 2026; proposal 2027.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-24",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/notes",
+            "/record/funding/2/description",
+            "/record/funding/2/notes",
+            "/record/funding/0/period"
+          ]
+        },
+        {
+          "text": "Datatilsynet skal fortsette samarbeidet med Digitaliseringsdirektoratet ved KI Noreg og Nasjonal kommunikasjonsmyndigheit med å etab- lere, utvikle og drifte den regulatoriske KI-sand- kassa etter KI-forordninga.",
+          "gloss": "The Data Protection Authority is to continue its cooperation with the Norwegian Digitalisation Agency, through KI Norge, and the National Communications Authority to establish, develop and run the regulatory AI sandbox under the AI Regulation.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-24",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name",
+            "/record/national_partners/entries/0/how",
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/how"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-techwatch-2026-05",
+      "title": "Norges nye KI-sjef vil først sikre trygg bruk i offentlig sektor",
+      "title_en": "Norway's new AI chief first wants to ensure safe use in the public sector",
+      "url": "https://techwatch.no/nyheter/strategi/article19284282.ece",
+      "excerpts": [
+        {
+          "text": "KI Norge får rundt ti medarbeidere",
+          "gloss": "KI Norge gets around ten staff",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r11-no-fiscal-year",
+      "title": "Statsbudsjettets hovedprinsipper",
+      "title_en": "The main principles of the national budget",
+      "url": "https://www.regjeringen.no/no/tema/okonomi-og-budsjett/statsbudsjett/statsbudsjettets-hovedprinsipper/id439268/",
+      "archive_url": "https://web.archive.org/web/20260218113011/https://www.regjeringen.no/no/tema/okonomi-og-budsjett/statsbudsjett/statsbudsjettets-hovedprinsipper/id439268/",
+      "excerpts": [
+        {
+          "text": "Budsjettet vedtas for kalenderåret.",
+          "accessed": "2026-10-18",
+          "gloss": "The budget is adopted for the calendar year.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/annual_period/start",
+            "/record/funding/1/annual_period/end",
+            "/record/funding/2/annual_period/start",
+            "/record/funding/2/annual_period/end"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-no-holte-appointment",
+      "title": "Hans Christian Holte blir direktør for KI Norge",
+      "title_en": "Hans Christian Holte becomes director of KI Norge",
+      "url": "https://kommunikasjon.ntb.no/pressemelding/18892399/hans-christian-holte-blir-direktor-for-ki-norge?publisherId=17847227",
+      "excerpts": [
+        {
+          "text": "Hans Christian Holte blir direktør for KI Norge",
+          "gloss": "Hans Christian Holte becomes director of KI Norge.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/name",
+            "/record/people/0/role",
+            "/record/people/0/notes"
+          ]
+        },
+        {
+          "text": "Holte tiltrer stillingen august 2026",
+          "gloss": "Holte takes up the position in August 2026.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/notes"
+          ]
+        },
+        {
+          "text": "KI Norge etableres som en avdeling i Digitaliseringsdirektoratet (Digdir), og Holte tiltrer stillingen august 2026.",
+          "accessed": "2026-10-18",
+          "url": "https://kommunikasjon.ntb.no/pressemelding/18892399/hans-christian-holte-blir-direktor-for-ki-norge?publisherId=17847227",
+          "gloss": "KI Norge is established as a department within the Norwegian Digitalisation Agency (Digdir), and Holte takes office in August 2026.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/placement/host_type",
+            "/record/legal_form",
+            "/record/host"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "0c3c25159d4d22f4f7f1cb82d5f9c08cca289961",
+      "built": "2026-11-21T19:21:15Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/110",
+  "record": {
+    "id": "NI",
+    "name": "Nicaragua",
+    "summary": "No qualifying institute identified. A January 2026 survey of 19 Latin American countries recorded Nicaragua with no AI law, no bill or debate, and no executive-level strategy or norm.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in Spanish and English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described a September 2026 health ministry and PAHO workshop on responsible AI adoption in health, a 2024 National Assembly committee session on AI regulation and the Parlatino model AI law. Kept low: no Nicaraguan primary governance source was found. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Nicaragua AI safety institute government",
+          "source_ids": [
+            "negative-second-ni-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "es",
+          "national_or_official": true,
+          "query": "Nicaragua inteligencia artificial estrategia instituto seguridad gobierno",
+          "source_ids": [
+            "negative-second-ni-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "Nicaragua instituto seguridad inteligencia artificial evaluación modelos gobierno 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Nicaragua national AI safety institute advanced AI model evaluation government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "Nicaragua gobierno inteligencia artificial ley Asamblea Nacional regulación 2025 2026 el19digital",
+          "source_ids": [
+            "recheck-lac-dl-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "asamblea.gob.ni inteligencia artificial comisión infraestructura Parlatino ley modelo",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "MINSA Nicaragua inteligencia artificial salud marco regulatorio ético taller 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded es query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: NI-search = searches 1, 2 (en, es). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger. On 24 October 2026 the record was searched again in Spanish and English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: TELCOR training and a regional legislative map do not establish two substantive sources about qualifying institute status. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence."
+    },
+    "source_ids": [
+      "negative-second-ni-2026",
+      "recheck-lac-dl-2026"
+    ],
+    "notes": "TELCOR records AI and cybersecurity training for its staff in May 2026. Searches covered indexed public English and Spanish sources for a government-designated AI safety institute with a remit to evaluate advanced models.",
+    "next_check": {
+      "date": "2027-04-16",
+      "reason": "Check the National Assembly and La Gaceta for AI measures."
+    },
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 7007502,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "low",
+    "iso3": "NIC",
+    "m49": "558",
+    "wikidata": "Q811",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [],
+      "notes": [
+        "negative-second-ni-2026"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "negative-second-ni-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "recheck-lac-dl-2026",
+        "ov-wikipedia",
+        "negative-second-ni-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "negative-second-ni-2026",
+      "title": "TELCOR - CAPACITA EN INTELIGENCIA ARTIFICIAL Y CIBERSEGURIDAD",
+      "title_en": "TELCOR provides training in artificial intelligence and cybersecurity",
+      "url": "https://www.telcor.gob.ni/telcor-capacita-a-sus-colaboradores-sobre-inteligencia-artificial-y-ciberseguridad/",
+      "excerpts": [
+        {
+          "text": "TELCOR CAPACITA A SUS COLABORADORES SOBRE INTELIGENCIA ARTIFICIAL Y CIBERSEGURIDAD",
+          "accessed": "2026-10-17",
+          "gloss": "TELCOR trains its collaborators in artificial intelligence and cybersecurity.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-lac-dl-2026",
+      "title": "Directorio Legislativo: Inteligencia Artificial en America Latina (map slides, 19 countries)",
+      "title_en": "Directorio Legislativo: Artificial Intelligence in Latin America (map slides, 19 countries)",
+      "url": "https://parlamericas.org/uploads/documents/Presentation-ArtificialIntelligence-DL-sp.pdf",
+      "archive_url": "https://web.archive.org/web/20260515200018/https://parlamericas.org/uploads/documents/Presentation-ArtificialIntelligence-DL-sp.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

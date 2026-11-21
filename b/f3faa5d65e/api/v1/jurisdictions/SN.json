@@ -1,0 +1,227 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "f3faa5d65ee5288b1fe6fec0957bdf20de442674",
+      "built": "2026-11-21T13:53:51Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/183",
+  "record": {
+    "id": "SN",
+    "name": "Senegal",
+    "kind": "state",
+    "summary": "No qualifying institute identified. The 2023 strategy proposes an AI regulator, a national ethics committee and regulatory sandboxes for testing and validation.",
+    "next_check": {
+      "date": "2028-02-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Senegal AI safety institute government",
+          "source_ids": [
+            "fr-dge",
+            "sn-snia-2023",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Sénégal institut sécurité intelligence artificielle gouvernement",
+          "source_ids": [
+            "fr-dge",
+            "sn-snia-2023",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded fr query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: SN-search = searches 1, 2 (en, fr). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "sn-snia-2023"
+      ],
+      "governance_note": "The retrieved national AI strategy sets out responsible and ethical AI development, governance and implementation arrangements, without a qualifying evaluation institute in the reviewed material."
+    },
+    "source_ids": [
+      "sn-snia-2023"
+    ],
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 18931966,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "SEN",
+    "m49": "686",
+    "wikidata": "Q1041",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "notes": "The 2023 strategy sets an objective of responsible, ethical and trustworthy AI serving the common good. Searches covered indexed public English and French sources for a government-designated AI safety institute with a remit to evaluate advanced models. The additional country report could not be read: the direct request returned a JavaScript challenge, and one text-extraction attempt returned a 403 page. Search-result text was not treated as a verified second source.",
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "notes": [
+        "sn-snia-2023"
+      ],
+      "status": [],
+      "display": [
+        "sn-snia-2023"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "fr-dge",
+        "sn-snia-2023",
+        "ov-wikipedia"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "fr-dge",
+      "title": "Le Gouvernement annonce la création de l'INESIA",
+      "title_en": "The government announces the creation of INESIA",
+      "url": "https://www.entreprises.gouv.fr/espace-presse/le-gouvernement-annonce-la-creation-de-linstitut-national-pour-levaluation-et-la",
+      "archive_url": "https://web.archive.org/web/20260616155140/https://www.entreprises.gouv.fr/espace-presse/le-gouvernement-annonce-la-creation-de-linstitut-national-pour-levaluation-et-la",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "sn-snia-2023",
+      "title": "Stratégie nationale de l'intelligence artificielle",
+      "title_en": "National Artificial Intelligence Strategy",
+      "url": "https://www.vie-publique.sn/docs/87957d65-ca04-4fbb-ac05-7fdc8ac12263/srategie-nationale-intelligence-artificielle.pdf",
+      "archive_url": "https://web.archive.org/web/20261017004126/https://www.vie-publique.sn/docs/87957d65-ca04-4fbb-ac05-7fdc8ac12263/srategie-nationale-intelligence-artificielle.pdf",
+      "excerpts": [
+        {
+          "text": "Au Sénégal, l’IA sera tournée vers le bien commun, utile à tous, responsable, éthique et digne de confiance.",
+          "gloss": "In Senegal, AI will serve the common good and be useful, responsible, ethical and trustworthy.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

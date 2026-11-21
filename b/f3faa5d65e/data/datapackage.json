@@ -1,0 +1,2177 @@
+{
+  "name": "aisi-tracker",
+  "title": "AI Security Institutes tracker",
+  "description": "Which states have an AI Security Institute (AISI), covering all 193 UN member states plus Taiwan and the EU AI Office, with funding, staff and leadership where published. Every record cites its sources.",
+  "version": "1.1.2-dev",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+  "contributors": [
+    {
+      "title": "Jason Hoelscher-Obermaier",
+      "role": "maintainer"
+    },
+    {
+      "title": "Accelerate Europe",
+      "role": "publisher"
+    }
+  ],
+  "keywords": [
+    "AI safety",
+    "AI security",
+    "AI Safety Institutes",
+    "public institutions"
+  ],
+  "vocabularies": {
+    "testing_capacity": {
+      "in_house": {
+        "label": "Tests in house",
+        "definition": "A source reports testing or evaluation of AI models that the institute itself has carried out or is carrying out, with its own staff or facilities. A statement of role or focus does not count. For a federation, only testing that a source attributes to the institute counts."
+      },
+      "via_other_bodies": {
+        "label": "Testing by other bodies",
+        "definition": "A source states that a named body outside the institute, such as a contractor or partner lab, tests or evaluates models for it."
+      },
+      "planned": {
+        "label": "Testing planned",
+        "definition": "Adopted text, not a proposal, sets up testing capacity in the future."
+      },
+      "not_published": {
+        "label": "Not published",
+        "definition": "Searched; no source found states it. The dated search log is recorded with the value."
+      }
+    },
+    "model_access": {
+      "recent_access": {
+        "label": "Yes",
+        "definition": "The latest recorded access event falls within the twelve months up to the data date."
+      },
+      "earlier_access": {
+        "label": "Yes, evidence from <year>",
+        "definition": "Access events are recorded, the latest more than twelve months before the data date; the label gives its year."
+      },
+      "by_law": {
+        "label": "By law",
+        "definition": "No access event is recorded, but an operative legal provision gives the institute a power to require access to models."
+      },
+      "access_agreed": {
+        "label": "Access agreed",
+        "definition": "No access event or legal power is recorded, but a developer with a frontier model has published an agreement with the institute that provides for access to, or evaluation of, its models."
+      },
+      "none_found": {
+        "label": "None found",
+        "definition": "Searched; no source found records access, a legal power or an agreement. The dated search log is recorded with the value."
+      }
+    },
+    "staffing_model": {
+      "own_staff": {
+        "label": "Own staff",
+        "definition": "A source states that the institute employs people in posts of its own or recruits for them, including as a unit of a ministry, government department or the European Commission."
+      },
+      "member_bodies": {
+        "label": "Staff of existing bodies",
+        "definition": "The institute is a federation of existing bodies, and a source states that their staff do its work."
+      },
+      "core_with_partners": {
+        "label": "Core team with partners",
+        "definition": "A source states that partner institutions do the institute's research or testing under its programme, and any central team of its own only coordinates, sets policy or represents it."
+      },
+      "host_unit": {
+        "label": "Unit in a host body",
+        "definition": "The institute is a unit of an agency, public research body or university, and a source states that its staff are the host's, are hired through the host's recruitment, or that an existing unit of the host was designated as the institute."
+      },
+      "planned": {
+        "label": "Planned",
+        "definition": "Adopted text, not a proposal, sets up the staffing in the future."
+      },
+      "not_published": {
+        "label": "Not published",
+        "definition": "Searched; no source found states it. The dated search log is recorded with the value."
+      }
+    },
+    "membership_body": {
+      "intl-network": "International Network for Advanced AI Measurement, Evaluation and Science (until December 2025: International Network of AI Safety Institutes). Members are countries and the EU; the member list is complete, so a jurisdiction without this entry is not a member."
+    },
+    "timeline_event": {
+      "exploration_started": "An act meeting the exploring rung of the ladder in dataset.method. Implies exploring.",
+      "proposed": "An act meeting the proposed rung of the ladder in dataset.method. Implies proposed.",
+      "commitment": "An act meeting the planned rung of the ladder in dataset.method. Implies planned.",
+      "designated": "An act meeting the established rung of the ladder in dataset.method. Implies established.",
+      "launched": "Public start of work. No status effect.",
+      "first_output": "Earliest identified publication credited to the institute by name, including guidance and named network contributions. No status effect.",
+      "withdrawn": "Withdraws the earlier event named in 'withdraws'; status is recomputed from the surviving events.",
+      "closed": "The institute is wound up; status returns to none_identified unless a later event applies.",
+      "mandate_changed": "The institute mandate changes without establishing or closing it. No status effect.",
+      "named": "A name for the institute or a documented predecessor comes into use where no other recorded event gives it. No status effect.",
+      "partner_call": "Call for institutions to collaborate with the institute. No status effect.",
+      "related_body_planned": "An official plan for a related body that does not qualify as an institute under dataset.method. No status effect."
+    },
+    "source_origin": {
+      "ASEAN": "ASEAN",
+      "CARICOM IMPACS": "CARICOM IMPACS",
+      "Caribbean Telecommunications Union": "Caribbean Telecommunications Union",
+      "International Network for Advanced AI Measurement, Evaluation and Science": "Current name of the network formerly named International Network of AI Safety Institutes; historical publication names remain distinct vocabulary values for the same body.",
+      "International Network of AI Safety Institutes": "Former name of the same international network now named International Network for Advanced AI Measurement, Evaluation and Science; retained when used by the cited publication.",
+      "OECD": "OECD",
+      "UN ESCWA": "UN ESCWA",
+      "UNDP": "UNDP",
+      "UNESCO": "UNESCO",
+      "United Nations": "United Nations",
+      "United Nations Joint SDG Fund": "United Nations Joint SDG Fund",
+      "World Bank": "World Bank"
+    },
+    "partner_relation": {
+      "member": {
+        "label": "member",
+        "definition": "The institute is a federation of existing bodies and its founding text lists the partner as a constituent."
+      },
+      "works_with": {
+        "label": "works with",
+        "definition": "A text in force assigns the partner a specific task with the institute; an adopted programme for the current period that assigns the work counts as in force."
+      },
+      "planned": {
+        "label": "planned",
+        "definition": "The text is in the future tense or sets a mandate, and no current joint work is quoted."
+      }
+    },
+    "partner_cyber_none_published": "cyber agency not published",
+    "function": {
+      "model_testing": {
+        "label": "Model testing",
+        "short": "model testing",
+        "definition": "It ran or commissioned tests (evaluations) of AI models that a text reports in enough detail to show real tests (how many, of what kind of model or test, or by what method), or a text assigns it testing AI models or systems.",
+        "summary": "Tests AI models or systems itself, or commissions such tests.",
+        "group": "Testing and science"
+      },
+      "evaluation_methods": {
+        "label": "Evaluation methods and tools",
+        "short": "evaluation methods",
+        "definition": "It develops or publishes test methods, benchmarks, protocols or software; running existing benchmarks is model testing.",
+        "summary": "Develops or publishes test methods, benchmarks or testing software.",
+        "group": "Testing and science"
+      },
+      "research": {
+        "label": "Research",
+        "short": "research",
+        "definition": "It conducts or funds research on a named AI-risk topic or programme that meets no other test.",
+        "summary": "Conducts or funds research on AI risks.",
+        "group": "Testing and science"
+      },
+      "standards_guidance": {
+        "label": "Standards and guidelines",
+        "short": "standards",
+        "definition": "It publishes, or is tasked to develop, standards, codes or guidance addressed to AI developers, providers or deployers; no addressee or facilitating others' text does not count.",
+        "summary": "Issues or develops standards, codes or guidance for organisations that build or deploy AI.",
+        "group": "Rules"
+      },
+      "regulatory_enforcement": {
+        "label": "Enforces AI rules",
+        "short": "enforcement",
+        "definition": "It enforces AI rules itself: investigates, sanctions or holds legal powers over providers.",
+        "summary": "Enforces AI rules itself: can investigate providers and impose penalties.",
+        "group": "Rules"
+      },
+      "regulatory_support": {
+        "label": "Supports regulators",
+        "short": "regulator support",
+        "definition": "A text gives it a role supporting regulators or the implementation of AI regulation.",
+        "summary": "Gives regulators technical support or helps put AI rules into practice.",
+        "group": "Rules"
+      },
+      "risk_monitoring": {
+        "label": "Capability and risk monitoring",
+        "short": "risk monitoring",
+        "definition": "It reports regularly on what AI can do or what risks emerge (a periodic, numbered or continuing series, or a monitoring mandate), or a text describes it as monitoring or tracking AI capabilities or risks on an ongoing basis; one paper does not count.",
+        "summary": "Tracks AI capabilities and emerging risks on an ongoing basis.",
+        "group": "Informing government"
+      },
+      "foresight": {
+        "label": "Foresight",
+        "short": "foresight",
+        "definition": "It publishes, or is tasked with, explicit forecasts, scenarios or early-warning indicators about future developments; threat models of current misuse do not count.",
+        "summary": "Produces forecasts, scenarios or early-warning indicators of future AI developments.",
+        "group": "Informing government"
+      },
+      "policy_advice": {
+        "label": "Policy advice",
+        "short": "policy advice",
+        "definition": "It advises government or parliament on AI policy or legislation, or a text tasks it to: advice, recommendations, options or policy research addressed to them, published or not; general reporting on capabilities and risks is risk monitoring, and support for rules already in force is regulator support; the addressee may be implied when a government text tasks a government body.",
+        "summary": "Advises government or parliament on AI policy or legislation.",
+        "group": "Informing government"
+      },
+      "incident_response": {
+        "label": "National incident role",
+        "short": "incident response",
+        "definition": "It holds a standing national role, without an end date, in collecting, reporting or responding to AI incidents.",
+        "summary": "Has a standing role in collecting, reporting or responding to AI incidents.",
+        "group": "Informing government"
+      },
+      "international_cooperation": {
+        "label": "International cooperation",
+        "short": "international cooperation",
+        "definition": "It takes part for its jurisdiction in international networks, joint testing or agreements with foreign counterparts.",
+        "summary": "Works with counterparts abroad through networks, joint testing or formal agreements.",
+        "group": "Ecosystem"
+      },
+      "convening": {
+        "label": "Convening",
+        "short": "convening",
+        "definition": "It hosts, chairs or coordinates a national consortium or standing partnership, or is designated the national hub or contact point.",
+        "summary": "Hosts or coordinates a consortium or standing partnership, or is the designated hub or contact point on AI.",
+        "group": "Ecosystem"
+      },
+      "capacity_building": {
+        "label": "Capacity building",
+        "short": "capacity building",
+        "definition": "A named programme or mandate clause builds named kinds of domestic organisations' ability to understand, evaluate or safely use advanced AI.",
+        "summary": "Helps other organisations understand, evaluate or safely use advanced AI.",
+        "group": "Ecosystem"
+      },
+      "talent": {
+        "label": "Talent",
+        "short": "training",
+        "definition": "It trains, educates or funds people outside its own staff, or a text tasks it with nurturing talent; education or training confined to its own staff does not count.",
+        "summary": "Trains, educates or funds people outside its own staff to build AI expertise.",
+        "group": "Ecosystem"
+      },
+      "adoption": {
+        "label": "Adoption and competitiveness",
+        "short": "adoption",
+        "definition": "A text gives it a role in promoting AI uptake, commercialisation or the domestic industry.",
+        "summary": "Promotes the use of AI, its commercialisation or the domestic AI industry.",
+        "group": "Ecosystem"
+      },
+      "public_access_continuity": {
+        "label": "Access and continuity for public bodies",
+        "short": "public-sector access",
+        "definition": "It secures access to frontier models or compute for other public bodies, or assesses the jurisdiction's dependence on frontier AI.",
+        "summary": "Arranges access to frontier models or compute for public bodies, or assesses dependence on frontier AI.",
+        "group": "Ecosystem"
+      },
+      "certification": {
+        "label": "Certification and conformity",
+        "short": "certification",
+        "definition": "It certifies AI models, systems or products, or assesses their conformity with rules or standards, or a text tasks it to; testing done to certify or assess conformity is this code, not model testing.",
+        "summary": "Certifies AI systems or checks whether they meet rules or standards.",
+        "group": "Rules"
+      },
+      "sandbox": {
+        "short": "sandboxes",
+        "label": "Regulatory sandbox",
+        "definition": "It runs, or a text tasks it to set up or run, a regulatory sandbox where AI is developed or tested under a regulator's supervision.",
+        "summary": "Runs a scheme where companies can try out AI systems under a regulator's supervision before release.",
+        "group": "Rules"
+      }
+    },
+    "development": {
+      "public_body": {
+        "label": "Named public body or programme",
+        "definition": "The quoted act creates, funds or assigns a named public body or national programme for AI."
+      },
+      "testing_duty": {
+        "label": "Testing duty",
+        "definition": "The quoted act requires or plans testing, assessment or certification of AI systems."
+      }
+    }
+  },
+  "resources": [
+    {
+      "name": "jurisdictions",
+      "path": "jurisdictions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "state = UN member state; territory = non-UN jurisdiction tracked because readers look for it (e.g. Taiwan); supranational = EU."
+          },
+          {
+            "name": "europe_scope",
+            "type": "boolean",
+            "description": "True for the 32 states counted on the Europe page (EU-27, Iceland, Liechtenstein, Norway, UK, Switzerland)."
+          },
+          {
+            "name": "iso3",
+            "type": "string",
+            "description": "ISO 3166-1 alpha-3 country code; null for the EU."
+          },
+          {
+            "name": "m49",
+            "type": "string",
+            "description": "UN M49 numeric code as a three-digit string; null for the EU."
+          },
+          {
+            "name": "wikidata",
+            "type": "string",
+            "description": "Verified Wikidata entity QID; null or omitted when no matching item was identified."
+          },
+          {
+            "name": "identifier_source_ids",
+            "type": "string",
+            "description": "Citations supporting identifiers, distinct from citations for status; see sources.csv."
+          },
+          {
+            "name": "identifier_notes",
+            "type": "string",
+            "description": "Identifier distinctions, inapplicability or unsuccessful exact-item searches."
+          },
+          {
+            "name": "eu_member",
+            "type": "boolean"
+          },
+          {
+            "name": "region_id",
+            "type": "string"
+          },
+          {
+            "name": "region",
+            "type": "string",
+            "description": "UN M49 region and sub-region, from data/reference/roster.csv."
+          },
+          {
+            "name": "subregion_id",
+            "type": "string"
+          },
+          {
+            "name": "subregion",
+            "type": "string"
+          },
+          {
+            "name": "memberships",
+            "type": "string",
+            "description": "Codes of international bodies the jurisdiction belongs to, separated by '; '; codes are defined in dataset.vocabularies.membership_body."
+          },
+          {
+            "name": "memberships_source_ids",
+            "type": "string",
+            "description": "Source ids supporting the memberships (all memberships combined, deduplicated), separated by '; '; see sources.csv."
+          },
+          {
+            "name": "population",
+            "type": "integer"
+          },
+          {
+            "name": "population_year",
+            "type": "integer",
+            "description": "Year of the population figure; in funding.csv, of the population that eur_per_person_est divides by, empty when that ratio is empty."
+          },
+          {
+            "name": "population_source_ids",
+            "type": "string",
+            "description": "Source ids for the population figure; in funding.csv, for the population that eur_per_person_est divides by, empty when that ratio is empty."
+          },
+          {
+            "name": "gdp",
+            "type": "integer",
+            "description": "Gross domestic product in current national currency (World Bank WDI), recorded only for states with a compared annual budget; empty otherwise. The share-of-GDP denominator; rule budget-ratios in dataset.method."
+          },
+          {
+            "name": "gdp_currency",
+            "type": "string",
+            "description": "ISO 4217 code of the currency the gdp value is in."
+          },
+          {
+            "name": "gdp_year",
+            "type": "integer",
+            "description": "Calendar year of the GDP figure; in funding.csv, of the GDP that share_of_gdp_est divides by, empty when that ratio is empty."
+          },
+          {
+            "name": "gdp_source_ids",
+            "type": "string",
+            "description": "Source ids for the GDP figure; in funding.csv, for the GDP that share_of_gdp_est divides by, empty when that ratio is empty; see sources.csv."
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "status_since",
+            "type": "string"
+          },
+          {
+            "name": "status_confidence",
+            "type": "string",
+            "description": "Confidence in the status: high, medium or low (rule in dataset.method)."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "summary",
+            "type": "string",
+            "description": "One or two plain sentences a non-expert can read."
+          },
+          {
+            "name": "related_bodies",
+            "type": "string",
+            "description": "Nearby bodies a reader might mistake for an AISI (AI Act authorities, cyber centres), and why they are not counted."
+          },
+          {
+            "name": "next_check",
+            "type": "string"
+          },
+          {
+            "name": "next_check_reason",
+            "type": "string"
+          },
+          {
+            "name": "last_checked",
+            "type": "string",
+            "description": "Recorded date of the last full record check; last_checked_basis states whether this is evidenced or a historical upper bound. Partial checks do not advance it."
+          },
+          {
+            "name": "last_checked_basis",
+            "type": "string",
+            "description": "recorded_full_check means a recorded full check; historical_upper_bound means the original full-check log is unavailable and the date does not guarantee freshness. Empty means the basis is not recorded."
+          },
+          {
+            "name": "check_method",
+            "type": "string",
+            "description": "individual = sources searched and read one by one; broad_search = region-wide searches only."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "States and territories",
+      "description": "status, dates and region of every state and territory, and the EU"
+    },
+    {
+      "name": "institutes",
+      "path": "institutes.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "name_local",
+            "type": "string"
+          },
+          {
+            "name": "acronym",
+            "type": "string"
+          },
+          {
+            "name": "short_name",
+            "type": "string",
+            "description": "Recorded short form of the display name for tight places such as table cells. It is unique among institutes and never a bare generic acronym such as AISI; the page gives the full name on hover."
+          },
+          {
+            "name": "wikidata",
+            "type": "string",
+            "description": "Verified Wikidata entity QID; null or omitted when no matching item was identified."
+          },
+          {
+            "name": "identifier_source_ids",
+            "type": "string",
+            "description": "Citations supporting identifiers, distinct from citations for status; see sources.csv."
+          },
+          {
+            "name": "identifier_notes",
+            "type": "string",
+            "description": "Identifier distinctions, inapplicability or unsuccessful exact-item searches."
+          },
+          {
+            "name": "jurisdiction_id",
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "type": "string"
+          },
+          {
+            "name": "announced",
+            "type": "string",
+            "description": "Generated date of the first commitment or proposal event in the jurisdiction timeline, withdrawn acts included; absent from authored data. Null when no such event is recorded: a designation is never read as an announcement. The same reading starts the announcement intervals."
+          },
+          {
+            "name": "established",
+            "type": "string",
+            "description": "Generated date of the first designation whose act has not been withdrawn. A later closure retains this historical date."
+          },
+          {
+            "name": "announced_to_established_days_min",
+            "type": "integer",
+            "description": "Shortest reading, in signed whole days, of the interval from the first commitment or proposal event to the establishment; empty when not recorded. Equal bounds mean the interval is exact once each date is bounded (a month-only or year-only date ends no later than dataset.as_of). Rule in dataset.method (Intervals between milestones); see institutes[].intervals in the JSON schema."
+          },
+          {
+            "name": "announced_to_established_days_max",
+            "type": "integer",
+            "description": "Longest reading, in signed whole days, of the interval from the first commitment or proposal event to the establishment; empty when not recorded. Equal bounds mean the interval is exact once each date is bounded (a month-only or year-only date ends no later than dataset.as_of). Rule in dataset.method (Intervals between milestones); see institutes[].intervals in the JSON schema."
+          },
+          {
+            "name": "established_to_first_qualifying_activity_days_min",
+            "type": "integer",
+            "description": "Shortest reading, in signed whole days, of the interval from the establishment to the first qualifying activity; empty when not recorded or the institute is not currently established. Equal bounds mean the interval is exact once each date is bounded (a month-only or year-only date ends no later than dataset.as_of). Rule in dataset.method (Intervals between milestones); see institutes[].intervals in the JSON schema."
+          },
+          {
+            "name": "established_to_first_qualifying_activity_days_max",
+            "type": "integer",
+            "description": "Longest reading, in signed whole days, of the interval from the establishment to the first qualifying activity; empty when not recorded or the institute is not currently established. Equal bounds mean the interval is exact once each date is bounded (a month-only or year-only date ends no later than dataset.as_of). Rule in dataset.method (Intervals between milestones); see institutes[].intervals in the JSON schema."
+          },
+          {
+            "name": "announced_to_first_qualifying_activity_days_min",
+            "type": "integer",
+            "description": "Shortest reading, in signed whole days, of the interval from the first commitment or proposal event to the first qualifying activity; empty when not recorded or the institute is not currently established. Equal bounds mean the interval is exact once each date is bounded (a month-only or year-only date ends no later than dataset.as_of). Rule in dataset.method (Intervals between milestones); see institutes[].intervals in the JSON schema."
+          },
+          {
+            "name": "announced_to_first_qualifying_activity_days_max",
+            "type": "integer",
+            "description": "Longest reading, in signed whole days, of the interval from the first commitment or proposal event to the first qualifying activity; empty when not recorded or the institute is not currently established. Equal bounds mean the interval is exact once each date is bounded (a month-only or year-only date ends no later than dataset.as_of). Rule in dataset.method (Intervals between milestones); see institutes[].intervals in the JSON schema."
+          },
+          {
+            "name": "host",
+            "type": "string",
+            "description": "Where it sits: ministry, agency, university, or a federation of bodies."
+          },
+          {
+            "name": "legal_form",
+            "type": "string"
+          },
+          {
+            "name": "mandate",
+            "type": "string"
+          },
+          {
+            "name": "mandate_short",
+            "type": "string",
+            "description": "One plain line, about 12 words at most, for the page card."
+          },
+          {
+            "name": "website",
+            "type": "string",
+            "description": "null = no own website found."
+          },
+          {
+            "name": "legal_basis",
+            "type": "string",
+            "description": "Act giving the institute its qualifying mandate: law, decree, cabinet_decision, ministerial_act, administrative or none_found."
+          },
+          {
+            "name": "legal_basis_state",
+            "type": "string",
+            "description": "in_force, or foreseen for planned and proposed institutes."
+          },
+          {
+            "name": "legal_basis_source_ids",
+            "type": "string"
+          },
+          {
+            "name": "host_type",
+            "type": "string",
+            "description": "Where the institute sits: ministry, government_agency, public_research_body, university, supranational, multiple (network of bodies) or unknown."
+          },
+          {
+            "name": "host_type_source_ids",
+            "type": "string"
+          },
+          {
+            "name": "head_state",
+            "type": "string",
+            "description": "State of the head row: stated, not_published or not_applicable (schema: institutes[].head)."
+          },
+          {
+            "name": "head_person_id",
+            "type": "string",
+            "description": "ID of the institute's head in people.csv (top executive by published title, chair excluded); empty unless head_state is stated."
+          },
+          {
+            "name": "head_source_ids",
+            "type": "string"
+          },
+          {
+            "name": "reports_to_state",
+            "type": "string",
+            "description": "State of the reporting-line row: stated, not_published or not_applicable."
+          },
+          {
+            "name": "reports_to",
+            "type": "string",
+            "description": "Ministry-level body the institute answers to, one above an agency, university or research host (equal to the host for a ministry host), in the source's language; several bodies are joined with '; '."
+          },
+          {
+            "name": "reports_to_en",
+            "type": "string",
+            "description": "Faithful English translation of reports_to; empty when the name is already English."
+          },
+          {
+            "name": "reports_to_source_ids",
+            "type": "string"
+          },
+          {
+            "name": "national_partners_state",
+            "type": "string",
+            "description": "State of the national partners row: stated, not_published or not_applicable; entries are in national_partners.csv."
+          },
+          {
+            "name": "head_notes",
+            "type": "string",
+            "description": "Search log for the head row: what was searched, in which languages and when (required unless stated)."
+          },
+          {
+            "name": "reports_to_notes",
+            "type": "string",
+            "description": "Search log for the reporting-line row (required unless stated)."
+          },
+          {
+            "name": "national_partners_notes",
+            "type": "string",
+            "description": "Search log for the national partners row, including the cyber agency searched and the date when no cyber partner is listed."
+          },
+          {
+            "name": "name_history",
+            "type": "string",
+            "description": "Names oldest first, with start date (the date of the timeline event that gave the name) and source ids."
+          },
+          {
+            "name": "testing_capacity",
+            "type": "string",
+            "description": "Testing modes a source states, joined with '; ' in the order in_house, via_other_bodies; or planned or not_published. Empty when not recorded. Rule in dataset.method (Testing capacity and model access); labels in dataset.vocabularies.testing_capacity."
+          },
+          {
+            "name": "testing_capacity_source_ids",
+            "type": "string",
+            "description": "Sources for testing_capacity: the plan's, then each mode's, then the notes'; see sources.csv. Per-mode sources are in aisi.json."
+          },
+          {
+            "name": "testing_capacity_notes",
+            "type": "string",
+            "description": "Notes on testing_capacity: a proposal quoted with its source and date, explicit negative statements, joint network testing reported with its date, or a newer source contradicting an older one."
+          },
+          {
+            "name": "testing_capacity_searches",
+            "type": "string",
+            "description": "Search log for a not_published testing_capacity, as 'date (language): query' joined with '; '; the sources read are in aisi.json."
+          },
+          {
+            "name": "model_access",
+            "type": "string",
+            "description": "Generated model access value: recent_access (latest access event within the twelve months up to as_of), earlier_access, by_law, access_agreed or none_found. Empty when not recorded. Rule in dataset.method (Testing capacity and model access); labels in dataset.vocabularies.model_access."
+          },
+          {
+            "name": "model_access_latest_event",
+            "type": "string",
+            "description": "Generated: date of the latest access event, on or before which that access took place; empty without events."
+          },
+          {
+            "name": "model_access_events",
+            "type": "string",
+            "description": "Access events as 'date developer model (kind)' joined with '; '; the access took place on or before the date; kind is pre_release or deeper_than_public. Full records in aisi.json."
+          },
+          {
+            "name": "model_access_legal_power",
+            "type": "string",
+            "description": "The legal power to require model access, as '<act>, <article>'; conditions are in aisi.json. Empty when none is recorded."
+          },
+          {
+            "name": "model_access_agreement_ids",
+            "type": "string",
+            "description": "IDs in agreements.csv of developer agreements providing for access to, or evaluation of, the developer's models, joined with '; '."
+          },
+          {
+            "name": "model_access_source_ids",
+            "type": "string",
+            "description": "Sources for model access events, the legal power, developer agreements and the notes; see sources.csv."
+          },
+          {
+            "name": "model_access_notes",
+            "type": "string",
+            "description": "Notes on model access: access to models outside Epoch AI's frontier set, access from other developers, unknown contractor access, or a newer source contradicting an older one."
+          },
+          {
+            "name": "model_access_searches",
+            "type": "string",
+            "description": "Search log when nothing is recorded, as 'date (language): query' joined with '; '; the sources read are in aisi.json."
+          },
+          {
+            "name": "staffing_model",
+            "type": "string",
+            "description": "How a source states the institute is staffed: own_staff, member_bodies, core_with_partners or host_unit; or planned or not_published. Empty when not recorded. Rule in dataset.method (Staffing model); labels in dataset.vocabularies.staffing_model. Dated headcounts are in staff.csv."
+          },
+          {
+            "name": "staffing_model_source_ids",
+            "type": "string",
+            "description": "Sources for staffing_model and its notes; see sources.csv."
+          },
+          {
+            "name": "staffing_model_notes",
+            "type": "string",
+            "description": "Notes on staffing_model: secondments, concurrent posts or contractors beside the main model, history from older sources, a proposal quoted with its source and date, or a newer source contradicting an older one."
+          },
+          {
+            "name": "staffing_model_searches",
+            "type": "string",
+            "description": "Search log for a not_published staffing_model, as 'date (language): query' joined with '; '; the sources read are in aisi.json."
+          },
+          {
+            "name": "staffing_profile",
+            "type": "string",
+            "description": "How the institute gets its people: direct hires, secondees, partner institutes."
+          },
+          {
+            "name": "last_checked",
+            "type": "string",
+            "description": "Recorded date of the last full record check; last_checked_basis states whether this is evidenced or a historical upper bound. Partial checks do not advance it."
+          },
+          {
+            "name": "last_checked_basis",
+            "type": "string",
+            "description": "recorded_full_check means a recorded full check; historical_upper_bound means the original full-check log is unavailable and the date does not guarantee freshness. Empty means the basis is not recorded."
+          },
+          {
+            "name": "check_method",
+            "type": "string",
+            "description": "individual = sources searched and read one by one; broad_search = region-wide searches only."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Institutes",
+      "description": "host, form, mandate and website of each institute"
+    },
+    {
+      "name": "events",
+      "path": "events.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "jurisdiction_id",
+            "type": "string",
+            "description": "Jurisdiction ID, or empty for network milestones."
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Jurisdiction name, or empty for network milestones."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "institute",
+            "type": "string",
+            "description": "Institute name when applicable, otherwise empty."
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "Timeline event code, appointment, membership, agreement, funding_decision, or network_ followed by milestone type. Name changes appear only as the timeline event each name links to."
+          },
+          {
+            "name": "news_kind",
+            "type": "string",
+            "description": "News selection: status for a status milestone, mandate_or_name for mandate_changed or named, budget for dated announced or adopted whole-institute or component funding, agreement for a dated agreement; empty otherwise. Marks every eligible row, including those outside the newest ten page entries."
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "description": "Original unpadded ISO date, year-month or year; overlapping partial dates do not imply a known sequence."
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "Description of the dated canonical record."
+          },
+          {
+            "name": "short",
+            "type": "string",
+            "description": "Plain one-line event summary, at most 12 whitespace-delimited words. Canonical for timeline and network milestones; empty for other event origins."
+          },
+          {
+            "name": "news",
+            "type": "string",
+            "description": "Authored News line for the canonical timeline, agreement or funding record; empty when absent. News then uses the timeline short or first description sentence, or generates an agreement or budget line."
+          },
+          {
+            "name": "origin_kind",
+            "type": "string",
+            "description": "Canonical collection supplying this event."
+          },
+          {
+            "name": "origin_id",
+            "type": "string",
+            "description": "Permanent source record ID, scoped by jurisdiction or institute where needed; memberships use their body natural key. Never a JSON pointer."
+          },
+          {
+            "name": "source_pointer",
+            "type": "string",
+            "description": "RFC 6901 pointer to the canonical record in this exact data/aisi.json."
+          },
+          {
+            "name": "withdraws",
+            "type": "string",
+            "description": "For a withdrawal, the origin_id of the earlier timeline event withdrawn; otherwise empty."
+          },
+          {
+            "name": "scheduled",
+            "type": "boolean",
+            "description": "True when the event date is wholly later than dataset.as_of; not a completed event as of the release."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "All events",
+      "description": "dated government acts, agreements, outputs and network milestones"
+    },
+    {
+      "name": "news",
+      "path": "news.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "date",
+            "type": "string",
+            "description": "The group's original unpadded ISO date, year-month or year."
+          },
+          {
+            "name": "jurisdiction",
+            "type": "string",
+            "description": "Name of the state whose News item this row carries."
+          },
+          {
+            "name": "institute",
+            "type": "string",
+            "description": "Institute name from the item's events.csv row: the owner for an agreement or funding decision, or the state's institute for a timeline event; empty when there is none."
+          },
+          {
+            "name": "news_kind",
+            "type": "string",
+            "description": "The item's news_kind from events.csv: status, mandate_or_name, budget or agreement."
+          },
+          {
+            "name": "headline",
+            "type": "string",
+            "description": "The line shown for this item: the authored news line where the record has one, otherwise the generated line."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the sources for this item's line, in published line_source_ids order, separated by semicolon and space."
+          },
+          {
+            "name": "id",
+            "type": "string",
+            "description": "The item's events.csv ID: timeline:<state>:<record>, agreements:<institute>:<record> or funding:<institute>:<record>."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "News",
+      "description": "news entries with dates, states, institutes, kinds and sources"
+    },
+    {
+      "name": "timeline",
+      "path": "timeline.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "jurisdiction_id",
+            "type": "string"
+          },
+          {
+            "name": "event_id",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "event",
+            "type": "string",
+            "description": "Timeline event code; definitions in dataset.vocabularies.timeline_event."
+          },
+          {
+            "name": "instrument",
+            "type": "string",
+            "description": "The underlying act: speech, press_release, decision, strategy, budget_proposal, budget_act, draft_policy, bill, law, decree, administrative, international_statement, advisory_report (a government-appointed advisory commission's report), publication or unknown."
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "short",
+            "type": "string",
+            "description": "Plain one-line event summary, at most 12 whitespace-delimited words. Canonical for timeline and network milestones; empty for other event origins."
+          },
+          {
+            "name": "withdraws",
+            "type": "string"
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Status timeline",
+      "description": "the dated government acts that set each status"
+    },
+    {
+      "name": "funding",
+      "path": "funding.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "kind",
+            "type": "string"
+          },
+          {
+            "name": "commitment",
+            "type": "string",
+            "description": "proposed, adopted, announced or not_applicable; see the schema."
+          },
+          {
+            "name": "amount",
+            "type": "integer"
+          },
+          {
+            "name": "amount_qualifier",
+            "type": "string",
+            "description": "Sourced qualifier of the stated amount: about is an approximation; at_most/at_least are inclusive upper/lower bounds; more_than/less_than are strict lower/upper bounds; nearly means an approximate amount below the stated value. Omitted means no bound or approximation is stated, not proof of exactness. Currency conversions remain approximate while retaining the source bound. Not permitted on a calculated sum; component bounds cannot be silently combined."
+          },
+          {
+            "name": "currency",
+            "type": "string"
+          },
+          {
+            "name": "years",
+            "type": "integer",
+            "description": "Number of years a multi-year amount covers."
+          },
+          {
+            "name": "period",
+            "type": "string",
+            "description": "Funding year or period as the source states it; not a launch or announcement year alone."
+          },
+          {
+            "name": "coverage",
+            "type": "string",
+            "description": "Scope of this funding record: the institute as a whole, a component, or related funding belonging to another body or wider programme. Whole-institute scope does not assert that the amount represents all of the institute's resources. Comparison eligibility is defined by dataset.method (Annual funding and Budget display)."
+          },
+          {
+            "name": "derived_total",
+            "type": "boolean",
+            "description": "True for a calculated sum of component funding records; do not add this row to its components."
+          },
+          {
+            "name": "sum_of",
+            "type": "string",
+            "description": "Permanent funding component IDs within this institute, separated by '; '."
+          },
+          {
+            "name": "annual_period_start",
+            "type": "string",
+            "description": "Inclusive start of the annual comparison period; full span for a period mean or repeated identical annual allocations."
+          },
+          {
+            "name": "annual_period_end",
+            "type": "string",
+            "description": "Inclusive end of the annual comparison period; full span for a period mean or repeated identical annual allocations."
+          },
+          {
+            "name": "decision_date",
+            "type": "string",
+            "description": "Date the funding decision or announcement was made, never inferred from its fiscal period. Partial dates do not imply a day; comparison excludes only decisions dated wholly after the dataset date."
+          },
+          {
+            "name": "annual_amount",
+            "type": "integer",
+            "description": "Annual allocation or arithmetic annual mean in the stated currency; see annual_basis."
+          },
+          {
+            "name": "annual_basis",
+            "type": "string",
+            "description": "Basis and limitations of annual_amount; allocation or arithmetic mean, not actual spending."
+          },
+          {
+            "name": "annual_basis_code",
+            "type": "string",
+            "description": "Whether the annual figure is the current fiscal allocation, a mean over a stated period, or another stated basis."
+          },
+          {
+            "name": "eur_per_year_est",
+            "type": "integer",
+            "description": "Published annual_amount multiplied by the currency eur_per_unit in dataset.exchange_rates (EUR uses 1), rounded to 6 significant figures: up for an upper-bound amount_qualifier, down for a lower bound, otherwise half up; absent or null only when annual_amount is unknown; see dataset.method for limitations."
+          },
+          {
+            "name": "units_per_eur",
+            "type": "number",
+            "description": "ECB euro foreign exchange reference rate: units of the currency per euro, annual average for the period. In funding.csv, the rate applied to that row's annual_amount to give eur_per_year_est; empty when there is no EUR estimate."
+          },
+          {
+            "name": "eur_per_person_est",
+            "type": "number",
+            "description": "Compared funding record only: the unrounded annual EUR amount divided by the jurisdiction's population, 6 significant figures (rounded up for an upper-bound amount_qualifier, down for a lower bound, otherwise half up). amount_qualifier applies unchanged: an upper bound stays an upper bound. Empty on other rows or without a population. Rule budget-ratios in dataset.method."
+          },
+          {
+            "name": "population_year",
+            "type": "integer",
+            "description": "Year of the population figure; in funding.csv, of the population that eur_per_person_est divides by, empty when that ratio is empty."
+          },
+          {
+            "name": "population_source_ids",
+            "type": "string",
+            "description": "Source ids for the population figure; in funding.csv, for the population that eur_per_person_est divides by, empty when that ratio is empty."
+          },
+          {
+            "name": "share_of_gdp_est",
+            "type": "number",
+            "description": "Compared funding record only: annual_amount as a fraction (not a percentage) of the jurisdiction's GDP, in the budget currency when it is the GDP currency, otherwise both converted to EUR at the ECB 2025 rates; 6 significant figures, rounded as eur_per_person_est; amount_qualifier applies unchanged. Empty on other rows or without GDP. Rule budget-ratios in dataset.method."
+          },
+          {
+            "name": "gdp_year",
+            "type": "integer",
+            "description": "Calendar year of the GDP figure; in funding.csv, of the GDP that share_of_gdp_est divides by, empty when that ratio is empty."
+          },
+          {
+            "name": "gdp_source_ids",
+            "type": "string",
+            "description": "Source ids for the GDP figure; in funding.csv, for the GDP that share_of_gdp_est divides by, empty when that ratio is empty; see sources.csv."
+          },
+          {
+            "name": "funding_source",
+            "type": "string",
+            "description": "Who pays: national_government, supranational, foreign_or_multilateral, philanthropic, private, mixed or unknown."
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "In a migrated record, a none_disclosed entry's description is generated."
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high = stated in a primary source; medium = primary but indirect or several consistent secondary sources; low = single secondary source or estimate."
+          },
+          {
+            "name": "figure_source",
+            "type": "string",
+            "description": "For a low-confidence figure only: secondary_sources, press_report or our_estimate, shown as secondary sources, press report or our estimate. Empty otherwise; a medium-confidence figure is labelled 'indirect or secondary'."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Funding",
+      "description": "published funding amounts, periods and annual EUR estimates"
+    },
+    {
+      "name": "exchange_rates",
+      "path": "exchange_rates.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "currency",
+            "type": "string",
+            "description": "Currency code; EUR is the base and has no row."
+          },
+          {
+            "name": "units_per_eur",
+            "type": "number",
+            "description": "ECB euro foreign exchange reference rate: units of the currency per euro, annual average for the period. In funding.csv, the rate applied to that row's annual_amount to give eur_per_year_est; empty when there is no EUR estimate."
+          },
+          {
+            "name": "eur_per_unit",
+            "type": "number",
+            "description": "1 divided by units_per_eur, rounded half up to 12 significant figures."
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "Shared basis for the cited rate table."
+          },
+          {
+            "name": "period_start",
+            "type": "string",
+            "description": "Inclusive start date of the cited exchange-rate table."
+          },
+          {
+            "name": "period_end",
+            "type": "string",
+            "description": "Inclusive end date of the cited exchange-rate table."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          },
+          {
+            "name": "source_accessed",
+            "type": "string",
+            "description": "Date the cited rate source was retrieved."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Exchange rates",
+      "description": "the ECB rates used for the EUR figures"
+    },
+    {
+      "name": "staff",
+      "path": "staff.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "as_of",
+            "type": "string"
+          },
+          {
+            "name": "total",
+            "type": "integer"
+          },
+          {
+            "name": "total_qualifier",
+            "type": "string"
+          },
+          {
+            "name": "technical",
+            "type": "integer"
+          },
+          {
+            "name": "technical_qualifier",
+            "type": "string"
+          },
+          {
+            "name": "target",
+            "type": "integer"
+          },
+          {
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high = stated in a primary source; medium = primary but indirect or several consistent secondary sources; low = single secondary source or estimate."
+          },
+          {
+            "name": "figure_source",
+            "type": "string",
+            "description": "For a low-confidence figure only: secondary_sources, press_report or our_estimate, shown as secondary sources, press report or our estimate. Empty otherwise; a medium-confidence figure is labelled 'indirect or secondary'."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Staff",
+      "description": "headcounts, technical staff and targets, dated"
+    },
+    {
+      "name": "people",
+      "path": "people.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "role",
+            "type": "string"
+          },
+          {
+            "name": "since",
+            "type": "string"
+          },
+          {
+            "name": "until",
+            "type": "string"
+          },
+          {
+            "name": "background",
+            "type": "string"
+          },
+          {
+            "name": "confidence",
+            "type": "string",
+            "description": "high = stated in a primary source; medium = primary but indirect or several consistent secondary sources; low = single secondary source or estimate."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Leadership",
+      "description": "heads and leads of each institute"
+    },
+    {
+      "name": "national_partners",
+      "path": "national_partners.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "The body's name in its own language."
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "Faithful English translation of name; required when name is in a non-Latin script."
+          },
+          {
+            "name": "acronym",
+            "type": "string"
+          },
+          {
+            "name": "what",
+            "type": "string",
+            "description": "What the partner is, in two to six words."
+          },
+          {
+            "name": "relation",
+            "type": "string",
+            "description": "How the partner relates to the institute: member (a constituent of a federation institute), works_with or planned; card words in dataset.vocabularies.partner_relation."
+          },
+          {
+            "name": "cyber_agency",
+            "type": "boolean",
+            "description": "True when the partner is the national cyber security agency or the body containing it; empty otherwise."
+          },
+          {
+            "name": "how",
+            "type": "string",
+            "description": "One sentence, at most 25 words, written from the bound quote: how the partner works with the institute."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "National partners",
+      "description": "national partner bodies and their work with each institute"
+    },
+    {
+      "name": "functions",
+      "path": "functions.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "A current code in dataset.vocabularies.function."
+          },
+          {
+            "name": "value",
+            "type": "string",
+            "description": "mandate, activity or both from the institute's function claims with this code; not_found when there is none and the code is in check.functions.codes; not_coded when the code is not in that list."
+          },
+          {
+            "name": "claim_ids",
+            "type": "string",
+            "description": "The institute's function claims with this code, in authored order; empty for not_found and not_coded."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Functions",
+      "description": "function codes and values for each institute, with supporting claims; codes are provisional"
+    },
+    {
+      "name": "claims",
+      "path": "claims.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "jurisdiction_id",
+            "type": "string"
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "function: the body does, or is assigned, what its code's test names (institutes; related bodies through body_id). development: a state's lead development, an act that passes the level 2 bar, on a jurisdiction with none identified, at most one. fact: a quoted fact with no field and no code, on an institute or a jurisdiction with a status; never in a summary."
+          },
+          {
+            "name": "code",
+            "type": "string",
+            "description": "For a function claim, a current code in dataset.vocabularies.function; for a development, a current code in dataset.vocabularies.development; absent for a fact."
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "For a function claim: mandate when a founding, legal, plan or announcement text assigns it; activity when a text shows it done. Evidence of both is two claims."
+          },
+          {
+            "name": "body_id",
+            "type": "string",
+            "description": "For a function claim on a jurisdiction: the related_bodies id the claim is about. A claim on an institute is about the institute and has none."
+          },
+          {
+            "name": "lead",
+            "type": "boolean",
+            "description": "On one role claim of the closest body (body_id is closest_body.body_id): the claim its summary line quotes, the role claim closest to model testing. Its text names the speaker and carries the English of its quote in quotation marks."
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "One sentence saying no more than its quote; it states no absence. Exactly one excerpt binds it. For a development, the clause that completes the sentence 'On {date} {act}, which {text}.': lower-case start, no date, no full stop."
+          },
+          {
+            "name": "act",
+            "type": "string",
+            "description": "For a development: who did what to which instrument ('the government adopted the national AI strategy to 2030'). One excerpt from a primary source of the jurisdiction binds it."
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "description": "For a development: the date of the act, within three years before check.last_checked. One excerpt binds it."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          },
+          {
+            "name": "reread_state",
+            "type": "string",
+            "description": "The claim's re-read state (claims[].reread.state in aisi.json): confirmed, not_attempted, quote_gone, source_gone or blocked_or_failed; empty when no bound excerpt has one."
+          },
+          {
+            "name": "last_found",
+            "type": "string",
+            "description": "The last day the claim's quotation was found in its source (claims[].reread.last_found in aisi.json)."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Claims",
+      "description": "quoted claims on states and institutes: one sentence, its code and its sources"
+    },
+    {
+      "name": "outputs",
+      "path": "outputs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "credited_from",
+            "type": "string",
+            "description": "Compatibility field generated from credit.date when it differs from the lineage publication date."
+          },
+          {
+            "name": "credit_institute_id",
+            "type": "string",
+            "description": "The output record's credit.institute_id in aisi.json; see the credit object in the JSON schema."
+          },
+          {
+            "name": "credit_date",
+            "type": "string",
+            "description": "The output record's credit.date in aisi.json; see the credit object in the JSON schema."
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": "Title of the published artefact."
+          },
+          {
+            "name": "lineage",
+            "type": "string"
+          },
+          {
+            "name": "attribution",
+            "type": "string"
+          },
+          {
+            "name": "qualifies_as",
+            "type": "string",
+            "description": "Known activity decision: published_work for a published evaluation, test result, benchmark or technical report credited to the institute by name; joint_testing for named participation in a testing exercise, including authored joint reports; none for guidance alone, policy or programme reports, or work without institute credit. Tools and datasets qualify only as evaluation artefacts. See dataset.method; the decision is editorial, never inferred from a title."
+          },
+          {
+            "name": "qualification_note",
+            "type": "string",
+            "description": "Reason for the Known activity qualification, read with this output's attribution and cited sources."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Outputs",
+      "description": "publications, tools and datasets credited to each institute"
+    },
+    {
+      "name": "agreements",
+      "path": "agreements.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "counterparty",
+            "type": "string",
+            "description": "Name of the agreement counterparty or the company making the pledge."
+          },
+          {
+            "name": "counterparty_type",
+            "type": "string"
+          },
+          {
+            "name": "state",
+            "type": "string",
+            "description": "The recorded act: announced agreement, signed agreement or government-announced company pledge. Not proof that original terms remain in force."
+          },
+          {
+            "name": "participation",
+            "type": "string",
+            "description": "institute_party: named party to an agreement; named_implementer: named institute implementing a government agreement; recipient: named beneficiary of a company pledge, including a documented predecessor. Only pledged records use recipient."
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "scope",
+            "type": "string"
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Agreements",
+      "description": "commitments made with AI developers, governments and other institutes"
+    },
+    {
+      "name": "known_activity",
+      "path": "known_activity.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "institute_id",
+            "type": "string",
+            "description": "Institute record ID; see institutes.csv or institutes[].id in aisi.json."
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "Known activity kind from the selected output decision."
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "description": "Selected output credit.date; precision is retained."
+          },
+          {
+            "name": "lineage",
+            "type": "string",
+            "description": "Selected output lineage, identifying the item within this institute catalogue."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Known activity",
+      "description": "the earliest published work and joint testing of each institute"
+    },
+    {
+      "name": "network_milestones",
+      "path": "network_milestones.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "body",
+            "type": "string",
+            "description": "Network code from dataset.vocabularies.membership_body."
+          },
+          {
+            "name": "type",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "type": "string"
+          },
+          {
+            "name": "description",
+            "type": "string",
+            "description": "What happened at network level, without implying national status or institute participation."
+          },
+          {
+            "name": "short",
+            "type": "string",
+            "description": "Plain one-line event summary, at most 12 whitespace-delimited words. Canonical for timeline and network milestones; empty for other event origins."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Network milestones",
+      "description": "founding, meetings and renaming of the international network"
+    },
+    {
+      "name": "related_bodies",
+      "path": "related_bodies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "jurisdiction_id",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "type": "string"
+          },
+          {
+            "name": "name_en",
+            "type": "string",
+            "description": "Faithful English translation of a name that is not in English; the original stays in name. Omitted when the name is already English or only an acronym. Not necessarily an official English name."
+          },
+          {
+            "name": "kind",
+            "type": "string",
+            "description": "Classifies AI Act authorities independently of designation metadata; other covers related bodies without an AI Act authority role."
+          },
+          {
+            "name": "role",
+            "type": "string"
+          },
+          {
+            "name": "counts_as_aisi",
+            "type": "boolean"
+          },
+          {
+            "name": "designation_state",
+            "type": "string",
+            "description": "State of the AI Act authority designation in the cited national source. Omission means unresolved or inapplicable."
+          },
+          {
+            "name": "authority_roles",
+            "type": "string",
+            "description": "Explicit AI Act authority roles established by the cited source. Sector limits and proposed allocations are stated in role."
+          },
+          {
+            "name": "designation_step_text",
+            "type": "string",
+            "description": "For a proposed AI Act authority: the latest formal step of the bill or draft (related_bodies[].designation_step.text)."
+          },
+          {
+            "name": "designation_step_date",
+            "type": "string",
+            "description": "The date of that step (related_bodies[].designation_step.date)."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Related bodies",
+      "description": "AI Act authorities and other bodies not counted as institutes"
+    },
+    {
+      "name": "closest_bodies",
+      "path": "closest_bodies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "jurisdiction_id",
+            "type": "string"
+          },
+          {
+            "name": "name",
+            "type": "string",
+            "description": "Name of the single closest candidate, not its host or a list of alternatives."
+          },
+          {
+            "name": "stage",
+            "type": "string",
+            "description": "Stage of the body, not jurisdiction status: exists; planned by an adopted commitment; formally proposed awaiting approval; or under_study in a study, working draft or advisory recommendation. An existing body remains exists when an extension is pending; the note records the extension."
+          },
+          {
+            "name": "gap",
+            "type": "string",
+            "description": "remit = a government act creates, plans, proposes or recognises the body but gives it no qualifying role; designation = the body does qualifying work, self-described or documented, without a government act concerning it. remit takes precedence when both apply."
+          },
+          {
+            "name": "note",
+            "type": "string",
+            "description": "Evidence for the model-level role and the gap, with unresolved limits. Excerpts support the factual basis; classification and absence of assignment remain editorial judgements."
+          },
+          {
+            "name": "body_id",
+            "type": "string",
+            "description": "The related_bodies id of the closest body, so its role claims (function claims with this body_id) attach. When set, the gap needs its own excerpt (the act it concerns for remit, the body's own text for designation), and a body with role claims has exactly one marked lead."
+          },
+          {
+            "name": "active_in",
+            "type": "string",
+            "description": "The closest body's live activity function codes in vocabulary order, joined with ';'; empty when absent. Claim IDs are in closest_body.active_in in aisi.json."
+          },
+          {
+            "name": "source_ids",
+            "type": "string",
+            "description": "Source ids, separated by '; '; see sources.csv."
+          },
+          {
+            "name": "source_urls",
+            "type": "string",
+            "description": "URLs of the cited sources, same order as source_ids."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Closest candidates",
+      "description": "for states with none identified, the nearest body and what it lacks"
+    },
+    {
+      "name": "sources",
+      "path": "sources.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "url",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "name": "title_en",
+            "type": "string",
+            "description": "Faithful English translation of a non-English or mixed-language source title; original title is retained. Omitted when already English or only a proper name/acronym. This is not necessarily an official English title."
+          },
+          {
+            "name": "publisher",
+            "type": "string"
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": "primary = the government, institute or official document itself; secondary = press, trackers, wikis."
+          },
+          {
+            "name": "origin",
+            "type": "string",
+            "description": "Issuer jurisdiction ISO code, EU, or a named international body from dataset.vocabularies.source_origin; null means unresolved. This is not the server location."
+          },
+          {
+            "name": "published",
+            "type": "string"
+          },
+          {
+            "name": "accessed",
+            "type": "string"
+          },
+          {
+            "name": "language",
+            "type": "string",
+            "description": "ISO 639-1 language code of the source actually read; omitted when unknown or when no two-letter code exists."
+          },
+          {
+            "name": "archive_url",
+            "type": "string"
+          },
+          {
+            "name": "access_note",
+            "type": "string",
+            "description": "E.g. blocks automated readers, read in a browser."
+          },
+          {
+            "name": "snapshot_retrieved",
+            "type": "string",
+            "description": "Recorded retrieval timestamp of the complete private source copy, not publication date."
+          },
+          {
+            "name": "snapshot_sha256",
+            "type": "string",
+            "description": "SHA-256 of complete private response bytes; no private file path is exported."
+          },
+          {
+            "name": "snapshot_text_sha256",
+            "type": "string",
+            "description": "Versioned SHA-256 of the private copy's normalised main text, for change detection; the rule is the JSON Schema field sources[].snapshot.text_sha256. Empty when the copy yields no text."
+          },
+          {
+            "name": "snapshot_text_scheme",
+            "type": "integer",
+            "description": "Version of the snapshot_text_sha256 rule; hashes of different schemes are not compared."
+          },
+          {
+            "name": "legal_text",
+            "type": "boolean",
+            "description": "True when the source is the official text of a legal act, not an explainer; empty otherwise."
+          },
+          {
+            "name": "instrument_status_checked",
+            "type": "string",
+            "description": "Date on which an official record last confirmed this legal instrument's status: in force, or rescinded, repealed or replaced. Only on a source marked legal_text; omitted when not yet verified. The build rejects a date after today; the check report warns when a legal_text source lacks it or it is more than 183 days before dataset.as_of (before the release date under --release). A date after dataset.as_of is a release warning, and fails --release."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Sources",
+      "description": "every source with publisher, date and archive link"
+    },
+    {
+      "name": "source_excerpts",
+      "path": "source_excerpts.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "id",
+            "type": "string",
+            "description": "Stable row identity, scoped by institute_id, jurisdiction_id or source_id where present. Natural-key aliases: outputs use lineage; known activity uses kind; functions use code; exchange rates use currency; closest candidates use jurisdiction_id. Source excerpts use SHA-256 of exact quotation text; duplicate quotations share this quote identity and binding or URL edits retain it. Quotation edits change its content identity. Event IDs combine origin_kind and origin_id."
+          },
+          {
+            "name": "source_id",
+            "type": "string",
+            "description": "ID of the source containing the excerpt; see sources.csv."
+          },
+          {
+            "name": "source_url",
+            "type": "string",
+            "description": "Canonical URL of the source containing the excerpt."
+          },
+          {
+            "name": "text",
+            "type": "string",
+            "description": "Short verbatim excerpt in the original language."
+          },
+          {
+            "name": "gloss",
+            "type": "string",
+            "description": "Short English gloss for a non-English excerpt."
+          },
+          {
+            "name": "supports",
+            "type": "string",
+            "description": "JSON-encoded array of RFC 6901 pointers supported by this excerpt in this exact dataset version."
+          },
+          {
+            "name": "url",
+            "type": "string",
+            "description": "Live or archived copy actually read."
+          },
+          {
+            "name": "accessed",
+            "type": "string"
+          },
+          {
+            "name": "anchors",
+            "type": "string",
+            "description": "JSON-encoded array of the excerpt's anchors (sources[].excerpts[].anchors in aisi.json), each {text, kind, gloss?, source_id?}: verbatim spans from the same copy unless source_id names another source (kind definition, heading, provision or membership); empty when the excerpt has none."
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "title": "Source excerpts",
+      "description": "the quoted passages and the values they support"
+    },
+    {
+      "name": "aisi",
+      "path": "aisi.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Full dataset",
+      "description": "every record with its sources, confidence and check dates"
+    },
+    {
+      "name": "aisi-schema",
+      "path": "aisi.schema.json",
+      "format": "json",
+      "mediatype": "application/schema+json",
+      "title": "Schema",
+      "description": "field definitions and validation rules"
+    },
+    {
+      "name": "shared-claim-coverage",
+      "path": "shared-claim-coverage.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "title": "Consistency checks",
+      "description": "repeated figures and the checks that compare them"
+    }
+  ],
+  "preview": {
+    "notice": "This build is unpublished. Do not cite it.",
+    "branch": "code-1.1.2-trim",
+    "commit": "f3faa5d65ee5288b1fe6fec0957bdf20de442674",
+    "built": "2026-11-21T13:53:51Z"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "notice": "This build is unpublished. Do not cite it.",
+  "branch": "data-1.1.2",
+  "commit": "43f04dacb7fa26c7bbe592d556680b2f9b1cf271",
+  "built": "2026-11-21T14:47:55Z",
+  "as_of": "2026-11-20",
+  "version": "1.1.2-dev",
+  "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/44915707916",
+  "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/"
+}

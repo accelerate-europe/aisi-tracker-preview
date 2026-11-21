@@ -1,0 +1,3097 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "eb6eb20f4916e06e5deef3c7b096e84b97957a5a",
+      "built": "2026-11-21T19:01:01Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/37",
+  "record": {
+    "id": "SG",
+    "name": "Singapore",
+    "kind": "state",
+    "europe_scope": false,
+    "institute_id": "sg-aisi",
+    "summary": "The Digital Trust Centre at NTU is designated as Singapore's AISI, with IMDA.",
+    "next_check": {
+      "date": "2027-04-16",
+      "reason": "Routine full re-check of an institute record, every six months."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, authority designations and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound"
+    },
+    "source_ids": [
+      "sg-imda",
+      "sg-site",
+      "sg-pilot-2024"
+    ],
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "035",
+      "subregion": "South-eastern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 6111175,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "memberships": [
+      {
+        "body": "intl-network",
+        "source_ids": [
+          "r3-sg-eu-aa-domestic",
+          "network-2025",
+          "network-nist-2026",
+          "gb-aisi-network-consensus-2026"
+        ],
+        "citations": {
+          "body": [
+            "r3-sg-eu-aa-domestic",
+            "gb-aisi-network-consensus-2026"
+          ],
+          "display": [
+            "r3-sg-eu-aa-domestic",
+            "gb-aisi-network-consensus-2026"
+          ]
+        }
+      }
+    ],
+    "status_confidence": "high",
+    "timeline": [
+      {
+        "id": "sg-2024-05-22-designated",
+        "date": "2024-05-22",
+        "event": "designated",
+        "instrument": "administrative",
+        "description": "The Digital Trust Centre at NTU is designated as Singapore's AI Safety Institute.",
+        "source_ids": [
+          "sg-imda",
+          "sg-site"
+        ],
+        "short": "Digital Trust Centre designated as Singapore's AI Safety Institute.",
+        "citations": {
+          "id": [],
+          "date": [
+            "sg-imda"
+          ],
+          "event": [
+            "sg-imda",
+            "sg-site"
+          ],
+          "instrument": [],
+          "description": [
+            "sg-imda"
+          ],
+          "short": [],
+          "display": [
+            "sg-imda",
+            "sg-site"
+          ]
+        }
+      },
+      {
+        "id": "sg-first-output",
+        "date": "2024-11-20",
+        "event": "first_output",
+        "instrument": "publication",
+        "description": "Earliest identified institutionally credited output: A Pilot Testing Exercise from the International Network of AI Safety Institutes",
+        "short": "First published work credited to the institute.",
+        "output_lineage": "network-pilot-2024",
+        "source_ids": [
+          "sg-pilot-2024"
+        ],
+        "citations": {
+          "event": [
+            "sg-pilot-2024"
+          ],
+          "date": [
+            "sg-pilot-2024"
+          ],
+          "short": [
+            "sg-pilot-2024"
+          ],
+          "description": [
+            "sg-pilot-2024"
+          ],
+          "display": [
+            "sg-pilot-2024"
+          ]
+        }
+      }
+    ],
+    "iso3": "SGP",
+    "m49": "702",
+    "wikidata": "Q334",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "established",
+    "status_since": "2024-05-22",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "institute_id": [],
+      "summary": [
+        "sg-imda",
+        "sg-site"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [],
+      "memberships": [
+        "r3-sg-eu-aa-domestic",
+        "gb-aisi-network-consensus-2026"
+      ],
+      "status_confidence": [],
+      "timeline": [
+        "sg-imda",
+        "sg-site"
+      ],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [
+        "sg-imda",
+        "sg-site"
+      ],
+      "status_since": [
+        "sg-imda"
+      ],
+      "display": [
+        "sg-imda",
+        "sg-site",
+        "r3-sg-eu-aa-domestic",
+        "gb-aisi-network-consensus-2026"
+      ],
+      "since": [
+        "sg-imda"
+      ],
+      "finding": [
+        "sg-imda",
+        "sg-site"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "network-2025",
+        "network-nist-2026",
+        "sg-imda",
+        "sg-site",
+        "sg-pilot-2024",
+        "r3-sg-eu-aa-domestic",
+        "gb-aisi-network-consensus-2026"
+      ]
+    }
+  },
+  "institute": {
+    "aisi_json_pointer": "/institutes/10",
+    "record": {
+      "id": "sg-aisi",
+      "name": "Singapore AI Safety Institute",
+      "jurisdiction_id": "SG",
+      "host": "Digital Trust Centre at Nanyang Technological University (NTU), with IMDA",
+      "legal_form": "university_centre",
+      "mandate": "Conducts AI safety research, including testing and evaluation, and cooperates internationally.",
+      "website": "https://sgaisi.sg/",
+      "funding": [
+        {
+          "kind": "not_institute_specific",
+          "amount": 50000000,
+          "currency": "SGD",
+          "description": "S$50m over five years from 1 October 2022 for the Digital Trust Centre",
+          "source_ids": [
+            "sg-imda",
+            "sg-site",
+            "sg-ntu-dtc-about"
+          ],
+          "confidence": "high",
+          "commitment": "adopted",
+          "funding_source": "national_government",
+          "notes": "The source dates the establishment of the Digital Trust Centre to June 2022 and states initial funding of SGD 50m. NTU's page on the centre states that the SGD 50m grant from IMDA and the National Research Foundation started on 1 October 2022 and that they invested it over the next five years; the annual figure is the mean over five years counted from that start, and the founding year is not treated as a spending period. DTC itself was later designated Singapore AISI. The earlier allocation covered trust technologies, including AI testing and privacy-enhancing technologies; the source does not state an AI-safety allocation. This broader pre-designation funding remains related funding.",
+          "id": "funding-aa4eb9dd0f8e5c199d30dbd5b4354075",
+          "coverage": "not_institute_specific",
+          "years": 5,
+          "period": "Five years from 1 October 2022",
+          "annual_basis": "Arithmetic mean of the SGD 50m grant over the five years NTU states, counted from the grant's start on 1 October 2022; annual disbursements are not stated. Related funding for the Digital Trust Centre before its designation, not the institute budget.",
+          "annual_basis_code": "period_mean",
+          "annual_period": {
+            "start": "2022-10-01",
+            "end": "2027-09-30"
+          },
+          "annual_amount": 10000000,
+          "eur_per_year_est": 6777050,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "sg-imda",
+              "sg-site",
+              "sg-ntu-dtc-about"
+            ],
+            "currency": [],
+            "description": [
+              "sg-imda",
+              "sg-ntu-dtc-about"
+            ],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "notes": [
+              "sg-imda",
+              "sg-ntu-dtc-about"
+            ],
+            "id": [],
+            "coverage": [
+              "sg-imda"
+            ],
+            "years": [
+              "sg-ntu-dtc-about"
+            ],
+            "period": [
+              "sg-ntu-dtc-about"
+            ],
+            "annual_basis": [
+              "sg-ntu-dtc-about"
+            ],
+            "annual_basis_code": [],
+            "annual_period": [
+              "sg-ntu-dtc-about"
+            ],
+            "annual_amount": [
+              "sg-imda",
+              "sg-site",
+              "sg-ntu-dtc-about"
+            ],
+            "eur_per_year_est": [
+              "sg-imda",
+              "sg-site",
+              "eu-ecb-exchange-rates-2025",
+              "sg-ntu-dtc-about"
+            ],
+            "display": [
+              "sg-imda",
+              "sg-site",
+              "sg-ntu-dtc-about"
+            ]
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "SGD 50m",
+            "qualifiers": [
+              "Five years from 1 October 2022",
+              "adopted"
+            ],
+            "native_value": "SGD 50m",
+            "native_qualifiers": [
+              "Five years from 1 October 2022",
+              "adopted"
+            ],
+            "budget_citations": [
+              "sg-imda",
+              "sg-site",
+              "sg-ntu-dtc-about"
+            ]
+          }
+        }
+      ],
+      "check": {
+        "last_checked": "2026-10-16",
+        "method": "individual",
+        "partial": [
+          {
+            "date": "2026-10-17",
+            "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Rechecked annual funding bases, including supplementary and broader programme amounts, against the cited sources. This is a partial check, not a full record recheck."
+          },
+          {
+            "date": "2026-10-19",
+            "scope": "Funding scope classification and Budget selection review; full institute check date unchanged."
+          },
+          {
+            "date": "2026-10-19",
+            "scope": "Added the retained IMDA remit quotation and narrowed both mandate fields to the research and testing activities it describes. This was a partial evidence check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-20",
+            "scope": "Leadership checked against official sources and newer-appointment searches from the 20 October evidence review; name and title unchanged."
+          },
+          {
+            "date": "2026-10-20",
+            "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Post-release re-check of the institute's resources, MDDI and IMDA news: the MoU with the Korean institute added from the Korean source; nothing new on the institute's own pages since 23 July 2026. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-07",
+            "scope": "News re-check since 24 October 2026: the institute's resources page, the digital ministry's newsroom and three written answers of 4 November, IMDA items through reposts, the Anthropic memorandum of 13 and 14 October, the institute's LinkedIn post and the NTU-Google memorandum. Nothing new found; the Anthropic memorandum does not name the institute. Left for review: IMDA's press index (not retrievable). Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-08",
+            "scope": "Staff and budget pass of 7 November 2026: NTU's page on the Digital Trust Centre states the SGD 50m grant runs five years from 1 October 2022; the related-funding record now has that period and its annual mean. Funding only, not a full record re-check."
+          },
+          {
+            "date": "2026-11-09",
+            "scope": "Post-release news re-check from 6 November 2026: the institute's site and resources (newest 23 July 2026) and the digital ministry's newsroom to 5 November; IMDA's press list was readable only as an archived copy to 20 October. Nothing new. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-10",
+            "scope": "Post-release news re-check from 8 November 2026: the institute's resources (newest 23 July) and the MDDI newsroom (6 November); IMDA's press list could be read only in an archived copy whose newest item was dated 20 October. No separate current research list was found. Nothing new in the pages read. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-13",
+            "scope": "Post-release news re-check from 10 November 2026: the institute's resources (newest 23 July), the MDDI newsroom (10 November) and IMDA's press list, whose items could be read only without dates; complete current dates for that list remain unresolved. The cybersecurity speech of 10 November concerns other funding, not the institute. No update was found in the material checked. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-14",
+            "scope": "Sources checked for developments from 13 November 2026: the institute's site and resources (newest 23 July) and MDDI's newsroom (13 November), including the minister's speech of 13 November and the release on the Washington visit (dateline 14 November). Neither gives the institute a role. Older, undated IMDA releases were read, but the first page of IMDA's current press list could not be recovered. No new institute fact was found. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-20",
+            "scope": "Sources checked for developments from 14 November 2026: the institute's page and resources (newest 23 July) and the digital ministry's newsroom (17 November). No new institute fact was found. IMDA's press list returned titles without dates and two of its articles on AI safety could not be read, so IMDA coverage is incomplete. Partial check, not a full record re-check."
+          }
+        ],
+        "last_checked_basis": "historical_upper_bound",
+        "functions": {
+          "date": "2026-11-14",
+          "codes": [
+            "model_testing",
+            "evaluation_methods",
+            "research",
+            "standards_guidance",
+            "regulatory_enforcement",
+            "regulatory_support",
+            "risk_monitoring",
+            "foresight",
+            "policy_advice",
+            "incident_response",
+            "international_cooperation",
+            "convening",
+            "capacity_building",
+            "talent",
+            "adoption",
+            "public_access_continuity",
+            "certification",
+            "sandbox"
+          ]
+        }
+      },
+      "source_ids": [
+        "sg-imda",
+        "sg-site",
+        "depth-sg-lam",
+        "sg-pilot-2024",
+        "sg-kr-agent-2026",
+        "depth-sg-resources",
+        "depth-sg-microsoft",
+        "network-2025",
+        "network-nist-2026",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "gb-joint-testing",
+        "depth-sg-eu-mou",
+        "sg-mddi-pq-access-2026",
+        "r3-gb-network-best-practice-release",
+        "fix-output-sg-kr-january"
+      ],
+      "mandate_short": "Conducts AI safety research, including testing and evaluation.",
+      "legal_basis": {
+        "type": "administrative",
+        "state": "in_force",
+        "source_ids": [
+          "sg-imda"
+        ],
+        "citations": {
+          "type": [
+            "sg-imda"
+          ],
+          "state": [
+            "sg-imda"
+          ],
+          "display": [
+            "sg-imda"
+          ]
+        }
+      },
+      "placement": {
+        "host_type": "university",
+        "source_ids": [
+          "sg-imda"
+        ],
+        "citations": {
+          "host_type": [],
+          "display": []
+        }
+      },
+      "name_local": "Singapore AI Safety Institute",
+      "short_name": "Singapore AISI",
+      "agreements": [
+        {
+          "counterparty_type": "government",
+          "counterparty": "European Commission, for the EU AI Office",
+          "state": "signed",
+          "date": "2024-11-20",
+          "scope": "Administrative Arrangement establishing institute cooperation on AI safety, evaluation and exchange of technical knowledge.",
+          "source_ids": [
+            "r3-sg-eu-aa-domestic",
+            "depth-sg-eu-mou"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "id": "agreements-4c4113478a8f59739aa63ec51a18cd26",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "depth-sg-eu-mou"
+            ],
+            "state": [
+              "depth-sg-eu-mou"
+            ],
+            "date": [
+              "depth-sg-eu-mou"
+            ],
+            "scope": [
+              "depth-sg-eu-mou",
+              "r3-sg-eu-aa-domestic"
+            ],
+            "participation": [
+              "depth-sg-eu-mou"
+            ],
+            "domestic_interagency": [],
+            "id": [],
+            "display": [
+              "depth-sg-eu-mou",
+              "r3-sg-eu-aa-domestic"
+            ]
+          }
+        },
+        {
+          "counterparty_type": "developer",
+          "counterparty": "Microsoft",
+          "state": "signed",
+          "date": "2026-06-12",
+          "scope": "IMDA MOU includes joint agentic AI evaluation research and an explicit role for Singapore AISI in developing a framework for trusted frontier-model access. It does not itself promise model access.",
+          "source_ids": [
+            "depth-sg-microsoft"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "id": "agreements-484ff3ac5ff85981863bd27549a8c6f5",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "depth-sg-microsoft"
+            ],
+            "state": [
+              "depth-sg-microsoft"
+            ],
+            "date": [
+              "depth-sg-microsoft"
+            ],
+            "scope": [
+              "depth-sg-microsoft"
+            ],
+            "participation": [
+              "depth-sg-microsoft"
+            ],
+            "domestic_interagency": [],
+            "id": [],
+            "display": [
+              "depth-sg-microsoft"
+            ]
+          }
+        },
+        {
+          "counterparty_type": "government",
+          "counterparty": "UK Department for Science, Innovation and Technology, for the UK AI Safety Institute",
+          "state": "signed",
+          "date": "2024-11-06",
+          "scope": "MOC covering AI safety research, international standards and safety testing, naming both AI Safety Institutes among the participating bodies.",
+          "source_ids": [
+            "sg-uk-moc-2024"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "id": "agreements-736fd8fc09c05e11ba356a43530ec041",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "sg-uk-moc-2024"
+            ],
+            "state": [
+              "sg-uk-moc-2024"
+            ],
+            "date": [
+              "sg-uk-moc-2024"
+            ],
+            "scope": [
+              "sg-uk-moc-2024"
+            ],
+            "participation": [
+              "sg-uk-moc-2024"
+            ],
+            "domestic_interagency": [],
+            "id": [],
+            "display": [
+              "sg-uk-moc-2024"
+            ]
+          }
+        },
+        {
+          "counterparty_type": "institute",
+          "counterparty": "Korea AI Safety Institute",
+          "state": "signed",
+          "scope": "Memorandum of understanding between the two institutes to strengthen cooperation centred on AI safety evaluation, announced on 19 January 2026 by the Korean institute; signing date not stated. No Singapore source mentions it.",
+          "source_ids": [
+            "kr-sg-mou-2026"
+          ],
+          "participation": "institute_party",
+          "domestic_interagency": false,
+          "peer_institute_id": "kr-aisi",
+          "id": "agreements-a2e6c97f5f3457b0b4e0ee60a952d502",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "kr-sg-mou-2026"
+            ],
+            "state": [
+              "kr-sg-mou-2026"
+            ],
+            "scope": [
+              "kr-sg-mou-2026"
+            ],
+            "participation": [
+              "kr-sg-mou-2026"
+            ],
+            "domestic_interagency": [],
+            "peer_institute_id": [],
+            "id": [],
+            "display": [
+              "kr-sg-mou-2026"
+            ]
+          }
+        }
+      ],
+      "wikidata": "Q139585186",
+      "identifier_source_ids": [
+        "wikidata-sg-aisi-identifier"
+      ],
+      "people": [
+        {
+          "name": "Lam Kwok Yan",
+          "role": "Executive Director, Singapore AI Safety Institute",
+          "source_ids": [
+            "depth-sg-lam",
+            "sg-imda-dtc-factsheet-2022"
+          ],
+          "confidence": "high",
+          "title_status": "published",
+          "id": "people-46ec54ee933b52658c261129018e5356",
+          "background": "When named in June 2022 to lead the Digital Trust Centre, Lam was Professor and Associate Vice President (Strategy and Partnerships) at NTU.",
+          "citations": {
+            "name": [
+              "depth-sg-lam"
+            ],
+            "role": [
+              "depth-sg-lam"
+            ],
+            "confidence": [],
+            "title_status": [],
+            "id": [],
+            "background": [
+              "sg-imda-dtc-factsheet-2022"
+            ],
+            "display": [
+              "depth-sg-lam",
+              "sg-imda-dtc-factsheet-2022"
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "date": "2024-11-20",
+          "type": "joint_testing",
+          "title": "A Pilot Testing Exercise from the International Network of AI Safety Institutes",
+          "source_ids": [
+            "sg-pilot-2024"
+          ],
+          "lineage": "network-pilot-2024",
+          "attribution": "institutional_author",
+          "attribution_note": "The institute's own publication of the joint exercise names Singapore, US and UK institute work.",
+          "qualifies_as": "joint_testing",
+          "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report.",
+          "credit": {
+            "institute_id": "sg-aisi",
+            "date": "2024-11-20"
+          },
+          "citations": {
+            "date": [
+              "sg-pilot-2024"
+            ],
+            "type": [],
+            "title": [
+              "sg-pilot-2024"
+            ],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "sg-pilot-2024"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "sg-pilot-2024"
+            ],
+            "display": [
+              "sg-pilot-2024"
+            ]
+          }
+        },
+        {
+          "date": "2025-02-10",
+          "type": "joint_testing",
+          "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+          "source_ids": [
+            "fix-output-sg-multilingual-summary",
+            "network-multilingual-2025",
+            "fix-output-network-multilingual-arxiv",
+            "jp-joint-2025",
+            "fix-output-jp-february-joint-publication",
+            "r3-jp-activity-index"
+          ],
+          "lineage": "network-multilingual-2025",
+          "attribution": "named_contributor",
+          "attribution_note": "One exercise lineage covers the February summary and the later full report. Its global date is Singapore's item-bound summary listing of 10 February 2025. Singapore AISI published that summary on its own website, so institutional credit begins on the same day.",
+          "qualifies_as": "joint_testing",
+          "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report. Use the recorded credit date, not an earlier version without established institute credit.",
+          "credit": {
+            "institute_id": "sg-aisi",
+            "date": "2025-02-10"
+          },
+          "citations": {
+            "date": [
+              "fix-output-sg-multilingual-summary"
+            ],
+            "type": [],
+            "title": [
+              "network-multilingual-2025"
+            ],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "network-multilingual-2025",
+              "jp-joint-2025",
+              "fix-output-sg-multilingual-summary",
+              "r3-jp-activity-index"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "fix-output-sg-multilingual-summary"
+            ],
+            "display": [
+              "network-multilingual-2025",
+              "jp-joint-2025",
+              "fix-output-sg-multilingual-summary",
+              "r3-jp-activity-index"
+            ]
+          }
+        },
+        {
+          "date": "2025-07-17",
+          "type": "joint_testing",
+          "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "source_ids": [
+            "r3-sg-agentic-release",
+            "catalogue-agentic-report",
+            "gb-joint-testing",
+            "fix-output-network-agentic-arxiv",
+            "depth-gb-blog"
+          ],
+          "lineage": "network-agentic-2025",
+          "attribution": "named_contributor",
+          "attribution_note": "The original report names Singapore AI Safety Institute as a contributing organisation. Singapore AISI's own listing calls it “Advancing Methodologies for Agentic Evaluations Across Domains”; the linked report's title is retained here.",
+          "qualifies_as": "joint_testing",
+          "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report.",
+          "credit": {
+            "institute_id": "sg-aisi",
+            "date": "2025-07-17"
+          },
+          "citations": {
+            "date": [
+              "depth-gb-blog"
+            ],
+            "type": [],
+            "title": [
+              "fix-output-network-agentic-arxiv"
+            ],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "catalogue-agentic-report",
+              "r3-sg-agentic-release"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "catalogue-agentic-report",
+              "depth-gb-blog"
+            ],
+            "display": [
+              "catalogue-agentic-report",
+              "depth-gb-blog",
+              "fix-output-network-agentic-arxiv",
+              "r3-sg-agentic-release"
+            ]
+          }
+        },
+        {
+          "date": "2026-01-19",
+          "type": "joint_testing",
+          "title": "An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios",
+          "source_ids": [
+            "fix-output-sg-kr-january",
+            "sg-kr-agent-2026",
+            "depth-sg-resources"
+          ],
+          "lineage": "sg-kr-agent-data-leakage",
+          "attribution": "institutional_author",
+          "attribution_note": "A joint institute report. The June detailed report explicitly follows the January publication; retain the latest title and earliest public date.",
+          "qualifies_as": "joint_testing",
+          "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report.",
+          "credit": {
+            "institute_id": "sg-aisi",
+            "date": "2026-01-19"
+          },
+          "citations": {
+            "date": [
+              "fix-output-sg-kr-january"
+            ],
+            "type": [],
+            "title": [
+              "sg-kr-agent-2026"
+            ],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "sg-kr-agent-2026",
+              "depth-sg-resources",
+              "fix-output-sg-kr-january"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "fix-output-sg-kr-january"
+            ],
+            "display": [
+              "sg-kr-agent-2026",
+              "depth-sg-resources",
+              "fix-output-sg-kr-january"
+            ]
+          }
+        },
+        {
+          "title": "How should evaluators test AI systems (as opposed to models)?",
+          "date": "2026-07-08",
+          "type": "guidance",
+          "source_ids": [
+            "fix-output-sg-aisi-system-evaluation-guidance",
+            "r3-gb-network-best-practice-release"
+          ],
+          "lineage": "system-evaluation-guidance",
+          "attribution": "own_publication",
+          "attribution_note": "Original technical guidance in the institute's evaluation-practice series. The institute publishes the full text, and the host page explicitly identifies the institute as publisher.",
+          "qualifies_as": "none",
+          "qualification_note": "Substantive guidance remains in the publication catalogue but does not itself report a qualifying evaluation, test result, benchmark or technical research result.",
+          "credit": {
+            "institute_id": "sg-aisi",
+            "date": "2026-07-08"
+          },
+          "citations": {
+            "title": [
+              "fix-output-sg-aisi-system-evaluation-guidance"
+            ],
+            "date": [
+              "fix-output-sg-aisi-system-evaluation-guidance"
+            ],
+            "type": [],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "fix-output-sg-aisi-system-evaluation-guidance"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "fix-output-sg-aisi-system-evaluation-guidance",
+              "r3-gb-network-best-practice-release"
+            ],
+            "display": [
+              "fix-output-sg-aisi-system-evaluation-guidance",
+              "r3-gb-network-best-practice-release"
+            ]
+          }
+        },
+        {
+          "date": "2026-07-23",
+          "title": "Best Practice: Automated Evaluation of Large Language Models",
+          "type": "guidance",
+          "lineage": "naaimes-automated-evaluation-best-practice-2026",
+          "attribution": "own_publication",
+          "attribution_note": "The institute directly publishes the network's full original guidance document on its own site. Country-only network membership does not establish publication credit for other institutes.",
+          "source_ids": [
+            "depth-sg-resources",
+            "r3-naaimes-best-practice"
+          ],
+          "qualifies_as": "none",
+          "qualification_note": "Substantive guidance remains in the publication catalogue but does not itself report a qualifying evaluation, test result, benchmark or technical research result.",
+          "credit": {
+            "institute_id": "sg-aisi",
+            "date": "2026-07-23"
+          },
+          "citations": {
+            "date": [
+              "depth-sg-resources"
+            ],
+            "title": [
+              "r3-naaimes-best-practice"
+            ],
+            "type": [],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "depth-sg-resources"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "depth-sg-resources"
+            ],
+            "display": [
+              "depth-sg-resources",
+              "r3-naaimes-best-practice"
+            ]
+          }
+        }
+      ],
+      "head": {
+        "state": "stated",
+        "person_id": "people-46ec54ee933b52658c261129018e5356",
+        "source_ids": [
+          "depth-sg-lam"
+        ],
+        "citations": {
+          "state": [],
+          "person_id": [
+            "depth-sg-lam"
+          ],
+          "display": [
+            "depth-sg-lam"
+          ]
+        }
+      },
+      "reports_to": {
+        "state": "stated",
+        "name": "Infocomm Media Development Authority",
+        "source_ids": [
+          "sg-site"
+        ],
+        "citations": {
+          "state": [],
+          "name": [
+            "sg-site"
+          ],
+          "display": [
+            "sg-site"
+          ]
+        }
+      },
+      "national_partners": {
+        "state": "not_published",
+        "notes": "Cyber agency searched: Cyber Security Agency of Singapore (CSA), 2026-10-19 (en); none found. Fetched: csa.gov.sg Cybersecurity Act page (200; no AISI mention), CSA about-us guess (404), CSA \"Guidelines and Companion Guide on Securing AI Systems\" page (200; no AISI/IMDA mention in the extract), sgaisi.sg home and about-us (no CSA named). No document naming cooperation between CSA and the Singapore AISI. The only body the sources name as a partner is the body the institute reports to, which is not an entry."
+      },
+      "testing_capacity": {
+        "modes": [
+          {
+            "code": "in_house",
+            "source_ids": [
+              "network-multilingual-2025"
+            ],
+            "citations": {
+              "code": [
+                "network-multilingual-2025"
+              ],
+              "display": [
+                "network-multilingual-2025"
+              ]
+            }
+          }
+        ],
+        "notes": "Joint network testing reported, 2025-06-26 (multilingual exercise) and 2025-07-17 (agentic exercise), and the bilateral agent data-leakage evaluation with Korea (2026). The testing is done by the Digital Trust Centre at NTU as the designated institute; IMDA is the policy partner.",
+        "source_ids": [
+          "network-multilingual-2025",
+          "catalogue-agentic-report",
+          "sg-kr-agent-2026",
+          "sg-site",
+          "sg-imda"
+        ],
+        "citations": {
+          "modes": [
+            "network-multilingual-2025"
+          ],
+          "notes": [],
+          "display": [
+            "network-multilingual-2025"
+          ]
+        }
+      },
+      "model_access": {
+        "notes": "No access event, legal power or agreement providing for access to, or evaluation of, the models of a developer that has a model in Epoch AI's frontier set was found. The network pilot on Llama 3.1-405B (October to November 2024) used an open-weight model, which is public access, and the bilateral report with Korea used models available through public APIs. The IMDA-Microsoft MOU (12 June 2026) only explores a framework for structuring access to frontier models and is not an agreement with the institute. No legal power. In a written parliamentary answer of 6 October 2026, the ministry said it seeks access to frontier models where appropriate but does not make it a requirement.",
+        "source_ids": [
+          "sg-pilot-2024",
+          "sg-kr-agent-2026",
+          "depth-sg-microsoft",
+          "sg-mddi-pq-access-2026"
+        ],
+        "searches": [
+          {
+            "date": "2026-10-21",
+            "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+            "language": "en",
+            "sources_read": [
+              "https://epoch.ai/data/ai-models",
+              "https://epoch.ai/data/ai-models-documentation",
+              "https://epoch.ai/data/all_ai_models.csv",
+              "https://epoch.ai/data/frontier_ai_models.csv",
+              "https://epoch.ai/data/notable_ai_models.csv"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Recorded sources re-read for: test/evaluat/access/model",
+            "language": "en",
+            "sources_read": [
+              "https://sgaisi.sg/about-us/",
+              "https://www.imda.gov.sg/-/media/imda/files/news-and-events/media-room/media-releases/2024/05/imda-factsheet--digital-trust-centre-designated-as-spore-ai-safety-institute-22-may-2024.pdf",
+              "https://www.sgpc.gov.sg/api/file/getfile/Joint%20IMDA%20-%20Microsoft%20Press%20Release%20%20-%20%20IMDA%20and%20Microsoft%20commit%20to%20advancing%20AI%20safety%20and%20security.pdf?path=/sgpcmedia/media_releases/imda/press_release/P-20260612-1/attachment/Joint+IMDA+-+Microsoft+Press+Release++-++IMDA+and+Microsoft+commit+to+advancing+AI+safety+and+security.pdf",
+              "https://www.mddi.gov.sg/newsroom/new-singapore-uk-agreement-to-strengthen-global-ai-safety-governance/",
+              "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+              "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+              "https://sgaisi.sg/wp-api/wp-content/uploads/2026/06/SG_KR_AISI_Agent_Evaluation_Data_Leakage_2026.pdf",
+              "https://sgaisi.sg/resources/a-pilot-testing-exercise-from-the-international-network-of-ai-safety-institutes/",
+              "https://sgaisi.sg/resources/improving-methodologies-for-ai-model-evaluations-across-global-languages/"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Singapore AI Safety Institute pre-deployment access frontier model Anthropic OR OpenAI OR Google agreement",
+            "language": "en",
+            "sources_read": [
+              "https://thenextweb.com/news/anthropic-singapore-office-government-mou (search results and page)",
+              "search snippets: opengovasia, technode, longbridge"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Anthropic Singapore MOU MDDI October 2026 model evaluation AI Safety Institute",
+            "language": "en",
+            "sources_read": [
+              "search snippets: e27, marketing-interactive, anthropic.com/news/singapore-office-opening (snippet only)"
+            ]
+          }
+        ],
+        "value": "none_found",
+        "citations": {
+          "notes": [
+            "sg-mddi-pq-access-2026"
+          ],
+          "searches": [],
+          "value": [],
+          "display": [
+            "sg-mddi-pq-access-2026"
+          ]
+        }
+      },
+      "staffing_model": {
+        "code": "host_unit",
+        "source_ids": [
+          "sg-imda",
+          "sg-site"
+        ],
+        "notes": "IMDA, the government agency for the institute, sets its policy and leads international engagement.",
+        "citations": {
+          "code": [
+            "sg-imda",
+            "sg-site"
+          ],
+          "notes": [
+            "sg-site"
+          ],
+          "display": [
+            "sg-imda",
+            "sg-site"
+          ]
+        }
+      },
+      "claims": [
+        {
+          "id": "claims-2374a6bc543044d79674e38d471b29da",
+          "kind": "function",
+          "code": "model_testing",
+          "basis": "activity",
+          "text": "It says that, with the US and UK institutes, it tested Llama-3.1 405B on GSM8K, SQuAD2.0 and MMMLU.",
+          "source_ids": [
+            "sg-pilot-2024"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "sg-pilot-2024"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "sg-pilot-2024"
+            ]
+          }
+        },
+        {
+          "id": "claims-20f3a4a585014bd1b6d4f954624d66b1",
+          "kind": "function",
+          "code": "evaluation_methods",
+          "basis": "activity",
+          "text": "The UK AI Security Institute's publication says it authored 'How should evaluators test AI systems (as opposed to models)?'",
+          "source_ids": [
+            "r3-gb-network-best-practice-release"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "r3-gb-network-best-practice-release"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "r3-gb-network-best-practice-release"
+            ]
+          }
+        },
+        {
+          "id": "claims-fd7f2385968a467796a985b226c8a135",
+          "kind": "function",
+          "code": "research",
+          "basis": "mandate",
+          "text": "IMDA's designation factsheet lists safe model design, development and deployment, and content assurance among the institute's initial AI safety research areas.",
+          "source_ids": [
+            "sg-imda"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "sg-imda"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "sg-imda"
+            ]
+          }
+        },
+        {
+          "id": "claims-b5e257f0ae2c493795921b43bba939cf",
+          "kind": "function",
+          "code": "research",
+          "basis": "activity",
+          "text": "It says its work examines issues such as emotional dependency and cognitive offloading.",
+          "source_ids": [
+            "sg-site"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "sg-site"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "sg-site"
+            ]
+          }
+        },
+        {
+          "id": "claims-5aff8f596cc84888aa32b6d2b83b52bd",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "mandate",
+          "text": "IMDA's designation factsheet says it will work with other countries' AI safety institutes on AI safety research.",
+          "source_ids": [
+            "sg-imda"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "sg-imda"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "sg-imda"
+            ]
+          }
+        },
+        {
+          "id": "claims-1822c155dc964f6686d26f5f7cfbcf4a",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "activity",
+          "text": "It says that, with the Korean institute, it concluded a bilateral test of whether AI agents leak sensitive data in common tasks.",
+          "source_ids": [
+            "fix-output-sg-kr-january"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "fix-output-sg-kr-january"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "fix-output-sg-kr-january"
+            ]
+          }
+        },
+        {
+          "id": "claims-32fe24b7dd1d435f85afd58edca8df5f",
+          "kind": "function",
+          "code": "talent",
+          "basis": "mandate",
+          "text": "IMDA's factsheet says the DTC would deepen local capabilities by nurturing R&D talent in digital trust.",
+          "source_ids": [
+            "sg-imda"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "sg-imda"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "sg-imda"
+            ]
+          }
+        },
+        {
+          "id": "claims-e40d6635638f4ee48b65957c4d8f9cc3",
+          "kind": "function",
+          "code": "evaluation_methods",
+          "basis": "mandate",
+          "text": "IMDA's fact sheet says the Digital Trust Centre will help to focus on outcomes that include testing the trustworthiness of AI and developing algorithms to test and evaluate the fairness of AI.",
+          "source_ids": [
+            "sg-imda-dtc-factsheet-2022"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "sg-imda-dtc-factsheet-2022"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "sg-imda-dtc-factsheet-2022"
+            ]
+          }
+        },
+        {
+          "id": "claims-0a8fe7b2123a4eccadab20b1b5bc7436",
+          "kind": "function",
+          "code": "talent",
+          "basis": "activity",
+          "text": "It says it has conducted workshops and red teaming challenges \"for knowledge sharing and capacity building in technical testing capabilities\".",
+          "source_ids": [
+            "sg-site"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "sg-site"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "sg-site"
+            ]
+          }
+        }
+      ],
+      "status": "established",
+      "established": "2024-05-22",
+      "announced": null,
+      "functions": [
+        {
+          "code": "model_testing",
+          "value": "activity",
+          "claim_ids": [
+            "claims-2374a6bc543044d79674e38d471b29da"
+          ]
+        },
+        {
+          "code": "evaluation_methods",
+          "value": "both",
+          "claim_ids": [
+            "claims-20f3a4a585014bd1b6d4f954624d66b1",
+            "claims-e40d6635638f4ee48b65957c4d8f9cc3"
+          ]
+        },
+        {
+          "code": "research",
+          "value": "both",
+          "claim_ids": [
+            "claims-fd7f2385968a467796a985b226c8a135",
+            "claims-b5e257f0ae2c493795921b43bba939cf"
+          ]
+        },
+        {
+          "code": "standards_guidance",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "regulatory_enforcement",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "regulatory_support",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "risk_monitoring",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "foresight",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "policy_advice",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "incident_response",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "international_cooperation",
+          "value": "both",
+          "claim_ids": [
+            "claims-5aff8f596cc84888aa32b6d2b83b52bd",
+            "claims-1822c155dc964f6686d26f5f7cfbcf4a"
+          ]
+        },
+        {
+          "code": "convening",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "capacity_building",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "talent",
+          "value": "both",
+          "claim_ids": [
+            "claims-32fe24b7dd1d435f85afd58edca8df5f",
+            "claims-0a8fe7b2123a4eccadab20b1b5bc7436"
+          ]
+        },
+        {
+          "code": "adoption",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "public_access_continuity",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "certification",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "sandbox",
+          "value": "not_found",
+          "claim_ids": []
+        }
+      ],
+      "operating": [
+        {
+          "kind": "joint_testing",
+          "date": "2024-11-20",
+          "lineage": "network-pilot-2024",
+          "source_ids": [
+            "sg-pilot-2024"
+          ],
+          "citations": {
+            "date": [
+              "sg-pilot-2024"
+            ],
+            "kind": [
+              "sg-pilot-2024"
+            ],
+            "display": [
+              "sg-pilot-2024"
+            ]
+          }
+        }
+      ],
+      "intervals": {
+        "announced_to_established": null,
+        "established_to_first_qualifying_activity": {
+          "days_min": 182,
+          "days_max": 182
+        },
+        "announced_to_first_qualifying_activity": null
+      },
+      "citations": {
+        "id": [],
+        "name": [],
+        "jurisdiction_id": [],
+        "host": [
+          "sg-site"
+        ],
+        "legal_form": [],
+        "mandate": [
+          "sg-imda",
+          "sg-site"
+        ],
+        "website": [],
+        "funding": [
+          "sg-imda",
+          "sg-site",
+          "sg-ntu-dtc-about"
+        ],
+        "check": [],
+        "mandate_short": [
+          "sg-imda",
+          "sg-site"
+        ],
+        "legal_basis": [
+          "sg-imda"
+        ],
+        "placement": [],
+        "name_local": [],
+        "short_name": [],
+        "agreements": [
+          "depth-sg-eu-mou",
+          "depth-sg-microsoft",
+          "sg-uk-moc-2024",
+          "r3-sg-eu-aa-domestic",
+          "kr-sg-mou-2026"
+        ],
+        "wikidata": [],
+        "people": [
+          "depth-sg-lam",
+          "sg-imda-dtc-factsheet-2022"
+        ],
+        "outputs": [
+          "sg-kr-agent-2026",
+          "network-multilingual-2025",
+          "jp-joint-2025",
+          "sg-pilot-2024",
+          "depth-sg-resources",
+          "catalogue-agentic-report",
+          "depth-gb-blog",
+          "fix-output-network-agentic-arxiv",
+          "fix-output-sg-kr-january",
+          "fix-output-sg-aisi-system-evaluation-guidance",
+          "fix-output-sg-multilingual-summary",
+          "r3-jp-activity-index",
+          "r3-naaimes-best-practice",
+          "r3-gb-network-best-practice-release",
+          "r3-sg-agentic-release"
+        ],
+        "head": [
+          "depth-sg-lam"
+        ],
+        "reports_to": [
+          "sg-site"
+        ],
+        "national_partners": [],
+        "testing_capacity": [
+          "network-multilingual-2025"
+        ],
+        "model_access": [
+          "sg-mddi-pq-access-2026"
+        ],
+        "staffing_model": [
+          "sg-imda",
+          "sg-site"
+        ],
+        "claims": [
+          "sg-imda",
+          "sg-site",
+          "sg-pilot-2024",
+          "fix-output-sg-kr-january",
+          "r3-gb-network-best-practice-release",
+          "sg-imda-dtc-factsheet-2022"
+        ],
+        "status": [
+          "sg-imda",
+          "sg-site"
+        ],
+        "established": [
+          "sg-imda"
+        ],
+        "announced": [],
+        "functions": [],
+        "operating": [],
+        "intervals": [],
+        "display": [
+          "sg-imda",
+          "sg-site",
+          "sg-kr-agent-2026",
+          "network-multilingual-2025",
+          "jp-joint-2025",
+          "sg-pilot-2024",
+          "depth-sg-lam",
+          "depth-sg-resources",
+          "catalogue-agentic-report",
+          "depth-sg-eu-mou",
+          "depth-sg-microsoft",
+          "depth-gb-blog",
+          "sg-uk-moc-2024",
+          "fix-output-network-agentic-arxiv",
+          "fix-output-sg-kr-january",
+          "fix-output-sg-aisi-system-evaluation-guidance",
+          "fix-output-sg-multilingual-summary",
+          "r3-jp-activity-index",
+          "r3-naaimes-best-practice",
+          "r3-gb-network-best-practice-release",
+          "r3-sg-eu-aa-domestic",
+          "r3-sg-agentic-release",
+          "kr-sg-mou-2026",
+          "sg-ntu-dtc-about",
+          "sg-imda-dtc-factsheet-2022"
+        ],
+        "form": [
+          "sg-imda",
+          "sg-site"
+        ],
+        "inst": [],
+        "institute": [],
+        "announced_to_established": [],
+        "established_to_first_qualifying_activity": [
+          "sg-imda",
+          "sg-pilot-2024"
+        ],
+        "announced_to_first_qualifying_activity": []
+      },
+      "display": {
+        "intervals": {
+          "status_since": null,
+          "known_activity": {
+            "kind": "joint_testing",
+            "lineage": "network-pilot-2024",
+            "text": "about 6 months after it was established"
+          }
+        },
+        "comparison_funding": null,
+        "budget": null,
+        "staff": null,
+        "total_staff": null,
+        "technical_staff": null,
+        "funding_records": {
+          "funding-aa4eb9dd0f8e5c199d30dbd5b4354075": {
+            "kind": "not_institute_specific",
+            "amount": 50000000,
+            "currency": "SGD",
+            "description": "S$50m over five years from 1 October 2022 for the Digital Trust Centre",
+            "source_ids": [
+              "sg-imda",
+              "sg-site",
+              "sg-ntu-dtc-about"
+            ],
+            "confidence": "high",
+            "commitment": "adopted",
+            "funding_source": "national_government",
+            "notes": "The source dates the establishment of the Digital Trust Centre to June 2022 and states initial funding of SGD 50m. NTU's page on the centre states that the SGD 50m grant from IMDA and the National Research Foundation started on 1 October 2022 and that they invested it over the next five years; the annual figure is the mean over five years counted from that start, and the founding year is not treated as a spending period. DTC itself was later designated Singapore AISI. The earlier allocation covered trust technologies, including AI testing and privacy-enhancing technologies; the source does not state an AI-safety allocation. This broader pre-designation funding remains related funding.",
+            "id": "funding-aa4eb9dd0f8e5c199d30dbd5b4354075",
+            "coverage": "not_institute_specific",
+            "years": 5,
+            "period": "Five years from 1 October 2022",
+            "annual_basis": "Arithmetic mean of the SGD 50m grant over the five years NTU states, counted from the grant's start on 1 October 2022; annual disbursements are not stated. Related funding for the Digital Trust Centre before its designation, not the institute budget.",
+            "annual_basis_code": "period_mean",
+            "annual_period": {
+              "start": "2022-10-01",
+              "end": "2027-09-30"
+            },
+            "annual_amount": 10000000,
+            "eur_per_year_est": 6777050,
+            "citations": {
+              "kind": [],
+              "amount": [
+                "sg-imda",
+                "sg-site",
+                "sg-ntu-dtc-about"
+              ],
+              "currency": [],
+              "description": [
+                "sg-imda",
+                "sg-ntu-dtc-about"
+              ],
+              "confidence": [],
+              "commitment": [],
+              "funding_source": [],
+              "notes": [
+                "sg-imda",
+                "sg-ntu-dtc-about"
+              ],
+              "id": [],
+              "coverage": [
+                "sg-imda"
+              ],
+              "years": [
+                "sg-ntu-dtc-about"
+              ],
+              "period": [
+                "sg-ntu-dtc-about"
+              ],
+              "annual_basis": [
+                "sg-ntu-dtc-about"
+              ],
+              "annual_basis_code": [],
+              "annual_period": [
+                "sg-ntu-dtc-about"
+              ],
+              "annual_amount": [
+                "sg-imda",
+                "sg-site",
+                "sg-ntu-dtc-about"
+              ],
+              "eur_per_year_est": [
+                "sg-imda",
+                "sg-site",
+                "eu-ecb-exchange-rates-2025",
+                "sg-ntu-dtc-about"
+              ],
+              "display": [
+                "sg-imda",
+                "sg-site",
+                "sg-ntu-dtc-about"
+              ]
+            },
+            "display": {
+              "annual_estimate": false,
+              "value": "SGD 50m",
+              "qualifiers": [
+                "Five years from 1 October 2022",
+                "adopted"
+              ],
+              "native_value": "SGD 50m",
+              "native_qualifiers": [
+                "Five years from 1 October 2022",
+                "adopted"
+              ],
+              "budget_citations": [
+                "sg-imda",
+                "sg-site",
+                "sg-ntu-dtc-about"
+              ]
+            }
+          }
+        },
+        "funding_ids": [
+          "funding-aa4eb9dd0f8e5c199d30dbd5b4354075"
+        ],
+        "staff_records": {},
+        "staff_ids": [],
+        "related_funding_ids": [
+          "funding-aa4eb9dd0f8e5c199d30dbd5b4354075"
+        ],
+        "operating": {
+          "since": "2024-11-20",
+          "first_lineage": "network-pilot-2024",
+          "items": [
+            {
+              "kind": "joint_testing",
+              "date": "2024-11-20",
+              "lineage": "network-pilot-2024",
+              "source_ids": [
+                "sg-pilot-2024"
+              ],
+              "citations": {
+                "date": [
+                  "sg-pilot-2024"
+                ],
+                "kind": [
+                  "sg-pilot-2024"
+                ],
+                "display": [
+                  "sg-pilot-2024"
+                ]
+              }
+            }
+          ]
+        },
+        "rows": {
+          "head": {
+            "state": "stated",
+            "text": "Lam Kwok Yan, Executive Director",
+            "cited": [
+              "depth-sg-lam"
+            ]
+          },
+          "reports_to": {
+            "state": "stated",
+            "text": "Infocomm Media Development Authority",
+            "cited": [
+              "sg-site"
+            ]
+          },
+          "partners": {
+            "state": "not_published",
+            "items": [],
+            "fold_items": [],
+            "tail": null,
+            "cited": []
+          }
+        },
+        "source_links": [
+          "network-2025",
+          "network-nist-2026",
+          "sg-imda",
+          "sg-site",
+          "sg-kr-agent-2026",
+          "gb-joint-testing",
+          "network-multilingual-2025",
+          "jp-joint-2025",
+          "sg-pilot-2024",
+          "depth-sg-lam",
+          "depth-sg-resources",
+          "catalogue-agentic-report",
+          "depth-sg-eu-mou",
+          "depth-sg-microsoft",
+          "depth-gb-blog",
+          "sg-uk-moc-2024",
+          "fix-output-network-multilingual-arxiv",
+          "fix-output-network-agentic-arxiv",
+          "fix-output-sg-kr-january",
+          "fix-output-sg-aisi-system-evaluation-guidance",
+          "fix-output-sg-multilingual-summary",
+          "fix-output-jp-february-joint-publication",
+          "r3-jp-activity-index",
+          "r3-naaimes-best-practice",
+          "r3-gb-network-best-practice-release",
+          "r3-sg-eu-aa-domestic",
+          "r3-sg-agentic-release",
+          "eu-ecb-exchange-rates-2025",
+          "kr-sg-mou-2026",
+          "sg-mddi-pq-access-2026",
+          "sg-ntu-dtc-about",
+          "sg-imda-dtc-factsheet-2022"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "catalogue-agentic-report",
+      "title": "International Joint Testing Exercise: Agentic Testing",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+      "excerpts": [
+        {
+          "text": "Contributed by Singapore AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/attribution_note",
+            "/institute/record/outputs/2/credit/institute_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-gb-blog",
+      "title": "AISI Blog",
+      "url": "https://www.aisi.gov.uk/blog",
+      "excerpts": [
+        {
+          "text": "International joint testing exercise: Agentic testing Blog Organisation • Jul 17, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/date",
+            "/institute/record/outputs/2/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-sg-eu-mou",
+      "title": "EU and Singapore strengthen collaboration on AI safety with a new Administrative Arrangement",
+      "url": "https://www.eeas.europa.eu/delegations/singapore/eu-singapore-strengthen-collaboration-ai-safety-new-administrative-arrangement_en",
+      "excerpts": [
+        {
+          "text": "Today (20th Nov 2024), the Commission services and Singapore's Ministry of Digital Development and Information have signed an Administrative Arrangement",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/counterparty",
+            "/institute/record/agreements/0/state",
+            "/institute/record/agreements/0/date"
+          ]
+        },
+        {
+          "text": "cooperation between the EU's artificial intelligence (AI) Office and Singapore's AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/participation",
+            "/institute/record/agreements/0/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-sg-lam",
+      "title": "The Team: Singapore-Europe Dialogue on Digital Trust and Safe AI",
+      "url": "https://www.ntu.edu.sg/dtc/ntu-singapore-europe-dialogue-on-digital-trust-and-safe-ai/the-team",
+      "excerpts": [
+        {
+          "text": "Prof. Lam Kwok Yan",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/name"
+          ]
+        },
+        {
+          "text": "Executive Director, Singapore AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/role"
+          ]
+        },
+        {
+          "text": "Prof. Lam Kwok Yan Associate Vice President (Strategy & Partnerships), Nanyang Technological University, Singapore Executive Director, Singapore AI Safety Institute",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/head/person_id",
+            "/institute/record/people/0/name",
+            "/institute/record/people/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-sg-microsoft",
+      "title": "IMDA and Microsoft commit to advancing AI safety and security",
+      "url": "https://www.sgpc.gov.sg/api/file/getfile/Joint%20IMDA%20-%20Microsoft%20Press%20Release%20%20-%20%20IMDA%20and%20Microsoft%20commit%20to%20advancing%20AI%20safety%20and%20security.pdf?path=/sgpcmedia/media_releases/imda/press_release/P-20260612-1/attachment/Joint+IMDA+-+Microsoft+Press+Release++-++IMDA+and+Microsoft+commit+to+advancing+AI+safety+and+security.pdf",
+      "excerpts": [
+        {
+          "text": "IMDA, the Singapore AI Safety Institute and Microsoft will work together",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/counterparty",
+            "/institute/record/agreements/1/participation"
+          ]
+        },
+        {
+          "text": "12 June 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/date"
+          ]
+        },
+        {
+          "text": "Microsoft Corporation today signed a Memorandum of Understanding (MOU) to deepen collaboration on artificial intelligence safety and security.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/state",
+            "/institute/record/agreements/1/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-sg-resources",
+      "title": "Resources",
+      "url": "https://www.sgaisi.sg/resources/",
+      "excerpts": [
+        {
+          "text": "This report is a more detailed follow-up to an earlier blog post on this topic.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/attribution_note"
+          ]
+        },
+        {
+          "text": "July 23, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/5/date",
+            "/institute/record/outputs/5/credit/date"
+          ]
+        },
+        {
+          "text": "Best Practice Guidance Document: Automated Evaluation of Large Language Models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/5/attribution_note"
+          ]
+        },
+        {
+          "text": "Best Practice Guidance Document: Automated Evaluation of Large Language Models Report•July 23, 2026",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/resources/",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/5/credit/institute_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ecb-exchange-rates-2025",
+      "title": "ECB euro foreign exchange reference rates, annual averages for 2025",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.AUD+CAD+GBP+INR+JPY+KRW+MYR+NOK+SGD+USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-jp-february-joint-publication",
+      "title": "共同テストのブログ記事が公開されました。",
+      "title_en": "Blog post on joint testing published",
+      "url": "https://aisi.go.jp/activity/activity_international/250211/",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-network-agentic-arxiv",
+      "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+      "url": "https://arxiv.org/abs/2601.15679",
+      "excerpts": [
+        {
+          "text": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-network-multilingual-arxiv",
+      "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+      "url": "https://arxiv.org/abs/2601.15706",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-sg-aisi-system-evaluation-guidance",
+      "title": "How should evaluators test AI systems (as opposed to models)?",
+      "url": "https://sgaisi.sg/resources/how-should-evaluators-test-ai-systems-as-opposed-to-models",
+      "excerpts": [
+        {
+          "text": "How should evaluators test AI systems (as opposed to models)?",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/4/title"
+          ]
+        },
+        {
+          "text": "This blog explores these considerations and outlines what is needed to evaluate AI systems for safety, reliability and capability.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/4/attribution_note"
+          ]
+        },
+        {
+          "text": "July 8, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/4/date"
+          ]
+        },
+        {
+          "text": "July 8, 2026 15 min read",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/resources/how-should-evaluators-test-ai-systems-as-opposed-to-models",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/4/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-sg-kr-january",
+      "title": "Testing AI Agents for Data Leakage Risks in Realistic Tasks",
+      "url": "https://sgaisi.sg/resources/testing-ai-agents-for-data-leakage-risks-in-realistic-tasks/",
+      "excerpts": [
+        {
+          "text": "January 19, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/date"
+          ]
+        },
+        {
+          "text": "The Korea and Singapore AI Safety Institutes concluded a bilateral testing exercise, testing whether AI agents can correctly execute multi-step tasks in common usage scenarios without leaking sensitive data.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/attribution_note",
+            "/institute/record/outputs/3/credit/institute_id",
+            "/institute/record/claims/5/text"
+          ]
+        },
+        {
+          "text": "January 19, 2026 18 min read",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/resources/testing-ai-agents-for-data-leakage-risks-in-realistic-tasks/",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-sg-multilingual-summary",
+      "title": "Improving Methodologies for AI Model Evaluations Across Global Languages",
+      "url": "https://sgaisi.sg/resources/improving-methodologies-for-ai-model-evaluations-across-global-languages/",
+      "excerpts": [
+        {
+          "text": "February 10, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/date",
+            "/institute/record/outputs/1/credit/date"
+          ]
+        },
+        {
+          "text": "Lead Authors: Singapore, Japan, United Kingdom",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note"
+          ]
+        },
+        {
+          "text": "Contributors: Members of the International Network of AI Safety Institutes",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note"
+          ]
+        },
+        {
+          "text": "In comparison to our November exercise, we aligned all prompting strategies for the cybersecurity evaluation at the onset of testing, which sped up review time and allowed for more robust evaluations of responses across languages.",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/resources/improving-methodologies-for-ai-model-evaluations-across-global-languages/",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/credit/institute_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-aisi-network-consensus-2026",
+      "title": "International consensus and open questions in AI evaluations",
+      "url": "https://www.aisi.gov.uk/blog/international-ai-network-consensus-and-open-questions",
+      "excerpts": [
+        {
+          "text": "the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        },
+        {
+          "text": "the International Network for Advanced AI Measurement, Evaluation and Science — formerly the International Network of AI Safety Institutes",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-joint-testing",
+      "title": "International joint testing exercise: agentic testing",
+      "url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "archive_url": "https://web.archive.org/web/20250905113943/https://www.aisi.gov.uk/work/international-joint-testing-exercise-agentic-testing",
+      "excerpts": []
+    },
+    {
+      "id": "jp-joint-2025",
+      "title": "Joint Testing Exercise: Improving Methodologies for AI Model Evaluations Across Global Languages",
+      "url": "https://aisi.go.jp/assets/pdf/International-Network-of-AI-Safety-Institutes-Joint-Testing-Exercise-Improving-Methodologies-for-AI-Model-Evaluations-Across-Global-Languages.pdf",
+      "archive_url": "https://web.archive.org/web/20250318174208/https://aisi.go.jp/assets/pdf/International-Network-of-AI-Safety-Institutes-Joint-Testing-Exercise-Improving-Methodologies-for-AI-Model-Evaluations-Across-Global-Languages.pdf",
+      "excerpts": [
+        {
+          "text": "Singapore, Japan, and the United Kingdom led the Network’s latest joint testing exercise",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kr-sg-mou-2026",
+      "title": "한-싱 인공지능안전연구소, MoU 체결 사실 발표 및 AI 에이전트 데이터 유출 위험 공동 테스트 결과 공개",
+      "title_en": "Korea and Singapore AI Safety Institutes announce MoU and publish joint test results on AI agent data leakage risks",
+      "url": "https://www.aisi.re.kr/kor/article/ATCL75b4fb0a5/88",
+      "excerpts": [
+        {
+          "text": "싱가포르 인공지능안전연구소와 인공지능(AI) 안전 평가를 중심으로 한 협력 강화를 위한 양해각서(MoU)를 체결하고",
+          "accessed": "2026-10-24",
+          "gloss": "signed a memorandum of understanding with the Singapore AI Safety Institute to strengthen cooperation centred on AI safety evaluation",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/3/counterparty",
+            "/institute/record/agreements/3/state",
+            "/institute/record/agreements/3/scope",
+            "/institute/record/agreements/3/participation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-multilingual-2025",
+      "title": "Multilingual joint testing exercise: Improving Methodologies for LLM Evaluations Across Global Languages (evaluation report)",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "archive_url": "https://web.archive.org/web/20260919113540/https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "excerpts": [
+        {
+          "text": "Contributed by Singapore AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note"
+          ]
+        },
+        {
+          "text": "Improving Methodologies for LLM Evaluations Across Global Languages",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/title"
+          ]
+        },
+        {
+          "text": "Singapore AISI ran tests for all ten languages.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/0/code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "r3-gb-network-best-practice-release",
+      "title": "International evaluation best practice and open questions in AI measurement",
+      "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+      "excerpts": [
+        {
+          "text": "The Singapore AI Safety Institute authored 'How should evaluators test AI systems (as opposed to models)?'",
+          "accessed": "2026-10-18",
+          "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/4/credit/institute_id",
+            "/institute/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-jp-activity-index",
+      "title": "AISI activity index",
+      "url": "https://aisi.go.jp/activity/",
+      "excerpts": [
+        {
+          "text": "共同テスト演習の評価レポートが公表されました。 Evaluation reports for the 2nd and 3rd joint testing exercise has been published. -2025年7月18日",
+          "gloss": "Evaluation reports for the second and third joint testing exercises have been published, 18 July 2025.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-naaimes-best-practice",
+      "title": "Best Practice: Automated Evaluation of Large Language Models",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2026/07/NAAIMES-Best-Practice-Document.pdf",
+      "excerpts": [
+        {
+          "text": "Best Practice:\nAutomated Evaluation of Large\nLanguage Models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/5/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-sg-agentic-release",
+      "title": "Evaluation Report on “Advancing Methodologies for Agentic Evaluations Across Domains”",
+      "url": "https://sgaisi.sg/resources/international-joint-testing-exercise-agentic-testing-evaluation-report/",
+      "excerpts": [
+        {
+          "text": "Advancing Methodologies for Agentic Evaluations Across Domains",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-sg-eu-aa-domestic",
+      "title": "Singapore and the European Union Agree to Strengthen Collaboration on AI Safety",
+      "url": "https://www.mddi.gov.sg/newsroom/singapore-european-union-agree-to-strengthen-collaboration-ai-safety/",
+      "excerpts": [
+        {
+          "text": "international AI Safety Institutes (AISIs) Network of which both Singapore and the European Union are members",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        },
+        {
+          "text": "framework for cooperation between Singapore’s Infocomm Media Development Authority (IMDA), the Digital Trust Centre (DTC)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-imda",
+      "title": "Digital Trust Centre designated as Singapore's AI Safety Institute",
+      "url": "https://www.imda.gov.sg/-/media/imda/files/news-and-events/media-room/media-releases/2024/05/imda-factsheet--digital-trust-centre-designated-as-spore-ai-safety-institute-22-may-2024.pdf",
+      "archive_url": "https://web.archive.org/web/20250404221519if_/https://www.imda.gov.sg/-/media/imda/files/news-and-events/media-room/media-releases/2024/05/imda-factsheet--digital-trust-centre-designated-as-spore-ai-safety-institute-22-may-2024.pdf",
+      "excerpts": [
+        {
+          "text": "Singapore, 22 May 2024 - The Digital Trust Centre has been designated as Singapore’s AI Safety Institute (AISI).",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/date",
+            "/record/timeline/0/event",
+            "/record/summary",
+            "/record/timeline/0/description",
+            "/institute/record/legal_basis/type",
+            "/institute/record/legal_basis/state",
+            "/institute/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "With an initial funding of S$50million",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/amount",
+            "/institute/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "With an initial funding of S$50million, the Infocomm Media Development Authority (IMDA) had appointed Nanyang Technological University ( NTU) to establish the DTC, led by Professor Lam Kwok Yen.",
+          "accessed": "2026-10-18",
+          "url": "https://www.imda.gov.sg/-/media/imda/files/news-and-events/media-room/media-releases/2024/05/imda-factsheet--digital-trust-centre-designated-as-spore-ai-safety-institute-22-may-2024.pdf",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/description",
+            "/institute/record/funding/0/coverage",
+            "/institute/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "Singapore first set up the Digital Trust Centre (DTC) in June 2022 to lead Singapore’s research and development efforts for trust technologies.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/coverage",
+            "/institute/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "Areas of research focus included AI testing and privacy enhancing technologies.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/coverage",
+            "/institute/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "the Singapore AISI will work on addressing the gaps in global AI safety science, leveraging Singapore’s work in AI evaluation and testing.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short",
+            "/institute/record/mandate"
+          ]
+        },
+        {
+          "text": "The initial research areas are:\n• Testing & Evaluation",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short",
+            "/institute/record/mandate"
+          ]
+        },
+        {
+          "text": "The Singapore AISI will work with other countries’ AI Safety Institutes to collectively address AI safety research.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate",
+            "/institute/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "The initial research areas are: • Testing & Evaluation • Safe Model Design, Development and Deployment • Content Assurance • Governance & Policy",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "Digital Trust Centre designated as Singapore's AI Safety Institute",
+              "kind": "heading"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "The DTC would drive research and innovation of the trust \ntechnologies, enabling businesses to experiment with these technologies and \nassimilate them into operations, as well as deepening local capabilit ies by nurturing \nR&D talents in digital trust",
+          "anchors": [
+            {
+              "text": "The Digital Trust Centre has been designated as \nSingapore’s AI Safety Institute (AISI).",
+              "kind": "definition"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/6/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-imda-dtc-factsheet-2022",
+      "title": "IMDA to Strengthen Singapore's Capabilities in Digital Trust Through New National Digital Trust Centre (fact sheet)",
+      "url": "https://www.imda.gov.sg/-/media/Imda/Files/News-and-Events/Media-Room/Media-Releases/2022/06/Digital-Trust-Centre-Factsheet---ATxSG-1-Jun-2022.pdf",
+      "excerpts": [
+        {
+          "text": "NTU Professor Lam Kwok Yan, Associate Vice President (Strategy & Partnerships), who will lead the DTC as its Executive Director",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/background"
+          ]
+        },
+        {
+          "text": "Develop technologies in testing and\nauditing to evaluate the\ntrustworthiness of digital products\nand services.\nTesting the trustworthiness of AI,\nthe development algorithms to test\nand evaluate the fairness of AI.",
+          "anchors": [
+            {
+              "text": "DTC will help to focus on four key outcomes.",
+              "kind": "heading"
+            },
+            {
+              "text": "The Digital Trust Centre has been designated as \nSingapore’s AI Safety Institute (AISI).",
+              "kind": "definition",
+              "source_id": "sg-imda"
+            }
+          ],
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/7/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-kr-agent-2026",
+      "title": "Testing AI agents for data leakage risks in realistic tasks (Singapore and Korea AI Safety Institutes)",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2026/06/SG_KR_AISI_Agent_Evaluation_Data_Leakage_2026.pdf",
+      "archive_url": "https://web.archive.org/web/20260919113536if_/https://sgaisi.sg/wp-api/wp-content/uploads/2026/06/SG_KR_AISI_Agent_Evaluation_Data_Leakage_2026.pdf",
+      "excerpts": [
+        {
+          "text": "This work was conducted jointly by the Singapore AI Safety",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/attribution_note"
+          ]
+        },
+        {
+          "text": "An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/title"
+          ]
+        },
+        {
+          "text": "Korea AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/attribution_note"
+          ]
+        },
+        {
+          "text": "Singapore AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/3/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-mddi-pq-access-2026",
+      "title": "MDDI's Response to PQ on Providing Pre-Deployment Government Access to Frontier AI Models for Independent Evaluation of National Security Risks and Vulnerabilities",
+      "url": "https://www.mddi.gov.sg/newsroom/mddi-response-to-pq-on-providing-pre-deployment-government-access-to-frontier-ai-models-for-independent-evaluation-of-national-security-risks-and-vulnerab/",
+      "excerpts": [
+        {
+          "text": "We also engage frontier AI developers to obtain information and access to their models where appropriate. We currently do not make this a requirement, because access to a model by itself does not necessarily give a complete picture of the risks.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-ntu-dtc-about",
+      "title": "About Us | Digital Trust Centre (DTC) | NTU Singapore",
+      "url": "https://www.ntu.edu.sg/dtc/about-us",
+      "excerpts": [
+        {
+          "text": "Our work is funded by a $50 million grant from Infocomm Media Development Authority (IMDA) and the National Research Foundation (NRF), starting from 1 October 2022.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/amount",
+            "/institute/record/funding/0/period",
+            "/institute/record/funding/0/annual_period",
+            "/institute/record/funding/0/description",
+            "/institute/record/funding/0/notes",
+            "/institute/record/funding/0/annual_basis"
+          ]
+        },
+        {
+          "text": "has invested $50 million in DTC over the next five years.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/years",
+            "/institute/record/funding/0/period",
+            "/institute/record/funding/0/annual_basis",
+            "/institute/record/funding/0/annual_period",
+            "/institute/record/funding/0/notes",
+            "/institute/record/funding/0/description"
+          ]
+        },
+        {
+          "text": "The objectives of the DTC, which also houses the Singapore AI Safety Institute,",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-pilot-2024",
+      "title": "A Pilot Testing Exercise from the International Network of AI Safety Institutes",
+      "url": "https://sgaisi.sg/resources/a-pilot-testing-exercise-from-the-international-network-of-ai-safety-institutes/",
+      "archive_url": "https://web.archive.org/web/20260919113600/https://sgaisi.sg/resources/a-pilot-testing-exercise-from-the-international-network-of-ai-safety-institutes/",
+      "excerpts": [
+        {
+          "text": "November 20, 2024",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/date",
+            "/institute/record/outputs/0/credit/date"
+          ]
+        },
+        {
+          "text": "U.S. AISI, UK AISI, and SG AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/attribution_note"
+          ]
+        },
+        {
+          "text": "A Pilot Testing Exercise from the International Network of AI Safety Institutes",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/title"
+          ]
+        },
+        {
+          "text": "Between October and November 2024, the U.S. AISI, UK AISI, and SG AISI tested Llama-3.1 405B on GSM8K, SQuAD2.0, and MMMLU.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/attribution_note",
+            "/institute/record/outputs/0/credit/institute_id",
+            "/institute/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-site",
+      "title": "About us",
+      "url": "https://sgaisi.sg/about-us/",
+      "archive_url": "https://web.archive.org/web/20260925142147/https://sgaisi.sg/about-us/",
+      "excerpts": [
+        {
+          "text": "As the designated Singapore AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/event",
+            "/record/summary"
+          ]
+        },
+        {
+          "text": "Hosted in the Nanyang Technological University (NTU)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/host",
+            "/record/summary",
+            "/institute/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "$50 million grant",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/amount"
+          ]
+        },
+        {
+          "text": "We design and conduct technical testing to develop evaluation tools and common best practices, as well as to understand AI risks better and improve testing methodologies.",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/about-us/",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short"
+          ]
+        },
+        {
+          "text": "IMDA is the overall government agency for the Singapore AISI",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/reports_to/name",
+            "/institute/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "IMDA also partners the Digital Trust Centre (DTC) to drive the technical work for the Singapore AISI.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "Our work examines issues such as emotional dependency and cognitive offloading, ensuring that AI deployment aligns with public interest and long-term societal well-being.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "This is done through the workshops and red teaming challenges that we have conducted for knowledge sharing and capacity building in technical testing capabilities.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/8/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sg-uk-moc-2024",
+      "title": "New Singapore-UK agreement to strengthen global AI safety and governance",
+      "url": "https://www.mddi.gov.sg/newsroom/new-singapore-uk-agreement-to-strengthen-global-ai-safety-governance/",
+      "excerpts": [
+        {
+          "text": "Singapore and the United Kingdom have signed a new Memorandum of Cooperation to enhance the safety and reliability of artificial intelligence (AI) technologies",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/state",
+            "/institute/record/agreements/2/scope"
+          ]
+        },
+        {
+          "text": "the UK AI Safety Institute on research collaboration, international standards development, and safety testing.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/participation",
+            "/institute/record/agreements/2/scope"
+          ]
+        },
+        {
+          "text": "which has been designated as Singapore’s AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/participation"
+          ]
+        },
+        {
+          "text": "6 November 2024",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/date"
+          ]
+        },
+        {
+          "text": "The Memorandum of Cooperation (MoC) on Collaboration on the Safety of Artificial Intelligence was signed by Minister for Digital Development and Information, Josephine Teo, and Secretary of State for Science, Innovation, and Technology, Peter Kyle.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/counterparty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-sg-aisi-identifier",
+      "title": "Singapore AI Safety Institute: Wikidata identity",
+      "url": "https://www.wikidata.org/wiki/Q139585186",
+      "excerpts": []
+    }
+  ]
+}

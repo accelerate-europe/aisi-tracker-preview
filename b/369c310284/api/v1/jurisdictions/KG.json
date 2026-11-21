@@ -1,0 +1,357 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "369c310284c313aa7568b21712c64c4fbeb01403",
+      "built": "2026-11-21T17:41:32Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/73",
+  "record": {
+    "id": "KG",
+    "name": "Kyrgyzstan",
+    "institute_id": null,
+    "summary": "No qualifying institute identified. The digital ministry plans a national AI centre (a lab and technology hub) and has drafted AI ethics and risk-assessment rules based on self-assessment, with no independent testing body.",
+    "related_bodies": [
+      {
+        "name": "Planned national AI centre",
+        "role": "It is planned as a laboratory and technology hub, announced in February 2026 by the First Deputy Minister of Digital Development; no model-evaluation mandate was described.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "kg-24kg-ai-centre"
+        ],
+        "kind": "other",
+        "id": "related_bodies-fdad2f5177b952f6a2fda4df12581b60",
+        "citations": {
+          "name": [],
+          "role": [
+            "kg-24kg-ai-centre"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "kg-24kg-ai-centre"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "kg-24kg-ai-centre"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-31",
+      "reason": "Adoption of the draft ethics and risk resolutions."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English results include an official Cabinet/Presidential Administration account of a National Council meeting on AI development and a draft development concept. Together with the existing ministry-centre and self-assessment reporting, this concerns AI development and governance rather than independent evaluation of risks from advanced models. Direct opening of the government account timed out; indexed text is retained. No qualifying commitment or institute-specific government study was found. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English, Russian and Kyrgyz for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified. Press reports describe a December 2025 Cabinet resolution on hazard assessment and risk management for high-risk AI systems, which concerns deployed systems. Kept low: the resolution was not retrieved from the official legal database, so no primary governance source is cited. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "Кыргызстан институт безопасности искусственного интеллекта оценка моделей правительство",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Kyrgyzstan national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Kyrgyzstan\" \"AI safety\" institute government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Kyrgyzstan AI safety institute national AI centre model evaluation 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "Кыргызстан национальный центр искусственного интеллекта безопасность оценка моделей Минцифры 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ky",
+          "national_or_official": true,
+          "query": "Кыргызстан жасалма интеллект коопсуздук институт өкмөт 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "постановление Кабинета Министров КР 770 2 декабря 2025 оценка опасности систем искусственного интеллекта",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "\"Об утверждении требований\" \"искусственного интеллекта\" Кабинет Министров Кыргызской Республики постановление 2025 cbd.minjust.gov.kg",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ru",
+          "national_or_official": true,
+          "query": "Министерство цифрового развития Кыргызской Республики искусственный интеллект digital.gov.kg OR gov.kg 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded ru query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in English, Russian and Kyrgyz; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration."
+    },
+    "source_ids": [
+      "kg-24kg-ai-centre",
+      "kg-24kg-ai-ethics",
+      "kg-24kg-ai-risk"
+    ],
+    "notes": "Sources are press reports (24.kg) of ministry statements and draft resolutions; the government texts were not opened. The draft rules would require ethics assessment for government bodies and high-risk systems through self-assessment.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "143",
+      "subregion": "Central Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 7343064,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "low",
+    "iso3": "KGZ",
+    "m49": "417",
+    "wikidata": "Q813",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "summary": [],
+      "related_bodies": [
+        "kg-24kg-ai-centre"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "kg-24kg-ai-centre"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "kg-24kg-ai-centre",
+        "kg-24kg-ai-ethics",
+        "kg-24kg-ai-risk"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "kg-24kg-ai-centre",
+      "title": "V Kyrgyzstane budet sozdan natsionalnyi tsentr iskusstvennogo intellekta",
+      "title_en": "A national artificial intelligence centre will be established in Kyrgyzstan",
+      "url": "https://24.kg/article/363327",
+      "archive_url": "https://web.archive.org/web/20261017013516/https://24.kg/article/363327",
+      "excerpts": [
+        {
+          "text": "речь идет о полноценной лаборатории и технологическом хабе, который объединит IT-сферу, исследования и разработки",
+          "gloss": "It concerns a fully fledged laboratory and technology hub that will bring together IT, research and development",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kg-24kg-ai-ethics",
+      "title": "Polozhenie ob etike iskusstvennogo intellekta namereny primenyat v Kyrgyzstane",
+      "title_en": "Kyrgyzstan intends to apply a regulation on artificial intelligence ethics",
+      "url": "https://24.kg/article/390935",
+      "archive_url": "https://web.archive.org/web/20261017013644/https://24.kg/article/390935",
+      "excerpts": []
+    },
+    {
+      "id": "kg-24kg-ai-risk",
+      "title": "Iskusstvennyi intellekt mozhet byt opasen. Chto predlagaet Mintsifry Kyrgyzstana",
+      "title_en": "Artificial intelligence can be dangerous. What Kyrgyzstan's Ministry of Digital Development proposes",
+      "url": "https://24.kg/article/343843",
+      "archive_url": "https://web.archive.org/web/20261017013756/https://24.kg/article/343843",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

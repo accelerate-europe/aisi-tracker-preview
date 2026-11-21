@@ -1,0 +1,247 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "d0b9434a96d7106acd94ff669f996665b8c47f91",
+      "built": "2026-11-21T19:13:43Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/172",
+  "record": {
+    "id": "MR",
+    "name": "Mauritania",
+    "summary": "No qualifying institute identified. The digital-transformation ministry referred to adoption of the national AI strategy in November 2024; the cited sources name no government-designated body to evaluate advanced models.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Mauritania AI safety institute government",
+          "source_ids": [
+            "negative-second-mr-2026",
+            "gb-approach-2024",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "ar",
+          "national_or_official": true,
+          "query": "موريتانيا الذكاء الاصطناعي معهد سلامة حكومة",
+          "source_ids": [
+            "negative-second-mr-2026",
+            "gb-approach-2024",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded ar query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: MR-search = searches 1, 2 (en, ar). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "mr-ai-strategy-draft-2024"
+      ],
+      "governance_note": "The retrieved draft strategy describes AI governance, data protection, cooperation and a research institute. Draft measures are not treated as implemented institutions."
+    },
+    "source_ids": [
+      "mr-ai-strategy-draft-2024",
+      "negative-second-mr-2026"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Digital Transformation, Innovation and Modernization of Administration",
+        "role": "It authored the draft strategy and owns the policy; it is not an evaluation body.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-867b171b52d3535b851e3eb6739dd1c0",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "notes": "The strategy proposes an Artificial Intelligence Institute for research and development projects and updates to the regulatory framework. A 2025 cloud agreement appeared only in search results.\n\nThe minister's official statement of 2 November 2024 explicitly refers to adoption of the national AI strategy. Searches covered indexed public English and Arabic sources for a government-designated AI safety institute with a remit to evaluate advanced models.",
+    "next_check": {
+      "date": "2027-03-31",
+      "reason": "Check whether the 2024-2029 strategy was adopted and whether it created an evaluation function."
+    },
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 5315065,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "MRT",
+    "m49": "478",
+    "wikidata": "Q1025",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [],
+      "related_bodies": [],
+      "notes": [
+        "negative-second-mr-2026"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "negative-second-mr-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "mr-ai-strategy-draft-2024",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "negative-second-mr-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "mr-ai-strategy-draft-2024",
+      "title": "The National Artificial Intelligence Strategy of Mauritania 2024-2029 (draft)",
+      "url": "https://www.mtnima.gov.mr/wp-content/uploads/2024/04/Mauritani-AI-Strategy-Draft-April-2024_.pdf",
+      "archive_url": "https://web.archive.org/web/20261017034956/https://www.mtnima.gov.mr/wp-content/uploads/2024/04/Mauritani-AI-Strategy-Draft-April-2024_.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "negative-second-mr-2026",
+      "title": "وزير التحول الرقمي: الذكاء الاصطناعي وسيلة لتحقيق العدالة الاجتماعية وتعزيز الكفاءة في جميع القطاعات – وزارة التحول الرقمي وعصرنة الادارة",
+      "title_en": "Minister of Digital Transformation: artificial intelligence is a means to achieve social justice and improve efficiency in all sectors | Ministry of Digital Transformation and Administrative Modernisation",
+      "url": "https://mtnima.gov.mr/%D9%88%D8%B2%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%AD%D9%88%D9%84-%D8%A7%D9%84%D8%B1%D9%82%D9%85%D9%8A-%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1-%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A-%D9%88/",
+      "excerpts": [
+        {
+          "text": "أن اعتماد الاستراتيجية الوطنية للذكاء الاصطناعي يمثل خطوة محورية",
+          "gloss": "That adoption of the national AI strategy represents a pivotal step.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

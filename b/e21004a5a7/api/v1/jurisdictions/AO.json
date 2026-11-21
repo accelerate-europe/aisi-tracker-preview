@@ -1,0 +1,463 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "e21004a5a7b5e59656e44227cc212e8c66554b48",
+      "built": "2026-11-21T14:25:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/147",
+  "record": {
+    "id": "AO",
+    "name": "Angola",
+    "summary": "No qualifying institute identified. MINTTICS' draft AI law would require general-purpose AI developers to conduct evaluations and give a proposed regulator risk-assessment and evaluation mechanisms. The scope of those mechanisms is unspecified.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English searches led to an official MINTTICS AI bill consultation and its September 2025 draft. The draft provides general-purpose-model developer evaluation duties and a future competent AI authority with risk-assessment and certification functions. These are a positive governance/evaluation signal requiring adjudication, but the text does not clearly establish a named institute for the safety of advanced models or a frontier/severe-risk technical remit. A separate government-hosted account describes UNESCO ethics/readiness work. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Portuguese and English searches and primary draft-law review to distinguish developer evaluation duties from proposed authority functions; not a full record recheck."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Changed status confidence from low to medium because the individual check has recorded English and national or official-language queries and retrieved primary governance evidence; classification disagreement no longer lowers confidence. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "pt",
+          "national_or_official": true,
+          "query": "\"Angola\" instituto segurança inteligência artificial",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Angola national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [
+            "r4-ao-ciam-ethics-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Angola Ministry MINTTICS artificial intelligence draft law safety authority 2025 2026",
+          "source_ids": [
+            "r4-ao-minttics-consultation"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "pt",
+          "national_or_official": true,
+          "query": "site:gov.ao \"inteligência artificial\" \"lei\" \"2026\" \"aprovada\"",
+          "source_ids": [
+            "ao-r6-inacom-readiness"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Angola artificial intelligence law authority model evaluation 2026 MINTTICS",
+          "source_ids": [
+            "ao-r6-inacom-readiness"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "pt",
+          "national_or_official": true,
+          "query": "site:minttics.gov.ao \"Inteligência Artificial\" \"instituto\" \"2026\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "pt",
+          "national_or_official": true,
+          "query": "site:gov.ao \"Lei\" \"Inteligência Artificial\" Setembro Outubro 2026 aprovação",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded pt queries use a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. The additional status review used Portuguese and English queries and the complete Portuguese ministry draft; no official English translation was located. Search batches for the additional status review, using 1-based positions in check.searches: 4, 5; 6, 7. Each group records the same exact registered URLs found in its combined search results, without attribution to an individual query. Explicit page opens and finds and unverified URL variants are excluded. Groups list the recorded queries; some requests also contained additional queries retained in the research evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: The Lawyers Hub desk-research profile was read, but independence of its underlying citations from the paired national or press source was not verified. It is not counted as a second evidence origin. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence.",
+      "governance_source_ids": [
+        "r4-ao-minttics-ai-draft-2025",
+        "r4-ao-minttics-consultation",
+        "ao-r6-inacom-readiness"
+      ],
+      "governance_note": "The ministry draft distinguishes proposed regulatory, classification and evaluation-service functions from developer evaluation duties. It does not specify a qualifying model class and capability or behaviour-risk function for the authority; the scope of its broad evaluation mechanisms requires clarification. The readiness project concerns national AI governance rather than an institute study."
+    },
+    "source_ids": [
+      "ao-allafrica-unesco-ram-2026",
+      "ao-aipolicy-2026",
+      "r4-ao-minttics-ai-draft-2025",
+      "r4-ao-minttics-consultation",
+      "r4-ao-ciam-ethics-2026",
+      "ao-r6-inacom-readiness"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Telecommunications, Information Technologies and Social Communication (MINTTICS)",
+        "role": "It leads AI policy and the UNESCO readiness assessment through its National Directorate for Cybersecurity Policies and Digital Services. Its September 2025 draft AI law is published for consultation.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "ao-allafrica-unesco-ram-2026",
+          "ao-r6-inacom-readiness",
+          "r4-ao-minttics-consultation"
+        ],
+        "kind": "other",
+        "id": "related_bodies-41d112e4f459588fb9dca0120a727feb",
+        "citations": {
+          "name": [
+            "ao-allafrica-unesco-ram-2026"
+          ],
+          "role": [
+            "ao-r6-inacom-readiness"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "ao-allafrica-unesco-ram-2026",
+            "ao-r6-inacom-readiness"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "ao-allafrica-unesco-ram-2026",
+            "r4-ao-minttics-consultation",
+            "ao-r6-inacom-readiness"
+          ]
+        }
+      },
+      {
+        "name": "Agência de Proteção de Dados",
+        "role": "It is a data protection authority; it has no AI evaluation mandate.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-77c76475ba96596fade8a3b668eeaafb",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "Autoridade Competente da IA (proposed)",
+        "role": "It would organise AI product and service risk assessments and supervise compliance. Articles 61-62 of the ministry's draft AI law envisage it as a regulator to be established by separate regulation. General-purpose AI developers would separately conduct and report evaluations under article 56. Articles 58(2)(e) and 63(2) also envisage AI evaluation services and mechanisms. Their remit covering advanced models remains unresolved.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "source_ids": [
+          "r4-ao-minttics-ai-draft-2025",
+          "r4-ao-minttics-consultation"
+        ],
+        "id": "related_bodies-4218071f13a95f27bac3ee65e06ec655",
+        "citations": {
+          "name": [],
+          "role": [
+            "r4-ao-minttics-ai-draft-2025"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "r4-ao-minttics-ai-draft-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "r4-ao-minttics-ai-draft-2025",
+            "r4-ao-minttics-consultation"
+          ]
+        }
+      }
+    ],
+    "notes": "The ministry published its September 2025 draft for public consultation. Article 56 would place regular general-purpose AI evaluations on developers, who would report results to the competent authority. Articles 61–62 provide for a regulator to be established by separate regulation, including organising risk assessments of AI products and services. Articles 64–66 cover third-party evaluations, safety certification and risk monitoring. Article 58(2)(e) envisages AI evaluation services for society, while article 63(2) would give the authority evaluation mechanisms and adjustment of classification standards. The draft places general-purpose model evaluation on developers. It gives the regulator compliance and broad evaluation-service powers without specifying a qualifying model class and capability or behaviour-risk function. The scope of these powers requires clarification; no qualifying assignment was identified in the retrieved text. No later enactment or qualifying institute act was found in Portuguese and English searches. Separately, INACOM's primary account confirms that the March 2026 UNESCO readiness project aims to strengthen national AI governance; it does not describe a study of creating an AISI.",
+    "next_check": {
+      "date": "2027-03-31",
+      "reason": "Check enactment of the draft AI law and any regulation constituting its competent authority; reassess if a body receives a remit to evaluate advanced models for capabilities or behaviour risks."
+    },
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 39040039,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "AGO",
+    "m49": "024",
+    "wikidata": "Q916",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [
+        "r4-ao-minttics-ai-draft-2025"
+      ],
+      "check": [],
+      "related_bodies": [
+        "ao-allafrica-unesco-ram-2026",
+        "r4-ao-minttics-ai-draft-2025",
+        "ao-r6-inacom-readiness"
+      ],
+      "notes": [
+        "r4-ao-minttics-ai-draft-2025",
+        "ao-r6-inacom-readiness"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "ao-allafrica-unesco-ram-2026",
+        "r4-ao-minttics-ai-draft-2025",
+        "ao-r6-inacom-readiness"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "r4-ao-minttics-ai-draft-2025"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ao-aipolicy-2026",
+        "ao-allafrica-unesco-ram-2026",
+        "r4-ao-minttics-ai-draft-2025",
+        "r4-ao-minttics-consultation",
+        "r4-ao-ciam-ethics-2026",
+        "ao-r6-inacom-readiness"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ao-aipolicy-2026",
+      "title": "Country Profile on AI Governance: Angola (Africa AI Governance Index 2026, v1.2)",
+      "url": "https://www.aipolicy.africa/country-profiles/angola",
+      "archive_url": "https://web.archive.org/web/20261011075038/https://www.aipolicy.africa/country-profiles/angola",
+      "excerpts": []
+    },
+    {
+      "id": "ao-allafrica-unesco-ram-2026",
+      "title": "Angola: Le Gouvernement angolais réaffirme son engagement en faveur d'un développement éthique et inclusif de l'IA",
+      "title_en": "Angola: Angolan government reaffirms its commitment to ethical and inclusive AI development",
+      "url": "https://fr.allafrica.com/stories/202603050324.html",
+      "archive_url": "https://web.archive.org/web/20260305113820/https://fr.allafrica.com/stories/202603050324.html",
+      "excerpts": [
+        {
+          "text": "organisée par le ministère des Télécommunications, des Technologies de l'information et de la Communication sociale (MINTTICS)",
+          "gloss": "organised by the Ministry of Telecommunications, Information Technology and Social Communication (MINTTICS)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ao-r6-inacom-readiness",
+      "title": "Projecto sobre Ética da Inteligência Artificial lançado em Luanda",
+      "title_en": "Artificial intelligence ethics project launched in Luanda",
+      "url": "https://inacom.gov.ao/2026/03/03/projecto-sobre-etica-da-inteligencia-artificial-lancado-em-luanda/",
+      "excerpts": [
+        {
+          "text": "uma iniciativa promovida pelo Ministério das Telecomunicações, Tecnologias de Informação e Comunicação Social (MINTTICS)",
+          "gloss": "An initiative promoted by the Ministry of Telecommunications, Information Technologies and Social Communication (MINTTICS).",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role",
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r4-ao-ciam-ethics-2026",
+      "title": "PROJECTO SOBRE ÉTICA DA INTELIGÊNCIA ARTIFICIAL LANÇADO EM LUANDA",
+      "title_en": "Project on artificial intelligence ethics launched in Luanda",
+      "url": "https://www.ciam.gov.ao/ao/noticia/4933",
+      "archive_url": null,
+      "excerpts": []
+    },
+    {
+      "id": "r4-ao-minttics-ai-draft-2025",
+      "title": "Proposta de Lei Sobre a Inteligência Artificial",
+      "title_en": "Draft Law on Artificial Intelligence",
+      "url": "https://www.consultapublica.minttics.gov.ao/storage/docs/Proposta%20de%20Lei%20Sobre%20a%20Intelig%C3%AAncia%20Artificial.pdf",
+      "archive_url": null,
+      "excerpts": [
+        {
+          "text": "Organizar avaliações de risco de produtos e serviços de IA;",
+          "gloss": "Organise risk assessments of AI products and services.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/notes",
+            "/record/related_bodies/2/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r4-ao-minttics-consultation",
+      "title": "Consulta Pública a Proposta de Lei da Inteligência Artificial",
+      "title_en": "Public consultation on the draft Artificial Intelligence Law",
+      "url": "https://www.consultapublica.minttics.gov.ao/",
+      "archive_url": null,
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

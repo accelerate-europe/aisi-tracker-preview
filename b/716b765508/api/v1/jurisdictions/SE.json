@@ -1,0 +1,882 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "716b7655085469b9155ab082742f99985e836e96",
+      "built": "2026-11-21T18:33:19Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/6",
+  "record": {
+    "id": "SE",
+    "name": "Sweden",
+    "kind": "state",
+    "europe_scope": true,
+    "eu_member": true,
+    "population": {
+      "value": 10587710,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "National Cyber Security Centre (NCSC) at FRA",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "se-gov"
+        ],
+        "kind": "other",
+        "id": "related_bodies-c88e0fe3212b50bd8df977e34b5123ed",
+        "role": "The government has tasked it with being the contact point for companies that make advanced AI models.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": []
+        },
+        "display": {
+          "source_links": [
+            "se-gov"
+          ]
+        }
+      },
+      {
+        "name": "Post- och telestyrelsen (PTS)",
+        "name_en": "Post and Telecom Authority (PTS)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "se-government-ai-authorities-decision-2026",
+          "se-pts-temporary-ai-mandate-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "government_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-2b7055290e825b10b32885aee6de84cd",
+        "role": "PTS says the government assignment includes being the market-surveillance authority responsible for certain prohibited AI uses and certain high-risk AI systems.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "se-government-ai-authorities-decision-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "se-government-ai-authorities-decision-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "se-pts-temporary-ai-mandate-2026",
+            "se-government-ai-authorities-decision-2026"
+          ]
+        }
+      },
+      {
+        "name": "Integritetsskyddsmyndigheten",
+        "name_en": "Swedish Authority for Privacy Protection",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "se-government-ai-authorities-decision-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "government_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-0c4e1d192eed5889ac6754fb687f2f13",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "se-government-ai-authorities-decision-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "se-government-ai-authorities-decision-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "se-government-ai-authorities-decision-2026"
+          ]
+        }
+      },
+      {
+        "name": "Finansinspektionen",
+        "name_en": "Financial Supervisory Authority",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "se-government-ai-authorities-decision-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "government_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-be4221270d60586697df38052cd5204e",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "se-government-ai-authorities-decision-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "se-government-ai-authorities-decision-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "se-government-ai-authorities-decision-2026"
+          ]
+        }
+      },
+      {
+        "name": "Läkemedelsverket",
+        "name_en": "Medical Products Agency",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "se-government-ai-authorities-decision-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "government_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-edce05d619da55c7ad8d443e15e67b2c",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "se-government-ai-authorities-decision-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "se-government-ai-authorities-decision-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "se-government-ai-authorities-decision-2026"
+          ]
+        }
+      },
+      {
+        "name": "Styrelsen för ackreditering och teknisk kontroll (Swedac)",
+        "name_en": "Board for Accreditation and Technical Control (Swedac)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "se-government-ai-authorities-decision-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "government_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-c7f5891b540f58518a65815f90820dc7",
+        "role": "The government's decision makes Swedac, in all other respects, the notifying authority responsible for designating and notifying conformity-assessment bodies under the AI Act.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "se-government-ai-authorities-decision-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "se-government-ai-authorities-decision-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "se-government-ai-authorities-decision-2026"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-11-20",
+      "reason": "Rescheduled from 13 November because the follow-up is overdue and has not been completed. Check the NCSC report and any government response to the AI Commission's institute recommendation for a superseding act."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English searches retrieved the AI Commission's formal proposal for a Swedish AI security institute and a testing laboratory. This is a positive proposed-status candidate requiring review; the later NCSC cyber-coordination remit does not dispose of that proposal. No status change made. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Applied the advisory-commission classification, verified the original report and publication date, and added the recommendation timeline and excerpts. Confidence is high for the recommendation, not government adoption. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Made the advisory nature explicit in the timeline short and description; retained publication as the instrument and exploring status. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Read the institute proposal in SOU 2025:12, pages 83–84 (original roadmap pages 51–52), and added its main research task, proposed location and proposed funding with quotations. Preserved exploring status and the original recommendation date; no full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Swedish, with the government's press release listing (newest 10 November). No qualifying item was found. The Financial Supervisory Authority's review of 29 September concerns financial firms' cyber defences, and the FRA and Armed Forces cyber pilot of 4 September predates the window. No public report from FRA, whose interim report was due on 30 October, and no new access agreement or AI Act designation act was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "sv",
+          "national_or_official": true,
+          "query": "Sverige institut säkerhet artificiell intelligens utvärdering modeller regering",
+          "source_ids": [
+            "se-gov"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Sweden national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [
+            "se-r4-ai-commission-roadmap-sv",
+            "se-r4-ai-commission-roadmap-en"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded sv query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "se-gov"
+      ],
+      "governance_note": "The government assigns NCSC coordination of AI-driven cyber threats and a developer contact role; the retrieved mandate does not establish evaluation of advanced models.",
+      "log": []
+    },
+    "source_ids": [
+      "se-gov",
+      "se-ai-commission",
+      "se-government-ai-authorities-decision-2026",
+      "se-pts-temporary-ai-mandate-2026",
+      "eu-ai-act-authorities-2026",
+      "se-r4-ai-commission-roadmap-sv",
+      "se-r4-ai-commission-roadmap-en",
+      "se-r8-report",
+      "se-r8-publication",
+      "se-sou-2025-12"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "154",
+      "subregion": "Northern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "status_confidence": "high",
+    "iso3": "SWE",
+    "m49": "752",
+    "wikidata": "Q34",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "timeline": [
+      {
+        "id": "se-advisory-recommendation-2024",
+        "date": "2024-11-26",
+        "event": "exploration_started",
+        "instrument": "advisory_report",
+        "description": "The government-appointed AI Commission publishes an advisory recommendation to establish a Swedish AI safety institute able to host a testing laboratory.",
+        "short": "Advisory recommendation for a Swedish AI safety institute.",
+        "source_ids": [
+          "se-r8-report",
+          "se-r8-publication"
+        ],
+        "citations": {
+          "id": [],
+          "date": [
+            "se-r8-publication"
+          ],
+          "event": [
+            "se-r8-report"
+          ],
+          "instrument": [],
+          "description": [
+            "se-r8-report",
+            "se-r8-publication"
+          ],
+          "short": [],
+          "display": [
+            "se-r8-report",
+            "se-r8-publication"
+          ]
+        }
+      }
+    ],
+    "claims": [
+      {
+        "id": "claims-ade498f986fc4b46a1ab587d32e61bac",
+        "kind": "fact",
+        "text": "The AI Commission's report says an annual grant of SEK 30 million is needed to run the institute and that a SEK 50 million research fund should be linked to it.",
+        "source_ids": [
+          "se-sou-2025-12"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "se-sou-2025-12"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "se-sou-2025-12"
+          ]
+        }
+      },
+      {
+        "id": "claims-f296277fce99425184fd10933235cbd4",
+        "kind": "function",
+        "code": "convening",
+        "basis": "mandate",
+        "body_id": "related_bodies-c88e0fe3212b50bd8df977e34b5123ed",
+        "text": "The government has tasked it with being the contact point for companies that make advanced AI models.",
+        "source_ids": [
+          "se-gov"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "se-gov"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "se-gov"
+          ]
+        }
+      },
+      {
+        "id": "claims-58225919f2c94f7789fcd359b6a3d452",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-2b7055290e825b10b32885aee6de84cd",
+        "text": "PTS says the government assignment includes being the market-surveillance authority responsible for certain prohibited AI uses and certain high-risk AI systems.",
+        "source_ids": [
+          "se-pts-temporary-ai-mandate-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "se-pts-temporary-ai-mandate-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "se-pts-temporary-ai-mandate-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-59d7edad46ee4af3aaf0331e0bd8a377",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-c7f5891b540f58518a65815f90820dc7",
+        "text": "The government's decision makes Swedac, in all other respects, the notifying authority responsible for designating and notifying conformity-assessment bodies under the AI Act.",
+        "source_ids": [
+          "se-government-ai-authorities-decision-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "se-government-ai-authorities-decision-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "se-government-ai-authorities-decision-2026"
+          ]
+        }
+      }
+    ],
+    "status": "exploring",
+    "status_since": "2024-11-26",
+    "summary": "Exploring since 26 November 2024: Advisory recommendation for a Swedish AI safety institute.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Swedish and English.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "eu_member": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "institute_id": [],
+      "related_bodies": [
+        "se-government-ai-authorities-decision-2026"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "timeline": [
+        "se-r8-report",
+        "se-r8-publication"
+      ],
+      "claims": [
+        "se-gov",
+        "se-pts-temporary-ai-mandate-2026",
+        "se-government-ai-authorities-decision-2026",
+        "se-sou-2025-12"
+      ],
+      "status": [
+        "se-r8-report",
+        "se-r8-publication"
+      ],
+      "status_since": [
+        "se-r8-publication"
+      ],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "se-government-ai-authorities-decision-2026",
+        "se-r8-report",
+        "se-r8-publication"
+      ],
+      "since": [
+        "se-r8-publication"
+      ],
+      "finding": [
+        "se-r8-report",
+        "se-r8-publication"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": true,
+      "source_links": [
+        "se-gov",
+        "eurostat-pop",
+        "se-ai-commission",
+        "eu-ai-act-authorities-2026",
+        "se-pts-temporary-ai-mandate-2026",
+        "se-government-ai-authorities-decision-2026",
+        "se-r4-ai-commission-roadmap-sv",
+        "se-r4-ai-commission-roadmap-en",
+        "se-r8-report",
+        "se-r8-publication",
+        "se-sou-2025-12"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": []
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,SE,2025,10587710",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "se-ai-commission",
+      "title": "AI-kommissionen: presentationsbilder vid pressträff 26 november",
+      "title_en": "AI Commission: presentation slides from the press conference on 26 November",
+      "url": "https://www.regeringen.se/contentassets/bfd2108c278342c4b04e8bae31d1aebb/presentationsbilder-vid-presstraff-26-november.pdf",
+      "archive_url": "https://web.archive.org/web/20261016195543/https://www.regeringen.se/contentassets/bfd2108c278342c4b04e8bae31d1aebb/presentationsbilder-vid-presstraff-26-november.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "se-gov",
+      "title": "Regeringen agerar för att stärka samhällets arbete med cybersäkerhet kopplat till utvecklingen av nya AI-modeller",
+      "title_en": "The government takes action to strengthen society's cybersecurity work in relation to the development of new AI models",
+      "url": "https://www.regeringen.se/pressmeddelanden/2026/07/regeringen-agerar-for-att-starka-samhallets-arbete-med-cybersakerhet-kopplat-till-utvecklingen-av-nya-ai-modeller/",
+      "archive_url": "https://web.archive.org/web/20260730000242/https://www.regeringen.se/pressmeddelanden/2026/07/regeringen-agerar-for-att-starka-samhallets-arbete-med-cybersakerhet-kopplat-till-utvecklingen-av-nya-ai-modeller/",
+      "excerpts": [
+        {
+          "text": "Vara kontaktpunkt för företag som gör avancerade modeller för AI.",
+          "gloss": "Be the contact point for companies that make advanced AI models.",
+          "anchors": [
+            {
+              "text": "Regeringen har därför beslutat att ge Nationellt cybersäkerhetscenter (NCSC) vid Försvarets radioanstalt (FRA) i uppdrag att på nationell nivå tillsammans med berörda myndigheter:",
+              "kind": "heading",
+              "gloss": "The government has therefore decided to task the National Cyber Security Centre (NCSC) at the National Defence Radio Establishment (FRA), at national level together with the authorities concerned, to:"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "se-government-ai-authorities-decision-2026",
+      "title": "Regeringsbeslut Fi 2026/01365: Uppdrag att vara nationella behöriga myndigheter enligt AI-förordningen",
+      "title_en": "Government decision Fi 2026/01365: Mandate to act as national competent authorities under the AI Regulation",
+      "url": "https://www.regeringen.se/contentassets/0377f932c1b74404895c0bbdaa5abb08/uppdrag-att-vara-nationella-behoriga-myndigheter-enligt-ai-forordningen.pdf",
+      "excerpts": [
+        {
+          "text": "Regeringen ger Post- och telestyrelsen (PTS), Integritetsskyddsmyndigheten, Finansinspektionen, Läkemedelsverket och Styrelsen för ackreditering och teknisk kontroll (Swedac) i uppdrag att vara nationella behöriga myndigheter enligt artikel 70.1",
+          "gloss": "The government assigns the Post and Telecom Authority (PTS), the Authority for Privacy Protection, the Financial Supervisory Authority, the Medical Products Agency and the Swedish Board for Accreditation and Conformity Assessment (Swedac) to be national competent authorities under Article 70(1)",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/2/designation_state",
+            "/record/related_bodies/3/designation_state",
+            "/record/related_bodies/4/designation_state",
+            "/record/related_bodies/5/designation_state"
+          ]
+        },
+        {
+          "text": "Swedac ska i övrigt vara anmälande myndighet med ansvar för att utse och anmäla organ för bedömning av överensstämmelse enligt AI-förordningen.",
+          "gloss": "Swedac is otherwise to be the notifying authority responsible for designating and notifying conformity-assessment bodies under the AI Act.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "se-pts-temporary-ai-mandate-2026",
+      "title": "Uppdrag ger PTS centralt ansvar enligt AI-förordningen",
+      "title_en": "Mandate gives PTS central responsibility under the AI Regulation",
+      "url": "https://www.pts.se/nyheter-och-pressmeddelanden/uppdrag-ger-pts-centralt-ansvar-enligt-ai-forordningen/",
+      "excerpts": [
+        {
+          "text": "vara marknadskontrollmyndighet med ansvar för vissa förbjudna AI-användningsområden samt vissa AI-system med hög risk",
+          "gloss": "to be the market-surveillance authority responsible for certain prohibited AI uses and certain high-risk AI systems",
+          "anchors": [
+            {
+              "text": "För PTS innefattar regeringsuppdraget att:",
+              "kind": "heading",
+              "gloss": "For PTS, the government assignment includes:"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "se-r4-ai-commission-roadmap-en",
+      "title": "The AI Commission's Roadmap for Sweden",
+      "url": "https://www.sou.gov.se/globalassets/the-ai-commissions-roadmap-for-sweden.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "se-r4-ai-commission-roadmap-sv",
+      "title": "AI-kommissionens Färdplan för Sverige (Statens offentliga utredningar 2025:12)",
+      "title_en": "The AI Commission's Roadmap for Sweden (Swedish Government Official Reports 2025:12)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/statens-offentliga-utredningar/ai-kommissionens-fardplan-for-sverige_hdb312/html/",
+      "excerpts": []
+    },
+    {
+      "id": "se-r8-publication",
+      "title": "AI-kommissionens Färdplan för Sverige",
+      "title_en": "The AI Commission's Roadmap for Sweden",
+      "url": "https://www.regeringen.se/rapporter/2024/11/ai-kommissionens-fardplan-for-sverige/",
+      "excerpts": [
+        {
+          "text": "Publicerad 26 november 2024",
+          "accessed": "2026-10-18",
+          "gloss": "Published 26 November 2024.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/date"
+          ]
+        },
+        {
+          "text": "Regeringen beslutade den 7 december 2023 att tillsätta en kommitté",
+          "accessed": "2026-10-18",
+          "gloss": "The government decided on 7 December 2023 to appoint a committee.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "se-r8-report",
+      "title": "AI-kommissionens Färdplan för Sverige",
+      "title_en": "The AI Commission's Roadmap for Sweden",
+      "url": "https://www.regeringen.se/contentassets/11431c781ff746b3b7a49312fa4de624/ai-kommissionens-fardplan-for-sverige.pdf",
+      "excerpts": [
+        {
+          "text": "AI-kommissionen föreslår att ett svenskt institut för AI-säkerhet ska etableras.",
+          "accessed": "2026-10-18",
+          "gloss": "The AI Commission proposes establishing a Swedish AI safety institute.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/event",
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "ett högteknologiskt testlaboratorium",
+          "accessed": "2026-10-18",
+          "gloss": "a high-technology testing laboratory",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "AI-kommissionen föreslår också att institutet ska ha kapacitet att vara värd för ett högteknologiskt testlaboratorium",
+          "gloss": "The AI Commission also proposes that the institute should have the capacity to host a high-technology testing laboratory.",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-18",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "se-sou-2025-12",
+      "title": "AI-kommissionens Färdplan för Sverige, SOU 2025:12",
+      "title_en": "The AI Commission's Roadmap for Sweden, SOU 2025:12",
+      "url": "https://regeringen.se/contentassets/7b80c90b74b04902afbb800bea581c9b/ai-kommissionens-fardplan-for-sverige-sou-202512.pdf",
+      "excerpts": [
+        {
+          "text": "AI-kommissionen föreslår att ett svenskt institut för AI-säkerhet ska etableras. Vi bedömer att ett årligt anslag för att driva institutet på 30 miljoner kronor är nödvändigt. Till institutet ska en forskningsfond på 50 miljoner kronor kopplas.",
+          "accessed": "2026-10-19",
+          "gloss": "The AI Commission proposes establishing a Swedish AI safety institute. We assess that an annual grant of 30 million kronor is needed to run the institute. A research fund of 50 million kronor should be linked to it.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "716b7655085469b9155ab082742f99985e836e96",
+      "built": "2026-11-21T18:33:19Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/81",
+  "record": {
+    "id": "SM",
+    "name": "San Marino",
+    "institute_id": null,
+    "summary": "No qualifying institute or commitment identified. San Marino Innovation supports practical AI training and cooperation with the Olitec Foundation on digital sovereignty, cybersecurity and AI governance. Its June 2026 account mentions possible assessment of emerging-technology risks, without a mandate to evaluate general-purpose or frontier models for their capabilities or behaviour risks.",
+    "check": {
+      "last_checked": "2026-10-17",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English results did not add an institute or formal institute-specific proposal. San Marino Innovation/Olitec cooperation remains digital sovereignty, cybersecurity, training and possible emerging-technology risk assessment. No general-purpose/frontier-model evaluation remit or government AISI designation was identified. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in Italian and English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the 2023 Istanza d'Arengo on AI regulation, its approval in January 2024, the December 2024 commission report and an opposition party's AI framework proposal, with no 2025 or 2026 bill or Congress of State decision found. Retrieved the parliamentary record as new primary governance evidence. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "it",
+          "national_or_official": true,
+          "query": "San Marino istituto sicurezza intelligenza artificiale valutazione modelli governo",
+          "source_ids": [
+            "sm-recheck2-olitec-cooperation"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "San Marino national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"San Marino\" \"AI safety\" institute government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "it",
+          "national_or_official": true,
+          "query": "San Marino intelligenza artificiale legge governo Segreteria di Stato 2026",
+          "source_ids": [
+            "sm-cgg-ai-arengo-2024"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "San Marino AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "il-r6-atih-catalogue"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "it",
+          "national_or_official": true,
+          "query": "San Marino Istanza d'Arengo intelligenza artificiale regolamentazione Consiglio Grande e Generale 2026",
+          "source_ids": [
+            "sm-cgg-ai-arengo-2024"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "it",
+          "national_or_official": true,
+          "query": "San Marino progetto di legge intelligenza artificiale 2025 Segreteria di Stato Innovazione Congresso di Stato delibera",
+          "source_ids": [
+            "sm-cgg-ai-arengo-2024"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded it query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in Italian and English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "sm-cgg-ai-arengo-2024"
+      ],
+      "governance_note": "A December 2024 record of the Great and General Council says the government is studying AI with the University of San Marino, including investment in the sector, and calls this an ongoing study of whether to use the technology. It names no body to evaluate advanced models. No later government act on AI was found."
+    },
+    "source_ids": [
+      "sm-gov-home",
+      "sm-recheck2-ai-training",
+      "sm-recheck2-olitec-cooperation",
+      "sm-cgg-ai-arengo-2024"
+    ],
+    "notes": "Read San Marino Innovation announcements on Speedmaster Lite training, the January 2026 Human and Machine event and the June 2026 Olitec cooperation. The latter discusses a possible programme of technology-risk assessment and AI governance; it neither names an AISI nor specifies general-purpose/frontier-model capability or behaviour-risk testing. This does not qualify as exploration of an AISI. San Marino Innovation republishes a partner account of the meeting, so the possible future programme is not treated as an enacted mandate. Search hits for the social-security institute concerned clinical AI, not AI safety. Previous broad-search source retained.",
+    "kind": "state",
+    "status_confidence": "medium",
+    "related_bodies": [
+      {
+        "name": "San Marino Innovation (Istituto per l'Innovazione della Repubblica di San Marino)",
+        "role": "It supports start-up development, training and digital policy as a national innovation institute. Its published cooperation with Olitec discusses cybersecurity and emerging-technology risks without a designated mandate to evaluate advanced models.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "sm-recheck2-ai-training"
+        ],
+        "kind": "other",
+        "id": "related_bodies-65f041892a4d5f8ebbca6f18a5fcc163",
+        "citations": {
+          "name": [],
+          "role": [
+            "sm-recheck2-ai-training"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "sm-recheck2-ai-training"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "sm-recheck2-ai-training"
+          ]
+        }
+      }
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "039",
+      "subregion": "Southern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 34109,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "iso3": "SMR",
+    "m49": "674",
+    "wikidata": "Q238",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "next_check": {
+      "date": "2028-09-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "summary": [],
+      "check": [
+        "sm-cgg-ai-arengo-2024"
+      ],
+      "notes": [],
+      "kind": [],
+      "status_confidence": [],
+      "related_bodies": [
+        "sm-recheck2-ai-training"
+      ],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "next_check": [],
+      "status": [],
+      "display": [
+        "sm-recheck2-ai-training"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "sm-gov-home",
+        "gb-approach-2024",
+        "sm-recheck2-ai-training",
+        "sm-recheck2-olitec-cooperation",
+        "il-r6-atih-catalogue",
+        "sm-cgg-ai-arengo-2024"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "il-r6-atih-catalogue",
+      "title": "The Global Landscape of AI Safety Institutes",
+      "url": "https://alltechishuman.org/all-tech-is-human-blog/the-global-landscape-of-ai-safety-institutes",
+      "excerpts": []
+    },
+    {
+      "id": "sm-cgg-ai-arengo-2024",
+      "title": "Riferimento, ai sensi dell’articolo 7, secondo comma della Legge 24 maggio 1995 n.72, sui provvedimenti adottati a seguito dell’approvazione dell’istanza d'Arengo affinché sia regolamentato il settore informatico dell’Intelligenza Artificiale (AI) (Istanza d'Arengo n.13 del 8 ottobre 2023)",
+      "title_en": "Report under article 7(2) of Law No. 72 of 24 May 1995 on the measures taken after approval of the Istanza d'Arengo calling for regulation of artificial intelligence (Istanza d'Arengo No. 13 of 8 October 2023)",
+      "url": "https://www.consigliograndeegenerale.sm/on-line/home/documento17149343.html",
+      "excerpts": [
+        {
+          "text": "L’attenzione è alta da parte del Governo che, tramite il contributo e la competenza dell’Università di San Marino, sta svolgendo gli approfondimenti del caso anche allo scopo di effettuare un ragionamento con i Segretari di Stato competenti rispetto agli investimenti in tale settore.",
+          "accessed": "2026-10-24",
+          "gloss": "The Government is paying close attention and, with the contribution and expertise of the University of San Marino, is carrying out the necessary in-depth work, also in order to reason with the competent Secretaries of State about investment in this sector.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "Si tratta di uno studio in corso che ha bisogno di tempo, prima di tutto, per capire a tutti gli effetti se vogliamo utilizzare questo strumento estremamente potente",
+          "accessed": "2026-10-24",
+          "gloss": "It is an ongoing study that needs time, above all, to understand fully whether we want to use this extremely powerful tool",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sm-gov-home",
+      "title": "Government of San Marino, home page",
+      "url": "https://www.gov.sm/",
+      "archive_url": "https://web.archive.org/web/20261012105742/https://www.gov.sm/",
+      "excerpts": []
+    },
+    {
+      "id": "sm-recheck2-ai-training",
+      "title": "Speedmaster Lite: free startup and practical AI training programme",
+      "url": "https://www.sanmarinoinnovation.com/comunicati-stampa/al-via-speedmaster-lite-il-programma-gratuito-per-chi-vuole-costruire-una-startup",
+      "excerpts": [
+        {
+          "text": "un percorso formativo dedicato alla crescita e alla validazione di imprese innovative.",
+          "gloss": "A training programme for growing and validating innovative businesses.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sm-recheck2-olitec-cooperation",
+      "title": "SMI and Olitec discuss digital sovereignty, technology and strategic security",
+      "url": "https://www.sanmarinoinnovation.com/comunicati-stampa/san-marino-innovation-e-fondazione-olitec-si-incontrano-per-parlare-di-sovranit-digitale-alta-tecnologia-e-sicurezza-strategica",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

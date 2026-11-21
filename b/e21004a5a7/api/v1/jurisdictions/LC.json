@@ -1,0 +1,328 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "e21004a5a7b5e59656e44227cc212e8c66554b48",
+      "built": "2026-11-21T14:25:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/108",
+  "record": {
+    "id": "LC",
+    "name": "Saint Lucia",
+    "summary": "No qualifying institute identified. No Saint Lucia AI policy, law or regulator could be located.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the education and digital transformation minister's concerns about AI use, regional roadmap work and an unofficial economic brief. Kept low: press reports only; no government source on AI governance was found. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Saint Lucia\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Saint Lucia national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "au-industry",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Saint Lucia national AI safety institute model evaluation government 2026",
+          "source_ids": [
+            "il-r6-atih-catalogue"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Saint Lucia government artificial intelligence policy Cabinet 2026 govt.lc OR accesstoinformation",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Kenson Casimir artificial intelligence policy Saint Lucia ministry 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. On 24 October 2026 the record was searched again in English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration."
+    },
+    "source_ids": [
+      "recheck-lac-ctu-caitf-2026",
+      "lc-stluciatimes-cxc-2026",
+      "lc-stluciatimes-dependence-2026"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Education and Digital Transformation",
+        "role": "An education-sector AI framework is in preparation. In January 2026, the minister said that AI policy discussions were ongoing and should reach Cabinet. In October 2026, the minister spoke on limiting AI dependence in schools. No evaluation mandate was found.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lc-stluciatimes-cxc-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-327a5cf140895226a83111028746a358",
+        "citations": {
+          "name": [],
+          "role": [
+            "lc-stluciatimes-cxc-2026"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "lc-stluciatimes-cxc-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "lc-stluciatimes-cxc-2026"
+          ]
+        }
+      }
+    ],
+    "notes": "Thin evidence. St Lucia Times (28 Jan 2026) reports the education and digital transformation minister saying that AI policy discussions are ongoing and will eventually go to Cabinet, with a second report on 8 Oct 2026 on AI dependence in schools. The CTU report (July 2026) lists 'None reported' for a national AI strategy.",
+    "next_check": {
+      "date": "2027-04-16",
+      "reason": "Look for a government source on AI policy."
+    },
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 180149,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "low",
+    "iso3": "LCA",
+    "m49": "662",
+    "wikidata": "Q760",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [],
+      "related_bodies": [
+        "lc-stluciatimes-cxc-2026"
+      ],
+      "notes": [],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "lc-stluciatimes-cxc-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "au-industry",
+        "recheck-lac-ctu-caitf-2026",
+        "lc-stluciatimes-cxc-2026",
+        "lc-stluciatimes-dependence-2026",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "il-r6-atih-catalogue"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "au-industry",
+      "title": "AI Safety Institute",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261015131505/https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "il-r6-atih-catalogue",
+      "title": "The Global Landscape of AI Safety Institutes",
+      "url": "https://alltechishuman.org/all-tech-is-human-blog/the-global-landscape-of-ai-safety-institutes",
+      "excerpts": []
+    },
+    {
+      "id": "lc-stluciatimes-cxc-2026",
+      "title": "Education Minister addresses AI use in CXC SBA's",
+      "url": "https://stluciatimes.com/177560/2026/01/education-minister-addresses-ai-use-in-cxc-sbas/",
+      "archive_url": "https://web.archive.org/web/20261017023201/https://stluciatimes.com/177560/2026/01/education-minister-addresses-ai-use-in-cxc-sbas/",
+      "excerpts": [
+        {
+          "text": "discussions on AI policy are still ongoing, the minister indicated that the matter is one that will eventually be addressed at the Cabinet level.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lc-stluciatimes-dependence-2026",
+      "title": "Education Minister wants to curb AI dependence in schools",
+      "url": "https://stluciatimes.com/184765/2026/10/education-minister-wants-to-curb-ai-dependence-in-schools/",
+      "archive_url": "https://web.archive.org/web/20261017023329/https://stluciatimes.com/184765/2026/10/education-minister-wants-to-curb-ai-dependence-in-schools/",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "recheck-lac-ctu-caitf-2026",
+      "title": "Final Report: Toward Harmonized AI Policies and Recommendations for the Caribbean",
+      "url": "https://ctu.int/wp-content/uploads/2026/07/CAITF-Final-Report.pdf",
+      "archive_url": "https://web.archive.org/web/20261017022216if_/https://ctu.int/wp-content/uploads/2026/07/CAITF-Final-Report.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

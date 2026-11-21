@@ -1,0 +1,352 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "bd50b370fb214b2b0e8385fb3220bf8e1226c6a1",
+      "built": "2026-11-21T14:35:33Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/104",
+  "record": {
+    "id": "HN",
+    "name": "Honduras",
+    "summary": "No qualifying institute identified. A January 2026 regional survey recorded no AI law, bill or executive norm in Honduras, and in June 2026 the government and the IDB were setting up a technical table on using AI to simplify state processes.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English results continue to concern AI adoption for administrative simplification and the government-IDB technical process. No national evaluator of advanced models or institute-specific commitment, proposal or study was identified. This pass does not turn the regional survey's historical absence-of-legislation observation into a current legal finding. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in Spanish and English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the government-IDB technical table on AI for administrative simplification, a teacher AI-training programme with Google, a business-sector call for a national AI strategy and the absence of AI-specific legislation. Kept low: the only primary source describes AI use for administrative simplification, not the national AI governance set-up. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "es",
+          "national_or_official": true,
+          "query": "\"Honduras\" instituto seguridad inteligencia artificial",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Honduras national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Honduras\" \"AI safety\" institute government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "Honduras instituto nacional de seguridad de inteligencia artificial evaluación de modelos gobierno 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Honduras national AI safety institute advanced model evaluation government 2026",
+          "source_ids": [
+            "il-r6-atih-catalogue"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "gob.hn estrategia nacional inteligencia artificial Honduras gobierno 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "Congreso Nacional Honduras proyecto ley regulación inteligencia artificial 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "conatel.gob.hn inteligencia artificial ciberseguridad UIT proyecto riesgos",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "es",
+          "national_or_official": true,
+          "query": "site:gob.hn \"inteligencia artificial\" política gobierno digital 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded es query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in Spanish and English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: A coloured regional legislative map and reporting on an IDB initiative do not establish two substantive institute-status evidence origins. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence."
+    },
+    "source_ids": [
+      "r3-hn-diger-ai-transformation",
+      "recheck-lac-dl-2026",
+      "hn-dpl-bid-ia"
+    ],
+    "notes": "DIGER's September 2026 release confirms a second government-IDB technical meeting on AI-assisted administrative simplification. The January 2026 absence-of-legislation observation comes from Directorio Legislativo's regional map, read from its colours rather than a legal-text review. No qualifying institute to evaluate advanced models was identified in this bounded search. Direct DIGER fetch returned HTTP 403; substantive indexed text is retained as research evidence.",
+    "next_check": {
+      "date": "2027-04-16",
+      "reason": "Check for a national AI policy or bill."
+    },
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 11005850,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "low",
+    "iso3": "HND",
+    "m49": "340",
+    "wikidata": "Q783",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [
+        "hn-dpl-bid-ia"
+      ],
+      "check": [],
+      "notes": [
+        "r3-hn-diger-ai-transformation"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "hn-dpl-bid-ia",
+        "r3-hn-diger-ai-transformation"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "hn-dpl-bid-ia"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "recheck-lac-dl-2026",
+        "hn-dpl-bid-ia",
+        "r3-hn-diger-ai-transformation",
+        "il-r6-atih-catalogue"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "hn-dpl-bid-ia",
+      "title": "Honduras: Modernizará el Estado con apoyo de la Inteligencia Artificial",
+      "title_en": "Honduras: the state will be modernised with the support of artificial intelligence",
+      "url": "https://dplnews.com/honduras-modernizara-el-estado-con-apoyo-de-la-inteligencia-artificial/",
+      "archive_url": "https://web.archive.org/web/20261017020937/https://dplnews.com/honduras-modernizara-el-estado-con-apoyo-de-la-inteligencia-artificial/",
+      "excerpts": [
+        {
+          "text": "una mesa técnica que utilizará inteligencia artificial (IA) para realizar la simplificación de procesos y la reducción de la carga burocrática",
+          "gloss": "A technical working group will use AI to simplify processes and reduce bureaucracy.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "il-r6-atih-catalogue",
+      "title": "The Global Landscape of AI Safety Institutes",
+      "url": "https://alltechishuman.org/all-tech-is-human-blog/the-global-landscape-of-ai-safety-institutes",
+      "excerpts": []
+    },
+    {
+      "id": "r3-hn-diger-ai-transformation",
+      "title": "DIGER avanza en la transformación de la gestión pública con IA",
+      "title_en": "DIGER advances the transformation of public administration with AI",
+      "url": "https://www.diger.gob.hn/index.php/noticia/diger-avanza-en-la-transformacion-de-la-gestion-publica-con-ia",
+      "excerpts": [
+        {
+          "text": "La segunda mesa técnica da seguimiento al trabajo iniciado entre el Gobierno de Honduras y el BID",
+          "accessed": "2026-10-17",
+          "gloss": "The second technical meeting follows up the work initiated between the Government of Honduras and the IDB.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recheck-lac-dl-2026",
+      "title": "Directorio Legislativo: Inteligencia Artificial en America Latina (map slides, 19 countries)",
+      "title_en": "Directorio Legislativo: Artificial Intelligence in Latin America (map slides, 19 countries)",
+      "url": "https://parlamericas.org/uploads/documents/Presentation-ArtificialIntelligence-DL-sp.pdf",
+      "archive_url": "https://web.archive.org/web/20260515200018/https://parlamericas.org/uploads/documents/Presentation-ArtificialIntelligence-DL-sp.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

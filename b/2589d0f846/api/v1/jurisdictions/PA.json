@@ -1,0 +1,586 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "2589d0f846dca60f4ca3d524d89c5430cc9bbb46",
+      "built": "2026-11-21T16:56:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/111",
+  "record": {
+    "id": "PA",
+    "name": "Panama",
+    "summary": "No qualifying institute identified. Cabinet Resolution 75 adopts a strategy planning INC with an AI-security specialisation, including monitoring attacks on national AI models.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English strategy text identifies a planned National Cybersecurity Institute specialising in AI security, but describes the national red team as testing critical infrastructure against AI-driven attacks. Its AI-safety research examples concern contextual failure modes and medical-model bias, while the SENACYT observatory monitors incidents and trends. These do not establish frontier/general-purpose-model capability and severe-risk evaluation. The indexed English primary page was substantive; direct opening timed out. The Spanish strategy's adversarial-model language and the English infrastructure wording should remain distinguished. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Applied exploring at low confidence from Cabinet adoption, visually checked Gazette pages 5, 6 and 24, and corrected the red-team attribution using the adopted text. The live PDF returned a challenge; one text copy and the retained original were inspected. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Selected the closest body against retrieved source text and excerpts; recorded its stage, evidence gap and limits. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Changed status confidence from low to medium because the individual check has recorded English and national or official-language queries and retrieved primary governance evidence; classification disagreement no longer lowers confidence. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "es",
+          "national_or_official": true,
+          "query": "\"Panamá\" instituto seguridad inteligencia artificial",
+          "source_ids": [
+            "pa-gaceta-30592a"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Panama national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [
+            "pa-panamaamerica-agenda-primary-proposal"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Panama\" \"AI safety\" institute government",
+          "source_ids": [
+            "r4-pa-data-safety"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded es query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "pa-gaceta-30592a",
+        "pa-senacyt-estrategia-ia",
+        "r4-pa-data-safety"
+      ],
+      "governance_note": "The adopted Gazette strategy names INC and its AI-security specialisation but states no model-evaluation remit. Its red-team task concerns critical infrastructure and is assigned to the government. The retained original Gazette pages were visually checked; they supersede the earlier July PDF where the wording differs."
+    },
+    "source_ids": [
+      "pa-panamaamerica-agenda-primary-proposal",
+      "pa-mobiletime-ley-primary-proposal",
+      "pa-gaceta-30592a",
+      "pa-senacyt-estrategia-ia",
+      "pa-laestrella-decreto36",
+      "pa-panamaamerica-agenda",
+      "pa-mobiletime-ley",
+      "r4-pa-data-safety"
+    ],
+    "related_bodies": [
+      {
+        "name": "Comision Nacional para Tecnologias Criticas y Emergentes",
+        "role": "It was set up to manage technology risks and oversee the AI and semiconductor strategies. It is a cross-government commission established by Executive Decree 36 (2026). No model evaluation mandate was reported.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "pa-panamaamerica-agenda-primary-proposal"
+        ],
+        "kind": "other",
+        "id": "related_bodies-52395caf17d35a83bade9360627b04fe",
+        "citations": {
+          "name": [
+            "pa-panamaamerica-agenda-primary-proposal"
+          ],
+          "role": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "pa-panamaamerica-agenda-primary-proposal"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "pa-panamaamerica-agenda-primary-proposal"
+          ]
+        }
+      },
+      {
+        "name": "SENACYT",
+        "role": "It gives technical support to the AI strategy as a science secretariat. No evaluation mandate was found.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-880eae881eec5a229f62ec965325ba49",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "Instituto Nacional de Ciberseguridad (INC, planned)",
+        "role": "The adopted strategy plans a national cybersecurity institute with an AI-security specialisation, including monitoring adversarial attacks on national AI models. No remit to evaluate advanced models is stated. The national red team is assigned to the government, not directly to INC.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "source_ids": [
+          "pa-gaceta-30592a",
+          "pa-senacyt-estrategia-ia",
+          "r4-pa-data-safety"
+        ],
+        "id": "related_bodies-5ad9b88ac7dc5ef792a22d0bea69fb11",
+        "citations": {
+          "name": [],
+          "role": [
+            "pa-gaceta-30592a"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "pa-gaceta-30592a"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "pa-gaceta-30592a",
+            "pa-senacyt-estrategia-ia",
+            "r4-pa-data-safety"
+          ]
+        }
+      },
+      {
+        "name": "Observatorio de Riesgos de IA (SENACYT, planned)",
+        "role": "It would monitor global AI safety trends and track local algorithmic harm incidents, with annual reports for lawmakers and regulators; the plan concerns incident and trend monitoring rather than model evaluation.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-c09ae0893f8d5cc399e9cd2f06dfb543",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "Instituto Nacional de IA Aplicada (INIAA, planned)",
+        "role": "It is planned as 'not a regulator but an execution engine' for adoption and delivery; it has no evaluation mandate.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-c9dee68dede556059426a8de990c10ca",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "notes": "Press reports say Executive Decree 36 of 7 May 2026 (Gaceta Oficial 30520 A) created the Comision Nacional para Tecnologias Criticas y Emergentes with an AI subcommittee tasked with a national AI strategy; the strategy was launched on 30 July 2026 as part of the Agenda Nacional de Tecnologias Avanzadas. No AI regulator or evaluation body is named in these reports and the bill number and text are not given.\n\nThe adopted Gazette text takes precedence over the earlier July strategy PDF. Gazette page 24 assigns the national red team to the government; the July text assigned it to INC. The adopted text describes testing critical infrastructure against AI-driven attacks, not evaluating advanced models for capabilities or behaviour risks.\n\nThe timeline date is Cabinet adoption on 11 August 2026. The Gazette was published on 18 August; Article 2 provides for commencement on promulgation. No institute founding date is inferred. The retained strategy act was reclassified under the consolidated method, from exploring to none identified. This is an editorial correction, not a government rejection or withdrawal. The AI governance bill remains a follow-up; its current full text and any subsequent promulgation have not been rechecked.",
+    "next_check": {
+      "date": "2027-01-16",
+      "reason": "Check any implementing act for INC and its model-evaluation remit; the current strategy names a cybersecurity institute with an AI-security specialisation. Read the current AI governance bill for any qualifying institute provision."
+    },
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 4571189,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "PAN",
+    "m49": "591",
+    "wikidata": "Q804",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "timeline": [
+      {
+        "id": "pa-strategy-adoption-2026",
+        "date": "2026-08-11",
+        "event": "related_body_planned",
+        "instrument": "decision",
+        "description": "Cabinet Resolution 75 adopts the national AI strategy, which plans INC with an AI-security specialisation including monitoring attacks on national AI models. This is a related-body commitment, without a qualifying evaluation remit. The date records adoption, not institute creation or commencement.",
+        "short": "Cabinet adopts strategy planning a cybersecurity institute with AI-security specialisation.",
+        "source_ids": [
+          "pa-gaceta-30592a"
+        ],
+        "citations": {
+          "id": [],
+          "date": [
+            "pa-gaceta-30592a"
+          ],
+          "event": [],
+          "instrument": [],
+          "description": [
+            "pa-gaceta-30592a"
+          ],
+          "short": [],
+          "display": [
+            "pa-gaceta-30592a"
+          ]
+        }
+      }
+    ],
+    "closest_body": {
+      "name": "Instituto Nacional de Ciberseguridad (INC)",
+      "stage": "planned",
+      "gap": "remit",
+      "note": "The adopted strategy plans INC with an AI-security specialisation, including monitoring adversarial attacks against national AI models. This is model protection, without a stated qualifying evaluation remit. The separate national red team is assigned to the government, not directly to INC.",
+      "source_ids": [
+        "pa-gaceta-30592a"
+      ],
+      "citations": {
+        "name": [
+          "pa-gaceta-30592a"
+        ],
+        "stage": [
+          "pa-gaceta-30592a"
+        ],
+        "gap": [],
+        "note": [
+          "pa-gaceta-30592a"
+        ],
+        "display": [
+          "pa-gaceta-30592a"
+        ]
+      },
+      "display": {
+        "source_links": [
+          "pa-gaceta-30592a"
+        ]
+      }
+    },
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [
+        "pa-gaceta-30592a"
+      ],
+      "check": [
+        "pa-gaceta-30592a"
+      ],
+      "related_bodies": [
+        "pa-gaceta-30592a",
+        "pa-panamaamerica-agenda-primary-proposal"
+      ],
+      "notes": [
+        "pa-gaceta-30592a"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "timeline": [
+        "pa-gaceta-30592a"
+      ],
+      "closest_body": [
+        "pa-gaceta-30592a"
+      ],
+      "status": [],
+      "display": [
+        "pa-gaceta-30592a",
+        "pa-panamaamerica-agenda-primary-proposal"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "pa-gaceta-30592a"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "pa-laestrella-decreto36",
+        "pa-panamaamerica-agenda",
+        "pa-mobiletime-ley",
+        "pa-gaceta-30592a",
+        "pa-senacyt-estrategia-ia",
+        "pa-panamaamerica-agenda-primary-proposal",
+        "pa-mobiletime-ley-primary-proposal",
+        "r4-pa-data-safety"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "pa-gaceta-30592a",
+      "title": "Gaceta Oficial Digital No. 30592-A (18 August 2026)",
+      "title_en": "Digital Official Gazette No. 30592-A (18 August 2026)",
+      "url": "https://www.gacetaoficial.gob.pa/storage/gacetas/2026/08/30592_A/GacetaNo_30592a_20260818.pdf",
+      "archive_url": "https://web.archive.org/web/20261017022256/https://www.gacetaoficial.gob.pa/storage/gacetas/2026/08/30592_A/GacetaNo_30592a_20260818.pdf",
+      "excerpts": [
+        {
+          "text": "11 de agosto de 2026",
+          "accessed": "2026-10-18",
+          "gloss": "11 August 2026.",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/date"
+          ]
+        },
+        {
+          "text": "Aprobar la Estrategia Nacional de Inteligencia Artificial",
+          "accessed": "2026-10-18",
+          "gloss": "Approve the National Artificial Intelligence Strategy.",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "se especializará en seguridad de la IA",
+          "accessed": "2026-10-18",
+          "gloss": "It will specialise in AI security.",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/summary",
+            "/record/related_bodies/2/role",
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "gobierno establecerá un \"Red Team\" nacional",
+          "gloss": "The government will establish a national red team.",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/2/role",
+            "/record/check/governance_note",
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "establecimiento de un Instituto Nacional de Ciberseguridad (INC)",
+          "gloss": "establishment of a National Cybersecurity Institute (INC)",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/summary",
+            "/record/related_bodies/2/role",
+            "/record/timeline/0/description",
+            "/record/closest_body/name",
+            "/record/closest_body/stage"
+          ]
+        },
+        {
+          "text": "monitorear ataques adversariales contra modelos nacionales de IA",
+          "gloss": "monitor adversarial attacks against national AI models",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/role",
+            "/record/closest_body/note",
+            "/record/summary",
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "probar continuamente la resiliencia de la infraestructura crítica frente a ataques impulsados por IA",
+          "gloss": "continuously test the resilience of critical infrastructure against AI-driven attacks",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/check/governance_note",
+            "/record/closest_body/note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pa-laestrella-decreto36",
+      "title": "Panamá declara las tecnologías críticas como prioridad nacional",
+      "title_en": "Panama declares critical technologies a national priority",
+      "url": "https://www.laestrella.com.pa/economia/panama-declara-las-tecnologias-criticas-como-prioridad-nacional-FG22241455",
+      "archive_url": "https://web.archive.org/web/20260608173224/https://www.laestrella.com.pa/economia/panama-declara-las-tecnologias-criticas-como-prioridad-nacional-FG22241455",
+      "excerpts": []
+    },
+    {
+      "id": "pa-mobiletime-ley",
+      "title": "Panama: Asamblea discute proyecto de ley de gobernanza adaptativa de IA",
+      "title_en": "Panama: Assembly discusses bill on adaptive AI governance",
+      "url": "https://mobiletime.la/noticias/31/07/2026/panama-ia-y-semiconductores/",
+      "archive_url": "https://web.archive.org/web/20261017021215/https://mobiletime.la/noticias/31/07/2026/panama-ia-y-semiconductores/",
+      "excerpts": []
+    },
+    {
+      "id": "pa-mobiletime-ley-primary-proposal",
+      "title": "Reglas de gobernanza en aplicación de la IA",
+      "title_en": "Governance rules for the application of AI",
+      "url": "https://asamblea.gob.pa/Noticias/Actualidad/REGLAS-DE-GOBERNANZA-EN-APLICACION-DE-LA-IA-",
+      "excerpts": []
+    },
+    {
+      "id": "pa-panamaamerica-agenda",
+      "title": "El plan de Panamá para convertirse en el hub de inteligencia artificial de la región",
+      "title_en": "Panama's plan to become the region's artificial intelligence hub",
+      "url": "https://www.panamaamerica.com.pa/sociedad/el-plan-de-panama-para-convertirse-en-el-hub-de-inteligencia-artificial-de-la-region",
+      "archive_url": "https://web.archive.org/web/20260731132909/https://www.panamaamerica.com.pa/sociedad/el-plan-de-panama-para-convertirse-en-el-hub-de-inteligencia-artificial-de-la-region",
+      "excerpts": []
+    },
+    {
+      "id": "pa-panamaamerica-agenda-primary-proposal",
+      "title": "Panamá lanza la Agenda Nacional de Tecnologías Avanzadas",
+      "title_en": "Panama launches the National Advanced Technologies Agenda",
+      "url": "https://www.presidencia.gob.pa/publicacion/panama-lanza-la-agenda-nacional-de-tecnologias-avanzadas-en-presencia-del-presidente-mulino",
+      "archive_url": "https://web.archive.org/web/20260806081619/https://www.presidencia.gob.pa/publicacion/panama-lanza-la-agenda-nacional-de-tecnologias-avanzadas-en-presencia-del-presidente-mulino",
+      "excerpts": [
+        {
+          "text": "la recién creada Comisión Nacional para Tecnologías Críticas y Emergentes y su Subcomisión de Inteligencia Artificial",
+          "gloss": "The recently created national critical and emerging technologies commission and its AI subcommission.",
+          "url": "https://r.jina.ai/https://www.presidencia.gob.pa/publicacion/panama-lanza-la-agenda-nacional-de-tecnologias-avanzadas-en-presencia-del-presidente-mulino",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pa-senacyt-estrategia-ia",
+      "title": "Estrategia Nacional de Inteligencia Artificial de Panamá (2026-2036)",
+      "title_en": "National Artificial Intelligence Strategy of Panama (2026-2036)",
+      "url": "https://www.observatorioia.com.pa/wp-content/uploads/2026/07/iapanama_2026-2036_download.pdf",
+      "archive_url": "https://web.archive.org/web/20261017022408if_/https://www.observatorioia.com.pa/wp-content/uploads/2026/07/iapanama_2026-2036_download.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "r4-pa-data-safety",
+      "title": "Data, Safety, and Security",
+      "url": "https://aipanama.gob.pa/pillars/data-safety",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

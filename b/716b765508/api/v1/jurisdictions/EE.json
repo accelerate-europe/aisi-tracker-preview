@@ -1,0 +1,367 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "716b7655085469b9155ab082742f99985e836e96",
+      "built": "2026-11-21T18:33:19Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/16",
+  "record": {
+    "id": "EE",
+    "name": "Estonia",
+    "kind": "state",
+    "europe_scope": true,
+    "eu_member": true,
+    "population": {
+      "value": 1369995,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "institute_id": null,
+    "next_check": {
+      "date": "2027-10-16",
+      "reason": "Routine yearly re-check of a state where an institute is plausible (in Europe, the G20 or the OECD, or a signatory of the Bletchley Declaration)."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Estonian, with the justice and digital affairs ministry's website (news titles readable but undated) and its search page (newest 14 October, before the window). Left for review: Estonia's place on the endorsement list of the French presidency's Paris Call for AI Safety and Security, published on 9 November and since updated. The consumer protection and technical regulatory authority's AI page, last updated 10 September, repeats a supervisory role already in the record, and no Estonian announcement of the endorsement was found. No new national evaluator or final designation act was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Estonia \"AI safety institute\" government",
+          "source_ids": [
+            "gb-aisi-launch",
+            "ee-ttja-ai-supervision",
+            "us-commerce-2023",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "et",
+          "national_or_official": true,
+          "query": "Eesti tehisintellekt ohutus instituut riiklik strateegia",
+          "source_ids": [
+            "gb-aisi-launch",
+            "ee-ttja-ai-supervision",
+            "us-commerce-2023",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded et query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: EE-search = searches 1, 2 (en, et). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "ee-ttja-ai-supervision"
+      ],
+      "governance_note": "TTJA describes its prospective competent-authority role in AI-system supervision. The future wording is retained.",
+      "log": [],
+      "passes": [
+        {
+          "date": "2026-10-17",
+          "languages": [
+            "en",
+            "et"
+          ],
+          "places": [
+            "the Riigikogu's site",
+            "Riigi Teataja",
+            "TTJA's site",
+            "the economic ministry's site"
+          ],
+          "fields": [
+            "related_bodies"
+          ]
+        }
+      ]
+    },
+    "source_ids": [
+      "ee-ttja-ai-supervision",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026",
+      "fr-elysee-paris-call-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "154",
+      "subregion": "Northern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "EST",
+    "m49": "233",
+    "wikidata": "Q191",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "related_bodies": [
+      {
+        "name": "Tarbijakaitse ja Tehnilise Järelevalve Amet (TTJA)",
+        "name_en": "Consumer Protection and Technical Regulatory Authority (TTJA)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "ee-ttja-ai-supervision",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-e9418b44f082585ea0aaa36f10f7beae",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "ee-ttja-ai-supervision"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. Consumer Protection and Technical Regulatory Authority (TTJA) is proposed as its AI Act single point of contact and market-surveillance authority.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Estonian and English.\n\nNext check due by 16 October 2027.\n\nOn 17 October 2026 we searched the Riigikogu's site, Riigi Teataja, TTJA's site and the economic ministry's site in Estonian and English, for information on AI Act authorities and related bodies.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "eu_member": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "institute_id": [],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "gb-aisi-launch",
+        "ov-wikipedia",
+        "us-commerce-2023",
+        "eu-ai-act-authorities-2026",
+        "ee-ttja-ai-supervision",
+        "fr-elysee-paris-call-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "ee-ttja-ai-supervision",
+      "title": "Tehisintellektisüsteemid",
+      "title_en": "Artificial intelligence systems",
+      "url": "https://ttja.ee/ariklient/ohutus/tooted-teenused/tehisintellektisusteemid",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "For Single Points of Contact marked with *, the national designation decision is still pending final adoption.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state"
+          ]
+        },
+        {
+          "text": "Estonia *Tarbijakaitse ja Tehnilise Järelevalve Amet",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,EE,2025,1369995",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-elysee-paris-call-2026",
+      "title": "Paris Call for AI safety and security.",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+      "excerpts": []
+    },
+    {
+      "id": "gb-aisi-launch",
+      "title": "Prime Minister launches new AI Safety Institute",
+      "url": "https://www.gov.uk/government/news/prime-minister-launches-new-ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261016194747/https://www.gov.uk/government/news/prime-minister-launches-new-ai-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "us-commerce-2023",
+      "title": "At the Direction of President Biden, Department of Commerce to Establish U.S. Artificial Intelligence Safety Institute to Lead Efforts on AI Safety",
+      "url": "https://www.commerce.gov/news/press-releases/2023/11/direction-president-biden-department-commerce-establish-us-artificial",
+      "archive_url": "https://web.archive.org/web/20260211063744/https://www.commerce.gov/news/press-releases/2023/11/direction-president-biden-department-commerce-establish-us-artificial",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

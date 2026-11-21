@@ -1,0 +1,4492 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "9eae2116aa13c45039646e9027324b49aef4487d",
+      "built": "2026-11-21T17:08:48Z"
+    }
+  },
+  "aisi_json_pointer": "/institutes/11",
+  "record": {
+    "id": "au-aisi",
+    "name": "Australian AI Safety Institute",
+    "jurisdiction_id": "AU",
+    "host": "Department of Industry, Science and Resources",
+    "legal_form": "unit_in_existing_body",
+    "mandate": "Analyses and tests new AI models and applications; part of the Department of Industry, Science and Resources.",
+    "website": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+    "funding": [
+      {
+        "kind": "multi_year",
+        "commitment": "announced",
+        "amount": 29800000,
+        "currency": "AUD",
+        "years": 4,
+        "period": "2025-26 to 2028-29",
+        "annual_basis": "MYEFO 2025-26 forward estimate of payments of AUD 10.5m for 2026-27, the current financial year; not actual expenditure.",
+        "description": "AUD 29.8m over four years from 2025-26",
+        "source_ids": [
+          "au-myefo-2025-26",
+          "au-financial-year"
+        ],
+        "confidence": "high",
+        "funding_source": "national_government",
+        "notes": "MYEFO states AUD 29.8m over four years; its rounded yearly rows sum to AUD 29.9m. The ministerial announcement also states AUD 29.9m. The current annual figure uses the published MYEFO row, not a mean. The payment profile is on printed page 266 (PDF page 98).",
+        "annual_basis_code": "allocation_current_year",
+        "annual_profile": [
+          {
+            "start": "2025-07-01",
+            "end": "2026-06-30",
+            "amount": 3600000,
+            "source_ids": [
+              "au-myefo-2025-26",
+              "au-financial-year"
+            ],
+            "id": "annual_profile-0987b5e48be054febb4cec89c9be955a",
+            "citations": {
+              "start": [
+                "au-financial-year"
+              ],
+              "end": [
+                "au-financial-year"
+              ],
+              "amount": [
+                "au-myefo-2025-26"
+              ],
+              "id": [],
+              "display": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ]
+            }
+          },
+          {
+            "start": "2026-07-01",
+            "end": "2027-06-30",
+            "amount": 10500000,
+            "source_ids": [
+              "au-myefo-2025-26",
+              "au-financial-year"
+            ],
+            "id": "annual_profile-ecca72c7af04587494aaac80265a3734",
+            "citations": {
+              "start": [
+                "au-financial-year"
+              ],
+              "end": [
+                "au-financial-year"
+              ],
+              "amount": [
+                "au-myefo-2025-26"
+              ],
+              "id": [],
+              "display": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ]
+            }
+          },
+          {
+            "start": "2027-07-01",
+            "end": "2028-06-30",
+            "amount": 7800000,
+            "source_ids": [
+              "au-myefo-2025-26",
+              "au-financial-year"
+            ],
+            "id": "annual_profile-0f5956151261589c8bd78b4e27ee183f",
+            "citations": {
+              "start": [
+                "au-financial-year"
+              ],
+              "end": [
+                "au-financial-year"
+              ],
+              "amount": [
+                "au-myefo-2025-26"
+              ],
+              "id": [],
+              "display": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ]
+            }
+          },
+          {
+            "start": "2028-07-01",
+            "end": "2029-06-30",
+            "amount": 8000000,
+            "source_ids": [
+              "au-myefo-2025-26",
+              "au-financial-year"
+            ],
+            "id": "annual_profile-c6e0882f51055532a5bb7bd11c997e42",
+            "citations": {
+              "start": [
+                "au-financial-year"
+              ],
+              "end": [
+                "au-financial-year"
+              ],
+              "amount": [
+                "au-myefo-2025-26"
+              ],
+              "id": [],
+              "display": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ]
+            }
+          }
+        ],
+        "coverage": "whole_institute",
+        "id": "funding-a7c0488859f35293a4b593ba44e40d12",
+        "annual_amount": 10500000,
+        "annual_period": {
+          "start": "2026-07-01",
+          "end": "2027-06-30"
+        },
+        "eur_per_year_est": 5993970,
+        "eur_per_person_est": 0.21706,
+        "share_of_gdp_est": 3.77848e-06,
+        "ratio_denominators": {
+          "population": {
+            "value": 27614411,
+            "year": 2025
+          },
+          "gdp": {
+            "value": 2778897000000,
+            "currency": "AUD",
+            "year": 2025
+          }
+        },
+        "citations": {
+          "kind": [],
+          "commitment": [],
+          "amount": [
+            "au-myefo-2025-26"
+          ],
+          "currency": [],
+          "years": [
+            "au-myefo-2025-26"
+          ],
+          "period": [
+            "au-myefo-2025-26"
+          ],
+          "annual_basis": [],
+          "description": [],
+          "confidence": [],
+          "funding_source": [],
+          "notes": [],
+          "annual_basis_code": [],
+          "annual_profile": [
+            "au-myefo-2025-26",
+            "au-financial-year"
+          ],
+          "coverage": [],
+          "id": [],
+          "annual_amount": [
+            "au-myefo-2025-26"
+          ],
+          "annual_period": [
+            "au-financial-year"
+          ],
+          "eur_per_year_est": [
+            "au-myefo-2025-26",
+            "eu-ecb-exchange-rates-2025"
+          ],
+          "eur_per_person_est": [
+            "wb-pop",
+            "au-myefo-2025-26",
+            "eu-ecb-exchange-rates-2025"
+          ],
+          "share_of_gdp_est": [
+            "wb-gdp-lcu-2025",
+            "au-myefo-2025-26"
+          ],
+          "ratio_denominators": [
+            "wb-pop",
+            "wb-gdp-lcu-2025"
+          ],
+          "display": [
+            "au-myefo-2025-26",
+            "au-financial-year",
+            "eu-ecb-exchange-rates-2025"
+          ]
+        },
+        "display": {
+          "annual_estimate": true,
+          "per_person": "~EUR 0.22 per person",
+          "value": "~EUR 6.0m (~AUD 11m)",
+          "qualifiers": [
+            "a year",
+            "2026-27 allocation",
+            "announced"
+          ],
+          "native_value": "~AUD 30m",
+          "native_qualifiers": [
+            "multi-year",
+            "2025-26 to 2028-29",
+            "announced"
+          ],
+          "budget_citations": [
+            "au-myefo-2025-26",
+            "eu-ecb-exchange-rates-2025"
+          ]
+        }
+      },
+      {
+        "kind": "annual",
+        "commitment": "announced",
+        "amount": 7900000,
+        "currency": "AUD",
+        "period": "From 2029-30 (ongoing)",
+        "annual_amount": 7900000,
+        "annual_basis": "Published ongoing annual allocation from 2029-30; future funding, not current expenditure.",
+        "description": "AUD 7.9m per year ongoing from 2029-30",
+        "source_ids": [
+          "au-myefo-2025-26",
+          "au-financial-year"
+        ],
+        "confidence": "high",
+        "funding_source": "national_government",
+        "annual_basis_code": "other",
+        "annual_period": {
+          "start": "2029-07-01",
+          "end": "2030-06-30"
+        },
+        "coverage": "whole_institute",
+        "id": "funding-0d5ffdbe6b0c59dabb6edfc221aa4956",
+        "eur_per_year_est": 4509750,
+        "citations": {
+          "kind": [],
+          "commitment": [],
+          "amount": [
+            "au-myefo-2025-26"
+          ],
+          "currency": [],
+          "period": [
+            "au-myefo-2025-26"
+          ],
+          "annual_amount": [
+            "au-myefo-2025-26"
+          ],
+          "annual_basis": [],
+          "description": [],
+          "confidence": [],
+          "funding_source": [],
+          "annual_basis_code": [],
+          "annual_period": [
+            "au-financial-year"
+          ],
+          "coverage": [],
+          "id": [],
+          "eur_per_year_est": [
+            "au-myefo-2025-26",
+            "eu-ecb-exchange-rates-2025"
+          ],
+          "display": [
+            "au-myefo-2025-26",
+            "au-financial-year",
+            "eu-ecb-exchange-rates-2025"
+          ]
+        },
+        "display": {
+          "annual_estimate": true,
+          "value": "AUD 7.9m",
+          "qualifiers": [
+            "a year",
+            "From 2029-30 (ongoing)",
+            "announced"
+          ],
+          "native_value": "AUD 7.9m",
+          "native_qualifiers": [
+            "a year",
+            "From 2029-30 (ongoing)",
+            "announced"
+          ],
+          "budget_citations": [
+            "au-myefo-2025-26"
+          ]
+        }
+      }
+    ],
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Rechecked institutional output credit against the original publication and dated listing. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Recorded the published General Manager title for Kate Conroy from the government directory and an ASPI event page. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Added the retained government quotation for the short testing and regulator-support mandate. This was a partial evidence check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Leadership checked against official sources and newer-appointment searches from the 20 October evidence review; name and title unchanged."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Earliest published work rechecked; the institute's first publication of 10 August 2026 added. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Post-release re-check of the institute page, department news and publications: the April 2026 government MOU with Microsoft added. The minister's media page could not be read after 6 October 2026. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "News re-check since 24 October 2026: the institute page, the department's news and publications, the ministers' media pages, the minister's speech of 8 October, the department's annual report 2025-26 (23 October, highlights only) and the Joint Select Committee on AI hearing of 30 October. The annual report's statement that the institute was formally launched on 1 June 2026 is left for the set-up date review. No funding decision found; the evaluation agreement with Anthropic is still not final. Left for review: the full annual report, the launch speech and the committee's answers on notice. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Post-release news re-check from 6 November 2026: the institute page, the department's news and publications to 9 November, the ministers' media pages, the department's annual report 2025-26 in full and the answers to the Joint Select Committee on AI hearing of 30 October. No institute-specific staff or budget figure and no new output or agreement. The annual report's launch date of 1 June 2026 and the 2 June speech stay with the set-up date review. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "Post-release news re-check from 8 November 2026: the institute page, the department's news and publications (9 November), the ministers' media centre (10 November) and the Joint Select Committee's answers on notice (5 November). Left for review: two ministerial releases of 10 November, on a proposed AI safety regulator to work with the institute and on the Rapid Review of AI-driven cyber incidents the institute contributed to. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-13",
+          "scope": "Post-release news re-check from 10 November 2026: the institute page, the department's news (13 November) and publications (9 November), the central ministerial media listing (11 November) and the industry minister's page (12 November), and the Joint Select Committee's answers on notice (newest received 5 November). The regulator proposal and the Rapid Review of 10 November are already in the record; no later name, bill or implementation step for either concerning the institute was found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-14",
+          "scope": "Sources checked for developments from 13 November 2026: the institute page (undated), the department's news (13 November) and publications (9 November), the ministers' media page (13 November; Senator Ayres's newest item 12 November) and the Joint Select Committee on AI's answers on notice (to 5 November). Beyond the 10 November announcement already recorded, no new formal name, introduced bill or further detail of its relation to the institute was found for the proposed AI safety regulator, and no new institute publication. Individual ministers' archives and unlisted committee answers were not all checked. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-20",
+          "scope": "Sources checked for developments from 14 November 2026: the institute page (undated), the department's news (20 November) and publications (stale, 9 November), the ministers' media pages (20 November) and the Joint Select Committee's pages (latest answer 12 November). Added the full Rapid Review report, published by the Department of the Prime Minister and Cabinet on 20 November, to the review already recorded, with the technical exchange of 22 September that it reports. The review's recommendation to consider formal liaison between the Australian Cyber Security Centre, the National Office of Cyber Security and the institute is not entered as a partner. The staffing figures given at Senate estimates on 29 October are still known only from unofficial transcripts and are not entered. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "functions": {
+        "date": "2026-11-14",
+        "codes": [
+          "model_testing",
+          "evaluation_methods",
+          "research",
+          "standards_guidance",
+          "regulatory_enforcement",
+          "regulatory_support",
+          "risk_monitoring",
+          "foresight",
+          "policy_advice",
+          "incident_response",
+          "international_cooperation",
+          "convening",
+          "capacity_building",
+          "talent",
+          "adoption",
+          "public_access_continuity",
+          "certification",
+          "sandbox"
+        ]
+      },
+      "log": [
+        {
+          "date": "2026-11-16",
+          "text": "Re-read the institute's page on 16 November 2026 from a headless browser copy, as plain requests timed out: its second goal now reads \"emerging AI capabilities, risks and harms\" and its CSIRO item begins \"AISI commissioned\". Four quotations re-bound to that copy; no function gained or lost."
+        }
+      ]
+    },
+    "source_ids": [
+      "au-minister",
+      "au-industry",
+      "au-plan",
+      "au-myefo-2025-26",
+      "au-oversight-news-2026",
+      "au-oversight-report-2026",
+      "depth-au-chart",
+      "depth-au-forum",
+      "depth-au-home",
+      "au-anthropic-mou-2026",
+      "depth-au-uk-mou",
+      "au-abc",
+      "network-2025",
+      "network-nist-2026",
+      "network-multilingual-2025",
+      "au-anthropic-news-2026",
+      "au-forbes-2026",
+      "depth-ca-au-mou",
+      "rows-what-au-asd",
+      "rows-what-au-csiro",
+      "rows-what-au-naic",
+      "au-directory-institute",
+      "au-naic-october",
+      "j8-au-asd-plan-render",
+      "au-jsc-ai-2026-09-18",
+      "au-rapid-review-release-2026",
+      "au-rapid-review-recs-2026",
+      "au-ai-regulator-2026",
+      "rows-what-au-pmc",
+      "rows-what-au-ncsc",
+      "rows-what-au-oai",
+      "rows-what-au-sa",
+      "rows-what-au-dfat",
+      "au-best-practice-guidance-2026",
+      "r3-naaimes-best-practice",
+      "au-charlton-afr-speech-2026",
+      "au-disr-annual-report-2025-26",
+      "au-senate-estimates-eco-2026-10-29"
+    ],
+    "people": [
+      {
+        "name": "Kate Conroy",
+        "role": "General Manager, Australian AI Safety Institute",
+        "source_ids": [
+          "depth-au-chart",
+          "depth-au-forum",
+          "au-directory-conroy",
+          "au-aspi-tsd-2026",
+          "au-directory-institute",
+          "au-naic-october"
+        ],
+        "confidence": "high",
+        "title_status": "published",
+        "id": "people-7dbf99b9dc455d868390dd815eecc114",
+        "citations": {
+          "name": [
+            "depth-au-chart",
+            "depth-au-forum",
+            "au-aspi-tsd-2026",
+            "au-directory-institute",
+            "au-naic-october"
+          ],
+          "role": [
+            "au-directory-conroy",
+            "au-aspi-tsd-2026",
+            "au-directory-institute"
+          ],
+          "confidence": [],
+          "title_status": [],
+          "id": [],
+          "display": [
+            "depth-au-chart",
+            "depth-au-forum",
+            "au-directory-conroy",
+            "au-aspi-tsd-2026",
+            "au-directory-institute",
+            "au-naic-october"
+          ]
+        }
+      }
+    ],
+    "mandate_short": "Analyses and tests new AI models; supports regulators on emerging AI capabilities and risks.",
+    "legal_basis": {
+      "type": "administrative",
+      "state": "in_force",
+      "source_ids": [
+        "au-minister",
+        "au-industry",
+        "depth-au-forum"
+      ],
+      "citations": {
+        "type": [
+          "depth-au-forum"
+        ],
+        "state": [
+          "depth-au-forum"
+        ],
+        "display": [
+          "depth-au-forum"
+        ]
+      }
+    },
+    "placement": {
+      "host_type": "ministry",
+      "source_ids": [
+        "au-industry"
+      ],
+      "citations": {
+        "host_type": [],
+        "display": []
+      }
+    },
+    "name_local": "Australian AI Safety Institute",
+    "short_name": "Australia AISI",
+    "agreements": [
+      {
+        "state": "signed",
+        "date": "2026-04-01",
+        "scope": "Government memorandum of understanding; technical exchanges with the institute on emerging capabilities and risks, and joint safety evaluations. The government MOU states signed on 1 April 2026; Anthropic's 31 March announcement says signed that day. The reason for the discrepancy is not established.",
+        "source_ids": [
+          "au-anthropic-mou-2026",
+          "au-anthropic-news-2026"
+        ],
+        "counterparty_type": "developer",
+        "counterparty": "Anthropic",
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-314d5b57479a5fc7a2c40bfdb76b1da4",
+        "citations": {
+          "state": [
+            "au-anthropic-mou-2026",
+            "au-anthropic-news-2026"
+          ],
+          "date": [
+            "au-anthropic-mou-2026"
+          ],
+          "scope": [
+            "au-anthropic-mou-2026",
+            "au-anthropic-news-2026"
+          ],
+          "counterparty_type": [],
+          "counterparty": [
+            "au-anthropic-news-2026"
+          ],
+          "participation": [
+            "au-anthropic-mou-2026"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "au-anthropic-mou-2026",
+            "au-anthropic-news-2026"
+          ]
+        }
+      },
+      {
+        "state": "announced",
+        "date": "2026-10-06",
+        "scope": "Anthropic reported on 6 October 2026 that it was finalising a separate agreement with the Australian AI Safety Institute for independent model evaluations. Completion was not established by the report.",
+        "source_ids": [
+          "au-forbes-2026"
+        ],
+        "counterparty_type": "developer",
+        "counterparty": "Anthropic",
+        "participation": "institute_party",
+        "domestic_interagency": false,
+        "id": "agreements-71c44af8b5b659c9b667334ac51b3b75",
+        "news": "The AI developer Anthropic says it is finalising an agreement for the institute to run independent evaluations of Anthropic's models.",
+        "citations": {
+          "state": [
+            "au-forbes-2026"
+          ],
+          "date": [
+            "au-forbes-2026"
+          ],
+          "scope": [
+            "au-forbes-2026"
+          ],
+          "counterparty_type": [],
+          "counterparty": [
+            "au-forbes-2026"
+          ],
+          "participation": [
+            "au-forbes-2026"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "news": [
+            "au-forbes-2026"
+          ],
+          "display": [
+            "au-forbes-2026"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "government",
+        "counterparty": "UK Government, for the UK AI Security Institute",
+        "state": "signed",
+        "date": "2026-05-25",
+        "scope": "MOU supporting institute cooperation on evaluation methods, research findings and AI safety and security.",
+        "source_ids": [
+          "depth-au-uk-mou"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-d703af8681b95884b6ef76f805f8884a",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "depth-au-uk-mou"
+          ],
+          "state": [
+            "depth-au-uk-mou"
+          ],
+          "date": [
+            "depth-au-uk-mou"
+          ],
+          "scope": [
+            "depth-au-uk-mou"
+          ],
+          "participation": [
+            "depth-au-uk-mou"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "depth-au-uk-mou"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "government",
+        "counterparty": "Department of Industry of Canada, for the Canadian AI Safety Institute",
+        "state": "signed",
+        "date": "2026-02-20",
+        "scope": "MOU signed in New Delhi for technical cooperation, information exchange, measurement science, synthetic-content research and talent exchanges between the institutes.",
+        "source_ids": [
+          "r3-au-ca-mou-domestic",
+          "depth-ca-au-mou"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-c8fe6157fbee589e8787f97c552539f8",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "depth-ca-au-mou"
+          ],
+          "state": [
+            "depth-ca-au-mou"
+          ],
+          "date": [
+            "depth-ca-au-mou"
+          ],
+          "scope": [
+            "depth-ca-au-mou"
+          ],
+          "participation": [
+            "depth-ca-au-mou",
+            "r3-au-ca-mou-domestic"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "depth-ca-au-mou",
+            "r3-au-ca-mou-domestic"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "developer",
+        "counterparty": "Microsoft",
+        "state": "signed",
+        "date": "2026-04-23",
+        "scope": "Government memorandum of understanding, a statement of intent without legal effect; Microsoft intends to work with the institute on human–AI interaction risks and on technical exchanges and research, including methods for evaluating high-risk capabilities. It does not provide for access to Microsoft’s models.",
+        "source_ids": [
+          "au-microsoft-mou-2026"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-0148193f7ffd5123b6db677df3184ac2",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "au-microsoft-mou-2026"
+          ],
+          "state": [
+            "au-microsoft-mou-2026"
+          ],
+          "date": [
+            "au-microsoft-mou-2026"
+          ],
+          "scope": [
+            "au-microsoft-mou-2026"
+          ],
+          "participation": [
+            "au-microsoft-mou-2026"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "au-microsoft-mou-2026"
+          ]
+        }
+      }
+    ],
+    "wikidata": "Q139585162",
+    "identifier_source_ids": [
+      "wikidata-au-aisi-identifier"
+    ],
+    "outputs": [
+      {
+        "date": "2026-07-23",
+        "type": "guidance",
+        "title": "Best Practice: Automated Evaluation of Large Language Models",
+        "source_ids": [
+          "au-best-practice-guidance-2026",
+          "r3-naaimes-best-practice"
+        ],
+        "lineage": "naaimes-automated-evaluation-best-practice-2026",
+        "attribution": "named_contributor",
+        "attribution_note": "The department's publication page of 24 July 2026 says Australia contributed to the network's guidance through the Australian AI Safety Institute.",
+        "qualifies_as": "none",
+        "qualification_note": "Substantive guidance remains in the publication catalogue but does not itself report a qualifying evaluation, test result, benchmark or technical research result.",
+        "credit": {
+          "institute_id": "au-aisi",
+          "date": "2026-07-24"
+        },
+        "credited_from": "2026-07-24",
+        "citations": {
+          "date": [],
+          "type": [],
+          "title": [
+            "r3-naaimes-best-practice"
+          ],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "au-best-practice-guidance-2026"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "au-best-practice-guidance-2026"
+          ],
+          "credited_from": [],
+          "display": [
+            "r3-naaimes-best-practice",
+            "au-best-practice-guidance-2026"
+          ]
+        }
+      },
+      {
+        "date": "2026-08-10",
+        "type": "report",
+        "title": "Risks and controls for multi-agent systems",
+        "source_ids": [
+          "au-multiagent-report-2026",
+          "au-multiagent-news-2026"
+        ],
+        "lineage": "risks-controls-multi-agent-systems",
+        "attribution": "own_publication",
+        "attribution_note": "The department published this report as the Australian AI Safety Institute's first publication; Gradient Institute, commissioned by the institute, did the research.",
+        "qualifies_as": "published_work",
+        "qualification_note": "Technical research mapping risks and controls for interacting AI agents, commissioned and published as the institute's work; Gradient Institute is the research author.",
+        "credit": {
+          "institute_id": "au-aisi",
+          "date": "2026-08-10"
+        },
+        "citations": {
+          "date": [
+            "au-multiagent-news-2026"
+          ],
+          "type": [],
+          "title": [
+            "au-multiagent-report-2026"
+          ],
+          "lineage": [],
+          "attribution": [
+            "au-multiagent-report-2026"
+          ],
+          "attribution_note": [
+            "au-multiagent-news-2026",
+            "au-multiagent-report-2026"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "au-multiagent-news-2026"
+          ],
+          "display": [
+            "au-multiagent-news-2026",
+            "au-multiagent-report-2026"
+          ]
+        }
+      },
+      {
+        "date": "2026-10-08",
+        "type": "report",
+        "title": "Epistemic safety in scalable oversight",
+        "source_ids": [
+          "au-oversight-report-2026",
+          "au-oversight-news-2026",
+          "depth-au-home"
+        ],
+        "lineage": "epistemic-safety-scalable-oversight",
+        "attribution": "own_publication",
+        "attribution_note": "The Australian institute commissioned and published this report, with CSIRO credited for the research. The institutional publication and announcement explicitly name AISI.",
+        "qualifies_as": "published_work",
+        "qualification_note": "Technical research on scalable oversight, commissioned and published as the institute's work; CSIRO is the research author.",
+        "credit": {
+          "institute_id": "au-aisi",
+          "date": "2026-10-08"
+        },
+        "citations": {
+          "date": [
+            "au-oversight-news-2026"
+          ],
+          "type": [],
+          "title": [
+            "au-oversight-report-2026"
+          ],
+          "lineage": [],
+          "attribution": [
+            "au-oversight-report-2026"
+          ],
+          "attribution_note": [
+            "au-oversight-news-2026",
+            "au-oversight-report-2026",
+            "depth-au-home"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "au-oversight-news-2026"
+          ],
+          "display": [
+            "au-oversight-news-2026",
+            "au-oversight-report-2026",
+            "depth-au-home"
+          ]
+        }
+      },
+      {
+        "date": "2026-11-10",
+        "type": "report",
+        "title": "Rapid Review into Australian Government arrangements for an AI-driven cyber incident",
+        "source_ids": [
+          "au-rapid-review-recs-2026",
+          "au-rapid-review-release-2026",
+          "au-rapid-review-report-2026"
+        ],
+        "lineage": "rapid-review-ai-driven-cyber-incident",
+        "attribution": "named_contributor",
+        "attribution_note": "The minister's release says the Department of the Prime Minister and Cabinet undertook the review in collaboration with agencies including the Australian AI Safety Institute.",
+        "qualifies_as": "none",
+        "qualification_note": "A government review of arrangements for an AI-driven cyber incident, which makes 18 policy recommendations.",
+        "credit": {
+          "institute_id": "au-aisi",
+          "date": "2026-11-10"
+        },
+        "citations": {
+          "date": [
+            "au-rapid-review-release-2026"
+          ],
+          "type": [],
+          "title": [
+            "au-rapid-review-recs-2026"
+          ],
+          "lineage": [],
+          "attribution": [
+            "au-rapid-review-report-2026"
+          ],
+          "attribution_note": [
+            "au-rapid-review-release-2026"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [
+            "au-rapid-review-recs-2026"
+          ],
+          "credit": [
+            "au-rapid-review-release-2026"
+          ],
+          "display": [
+            "au-rapid-review-release-2026",
+            "au-rapid-review-recs-2026",
+            "au-rapid-review-report-2026"
+          ]
+        }
+      }
+    ],
+    "notes": "The 8 October 2026 publication date and AISI commissioning of CSIRO were reverified in the retained rendered copy of the department article. The retained direct article response did not independently yield those passages.",
+    "head": {
+      "state": "stated",
+      "person_id": "people-7dbf99b9dc455d868390dd815eecc114",
+      "source_ids": [
+        "au-directory-institute",
+        "au-naic-october"
+      ],
+      "citations": {
+        "state": [],
+        "person_id": [
+          "au-directory-institute",
+          "au-naic-october"
+        ],
+        "display": [
+          "au-directory-institute",
+          "au-naic-october"
+        ]
+      }
+    },
+    "reports_to": {
+      "state": "stated",
+      "name": "Department of Industry, Science and Resources",
+      "source_ids": [
+        "au-industry"
+      ],
+      "citations": {
+        "state": [],
+        "name": [
+          "au-industry"
+        ],
+        "display": [
+          "au-industry"
+        ]
+      }
+    },
+    "national_partners": {
+      "state": "stated",
+      "entries": [
+        {
+          "id": "np-au-asd",
+          "name": "Australian Signals Directorate",
+          "acronym": "ASD",
+          "what": "signals intelligence and cyber security agency",
+          "relation": "works_with",
+          "cyber_agency": true,
+          "how": "Is named as a technical partner that the institute works with.",
+          "source_ids": [
+            "au-industry",
+            "rows-what-au-asd",
+            "j8-au-asd-plan-render"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-industry"
+            ],
+            "acronym": [],
+            "what": [
+              "rows-what-au-asd"
+            ],
+            "relation": [
+              "au-industry"
+            ],
+            "cyber_agency": [
+              "j8-au-asd-plan-render"
+            ],
+            "how": [
+              "au-industry"
+            ],
+            "display": [
+              "au-industry",
+              "rows-what-au-asd",
+              "j8-au-asd-plan-render"
+            ]
+          }
+        },
+        {
+          "id": "np-au-csiro",
+          "name": "Commonwealth Scientific and Industrial Research Organisation",
+          "acronym": "CSIRO",
+          "what": "national science agency",
+          "relation": "works_with",
+          "how": "Is a technical partner of the institute, which commissioned it to research scalable oversight for AI alignment.",
+          "source_ids": [
+            "au-industry",
+            "rows-what-au-csiro"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-industry"
+            ],
+            "acronym": [],
+            "what": [
+              "rows-what-au-csiro"
+            ],
+            "relation": [
+              "au-industry"
+            ],
+            "how": [
+              "au-industry"
+            ],
+            "display": [
+              "au-industry",
+              "rows-what-au-csiro"
+            ]
+          }
+        },
+        {
+          "id": "np-au-naic",
+          "name": "National AI Centre",
+          "acronym": "NAIC",
+          "what": "government centre for AI adoption guidance",
+          "relation": "works_with",
+          "how": "Partners closely with the institute and translates its insights into practical guidance for businesses, organisations and the public.",
+          "source_ids": [
+            "au-industry",
+            "rows-what-au-naic"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-industry"
+            ],
+            "acronym": [],
+            "what": [
+              "rows-what-au-naic"
+            ],
+            "relation": [
+              "au-industry"
+            ],
+            "how": [
+              "au-industry"
+            ],
+            "display": [
+              "au-industry",
+              "rows-what-au-naic"
+            ]
+          }
+        },
+        {
+          "id": "np-au-pmc",
+          "name": "Department of the Prime Minister and Cabinet",
+          "what": "department supporting the Prime Minister",
+          "relation": "works_with",
+          "how": "Undertook the government's Rapid Review of an AI-driven cyber incident in collaboration with the institute and other agencies.",
+          "source_ids": [
+            "au-rapid-review-release-2026",
+            "au-rapid-review-recs-2026",
+            "rows-what-au-pmc"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-rapid-review-release-2026"
+            ],
+            "what": [
+              "rows-what-au-pmc"
+            ],
+            "relation": [
+              "au-rapid-review-release-2026"
+            ],
+            "how": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026"
+            ],
+            "display": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026",
+              "rows-what-au-pmc"
+            ]
+          }
+        },
+        {
+          "id": "np-au-ncsc",
+          "name": "National Cyber Security Coordinator",
+          "what": "coordinator of significant cyber incident response",
+          "relation": "works_with",
+          "how": "Collaborated with the institute and other agencies on the Rapid Review of an AI-driven cyber incident.",
+          "source_ids": [
+            "au-rapid-review-release-2026",
+            "au-rapid-review-recs-2026",
+            "rows-what-au-ncsc"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-rapid-review-release-2026"
+            ],
+            "what": [
+              "rows-what-au-ncsc"
+            ],
+            "relation": [
+              "au-rapid-review-release-2026"
+            ],
+            "how": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026"
+            ],
+            "display": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026",
+              "rows-what-au-ncsc"
+            ]
+          }
+        },
+        {
+          "id": "np-au-oai",
+          "name": "Office of AI",
+          "what": "office to coordinate the AI standard",
+          "relation": "works_with",
+          "how": "Collaborated with the institute and other agencies on the Rapid Review of an AI-driven cyber incident.",
+          "source_ids": [
+            "au-rapid-review-release-2026",
+            "au-rapid-review-recs-2026",
+            "rows-what-au-oai"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-rapid-review-release-2026"
+            ],
+            "what": [
+              "rows-what-au-oai"
+            ],
+            "relation": [
+              "au-rapid-review-release-2026"
+            ],
+            "how": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026"
+            ],
+            "display": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026",
+              "rows-what-au-oai"
+            ]
+          }
+        },
+        {
+          "id": "np-au-sa",
+          "name": "Services Australia",
+          "what": "agency delivering government services and payments",
+          "relation": "works_with",
+          "how": "Collaborated with the institute and other agencies on the Rapid Review of an AI-driven cyber incident.",
+          "source_ids": [
+            "au-rapid-review-release-2026",
+            "au-rapid-review-recs-2026",
+            "rows-what-au-sa"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-rapid-review-release-2026"
+            ],
+            "what": [
+              "rows-what-au-sa"
+            ],
+            "relation": [
+              "au-rapid-review-release-2026"
+            ],
+            "how": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026"
+            ],
+            "display": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026",
+              "rows-what-au-sa"
+            ]
+          }
+        },
+        {
+          "id": "np-au-dfat",
+          "name": "Department of Foreign Affairs and Trade",
+          "acronym": "DFAT",
+          "what": "department for foreign affairs and trade",
+          "relation": "works_with",
+          "how": "Is named, alongside ASD and the industry department including the institute, in an accepted Rapid Review recommendation to continue international AI governance and standards-setting efforts.",
+          "source_ids": [
+            "au-rapid-review-recs-2026",
+            "au-rapid-review-release-2026",
+            "rows-what-au-dfat"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "au-rapid-review-recs-2026"
+            ],
+            "acronym": [
+              "au-rapid-review-recs-2026"
+            ],
+            "what": [
+              "rows-what-au-dfat"
+            ],
+            "relation": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026"
+            ],
+            "how": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026"
+            ],
+            "display": [
+              "au-rapid-review-release-2026",
+              "au-rapid-review-recs-2026",
+              "rows-what-au-dfat"
+            ]
+          }
+        }
+      ],
+      "notes": "Cyber agency searched: Australian Cyber Security Centre (ACSC), within ASD, 2026-10-19 (en); found. In that check the live pages of the department and of the ACSC could not be retrieved, so the department's institute page, ASD's about page and the ACSC's about page were read in archived copies of 15 October, 15 September and 26 September 2026. Cooperation is stated with ASD (the host of ACSC), not with ACSC by name. On 10 November 2026 the government said it would propose a new targeted regulator for AI safety that would work with the institute to provide technical expertise and oversight; the regulator is not yet named or established, so it is not an entry. The National Cyber Security Coordinator is a role supported by the National Office of Cyber Security."
+    },
+    "testing_capacity": {
+      "modes": [
+        {
+          "code": "in_house",
+          "source_ids": [
+            "depth-au-forum",
+            "au-jsc-ai-2026-09-18"
+          ],
+          "named_as": "AISI",
+          "citations": {
+            "code": [
+              "depth-au-forum",
+              "au-jsc-ai-2026-09-18"
+            ],
+            "named_as": [],
+            "display": [
+              "depth-au-forum",
+              "au-jsc-ai-2026-09-18"
+            ]
+          }
+        }
+      ],
+      "notes": "The minister's speech, marked check against delivery, says the institute is already testing frontier AI models 'with technical partners'; this does not make a partner the tester, so testing by other bodies is not recorded. No published evaluation was found. On 18 September 2026 the institute's General Manager said at a parliamentary committee hearing (uncorrected proof Hansard) 'I don't have a number to hand of exactly how many models we've tested' and referred to 'some of our early testing' on the capabilities of a newly released model, Astra. Joint network testing before the institute existed is credited to Australia, not the institute: testing reported, 2025-06-26 (multilingual exercise: 'Australia and Japan also ran independent tests in Mandarin Chinese and Japanese') and 2025-07-17 (agentic exercise: 'UK AISI, EU AI Office and Australia ran evaluations on two open-source models').",
+      "source_ids": [
+        "depth-au-forum",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "au-jsc-ai-2026-09-18"
+      ],
+      "citations": {
+        "modes": [
+          "depth-au-forum",
+          "au-jsc-ai-2026-09-18"
+        ],
+        "notes": [
+          "au-jsc-ai-2026-09-18"
+        ],
+        "display": [
+          "depth-au-forum",
+          "au-jsc-ai-2026-09-18"
+        ]
+      }
+    },
+    "model_access": {
+      "developer_agreements": [
+        {
+          "id": "au-access-agreement-anthropic-2026",
+          "agreement_id": "agreements-314d5b57479a5fc7a2c40bfdb76b1da4",
+          "epoch_model": "Claude 3.5 Sonnet",
+          "epoch_source_id": "epoch-frontier-models",
+          "source_ids": [
+            "au-anthropic-news-2026",
+            "epoch-frontier-models"
+          ],
+          "named_as": "Australia’s AI Safety Institute",
+          "citations": {
+            "id": [],
+            "agreement_id": [
+              "au-anthropic-news-2026"
+            ],
+            "epoch_model": [
+              "epoch-frontier-models"
+            ],
+            "epoch_source_id": [],
+            "named_as": [],
+            "display": [
+              "au-anthropic-news-2026",
+              "epoch-frontier-models"
+            ]
+          }
+        }
+      ],
+      "notes": "No access event is recorded: the sources do not establish access to a named model before its public release or beyond publicly available access. The MOU is 'a statement of intent and is not intended to have legal effect' and contains no access term; Anthropic's announcement commits it to joint safety and security evaluations with the institute. On 6 October 2026 Anthropic said it was 'finalizing an agreement with the AI Safety Institute to enable it to run its own independent evaluations of our models'; no report of its conclusion was found. On 18 September 2026 a deputy secretary of the department told a parliamentary committee that colleagues in the National Intelligence Community were working with the companies and the US government 'to make sure we secure the access that we need to do the testing and evaluation that we need'. No legal power: Australia has no AI act. At a Senate estimates hearing on 29 October 2026 (uncorrected proof Hansard) a deputy secretary said the institute was still working through the technical aspects of how Anthropic and Microsoft, with which it has MOUs, would give it access to frontier models. The General Manager said that in the meantime the institute reaches Anthropic models through its technical partners, and that it tested frontier models with those partners in June 2026; she took on notice which models, so no event is recorded.",
+      "source_ids": [
+        "au-anthropic-mou-2026",
+        "au-anthropic-news-2026",
+        "au-forbes-2026",
+        "au-jsc-ai-2026-09-18",
+        "au-senate-estimates-eco-2026-10-29"
+      ],
+      "searches": [
+        {
+          "date": "2026-10-21",
+          "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+          "language": "en",
+          "sources_read": [
+            "https://epoch.ai/data/ai-models",
+            "https://epoch.ai/data/ai-models-documentation",
+            "https://epoch.ai/data/all_ai_models.csv",
+            "https://epoch.ai/data/frontier_ai_models.csv",
+            "https://epoch.ai/data/notable_ai_models.csv"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Recorded sources re-read for: test/evaluat/access/specialist",
+          "language": "en",
+          "sources_read": [
+            "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+            "https://www.minister.industry.gov.au/charlton/media/establishment-australian-ai-safety-institute",
+            "https://www.minister.industry.gov.au/t-ayres/media/national-ai-plan-empowering-all-australians",
+            "https://www.industry.gov.au/publications/memorandum-understanding-between-australian-government-and-anthropic-collaboration-ai-opportunities",
+            "https://www.anthropic.com/news/australia-MOU",
+            "https://www.forbes.com.au/news/innovation/anthropic-frontier-models-up-australian-ai-safety-institute/",
+            "https://www.directory.gov.au/portfolios/industry-science-and-resources/department-industry-science-and-resources/science-technology-group/technology-digital-policy/ai-safety-institute",
+            "https://www.minister.industry.gov.au/t-ayres/media/australia-and-uk-partner-strengthen-ai-safety-and-security",
+            "https://www.minister.industry.gov.au/charlton/media/ai-safety-forum",
+            "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Australian AI Safety Institute Anthropic agreement independent evaluations models finalised",
+          "language": "en",
+          "sources_read": [
+            "search snippets: forbes.com.au, canberratimes, eweek, anthropic.com/news/australia-MOU"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "\"AI Safety Institute\" Australia evaluated model pre-deployment testing 2026",
+          "language": "en",
+          "sources_read": [
+            "search snippets: kucoin flash, softwareseni, ground.news"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Australia AI Safety Institute OpenAI OR Google DeepMind memorandum of understanding model access 2026",
+          "language": "en",
+          "sources_read": [
+            "search snippets: itbrief, eweek, marketing-interactive, industry.gov.au AU-UK MOU overview"
+          ]
+        }
+      ],
+      "value": "access_agreed",
+      "citations": {
+        "developer_agreements": [
+          "au-anthropic-news-2026",
+          "epoch-frontier-models"
+        ],
+        "notes": [
+          "au-jsc-ai-2026-09-18",
+          "au-senate-estimates-eco-2026-10-29"
+        ],
+        "searches": [],
+        "value": [],
+        "display": [
+          "au-anthropic-news-2026",
+          "epoch-frontier-models",
+          "au-jsc-ai-2026-09-18",
+          "au-senate-estimates-eco-2026-10-29"
+        ]
+      }
+    },
+    "staff": [
+      {
+        "total": 29,
+        "total_qualifier": "exact",
+        "technical": 7,
+        "technical_qualifier": "at_least",
+        "as_of": "2026-10-29",
+        "description": "Headcount 29, equal to 27.4 full-time equivalent posts, as the institute's General Manager told a Senate estimates hearing on 29 October 2026 (uncorrected proof Hansard). Asked how many are in technical roles, she said seven staff, 6.4 full-time equivalent, work on evaluating models and six, 5.8 full-time equivalent, are in the regulatory engagement team. The technical count of at least 7 is the staff evaluating models.",
+        "source_ids": [
+          "au-senate-estimates-eco-2026-10-29"
+        ],
+        "confidence": "high",
+        "id": "staff-5e1f0a7c93b24d6e8a41c2d7f6b9e305",
+        "citations": {
+          "total": [
+            "au-senate-estimates-eco-2026-10-29"
+          ],
+          "total_qualifier": [
+            "au-senate-estimates-eco-2026-10-29"
+          ],
+          "technical": [
+            "au-senate-estimates-eco-2026-10-29"
+          ],
+          "technical_qualifier": [
+            "au-senate-estimates-eco-2026-10-29"
+          ],
+          "as_of": [
+            "au-senate-estimates-eco-2026-10-29"
+          ],
+          "description": [
+            "au-senate-estimates-eco-2026-10-29"
+          ],
+          "confidence": [],
+          "id": [],
+          "display": [
+            "au-senate-estimates-eco-2026-10-29"
+          ]
+        },
+        "display": {
+          "total": "29",
+          "technical": "7+",
+          "target": null
+        }
+      },
+      {
+        "total": 25,
+        "total_qualifier": "exact",
+        "technical": 12,
+        "technical_qualifier": "about",
+        "as_of": "2026-09-18",
+        "description": "25 staff, about half of them technical, as the institute's General Manager told the Joint Select Committee on Artificial Intelligence on 18 September 2026 (uncorrected proof Hansard). The technical count of about 12 is derived from these figures: half of 25, rounded down.",
+        "source_ids": [
+          "au-jsc-ai-2026-09-18"
+        ],
+        "confidence": "high",
+        "id": "staff-9d4a6c2e1b8f4a37a5e0c7d3b2f61e48",
+        "citations": {
+          "total": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "total_qualifier": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "technical": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "technical_qualifier": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "as_of": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "description": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "confidence": [],
+          "id": [],
+          "display": [
+            "au-jsc-ai-2026-09-18"
+          ]
+        },
+        "display": {
+          "total": "25",
+          "technical": "~12",
+          "target": null
+        }
+      }
+    ],
+    "staffing_model": {
+      "code": "own_staff",
+      "named_as": "Australia’s AI Safety Institute",
+      "source_ids": [
+        "au-industry",
+        "depth-au-forum"
+      ],
+      "notes": "It works with technical partners, including the Australian Signals Directorate and CSIRO.",
+      "citations": {
+        "code": [
+          "au-industry",
+          "depth-au-forum"
+        ],
+        "named_as": [],
+        "notes": [
+          "au-industry"
+        ],
+        "display": [
+          "au-industry",
+          "depth-au-forum"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-c49f43f8274043a3aba4dc027dfe8f69",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "mandate",
+        "text": "The department lists analysing and testing new AI models and applications as one of its goals.",
+        "source_ids": [
+          "au-industry"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-industry"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-industry"
+          ]
+        }
+      },
+      {
+        "id": "claims-ed8a5824ade64fb4828548bed75f691e",
+        "kind": "function",
+        "code": "research",
+        "basis": "activity",
+        "text": "The department says it commissioned CSIRO to explore scalable oversight, an aspect of AI alignment.",
+        "source_ids": [
+          "au-oversight-news-2026"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-oversight-news-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-oversight-news-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-70f38aeb691942b78761ed40359a2074",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "text": "The department lists supporting regulators and agencies in responding to emerging AI capabilities, risks and harms as one of its goals.",
+        "source_ids": [
+          "au-industry"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-industry"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-industry"
+          ]
+        }
+      },
+      {
+        "id": "claims-36b4a4a7580a49d89273c74ae0608625",
+        "kind": "function",
+        "code": "risk_monitoring",
+        "basis": "mandate",
+        "text": "The National AI Plan announcement says the government is setting it up to monitor, test and share information on emerging AI capabilities, risks and harms.",
+        "source_ids": [
+          "au-plan"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-plan"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-plan"
+          ]
+        }
+      },
+      {
+        "id": "claims-25ccbc8aedfd4251954647872cfe747a",
+        "kind": "function",
+        "code": "policy_advice",
+        "basis": "mandate",
+        "text": "The ministers' founding announcement says it will advise where updates to legislation might be needed.",
+        "source_ids": [
+          "au-minister"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-minister"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-minister"
+          ]
+        }
+      },
+      {
+        "id": "claims-d5c3bb7957924883a571c2a41db717ac",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "mandate",
+        "text": "The ministers' founding announcement says that, collaborating with partners including the International Network of AI Safety Institutes, it will support global efforts to address AI risks and harms.",
+        "source_ids": [
+          "au-minister"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-minister"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-minister"
+          ]
+        }
+      },
+      {
+        "id": "claims-0c7455a9274a45f18c3b4c46674205aa",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "activity",
+        "text": "The Australian government's announcement says the memorandum of understanding brings it together with the UK AI Security Institute.",
+        "source_ids": [
+          "depth-au-uk-mou"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "depth-au-uk-mou"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "depth-au-uk-mou"
+          ]
+        }
+      },
+      {
+        "id": "claims-3ccf280d822e490f8d2fc9756bb65120",
+        "kind": "function",
+        "code": "policy_advice",
+        "basis": "activity",
+        "text": "The Australian AI Safety Institute told a parliamentary committee that it is providing technical information services to support the digital duty of care legislation as it is being developed.",
+        "source_ids": [
+          "au-jsc-ai-2026-09-18"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-21",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-jsc-ai-2026-09-18"
+          ]
+        }
+      },
+      {
+        "id": "claims-1b478ab800b148af874a100a97a8fab4",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "activity",
+        "text": "The Department of Industry, Science and Resources says the institute supports \"government and regulators’ understanding of emerging AI capabilities, risks and mitigation approaches\".",
+        "source_ids": [
+          "au-industry"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "au-industry"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-industry"
+          ]
+        }
+      },
+      {
+        "id": "claims-970fb146e1704424b8a8c6a8fcc210f5",
+        "kind": "function",
+        "code": "risk_monitoring",
+        "basis": "activity",
+        "text": "The assistant minister says AISI combines \"ongoing systems testing with active monitoring of risks and harms\".",
+        "source_ids": [
+          "depth-au-forum"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "depth-au-forum"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "depth-au-forum"
+          ]
+        }
+      },
+      {
+        "id": "claims-28b93386d8b4a8920e64dbdd6362f8df",
+        "kind": "fact",
+        "source_ids": [
+          "au-rapid-review-report-2026"
+        ],
+        "text": "The government's Rapid Review says OpenAI held its first technical exchange with ASD, Services Australia, the institute and the National Office of Cyber Security on 22 September 2026.",
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-20",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "au-rapid-review-report-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "au-rapid-review-report-2026"
+          ]
+        }
+      }
+    ],
+    "status": "established",
+    "established": "2026",
+    "announced": "2025-11-25",
+    "functions": [
+      {
+        "code": "model_testing",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-c49f43f8274043a3aba4dc027dfe8f69"
+        ]
+      },
+      {
+        "code": "evaluation_methods",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "research",
+        "value": "activity",
+        "claim_ids": [
+          "claims-ed8a5824ade64fb4828548bed75f691e"
+        ]
+      },
+      {
+        "code": "standards_guidance",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "regulatory_enforcement",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "regulatory_support",
+        "value": "both",
+        "claim_ids": [
+          "claims-70f38aeb691942b78761ed40359a2074",
+          "claims-1b478ab800b148af874a100a97a8fab4"
+        ]
+      },
+      {
+        "code": "risk_monitoring",
+        "value": "both",
+        "claim_ids": [
+          "claims-36b4a4a7580a49d89273c74ae0608625",
+          "claims-970fb146e1704424b8a8c6a8fcc210f5"
+        ]
+      },
+      {
+        "code": "foresight",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "policy_advice",
+        "value": "both",
+        "claim_ids": [
+          "claims-25ccbc8aedfd4251954647872cfe747a",
+          "claims-3ccf280d822e490f8d2fc9756bb65120"
+        ]
+      },
+      {
+        "code": "incident_response",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "international_cooperation",
+        "value": "both",
+        "claim_ids": [
+          "claims-d5c3bb7957924883a571c2a41db717ac",
+          "claims-0c7455a9274a45f18c3b4c46674205aa"
+        ]
+      },
+      {
+        "code": "convening",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "capacity_building",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "talent",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "adoption",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "public_access_continuity",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "certification",
+        "value": "not_found",
+        "claim_ids": []
+      },
+      {
+        "code": "sandbox",
+        "value": "not_found",
+        "claim_ids": []
+      }
+    ],
+    "operating": [
+      {
+        "kind": "published_work",
+        "date": "2026-08-10",
+        "lineage": "risks-controls-multi-agent-systems",
+        "source_ids": [
+          "au-multiagent-news-2026"
+        ],
+        "citations": {
+          "date": [
+            "au-multiagent-news-2026"
+          ],
+          "kind": [
+            "au-multiagent-news-2026"
+          ],
+          "display": [
+            "au-multiagent-news-2026"
+          ]
+        }
+      }
+    ],
+    "intervals": {
+      "announced_to_established": {
+        "days_min": 37,
+        "days_max": 360
+      },
+      "established_to_first_qualifying_activity": {
+        "days_min": -102,
+        "days_max": 221
+      },
+      "announced_to_first_qualifying_activity": {
+        "days_min": 258,
+        "days_max": 258
+      }
+    },
+    "citations": {
+      "id": [],
+      "name": [],
+      "jurisdiction_id": [],
+      "host": [
+        "au-industry"
+      ],
+      "legal_form": [],
+      "mandate": [
+        "au-industry"
+      ],
+      "website": [],
+      "funding": [
+        "au-myefo-2025-26",
+        "au-financial-year"
+      ],
+      "check": [],
+      "people": [
+        "depth-au-chart",
+        "depth-au-forum",
+        "au-directory-conroy",
+        "au-aspi-tsd-2026",
+        "au-directory-institute",
+        "au-naic-october"
+      ],
+      "mandate_short": [
+        "au-industry"
+      ],
+      "legal_basis": [
+        "depth-au-forum"
+      ],
+      "placement": [],
+      "name_local": [],
+      "short_name": [],
+      "agreements": [
+        "au-anthropic-mou-2026",
+        "au-forbes-2026",
+        "au-anthropic-news-2026",
+        "depth-ca-au-mou",
+        "depth-au-uk-mou",
+        "r3-au-ca-mou-domestic",
+        "au-microsoft-mou-2026"
+      ],
+      "wikidata": [],
+      "outputs": [
+        "au-oversight-news-2026",
+        "au-oversight-report-2026",
+        "depth-au-home",
+        "r3-naaimes-best-practice",
+        "au-multiagent-news-2026",
+        "au-multiagent-report-2026",
+        "au-rapid-review-release-2026",
+        "au-rapid-review-recs-2026",
+        "au-best-practice-guidance-2026",
+        "au-rapid-review-report-2026"
+      ],
+      "notes": [],
+      "head": [
+        "au-directory-institute",
+        "au-naic-october"
+      ],
+      "reports_to": [
+        "au-industry"
+      ],
+      "national_partners": [
+        "au-industry",
+        "rows-what-au-asd",
+        "rows-what-au-csiro",
+        "rows-what-au-naic",
+        "j8-au-asd-plan-render",
+        "au-rapid-review-release-2026",
+        "au-rapid-review-recs-2026",
+        "au-ai-regulator-2026",
+        "rows-what-au-pmc",
+        "rows-what-au-ncsc",
+        "rows-what-au-oai",
+        "rows-what-au-sa",
+        "rows-what-au-dfat"
+      ],
+      "testing_capacity": [
+        "depth-au-forum",
+        "au-jsc-ai-2026-09-18"
+      ],
+      "model_access": [
+        "au-anthropic-news-2026",
+        "epoch-frontier-models",
+        "au-jsc-ai-2026-09-18",
+        "au-senate-estimates-eco-2026-10-29"
+      ],
+      "staff": [
+        "au-jsc-ai-2026-09-18",
+        "au-senate-estimates-eco-2026-10-29"
+      ],
+      "staffing_model": [
+        "au-industry",
+        "depth-au-forum"
+      ],
+      "claims": [
+        "au-minister",
+        "au-industry",
+        "au-plan",
+        "au-oversight-news-2026",
+        "depth-au-forum",
+        "depth-au-uk-mou",
+        "au-jsc-ai-2026-09-18",
+        "au-rapid-review-report-2026"
+      ],
+      "status": [
+        "depth-au-forum"
+      ],
+      "established": [
+        "depth-au-forum"
+      ],
+      "announced": [
+        "au-minister"
+      ],
+      "functions": [],
+      "operating": [],
+      "intervals": [],
+      "display": [
+        "au-minister",
+        "au-industry",
+        "au-anthropic-mou-2026",
+        "au-forbes-2026",
+        "au-anthropic-news-2026",
+        "au-myefo-2025-26",
+        "au-oversight-news-2026",
+        "au-oversight-report-2026",
+        "depth-ca-au-mou",
+        "depth-au-chart",
+        "depth-au-forum",
+        "depth-au-home",
+        "depth-au-uk-mou",
+        "au-financial-year",
+        "r3-naaimes-best-practice",
+        "r3-au-ca-mou-domestic",
+        "au-directory-conroy",
+        "au-aspi-tsd-2026",
+        "rows-what-au-asd",
+        "rows-what-au-csiro",
+        "rows-what-au-naic",
+        "au-directory-institute",
+        "au-naic-october",
+        "j8-au-asd-plan-render",
+        "au-jsc-ai-2026-09-18",
+        "au-multiagent-news-2026",
+        "au-multiagent-report-2026",
+        "au-microsoft-mou-2026",
+        "au-rapid-review-release-2026",
+        "au-rapid-review-recs-2026",
+        "au-ai-regulator-2026",
+        "rows-what-au-pmc",
+        "rows-what-au-ncsc",
+        "rows-what-au-oai",
+        "rows-what-au-sa",
+        "rows-what-au-dfat",
+        "au-best-practice-guidance-2026",
+        "au-rapid-review-report-2026",
+        "au-senate-estimates-eco-2026-10-29"
+      ],
+      "form": [
+        "au-industry",
+        "depth-au-forum"
+      ],
+      "inst": [],
+      "institute": [],
+      "announced_to_established": [
+        "au-minister",
+        "depth-au-forum"
+      ],
+      "established_to_first_qualifying_activity": [
+        "depth-au-forum",
+        "au-multiagent-news-2026"
+      ],
+      "announced_to_first_qualifying_activity": [
+        "au-minister",
+        "au-multiagent-news-2026"
+      ]
+    },
+    "display": {
+      "intervals": {
+        "status_since": "Announced on 25 Nov 2025",
+        "known_activity": null
+      },
+      "comparison_funding": "funding-a7c0488859f35293a4b593ba44e40d12",
+      "budget": "funding-a7c0488859f35293a4b593ba44e40d12",
+      "staff": "staff-5e1f0a7c93b24d6e8a41c2d7f6b9e305",
+      "total_staff": "staff-5e1f0a7c93b24d6e8a41c2d7f6b9e305",
+      "technical_staff": "staff-5e1f0a7c93b24d6e8a41c2d7f6b9e305",
+      "funding_records": {
+        "funding-a7c0488859f35293a4b593ba44e40d12": {
+          "kind": "multi_year",
+          "commitment": "announced",
+          "amount": 29800000,
+          "currency": "AUD",
+          "years": 4,
+          "period": "2025-26 to 2028-29",
+          "annual_basis": "MYEFO 2025-26 forward estimate of payments of AUD 10.5m for 2026-27, the current financial year; not actual expenditure.",
+          "description": "AUD 29.8m over four years from 2025-26",
+          "source_ids": [
+            "au-myefo-2025-26",
+            "au-financial-year"
+          ],
+          "confidence": "high",
+          "funding_source": "national_government",
+          "notes": "MYEFO states AUD 29.8m over four years; its rounded yearly rows sum to AUD 29.9m. The ministerial announcement also states AUD 29.9m. The current annual figure uses the published MYEFO row, not a mean. The payment profile is on printed page 266 (PDF page 98).",
+          "annual_basis_code": "allocation_current_year",
+          "annual_profile": [
+            {
+              "start": "2025-07-01",
+              "end": "2026-06-30",
+              "amount": 3600000,
+              "source_ids": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ],
+              "id": "annual_profile-0987b5e48be054febb4cec89c9be955a",
+              "citations": {
+                "start": [
+                  "au-financial-year"
+                ],
+                "end": [
+                  "au-financial-year"
+                ],
+                "amount": [
+                  "au-myefo-2025-26"
+                ],
+                "id": [],
+                "display": [
+                  "au-myefo-2025-26",
+                  "au-financial-year"
+                ]
+              }
+            },
+            {
+              "start": "2026-07-01",
+              "end": "2027-06-30",
+              "amount": 10500000,
+              "source_ids": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ],
+              "id": "annual_profile-ecca72c7af04587494aaac80265a3734",
+              "citations": {
+                "start": [
+                  "au-financial-year"
+                ],
+                "end": [
+                  "au-financial-year"
+                ],
+                "amount": [
+                  "au-myefo-2025-26"
+                ],
+                "id": [],
+                "display": [
+                  "au-myefo-2025-26",
+                  "au-financial-year"
+                ]
+              }
+            },
+            {
+              "start": "2027-07-01",
+              "end": "2028-06-30",
+              "amount": 7800000,
+              "source_ids": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ],
+              "id": "annual_profile-0f5956151261589c8bd78b4e27ee183f",
+              "citations": {
+                "start": [
+                  "au-financial-year"
+                ],
+                "end": [
+                  "au-financial-year"
+                ],
+                "amount": [
+                  "au-myefo-2025-26"
+                ],
+                "id": [],
+                "display": [
+                  "au-myefo-2025-26",
+                  "au-financial-year"
+                ]
+              }
+            },
+            {
+              "start": "2028-07-01",
+              "end": "2029-06-30",
+              "amount": 8000000,
+              "source_ids": [
+                "au-myefo-2025-26",
+                "au-financial-year"
+              ],
+              "id": "annual_profile-c6e0882f51055532a5bb7bd11c997e42",
+              "citations": {
+                "start": [
+                  "au-financial-year"
+                ],
+                "end": [
+                  "au-financial-year"
+                ],
+                "amount": [
+                  "au-myefo-2025-26"
+                ],
+                "id": [],
+                "display": [
+                  "au-myefo-2025-26",
+                  "au-financial-year"
+                ]
+              }
+            }
+          ],
+          "coverage": "whole_institute",
+          "id": "funding-a7c0488859f35293a4b593ba44e40d12",
+          "annual_amount": 10500000,
+          "annual_period": {
+            "start": "2026-07-01",
+            "end": "2027-06-30"
+          },
+          "eur_per_year_est": 5993970,
+          "eur_per_person_est": 0.21706,
+          "share_of_gdp_est": 3.77848e-06,
+          "ratio_denominators": {
+            "population": {
+              "value": 27614411,
+              "year": 2025
+            },
+            "gdp": {
+              "value": 2778897000000,
+              "currency": "AUD",
+              "year": 2025
+            }
+          },
+          "citations": {
+            "kind": [],
+            "commitment": [],
+            "amount": [
+              "au-myefo-2025-26"
+            ],
+            "currency": [],
+            "years": [
+              "au-myefo-2025-26"
+            ],
+            "period": [
+              "au-myefo-2025-26"
+            ],
+            "annual_basis": [],
+            "description": [],
+            "confidence": [],
+            "funding_source": [],
+            "notes": [],
+            "annual_basis_code": [],
+            "annual_profile": [
+              "au-myefo-2025-26",
+              "au-financial-year"
+            ],
+            "coverage": [],
+            "id": [],
+            "annual_amount": [
+              "au-myefo-2025-26"
+            ],
+            "annual_period": [
+              "au-financial-year"
+            ],
+            "eur_per_year_est": [
+              "au-myefo-2025-26",
+              "eu-ecb-exchange-rates-2025"
+            ],
+            "eur_per_person_est": [
+              "wb-pop",
+              "au-myefo-2025-26",
+              "eu-ecb-exchange-rates-2025"
+            ],
+            "share_of_gdp_est": [
+              "wb-gdp-lcu-2025",
+              "au-myefo-2025-26"
+            ],
+            "ratio_denominators": [
+              "wb-pop",
+              "wb-gdp-lcu-2025"
+            ],
+            "display": [
+              "au-myefo-2025-26",
+              "au-financial-year",
+              "eu-ecb-exchange-rates-2025"
+            ]
+          },
+          "display": {
+            "annual_estimate": true,
+            "per_person": "~EUR 0.22 per person",
+            "value": "~EUR 6.0m (~AUD 11m)",
+            "qualifiers": [
+              "a year",
+              "2026-27 allocation",
+              "announced"
+            ],
+            "native_value": "~AUD 30m",
+            "native_qualifiers": [
+              "multi-year",
+              "2025-26 to 2028-29",
+              "announced"
+            ],
+            "budget_citations": [
+              "au-myefo-2025-26",
+              "eu-ecb-exchange-rates-2025"
+            ]
+          }
+        },
+        "funding-0d5ffdbe6b0c59dabb6edfc221aa4956": {
+          "kind": "annual",
+          "commitment": "announced",
+          "amount": 7900000,
+          "currency": "AUD",
+          "period": "From 2029-30 (ongoing)",
+          "annual_amount": 7900000,
+          "annual_basis": "Published ongoing annual allocation from 2029-30; future funding, not current expenditure.",
+          "description": "AUD 7.9m per year ongoing from 2029-30",
+          "source_ids": [
+            "au-myefo-2025-26",
+            "au-financial-year"
+          ],
+          "confidence": "high",
+          "funding_source": "national_government",
+          "annual_basis_code": "other",
+          "annual_period": {
+            "start": "2029-07-01",
+            "end": "2030-06-30"
+          },
+          "coverage": "whole_institute",
+          "id": "funding-0d5ffdbe6b0c59dabb6edfc221aa4956",
+          "eur_per_year_est": 4509750,
+          "citations": {
+            "kind": [],
+            "commitment": [],
+            "amount": [
+              "au-myefo-2025-26"
+            ],
+            "currency": [],
+            "period": [
+              "au-myefo-2025-26"
+            ],
+            "annual_amount": [
+              "au-myefo-2025-26"
+            ],
+            "annual_basis": [],
+            "description": [],
+            "confidence": [],
+            "funding_source": [],
+            "annual_basis_code": [],
+            "annual_period": [
+              "au-financial-year"
+            ],
+            "coverage": [],
+            "id": [],
+            "eur_per_year_est": [
+              "au-myefo-2025-26",
+              "eu-ecb-exchange-rates-2025"
+            ],
+            "display": [
+              "au-myefo-2025-26",
+              "au-financial-year",
+              "eu-ecb-exchange-rates-2025"
+            ]
+          },
+          "display": {
+            "annual_estimate": true,
+            "value": "AUD 7.9m",
+            "qualifiers": [
+              "a year",
+              "From 2029-30 (ongoing)",
+              "announced"
+            ],
+            "native_value": "AUD 7.9m",
+            "native_qualifiers": [
+              "a year",
+              "From 2029-30 (ongoing)",
+              "announced"
+            ],
+            "budget_citations": [
+              "au-myefo-2025-26"
+            ]
+          }
+        }
+      },
+      "funding_ids": [
+        "funding-0d5ffdbe6b0c59dabb6edfc221aa4956",
+        "funding-a7c0488859f35293a4b593ba44e40d12"
+      ],
+      "staff_records": {
+        "staff-5e1f0a7c93b24d6e8a41c2d7f6b9e305": {
+          "total": 29,
+          "total_qualifier": "exact",
+          "technical": 7,
+          "technical_qualifier": "at_least",
+          "as_of": "2026-10-29",
+          "description": "Headcount 29, equal to 27.4 full-time equivalent posts, as the institute's General Manager told a Senate estimates hearing on 29 October 2026 (uncorrected proof Hansard). Asked how many are in technical roles, she said seven staff, 6.4 full-time equivalent, work on evaluating models and six, 5.8 full-time equivalent, are in the regulatory engagement team. The technical count of at least 7 is the staff evaluating models.",
+          "source_ids": [
+            "au-senate-estimates-eco-2026-10-29"
+          ],
+          "confidence": "high",
+          "id": "staff-5e1f0a7c93b24d6e8a41c2d7f6b9e305",
+          "citations": {
+            "total": [
+              "au-senate-estimates-eco-2026-10-29"
+            ],
+            "total_qualifier": [
+              "au-senate-estimates-eco-2026-10-29"
+            ],
+            "technical": [
+              "au-senate-estimates-eco-2026-10-29"
+            ],
+            "technical_qualifier": [
+              "au-senate-estimates-eco-2026-10-29"
+            ],
+            "as_of": [
+              "au-senate-estimates-eco-2026-10-29"
+            ],
+            "description": [
+              "au-senate-estimates-eco-2026-10-29"
+            ],
+            "confidence": [],
+            "id": [],
+            "display": [
+              "au-senate-estimates-eco-2026-10-29"
+            ]
+          },
+          "display": {
+            "total": "29",
+            "technical": "7+",
+            "target": null
+          }
+        },
+        "staff-9d4a6c2e1b8f4a37a5e0c7d3b2f61e48": {
+          "total": 25,
+          "total_qualifier": "exact",
+          "technical": 12,
+          "technical_qualifier": "about",
+          "as_of": "2026-09-18",
+          "description": "25 staff, about half of them technical, as the institute's General Manager told the Joint Select Committee on Artificial Intelligence on 18 September 2026 (uncorrected proof Hansard). The technical count of about 12 is derived from these figures: half of 25, rounded down.",
+          "source_ids": [
+            "au-jsc-ai-2026-09-18"
+          ],
+          "confidence": "high",
+          "id": "staff-9d4a6c2e1b8f4a37a5e0c7d3b2f61e48",
+          "citations": {
+            "total": [
+              "au-jsc-ai-2026-09-18"
+            ],
+            "total_qualifier": [
+              "au-jsc-ai-2026-09-18"
+            ],
+            "technical": [
+              "au-jsc-ai-2026-09-18"
+            ],
+            "technical_qualifier": [
+              "au-jsc-ai-2026-09-18"
+            ],
+            "as_of": [
+              "au-jsc-ai-2026-09-18"
+            ],
+            "description": [
+              "au-jsc-ai-2026-09-18"
+            ],
+            "confidence": [],
+            "id": [],
+            "display": [
+              "au-jsc-ai-2026-09-18"
+            ]
+          },
+          "display": {
+            "total": "25",
+            "technical": "~12",
+            "target": null
+          }
+        }
+      },
+      "staff_ids": [
+        "staff-5e1f0a7c93b24d6e8a41c2d7f6b9e305",
+        "staff-9d4a6c2e1b8f4a37a5e0c7d3b2f61e48"
+      ],
+      "related_funding_ids": [],
+      "operating": {
+        "since": "2026-08-10",
+        "first_lineage": "risks-controls-multi-agent-systems",
+        "items": [
+          {
+            "kind": "published_work",
+            "date": "2026-08-10",
+            "lineage": "risks-controls-multi-agent-systems",
+            "source_ids": [
+              "au-multiagent-news-2026"
+            ],
+            "citations": {
+              "date": [
+                "au-multiagent-news-2026"
+              ],
+              "kind": [
+                "au-multiagent-news-2026"
+              ],
+              "display": [
+                "au-multiagent-news-2026"
+              ]
+            }
+          }
+        ]
+      },
+      "rows": {
+        "head": {
+          "state": "stated",
+          "text": "Kate Conroy, General Manager",
+          "cited": [
+            "au-directory-institute",
+            "au-naic-october"
+          ]
+        },
+        "reports_to": {
+          "state": "stated",
+          "text": "Department of Industry, Science and Resources",
+          "cited": [
+            "au-industry"
+          ]
+        },
+        "partners": {
+          "state": "stated",
+          "items": [
+            {
+              "id": "np-au-asd",
+              "text": "ASD (signals intelligence and cyber security agency, works with)",
+              "name": "ASD",
+              "how": "Is named as a technical partner that the institute works with.",
+              "cited": [
+                "au-industry"
+              ]
+            },
+            {
+              "id": "np-au-csiro",
+              "text": "CSIRO (national science agency, works with)",
+              "name": "CSIRO",
+              "how": "Is a technical partner of the institute, which commissioned it to research scalable oversight for AI alignment.",
+              "cited": [
+                "au-industry"
+              ]
+            },
+            {
+              "id": "np-au-naic",
+              "text": "NAIC (government centre for AI adoption guidance, works with)",
+              "name": "NAIC",
+              "how": "Partners closely with the institute and translates its insights into practical guidance for businesses, organisations and the public.",
+              "cited": [
+                "au-industry"
+              ]
+            }
+          ],
+          "fold_items": [
+            {
+              "id": "np-au-asd",
+              "text": "ASD (signals intelligence and cyber security agency, works with)",
+              "name": "ASD",
+              "how": "Is named as a technical partner that the institute works with.",
+              "cited": [
+                "au-industry"
+              ]
+            },
+            {
+              "id": "np-au-csiro",
+              "text": "CSIRO (national science agency, works with)",
+              "name": "CSIRO",
+              "how": "Is a technical partner of the institute, which commissioned it to research scalable oversight for AI alignment.",
+              "cited": [
+                "au-industry"
+              ]
+            },
+            {
+              "id": "np-au-naic",
+              "text": "NAIC (government centre for AI adoption guidance, works with)",
+              "name": "NAIC",
+              "how": "Partners closely with the institute and translates its insights into practical guidance for businesses, organisations and the public.",
+              "cited": [
+                "au-industry"
+              ]
+            },
+            {
+              "id": "np-au-pmc",
+              "text": "Department of the Prime Minister and Cabinet (department supporting the Prime Minister, works with)",
+              "name": "Department of the Prime Minister and Cabinet",
+              "how": "Undertook the government's Rapid Review of an AI-driven cyber incident in collaboration with the institute and other agencies.",
+              "cited": [
+                "au-rapid-review-release-2026",
+                "au-rapid-review-recs-2026"
+              ]
+            },
+            {
+              "id": "np-au-ncsc",
+              "text": "National Cyber Security Coordinator (coordinator of significant cyber incident response, works with)",
+              "name": "National Cyber Security Coordinator",
+              "how": "Collaborated with the institute and other agencies on the Rapid Review of an AI-driven cyber incident.",
+              "cited": [
+                "au-rapid-review-release-2026",
+                "au-rapid-review-recs-2026"
+              ]
+            },
+            {
+              "id": "np-au-oai",
+              "text": "Office of AI (office to coordinate the AI standard, works with)",
+              "name": "Office of AI",
+              "how": "Collaborated with the institute and other agencies on the Rapid Review of an AI-driven cyber incident.",
+              "cited": [
+                "au-rapid-review-release-2026",
+                "au-rapid-review-recs-2026"
+              ]
+            },
+            {
+              "id": "np-au-sa",
+              "text": "Services Australia (agency delivering government services and payments, works with)",
+              "name": "Services Australia",
+              "how": "Collaborated with the institute and other agencies on the Rapid Review of an AI-driven cyber incident.",
+              "cited": [
+                "au-rapid-review-release-2026",
+                "au-rapid-review-recs-2026"
+              ]
+            },
+            {
+              "id": "np-au-dfat",
+              "text": "DFAT (department for foreign affairs and trade, works with)",
+              "name": "DFAT",
+              "how": "Is named, alongside ASD and the industry department including the institute, in an accepted Rapid Review recommendation to continue international AI governance and standards-setting efforts.",
+              "cited": [
+                "au-rapid-review-recs-2026",
+                "au-rapid-review-release-2026"
+              ]
+            }
+          ],
+          "tail": null,
+          "cited": [
+            "au-industry",
+            "j8-au-asd-plan-render",
+            "rows-what-au-asd",
+            "rows-what-au-csiro",
+            "rows-what-au-naic"
+          ]
+        }
+      },
+      "source_links": [
+        "network-2025",
+        "network-nist-2026",
+        "au-abc",
+        "au-minister",
+        "au-industry",
+        "au-plan",
+        "network-multilingual-2025",
+        "au-anthropic-mou-2026",
+        "au-forbes-2026",
+        "au-anthropic-news-2026",
+        "au-myefo-2025-26",
+        "au-oversight-news-2026",
+        "au-oversight-report-2026",
+        "depth-ca-au-mou",
+        "depth-au-chart",
+        "depth-au-forum",
+        "depth-au-home",
+        "depth-au-uk-mou",
+        "au-financial-year",
+        "r3-naaimes-best-practice",
+        "r3-au-ca-mou-domestic",
+        "eu-ecb-exchange-rates-2025",
+        "au-directory-conroy",
+        "au-aspi-tsd-2026",
+        "rows-what-au-asd",
+        "rows-what-au-csiro",
+        "rows-what-au-naic",
+        "au-directory-institute",
+        "au-naic-october",
+        "j8-au-asd-plan-render",
+        "au-jsc-ai-2026-09-18",
+        "au-multiagent-news-2026",
+        "au-multiagent-report-2026",
+        "au-microsoft-mou-2026",
+        "au-rapid-review-release-2026",
+        "au-rapid-review-recs-2026",
+        "au-ai-regulator-2026",
+        "rows-what-au-pmc",
+        "rows-what-au-ncsc",
+        "rows-what-au-oai",
+        "rows-what-au-sa",
+        "rows-what-au-dfat",
+        "au-charlton-afr-speech-2026",
+        "au-disr-annual-report-2025-26",
+        "au-best-practice-guidance-2026",
+        "au-rapid-review-report-2026",
+        "au-senate-estimates-eco-2026-10-29"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "au-abc",
+      "title": "Philosopher tasked with keeping Australians safe from AI",
+      "url": "https://www.abc.net.au/news/2026-05-29/kate-conroy-leading-ai-safety-institute/106736306",
+      "archive_url": "https://web.archive.org/web/20261016194247/https://www.abc.net.au/news/2026-05-29/kate-conroy-leading-ai-safety-institute/106736306",
+      "excerpts": []
+    },
+    {
+      "id": "au-ai-regulator-2026",
+      "title": "New Australian AI safety and security protections",
+      "url": "https://www.minister.industry.gov.au/t-ayres/media/new-australian-ai-safety-and-security-protections",
+      "excerpts": [
+        {
+          "text": "The Government will propose these protections be enforced by a new targeted regulator for AI safety, which will work with the Australian AI Safety Institute to provide technical expertise and oversight as global standards evolve.",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/t-ayres/media/new-australian-ai-safety-and-security-protections",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-anthropic-mou-2026",
+      "title": "Memorandum of understanding between the Australian Government and Anthropic on collaboration on AI opportunities",
+      "url": "https://www.industry.gov.au/publications/memorandum-understanding-between-australian-government-and-anthropic-collaboration-ai-opportunities",
+      "archive_url": "https://web.archive.org/web/20260916065110/https://www.industry.gov.au/publications/memorandum-understanding-between-australian-government-and-anthropic-collaboration-ai-opportunities",
+      "excerpts": [
+        {
+          "text": "Signed on 1 April 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/state",
+            "/record/agreements/0/date"
+          ]
+        },
+        {
+          "text": "Technical exchanges and collaborations with safety and security institutions, including Australia’s AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope",
+            "/record/agreements/0/participation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-anthropic-news-2026",
+      "title": "Australia and Anthropic sign AI safety MOU",
+      "url": "https://www.anthropic.com/news/australia-MOU",
+      "archive_url": "https://web.archive.org/web/20261017042136/https://www.anthropic.com/news/australia-MOU",
+      "excerpts": [
+        {
+          "text": "Central to the MOU is a commitment to work with Australia’s AI Safety Institute.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope",
+            "/record/model_access/developer_agreements/0/agreement_id"
+          ]
+        },
+        {
+          "text": "We will share our findings on emerging model capabilities and risks, participate in joint safety and security evaluations, and collaborate on research with Australian academic institutions.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope",
+            "/record/model_access/developer_agreements/0/agreement_id"
+          ]
+        },
+        {
+          "text": "Today, Anthropic signed a Memorandum of Understanding with the Australian government to cooperate on AI safety research and support the goals of Australia’s National AI Plan.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope",
+            "/record/agreements/0/counterparty",
+            "/record/agreements/0/state"
+          ]
+        },
+        {
+          "text": "Mar 31, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-aspi-tsd-2026",
+      "title": "Panel: AI security and safety",
+      "url": "https://events.aspi.org.au/TSDAImasterclass2026/session/4308944/panel-ai-security-and-safety",
+      "excerpts": [
+        {
+          "text": "Dr S. Kate Conroy, General Manager, Australian AI Safety Institute",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/name",
+            "/record/people/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-best-practice-guidance-2026",
+      "title": "Best practice for automated evaluation of large language models",
+      "url": "https://www.industry.gov.au/publications/best-practice-automated-evaluation-large-language-models",
+      "excerpts": [
+        {
+          "text": "Australia contributed to the guidance through the Australian AI Safety Institute, drawing on the experience of network members.",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-19",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/attribution_note",
+            "/record/outputs/0/credit/institute_id"
+          ]
+        },
+        {
+          "text": "Date published: 24 July 2026",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-19",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-charlton-afr-speech-2026",
+      "title": "Speech to AFR AI Summit",
+      "url": "https://www.minister.industry.gov.au/charlton/media/speech-afr-ai-summit",
+      "excerpts": []
+    },
+    {
+      "id": "au-directory-conroy",
+      "title": "Dr. Kate Conroy",
+      "url": "https://www.directory.gov.au/people/kate-conroy",
+      "excerpts": [
+        {
+          "text": "General Manager",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-directory-institute",
+      "title": "AI Safety Institute | Directory",
+      "url": "https://www.directory.gov.au/portfolios/industry-science-and-resources/department-industry-science-and-resources/science-technology-group/technology-digital-policy/ai-safety-institute",
+      "excerpts": [
+        {
+          "text": "[General Manager](https://www.directory.gov.au/portfolios/industry-science-and-resources/department-industry-science-and-resources/science-technology-group/technology-digital/ai-governance/general-manager) \n[Dr. Kate Conroy](https://www.directory.gov.au/people/kate-conroy)",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/head/person_id",
+            "/record/people/0/name",
+            "/record/people/0/role"
+          ]
+        },
+        {
+          "text": "# AI Safety Institute",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/head/person_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-disr-annual-report-2025-26",
+      "title": "Annual report 2025–26",
+      "url": "https://www.industry.gov.au/sites/default/files/2026-10/disr-annual-report-2025-26.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "au-financial-year",
+      "title": "Acts Interpretation Act 1901, section 2B",
+      "url": "https://www.legislation.gov.au/C1901A00002/2024-12-11/2024-12-11/text/original/epub/OEBPS/document_1/document_1.html",
+      "excerpts": [
+        {
+          "text": "financial year means a period of 12 months starting on 1 July.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/0/annual_profile/1/start",
+            "/record/funding/0/annual_profile/1/end",
+            "/record/funding/0/annual_profile/0/start",
+            "/record/funding/0/annual_profile/0/end",
+            "/record/funding/0/annual_profile/2/start",
+            "/record/funding/0/annual_profile/2/end",
+            "/record/funding/0/annual_profile/3/start",
+            "/record/funding/0/annual_profile/3/end",
+            "/record/funding/1/annual_period/start",
+            "/record/funding/1/annual_period/end"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-forbes-2026",
+      "title": "Anthropic opening its models up to Australian AI Safety Institute",
+      "url": "https://www.forbes.com.au/news/innovation/anthropic-frontier-models-up-australian-ai-safety-institute/",
+      "archive_url": "https://web.archive.org/web/20261017042042/https://www.forbes.com.au/news/innovation/anthropic-frontier-models-up-australian-ai-safety-institute/",
+      "excerpts": [
+        {
+          "text": "finalizing an agreement with the AI Safety Institute to enable it to run its own independent evaluations of our models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/1/state",
+            "/record/agreements/1/scope",
+            "/record/agreements/1/participation",
+            "/record/agreements/1/news"
+          ]
+        },
+        {
+          "text": "October 6, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/1/date"
+          ]
+        },
+        {
+          "text": "Anthropic says it is finalising a deal that will allow Australia’s AI Safety Institute to evaluate its powerful new frontier models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/1/counterparty",
+            "/record/agreements/1/news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-industry",
+      "title": "AI Safety Institute",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261015131505/https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "excerpts": [
+        {
+          "text": "It is part of the Department of Industry, Science and Resources.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/host"
+          ]
+        },
+        {
+          "text": "Analyse and test new AI models and applications. Support regulators and agencies in responding to emerging AI capabilities, risks and harms.",
+          "accessed": "2026-11-16",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Analyse and test new AI models and applications.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Support regulators and agencies in responding to emerging AI capabilities, risks and harms.",
+          "accessed": "2026-11-16",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Australia’s AI Safety Institute was announced as a key action under the National AI Plan. It is part of the Department of Industry, Science and Resources.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name"
+          ]
+        },
+        {
+          "text": "It has in-house technical specialists and works with technical partners including the Australian Signals Directorate and CSIRO.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name",
+            "/record/national_partners/entries/0/relation",
+            "/record/national_partners/entries/0/how",
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how"
+          ]
+        },
+        {
+          "text": "AISI commissioned the CSIRO to research scalable oversight to draw new insights for the field of AI alignment.",
+          "accessed": "2026-11-16",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how"
+          ]
+        },
+        {
+          "text": "Australia’s AI Safety Institute partners closely with the National AI Centre (NAIC), which leads engagement with industry and the public on practical guidance for safe and responsible AI adoption.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/name",
+            "/record/national_partners/entries/2/relation",
+            "/record/national_partners/entries/2/how"
+          ]
+        },
+        {
+          "text": "The NAIC translates the AI Safety Institute’s insights into practical guidance for businesses, organisations and the public.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/name",
+            "/record/national_partners/entries/2/relation",
+            "/record/national_partners/entries/2/how"
+          ]
+        },
+        {
+          "text": "Australia’s AI Safety Institute supports government and regulators’ understanding of emerging AI capabilities, risks and mitigation approaches. It has in-house technical specialists and works with technical partners including the Australian Signals Directorate and CSIRO.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/code",
+            "/record/staffing_model/notes",
+            "/record/claims/8/text"
+          ]
+        },
+        {
+          "text": "Australia’s AI Safety Institute has 3 goals: Analyse and test new AI models and applications. Support regulators and agencies in responding to emerging AI capabilities, risks and harms.",
+          "accessed": "2026-11-16",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text",
+            "/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-jsc-ai-2026-09-18",
+      "title": "Joint Select Committee on Artificial Intelligence, 18/09/2026 (proof Hansard)",
+      "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22committees%2Fcommjnt%2F29957%2F0003%22",
+      "excerpts": [
+        {
+          "text": "We have 25 staff at the Australian AI Safety Institute.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/staff/1/total",
+            "/record/staff/1/total_qualifier",
+            "/record/staff/1/as_of",
+            "/record/staff/1/description"
+          ]
+        },
+        {
+          "text": "We have 25 staff, and about half of those are technical staff.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/staff/1/description",
+            "/record/staff/1/technical",
+            "/record/staff/1/technical_qualifier"
+          ]
+        },
+        {
+          "text": "CONROY, Dr Kate, General Manager, AI Safety Institute, Department of Industry, Science and Resources",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/staff/1/description",
+            "/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "I don't have a number to hand of exactly how many models we've tested.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/testing_capacity/modes/0/code",
+            "/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "A model like Astra that just got released—some of our early testing on its capabilities will give you a sense",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "WILSON, Mrs Helen, Deputy Secretary, Science and Technology Group, Department of Industry, Science and Resources",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Our colleagues in the National Intelligence Community are working with the companies and with the US government to make sure we secure the access that we need to do the testing and evaluation that we need.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "There is the digital duty of care that is currently moving through its legislative framing , and the Australian AI Safety Institute at the Department of Industry, Science and Resources is providing technical information services to support th at legislation as it 's being developed.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/7/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-microsoft-mou-2026",
+      "title": "Memorandum of understanding between the Australian Government and Microsoft on collaboration on AI opportunities",
+      "url": "https://www.industry.gov.au/publications/memorandum-understanding-between-australian-government-and-microsoft-collaboration-ai-opportunities",
+      "excerpts": [
+        {
+          "text": "Microsoft also intends to collaborate with Australia’s AI Safety Institute on human–AI interaction risks",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/counterparty",
+            "/record/agreements/4/participation",
+            "/record/agreements/4/scope"
+          ]
+        },
+        {
+          "text": "Microsoft will engage in technical exchanges and collaborative research with safety and security institutions, including Australia’s AI Safety Institute",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/scope"
+          ]
+        },
+        {
+          "text": "This MOU is intended as a statement of intent and is not intended to have legal effect.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/scope"
+          ]
+        },
+        {
+          "text": "Signed on 23 April 2026",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/date",
+            "/record/agreements/4/state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-minister",
+      "title": "Establishment of Australian AI Safety Institute",
+      "url": "https://www.minister.industry.gov.au/charlton/media/establishment-australian-ai-safety-institute",
+      "excerpts": [
+        {
+          "text": "As AI technology evolves, the Institute will work across government to support best practice regulation, advise where updates to legislation might be needed and coordinate timely and consistent action to protect Australians.",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/charlton/media/establishment-australian-ai-safety-institute",
+          "anchors": [
+            {
+              "text": "establishing the Australian AI Safety Institute",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "Collaborating with domestic and international partners, including the National AI Centre and the International Network of AI Safety Institutes, the Institute will support global efforts to address AI risks and harms",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/charlton/media/establishment-australian-ai-safety-institute",
+          "anchors": [
+            {
+              "text": "establishing the Australian AI Safety Institute",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/5/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-multiagent-news-2026",
+      "title": "Report explores risks and controls for artificial intelligence (AI) agents",
+      "url": "https://www.industry.gov.au/news/report-explores-risks-and-controls-artificial-intelligence-ai-agents",
+      "excerpts": [
+        {
+          "text": "We commissioned Gradient Institute to do the study and are publishing the report as the Australian AI Safety Institute’s first publication.",
+          "accessed": "2026-10-24",
+          "url": "https://r.jina.ai/https://www.industry.gov.au/news/report-explores-risks-and-controls-artificial-intelligence-ai-agents",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-24",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/attribution_note",
+            "/record/outputs/1/credit/institute_id"
+          ]
+        },
+        {
+          "text": "10 August 2026",
+          "accessed": "2026-10-24",
+          "url": "https://r.jina.ai/https://www.industry.gov.au/news/report-explores-risks-and-controls-artificial-intelligence-ai-agents",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-24",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/date",
+            "/record/outputs/1/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-multiagent-report-2026",
+      "title": "Risks and controls for multi-agent systems",
+      "url": "https://www.industry.gov.au/publications/risks-and-controls-multi-agent-systems",
+      "excerpts": [
+        {
+          "text": "Risks and controls for multi-agent systems",
+          "accessed": "2026-10-24",
+          "url": "https://r.jina.ai/https://www.industry.gov.au/publications/risks-and-controls-multi-agent-systems",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-24",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/title"
+          ]
+        },
+        {
+          "text": "We commissioned Gradient Institute to undertake this study as part of our work to better understand emerging AI risks for Australia.",
+          "accessed": "2026-10-24",
+          "url": "https://r.jina.ai/https://www.industry.gov.au/publications/risks-and-controls-multi-agent-systems",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-24",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/attribution",
+            "/record/outputs/1/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-myefo-2025-26",
+      "title": "Mid-Year Economic and Fiscal Outlook 2025-26, Appendix A, page 266",
+      "url": "https://budget.gov.au/content/myefo/download/08_App_A.pdf",
+      "excerpts": [
+        {
+          "text": "$29.8 million over four years from 2025–26",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/0/amount",
+            "/record/funding/0/period",
+            "/record/funding/0/years"
+          ]
+        },
+        {
+          "text": "$7.9 million per year ongoing from 2029–30",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/amount",
+            "/record/funding/1/annual_amount",
+            "/record/funding/1/period"
+          ]
+        },
+        {
+          "text": "Establishing an Artificial Intelligence Safety Institute\nPayments ($m)\n2024-25 2025-26 2026-27 2027-28 2028-29\nDepartment of Industry, Science and Resources\n- 3.6 10.5 7.8 8.0",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/0/annual_profile/1/amount",
+            "/record/funding/0/annual_profile/0/amount",
+            "/record/funding/0/annual_profile/2/amount",
+            "/record/funding/0/annual_profile/3/amount"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-naic-october",
+      "title": "Five must-see sessions at the 2026 AI Leadership Summit",
+      "url": "https://www.ai.gov.au/news-and-insights/blog/five-must-see-sessions-2026-ai-leadership-summit",
+      "excerpts": [
+        {
+          "text": "Dr Kate Conroy from Australia’s AI Safety Institute",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/head/person_id",
+            "/record/people/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-oversight-news-2026",
+      "title": "New report explores safe oversight of advanced AI systems",
+      "url": "https://www.industry.gov.au/news/new-report-explores-safe-oversight-advanced-ai-systems",
+      "archive_url": "https://web.archive.org/web/20261008103258/https://www.industry.gov.au/news/new-report-explores-safe-oversight-advanced-ai-systems",
+      "excerpts": [
+        {
+          "text": "The AI Safety Institute commissioned CSIRO to explore scalable oversight, an aspect of AI alignment.",
+          "accessed": "2026-10-18",
+          "url": "https://r.jina.ai/https://www.industry.gov.au/news/new-report-explores-safe-oversight-advanced-ai-systems",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/attribution_note",
+            "/record/outputs/2/credit/institute_id",
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "8 October 2026",
+          "accessed": "2026-10-18",
+          "url": "https://r.jina.ai/https://www.industry.gov.au/news/new-report-explores-safe-oversight-advanced-ai-systems",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/date",
+            "/record/outputs/2/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-oversight-report-2026",
+      "title": "Epistemic safety in scalable oversight",
+      "url": "https://www.industry.gov.au/publications/epistemic-safety-scalable-oversight",
+      "archive_url": "https://web.archive.org/web/20261008101201/https://www.industry.gov.au/publications/epistemic-safety-scalable-oversight",
+      "excerpts": [
+        {
+          "text": "Epistemic safety in scalable oversight",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/title"
+          ]
+        },
+        {
+          "text": "AI Safety Institute",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/attribution",
+            "/record/outputs/2/attribution_note"
+          ]
+        },
+        {
+          "text": "We commissioned the CSIRO to research scalable oversight to draw new insights for the field of AI alignment.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-plan",
+      "title": "National AI Plan",
+      "url": "https://www.minister.industry.gov.au/t-ayres/media/national-ai-plan-empowering-all-australians",
+      "archive_url": "https://web.archive.org/web/20261016194944/https://www.minister.industry.gov.au/t-ayres/media/national-ai-plan-empowering-all-australians",
+      "excerpts": [
+        {
+          "text": "setting up the recently announced AI Safety Institute to monitor, test and share information on emerging AI capabilities, risks and harms",
+          "accessed": "2026-10-17",
+          "url": "https://web.archive.org/web/20261016194944/https://www.minister.industry.gov.au/t-ayres/media/national-ai-plan-empowering-all-australians",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-rapid-review-recs-2026",
+      "title": "Rapid Review into Australian Government arrangements for an AI‑driven cyber incident recommendations",
+      "url": "https://www.pmc.gov.au/resources/rapid-review-australian-government-arrangements-ai-driven-cyber-incident/rapid-review-australian-government-arrangements-ai-driven-cyber-incident-recommendations",
+      "excerpts": [
+        {
+          "text": "The Rapid Review into Australian Government arrangements for an AI-driven cyber incident examines the OpenAI cyber incident affecting Services Australia and outlines 18 recommendations to ensure Australia is better prepared for AI incidents of greater scale, complexity and consequence.",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.pmc.gov.au/resources/rapid-review-australian-government-arrangements-ai-driven-cyber-incident/rapid-review-australian-government-arrangements-ai-driven-cyber-incident-recommendations",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/title",
+            "/record/outputs/3/qualification_note",
+            "/record/national_partners/entries/3/how",
+            "/record/national_partners/entries/4/how",
+            "/record/national_partners/entries/5/how",
+            "/record/national_partners/entries/6/how"
+          ]
+        },
+        {
+          "text": "The Department of Foreign Affairs and Trade (DFAT), the Australian Signals Directorate (ASD), and the Department of Industry, Science and Resources (DISR), including Australia’s AI Safety Institute (AISI)",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.pmc.gov.au/resources/rapid-review-australian-government-arrangements-ai-driven-cyber-incident/rapid-review-australian-government-arrangements-ai-driven-cyber-incident-recommendations",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/7/name",
+            "/record/national_partners/entries/7/relation",
+            "/record/national_partners/entries/7/how",
+            "/record/national_partners/entries/7/acronym"
+          ]
+        },
+        {
+          "text": "continue engaging in international AI governance and standards-setting efforts",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.pmc.gov.au/resources/rapid-review-australian-government-arrangements-ai-driven-cyber-incident/rapid-review-australian-government-arrangements-ai-driven-cyber-incident-recommendations",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/7/relation",
+            "/record/national_partners/entries/7/how"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-rapid-review-release-2026",
+      "title": "Strengthening Australia against AI-driven cyber incidents",
+      "url": "https://www.minister.industry.gov.au/t-ayres/media/strengthening-australia-against-ai-driven-cyber-incidents",
+      "excerpts": [
+        {
+          "text": "The Rapid Review – undertaken by the Department of Prime Minister and Cabinet, in collaboration with the National Cyber Security Coordinator, Office of AI, Australian Signals Directorate, Australian AI Safety Institute, and Services Australia – makes 18 recommendations",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/t-ayres/media/strengthening-australia-against-ai-driven-cyber-incidents",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/attribution_note",
+            "/record/outputs/3/credit/institute_id",
+            "/record/national_partners/entries/3/name",
+            "/record/national_partners/entries/3/relation",
+            "/record/national_partners/entries/3/how",
+            "/record/national_partners/entries/4/name",
+            "/record/national_partners/entries/4/relation",
+            "/record/national_partners/entries/4/how",
+            "/record/national_partners/entries/5/name",
+            "/record/national_partners/entries/5/relation",
+            "/record/national_partners/entries/5/how",
+            "/record/national_partners/entries/6/name",
+            "/record/national_partners/entries/6/relation",
+            "/record/national_partners/entries/6/how"
+          ]
+        },
+        {
+          "text": "The Government accepts the recommendations and has commenced work to implement them.",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/t-ayres/media/strengthening-australia-against-ai-driven-cyber-incidents",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/7/relation",
+            "/record/national_partners/entries/7/how"
+          ]
+        },
+        {
+          "text": "Published Time: Tue, 2026-11-10 13:23",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/t-ayres/media/strengthening-australia-against-ai-driven-cyber-incidents",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/date",
+            "/record/outputs/3/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-rapid-review-report-2026",
+      "title": "Rapid Review into Australian Government arrangements for an AI-driven cyber incident",
+      "url": "https://www.pmc.gov.au/sites/default/files/resource/download/rapid-review-ai-cyber-incident.pdf",
+      "excerpts": [
+        {
+          "text": "in collaboration with the National Cyber Security Coordinator, ASD, AISI and Services Australia",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/attribution"
+          ]
+        },
+        {
+          "text": "On 22 September 2026, OpenAI participated in its first technical exchange with ASD, Services Australia, the AISI, and the NOCS",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/10/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "au-senate-estimates-eco-2026-10-29",
+      "title": "Senate Economics Legislation Committee, Estimates, 29/10/2026 (proof Hansard)",
+      "url": "https://parlinfo.aph.gov.au/parlInfo/download/committees/estimate/30044/toc_pdf/Economics%20Legislation%20Committee_2026_10_29.pdf;fileType=application%2Fpdf",
+      "excerpts": [
+        {
+          "text": "The AI Safety Institute's headcount is 29, so that's 27.4 FTE.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/staff/0/total",
+            "/record/staff/0/total_qualifier",
+            "/record/staff/0/as_of",
+            "/record/staff/0/description"
+          ]
+        },
+        {
+          "text": "We have seven staff working on evaluating models—6.4 FTE—and there are six staff in the regulatory engagement team—5.8 FTE.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/staff/0/technical",
+            "/record/staff/0/technical_qualifier",
+            "/record/staff/0/description"
+          ]
+        },
+        {
+          "text": "Dr Kate Conroy, General Manager, AI Safety Institute",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/staff/0/description",
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "The AI Safety Institute does have an MOU with Anthropic",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "We are just working through some of the more technical aspects of how they would then give us access to frontier models.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "we do have our technical partners that we work with to access Anthropic models",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "He referred to testing we did with our technical partners of frontier models in June of this year, within our first month of operation.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "I might take that on notice in terms of clarifying the specifics of the models, because our technical partners are part of that agreement.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-20",
+            "since": null
+          },
+          "supports": [
+            "/record/model_access/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-agentic-report",
+      "title": "International Joint Testing Exercise: Agentic Testing",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "depth-au-chart",
+      "title": "Organisation chart, effective 6 October 2026",
+      "url": "https://www.industry.gov.au/people/organisation-chart",
+      "excerpts": [
+        {
+          "text": "Dr Kate Conroy",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/name"
+          ]
+        },
+        {
+          "text": "Dr Kate Conroy\n\nAI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-au-forum",
+      "title": "AI Safety Forum",
+      "url": "https://www.minister.industry.gov.au/charlton/media/ai-safety-forum",
+      "excerpts": [
+        {
+          "text": "Kate Conroy",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/name"
+          ]
+        },
+        {
+          "text": "a top priority has been getting the AI Safety Institute (AISI) up and running with the right people to lead it. Because we are not building a think tank. We are building a national testing capability.\nIn Dr Kate Conroy, the Government has that person, and she is supported by a great team.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/name"
+          ]
+        },
+        {
+          "text": "Australia has established the AI Safety Institute.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/legal_basis/type",
+            "/record/legal_basis/state"
+          ]
+        },
+        {
+          "text": "The first is analysing and testing new AI models and applications. Here, as elsewhere, AISI has hit the ground running. It's already testing frontier AI models with technical partners. Not in year three. Not after a review. In its first month of operations.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/testing_capacity/modes/0/code"
+          ]
+        },
+        {
+          "text": "This month, Professor Paul Salmon, a leading international expert, will start as AISI's Safety Science Research Lead. The broader AISI team also includes experts who have worked at the UK AI Security Institute and Google DeepMind.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "One of AISI's key roles is to be a central expert capability that identifies those risks and builds a shared understanding of them across government so that policymakers and regulators can act with insight and evidence. This combines ongoing systems testing with active monitoring of risks and harms.",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/charlton/media/ai-safety-forum",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/9/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-au-home",
+      "title": "Department of Industry, Science and Resources homepage",
+      "url": "https://www.industry.gov.au/",
+      "excerpts": [
+        {
+          "text": "Australia’s AI Safety Institute has released new research to better understand emerging risks associated with AI systems.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/outputs/2/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-au-uk-mou",
+      "title": "Australia and UK partner to strengthen AI safety and security",
+      "url": "https://www.minister.industry.gov.au/t-ayres/media/australia-and-uk-partner-strengthen-ai-safety-and-security",
+      "excerpts": [
+        {
+          "text": "The Australian and UK Governments have today signed a new Memorandum of Understanding (MoU)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/2/counterparty",
+            "/record/agreements/2/state"
+          ]
+        },
+        {
+          "text": "This MoU brings Australia’s AI Safety Institute and the UK AI Security Institute together",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/2/participation",
+            "/record/agreements/2/scope",
+            "/record/claims/6/text"
+          ]
+        },
+        {
+          "text": "Published Time: Mon, 2026-05-25 09:00",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://www.minister.industry.gov.au/t-ayres/media/australia-and-uk-partner-strengthen-ai-safety-and-security",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/2/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-ca-au-mou",
+      "title": "Memorandum of understanding on AI safety collaboration between Australia and Canada",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute/memorandum-understanding-between-department-industry-science-and-resources-australia-and-department",
+      "excerpts": [
+        {
+          "text": "Signed in duplicate at New Delhi, India, on the 20th day of February 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/state",
+            "/record/agreements/3/date"
+          ]
+        },
+        {
+          "text": "respective AI Safety Institutes",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/participation"
+          ]
+        },
+        {
+          "text": "a framework for technical cooperation in the field of AI safety",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/scope"
+          ]
+        },
+        {
+          "text": "The Department of Industry, Science and Resources of Australia, and the Department of Industry of Canada ('the Participants' and each a 'Participant') have reached the following understanding:",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/counterparty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epoch-frontier-models",
+      "title": "Data on AI models: frontier models (CSV)",
+      "url": "https://epoch.ai/data/frontier_ai_models.csv",
+      "excerpts": [
+        {
+          "text": "Claude 3.5 Sonnet,2024-06-20,Anthropic",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/model_access/developer_agreements/0/epoch_model"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ecb-exchange-rates-2025",
+      "title": "ECB euro foreign exchange reference rates, annual averages for 2025",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.AUD+CAD+GBP+INR+JPY+KRW+MYR+NOK+SGD+USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+      "excerpts": []
+    },
+    {
+      "id": "j8-au-asd-plan-render",
+      "title": "ASD Corporate Plan 2026-27 | Australian Signals Directorate",
+      "url": "https://www.asd.gov.au/about/accountability-governance/publications/asd-corporate-plan-2026-27",
+      "excerpts": [
+        {
+          "text": "ASD is the Australian Government’s _**leading cyber security agency**_",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/cyber_agency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-multilingual-2025",
+      "title": "Multilingual joint testing exercise: Improving Methodologies for LLM Evaluations Across Global Languages (evaluation report)",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "archive_url": "https://web.archive.org/web/20260919113540/https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "r3-au-ca-mou-domestic",
+      "title": "Australia and Canada agree to strengthen cooperation on AI safety",
+      "url": "https://www.industry.gov.au/news/australia-and-canada-agree-strengthen-cooperation-ai-safety",
+      "excerpts": [
+        {
+          "text": "governments will collaborate through their AI safety institutes",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/participation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-naaimes-best-practice",
+      "title": "Best Practice: Automated Evaluation of Large Language Models",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2026/07/NAAIMES-Best-Practice-Document.pdf",
+      "excerpts": [
+        {
+          "text": "Best Practice:\nAutomated Evaluation of Large\nLanguage Models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-asd",
+      "title": "About",
+      "url": "https://www.asd.gov.au/about",
+      "excerpts": [
+        {
+          "text": "Defend Australia from global threats and advance Australia’s national interests through the provision of foreign signals intelligence, cyber security and offensive cyber operations, as directed by Government.",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-csiro",
+      "title": "About - CSIRO",
+      "url": "https://www.csiro.au/en/about",
+      "excerpts": [
+        {
+          "text": "AUSTRALIA’S NATIONAL SCIENCE AGENCY",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-dfat",
+      "title": "What we do",
+      "url": "https://www.dfat.gov.au/about-us/department/what-we-do",
+      "excerpts": [
+        {
+          "text": "The Department of Foreign Affairs and Trade (DFAT) promotes and protects Australia’s international interests to support our security and prosperity.",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.dfat.gov.au/about-us/department/what-we-do",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/7/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-naic",
+      "title": "About the National AI Centre",
+      "url": "https://www.ai.gov.au/about/about-national-ai-centre",
+      "excerpts": [
+        {
+          "text": "The National AI Centre (NAIC) is the Australian Government’s lead body helping organisations understand and use AI safely.",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/what"
+          ]
+        },
+        {
+          "text": "NAIC develops and shares clear guidance, tools, templates, practical examples, programs and trusted information",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-ncsc",
+      "title": "National Cyber Security Coordinator",
+      "url": "https://www.homeaffairs.gov.au/about-us/our-portfolios/cyber-security/cyber-coordinator",
+      "excerpts": [
+        {
+          "text": "The National Cyber Security Coordinator (the Coordinator), supported by the National Office of Cyber Security, drives forward the necessary work to ensure Australia is best positioned to respond to the opportunities and threats of the digital age.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/what",
+            "/record/national_partners/notes"
+          ]
+        },
+        {
+          "text": "and triages action in response to a significant cyber incident",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-oai",
+      "title": "Office of AI",
+      "url": "https://www.pmc.gov.au/domestic-policy/office-ai",
+      "excerpts": [
+        {
+          "text": "The Office of AI was established in the Department of the Prime Minister and Cabinet on 15 July 2026.",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.pmc.gov.au/domestic-policy/office-ai",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/5/what"
+          ]
+        },
+        {
+          "text": "The office will coordinate across Australian Government agencies to design and legislate the new Australia artificial intelligence (AI) standard",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.pmc.gov.au/domestic-policy/office-ai",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/5/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-pmc",
+      "title": "About us",
+      "url": "https://www.pmc.gov.au/about-us",
+      "excerpts": [
+        {
+          "text": "To support the Prime Minister, the Cabinet and our portfolio ministers to improve the lives of all Australians, advance Australia’s interests, and keep our country safe and prosperous.",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.pmc.gov.au/about-us",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/3/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-au-sa",
+      "title": "Who we are",
+      "url": "https://www.servicesaustralia.gov.au/who-we-are?context=22",
+      "excerpts": [
+        {
+          "text": "We are Services Australia, an Australian Government agency within the Finance portfolio. We support Australians by efficiently delivering high-quality, accessible services and payments on behalf of the government.",
+          "accessed": "2026-11-10",
+          "url": "https://r.jina.ai/https://www.servicesaustralia.gov.au/who-we-are?context=22",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-10",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/6/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wb-gdp-lcu-2025",
+      "title": "GDP (current LCU) (NY.GDP.MKTP.CN), 2025, for Australia, Canada, Korea, United Kingdom and United States",
+      "url": "https://api.worldbank.org/v2/country/AUS;CAN;GBR;KOR;USA/indicator/NY.GDP.MKTP.CN?date=2025&format=json",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-au-aisi-identifier",
+      "title": "Australian AI Safety Institute: Wikidata identity",
+      "url": "https://www.wikidata.org/wiki/Q139585162",
+      "excerpts": []
+    }
+  ]
+}

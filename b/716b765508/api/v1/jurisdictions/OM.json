@@ -1,0 +1,360 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "716b7655085469b9155ab082742f99985e836e96",
+      "built": "2026-11-21T18:33:19Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/144",
+  "record": {
+    "id": "OM",
+    "name": "Oman",
+    "institute_id": null,
+    "summary": "No qualifying institute identified. The 2025 policy on safe and ethical use of AI assigns monitoring to the transport and communications ministry and sector regulators, and launch coverage of a February 2026 UNESCO readiness assessment names no testing body.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. No qualifying institute was identified. The retrieved ministerial AI policy sets developer/user risk and assessment obligations with ministry and sector-regulator oversight; it does not designate a national institute for the safety of advanced models. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-19",
+          "scope": "Verified two leads from a blind re-check: the Cabinet's approval of the national AI programme on 19 September 2024, and the international centre for AI ethics and governance planned in the programme's second phase (2026 to 2030). Neither finding establishes a qualifying institute. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "ar",
+          "national_or_official": true,
+          "query": "عمان معهد سلامة الذكاء الاصطناعي تقييم النماذج حكومة",
+          "source_ids": [
+            "om-mtcit-policy-2025"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Oman national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [
+            "om-mtcit-policy-2025"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded ar query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "om-mtcit-policy-2025"
+      ],
+      "governance_note": "The ministry circular assigns safe and ethical AI-use responsibilities and monitoring; it does not establish a dedicated evaluator of advanced models. The annex was not included in the retrieved text."
+    },
+    "source_ids": [
+      "om-mtcit-policy-2025",
+      "om-ona-ram-2026",
+      "om-mtcit-policy-page",
+      "om-mtcit-ai-experts-committee",
+      "om-mtcit-ai-sector-page",
+      "om-mtcit-ai-programme-2026-2030"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Transport, Communications and Information Technology",
+        "role": "It issued the AI policy (Circular 11/2025, 9 April 2025); it monitors compliance by government units and reports to the Council of Ministers.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "om-ona-ram-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-e392f09174265b35b89cc4b62f334d88",
+        "citations": {
+          "name": [
+            "om-ona-ram-2026"
+          ],
+          "role": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "om-ona-ram-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "om-ona-ram-2026"
+          ]
+        }
+      },
+      {
+        "name": "Sector regulators",
+        "role": "They monitor compliance with the policy by the institutions in the sectors they supervise.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-467fa5e9fe2f58de883dcb7c25eb5f63",
+        "source_ids": [
+          "om-mtcit-policy-2025"
+        ],
+        "citations": {
+          "name": [],
+          "role": [
+            "om-mtcit-policy-2025"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "om-mtcit-policy-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "om-mtcit-policy-2025"
+          ]
+        }
+      },
+      {
+        "name": "AI Experts Committee",
+        "role": "It advises decision-makers on AI opportunities and challenges. It is an advisory committee formed by the transport and communications ministry under Ministerial Decision 124/2025, with a three-year term. No testing role was described.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-d37c350a6dc35c38b542395d4d853d07",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "notes": "The policy requires developers to run pre-deployment ethical, social and environmental impact assessments and periodic accuracy checks including independent technical reviews, but it creates no testing body, safety institute or committee and takes the form of a circular. The UNESCO readiness assessment results were launched on 15 February 2026 as the national reference for AI governance; the report itself was not opened (HTTP 403). The AI Experts Committee (Ministerial Decision 124/2025) is advisory with a three-year term and has no testing mandate. The Cabinet approved the National Programme for AI and Advanced Digital Technologies on 19 September 2024. The programme's second phase, for 2026 to 2030, plans an international centre for AI ethics and governance based in Oman. Initiative 6 gives the centre no task of testing or evaluating models and does not state its operator or completion date.",
+    "next_check": {
+      "date": "2027-02-15",
+      "reason": "Whether Oman acts on the UNESCO recommendations (for example mandatory impact assessments) or creates an AI oversight body."
+    },
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "145",
+      "subregion": "Western Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 5494691,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "OMN",
+    "m49": "512",
+    "wikidata": "Q842",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "summary": [],
+      "check": [],
+      "related_bodies": [
+        "om-mtcit-policy-2025",
+        "om-ona-ram-2026"
+      ],
+      "notes": [
+        "om-mtcit-ai-sector-page"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "om-mtcit-policy-2025",
+        "om-ona-ram-2026",
+        "om-mtcit-ai-sector-page"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "om-mtcit-policy-2025",
+        "om-ona-ram-2026",
+        "om-mtcit-policy-page",
+        "om-mtcit-ai-experts-committee",
+        "om-mtcit-ai-sector-page",
+        "om-mtcit-ai-programme-2026-2030"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "om-mtcit-ai-experts-committee",
+      "title": "AI Experts Committee (لجنة خبراء الذكاء الاصطناعي) | MTCIT",
+      "title_en": "AI Experts Committee | MTCIT",
+      "url": "https://mtcit.gov.om/ar/4/12/91/1499",
+      "archive_url": "https://web.archive.org/web/20261017031923/https://mtcit.gov.om/ar/4/12/91/1499",
+      "excerpts": []
+    },
+    {
+      "id": "om-mtcit-ai-programme-2026-2030",
+      "title": "البرنامج الوطني للذكاء الاصطناعي المرحلة الثانية (2026 – 2030)",
+      "title_en": "National Programme for Artificial Intelligence, second phase (2026 to 2030)",
+      "url": "https://mtcit.gov.om/web/content/69712",
+      "excerpts": []
+    },
+    {
+      "id": "om-mtcit-ai-sector-page",
+      "title": "Artificial Intelligence (Ministry Sector)",
+      "url": "https://mtcit.gov.om/sectors?sector=artificial_intelligence",
+      "excerpts": [
+        {
+          "text": "approved by the Cabinet on 19 September 2024",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-19",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "om-mtcit-policy-2025",
+      "title": "General Policy for the Safe and Ethical Use of Artificial Intelligence Systems (MTCIT Circular 11/2025)",
+      "url": "https://qanoon.om/p/2025/mtcit20259901/",
+      "archive_url": "https://web.archive.org/web/20261017025818/https://qanoon.om/p/2025/mtcit20259901/",
+      "excerpts": [
+        {
+          "text": "تتولى الجهات التنظيمية مراقبة التزام المؤسسات في القطاعات التي تشرف عليها بالسياسة",
+          "accessed": "2026-11-14",
+          "gloss": "regulatory bodies monitor the compliance of institutions in the sectors they supervise with the policy",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "om-mtcit-policy-page",
+      "title": "General Policy for the Safe and Ethical Use of Artificial Intelligence Systems | MTCIT",
+      "url": "https://www.mtcit.gov.om/library-3/legislations-policies-8/policies-73/general-policy-for-the-safe-and-ethical-use-of-artificial-intelligence-systems-291",
+      "archive_url": "https://web.archive.org/web/20260607135435/https://mtcit.gov.om/library-3/legislations-policies-8/policies-73/general-policy-for-the-safe-and-ethical-use-of-artificial-intelligence-systems-291",
+      "excerpts": []
+    },
+    {
+      "id": "om-ona-ram-2026",
+      "title": "Results of the UNESCO Readiness Assessment Methodology report launched",
+      "url": "https://www.omannews.gov.om/topics/en/79/show/127042/",
+      "archive_url": "https://web.archive.org/web/20261017025907/https://www.omannews.gov.om/topics/en/79/show/127042/",
+      "excerpts": [
+        {
+          "text": "the Ministry of Transport, Communications and Information Technology celebrated the official launch of the UNESCO Readiness Assessment Methodology (RAM) report results",
+          "url": "https://web.archive.org/web/20261017025907/https://www.omannews.gov.om/topics/en/79/show/127042/",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

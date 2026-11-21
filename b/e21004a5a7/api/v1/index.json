@@ -1,0 +1,117 @@
+{
+  "api_version": "1",
+  "dataset": {
+    "name": "aisi-tracker",
+    "title": "AI Security Institutes tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "e21004a5a7b5e59656e44227cc212e8c66554b48",
+      "built": "2026-11-21T14:25:42Z"
+    }
+  },
+  "versioning": "api/v1/ follows the major of dataset.version, which changes only with a breaking schema change; a breaking change will get a new path, and this one is to stay online unchanged.",
+  "files": [
+    {
+      "path": "index.json",
+      "description": "This index: files, URL patterns and how to read the records."
+    },
+    {
+      "path": "jurisdictions.json",
+      "description": "Every jurisdiction in one compact list: id, name, status, status_since and AISI id (institute)."
+    },
+    {
+      "path": "jurisdictions/{id}.json",
+      "description": "Everything on one jurisdiction (ISO 3166-1 alpha-2 code, EU for the European Union): its record as published in the full dataset, its AISI's record under institute (null when there is no AISI), and the sources both cite with their supporting excerpts."
+    },
+    {
+      "path": "institutes/{id}.json",
+      "description": "One AISI as published in the full dataset, with the sources it cites and their supporting excerpts."
+    }
+  ],
+  "institute_ids": [
+    "gb-aisi",
+    "fr-inesia",
+    "de-aisi",
+    "es-isia",
+    "no-ki-norge",
+    "eu-ai-office",
+    "us-caissi",
+    "ca-caisi",
+    "jp-aisi",
+    "kr-aisi",
+    "sg-aisi",
+    "au-aisi",
+    "my-aisafe",
+    "in-aisi",
+    "ke-ai-safety-institute"
+  ],
+  "full_dataset": {
+    "path": "../../data/aisi.json",
+    "schema": "../../data/aisi.schema.json",
+    "datapackage": "../../data/datapackage.json"
+  },
+  "notes": [
+    "Paths are relative to this file.",
+    "record is the record exactly as in the full dataset (full_dataset.path) at aisi_json_pointer; field meanings are in full_dataset.schema; institute in jurisdictions.json is record.institute_id.",
+    "record.citations lists, per field, the source IDs that support it; sources gives each cited source with its quotations, and each excerpt's supports are JSON pointers into this file (under /record, or /institute/record for the institute a jurisdiction file embeds)."
+  ],
+  "orientation": [
+    {
+      "heading": "What this is",
+      "text": "Which states have an AI Security Institute (AISI), covering all 193 UN member states plus Taiwan and the EU AI Office, with funding, staff and leadership where published. Every record cites its sources. Published by Accelerate Europe; version 1.1.2-dev, data as of 20 November 2026."
+    },
+    {
+      "heading": "What's in the data",
+      "text": "- Jurisdiction (`jurisdictions`): the AISI status of one of the 193 UN member states, Taiwan or the EU.\n- AISI (`institutes`): a body that meets the definition below, or a named body planned or formally proposed for that role. We count a body as an AI Security Institute (AISI) if a national government or an international organisation, such as the EU, has tasked it with testing general-purpose or frontier AI models for their capabilities and risks, or has named it its AI safety institute or its AI security institute. Being a regulator, certification body or cyber security agency is not enough on its own.\n- Related body (a jurisdiction's `related_bodies`): a body that could be mistaken for an AISI, such as an AI Act authority. Its record says why it does not qualify.\n- Output (an AISI's `outputs`): a report, joint test, guidance, evaluation, tool or dataset credited to the AISI or a predecessor. Joint work appears under each of the involved AISIs.\n- Agreement (an AISI's `agreements`): an agreement that names the AISI as a party or implementer. A company's pledge to give the AISI model access is listed too. Each is signed, announced or pledged (`state`).\n- Network milestone (`dataset.network_milestones`): an event of the international network of AISIs, such as its founding or a joint testing exercise. It does not by itself show which members took part.\n- Source (`sources`): a document we cite, with the passages we quote from it. Each quoted passage names the facts it supports (`supports`).\n- Claim (a jurisdiction's or an AISI's `claims`): one sentence with the one quoted passage that supports it, and a code where a code fits. A state with none identified may have one development claim: an act quoted from the state's own primary sources, with its date (`act`, `date`), coded from `dataset.vocabularies.development`.\n\nJurisdiction and AISI IDs never change. New codes in `dataset.vocabularies` can appear in a minor version; removing or renaming one is a major version, except fields and vocabularies listed in `dataset.provisional`."
+    },
+    {
+      "heading": "Sources and dates",
+      "text": "The sources behind each field are listed by ID in `citations`; an empty list means we have no quoted passage for that field. Each source has a title, its address (`url`), a copy saved in a web archive where one exists (`archive_url`) and the passages we quote from it (`excerpts`), each with an English translation when the source is in another language (`gloss`). The data date is `dataset.as_of`. To let others check an answer drawn from this data, give the data date and each source's title and address. Each jurisdiction and AISI records the date of its last full re-check (`check.last_checked`; see the freshness rule in `dataset.method`). Where `check.last_checked_basis` is historical_upper_bound, the last check was on or before that date."
+    },
+    {
+      "heading": "Status",
+      "text": "A jurisdiction's status (`status`) is one of established, planned, proposed, exploring or none_identified, defined in `dataset.status_definitions`. Where recorded, the date the current status began (`status_since`) is as precise as its source (a year, a month or a day)."
+    },
+    {
+      "heading": "Searches that found nothing",
+      "text": "These four values mean our searches found nothing. They do not show that nothing exists.\n\n- None identified (`none_identified`): no current qualifying government step towards an AISI.\n- Not published (`not_published`): no published information for that field.\n- None found (`none_found`): no matching evidence for that field, such as model access.\n- None disclosed (a funding entry of `kind` none_disclosed): no published budget.\n\nAn omitted field or null means not known or not published, never zero or false. For budget and staff, Not published means that no figure was found in the sources checked; these searches are not yet logged with dates, unlike those for testing and access. Some fields give null, omission or an empty list another meaning, such as not applicable; their schema descriptions say which."
+    },
+    {
+      "heading": "Confidence",
+      "text": "We rate the evidence as high, medium or low. Every jurisdiction's status has a rating (`status_confidence`), set by the status confidence rule in `dataset.method`. Funding amounts, staff counts and leadership entries have one where recorded (`confidence`); the schema defines its levels."
+    },
+    {
+      "heading": "Funding and staff",
+      "text": "An AISI's funding (`funding`) and staff (`staff`) lists include every recorded figure, including historical figures and proposals, so the first or last entry is not necessarily the current one. The `display` fields pick the current figures, the ones the page shows, by ID (null when none qualifies):\n\n- `display.budget`: the funding entry shown as the budget\n- `display.comparison_funding`: the annual funding entry used to compare AISIs; its euro estimate is `eur_per_year_est`\n- `display.staff`: the staff entry shown on the page\n- `display.total_staff` and `display.technical_staff`: the latest total and technical staff counts\n\nNot every amount is the AISI's own adopted budget. A figure can be another body's or a wider programme's money (`coverage`: not_institute_specific), only part of the budget (`coverage`: component) or proposed rather than adopted (`commitment`: proposed)."
+    },
+    {
+      "heading": "Leadership and national partners",
+      "text": "An AISI's head (`head`), the ministry-level body it reports to (`reports_to`) and the national bodies it is made up of or works with (`national_partners`) each have a state: stated, not published or not applicable (`state`). The head's name and title are in the AISI's list of named leaders, such as directors and their deputies (`people`, linked by `head.person_id`). Each partner's relation is member (a constituent of a federated AISI), works with, or planned (`relation`). Only the national cyber security agency, marked `cyber_agency`, is searched for at every AISI, so a missing partner of another kind does not mean there is none."
+    },
+    {
+      "heading": "Functions",
+      "text": "An AISI's functions (`functions`) give each current (not retired) code in `dataset.vocabularies.function` once, in that order, with a value (`value`): mandate (a text assigns it), activity (a text shows it done), both, not_found (checked, no claim found) or not_coded (not yet checked against that code). The claims behind a value are listed by ID (`claim_ids`). A function claim on a jurisdiction is about the related body its `body_id` names. The functions and their code list are provisional (`dataset.provisional`): codes may be added, split, renamed or removed in a minor version, and a retired code stays in the list with `deprecated` and `replaced_by`."
+    },
+    {
+      "heading": "Licence",
+      "text": "Code: MIT (`LICENSE`). Data, page text and documentation: CC BY 4.0 (`LICENSE-DATA`; Creative Commons Attribution 4.0, https://creativecommons.org/licenses/by/4.0/), with attribution. Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data."
+    },
+    {
+      "heading": "Cite as",
+      "text": "This build is unpublished. Do not cite it."
+    }
+  ],
+  "status_definitions": {
+    "established": "A national government or an international organisation, such as the EU, has created or designated a body to test general-purpose or frontier AI models for their capabilities and risks, or has named a body as its AI safety institute or its AI security institute.",
+    "planned": "The government has adopted a commitment to create or designate a named body with that task or that name.",
+    "proposed": "The government has formally proposed such a body, and approval is pending.",
+    "exploring": "The government is studying or drafting plans for such a body, or a government-appointed advisory commission has recommended one.",
+    "none_identified": "Our searches found no current government decision, commitment, formal proposal, study, draft plan or government-appointed advisory recommendation for such a body."
+  }
+}

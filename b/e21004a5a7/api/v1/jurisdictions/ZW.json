@@ -1,0 +1,318 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "data-1.1.2",
+      "commit": "e21004a5a7b5e59656e44227cc212e8c66554b48",
+      "built": "2026-11-21T14:25:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/194",
+  "record": {
+    "id": "ZW",
+    "name": "Zimbabwe",
+    "summary": "No qualifying institute identified. The National AI Strategy 2026-2030 was launched in March 2026; the report read names no safety or testing body, and speakers called for AI safety rules and independent oversight as future needs.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. The source type was corrected to primary because the account describes the organisation's own work. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Zimbabwe\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Zimbabwe national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "us-caissi",
+            "zw-un-ai-strategy-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "zw-un-ai-strategy-2026"
+      ],
+      "governance_note": "The UN country team in Zimbabwe describes the national AI-strategy launch and its own participation. The strategy includes plans to operationalise the Data Protection Act; coordination is described as an implementation requirement, not an achieved result."
+    },
+    "source_ids": [
+      "zw-un-ai-strategy-2026",
+      "zw-businesstimes-2025"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of ICT, Postal and Courier Services",
+        "role": "It owns the national AI strategy and policy; it is not an evaluation body.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-63b209a8cfd7509eafaeb4e3952e82d1",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "National Digital Regulatory Committee (under POTRAZ)",
+        "role": "The 2025 report describes a planned committee to oversee rollout of the national AI strategy; no mandate to evaluate advanced models was identified in the sources reviewed.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "zw-businesstimes-2025"
+        ],
+        "kind": "other",
+        "id": "related_bodies-8eff18661526505e93cd916a32778b0a",
+        "citations": {
+          "name": [],
+          "role": [
+            "zw-businesstimes-2025"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "zw-businesstimes-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "zw-businesstimes-2025"
+          ]
+        }
+      },
+      {
+        "name": "AI Strategy Implementation Office (Ministry of ICT)",
+        "role": "It is a planned office to oversee the rollout of the national AI strategy; establishment was not verified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "zw-businesstimes-2025"
+        ],
+        "kind": "other",
+        "id": "related_bodies-920e476ea45b5dc88b7165140d8efc30",
+        "citations": {
+          "name": [],
+          "role": [
+            "zw-businesstimes-2025"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "zw-businesstimes-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "zw-businesstimes-2025"
+          ]
+        }
+      }
+    ],
+    "notes": "The UN account covers the strategy launch. The Business Times report of 16 October 2025 describes planned implementation and regulatory structures; their establishment was not verified from a primary source.",
+    "next_check": {
+      "date": "2027-03-31",
+      "reason": "Check the strategy's implementation structure for any evaluation function."
+    },
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 16950795,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "ZWE",
+    "m49": "716",
+    "wikidata": "Q954",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [],
+      "related_bodies": [
+        "zw-businesstimes-2025"
+      ],
+      "notes": [],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "zw-businesstimes-2025"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "us-caissi",
+        "zw-un-ai-strategy-2026",
+        "zw-businesstimes-2025",
+        "ov-wikipedia",
+        "gb-approach-2024"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "us-caissi",
+      "title": "Center for Advancing Innovation and Standards for Super Intelligence (CAISSI)",
+      "url": "https://www.nist.gov/caissi",
+      "archive_url": "https://web.archive.org/web/20261015185309/https://www.nist.gov/caissi",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    },
+    {
+      "id": "zw-businesstimes-2025",
+      "title": "Govt unveils national AI strategy",
+      "url": "https://businesstimes.co.zw/govt-unveils-national-ai-strategy/",
+      "archive_url": "https://web.archive.org/web/20261017040730/https://businesstimes.co.zw/govt-unveils-national-ai-strategy/",
+      "excerpts": [
+        {
+          "text": "institutional structures will be established to oversee the rollout of the Strategy, including the National Digital Regulatory Committee",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/role"
+          ]
+        },
+        {
+          "text": "institutional structures will be established to oversee the rollout of the Strategy, including the National Digital Regulatory Committee under the Postal and Telecommunications Regulatory Authority of Zimbabwe (POTRAZ) and the Artificial Intelligence Strategy Implementation Office",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zw-un-ai-strategy-2026",
+      "title": "Zimbabwe unveils 2026-2030 AI strategy to advance inclusive digital transformation",
+      "url": "https://zimbabwe.un.org/en/311859-zimbabwe-unveils-2026%E2%80%932030-ai-strategy-advance-inclusive-digital-transformation",
+      "archive_url": "https://web.archive.org/web/20261017035924/https://zimbabwe.un.org/en/311859-zimbabwe-unveils-2026%E2%80%932030-ai-strategy-advance-inclusive-digital-transformation",
+      "excerpts": []
+    }
+  ]
+}

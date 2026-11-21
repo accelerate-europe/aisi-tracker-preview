@@ -1,0 +1,326 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "716b7655085469b9155ab082742f99985e836e96",
+      "built": "2026-11-21T18:33:19Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/14",
+  "record": {
+    "id": "BE",
+    "name": "Belgium",
+    "kind": "state",
+    "europe_scope": true,
+    "eu_member": true,
+    "population": {
+      "value": 11883495,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "institute_id": null,
+    "next_check": {
+      "date": "2027-10-16",
+      "reason": "Routine yearly re-check of a state where an institute is plausible (in Europe, the G20 or the OECD, or a signatory of the Bletchley Declaration)."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English, French, Dutch and German, with the economy ministry's press release listing (newest 4 November). No qualifying item was found. The undated implementation timetable of the telecoms regulator BIPT was read and not taken as a new national designation. The final Belgian designation remains to be followed up. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Belgium \"AI safety institute\" government",
+          "source_ids": [
+            "negative-second-be-2026",
+            "ov-wikipedia",
+            "catalogue-gb-78"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Belgique institut sécurité intelligence artificielle stratégie",
+          "source_ids": [
+            "negative-second-be-2026",
+            "ov-wikipedia",
+            "catalogue-gb-78"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded fr query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: BE-search = searches 1, 2 (en, fr). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "be-parliament-ai-designation-oct2026"
+      ],
+      "governance_note": "The minister's parliamentary answer describes pending formal AI Act authority designation. It is governance evidence, not an official statement that no institute exists.",
+      "log": []
+    },
+    "source_ids": [
+      "be-parliament-ai-designation-oct2026",
+      "negative-second-be-2026",
+      "ai-act-tracker"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "155",
+      "subregion": "Western Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "BEL",
+    "m49": "056",
+    "wikidata": "Q31",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "related_bodies": [
+      {
+        "name": "Institut belge des services postaux et des télécommunications (IBPT/BIPT)",
+        "name_en": "Belgian Institute for Postal Services and Telecommunications (IBPT/BIPT)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "be-parliament-ai-designation-oct2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "proposed",
+        "authority_roles": [
+          "market_surveillance",
+          "notifying"
+        ],
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-6713d36a74925313b05d8bebcda3ffc3",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "be-parliament-ai-designation-oct2026"
+          ],
+          "authority_roles": [],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "be-parliament-ai-designation-oct2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "be-parliament-ai-designation-oct2026"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. Belgian Institute for Postal Services and Telecommunications (IBPT/BIPT) is proposed as its AI Act market-surveillance authority and notifying authority.",
+    "notes": "Checked in full on or before 16 October 2026, searching in French and English.\n\nNext check due by 16 October 2027.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "eu_member": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "institute_id": [],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "related_bodies": [
+        "be-parliament-ai-designation-oct2026"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "be-parliament-ai-designation-oct2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "be-parliament-ai-designation-oct2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "ov-wikipedia",
+        "catalogue-gb-78",
+        "eu-ai-act-authorities-2026",
+        "be-parliament-ai-designation-oct2026",
+        "negative-second-be-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "be-parliament-ai-designation-oct2026",
+      "title": "Commission de l’Économie, 6 octobre 2026, question 05",
+      "title_en": "Economy Committee, 6 October 2026, question 05",
+      "url": "https://www.dekamer.be/doc/CCRI/html/56/ic465x.html",
+      "excerpts": [
+        {
+          "text": "La Belgique n'a pas encore procédé à cette désignation formelle.",
+          "gloss": "Belgium has not yet made this formal designation.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-gb-78",
+      "title": "AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents",
+      "url": "https://arxiv.org/abs/2410.09024",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": []
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,BE,2025,11883495",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative-second-be-2026",
+      "title": "Agir sur l’IA plutôt que la subir : la Belgique se dote d’une stratégie 2.0 | Vanessa Matz",
+      "title_en": "Act on AI rather than be subjected to it: Belgium puts a 2.0 strategy in place | Vanessa Matz",
+      "url": "https://matz.belgium.be/fr/actualites/agir-sur-lia-plutot-que-la-subir-la-belgique-se-dote-dune-strategie-20",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

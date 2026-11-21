@@ -1,0 +1,1022 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "2589d0f846dca60f4ca3d524d89c5430cc9bbb46",
+      "built": "2026-11-21T16:56:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/8",
+  "record": {
+    "id": "IT",
+    "name": "Italy",
+    "kind": "state",
+    "europe_scope": true,
+    "eu_member": true,
+    "population": {
+      "value": 58943464,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Agenzia per la cybersicurezza nazionale (ACN)",
+        "name_en": "National Cybersecurity Agency (ACN)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "it-dlgs179-2026",
+          "it-dlgs179-2026-art5",
+          "it-dlgs179-2026-art6",
+          "it-gu-law132-2025-art20",
+          "it-law132-article20",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "decree",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-d0f364f988eb57f3ae4326d78d0df766",
+        "designation_note": "Article 20(2), Law 132/2025, first assigned these roles, effective 10 October 2025.",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [
+            "it-dlgs179-2026-art5"
+          ],
+          "kind": [],
+          "id": [],
+          "designation_note": [
+            "it-law132-article20",
+            "it-gu-law132-2025-art20"
+          ],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026-art5",
+            "it-gu-law132-2025-art20"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026",
+            "it-dlgs179-2026-art5",
+            "it-dlgs179-2026-art6",
+            "it-gu-law132-2025-art20"
+          ]
+        }
+      },
+      {
+        "name": "Agenzia per l'Italia digitale (AgID)",
+        "name_en": "Agency for Digital Italy (AgID)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "it-dlgs179-2026",
+          "it-dlgs179-2026-art4",
+          "it-gu-law132-2025-art20",
+          "it-law132-article20",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "decree",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-86ccb972e5f052fb83f1cd9a4847f890",
+        "designation_note": "Article 20(2), Law 132/2025, first assigned the role.",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [
+            "it-dlgs179-2026-art4"
+          ],
+          "kind": [],
+          "id": [],
+          "designation_note": [
+            "it-law132-article20",
+            "it-gu-law132-2025-art20"
+          ],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026-art4",
+            "it-gu-law132-2025-art20"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026",
+            "it-dlgs179-2026-art4",
+            "it-gu-law132-2025-art20"
+          ]
+        }
+      },
+      {
+        "name": "Banca d'Italia",
+        "name_en": "Bank of Italy",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "it-dlgs179-2026",
+          "it-dlgs179-2026-art5",
+          "it-gu-law132-2025-art20",
+          "it-law132-article20",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "decree",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-cfb18691f52652f9b1cf8001f6aa073a",
+        "designation_note": "Article 20, Law 132/2025, kept the market surveillance role of the Banca d'Italia, CONSOB and IVASS under Article 74(6) of the AI Act.",
+        "role": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, as the competent authority for high-risk AI systems used in providing loans or other financial services governed by the consolidated banking law.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [
+            "it-dlgs179-2026-art5"
+          ],
+          "kind": [],
+          "id": [],
+          "designation_note": [
+            "it-law132-article20",
+            "it-gu-law132-2025-art20"
+          ],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026-art5",
+            "it-gu-law132-2025-art20"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026",
+            "it-dlgs179-2026-art5",
+            "it-gu-law132-2025-art20"
+          ]
+        }
+      },
+      {
+        "name": "CONSOB",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "it-dlgs179-2026",
+          "it-dlgs179-2026-art5",
+          "it-gu-law132-2025-art20",
+          "it-law132-article20",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "decree",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-51b3a2a2081650b98424fc5125a8ce28",
+        "designation_note": "Article 20, Law 132/2025, kept the market surveillance role of the Banca d'Italia, CONSOB and IVASS under Article 74(6) of the AI Act.",
+        "role": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, as the competent authority for high-risk AI systems used in providing financial services governed by the consolidated law on financial intermediation.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [
+            "it-dlgs179-2026-art5"
+          ],
+          "kind": [],
+          "id": [],
+          "designation_note": [
+            "it-law132-article20",
+            "it-gu-law132-2025-art20"
+          ],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026-art5",
+            "it-gu-law132-2025-art20"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026",
+            "it-dlgs179-2026-art5",
+            "it-gu-law132-2025-art20"
+          ]
+        }
+      },
+      {
+        "name": "IVASS",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "it-dlgs179-2026",
+          "it-dlgs179-2026-art5",
+          "it-gu-law132-2025-art20",
+          "it-law132-article20",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "decree",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-4e74849e95025a8a87dd5a67d9253985",
+        "designation_note": "Article 20, Law 132/2025, kept the market surveillance role of the Banca d'Italia, CONSOB and IVASS under Article 74(6) of the AI Act.",
+        "role": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, as the competent authority for high-risk AI systems used in insurance or reinsurance business and in distributing insurance products governed by the Private Insurance Code.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [
+            "it-dlgs179-2026-art5"
+          ],
+          "kind": [],
+          "id": [],
+          "designation_note": [
+            "it-law132-article20",
+            "it-gu-law132-2025-art20"
+          ],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026-art5",
+            "it-gu-law132-2025-art20"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "it-law132-article20",
+            "it-dlgs179-2026",
+            "it-dlgs179-2026-art5",
+            "it-gu-law132-2025-art20"
+          ]
+        }
+      },
+      {
+        "name": "Garante per la protezione dei dati personali",
+        "name_en": "Italian Data Protection Authority",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "it-dlgs179-2026",
+          "it-dlgs179-2026-art5",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "decree",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-9542f4c8ca8d43fba362f5198c45c7e6",
+        "role": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, limited to what Article 74(8) of that regulation provides.",
+        "citations": {
+          "name": [
+            "it-dlgs179-2026-art5"
+          ],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [
+            "it-dlgs179-2026-art5"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "it-dlgs179-2026-art5"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "it-dlgs179-2026",
+            "it-dlgs179-2026-art5"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-10-16",
+      "reason": "Routine yearly re-check of a state where an institute is plausible (in Europe, the G20 or the OECD, or a signatory of the Bletchley Declaration)."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "Read Legislative Decree 179/2026 (Articles 4 to 6 and its entry into force) for the AI Act authorities: the decree is now their designation basis, the financial supervisors have their own sectors and the Garante is added; Law 132/2025 is kept as history. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Italian, with the digital innovation ministry's news pages (articles newest 11 September, press releases 23 July, interventions 22 September). No qualifying item was found, and the listing showed no items in the window. The current text and history of Article 20 of Law 132/2025 could not be read on Normattiva, so its status check is not advanced. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Italy AI safety institute government frontier model evaluation",
+          "source_ids": [
+            "gb-approach-2024",
+            "catalogue-gb-37",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "it",
+          "national_or_official": true,
+          "query": "Italia istituto sicurezza intelligenza artificiale valutazione modelli",
+          "source_ids": [
+            "gb-approach-2024",
+            "catalogue-gb-37",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded it query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: IT-search = searches 1, 2 (en, it). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "it-law132-article20"
+      ],
+      "governance_note": "Article 20 allocates AI Act notifying and market-surveillance roles to AgID and ACN; these regulatory functions do not establish a qualifying institute.",
+      "log": []
+    },
+    "source_ids": [
+      "it-gu-law132-2025-art20",
+      "it-law132-article20",
+      "negative-second-it-2026",
+      "ai-act-tracker",
+      "it-dlgs179-2026",
+      "it-dlgs179-2026-art4",
+      "it-dlgs179-2026-art5",
+      "it-dlgs179-2026-art6"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "039",
+      "subregion": "Southern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "ITA",
+    "m49": "380",
+    "wikidata": "Q38",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [
+      {
+        "id": "claims-c510dde35bf44ac5b67c5081f3fadac8",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-cfb18691f52652f9b1cf8001f6aa073a",
+        "text": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, as the competent authority for high-risk AI systems used in providing loans or other financial services governed by the consolidated banking law.",
+        "source_ids": [
+          "it-dlgs179-2026-art5"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "it-dlgs179-2026-art5"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "it-dlgs179-2026-art5"
+          ]
+        }
+      },
+      {
+        "id": "claims-e22fda0962444fb484341b399dd083c0",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-51b3a2a2081650b98424fc5125a8ce28",
+        "text": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, as the competent authority for high-risk AI systems used in providing financial services governed by the consolidated law on financial intermediation.",
+        "source_ids": [
+          "it-dlgs179-2026-art5"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "it-dlgs179-2026-art5"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "it-dlgs179-2026-art5"
+          ]
+        }
+      },
+      {
+        "id": "claims-6a6ef170229346458d09a39c3dee79c9",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-4e74849e95025a8a87dd5a67d9253985",
+        "text": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, as the competent authority for high-risk AI systems used in insurance or reinsurance business and in distributing insurance products governed by the Private Insurance Code.",
+        "source_ids": [
+          "it-dlgs179-2026-art5"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "it-dlgs179-2026-art5"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "it-dlgs179-2026-art5"
+          ]
+        }
+      },
+      {
+        "id": "claims-3d356c439f29421d96cd6dc9c19bc484",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-9542f4c8ca8d43fba362f5198c45c7e6",
+        "text": "The legislative decree makes it a national market-surveillance authority under the AI Regulation, limited to what Article 74(8) of that regulation provides.",
+        "source_ids": [
+          "it-dlgs179-2026-art5"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "it-dlgs179-2026-art5"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "it-dlgs179-2026-art5"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. National Cybersecurity Agency (ACN) is its AI Act single point of contact and market-surveillance authority; five other AI Act bodies are listed below.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Italian and English.\n\nNext check due by 16 October 2027.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "eu_member": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "institute_id": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026",
+        "it-law132-article20",
+        "it-dlgs179-2026-art4",
+        "it-dlgs179-2026-art5",
+        "it-gu-law132-2025-art20"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [
+        "it-dlgs179-2026-art5"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026",
+        "it-law132-article20",
+        "it-dlgs179-2026-art4",
+        "it-dlgs179-2026-art5",
+        "it-gu-law132-2025-art20"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "catalogue-gb-37",
+        "eu-ai-act-authorities-2026",
+        "it-law132-article20",
+        "negative-second-it-2026",
+        "it-dlgs179-2026",
+        "it-dlgs179-2026-art4",
+        "it-dlgs179-2026-art5",
+        "it-dlgs179-2026-art6",
+        "it-gu-law132-2025-art20"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "catalogue-gb-37",
+      "title": "AISI Frontier AI Trends Report (2025)",
+      "url": "https://www.aisi.gov.uk/frontier-ai-trends-report",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Italy Agenzia per la cybersicurezza nazionale",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/2/designation_state",
+            "/record/related_bodies/3/designation_state",
+            "/record/related_bodies/4/designation_state",
+            "/record/related_bodies/5/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,IT,2025,58943464",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "it-dlgs179-2026",
+      "title": "Decreto legislativo 7 ottobre 2026, n. 179",
+      "title_en": "Legislative Decree No. 179 of 7 October 2026",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2026-10-08&atto.codiceRedazionale=26G00200",
+      "excerpts": []
+    },
+    {
+      "id": "it-dlgs179-2026-art4",
+      "title": "Decreto legislativo 7 ottobre 2026, n. 179, art. 4",
+      "title_en": "Legislative Decree No. 179 of 7 October 2026, Article 4",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00200&art.dataPubblicazioneGazzetta=2026-10-08&art.flagTipoArticolo=0&art.idArticolo=4&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "excerpts": [
+        {
+          "text": "l'AgID e' l'autorita' nazionale di notifica",
+          "gloss": "AgID is the national notifying authority",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_basis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-dlgs179-2026-art5",
+      "title": "Decreto legislativo 7 ottobre 2026, n. 179, art. 5",
+      "title_en": "Legislative Decree No. 179 of 7 October 2026, Article 5",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00200&art.dataPubblicazioneGazzetta=2026-10-08&art.flagTipoArticolo=0&art.idArticolo=5&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "excerpts": [
+        {
+          "text": "sono autorita' nazionali di vigilanza del mercato ai sensi del medesimo regolamento",
+          "gloss": "are national market surveillance authorities under the same Regulation",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_basis",
+            "/record/related_bodies/2/designation_basis",
+            "/record/related_bodies/3/designation_basis",
+            "/record/related_bodies/4/designation_basis",
+            "/record/related_bodies/5/designation_basis"
+          ]
+        },
+        {
+          "text": "a) l'ACN, per la vigilanza del mercato sui sistemi di IA",
+          "gloss": "(a) ACN, for market surveillance of AI systems",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_basis"
+          ]
+        },
+        {
+          "text": "la Banca d'Italia, quale autorita' competente sui sistemi di IA ad alto rischio utilizzati nell'erogazione di finanziamenti o di altri servizi finanziari disciplinati ai sensi del testo unico delle leggi in materia bancaria e creditizia",
+          "gloss": "the Banca d'Italia, as the authority competent for high-risk AI systems used in providing loans or other financial services governed by the Consolidated Law on Banking and Credit",
+          "accessed": "2026-11-07",
+          "anchors": [
+            {
+              "text": "sono autorita' nazionali di vigilanza del mercato ai sensi del medesimo regolamento",
+              "kind": "heading",
+              "gloss": "are national market-surveillance authorities under the same regulation"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/designation_basis",
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "la CONSOB, quale autorita' competente sui sistemi di IA ad alto rischio utilizzati nell'erogazione dei servizi finanziari disciplinati ai sensi del testo unico delle disposizioni in materia di intermediazione finanziaria",
+          "gloss": "CONSOB, as the authority competent for high-risk AI systems used in providing financial services governed by the Consolidated Law on Financial Intermediation",
+          "accessed": "2026-11-07",
+          "anchors": [
+            {
+              "text": "sono autorita' nazionali di vigilanza del mercato ai sensi del medesimo regolamento",
+              "kind": "heading",
+              "gloss": "are national market-surveillance authorities under the same regulation"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/3/designation_basis",
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "l'IVASS, quale autorita' competente sui sistemi di IA ad alto rischio utilizzati nell'esercizio dell'attivita' assicurativa o riassicurativa e di distribuzione di prodotti assicurativi disciplinati ai sensi del codice delle assicurazioni private",
+          "gloss": "IVASS, as the authority competent for high-risk AI systems used in insurance or reinsurance business and in the distribution of insurance products governed by the Private Insurance Code",
+          "accessed": "2026-11-07",
+          "anchors": [
+            {
+              "text": "sono autorita' nazionali di vigilanza del mercato ai sensi del medesimo regolamento",
+              "kind": "heading",
+              "gloss": "are national market-surveillance authorities under the same regulation"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/4/designation_basis",
+            "/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "il Garante per la protezione dei dati personali, limitatamente a quanto previsto dall'articolo 74, paragrafo 8, del regolamento IA",
+          "gloss": "the Italian Data Protection Authority, limited to what Article 74(8) of the AI Regulation provides",
+          "accessed": "2026-11-07",
+          "anchors": [
+            {
+              "text": "sono autorita' nazionali di vigilanza del mercato ai sensi del medesimo regolamento",
+              "kind": "heading",
+              "gloss": "are national market-surveillance authorities under the same regulation"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/5/designation_basis",
+            "/record/related_bodies/5/name",
+            "/record/claims/3/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-dlgs179-2026-art6",
+      "title": "Decreto legislativo 7 ottobre 2026, n. 179, art. 6",
+      "title_en": "Legislative Decree No. 179 of 7 October 2026, Article 6",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00200&art.dataPubblicazioneGazzetta=2026-10-08&art.flagTipoArticolo=0&art.idArticolo=6&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "excerpts": []
+    },
+    {
+      "id": "it-gu-law132-2025-art20",
+      "title": "Legge 23 settembre 2025, n. 132, articolo 20 (Gazzetta Ufficiale, Serie Generale n. 223, 25 settembre 2025)",
+      "title_en": "Law No. 132 of 23 September 2025, Article 20 (Official Gazette)",
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=25G00143&art.dataPubblicazioneGazzetta=2025-09-25&art.flagTipoArticolo=0&art.idArticolo=20&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "excerpts": [
+        {
+          "text": "autorita' di vigilanza del mercato e punto di contatto unico",
+          "accessed": "2026-11-10",
+          "gloss": "Market surveillance authority and single point of contact.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_note"
+          ]
+        },
+        {
+          "text": "ferma restando l'attribuzione alla Banca d'Italia, alla CONSOB e all'IVASS del ruolo di autorita' di vigilanza del mercato ai sensi e secondo quanto previsto dall'articolo 74",
+          "accessed": "2026-11-10",
+          "gloss": "without prejudice to the attribution to the Banca d'Italia, CONSOB and IVASS of the role of market surveillance authority under and as provided by Article 74",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/designation_note",
+            "/record/related_bodies/3/designation_note",
+            "/record/related_bodies/4/designation_note"
+          ]
+        },
+        {
+          "text": "designata quale autorita' di notifica ai sensi dell'articolo 70 del medesimo regolamento",
+          "accessed": "2026-11-10",
+          "gloss": "designated as notifying authority under Article 70 of the same Regulation",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "it-law132-article20",
+      "title": "Legge 23 settembre 2025, n. 132, articolo 20",
+      "title_en": "Law No. 132 of 23 September 2025, Article 20",
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+20&codiceOrdinamento=0000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B727C8823-31DE-4724-AFD5-1A4EC58809B3%7D",
+      "excerpts": [
+        {
+          "text": "autorità di vigilanza del mercato e punto di contatto unico",
+          "gloss": "Market surveillance authority and single point of contact.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_note"
+          ]
+        },
+        {
+          "text": "ferma restando l'attribuzione alla Banca d'Italia, alla CONSOB e all'IVASS del ruolo di autorità di vigilanza del mercato ai sensi e secondo quanto previsto dall' articolo 74",
+          "gloss": "without prejudice to the attribution to the Banca d'Italia, CONSOB and IVASS of the role of market surveillance authority under and as provided by Article 74",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/designation_note",
+            "/record/related_bodies/3/designation_note",
+            "/record/related_bodies/4/designation_note"
+          ]
+        },
+        {
+          "text": "designata quale autorità di notifica ai sensi dell'articolo 70 del medesimo regolamento",
+          "gloss": "designated as notifying authority under Article 70 of the same Regulation",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative-second-it-2026",
+      "title": "Documentazione Economica e Finanziaria - Dettaglio Articolo",
+      "title_en": "Economic and Financial Documentation: Article Detail",
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B727C8823-31DE-4724-AFD5-1A4EC58809B3%7D",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-page",
+      "commit": "0c3c25159d4d22f4f7f1cb82d5f9c08cca289961",
+      "built": "2026-11-21T19:21:15Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/20",
+  "record": {
+    "id": "LU",
+    "name": "Luxembourg",
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Commission nationale pour la protection des données (CNPD)",
+        "name_en": "National Commission for Data Protection (CNPD)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-e961f3b9eef9537db5b2d9854ac44805",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Luxembourg AI Factory",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-1de660304d885ce49aaeeebfa2833690",
+        "source_ids": [
+          "lu-paperjam-ai-factory-primary-proposal"
+        ],
+        "role": "The Ministry of the Economy says the Luxembourg AI Factory is the national platform dedicated to the responsible and secure adoption of AI.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": []
+        },
+        "display": {
+          "source_links": [
+            "lu-paperjam-ai-factory-primary-proposal"
+          ]
+        }
+      },
+      {
+        "name": "Institut luxembourgeois de la normalisation, de l'accréditation, de la sécurité et qualité des produits et services (ILNAS)",
+        "name_en": "Luxembourg Institute for Standardisation, Accreditation, Safety and Quality of Products and Services (ILNAS)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "notifying"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-d1592b40ae4855c7a79b78d30199ea92",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Commissariat du gouvernement à la protection des données auprès de l'État",
+        "name_en": "Government Commissioner for Data Protection with the State",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-dc3fc564a1f55aaab0380fab1e66419f",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Agence luxembourgeoise des médicaments et produits de santé",
+        "name_en": "Luxembourg Agency for Medicines and Health Products",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "notifying"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-6619ef64a8905825891d4e69de0f0fd2",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Autorité de contrôle judiciaire",
+        "name_en": "Judicial Supervisory Authority",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-080a6767ca1f53cba097d8d62c4f8373",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Commission de surveillance du secteur financier",
+        "name_en": "Financial Sector Supervisory Commission",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-c5b66b57851b58629d158ff6c27b0a8d",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Commissariat aux assurances",
+        "name_en": "Insurance Commissioner's Office",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-77249e9dde1b5419b3e28e5cc8ec3d4f",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Institut Luxembourgeois de Régulation",
+        "name_en": "Luxembourg Regulatory Institute",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-2bc7312cd9cf542e9e7c2eb1a2acb702",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      },
+      {
+        "name": "Autorité luxembourgeoise indépendante de l'audiovisuel",
+        "name_en": "Luxembourg Independent Audiovisual Authority",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lu-bill8476-authority-allocations",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "proposed",
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-5ad061b2f163587b8a0f139e8c7a62c0",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lu-bill8476-authority-allocations"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-31",
+      "reason": "Bill 8476 passage and any sandbox or evaluation mandate."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English query did not identify a qualifying institute, commitment, proposal or institute-specific study. The selected government communiqué describes draft bill 8476 and proposed national AI Act governance. Foreign AI institutes appearing in Luxembourg conferences do not establish a domestic institute. The broader query also returned official research-strategy excerpts on AI audit frameworks, certification and cyber vulnerability tools; these did not name a qualifying institute, and the PDF was not opened. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English, French, German and Luxembourgish, with the digitalisation ministry's page (newest 22 October). No qualifying item was found. The minister's research and innovation visit to the UK on 22 October mentions safe and trustworthy AI but no evaluator mandate, developer agreement or model access. No adoption of AI Act bill 8476 or national institute was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "\"Luxembourg\" \"intelligence artificielle\" institut sécurité",
+          "source_ids": [
+            "lu-cnpd-ai-draft-designation"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Luxembourg institut sécurité intelligence artificielle évaluation modèles gouvernement",
+          "source_ids": [
+            "fr-dge"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Luxembourg\" \"AI\" \"safety institute\" government proposal evaluation",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Luxembourg national artificial intelligence security evaluation institute proposal study",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded fr query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "lu-gouv-ai-act-2026"
+      ],
+      "governance_note": "The government describes the proposed AI Act implementation arrangements under bill 8476; the draft remains distinct from enacted authority designation.",
+      "log": []
+    },
+    "source_ids": [
+      "lu-gouv-ai-act-2026",
+      "lu-paperjam-ai-factory-primary-proposal",
+      "lu-unilu-sandbox-configurator",
+      "lu-bill8476-authority-allocations",
+      "lu-cnpd-ai-draft-designation",
+      "lu-paperjam-ai-factory",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026",
+      "fr-elysee-paris-call-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "155",
+      "subregion": "Western Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 681973,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": true,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "LUX",
+    "m49": "442",
+    "wikidata": "Q32",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [
+      {
+        "id": "claims-6582f6a05aae448eb67a9057eea2850a",
+        "kind": "function",
+        "code": "adoption",
+        "basis": "mandate",
+        "body_id": "related_bodies-1de660304d885ce49aaeeebfa2833690",
+        "text": "The Ministry of the Economy says the Luxembourg AI Factory is the national platform dedicated to the responsible and secure adoption of AI.",
+        "source_ids": [
+          "lu-paperjam-ai-factory-primary-proposal"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "lu-paperjam-ai-factory-primary-proposal"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "lu-paperjam-ai-factory-primary-proposal"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. National Commission for Data Protection (CNPD) is proposed as its AI Act single point of contact and market-surveillance authority; eight other AI Act bodies are listed below.",
+    "notes": "Checked in full on or before 16 October 2026, searching in French and English.\n\nNext check due by 31 December 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [
+        "lu-paperjam-ai-factory-primary-proposal"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "fr-dge",
+        "ai-act-tracker",
+        "eurostat-pop",
+        "lu-gouv-ai-act-2026",
+        "lu-paperjam-ai-factory",
+        "lu-unilu-sandbox-configurator",
+        "lu-paperjam-ai-factory-primary-proposal",
+        "eu-ai-act-authorities-2026",
+        "lu-cnpd-ai-draft-designation",
+        "lu-bill8476-authority-allocations",
+        "fr-elysee-paris-call-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "For Single Points of Contact marked with *, the national designation decision is still pending final adoption.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/2/designation_state",
+            "/record/related_bodies/3/designation_state",
+            "/record/related_bodies/4/designation_state",
+            "/record/related_bodies/5/designation_state",
+            "/record/related_bodies/6/designation_state",
+            "/record/related_bodies/7/designation_state",
+            "/record/related_bodies/8/designation_state",
+            "/record/related_bodies/9/designation_state"
+          ]
+        },
+        {
+          "text": "Luxembourg *Commission nationale pour la protection des données",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/2/designation_state",
+            "/record/related_bodies/3/designation_state",
+            "/record/related_bodies/4/designation_state",
+            "/record/related_bodies/5/designation_state",
+            "/record/related_bodies/6/designation_state",
+            "/record/related_bodies/7/designation_state",
+            "/record/related_bodies/8/designation_state",
+            "/record/related_bodies/9/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,LU,2025,681973",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-dge",
+      "title": "Le Gouvernement annonce la création de l'INESIA",
+      "title_en": "The government announces the creation of INESIA",
+      "url": "https://www.entreprises.gouv.fr/espace-presse/le-gouvernement-annonce-la-creation-de-linstitut-national-pour-levaluation-et-la",
+      "archive_url": "https://web.archive.org/web/20260616155140/https://www.entreprises.gouv.fr/espace-presse/le-gouvernement-annonce-la-creation-de-linstitut-national-pour-levaluation-et-la",
+      "excerpts": []
+    },
+    {
+      "id": "fr-elysee-paris-call-2026",
+      "title": "Paris Call for AI safety and security.",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+      "excerpts": []
+    },
+    {
+      "id": "lu-bill8476-authority-allocations",
+      "title": "Projet de loi 8476, document de dépôt, articles 2,7 and 8",
+      "title_en": "Bill 8476, document as introduced, Articles 2, 7 and 8",
+      "url": "https://wdocs-pub.chd.lu/docs/Dossiers_parlementaires/8476/20250515_Dep%C3%B4t.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "lu-cnpd-ai-draft-designation",
+      "title": "Mise en oeuvre nationale de l’AI Act : la CNPD désignée comme autorité compétente",
+      "title_en": "National implementation of the AI Act: CNPD designated as competent authority",
+      "url": "https://cnpd.public.lu/fr/actualites/national/2024/11/cnpd-ai-act.html",
+      "excerpts": []
+    },
+    {
+      "id": "lu-gouv-ai-act-2026",
+      "title": "Communique on AI Act implementation conference (draft bill 8476)",
+      "url": "https://gouvernement.lu/fr/gouvernement/elisabeth-margue/actualites.gouvernement2024%2Bfr%2Bactualites%2Btoutes_actualites%2Bcommuniques%2B2026%2B01-janvier%2B20-margue-ai-act.html",
+      "archive_url": "https://web.archive.org/web/20261017011201/https://gouvernement.lu/fr/gouvernement/elisabeth-margue/actualites.gouvernement2024+fr+actualites+toutes_actualites+communiques+2026+01-janvier+20-margue-ai-act.html",
+      "excerpts": []
+    },
+    {
+      "id": "lu-paperjam-ai-factory",
+      "title": "Luxembourg's AI Factory: a one-stop shop boots up",
+      "url": "https://en.paperjam.lu/article/luxembourgs-ai-factory-a-one-stop-shop-boots-up",
+      "archive_url": "https://web.archive.org/web/20260711024218/https://en.paperjam.lu/article/luxembourgs-ai-factory-a-one-stop-shop-boots-up",
+      "excerpts": []
+    },
+    {
+      "id": "lu-paperjam-ai-factory-primary-proposal",
+      "title": "The Luxembourg AI Factory's service catalogue unveiled at the Data Summit 2025",
+      "url": "https://meco.gouvernement.lu/en/actualites.gouvernement2024%2Ben%2Bactualites%2Btoutes_actualites%2Bcommuniques%2B2025%2B12-decembre%2B02-obertin-data-summit.html",
+      "excerpts": [
+        {
+          "text": "the Luxembourg AI Factory is the national platform dedicated to the responsible and secure adoption of AI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lu-unilu-sandbox-configurator",
+      "title": "New open-source tool accelerates testing for trustworthy artificial intelligence",
+      "url": "https://www.uni.lu/snt-en/?p=24737",
+      "archive_url": "https://web.archive.org/web/20261017015404/https://www.uni.lu/snt-en/news/new-open-source-tool-accelerates-testing-for-trustworthy-artificial-intelligence/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

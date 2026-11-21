@@ -1,0 +1,1255 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "0023bc7dcb8406118bb01106d66839ed0eaed2e4",
+      "built": "2026-11-21T14:22:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/5",
+  "record": {
+    "id": "NL",
+    "name": "Netherlands",
+    "kind": "state",
+    "europe_scope": true,
+    "eu_member": true,
+    "population": {
+      "value": 18044027,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Rijksinspectie Digitale Infrastructuur (RDI)",
+        "name_en": "State Inspectorate for Digital Infrastructure (RDI)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "nl-ai-act-consultation-bill-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "proposed",
+        "authority_roles": [
+          "single_point_of_contact"
+        ],
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-88c94229d9d359b39401c860242deda6",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "authority_roles": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "nl-ai-act-consultation-bill-2026"
+          ]
+        }
+      },
+      {
+        "name": "Minister van Economische Zaken en Klimaat",
+        "name_en": "Ministry of Economic Affairs and Climate Policy",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "nl-ai-act-consultation-bill-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "proposed",
+        "authority_roles": [
+          "notifying",
+          "single_point_of_contact"
+        ],
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-2a1087f4f6895c56bde94140740fbf86",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "authority_roles": [
+            "nl-ai-act-consultation-bill-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "nl-ai-act-consultation-bill-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "nl-ai-act-consultation-bill-2026"
+          ]
+        }
+      },
+      {
+        "name": "Autoriteit Persoonsgegevens (AP)",
+        "name_en": "Data Protection Authority (AP)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "nl-ai-act-consultation-bill-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "proposed",
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_basis": "none_yet",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-37f51ebd899d5c18b8e5f5ae70373124",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "authority_roles": [],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "nl-ai-act-consultation-bill-2026"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-31",
+      "reason": "Advisory report on a Dutch AI safety institute, expected to reach parliament in December 2026; government answers to parliament's questions on the International AI Strategy."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, authority designations and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Visually rechecked the PDF cover. The title and date are confirmed, but the existing commissioning sentence remains unverified. Recorded the extraction limit and unresolved quotation without replacing it. This was a partial evidence check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Searched TNO repository metadata, TNO pages and Dutch government records for machine-readable commissioning evidence; replaced the unconfirmed sentence with excerpts from TNO's Dutch and English Cybersecure AI pages. The PDF title and date remain visually checked. Partial evidence check only; no full record re-check."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Checked the factual claims in the research notes against saved TNO, parliamentary and Commission sources and added excerpt bindings for dates, speaker and national designation context. Visually verified the TNO report cover. Partial evidence check only; no full record re-check."
+        },
+        {
+          "date": "2026-10-26",
+          "scope": "Known-pages-first status pass in Dutch and English (government.nl, officielebekendmakingen, Tweede Kamer open data, 2027 budget, TNO, AP, RDI, news). Added the 1 June and 3 July 2026 exploring acts and the adopted motion; status unchanged. Partial check; AI Act authority roles not re-verified."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Dutch, with the government's digitalisation theme page (newest 6 November). Left for review: the cabinet's AI vision of 6 November, which again says a possible Dutch AI safety institute is being explored, and the Netherlands' place on the endorsement list of the French presidency's Paris Call for AI Safety and Security, published on 9 November and since updated. No new institute mandate, budget, staffing or national privileged-access agreement was found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-19",
+          "scope": "Follow-up due on 16 November 2026. Read the cabinet's AI vision of 6 November 2026 (letter to parliament) which says the exploration continues and expects the advisory report in December 2026; the next check waits for that report. The answers to the questions on the 2027 budget (adopted as a report on 28 October 2026) say the same and name the fourth quarter; they were read in the research pass and are not cited. The government's answers on the International AI Strategy were still outstanding on parliament's agenda of 18 November 2026. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-26",
+          "language": "nl",
+          "national_or_official": true,
+          "query": "\"AI-veiligheidsinstituut\" (officielebekendmakingen SRU, 2026)",
+          "source_ids": [
+            "nl-ah-2093-2026",
+            "nl-ah-2895-2026",
+            "nl-motion-37020-49"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-26",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Netherlands AI safety institute government plan Dutch AISI",
+          "source_ids": [
+            "nl-ah-2093-2026",
+            "nl-intl-ai-strategy-2026-en"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "language_note": "Dutch and English searched; Dutch is the only official language of the European Netherlands (Frisian not searched).",
+      "log": []
+    },
+    "source_ids": [
+      "nl-kamerbrief-2026-09",
+      "nl-tno",
+      "nl-tno-cybersecure",
+      "nl-tno-cybersecure-en",
+      "nl-hansard-2026-09-17",
+      "nl-ai-supervision-2026",
+      "nl-ai-act-consultation-bill-2026",
+      "nl-bb",
+      "nl-nltimes",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026",
+      "nl-ah-2093-2026",
+      "nl-intl-ai-strategy-2026",
+      "nl-intl-ai-strategy-2026-en",
+      "nl-intl-ai-strategy-cover-2026",
+      "nl-ah-2895-2026",
+      "nl-motion-37020-49",
+      "nl-motion-37020-49-vote",
+      "nl-budget-xiii-2027",
+      "nl-budget-vii-2027",
+      "nl-miljoenennota-2027",
+      "nl-budget-xiii-bill-2027",
+      "fr-elysee-paris-call-2026",
+      "nl-cabinet-ai-vision-2026",
+      "nl-cabinet-ai-vision-letter-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "155",
+      "subregion": "Western Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "status_confidence": "high",
+    "timeline": [
+      {
+        "id": "nl-3",
+        "date": "2026-06-01",
+        "event": "exploration_started",
+        "instrument": "publication",
+        "description": "Written answer reports an interdepartmental exploration by the Digitale Doetank into an independent AI safety institute, modelled on the UK institute, running until September 2026.",
+        "source_ids": [
+          "nl-ah-2093-2026"
+        ],
+        "short": "Cabinet confirms an interdepartmental exploration of an independent AI safety institute.",
+        "citations": {
+          "id": [],
+          "date": [
+            "nl-ah-2093-2026"
+          ],
+          "event": [
+            "nl-ah-2093-2026"
+          ],
+          "instrument": [],
+          "description": [
+            "nl-ah-2093-2026"
+          ],
+          "short": [],
+          "display": [
+            "nl-ah-2093-2026"
+          ]
+        }
+      },
+      {
+        "id": "nl-0",
+        "date": "2026-06-10",
+        "event": "exploration_started",
+        "instrument": "publication",
+        "description": "Study of the option, commissioned by the economy ministry from TNO, published; exploration under way by this date",
+        "source_ids": [
+          "nl-tno",
+          "nl-tno-cybersecure",
+          "nl-tno-cybersecure-en",
+          "nl-ah-2093-2026"
+        ],
+        "short": "Ministry-commissioned TNO study of an AI safety institute option is published.",
+        "citations": {
+          "id": [],
+          "date": [
+            "nl-tno"
+          ],
+          "event": [
+            "nl-tno-cybersecure",
+            "nl-tno-cybersecure-en"
+          ],
+          "instrument": [],
+          "description": [
+            "nl-tno",
+            "nl-tno-cybersecure",
+            "nl-tno-cybersecure-en",
+            "nl-ah-2093-2026"
+          ],
+          "short": [],
+          "display": [
+            "nl-tno",
+            "nl-tno-cybersecure",
+            "nl-tno-cybersecure-en",
+            "nl-ah-2093-2026"
+          ]
+        }
+      },
+      {
+        "id": "nl-4",
+        "date": "2026-07-03",
+        "event": "exploration_started",
+        "instrument": "strategy",
+        "description": "International AI Strategy reaffirms exploration of the desirability and feasibility of a Dutch AI safety institute, taking account of existing advisory bodies.",
+        "source_ids": [
+          "nl-intl-ai-strategy-2026",
+          "nl-intl-ai-strategy-2026-en",
+          "nl-intl-ai-strategy-cover-2026"
+        ],
+        "short": "International AI Strategy reaffirms exploration of a Dutch AI safety institute.",
+        "citations": {
+          "id": [],
+          "date": [
+            "nl-intl-ai-strategy-cover-2026"
+          ],
+          "event": [
+            "nl-intl-ai-strategy-2026",
+            "nl-intl-ai-strategy-2026-en"
+          ],
+          "instrument": [],
+          "description": [
+            "nl-intl-ai-strategy-2026",
+            "nl-intl-ai-strategy-2026-en",
+            "nl-intl-ai-strategy-cover-2026"
+          ],
+          "short": [],
+          "display": [
+            "nl-intl-ai-strategy-2026",
+            "nl-intl-ai-strategy-2026-en",
+            "nl-intl-ai-strategy-cover-2026"
+          ]
+        }
+      },
+      {
+        "id": "nl-2",
+        "date": "2026-09-25",
+        "event": "exploration_started",
+        "instrument": "publication",
+        "description": "Cabinet letter to parliament: an exploration of an AI safety institute is under way; the advisory report will be shared with parliament by the end of 2026.",
+        "source_ids": [
+          "nl-kamerbrief-2026-09",
+          "nl-bb"
+        ],
+        "short": "Cabinet says AI safety institute exploration under way; report due year end.",
+        "news": "The cabinet tells parliament it is exploring whether to set up an AI safety institute, and that an advisory report will follow by the end of 2026.",
+        "citations": {
+          "id": [],
+          "date": [],
+          "event": [
+            "nl-kamerbrief-2026-09"
+          ],
+          "instrument": [],
+          "description": [
+            "nl-kamerbrief-2026-09"
+          ],
+          "short": [],
+          "news": [
+            "nl-kamerbrief-2026-09"
+          ],
+          "display": [
+            "nl-kamerbrief-2026-09"
+          ]
+        }
+      }
+    ],
+    "iso3": "NLD",
+    "m49": "528",
+    "wikidata": "Q55",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-nl-identifier"
+    ],
+    "identifier_notes": "Q55 is the constituent Netherlands, matching tracker population and European country scope. Q29999 is Kingdom of the Netherlands and holds current Wikidata ISO-code statements. ISO3/M49 are independently verified in the UN table; do not equate both entities.",
+    "claims": [
+      {
+        "id": "claims-d02804da014341809713ab966510e344",
+        "kind": "fact",
+        "text": "Motion 37020 no. 49 asks the government to set up an AI safety institute in close cooperation with similar institutes in Germany, France and England.",
+        "source_ids": [
+          "nl-motion-37020-49"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-10",
+          "since": "2026-11-16"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "nl-motion-37020-49"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "nl-motion-37020-49"
+          ]
+        }
+      },
+      {
+        "id": "claims-ce9ee82903684cbe9436019dc45c920e",
+        "kind": "fact",
+        "text": "The House of Representatives' vote record marks motion 37020 no. 49 as adopted.",
+        "source_ids": [
+          "nl-motion-37020-49-vote"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "nl-motion-37020-49-vote"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "nl-motion-37020-49-vote"
+          ]
+        }
+      },
+      {
+        "id": "claims-34a078194cc247bfbaa0e5f4c2ef146e",
+        "kind": "fact",
+        "text": "The International AI Strategy says the Netherlands will also seek to join the International Network for Advanced AI Measurement, Evaluation and Science.",
+        "source_ids": [
+          "nl-intl-ai-strategy-2026"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-10",
+          "since": "2026-11-16"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "nl-intl-ai-strategy-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "nl-intl-ai-strategy-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-eee9818ee33240dba6f8b410462fb2a4",
+        "kind": "fact",
+        "text": "The French presidency lists the Netherlands among the heads of state and government who signed the Paris Call declaration on 9 November 2026.",
+        "source_ids": [
+          "fr-elysee-paris-call-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "fr-elysee-paris-call-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "fr-elysee-paris-call-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-40ee3efaa6e8461cace15c0b8d5dfdf5",
+        "kind": "fact",
+        "text": "The cabinet's AI vision says it is also investigating the possible establishment of a Dutch AI safety institute that could help recognise and address new risks in time.",
+        "source_ids": [
+          "nl-cabinet-ai-vision-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-16",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "nl-cabinet-ai-vision-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "nl-cabinet-ai-vision-2026"
+          ]
+        }
+      }
+    ],
+    "status": "exploring",
+    "status_since": "2026-06-01",
+    "summary": "Exploring since 1 June 2026: Cabinet confirms an interdepartmental exploration of an independent AI safety institute.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Dutch and English.\n\nNext check due by 31 December 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "eu_member": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "institute_id": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026",
+        "nl-ai-act-consultation-bill-2026"
+      ],
+      "next_check": [
+        "nl-cabinet-ai-vision-letter-2026"
+      ],
+      "check": [],
+      "region": [],
+      "status_confidence": [],
+      "timeline": [
+        "nl-tno",
+        "nl-kamerbrief-2026-09",
+        "nl-tno-cybersecure",
+        "nl-tno-cybersecure-en",
+        "nl-ah-2093-2026",
+        "nl-intl-ai-strategy-2026",
+        "nl-intl-ai-strategy-2026-en",
+        "nl-intl-ai-strategy-cover-2026"
+      ],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "identifier_notes": [],
+      "claims": [
+        "nl-intl-ai-strategy-2026",
+        "nl-motion-37020-49",
+        "nl-motion-37020-49-vote",
+        "fr-elysee-paris-call-2026",
+        "nl-cabinet-ai-vision-2026"
+      ],
+      "status": [
+        "nl-ah-2093-2026"
+      ],
+      "status_since": [
+        "nl-ah-2093-2026"
+      ],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "nl-tno",
+        "eurostat-pop",
+        "nl-kamerbrief-2026-09",
+        "eu-ai-act-authorities-2026",
+        "nl-ai-act-consultation-bill-2026",
+        "nl-tno-cybersecure",
+        "nl-tno-cybersecure-en",
+        "nl-ah-2093-2026",
+        "nl-intl-ai-strategy-2026",
+        "nl-intl-ai-strategy-2026-en",
+        "nl-intl-ai-strategy-cover-2026",
+        "nl-cabinet-ai-vision-letter-2026"
+      ],
+      "since": [
+        "nl-ah-2093-2026"
+      ],
+      "finding": [
+        "nl-ah-2093-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "nl-bb",
+        "nl-tno",
+        "nl-nltimes",
+        "ai-act-tracker",
+        "eurostat-pop",
+        "nl-kamerbrief-2026-09",
+        "nl-hansard-2026-09-17",
+        "nl-ai-supervision-2026",
+        "eu-ai-act-authorities-2026",
+        "nl-ai-act-consultation-bill-2026",
+        "nl-tno-cybersecure",
+        "nl-tno-cybersecure-en",
+        "nl-ah-2093-2026",
+        "nl-intl-ai-strategy-2026",
+        "nl-intl-ai-strategy-2026-en",
+        "nl-intl-ai-strategy-cover-2026",
+        "nl-ah-2895-2026",
+        "nl-motion-37020-49",
+        "nl-motion-37020-49-vote",
+        "nl-budget-xiii-2027",
+        "nl-budget-vii-2027",
+        "nl-miljoenennota-2027",
+        "nl-budget-xiii-bill-2027",
+        "fr-elysee-paris-call-2026",
+        "nl-cabinet-ai-vision-2026",
+        "nl-cabinet-ai-vision-letter-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Netherlands *Rijksinspectie Digitale Infrastructuur",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/authority_roles",
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/2/designation_state"
+          ]
+        },
+        {
+          "text": "For Single Points of Contact marked with *, the national designation decision is still pending final adoption.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/2/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,NL,2025,18044027",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-elysee-paris-call-2026",
+      "title": "Paris Call for AI safety and security.",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+      "excerpts": [
+        {
+          "text": "Heads of States and Governments: Austria, Bahrain, Canada, Croatia, Cyprus, Estonia, Finland, France, Germany, Ireland, Kenya, Latvia, Liechtenstein, Luxembourg, Netherlands, Norway, Portugal.",
+          "accessed": "2026-11-16",
+          "anchors": [
+            {
+              "text": "The declaration has been signed on Monday 9 November 2026 by the following Heads of States and Governments and CEOs:",
+              "kind": "heading"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-ah-2093-2026",
+      "title": "Kamervragen (Aanhangsel) 2025-2026, nr. 2093",
+      "title_en": "Parliamentary questions (appendix) 2025-2026, No. 2093",
+      "url": "https://zoek.officielebekendmakingen.nl/ah-tk-20252026-2093.html",
+      "excerpts": [
+        {
+          "text": "Zo loopt er tot september 2026 onder andere een interdepartementale verkenning, uitgevoerd door de Digitale Doetank, naar de inrichting van een onafhankelijk AI-veiligheidsinstituut,",
+          "accessed": "2026-10-26",
+          "gloss": "An interdepartmental exploration by the Digitale Doetank into setting up an independent AI safety institute runs until September 2026, among other things.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/timeline/0/event",
+            "/record/timeline/0/description",
+            "/record/timeline/1/description"
+          ]
+        },
+        {
+          "text": "naar voorbeeld van internationale initiatieven zoals het AI Safety Institute (AISI) in het Verenigd Koninkrijk.",
+          "accessed": "2026-10-26",
+          "gloss": "Modelled on international initiatives such as the AI Safety Institute (AISI) in the United Kingdom.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "(ontvangen 1 juni 2026)",
+          "accessed": "2026-10-26",
+          "gloss": "(received 1 June 2026)",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/timeline/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-ah-2895-2026",
+      "title": "Kamervragen (Aanhangsel) 2025-2026, nr. 2895",
+      "title_en": "Parliamentary questions (appendix) 2025-2026, No. 2895",
+      "url": "https://zoek.officielebekendmakingen.nl/ah-tk-20252026-2895.html",
+      "excerpts": []
+    },
+    {
+      "id": "nl-ai-act-consultation-bill-2026",
+      "title": "Concept Uitvoeringswet AI-verordening",
+      "title_en": "Draft AI Regulation Implementation Act",
+      "url": "https://www.internetconsultatie.nl/uaiv/document/15486",
+      "excerpts": [
+        {
+          "text": "Onze Minister is het centrale contactpunt, bedoeld in artikel 70, tweede lid, van de verordening artificiële intelligentie.",
+          "gloss": "Our Minister is the central contact point referred to in Article 70(2) of the Artificial Intelligence Regulation.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/authority_roles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-ai-supervision-2026",
+      "title": "Kabinet zet stap met toezicht op Europese AI-regels",
+      "title_en": "Cabinet takes a step towards oversight of European AI rules",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels",
+      "archive_url": "https://web.archive.org/web/20260727001101/https://www.rijksoverheid.nl/actueel/nieuws/2026/04/20/kabinet-zet-stap-met-toezicht-op-europese-ai-regels",
+      "excerpts": []
+    },
+    {
+      "id": "nl-bb",
+      "title": "Kabinet: niet-Europese AI weren bij overheid gaat te ver",
+      "title_en": "Cabinet: banning non-European AI from government goes too far",
+      "url": "https://www.binnenlandsbestuur.nl/digitaal/kabinet-niet-europese-ai-weren-bij-overheid-gaat-te-ver",
+      "archive_url": "https://web.archive.org/web/20261016191837/https://www.binnenlandsbestuur.nl/digitaal/kabinet-niet-europese-ai-weren-bij-overheid-gaat-te-ver",
+      "excerpts": []
+    },
+    {
+      "id": "nl-budget-vii-2027",
+      "title": "Vaststelling van de begrotingsstaten van het Ministerie van Binnenlandse Zaken en Koninkrijksrelaties (VII) voor het jaar 2027, nr. 2",
+      "title_en": "Adoption of the Ministry of the Interior and Kingdom Relations budget (VII) for 2027, No. 2",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-37020-VII-2.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "nl-budget-xiii-2027",
+      "title": "Vaststelling van de begrotingsstaten van het Ministerie van Economische Zaken en Klimaat (XIII) voor het jaar 2027, nr. 2",
+      "title_en": "Adoption of the Ministry of Economic Affairs and Climate budget (XIII) for 2027, No. 2",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-37020-XIII-2.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "nl-budget-xiii-bill-2027",
+      "title": "Vaststelling van de begrotingsstaten van het Ministerie van Economische Zaken en Klimaat (XIII) voor het jaar 2027, nr. 1",
+      "title_en": "Adoption of the Ministry of Economic Affairs and Climate budget (XIII) for 2027, No. 1",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-37020-XIII-1.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "nl-cabinet-ai-vision-2026",
+      "title": "Kabinet kiest voor AI die Nederland vooruithelpt",
+      "title_en": "Cabinet chooses AI that helps the Netherlands forward",
+      "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/11/06/kabinet-kiest-voor-ai-die-nederland-vooruithelpt",
+      "excerpts": [
+        {
+          "text": "Ook onderzoekt het kabinet de mogelijke oprichting van een Nederlands AI-veiligheidsinstituut, dat kan helpen om nieuwe risico’s tijdig te herkennen en aan te pakken.",
+          "gloss": "The cabinet is also investigating the possible establishment of a Dutch AI safety institute, which could help to recognise and address new risks in time.",
+          "accessed": "2026-11-11",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-cabinet-ai-vision-letter-2026",
+      "title": "Kamerbrief Kabinetsvisie op Artificial Intelligence – kiezen voor AI voor iedereen",
+      "title_en": "Letter to parliament: Cabinet vision on Artificial Intelligence, choosing AI for everyone",
+      "url": "https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/71d01478-bff7-4fc9-bbed-c72d350d0211",
+      "excerpts": [
+        {
+          "text": "Het adviesrapport inzake het Nederlands AI-veiligheidsinstituut zal naar verwachting in december 2026 worden aangeboden aan uw Kamer.",
+          "gloss": "The advisory report on the Dutch AI safety institute is expected to be presented to your House in December 2026.",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-19",
+            "since": null
+          },
+          "supports": [
+            "/record/next_check/reason"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-hansard-2026-09-17",
+      "title": "Plenary proceedings, 17 September 2026",
+      "url": "https://www.tweedekamer.nl/kamerstukken/plenaire_verslagen/detail/2026-2027/3",
+      "excerpts": []
+    },
+    {
+      "id": "nl-intl-ai-strategy-2026",
+      "title": "De Nederlandse Internationale AI-Strategie",
+      "title_en": "The Dutch International AI Strategy",
+      "url": "https://open.overheid.nl/overheid/openbaarmakingen/api/v0/attachment/3eb5ccd2-cccd-4e6d-a02b-dd9a88f238b0",
+      "excerpts": [
+        {
+          "text": "Het kabinet verkent aanvullend de wenselijkheid en haalbaarheid van de oprichting van een Nederlands AI Veiligheidsinstituut.",
+          "accessed": "2026-10-26",
+          "gloss": "The cabinet is also exploring the desirability and feasibility of establishing a Dutch AI Safety Institute.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/timeline/2/event",
+            "/record/timeline/2/description"
+          ]
+        },
+        {
+          "text": "Daarnaast zal Nederland de aansluiting zoeken bij het International Network for Advanced AI Measurement, Evaluation and Science.",
+          "accessed": "2026-10-26",
+          "gloss": "The Netherlands will also seek to join the International Network for Advanced AI Measurement, Evaluation and Science.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "Het kabinet houdt daarbij rekening met de verschillende bestaande instituten die onze overheid reeds voorzien van advies en expertise op het gebied van AI.",
+          "accessed": "2026-10-26",
+          "gloss": "The cabinet takes account of the various existing institutes that already provide the government with advice and expertise on AI.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/timeline/2/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-intl-ai-strategy-2026-en",
+      "title": "The Netherlands’ International AI Strategy",
+      "url": "https://www.government.nl/site/binaries/site-content/collections/documents/2026/07/03/international-ai-strategy/international-ai-strategy.pdf",
+      "excerpts": [
+        {
+          "text": "The government will also explore the desirability and feasibility of establishing a Dutch AI safety institute, while taking account of the various existing bodies that already provide our government with advice and expertise regarding AI.",
+          "accessed": "2026-10-26",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/2/event",
+            "/record/timeline/2/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-intl-ai-strategy-cover-2026",
+      "title": "Informatie- en communicatietechnologie (ICT), nr. 1543",
+      "title_en": "Information and communication technology (ICT), No. 1543",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-1270745.pdf",
+      "excerpts": [
+        {
+          "text": "Den Haag, 3 juli 2026",
+          "accessed": "2026-10-26",
+          "gloss": "The Hague, 3 July 2026",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/timeline/2/date"
+          ]
+        },
+        {
+          "text": "Hierbij bieden wij u de Internationale AI strategie aan.",
+          "accessed": "2026-10-26",
+          "gloss": "We hereby present the International AI Strategy.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/timeline/2/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-kamerbrief-2026-09",
+      "title": "Reactie op de initiatiefnota van het lid Dassen over 'Hoe de politiek richting moet geven aan AI' (Kamerstuk 36974, nr. 3)",
+      "title_en": "Response to member Dassen's initiative paper on \"How politics should guide AI\" (Parliamentary Paper 36974, No. 3)",
+      "url": "https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z20091&did=2026D46392",
+      "archive_url": "https://web.archive.org/web/20261017042323/https://www.tweedekamer.nl/kamerstukken/brieven_regering/detail?id=2026Z20091&did=2026D46392",
+      "excerpts": [
+        {
+          "text": "over het oprichten van een AI-veiligheidsinstituut loopt momenteel een verkenning.",
+          "gloss": "An exploration of establishing an AI safety institute is under way.",
+          "url": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(bd406d2b-fb9d-4c05-8269-e58bbff04b4f)/resource",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/3/description",
+            "/record/timeline/3/event",
+            "/record/timeline/3/news"
+          ]
+        },
+        {
+          "text": "Het adviesrapport zal eind dit jaar met uw Kamer worden gedeeld.",
+          "gloss": "The advisory report will be shared with parliament at the end of this year.",
+          "url": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(bd406d2b-fb9d-4c05-8269-e58bbff04b4f)/resource",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/3/description",
+            "/record/timeline/3/news"
+          ]
+        },
+        {
+          "text": "Daarbij kijken we of een AI-veiligheidsinstituut potentieel invulling kan bieden aan de behoeften voor inzicht en advies op de impact van AI voor de maatschappij en overheid.",
+          "gloss": "In doing so we are looking at whether an AI safety institute could meet the need for insight and advice on the impact of AI on society and government.",
+          "url": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Document(bd406d2b-fb9d-4c05-8269-e58bbff04b4f)/resource",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/3/news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-miljoenennota-2027",
+      "title": "Nota over de toestand van ’s Rijks Financiën, nr. 1",
+      "title_en": "Report on the state of national finances, No. 1",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-37020-1.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "nl-motion-37020-49",
+      "title": "Motie van het lid Dassen (Kamerstuk 37020, nr. 49)",
+      "title_en": "Motion by member Dassen (Parliamentary Paper 37020, No. 49)",
+      "url": "https://zoek.officielebekendmakingen.nl/kst-37020-49.html",
+      "excerpts": [
+        {
+          "text": "verzoekt de regering tot het oprichten van een AI-veiligheidsinstituut, in nauwe samenwerking met soortgelijke instituten in Duitsland, Frankrijk en Engeland,",
+          "accessed": "2026-10-26",
+          "gloss": "Requests the government to establish an AI safety institute in close cooperation with similar institutes in Germany, France and England.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-motion-37020-49-vote",
+      "title": "Motie van het lid Dassen over het oprichten van een AI-Veiligheidsinstituut, in nauwe samenwerking met soortgelijke instituten in Duitsland en Frankrijk",
+      "title_en": "Motion by member Dassen on establishing an AI Safety Institute in close cooperation with similar institutes in Germany and France",
+      "url": "https://gegevensmagazijn.tweedekamer.nl/OData/v4/2.0/Zaak?%24filter=Nummer+eq+%272026Z19154%27&%24expand=Besluit%28%24expand%3DAgendapunt%28%24expand%3DActiviteit%29%29",
+      "excerpts": [
+        {
+          "text": "Aangenomen.",
+          "accessed": "2026-10-26",
+          "gloss": "Adopted.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-nltimes",
+      "title": "Netherlands considering AI security agency",
+      "url": "https://nltimes.nl/2026/09/18/netherlands-considering-ai-security-agency-address-serious-concerns",
+      "excerpts": []
+    },
+    {
+      "id": "nl-tno",
+      "title": "AI-veiligheid Instituut voor Nederland (TNO 2026 R16238)",
+      "title_en": "AI Safety Institute for the Netherlands (TNO 2026 R16238)",
+      "url": "https://publications.tno.nl/publication/34646176/VxjvZPNJ/TNO-2026-16238.pdf",
+      "archive_url": "https://web.archive.org/web/20261016191905if_/https://publications.tno.nl/publication/34646176/VxjvZPNJ/TNO-2026-16238.pdf",
+      "excerpts": [
+        {
+          "text": "AI-veiligheid Instituut voor Nederland",
+          "gloss": "AI safety institute for the Netherlands.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description"
+          ]
+        },
+        {
+          "text": "Datum: 10 Juni 2026",
+          "gloss": "Date: 10 June 2026.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-tno-cybersecure",
+      "title": "Cybersecure AI: AI als doelwit én aanvaller",
+      "title_en": "Cybersecure AI: AI as both target and attacker",
+      "url": "https://www.tno.nl/nl/digitaal/cybersecurity/cybersecure-ai-opkomende-technologie/",
+      "excerpts": [
+        {
+          "text": "In opdracht van het Ministerie van EZK is voor Nederland onderzocht hoe beleidsmakers kunnen omgaan met het zogenoemde evidence dilemma",
+          "accessed": "2026-10-19",
+          "gloss": "Commissioned by the Ministry of Economic Affairs and Climate, research for the Netherlands examined how policymakers can deal with the so-called evidence dilemma.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description",
+            "/record/timeline/1/event"
+          ]
+        },
+        {
+          "text": "Dit heeft geleid tot het advies om de oprichting van NL AISI (AI Security Insitute) verder te verkennen.",
+          "accessed": "2026-10-19",
+          "gloss": "This led to advice to further explore establishing NL AISI (AI Security Institute).",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description",
+            "/record/timeline/1/event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nl-tno-cybersecure-en",
+      "title": "Cybersecure AI: AI as both target and attacker",
+      "url": "https://www.tno.nl/en/digital/cybersecurity/cybersecure-ai-emerging-technology/",
+      "excerpts": [
+        {
+          "text": "Commissioned by the Dutch Ministry of Economic Affairs, TNO investigated how policymakers can address the so-called evidence dilemma",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description",
+            "/record/timeline/1/event"
+          ]
+        },
+        {
+          "text": "This work led to the recommendation to further explore the establishment of the Dutch AI Security Institute (NL AISI).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description",
+            "/record/timeline/1/event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-nl-identifier",
+      "title": "Netherlands: Wikidata identity",
+      "url": "https://www.wikidata.org/wiki/Q55",
+      "excerpts": []
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "369c310284c313aa7568b21712c64c4fbeb01403",
+      "built": "2026-11-21T17:49:54Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/45",
+  "record": {
+    "id": "PH",
+    "name": "Philippines",
+    "kind": "state",
+    "summary": "No qualifying institute identified. The science ministry launched a national AI research centre in 2026, and several pending bills would create AI regulators.",
+    "related_bodies": [
+      {
+        "name": "National AI Center for Research and Innovation (NAICRI)",
+        "role": "It is an AI research and computing hub of the Department of Science and Technology, launched February 2026; it has no evaluation mandate.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "ph-dost-naicri-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-d0d5fa9c50e95c4cbb2234a14b173801",
+        "citations": {
+          "name": [
+            "ph-dost-naicri-2026"
+          ],
+          "role": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "ph-dost-naicri-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "ph-dost-naicri-2026"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-10-16",
+      "reason": "Routine yearly re-check of a state where an institute is plausible (in Europe, the G20 or the OECD, or a signatory of the Bletchley Declaration)."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"Philippines\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Philippines national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "ph-dost-naicri-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [
+        "ph-dost-naicri-2026",
+        "ph-rappler-2026"
+      ],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: DOST's own article describes NAICRI and its applied research programme. Rappler's separately authored legislative analysis examines named bills for AI regulatory authorities and their powers; it does not repeat the DOST centre announcement. The two retrieved accounts provide independent country-specific institutional context, not explicit denials of institute existence.",
+      "governance_source_ids": [
+        "ph-dost-naicri-2026"
+      ],
+      "governance_note": "DOST describes NAICRI as national infrastructure for AI research, innovation, computing and governance frameworks. Its stated institutional purpose is not evaluation of the safety of advanced models."
+    },
+    "source_ids": [
+      "ph-dost-naicri-2026",
+      "ph-rappler-2026"
+    ],
+    "notes": "Pending bills in the 20th Congress propose regulators or advisory bodies (an AI Development Authority, a Bureau of AI Systems, a Philippine Council on AI); none is framed as an institute to evaluate advanced models.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "035",
+      "subregion": "South-eastern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 116786962,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "PHL",
+    "m49": "608",
+    "wikidata": "Q928",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [],
+      "related_bodies": [
+        "ph-dost-naicri-2026"
+      ],
+      "next_check": [],
+      "check": [
+        "ph-rappler-2026"
+      ],
+      "notes": [
+        "ph-rappler-2026"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "ph-dost-naicri-2026",
+        "ph-rappler-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ph-dost-naicri-2026",
+        "ph-rappler-2026",
+        "gb-approach-2024"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "ph-dost-naicri-2026",
+      "title": "DOST marks first year of AI flagship programme and launches a National AI Center",
+      "url": "https://asti.dost.gov.ph/news-articles/dost-marks-first-year-of-ai-flagship-program-with-rd-prototypes-400-trained-and-a-national-ai-center-launched/",
+      "archive_url": "https://web.archive.org/web/20260502004231/https://asti.dost.gov.ph/news-articles/dost-marks-first-year-of-ai-flagship-program-with-rd-prototypes-400-trained-and-a-national-ai-center-launched/",
+      "excerpts": [
+        {
+          "text": "the formal launch of the National Artificial Intelligence Center for Research and Innovation (NAICRI)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph-rappler-2026",
+      "title": "How AI governance is taking shape in the Philippines",
+      "url": "https://www.rappler.com/technology/features/artificial-intelligence-bills-20th-congress-philippines/",
+      "archive_url": "https://web.archive.org/web/20260725215337/https://www.rappler.com/technology/features/artificial-intelligence-bills-20th-congress-philippines/",
+      "excerpts": [
+        {
+          "text": "Other measures suggest the Philippine Council on Artificial Intelligence (PCAI), envisioned as a “policy-making and advisory body of experts under the Department of Information and Communications Technology (DICT).”",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/independent_source_ids",
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

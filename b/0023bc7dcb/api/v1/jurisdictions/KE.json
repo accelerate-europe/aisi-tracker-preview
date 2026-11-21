@@ -1,0 +1,1865 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "0023bc7dcb8406118bb01106d66839ed0eaed2e4",
+      "built": "2026-11-21T14:22:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/166",
+  "record": {
+    "id": "KE",
+    "name": "Kenya",
+    "kind": "state",
+    "institute_id": "ke-ai-safety-institute",
+    "summary": "Kenya's AI Strategy 2025-2030 lists a national AI risk and safety institute as a flagship project, and the July 2026 draft AI policy would establish a Kenya AI Safety Institute for testing and evaluation. The cited sources do not show that a national institute has been designated. The network testing report published on 26 June 2025 credits a contribution to 'Kenya AISI'. This may mean Kenya's delegation; the report does not say which body made the contribution.",
+    "related_bodies": [
+      {
+        "name": "Ministry of Information, Communications and the Digital Economy (MICDE)",
+        "role": "It leads the AI strategy and the draft AI policy; it owns the policy and is not an evaluation body.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-c3944eb2589f53c1b9fc7afcd5ee2ed8",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "Special Envoy for Technology (Amb. Philip Thigo)",
+        "role": "The Special Envoy represented Kenya at the November 2024 launch of the international network of AI safety institutes.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-0fee94dff79057a4a00a8c67e747b919",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-15",
+      "reason": "Draft AI policy consultation closed in August 2026; check whether Cabinet adopts it and whether the institute is designated."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, authority designations and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Corrected the first-output milestone from the dated full multilingual report. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Aligned the network-report credit date in the summary with the output credited_from date and the Singapore AISI publication page; no full record recheck."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound"
+    },
+    "source_ids": [
+      "ke-ai-strategy-2025",
+      "ke-ai-roadmap-2025",
+      "ke-draft-policy-2026",
+      "ke-policy-notice-2026",
+      "ke-kna-network-2024",
+      "ke-launch-2025",
+      "network-2025",
+      "network-multilingual-2025",
+      "fix-output-network-multilingual-arxiv",
+      "r5-sg-multilingual-full-report-page"
+    ],
+    "notes": "Kenya is a member of the International Network for Advanced AI Measurement, Evaluation and Science. Kenya News Agency reports that Special Envoy for Technology Philip Thigo represented Kenya at the November 2024 network launch. The draft policy, including sections 3.7.5 and 4.5, would establish the institute; the document reviewed was issued for consultation. Neither the representation report nor the 'Kenya AISI' testing-report credit establishes the institute's formal institutional status.\n\nStatus confidence is medium because the strategy's flagship project 5.2.3, 'Develop a national AI risk and safety institute', names no model evaluation; the evaluation remit appears only in the July 2026 draft policy, which is not adopted.",
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 57532493,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "memberships": [
+      {
+        "body": "intl-network",
+        "source_ids": [
+          "r3-ke-mygov-network-membership",
+          "network-2025",
+          "network-nist-2026",
+          "gb-aisi-network-consensus-2026"
+        ],
+        "citations": {
+          "body": [
+            "r3-ke-mygov-network-membership",
+            "gb-aisi-network-consensus-2026"
+          ],
+          "display": [
+            "r3-ke-mygov-network-membership",
+            "gb-aisi-network-consensus-2026"
+          ]
+        }
+      }
+    ],
+    "status_confidence": "medium",
+    "timeline": [
+      {
+        "id": "ke-2025-strategy",
+        "date": "2025-03-27",
+        "event": "commitment",
+        "instrument": "strategy",
+        "description": "National AI Strategy 2025-2030 launched; flagship project 5.2.3 is to develop a national AI risk and safety institute.",
+        "source_ids": [
+          "ke-launch-2025",
+          "ke-ai-strategy-2025"
+        ],
+        "short": "National AI Strategy commits to developing an AI risk and safety institute.",
+        "citations": {
+          "id": [],
+          "date": [
+            "ke-launch-2025"
+          ],
+          "event": [
+            "ke-ai-strategy-2025"
+          ],
+          "instrument": [],
+          "description": [
+            "ke-ai-strategy-2025"
+          ],
+          "short": [],
+          "display": [
+            "ke-ai-strategy-2025",
+            "ke-launch-2025"
+          ]
+        }
+      },
+      {
+        "id": "ke-2025-roadmap",
+        "date": "2025",
+        "event": "commitment",
+        "instrument": "strategy",
+        "description": "Strategy implementation roadmap lists establishing a National AI Risk and Safety Institute.",
+        "source_ids": [
+          "ke-ai-roadmap-2025"
+        ],
+        "short": "Strategy roadmap lists establishing a National AI Risk and Safety Institute.",
+        "citations": {
+          "id": [],
+          "date": [],
+          "event": [
+            "ke-ai-roadmap-2025"
+          ],
+          "instrument": [],
+          "description": [
+            "ke-ai-roadmap-2025"
+          ],
+          "short": [],
+          "display": [
+            "ke-ai-roadmap-2025"
+          ]
+        }
+      },
+      {
+        "id": "ke-first-output",
+        "date": "2025-06-26",
+        "event": "first_output",
+        "instrument": "publication",
+        "description": "Earliest identified institutionally credited output: Improving Methodologies for LLM Evaluations Across Global Languages",
+        "short": "First published work credited to the institute.",
+        "output_lineage": "network-multilingual-2025",
+        "source_ids": [
+          "network-multilingual-2025",
+          "r5-sg-multilingual-full-report-page"
+        ],
+        "citations": {
+          "event": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "date": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "short": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "description": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "display": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ]
+        }
+      },
+      {
+        "id": "ke-2026-draft-policy",
+        "date": "2026-07",
+        "event": "proposed",
+        "instrument": "draft_policy",
+        "description": "Draft AI policy put out for comment would establish the Kenya AI Safety Institute for testing, evaluation and red-teaming.",
+        "source_ids": [
+          "ke-draft-policy-2026",
+          "ke-policy-notice-2026"
+        ],
+        "short": "Draft policy proposes Kenya AI Safety Institute; consultation opens.",
+        "citations": {
+          "id": [],
+          "date": [],
+          "event": [
+            "ke-draft-policy-2026",
+            "ke-policy-notice-2026"
+          ],
+          "instrument": [
+            "ke-policy-notice-2026"
+          ],
+          "description": [
+            "ke-draft-policy-2026"
+          ],
+          "short": [],
+          "display": [
+            "ke-draft-policy-2026",
+            "ke-policy-notice-2026"
+          ]
+        }
+      }
+    ],
+    "iso3": "KEN",
+    "m49": "404",
+    "wikidata": "Q114",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "planned",
+    "status_since": "2025-03-27",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "institute_id": [],
+      "summary": [
+        "ke-ai-strategy-2025",
+        "ke-draft-policy-2026",
+        "network-multilingual-2025",
+        "r5-sg-multilingual-full-report-page"
+      ],
+      "related_bodies": [],
+      "next_check": [],
+      "check": [],
+      "notes": [
+        "ke-ai-strategy-2025",
+        "ke-draft-policy-2026",
+        "ke-policy-notice-2026",
+        "ke-kna-network-2024",
+        "network-multilingual-2025"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "memberships": [
+        "r3-ke-mygov-network-membership",
+        "gb-aisi-network-consensus-2026"
+      ],
+      "status_confidence": [],
+      "timeline": [
+        "ke-ai-strategy-2025",
+        "ke-ai-roadmap-2025",
+        "ke-draft-policy-2026",
+        "ke-policy-notice-2026",
+        "ke-launch-2025"
+      ],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [
+        "ke-ai-strategy-2025",
+        "ke-launch-2025"
+      ],
+      "status_since": [
+        "ke-launch-2025"
+      ],
+      "display": [
+        "ke-ai-strategy-2025",
+        "ke-ai-roadmap-2025",
+        "ke-draft-policy-2026",
+        "ke-policy-notice-2026",
+        "ke-kna-network-2024",
+        "ke-launch-2025",
+        "network-multilingual-2025",
+        "r3-ke-mygov-network-membership",
+        "r5-sg-multilingual-full-report-page",
+        "gb-aisi-network-consensus-2026"
+      ],
+      "since": [
+        "ke-launch-2025"
+      ],
+      "finding": [
+        "ke-ai-strategy-2025",
+        "ke-draft-policy-2026",
+        "network-multilingual-2025",
+        "r5-sg-multilingual-full-report-page"
+      ],
+      "inst": [
+        "ke-draft-policy-2026"
+      ]
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "network-2025",
+        "network-nist-2026",
+        "ke-ai-strategy-2025",
+        "ke-ai-roadmap-2025",
+        "ke-draft-policy-2026",
+        "ke-policy-notice-2026",
+        "ke-kna-network-2024",
+        "ke-launch-2025",
+        "network-multilingual-2025",
+        "fix-output-network-multilingual-arxiv",
+        "r3-ke-mygov-network-membership",
+        "r5-sg-multilingual-full-report-page",
+        "gb-aisi-network-consensus-2026"
+      ]
+    }
+  },
+  "institute": {
+    "aisi_json_pointer": "/institutes/14",
+    "record": {
+      "id": "ke-ai-safety-institute",
+      "name": "Kenya AI Safety Institute (planned)",
+      "jurisdiction_id": "KE",
+      "host": "Not yet designated; the Ministry of Information, Communications and the Digital Economy leads the policy",
+      "legal_form": "unknown",
+      "mandate": "Would conduct AI safety research, testing, evaluation, benchmarking, red-teaming, incident analysis and technical cooperation as a national technical institution; would support regulators without displacing their mandates (draft AI policy, section 3.7.5).",
+      "website": null,
+      "check": {
+        "last_checked": "2026-10-16",
+        "method": "individual",
+        "partial": [
+          {
+            "date": "2026-10-17",
+            "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Checked the full multilingual report and its Singapore publication date. This is a partial check, not a full record recheck."
+          },
+          {
+            "date": "2026-10-19",
+            "scope": "Bound the adopted roadmap to the short remit and narrowed its wording. Set legal form to unknown because proposed describes status, not an institutional form specified by the sources. This was a partial evidence check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-20",
+            "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Post-release re-check of Ministry of ICT news, speeches and policy documents: the draft AI policy has not been adopted; nothing new. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Search-protocol pilot: ministry news and policy pages, Cabinet briefs, Parliament papers and the 2026/27 programme budget read, then logged queries in English and Swahili; the draft AI policy is still not adopted. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-07",
+            "scope": "News re-check since 24 October 2026: the Cabinet Office despatches and Cabinet News of 9 October, the President's cabinet briefs, the ICT ministry homepage, the KICA amendment bill notice, Parliament's AI bill page and press coverage. The draft AI policy is not adopted; the Senate ICT committee recommended against the AI Bill 2026, which would create an AI Commissioner, not the institute. Left for review: the Senate committee report (not retrievable). Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-09",
+            "scope": "Post-release news re-check from 6 November 2026: the ICT ministry's news, consultation and public-participation pages, and the ministry bulletin of 3 November, which reports the AI policy as still forthcoming. The draft AI policy is not adopted. Left for review: the Senate ICT committee report on the AI Bill 2026 (located, not readable) and current Cabinet despatches. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-10",
+            "scope": "Post-release news re-check from 8 November 2026: the ICT ministry's news (10 November), policy documents, speeches (newest 20 September) and the Cabinet briefs (newest recovered 10 February). The security operations centre launched on 10 November is not a qualifying institute. The Senate ICT committee report on the AI Bill could not be read, and no adoption of the draft AI policy was found; current Cabinet and parliamentary coverage is incomplete. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-13",
+            "scope": "Post-release news re-check from 10 November 2026: the ICT ministry's news (10 November), policy documents (newest individually dated entry 22 January 2026) and speeches (20 September), the Cabinet briefs (newest recovered 10 February), the Senate Hansard of 7 October, which records the tabling of the ICT committee's report on the AI Bill without its recommendations, and the July draft policy's institute provision. The security operations centre of 10 November is not a qualifying institute. No adoption of the draft AI policy was found; the committee report itself was not read, and the committee's debate and current Cabinet coverage remain open. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-14",
+            "scope": "Sources checked for developments from 13 November 2026: the ICT ministry's home page (10 November), news (3 November), policy documents (newest dated title 22 January 2026, with undated items) and speeches and press releases (20 September), the Cabinet despatches (newest read 9 October) and the President's Cabinet briefs (10 February). No adoption of the draft AI policy and no act on the institute was found. A Mt Kenya Times report of 13 November on a court judgment of 12 November describes the policy as awaiting Cabinet approval; the judgment itself was not read, and the report is not evidence of adoption. Parliament's catalogue entry for its report on the AI Bill was read (issued 7 August, catalogued 12 October), but the report itself could not be retrieved. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-20",
+            "scope": "Sources checked for developments from 14 November 2026: the ICT ministry's news (18 November) and policy documents, the consultation page for the draft AI policy, and Parliament's catalogue of committee reports (newest relevant report 7 August). No adoption of the draft policy and no decision on the institute was found. Cabinet despatches could not be read and the presidency's briefs were stale (10 February), so adoption is unverified, not disproved. Partial check, not a full record re-check."
+          }
+        ],
+        "last_checked_basis": "historical_upper_bound",
+        "functions": {
+          "date": "2026-11-14",
+          "codes": [
+            "model_testing",
+            "evaluation_methods",
+            "research",
+            "standards_guidance",
+            "regulatory_enforcement",
+            "regulatory_support",
+            "risk_monitoring",
+            "foresight",
+            "policy_advice",
+            "incident_response",
+            "international_cooperation",
+            "convening",
+            "capacity_building",
+            "talent",
+            "adoption",
+            "public_access_continuity",
+            "certification",
+            "sandbox"
+          ]
+        }
+      },
+      "source_ids": [
+        "ke-ai-strategy-2025",
+        "ke-ai-roadmap-2025",
+        "ke-draft-policy-2026",
+        "ke-launch-2025",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "gb-joint-testing"
+      ],
+      "notes": "The 2025 strategy and July 2026 consultation draft plan a national institute. Section 8.5 of the June 2025 multilingual testing report explicitly credits 'Kenya AISI', rather than only Kenya. No government designation of that institute was located; the credit may identify the participating delegation. The planned status and the named contribution are recorded separately. The sources do not specify a legal form for the planned institute. The July 2026 draft policy names the State Department responsible for Science, Research, Technology and Innovation as lead for establishing the institute, with the ICT ministry (MICDE) among the supporting bodies; the draft is not adopted, so the host entry is unchanged (noted 24 October 2026).",
+      "mandate_short": "Planned national body for AI safety research, oversight and capacity building.",
+      "placement": {
+        "host_type": "unknown",
+        "source_ids": [
+          "ke-draft-policy-2026"
+        ],
+        "citations": {
+          "host_type": [],
+          "display": []
+        }
+      },
+      "name_local": "Kenya AI Safety Institute",
+      "short_name": "Kenya AISI",
+      "wikidata": null,
+      "identifier_notes": "No matching Wikidata institute item verified in label and official-name searches on 17 October 2026; null does not establish that no item exists.",
+      "outputs": [
+        {
+          "date": "2025-02-10",
+          "type": "joint_testing",
+          "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+          "source_ids": [
+            "network-multilingual-2025",
+            "fix-output-network-multilingual-arxiv",
+            "r3-jp-activity-index",
+            "fix-output-sg-multilingual-summary",
+            "r3-jp-multilingual-full-report-notice",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "lineage": "network-multilingual-2025",
+          "attribution": "named_contributor",
+          "attribution_note": "The February summary and June full report are one lineage, dated from the summary. The full report names this institute as a contributor; Singapore AISI dates its full-report page 26 June 2025. Credit begins with that dated version, rather than the later Japanese publication notice.",
+          "qualifies_as": "joint_testing",
+          "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report. Use the recorded credit date, not an earlier version without established institute credit.",
+          "credit": {
+            "institute_id": "ke-ai-safety-institute",
+            "date": "2025-06-26"
+          },
+          "credited_from": "2025-06-26",
+          "citations": {
+            "date": [
+              "fix-output-sg-multilingual-summary"
+            ],
+            "type": [],
+            "title": [
+              "network-multilingual-2025"
+            ],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "network-multilingual-2025"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "network-multilingual-2025",
+              "r5-sg-multilingual-full-report-page"
+            ],
+            "credited_from": [],
+            "display": [
+              "network-multilingual-2025",
+              "fix-output-sg-multilingual-summary",
+              "r5-sg-multilingual-full-report-page"
+            ]
+          }
+        },
+        {
+          "date": "2025-07-17",
+          "type": "joint_testing",
+          "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "source_ids": [
+            "catalogue-agentic-report",
+            "gb-joint-testing",
+            "fix-output-network-agentic-arxiv",
+            "depth-gb-blog",
+            "eu-joint-testing-2025"
+          ],
+          "lineage": "network-agentic-2025",
+          "attribution": "named_contributor",
+          "attribution_note": "The original report names the institute as a contributing organisation or, for the EU AI Office, as a participant running cybersecurity evaluations. Documented in the international network report.",
+          "qualifies_as": "joint_testing",
+          "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report.",
+          "credit": {
+            "institute_id": "ke-ai-safety-institute",
+            "date": "2025-07-17"
+          },
+          "citations": {
+            "date": [
+              "depth-gb-blog"
+            ],
+            "type": [],
+            "title": [
+              "fix-output-network-agentic-arxiv"
+            ],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "catalogue-agentic-report"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "catalogue-agentic-report",
+              "depth-gb-blog"
+            ],
+            "display": [
+              "catalogue-agentic-report",
+              "depth-gb-blog",
+              "fix-output-network-agentic-arxiv"
+            ]
+          }
+        }
+      ],
+      "agreements": [],
+      "head": {
+        "state": "not_applicable"
+      },
+      "reports_to": {
+        "state": "not_applicable"
+      },
+      "national_partners": {
+        "state": "not_applicable"
+      },
+      "testing_capacity": {
+        "state": "not_published",
+        "notes": "Adopted text names the institute without testing: the AI Strategy 2025-2030 lists the flagship project '5.2.3 Develop a national AI risk and safety institute', and the roadmap says 'Establish a National AI Risk and Safety Institute to lead research, oversight, and capacity building in AI safety and governance.' proposed: 'Establish the Kenya AI Safety Institute as the national technical institution responsible for AI safety research, testing, evaluation, benchmarking, red-teaming, incident analysis, and technical cooperation.' (Draft Kenya AI and Other Emerging Technologies Policy, July 2026), open for public comment until 4 August 2026 before Cabinet consideration. Joint network testing reported, 2025-06-26 (multilingual exercise, Kiswahili section 'Contributed by Kenya AISI') and 2025-07-17 (agentic exercise: 'Kenya also constructed a new set of tasks and tools'), as task design and analysis rather than running tests; no government designation of a Kenyan institute at those dates was found.",
+        "source_ids": [
+          "ke-ai-strategy-2025",
+          "ke-ai-roadmap-2025",
+          "ke-draft-policy-2026",
+          "ke-kassdigital-2026-07",
+          "network-multilingual-2025",
+          "catalogue-agentic-report"
+        ],
+        "searches": [
+          {
+            "date": "2026-10-21",
+            "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+            "language": "en",
+            "sources_read": [
+              "https://epoch.ai/data/ai-models",
+              "https://epoch.ai/data/ai-models-documentation",
+              "https://epoch.ai/data/all_ai_models.csv",
+              "https://epoch.ai/data/frontier_ai_models.csv",
+              "https://epoch.ai/data/notable_ai_models.csv"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Recorded sources re-read for testing and access wording",
+            "language": "en",
+            "sources_read": [
+              "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+              "https://www.data4sdgs.org/sites/default/files/2025-06/Kenya_AI_Strategy_2025_2030.pdf",
+              "https://ict.go.ke/sites/default/files/2025-12/Kenya%20National%20AI%20Strategy%202025-2030%20Implementation%20Roadmap.pdf",
+              "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+              "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Kenya AI and Emerging Technologies Policy 2026 Cabinet approved AI Safety Institute",
+            "language": "en",
+            "sources_read": [
+              "https://bowmanslaw.com/insights/kenya-ai-governance-framework-continues-to-take-shape-draft-artificial-intelligence-and-emerging-technologies-policy-2026/ (result)",
+              "https://www.the-star.co.ke/news/2026-07-24-state-tightens-rules-on-ai-use-of-kenyans-data (highlights)",
+              "https://www.the-star.co.ke/news/2026-06-30-cabinet-establishes-committee-to-drive-ai-agenda (result)"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Kenya Artificial Intelligence Bill 2026 AI Safety Institute provisions access to AI models",
+            "language": "en",
+            "sources_read": [
+              "https://www.parliament.go.ke/sites/default/files/2026-04/Bill%20Digest%20-%20The%20Artificial%20Intelligence%20Bill%2C%20No.4%20of%202026.pdf (highlights)",
+              "https://techpoint.africa/insight/kenyas-draft-ai-policy/ (highlights)",
+              "https://kassdigital.co.ke/latest/government-seeks-to-fast-track-digital-economy-laws-ai-policy/"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Kenya Cabinet approves Artificial Intelligence and Emerging Technologies Policy October 2026",
+            "language": "en",
+            "sources_read": [
+              "search results only; no report of Cabinet approval found"
+            ]
+          }
+        ],
+        "citations": {
+          "state": [],
+          "notes": [],
+          "searches": [],
+          "display": []
+        }
+      },
+      "model_access": {
+        "notes": "No access event, legal power or agreement providing for access to, or evaluation of, the models of a developer that has a model in Epoch AI's frontier set was found. The draft policy has no model-access provision for the institute.",
+        "source_ids": [
+          "ke-draft-policy-2026"
+        ],
+        "searches": [
+          {
+            "date": "2026-10-21",
+            "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+            "language": "en",
+            "sources_read": [
+              "https://epoch.ai/data/ai-models",
+              "https://epoch.ai/data/ai-models-documentation",
+              "https://epoch.ai/data/all_ai_models.csv",
+              "https://epoch.ai/data/frontier_ai_models.csv",
+              "https://epoch.ai/data/notable_ai_models.csv"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Recorded sources re-read for testing and access wording",
+            "language": "en",
+            "sources_read": [
+              "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+              "https://www.data4sdgs.org/sites/default/files/2025-06/Kenya_AI_Strategy_2025_2030.pdf",
+              "https://ict.go.ke/sites/default/files/2025-12/Kenya%20National%20AI%20Strategy%202025-2030%20Implementation%20Roadmap.pdf",
+              "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+              "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Kenya AI and Emerging Technologies Policy 2026 Cabinet approved AI Safety Institute",
+            "language": "en",
+            "sources_read": [
+              "https://bowmanslaw.com/insights/kenya-ai-governance-framework-continues-to-take-shape-draft-artificial-intelligence-and-emerging-technologies-policy-2026/ (result)",
+              "https://www.the-star.co.ke/news/2026-07-24-state-tightens-rules-on-ai-use-of-kenyans-data (highlights)",
+              "https://www.the-star.co.ke/news/2026-06-30-cabinet-establishes-committee-to-drive-ai-agenda (result)"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Kenya Artificial Intelligence Bill 2026 AI Safety Institute provisions access to AI models",
+            "language": "en",
+            "sources_read": [
+              "https://www.parliament.go.ke/sites/default/files/2026-04/Bill%20Digest%20-%20The%20Artificial%20Intelligence%20Bill%2C%20No.4%20of%202026.pdf (highlights)",
+              "https://techpoint.africa/insight/kenyas-draft-ai-policy/ (highlights)",
+              "https://kassdigital.co.ke/latest/government-seeks-to-fast-track-digital-economy-laws-ai-policy/"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Kenya Cabinet approves Artificial Intelligence and Emerging Technologies Policy October 2026",
+            "language": "en",
+            "sources_read": [
+              "search results only; no report of Cabinet approval found"
+            ]
+          }
+        ],
+        "value": "none_found",
+        "citations": {
+          "notes": [],
+          "searches": [],
+          "value": [],
+          "display": []
+        }
+      },
+      "staffing_model": {
+        "code": "not_published",
+        "source_ids": [
+          "ke-draft-policy-2026"
+        ],
+        "notes": "proposed: the consultation draft Kenya AI and Emerging Technologies Policy (July 2026) lists 'staff recruited' among the indicators for establishing the institute within 0 to 24 months; the draft has not been adopted.",
+        "searches": [
+          {
+            "date": "2026-10-21",
+            "query": "Kenya AI Safety Institute staffing, recruitment or employment form in the AI strategy, roadmap and draft policy",
+            "language": "en",
+            "sources_read": [
+              "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+              "https://ict.go.ke/sites/default/files/2025-12/Kenya%20National%20AI%20Strategy%202025-2030%20Implementation%20Roadmap.pdf"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Kenya National Assembly Hansard AI safety institute",
+            "language": "en",
+            "sources_read": [
+              "search results only; no primary hit"
+            ]
+          }
+        ],
+        "citations": {
+          "code": [],
+          "notes": [],
+          "searches": [],
+          "display": []
+        }
+      },
+      "funding": [
+        {
+          "kind": "one_off",
+          "amount": 2000000000,
+          "currency": "KES",
+          "description": "KES 2,000m estimated to establish the Kenya AI Safety Institute within 0 to 24 months, in the July 2026 draft AI policy; its implementation matrix does not say from which date the 24 months count.",
+          "source_ids": [
+            "ke-draft-policy-2026"
+          ],
+          "confidence": "high",
+          "commitment": "proposed",
+          "funding_source": "mixed",
+          "coverage": "whole_institute",
+          "decision_date": "2026-07",
+          "id": "funding-b60809279d92488ebf5dcea4813d9da9",
+          "notes": "Estimated cost in the draft policy's implementation matrix, with a timeframe of 0 to 24 months and no annual profile, to come from the Exchequer and development partners. The draft was issued for consultation and is not adopted, so the figure is a proposal, not a budget. The ECB publishes no reference rate for the Kenyan shilling, so the amount is not converted to euros and is not compared.",
+          "eur_per_year_est": null,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "ke-draft-policy-2026"
+            ],
+            "currency": [
+              "ke-draft-policy-2026"
+            ],
+            "description": [
+              "ke-draft-policy-2026"
+            ],
+            "confidence": [],
+            "commitment": [
+              "ke-draft-policy-2026"
+            ],
+            "funding_source": [
+              "ke-draft-policy-2026"
+            ],
+            "coverage": [
+              "ke-draft-policy-2026"
+            ],
+            "decision_date": [],
+            "id": [],
+            "notes": [
+              "ke-draft-policy-2026"
+            ],
+            "eur_per_year_est": [],
+            "display": [
+              "ke-draft-policy-2026"
+            ],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "KES 2.0bn",
+            "qualifiers": [
+              "one-off",
+              "proposed"
+            ],
+            "native_value": "KES 2.0bn",
+            "native_qualifiers": [
+              "one-off",
+              "proposed"
+            ],
+            "budget_citations": [
+              "ke-draft-policy-2026"
+            ]
+          }
+        }
+      ],
+      "claims": [
+        {
+          "id": "claims-c9a798e398554a7abdf03d003c394160",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "activity",
+          "text": "The international network's joint testing report says that, with the UK, the EU AI Office, Australia, Canada and Korea, it contributed to the analysis phase of the project.",
+          "source_ids": [
+            "catalogue-agentic-report"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "catalogue-agentic-report"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "catalogue-agentic-report"
+            ]
+          }
+        },
+        {
+          "id": "claims-faf2ed8308584823a2c5a391b1911e79",
+          "kind": "function",
+          "code": "model_testing",
+          "basis": "mandate",
+          "text": "The draft policy says the Kenya AI Safety Institute is to be established as the national technical institution responsible for AI safety testing, evaluation and red-teaming.",
+          "source_ids": [
+            "ke-draft-policy-2026"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "ke-draft-policy-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "ke-draft-policy-2026"
+            ]
+          }
+        },
+        {
+          "id": "claims-d38857cf4bde4164841919a81b93c441",
+          "kind": "function",
+          "code": "regulatory_support",
+          "basis": "mandate",
+          "text": "The draft policy says the Kenya AI Safety Institute shall provide technical evidence, testing capacity, research support, evaluation tools, benchmarks and advisory inputs to support regulators and public institutions.",
+          "source_ids": [
+            "ke-draft-policy-2026"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "ke-draft-policy-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "ke-draft-policy-2026"
+            ]
+          }
+        },
+        {
+          "id": "claims-d16e9d49e3684e9e83a3669398693d59",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "mandate",
+          "text": "The draft policy lists \"international AI safety cooperation\" among the Kenya AI Safety Institute's roles.",
+          "source_ids": [
+            "ke-draft-policy-2026"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "ke-draft-policy-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "ke-draft-policy-2026"
+            ]
+          }
+        },
+        {
+          "id": "claims-84ebfc6d1e71423fb23e7908d36d2c10",
+          "kind": "function",
+          "code": "policy_advice",
+          "basis": "mandate",
+          "text": "The draft policy says the Kenya AI Safety Institute and the other listed public bodies shall provide technical expertise, evidence and policy positions to inform Kenya's international engagements.",
+          "source_ids": [
+            "ke-draft-policy-2026"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "ke-draft-policy-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "ke-draft-policy-2026"
+            ]
+          }
+        }
+      ],
+      "status": "planned",
+      "announced": "2025-03-27",
+      "functions": [
+        {
+          "code": "model_testing",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-faf2ed8308584823a2c5a391b1911e79"
+          ]
+        },
+        {
+          "code": "evaluation_methods",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "research",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "standards_guidance",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "regulatory_enforcement",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "regulatory_support",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-d38857cf4bde4164841919a81b93c441"
+          ]
+        },
+        {
+          "code": "risk_monitoring",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "foresight",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "policy_advice",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-84ebfc6d1e71423fb23e7908d36d2c10"
+          ]
+        },
+        {
+          "code": "incident_response",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "international_cooperation",
+          "value": "both",
+          "claim_ids": [
+            "claims-c9a798e398554a7abdf03d003c394160",
+            "claims-d16e9d49e3684e9e83a3669398693d59"
+          ]
+        },
+        {
+          "code": "convening",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "capacity_building",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "talent",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "adoption",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "public_access_continuity",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "certification",
+          "value": "not_found",
+          "claim_ids": []
+        },
+        {
+          "code": "sandbox",
+          "value": "not_found",
+          "claim_ids": []
+        }
+      ],
+      "operating": [
+        {
+          "kind": "joint_testing",
+          "date": "2025-06-26",
+          "lineage": "network-multilingual-2025",
+          "source_ids": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "citations": {
+            "date": [
+              "network-multilingual-2025",
+              "r5-sg-multilingual-full-report-page"
+            ],
+            "kind": [
+              "network-multilingual-2025",
+              "r5-sg-multilingual-full-report-page"
+            ],
+            "display": [
+              "network-multilingual-2025",
+              "r5-sg-multilingual-full-report-page"
+            ]
+          }
+        }
+      ],
+      "intervals": {
+        "announced_to_established": null,
+        "established_to_first_qualifying_activity": null,
+        "announced_to_first_qualifying_activity": null
+      },
+      "citations": {
+        "id": [],
+        "name": [
+          "ke-draft-policy-2026"
+        ],
+        "jurisdiction_id": [],
+        "host": [],
+        "legal_form": [],
+        "mandate": [
+          "ke-ai-roadmap-2025",
+          "ke-draft-policy-2026"
+        ],
+        "website": [],
+        "check": [],
+        "notes": [
+          "ke-draft-policy-2026"
+        ],
+        "mandate_short": [
+          "ke-ai-roadmap-2025",
+          "ke-draft-policy-2026"
+        ],
+        "placement": [],
+        "name_local": [],
+        "short_name": [],
+        "wikidata": [],
+        "identifier_notes": [],
+        "outputs": [
+          "network-multilingual-2025",
+          "catalogue-agentic-report",
+          "depth-gb-blog",
+          "fix-output-network-agentic-arxiv",
+          "fix-output-sg-multilingual-summary",
+          "r5-sg-multilingual-full-report-page"
+        ],
+        "agreements": [],
+        "head": [],
+        "reports_to": [],
+        "national_partners": [],
+        "testing_capacity": [],
+        "model_access": [],
+        "staffing_model": [],
+        "funding": [
+          "ke-draft-policy-2026"
+        ],
+        "claims": [
+          "ke-draft-policy-2026",
+          "catalogue-agentic-report"
+        ],
+        "status": [
+          "ke-ai-strategy-2025",
+          "ke-launch-2025"
+        ],
+        "announced": [
+          "ke-launch-2025"
+        ],
+        "functions": [],
+        "operating": [],
+        "intervals": [],
+        "display": [
+          "ke-ai-strategy-2025",
+          "ke-ai-roadmap-2025",
+          "ke-draft-policy-2026",
+          "ke-launch-2025",
+          "network-multilingual-2025",
+          "catalogue-agentic-report",
+          "depth-gb-blog",
+          "fix-output-network-agentic-arxiv",
+          "fix-output-sg-multilingual-summary",
+          "r5-sg-multilingual-full-report-page"
+        ],
+        "form": [],
+        "inst": [
+          "ke-draft-policy-2026"
+        ],
+        "institute": [
+          "ke-draft-policy-2026"
+        ],
+        "established": [],
+        "announced_to_established": [],
+        "established_to_first_qualifying_activity": [],
+        "announced_to_first_qualifying_activity": []
+      },
+      "display": {
+        "intervals": {
+          "status_since": null,
+          "known_activity": null
+        },
+        "comparison_funding": null,
+        "budget": "funding-b60809279d92488ebf5dcea4813d9da9",
+        "staff": null,
+        "total_staff": null,
+        "technical_staff": null,
+        "funding_records": {
+          "funding-b60809279d92488ebf5dcea4813d9da9": {
+            "kind": "one_off",
+            "amount": 2000000000,
+            "currency": "KES",
+            "description": "KES 2,000m estimated to establish the Kenya AI Safety Institute within 0 to 24 months, in the July 2026 draft AI policy; its implementation matrix does not say from which date the 24 months count.",
+            "source_ids": [
+              "ke-draft-policy-2026"
+            ],
+            "confidence": "high",
+            "commitment": "proposed",
+            "funding_source": "mixed",
+            "coverage": "whole_institute",
+            "decision_date": "2026-07",
+            "id": "funding-b60809279d92488ebf5dcea4813d9da9",
+            "notes": "Estimated cost in the draft policy's implementation matrix, with a timeframe of 0 to 24 months and no annual profile, to come from the Exchequer and development partners. The draft was issued for consultation and is not adopted, so the figure is a proposal, not a budget. The ECB publishes no reference rate for the Kenyan shilling, so the amount is not converted to euros and is not compared.",
+            "eur_per_year_est": null,
+            "citations": {
+              "kind": [],
+              "amount": [
+                "ke-draft-policy-2026"
+              ],
+              "currency": [
+                "ke-draft-policy-2026"
+              ],
+              "description": [
+                "ke-draft-policy-2026"
+              ],
+              "confidence": [],
+              "commitment": [
+                "ke-draft-policy-2026"
+              ],
+              "funding_source": [
+                "ke-draft-policy-2026"
+              ],
+              "coverage": [
+                "ke-draft-policy-2026"
+              ],
+              "decision_date": [],
+              "id": [],
+              "notes": [
+                "ke-draft-policy-2026"
+              ],
+              "eur_per_year_est": [],
+              "display": [
+                "ke-draft-policy-2026"
+              ],
+              "annual_amount": []
+            },
+            "display": {
+              "annual_estimate": false,
+              "value": "KES 2.0bn",
+              "qualifiers": [
+                "one-off",
+                "proposed"
+              ],
+              "native_value": "KES 2.0bn",
+              "native_qualifiers": [
+                "one-off",
+                "proposed"
+              ],
+              "budget_citations": [
+                "ke-draft-policy-2026"
+              ]
+            }
+          }
+        },
+        "funding_ids": [
+          "funding-b60809279d92488ebf5dcea4813d9da9"
+        ],
+        "staff_records": {},
+        "staff_ids": [],
+        "related_funding_ids": [],
+        "operating": {
+          "since": "2025-06-26",
+          "first_lineage": "network-multilingual-2025",
+          "items": [
+            {
+              "kind": "joint_testing",
+              "date": "2025-06-26",
+              "lineage": "network-multilingual-2025",
+              "source_ids": [
+                "network-multilingual-2025",
+                "r5-sg-multilingual-full-report-page"
+              ],
+              "citations": {
+                "date": [
+                  "network-multilingual-2025",
+                  "r5-sg-multilingual-full-report-page"
+                ],
+                "kind": [
+                  "network-multilingual-2025",
+                  "r5-sg-multilingual-full-report-page"
+                ],
+                "display": [
+                  "network-multilingual-2025",
+                  "r5-sg-multilingual-full-report-page"
+                ]
+              }
+            }
+          ]
+        },
+        "rows": {
+          "head": {
+            "state": "not_applicable",
+            "text": null,
+            "cited": []
+          },
+          "reports_to": {
+            "state": "not_applicable",
+            "text": null,
+            "cited": []
+          },
+          "partners": {
+            "state": "not_applicable",
+            "items": [],
+            "fold_items": [],
+            "tail": null,
+            "cited": []
+          }
+        },
+        "source_links": [
+          "ke-ai-strategy-2025",
+          "ke-ai-roadmap-2025",
+          "ke-draft-policy-2026",
+          "ke-launch-2025",
+          "eu-joint-testing-2025",
+          "gb-joint-testing",
+          "network-multilingual-2025",
+          "catalogue-agentic-report",
+          "depth-gb-blog",
+          "fix-output-network-multilingual-arxiv",
+          "fix-output-network-agentic-arxiv",
+          "fix-output-sg-multilingual-summary",
+          "r3-jp-activity-index",
+          "r3-jp-multilingual-full-report-notice",
+          "r5-sg-multilingual-full-report-page"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "catalogue-agentic-report",
+      "title": "International Joint Testing Exercise: Agentic Testing",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+      "excerpts": [
+        {
+          "text": "Contributed by Kenya AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note",
+            "/institute/record/outputs/1/credit/institute_id"
+          ]
+        },
+        {
+          "text": "In addition to UK AISI, EU AI Office, and Australia, AISIs from Kenya, Canada, and the Republic of Korea also contributed to the analysis phase of the project.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-gb-blog",
+      "title": "AISI Blog",
+      "url": "https://www.aisi.gov.uk/blog",
+      "excerpts": [
+        {
+          "text": "International joint testing exercise: Agentic testing Blog Organisation • Jul 17, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/date",
+            "/institute/record/outputs/1/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-joint-testing-2025",
+      "title": "AI Office contributes to the third joint testing exercise of the International Network of AI Safety Institutes",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+      "archive_url": "https://web.archive.org/web/20260420092204/https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-network-agentic-arxiv",
+      "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+      "url": "https://arxiv.org/abs/2601.15679",
+      "excerpts": [
+        {
+          "text": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-network-multilingual-arxiv",
+      "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+      "url": "https://arxiv.org/abs/2601.15706",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-sg-multilingual-summary",
+      "title": "Improving Methodologies for AI Model Evaluations Across Global Languages",
+      "url": "https://sgaisi.sg/resources/improving-methodologies-for-ai-model-evaluations-across-global-languages/",
+      "excerpts": [
+        {
+          "text": "February 10, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-aisi-network-consensus-2026",
+      "title": "International consensus and open questions in AI evaluations",
+      "url": "https://www.aisi.gov.uk/blog/international-ai-network-consensus-and-open-questions",
+      "excerpts": [
+        {
+          "text": "the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        },
+        {
+          "text": "the International Network for Advanced AI Measurement, Evaluation and Science — formerly the International Network of AI Safety Institutes",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-joint-testing",
+      "title": "International joint testing exercise: agentic testing",
+      "url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "archive_url": "https://web.archive.org/web/20250905113943/https://www.aisi.gov.uk/work/international-joint-testing-exercise-agentic-testing",
+      "excerpts": []
+    },
+    {
+      "id": "ke-ai-roadmap-2025",
+      "title": "Kenya National AI Strategy 2025-2030 Implementation Roadmap",
+      "url": "https://ict.go.ke/sites/default/files/2025-12/Kenya%20National%20AI%20Strategy%202025-2030%20Implementation%20Roadmap.pdf",
+      "archive_url": "https://web.archive.org/web/20260611194700if_/https://www.ict.go.ke/sites/default/files/2025-12/Kenya%20National%20AI%20Strategy%202025-2030%20Implementation%20Roadmap.pdf",
+      "excerpts": [
+        {
+          "text": "Establish a National AI Risk and Safety Institute to lead research, oversight, and capacity building in AI safety and governance.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description",
+            "/record/timeline/1/event",
+            "/institute/record/mandate_short"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ke-ai-strategy-2025",
+      "title": "Kenya Artificial Intelligence Strategy 2025-2030",
+      "url": "https://www.data4sdgs.org/sites/default/files/2025-06/Kenya_AI_Strategy_2025_2030.pdf",
+      "archive_url": "https://web.archive.org/web/20250713230159/https://www.data4sdgs.org/sites/default/files/2025-06/Kenya_AI_Strategy_2025_2030.pdf",
+      "excerpts": [
+        {
+          "text": "5.2.3 Develop a national AI risk and safety institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/timeline/0/event",
+            "/record/summary",
+            "/record/timeline/0/description",
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ke-draft-policy-2026",
+      "title": "Draft Kenya Artificial Intelligence and Other Emerging Technologies Policy, July 2026",
+      "url": "https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+      "archive_url": "https://web.archive.org/web/20260805060746if_/https://ict.go.ke/sites/default/files/AI%20Policy%20Doc/draft-kenya-ai-and-emerging-technologies-policy-2026.pdf",
+      "excerpts": [
+        {
+          "text": "Establish the Kenya AI Safety Institute as the national technical institution responsible for AI safety research, testing, evaluation, benchmarking, red-teaming, incident analysis, and technical cooperation.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/timeline/3/description",
+            "/institute/record/name",
+            "/institute/record/mandate_short",
+            "/record/notes",
+            "/record/timeline/3/event"
+          ]
+        },
+        {
+          "text": "Establish Kenya AI Safety Institute National AI Safety Institute established and operational Institute established; annual budget allocated; staff recruited 0–24 months 2,000 Exchequer; Development Partners",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/amount",
+            "/institute/record/funding/0/description",
+            "/institute/record/funding/0/coverage",
+            "/institute/record/funding/0/funding_source",
+            "/institute/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "Cost (Ksh Millions)",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/amount",
+            "/institute/record/funding/0/currency"
+          ]
+        },
+        {
+          "text": "4.5 The Government shall establish a Kenya AI Safety Institute to strengthen AI safety, testing, evaluation, and assurance capabilities.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/commitment",
+            "/institute/record/funding/0/description"
+          ]
+        },
+        {
+          "text": "LEAD Support State Department responsible for Science, Research, Technology and Innovation MICDE, NACOSTI, universities",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Establish the Kenya AI Safety Institute as the national technical institution responsible for AI safety research, testing, evaluation, benchmarking, red -teaming, incident analysis, and technical cooperation.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "the Kenya AI Safety Institute shall not displace the statutory mandates of regulators but shall provide technical evidence, testing capacity, research support, evaluation tools, benchmarks, and advisory inputs to support regulators, public institutions",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "Kenya AI Safety Institute AI testing; benchmarking; red-teaming; incident analysis; assurance research; technical advisory support; international AI safety cooperation.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "the Kenya AI Safety Institute, and relevant ministries, departments, agencies, regulators, and county governments shall provide the technical expertise, evidence, an d policy positions required to inform Kenya's international engagements.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ke-kassdigital-2026-07",
+      "title": "Government seeks to fast-track digital economy laws, AI policy",
+      "url": "https://kassdigital.co.ke/latest/government-seeks-to-fast-track-digital-economy-laws-ai-policy/",
+      "excerpts": []
+    },
+    {
+      "id": "ke-kna-network-2024",
+      "title": "Ambassador Thigo Leads Kenya's Participation in Historic AI Safety Network Launch in the US",
+      "url": "https://www.kenyanews.go.ke/ambassador-thigo-leads-kenyas-participation-in-historic-ai-safety-network-launch-in-the-us/",
+      "excerpts": [
+        {
+          "text": "Kenya has taken a historic step by joining the inaugural International Network of AI Safety Institutes, represented by Special Envoy for Technology, Ambassador Philip Thigo.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ke-launch-2025",
+      "title": "Kenya's AI Strategy 2025-2030 launched at KICC Nairobi",
+      "url": "https://ict.go.ke/kenyas-artificial-intelligence-ai-strategy-2025-2030-launched-kicc-nairobi",
+      "archive_url": "https://web.archive.org/web/20260717061659/https://www.ict.go.ke/kenyas-artificial-intelligence-ai-strategy-2025-2030-launched-kicc-nairobi",
+      "excerpts": [
+        {
+          "text": "Thu, 03/27/2025 - 08:09",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ke-policy-notice-2026",
+      "title": "Public notice: call for comments on the draft Kenya AI and Other Emerging Technologies Policy",
+      "url": "https://www.gaa.go.ke/sites/default/files/2026-07/State%20Department%20For%20ICT%20and%20The%20Digital%20Economy%20Public%20Notice%20on%20Call%20For%20Comments%20On%20the%20Draft%20Kenya%20Artificial%20Intelligence%20And%20Other%20Emerging%20Technologies%20.pdf",
+      "archive_url": "https://web.archive.org/web/20261017002945if_/https://www.gaa.go.ke/sites/default/files/2026-07/State%20Department%20For%20ICT%20and%20The%20Digital%20Economy%20Public%20Notice%20on%20Call%20For%20Comments%20On%20the%20Draft%20Kenya%20Artificial%20Intelligence%20And%20Other%20Emerging%20Technologies%20.pdf",
+      "excerpts": [
+        {
+          "text": "CALL FOR COMMENTS ON THE DRAFT KENYA ARTIFICIAL INTELLIGENCE AND OTHER EMERGING TECHNOLOGIES POLICY",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/timeline/3/instrument",
+            "/record/timeline/3/event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-multilingual-2025",
+      "title": "Multilingual joint testing exercise: Improving Methodologies for LLM Evaluations Across Global Languages (evaluation report)",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "archive_url": "https://web.archive.org/web/20260919113540/https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "excerpts": [
+        {
+          "text": "Contributed by Kenya AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/summary",
+            "/institute/record/outputs/0/credit/institute_id"
+          ]
+        },
+        {
+          "text": "Improving Methodologies for LLM Evaluations Across Global Languages",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/title"
+          ]
+        },
+        {
+          "text": "Contributed by Kenya AISI",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "r3-jp-activity-index",
+      "title": "AISI activity index",
+      "url": "https://aisi.go.jp/activity/",
+      "excerpts": []
+    },
+    {
+      "id": "r3-jp-multilingual-full-report-notice",
+      "title": "共同テスト演習の評価レポートが公表されました。 Evaluation reports for the 2nd and 3rd joint testing exercise has been published.",
+      "title_en": "Evaluation reports for the second and third joint testing exercises have been published.",
+      "url": "https://aisi.go.jp/activity/activity_international/250718/",
+      "excerpts": []
+    },
+    {
+      "id": "r3-ke-mygov-network-membership",
+      "title": "MyGov, 22 July 2025: Kenya launches TechPlomacy connective to champion inclusive digital future",
+      "url": "https://www.ict.go.ke/sites/default/files/2025-07/MyGov%2022nd%20July%202025.pdf",
+      "excerpts": [
+        {
+          "text": "its role as the only African country in the International Network of AI-Safety Institutes",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-sg-multilingual-full-report-page",
+      "title": "Evaluation Report on “Improving Methodologies for LLM Evaluations Across Global Languages”",
+      "url": "https://sgaisi.sg/resources/improving-methodologies-for-llm-evaluations-across-global-languages-evaluation-report/",
+      "excerpts": [
+        {
+          "text": "June 26, 2025",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/credit/date",
+            "/record/summary"
+          ]
+        },
+        {
+          "text": "June 26, 2025 0 min read",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/resources/improving-methodologies-for-llm-evaluations-across-global-languages-evaluation-report/",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

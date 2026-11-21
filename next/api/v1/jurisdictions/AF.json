@@ -1,0 +1,288 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "369c310284c313aa7568b21712c64c4fbeb01403",
+      "built": "2026-11-21T17:49:54Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/134",
+  "record": {
+    "id": "AF",
+    "name": "Afghanistan",
+    "institute_id": null,
+    "summary": "No qualifying institute identified; few official sources are available. Ministry material describes applied innovation projects, none with a mandate to evaluate advanced models.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English, Dari (Persian) and Pashto for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the ministry's ICT policy work and internet restrictions, with no AI policy found. Kept low: no AI governance source was found, and the Dari and Pashto results could be read only in part. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Afghanistan artificial intelligence safety institute ministry",
+          "source_ids": [
+            "negative-second-af-2026",
+            "gb-approach-2024",
+            "ov-wikipedia",
+            "ca-ised"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "fa",
+          "national_or_official": true,
+          "query": "افغانستان هوش مصنوعی مؤسسه ایمنی وزارت",
+          "source_ids": [
+            "negative-second-af-2026",
+            "gb-approach-2024",
+            "ov-wikipedia",
+            "ca-ised"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Afghanistan artificial intelligence policy ministry communications MCIT 2026 national AI",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "fa",
+          "national_or_official": true,
+          "query": "وزارت مخابرات و تکنالوژی معلوماتی هوش مصنوعی پالیسی ملی افغانستان ۱۴۰۵",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ps",
+          "national_or_official": true,
+          "query": "افغانستان مصنوعي ځيرکتيا ملي پاليسي د مخابراتو وزارت",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded fa query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: AF-search = searches 1, 2 (en, fa). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger. On 24 October 2026 the record was searched again in English, Dari (Persian) and Pashto; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration."
+    },
+    "source_ids": [
+      "af-mcit-home",
+      "negative-second-af-2026"
+    ],
+    "notes": "The ministry describes review of practical innovation proposals, including an AI examination-question generator. Official coverage of institutional AI governance was sparse in the retrieved results. Searches covered indexed public English and Dari/Persian sources for a government-designated AI safety institute with a remit to evaluate advanced models.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "034",
+      "subregion": "Southern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 43844111,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "low",
+    "iso3": "AFG",
+    "m49": "004",
+    "wikidata": "Q889",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "next_check": {
+      "date": "2026-12-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "summary": [],
+      "check": [],
+      "notes": [
+        "negative-second-af-2026"
+      ],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "next_check": [],
+      "status": [],
+      "display": [
+        "negative-second-af-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ca-ised",
+        "af-mcit-home",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "negative-second-af-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "af-mcit-home",
+      "title": "Ministry of Communications and Information Technology, home page",
+      "url": "https://mcit.gov.af",
+      "archive_url": "https://web.archive.org/web/20261012151315/http://www.mcit.gov.af/",
+      "excerpts": []
+    },
+    {
+      "id": "ca-ised",
+      "title": "Canadian Artificial Intelligence Safety Institute",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261016195313/https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "negative-second-af-2026",
+      "title": "وزارت مخابرات و تکنالوژی معلوماتی، تعداد طرح‌های نوآورانه را مورد ارزیابی قرار داد | وزارت مخابرات و تکنالوژی معلوماتی",
+      "title_en": "Ministry of Communications and Information Technology evaluated a number of innovative proposals | Ministry of Communications and Information Technology",
+      "url": "https://www.mcit.gov.af/dr/%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D9%85%D8%AE%D8%A7%D8%A8%D8%B1%D8%A7%D8%AA-%D9%88-%D8%AA%DA%A9%D9%86%D8%A7%D9%84%D9%88%DA%98%DB%8C-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA%DB%8C%D8%8C-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%86%D9%88%D8%A2%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%B1%D8%A7-%D9%85%D9%88%D8%B1%D8%AF-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%D8%AF%D8%A7%D8%AF",
+      "excerpts": [
+        {
+          "text": "سیستم تولید سوالات امتحان با استفاده از هوش مصنوعی",
+          "gloss": "A system generating examination questions using AI.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.2-dev",
+    "as_of": "2026-11-20",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "code-1.1.2-trim",
+      "commit": "2589d0f846dca60f4ca3d524d89c5430cc9bbb46",
+      "built": "2026-11-21T16:56:50Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/155",
+  "record": {
+    "id": "CI",
+    "name": "Ivory Coast",
+    "kind": "state",
+    "summary": "No qualifying institute identified. The 2025 strategy plans a national AI agency, SafeAI certification and algorithmic audits, but no body to evaluate advanced models.",
+    "next_check": {
+      "date": "2027-03-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in French and English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the strategy, the planned agency and the Impact IA 2026 conference. Reviewed the national strategy as primary governance evidence. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Cote Ivoire AI safety institute government",
+          "source_ids": [
+            "negative-second-ci-2026",
+            "ci-snia-2025",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Côte Ivoire institut sécurité intelligence artificielle site.gouv.ci",
+          "source_ids": [
+            "negative-second-ci-2026",
+            "ci-snia-2025",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Côte d'Ivoire institut sécurité intelligence artificielle évaluation des modèles agence nationale IA 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Ivory Coast national AI agency safety evaluation models government 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded fr query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Some submitted strings contain site. rather than site:; these literal strings are preserved and are not treated as domain-restricted searches. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: CI-search = searches 1, 2 (en, fr). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger. On 24 October 2026 the record was searched again in French and English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "ci-snia-2025"
+      ],
+      "governance_note": "The 2025 national AI strategy plans a National AI Agency as a single body for governance, coordination and advice, and a SafeAI certification for ethical compliance. Certification does not qualify, and the strategy gives no body a remit to evaluate advanced models."
+    },
+    "source_ids": [
+      "ci-snia-2025",
+      "negative-second-ci-2026"
+    ],
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 32711547,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "CIV",
+    "m49": "384",
+    "wikidata": "Q1008",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "notes": "The government's account of 10 September 2026 describes the second national AI conference and economic and social adoption. Implementation of the strategy's proposed agency and SafeAI certification was not verified in the retrieved sources. Searches covered indexed public English and French sources for a government-designated AI safety institute with a remit to evaluate advanced models.",
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [],
+      "next_check": [],
+      "check": [
+        "ci-snia-2025"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "notes": [
+        "negative-second-ci-2026"
+      ],
+      "status": [],
+      "display": [
+        "negative-second-ci-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ci-snia-2025",
+        "ov-wikipedia",
+        "negative-second-ci-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ci-snia-2025",
+      "title": "Stratégie Nationale de l'Intelligence Artificielle",
+      "title_en": "National Artificial Intelligence Strategy",
+      "url": "https://anssi.gouv.ci/documents/87/Strat%C3%A9gie_Nationale_de_lIntelligence_Artificielle_250321_041840.pdf",
+      "archive_url": "https://web.archive.org/web/20261017003949if_/https://anssi.gouv.ci/documents/87/Strat%C3%A9gie_Nationale_de_lIntelligence_Artificielle_250321_041840.pdf",
+      "excerpts": [
+        {
+          "text": "la Côte d’Ivoire créera une Agence Nationale de l’Intelligence Artificielle (ANIA)",
+          "accessed": "2026-10-24",
+          "gloss": "Côte d'Ivoire will create a National Artificial Intelligence Agency (ANIA)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "Cette agence jouera un rôle central en tant qu’organisme unique combinant les fonctions de gouvernance, de coordination et de conseil",
+          "accessed": "2026-10-24",
+          "gloss": "This agency will play a central role as a single body combining governance, coordination and advisory functions",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "Superviser l’application d’un certificat “SafeAI Côte d’Ivoire” pour garantir la conformité éthique des solutions IA.",
+          "accessed": "2026-10-24",
+          "gloss": "Oversee the application of a “SafeAI Côte d’Ivoire” certificate to guarantee the ethical compliance of AI solutions.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative-second-ci-2026",
+      "title": "Official platform for accessing the Ivorian government's report - News - Society",
+      "url": "https://bilan.gouv.ci/actualite/20393",
+      "excerpts": [
+        {
+          "text": "l’ouverture officielle de la deuxième édition de la Conférence nationale sur l'Intelligence Artificielle (IA), dénommée Impact IA",
+          "accessed": "2026-10-17",
+          "gloss": "The official opening of the second National Conference on Artificial Intelligence, called Impact IA.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-16",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}
