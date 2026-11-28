@@ -1,0 +1,409 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.0",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "30caf48bbdf56fa0a4b50a0f35572144bfd98f0b",
+      "built": "2026-11-25T02:40:45Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/19",
+  "record": {
+    "id": "LI",
+    "name": "Liechtenstein",
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Stabsstelle für Digitale Innovation",
+        "name_en": "Office for Digital Innovation",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-db50035a13d65f138c591fc054483a95",
+        "source_ids": [
+          "li-government-ai-act-implementation-2026",
+          "li-asit-visit-2025"
+        ],
+        "role": "The government's report says the Office for Digital Innovation (SDI) actively informs about developments and regulatory requirements related to the AI Act, including through workshops, newsletters and direct exchange. The government's report says the Office for Digital Innovation is currently designing the AI regulatory sandbox that Article 57 of the AI Act requires.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": []
+        },
+        "display": {
+          "source_links": [
+            "li-asit-visit-2025",
+            "li-government-ai-act-implementation-2026"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-06-30",
+      "reason": "Check whether an EEA-incorporated AI Act authority is designated."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English country queries did not identify a qualifying institute, commitment, proposal or institute-specific study. The official report addresses EEA incorporation, market surveillance and regulatory sandbox arrangements. A Princeton institute bearing Liechtenstein's name is not a national AI institute. Partial check only; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "de",
+          "national_or_official": true,
+          "query": "Liechtenstein KI Sicherheitsinstitut Bewertung Modelle Regierung",
+          "source_ids": [
+            "li-government-ai-act-implementation-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Liechtenstein national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Liechtenstein\" \"AI safety\" institute",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded de query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "li-government-ai-act-implementation-2026"
+      ],
+      "governance_note": "Government report 59/2026 discusses EEA incorporation and preparatory AI Act responsibilities; final authority allocations remain unresolved.",
+      "log": []
+    },
+    "source_ids": [
+      "li-government-ai-act-implementation-2026",
+      "li-business-ai-strategy",
+      "li-asit-visit-2025",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026",
+      "fr-elysee-paris-call-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "155",
+      "subregion": "Western Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 40886,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "LIE",
+    "m49": "438",
+    "wikidata": "Q347",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [
+      {
+        "id": "claims-5fa872ad647845dc9512146627b9018d",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "activity",
+        "body_id": "related_bodies-db50035a13d65f138c591fc054483a95",
+        "text": "The government's report says the Office for Digital Innovation (SDI) actively informs about developments and regulatory requirements related to the AI Act, including through workshops, newsletters and direct exchange.",
+        "source_ids": [
+          "li-government-ai-act-implementation-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "li-government-ai-act-implementation-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "li-government-ai-act-implementation-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-65373f11195543bab8bf07bcb7ff0fff",
+        "kind": "function",
+        "code": "sandbox",
+        "basis": "mandate",
+        "body_id": "related_bodies-db50035a13d65f138c591fc054483a95",
+        "text": "The government's report says the Office for Digital Innovation is currently designing the AI regulatory sandbox that Article 57 of the AI Act requires.",
+        "source_ids": [
+          "li-government-ai-act-implementation-2026"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "li-government-ai-act-implementation-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "li-government-ai-act-implementation-2026"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026.",
+    "notes": "Checked in full on or before 16 October 2026, searching in German and English.\n\nNext check due by 30 June 2027.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "related_bodies": [],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [
+        "li-government-ai-act-implementation-2026"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "li-business-ai-strategy",
+        "li-asit-visit-2025",
+        "eu-ai-act-authorities-2026",
+        "li-government-ai-act-implementation-2026",
+        "fr-elysee-paris-call-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": []
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,LI,2025,40886",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-elysee-paris-call-2026",
+      "title": "Paris Call for AI safety and security.",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+      "excerpts": []
+    },
+    {
+      "id": "li-asit-visit-2025",
+      "title": "Vertrauenswürdige KI in der Verwaltung: Innovation ermöglichen, Risiken beherrschen",
+      "title_en": "Trustworthy AI in public administration: enabling innovation, managing risks",
+      "url": "https://www.a-sit.at/wp-content/uploads/2025/11/VISIT-2025-1-6-LI-Clara-Guerra-VISIT-2025.pdf",
+      "archive_url": "https://web.archive.org/web/20260121224612/https://www.a-sit.at/wp-content/uploads/2025/11/VISIT-2025-1-6-LI-Clara-Guerra-VISIT-2025.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "li-business-ai-strategy",
+      "title": "State Administration Adopts AI Strategy",
+      "url": "https://en.liechtenstein-business.li/detail/landesverwaltung-erhalt-ki-strategie-076f3f0e-0b51-4a08-bca5-3126ee2936c1.html",
+      "excerpts": []
+    },
+    {
+      "id": "li-government-ai-act-implementation-2026",
+      "title": "Interpellationsbeantwortung 59/2026: Künstliche Intelligenz, Cloud-Computing und technologische Infrastruktur",
+      "title_en": "Response to interpellation 59/2026: Artificial intelligence, cloud computing and technological infrastructure",
+      "url": "https://www.llv.li/serviceportal2/amtsstellen/stabstelle-regierungskanzlei/bua_059_interpellationsbeantwortung-ki-cloud-computing.pdf",
+      "excerpts": [
+        {
+          "text": "Die SDI informiert aktiv über relevante Entwicklungen und regulatorische Anforderungen im Zusammenhang mit dem AI Act, unter anderem durch Workshops, Newsletter und den direkten Austausch.",
+          "gloss": "The SDI actively informs about relevant developments and regulatory requirements in connection with the AI Act, among other things through workshops, newsletters and direct exchange.",
+          "anchors": [
+            {
+              "text": "Die Stabsstelle für Digitale Innovation (SDI)",
+              "kind": "definition",
+              "gloss": "The Office for Digital Innovation (SDI)"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "Die Stabsstelle für Digitale Innovation (SDI) konzipiert derzeit das in Art. 57 AI Act vorgeschriebene KI-Reallabor (AI-Sandbox)",
+          "gloss": "The Office for Digital Innovation (SDI) is currently designing the AI regulatory sandbox (AI sandbox) required by Art. 57 of the AI Act",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

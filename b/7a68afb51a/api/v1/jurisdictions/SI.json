@@ -1,0 +1,1511 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.4-dev",
+    "as_of": "2026-11-24",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "7a68afb51a8c1fd7bd857ddd8404c0bd3e7e650b",
+      "built": "2026-11-25T00:56:00Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/23",
+  "record": {
+    "id": "SI",
+    "name": "Slovenia",
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "AKOS",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-05a7e29f690e539bb5948550af3fa839",
+        "role": "ZIUDHPUI, the act implementing the AI Act, makes it responsible for setting up AI regulatory sandboxes under Article 57 of the AI Act. ZIUDHPUI makes it responsible for supervising the compliance of high-risk AI systems governed by the Union legislation in Annex I Section A of the AI Act.",
+        "citations": {
+          "name": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "counts_as_aisi": [],
+          "authority_roles": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "AI Competence Centre (KCUI)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government"
+        ],
+        "kind": "other",
+        "id": "related_bodies-ba64e53e232552089a798a95c7ba687f",
+        "role": "The government says it operates as the central national hub for AI experts, technologies, services and information.",
+        "citations": {
+          "name": [
+            "si-ai-authorities-government"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-authorities-government"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "si-ai-authorities-government"
+          ]
+        }
+      },
+      {
+        "name": "Informacijski pooblaščenec (IP)",
+        "name_en": "Information Commissioner (IP)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-04d58032332f5836b26369b84f13d58d",
+        "role": "ZIUDHPUI makes it responsible for supervising the provisions of Article 5 of the AI Act.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Agencija za zavarovalni nadzor (AZN)",
+        "name_en": "Insurance Supervision Agency (AZN)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-18c5440d0a695d41ba2b48ccc1c04a07",
+        "role": "ZIUDHPUI makes it responsible for supervising high-risk AI systems in Annex III point 5(c) of the AI Act.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Banka Slovenije",
+        "name_en": "Bank of Slovenia",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-2b81439e2cba50daa51283cd5ff5ee56",
+        "role": "ZIUDHPUI makes it responsible for supervising high-risk AI systems in Annex III point 5(b) of the AI Act when credit institutions place them on the market, put them into service or use them.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Tržni inšpektorat (TIRS)",
+        "name_en": "Market Inspectorate of the Republic of Slovenia",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-94340d648e665adb9cbda39ca117d586",
+        "role": "ZIUDHPUI makes it responsible for supervising the high-risk AI systems of the preceding paragraph that are used by credit providers it supervises under the consumer-credit law.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Ministry responsible for the market",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-8868e4fb69c75cf8bf341e09fb6469b2",
+        "role": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A points 1, 3 to 7, 9 and 10 of the AI Act.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Ministry responsible for infrastructure",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-1b1869be03395ec5a3af1b20f391db55",
+        "role": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A point 8 of the AI Act.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Ministry responsible for health",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-8b5d3521b89951c483f1e88b727f2f3d",
+        "role": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A point 2 of the AI Act.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Javna agencija Republike Slovenije za zdravila in medicinske pripomočke (JAZMP)",
+        "name_en": "Agency for Medicinal Products and Medical Devices of the Republic of Slovenia",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-46e57771fd775b47bb07c62d2b598b8b",
+        "role": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A points 11 and 12 of the AI Act.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "name": "Ministry responsible for the information society",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "si-ai-authorities-government",
+          "si-ai-act-ziudhpui-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-c69081fe97585e2dba9848d1177add8c",
+        "role": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in Annex III point 1 of the AI Act.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "designation_basis": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "si-ai-authorities-government",
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-31",
+      "reason": "Action plan due within nine months of adoption (by December 2026); check whether measure 3.4 leads to a named testing body."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English query did not identify a qualifying institute or named institute commitment. The official strategy includes national procedures and safety tests for algorithms and cites international AISI cooperation; the reviewed passages assign work across existing ministries and do not establish a national institute for advanced models. The broader query returned national AI programme and regulatory-sandbox research excerpts; these do not establish a new evaluator of advanced models. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Slovenian, with the interior and public administration ministry's news page (newest 23 October, so the listing may be out of date). No qualifying item was found. The official national AI ecosystem page matches the authority framework already in the record. No new evaluator, developer agreement or designation amendment was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "sl",
+          "national_or_official": true,
+          "query": "Slovenija inštitut varnost umetne inteligence vrednotenje modelov vlada",
+          "source_ids": [
+            "si-gov-novice-2026-03-05",
+            "si-ai-authorities-government"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Slovenia\" \"AI\" \"safety institute\" government proposal evaluation",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Slovenia national artificial intelligence security evaluation institute proposal study",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded sl query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "si-nsai2030"
+      ],
+      "governance_note": "The national strategy describes AI governance and national algorithm safety-test procedures, without establishing an institute to evaluate advanced models in the reviewed provisions.",
+      "log": []
+    },
+    "source_ids": [
+      "si-nsai2030",
+      "si-gov-session-2026-03-05",
+      "si-gov-novice-2026-03-05",
+      "si-ai-authorities-government",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "039",
+      "subregion": "Southern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 2130850,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": true,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "SVN",
+    "m49": "705",
+    "wikidata": "Q215",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [
+      {
+        "id": "claims-ba9ee65e1c6b44608444a9b1a18cf12d",
+        "kind": "development",
+        "code": "testing_duty",
+        "text": "plans national safety-test procedures for algorithms",
+        "act": "the government adopted the national AI strategy to 2030",
+        "date": "2026-03-05",
+        "source_ids": [
+          "si-gov-novice-2026-03-05",
+          "si-nsai2030"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "text": [
+            "si-nsai2030"
+          ],
+          "act": [
+            "si-gov-novice-2026-03-05"
+          ],
+          "date": [
+            "si-gov-novice-2026-03-05"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-nsai2030",
+            "si-gov-novice-2026-03-05"
+          ]
+        }
+      },
+      {
+        "id": "claims-916d8158fe6a4389a0d507e65b5356cd",
+        "kind": "function",
+        "code": "convening",
+        "basis": "activity",
+        "body_id": "related_bodies-ba64e53e232552089a798a95c7ba687f",
+        "text": "The government says it operates as the central national hub for AI experts, technologies, services and information.",
+        "source_ids": [
+          "si-ai-authorities-government"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-authorities-government"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-authorities-government"
+          ]
+        }
+      },
+      {
+        "id": "claims-363169a200bf4b0dbe5fa0c275fb5ca9",
+        "kind": "function",
+        "code": "sandbox",
+        "basis": "mandate",
+        "body_id": "related_bodies-05a7e29f690e539bb5948550af3fa839",
+        "text": "ZIUDHPUI, the act implementing the AI Act, makes it responsible for setting up AI regulatory sandboxes under Article 57 of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-eeaee010f4d94825b45e3ae458699504",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-05a7e29f690e539bb5948550af3fa839",
+        "text": "ZIUDHPUI makes it responsible for supervising the compliance of high-risk AI systems governed by the Union legislation in Annex I Section A of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-465dd443f4a942b1989a2dcd813f69b6",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-04d58032332f5836b26369b84f13d58d",
+        "text": "ZIUDHPUI makes it responsible for supervising the provisions of Article 5 of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-84ec953429c64172a4b4c30033ab23a5",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-18c5440d0a695d41ba2b48ccc1c04a07",
+        "text": "ZIUDHPUI makes it responsible for supervising high-risk AI systems in Annex III point 5(c) of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-9f69116cc91a42c9b5fb1f6b7cce146b",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-2b81439e2cba50daa51283cd5ff5ee56",
+        "text": "ZIUDHPUI makes it responsible for supervising high-risk AI systems in Annex III point 5(b) of the AI Act when credit institutions place them on the market, put them into service or use them.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-314cd073f93a4831b5aab472aa2e0d5d",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-94340d648e665adb9cbda39ca117d586",
+        "text": "ZIUDHPUI makes it responsible for supervising the high-risk AI systems of the preceding paragraph that are used by credit providers it supervises under the consumer-credit law.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-4d9378d0dc5c448e9002244b69e6cdc7",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-8868e4fb69c75cf8bf341e09fb6469b2",
+        "text": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A points 1, 3 to 7, 9 and 10 of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-2bb645531479499b905fd47e58a950b6",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-1b1869be03395ec5a3af1b20f391db55",
+        "text": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A point 8 of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-e9933ec1eda847638aad835aacf54422",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-8b5d3521b89951c483f1e88b727f2f3d",
+        "text": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A point 2 of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-e1cf73abdf6e4b92b21f059090b9d31e",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-46e57771fd775b47bb07c62d2b598b8b",
+        "text": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in products under Annex I Section A points 11 and 12 of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-5b8ab961592c4b8ba3ffeb7c68dfd3a1",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-c69081fe97585e2dba9848d1177add8c",
+        "text": "ZIUDHPUI makes it the notifying authority for high-risk AI systems in Annex III point 1 of the AI Act.",
+        "source_ids": [
+          "si-ai-act-ziudhpui-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "si-ai-act-ziudhpui-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "si-ai-act-ziudhpui-2025"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. On 5 March 2026 the government adopted the national AI strategy to 2030, which plans national safety-test procedures for algorithms.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Slovenian and English.\n\nNext check due by 31 December 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "related_bodies": [
+        "si-ai-authorities-government",
+        "si-ai-act-ziudhpui-2025"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [
+        "si-nsai2030",
+        "si-gov-novice-2026-03-05",
+        "si-ai-authorities-government",
+        "si-ai-act-ziudhpui-2025"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "si-nsai2030",
+        "si-gov-novice-2026-03-05",
+        "si-ai-authorities-government",
+        "si-ai-act-ziudhpui-2025"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "si-nsai2030",
+        "si-gov-novice-2026-03-05"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "si-nsai2030",
+        "si-gov-session-2026-03-05",
+        "si-gov-novice-2026-03-05",
+        "eu-ai-act-authorities-2026",
+        "si-ai-authorities-government",
+        "si-ai-act-ziudhpui-2025"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": []
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,SI,2025,2130850",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "si-ai-act-ziudhpui-2025",
+      "title": "ZIUDHPUI, Uradni list RS 85/2025, item 3035",
+      "title_en": "ZIUDHPUI, Official Gazette of the Republic of Slovenia 85/2025, item 3035",
+      "url": "https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3035",
+      "archive_url": "https://web.archive.org/web/20260421223101/https://www.uradni-list.si/glasilo-uradni-list-rs/vsebina/2025-01-3035",
+      "excerpts": [
+        {
+          "text": "Enotna kontaktna točka iz drugega odstavka 70. člena Uredbe 2024/1689/EU je agencija.",
+          "gloss": "The agency is the single point of contact under Article 70(2) of Regulation (EU) 2024/1689.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/0/authority_roles"
+          ]
+        },
+        {
+          "text": "Naloge organov za nadzor trga po Uredbi 2024/1689/EU izvajajo:",
+          "accessed": "2026-10-17",
+          "gloss": "The functions of market-surveillance authorities under Regulation (EU) 2024/1689 are performed by:",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/0/designation_basis"
+          ]
+        },
+        {
+          "text": "Agencija za komunikacijska omrežja in storitve Republike Slovenije (v nadaljnjem besedilu: agencija)",
+          "accessed": "2026-10-17",
+          "gloss": "Agency for Communication Networks and Services of the Republic of Slovenia (hereinafter: the agency)",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/0/name",
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/0/designation_basis"
+          ]
+        },
+        {
+          "text": "Agencija je pristojna za nadzor nad skladnostjo visokotveganih sistemov UI, urejenih z zakonodajo Unije iz oddelka A Priloge I Uredbe 2024/1689/EU, z zahtevami Uredbe 2024/1689/EU",
+          "accessed": "2026-10-17",
+          "gloss": "The agency is responsible for supervising the compliance of high-risk AI systems governed by the Union legislation in Section A of Annex I to Regulation 2024/1689/EU with the requirements of Regulation 2024/1689/EU",
+          "anchors": [
+            {
+              "text": "Agencija za komunikacijska omrežja in storitve Republike Slovenije (v nadaljnjem besedilu: agencija)",
+              "kind": "definition",
+              "gloss": "Agency for Communication Networks and Services of the Republic of Slovenia (hereinafter: the agency)"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "Za vzpostavitev regulativnih peskovnikov za UI v skladu s 57. členom Uredbe 2024/1689/EU je odgovorna agencija.",
+          "accessed": "2026-10-17",
+          "gloss": "The agency is responsible for establishing AI regulatory sandboxes under Article 57 of Regulation (EU) 2024/1689.",
+          "anchors": [
+            {
+              "text": "Agencija za komunikacijska omrežja in storitve Republike Slovenije (v nadaljnjem besedilu: agencija)",
+              "kind": "definition",
+              "gloss": "Agency for Communication Networks and Services of the Republic of Slovenia (hereinafter: the agency)"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "Ta zakon začne veljati petnajsti dan po objavi v Uradnem listu Republike Slovenije.",
+          "accessed": "2026-10-17",
+          "gloss": "This Act enters into force on the fifteenth day after publication in the Official Gazette of the Republic of Slovenia.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state"
+          ]
+        },
+        {
+          "text": "Informacijski pooblaščenec je pristojen za nadzor nad določbami 5. člena Uredbe 2024/1689/EU",
+          "accessed": "2026-10-17",
+          "gloss": "The Information Commissioner is responsible for supervision of Article 5 of Regulation (EU) 2024/1689.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/2/designation_state",
+            "/record/related_bodies/2/designation_basis",
+            "/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "Agencija za zavarovalni nadzor je pristojna za nadzor nad skladnostjo visokotveganih sistemov UI pod (c) 5. točke Priloge III Uredbe 2024/1689/EU z zahtevami Uredbe 2024/1689/EU.",
+          "accessed": "2026-10-17",
+          "gloss": "The Insurance Supervision Agency is responsible for supervising high-risk AI systems in Annex III point 5(c) for compliance with Regulation (EU) 2024/1689.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/3/designation_state",
+            "/record/related_bodies/3/designation_basis",
+            "/record/claims/5/text"
+          ]
+        },
+        {
+          "text": "Banka Slovenije je pristojna za nadzor nad skladnostjo visokotveganih sistemov UI pod (b) 5. točke Priloge III Uredbe 2024/1689/EU z zahtevami Uredbe 2024/1689/EU",
+          "accessed": "2026-10-17",
+          "gloss": "The Bank of Slovenia is responsible for supervising high-risk AI systems in Annex III point 5(b) for compliance with Regulation (EU) 2024/1689.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/4/designation_state",
+            "/record/related_bodies/4/designation_basis"
+          ]
+        },
+        {
+          "text": "Za nadzor nad skladnostjo visokotveganih sistemov UI iz prejšnjega odstavka, ki jih uporabljajo dajalci kredita, za nadzor katerih je po zakonu, ki ureja potrošniške kredite, pristojen Tržni inšpektorat Republike Slovenije, je pristojen Tržni inšpektorat Republike Slovenije.",
+          "accessed": "2026-10-17",
+          "gloss": "The Market Inspectorate of the Republic of Slovenia supervises the compliance of high-risk AI systems from the preceding paragraph used by credit providers under its supervision pursuant to the consumer-credit law.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/5/designation_state",
+            "/record/related_bodies/5/designation_basis",
+            "/record/claims/7/text"
+          ]
+        },
+        {
+          "text": "Priglasitveni organ za visokotvegane sisteme UI v proizvodih, ki jih ureja zakonodaja Unije iz 8. točke oddelka A Priloge I Uredbe 2024/1689/EU, je ministrstvo, pristojno za infrastrukturo.",
+          "accessed": "2026-10-17",
+          "gloss": "The notifying authority for high-risk AI systems in products governed by Union legislation in Annex I Section A point 8 is the ministry responsible for infrastructure.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/7/designation_state",
+            "/record/related_bodies/7/designation_basis",
+            "/record/claims/9/text"
+          ]
+        },
+        {
+          "text": "Priglasitveni organ za visokotvegane sisteme UI v proizvodih, ki jih ureja zakonodaja Unije iz 2. točke oddelka A Priloge I Uredbe 2024/1689/EU, je ministrstvo, pristojno za zdravje.",
+          "accessed": "2026-10-17",
+          "gloss": "The notifying authority for high-risk AI systems in products governed by Union legislation in Annex I Section A point 2 is the ministry responsible for health.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/8/designation_state",
+            "/record/related_bodies/8/designation_basis",
+            "/record/claims/10/text"
+          ]
+        },
+        {
+          "text": "Priglasitveni organ za visokotvegane sisteme UI v proizvodih, ki jih ureja zakonodaja Unije iz 11. in 12. točke oddelka A Priloge I Uredbe 2024/1689/EU, je Javna agencija Republike Slovenije za zdravila in medicinske pripomočke.",
+          "accessed": "2026-10-17",
+          "gloss": "The notifying authority for high-risk AI systems in products governed by Union legislation in Annex I Section A points 11 and 12 is the Republic of Slovenia's Agency for Medicinal Products and Medical Devices.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/9/designation_state",
+            "/record/related_bodies/9/designation_basis",
+            "/record/claims/11/text"
+          ]
+        },
+        {
+          "text": "Priglasitveni organ za visokotvegane sisteme UI iz 1. točke Priloge III Uredbe 2024/1689/EU je ministrstvo, pristojno za informacijsko družbo (v nadaljnjem besedilu: ministrstvo).",
+          "accessed": "2026-10-17",
+          "gloss": "The notifying authority for high-risk AI systems in Annex III point 1 is the ministry responsible for the information society (hereinafter: the ministry).",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/10/designation_state",
+            "/record/related_bodies/10/designation_basis",
+            "/record/claims/12/text"
+          ]
+        },
+        {
+          "text": "Priglasitveni organ za visokotvegane sisteme umetne inteligence (v nadaljnjem besedilu: UI) v proizvodih",
+          "accessed": "2026-10-17",
+          "gloss": "The notifying authority for high-risk artificial intelligence systems (hereinafter: AI) in products",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/6/designation_state",
+            "/record/related_bodies/6/designation_basis"
+          ]
+        },
+        {
+          "text": "iz 1., 3. do 7. ter 9. in 10. točke oddelka A Priloge I Uredbe 2024/1689/EU, je ministrstvo, pristojno za trg.",
+          "accessed": "2026-10-17",
+          "gloss": "from points 1, 3 to 7, 9 and 10 of Annex I Section A to Regulation (EU) 2024/1689 is the ministry responsible for the market.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/related_bodies/6/designation_state",
+            "/record/related_bodies/6/designation_basis"
+          ]
+        },
+        {
+          "text": "Banka Slovenije je pristojna za nadzor nad skladnostjo visokotveganih sistemov UI pod (b) 5. točke Priloge III Uredbe 2024/1689/EU z zahtevami Uredbe 2024/1689/EU, kadar jih dajejo na trg ali v uporabo oziroma jih uporabljajo kreditne institucije.",
+          "gloss": "Banka Slovenije is competent to supervise the compliance of high-risk AI systems under point 5(b) of Annex III to Regulation 2024/1689/EU with the requirements of Regulation 2024/1689/EU when credit institutions place them on the market, put them into service or use them.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/claims/6/text"
+          ]
+        },
+        {
+          "text": "Priglasitveni organ za visokotvegane sisteme umetne inteligence (v nadaljnjem besedilu: UI) v proizvodih, ki jih ureja zakonodaja Evropske unije (v nadaljnjem besedilu: Unija) iz 1., 3. do 7. ter 9. in 10. točke oddelka A Priloge I Uredbe 2024/1689/EU, je ministrstvo, pristojno za trg.",
+          "gloss": "The notifying authority for high-risk artificial intelligence systems (AI) in products governed by European Union legislation (the Union) in points 1, 3 to 7, 9 and 10 of Annex I Section A to Regulation (EU) 2024/1689 is the ministry responsible for the market.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/claims/8/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "si-ai-authorities-government",
+      "title": "Nacionalni ekosistem za umetno inteligenco",
+      "title_en": "National artificial intelligence ecosystem",
+      "url": "https://www.gov.si/teme/nacionalni-ekosistem-za-umetno-inteligenco/",
+      "excerpts": [
+        {
+          "text": "Kompetenčni center za umetno inteligenco (KCUI)",
+          "gloss": "Artificial Intelligence Competence Centre (KCUI)",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/name"
+          ]
+        },
+        {
+          "text": "KCUI deluje kot osrednje nacionalno stičišče strokovnjakov, tehnologij, storitev in informacij s področja umetne inteligence.",
+          "gloss": "KCUI operates as the central national hub of experts, technologies, services and information in the field of artificial intelligence.",
+          "accessed": "2026-11-13",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "si-gov-novice-2026-03-05",
+      "title": "Vlada sprejela nacionalno strategijo umetne inteligence do 2030 - za suvereno in zaupanja vredno UI",
+      "title_en": "Government adopted national artificial intelligence strategy to 2030 for sovereign and trustworthy AI",
+      "url": "https://www.gov.si/novice/2026-03-05-vlada-sprejela-nacionalno-strategijo-umetne-inteligence-do-2030-za-suvereno-in-zaupanja-vredno-ui/",
+      "archive_url": "https://web.archive.org/web/20261017015154/https://www.gov.si/novice/2026-03-05-vlada-sprejela-nacionalno-strategijo-umetne-inteligence-do-2030-za-suvereno-in-zaupanja-vredno-ui/",
+      "excerpts": [
+        {
+          "text": "Vlada Republike Slovenije je na današnji seji sprejela Nacionalno strategijo za umetno inteligenco do leta 2030 (NsUI 2030).",
+          "gloss": "At today's session the Government of the Republic of Slovenia adopted the National Strategy for Artificial Intelligence to 2030 (NsUI 2030).",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/act",
+            "/record/claims/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "si-gov-session-2026-03-05",
+      "title": "193rd regular session of the Government of the Republic of Slovenia",
+      "url": "https://www.gov.si/en/news/2026-03-05-193rd-regular-session-of-the-government-of-the-republic-of-slovenia/",
+      "archive_url": "https://web.archive.org/web/20261017014945/https://www.gov.si/en/news/2026-03-05-193rd-regular-session-of-the-government-of-the-republic-of-slovenia/",
+      "excerpts": []
+    },
+    {
+      "id": "si-nsai2030",
+      "title": "National Strategy on Artificial Intelligence 2030 (NSAI 2030), final text",
+      "url": "https://www.gov.si/assets/ministrstva/MNZJU/MDP/Dokumenti/Umetna-inteligenca/NsUI2030_ang.pdf",
+      "archive_url": "https://web.archive.org/web/20261017011333if_/https://www.gov.si/assets/ministrstva/MNZJU/MDP/Dokumenti/Umetna-inteligenca/NsUI2030_ang.pdf",
+      "excerpts": [
+        {
+          "text": "Introduction of national procedures and safety tests for the review, testing and updating of algorithms, along with response mechanisms for cases of violations, bias or misuse of AI systems.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

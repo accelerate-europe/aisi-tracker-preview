@@ -1,0 +1,3662 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.0",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "30caf48bbdf56fa0a4b50a0f35572144bfd98f0b",
+      "built": "2026-11-25T02:40:45Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/2",
+  "record": {
+    "id": "DE",
+    "name": "Germany",
+    "kind": "state",
+    "europe_scope": true,
+    "eu_member": true,
+    "population": {
+      "value": 83577140,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "institute_id": "de-aisi",
+    "next_check": {
+      "date": "2026-12-01",
+      "reason": "Check for confirmation of international network membership and phase 2 plans. The government's answer of 19 October 2026 has been read; it leaves further design and resources under discussion and sets no completion date."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, authority designations and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-11-02",
+          "scope": "Read the government's answer 21/8727 of 19 October 2026 on staffing, funds, testing, model access, parliamentary scrutiny and further build-up; added its source and excerpts. No confirmation of network membership or phase 2 completion found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-24",
+          "scope": "Re-read of the French presidency's Paris Call for AI Safety and Security page. Left for review: Germany's place on its endorsement list, published on 9 November and since updated. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-11-02",
+          "language": "de",
+          "national_or_official": true,
+          "query": "site:bundestag.de \"21/8727\"",
+          "source_ids": [
+            "de-bt-8727-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "language": "de",
+          "national_or_official": true,
+          "query": "site:bund.de \"AISI\" (\"Mitglied\" OR \"Netzwerk\")",
+          "source_ids": [
+            "de-bmds"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-11-02",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Germany AISI \"International Network\" membership November 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ]
+    },
+    "source_ids": [
+      "de-bmds",
+      "de-breg",
+      "de-ki-mig-2026",
+      "de-bnetza-notifying-authorities",
+      "eu-ai-act-authorities-2026",
+      "de-bt-8727-2026",
+      "fr-elysee-paris-call-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "155",
+      "subregion": "Western Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "status_confidence": "high",
+    "timeline": [
+      {
+        "id": "de-1",
+        "date": "2026-06-08",
+        "event": "commitment",
+        "instrument": "decision",
+        "description": "National Security Council decides to found an AI security institute to pool capacity for analysing advanced AI models and their risks.",
+        "source_ids": [
+          "de-nsr-2026"
+        ],
+        "short": "National Security Council decides to found an AI security institute.",
+        "citations": {
+          "id": [],
+          "date": [],
+          "event": [
+            "de-nsr-2026"
+          ],
+          "instrument": [],
+          "description": [
+            "de-nsr-2026"
+          ],
+          "short": [],
+          "display": [
+            "de-nsr-2026"
+          ]
+        }
+      },
+      {
+        "id": "de-2",
+        "date": "2026-08-31",
+        "event": "designated",
+        "instrument": "administrative",
+        "description": "Digital and interior ministries set up AISI Deutschland in Berlin, phase 1 as a virtual core in BSI and BNetzA, implementing the council's decision.",
+        "source_ids": [
+          "de-bmds",
+          "de-breg"
+        ],
+        "short": "Ministries establish AISI Deutschland, initially within BSI and BNetzA.",
+        "citations": {
+          "id": [],
+          "date": [
+            "de-bmds"
+          ],
+          "event": [
+            "de-bmds"
+          ],
+          "instrument": [],
+          "description": [
+            "de-bmds"
+          ],
+          "short": [],
+          "display": [
+            "de-bmds"
+          ]
+        }
+      },
+      {
+        "id": "de-3",
+        "date": "2026-08-31",
+        "event": "launched",
+        "instrument": "press_release",
+        "description": "AISI Deutschland starts work.",
+        "source_ids": [
+          "de-bmds"
+        ],
+        "short": "AISI Deutschland starts work.",
+        "citations": {
+          "id": [],
+          "date": [
+            "de-bmds"
+          ],
+          "event": [],
+          "instrument": [],
+          "description": [
+            "de-bmds"
+          ],
+          "short": [],
+          "display": [
+            "de-bmds"
+          ]
+        }
+      }
+    ],
+    "iso3": "DEU",
+    "m49": "276",
+    "wikidata": "Q183",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "related_bodies": [
+      {
+        "name": "Bundesnetzagentur",
+        "name_en": "Federal Network Agency",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "de-ki-mig-2026",
+          "de-bnetza-notifying-authorities",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "notifying",
+          "single_point_of_contact"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-e10c0977415056d28b41b2b8038940bd",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      },
+      {
+        "name": "Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin)",
+        "name_en": "Federal Financial Supervisory Authority (BaFin)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "de-ki-mig-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-6d4249d97996520590858ebe894e1f03",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "de-ki-mig-2026"
+          ]
+        }
+      },
+      {
+        "name": "Bundesamt für Sicherheit in der Informationstechnik (BSI)",
+        "name_en": "Federal Office for Information Security (BSI)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "de-bnetza-notifying-authorities",
+          "de-ki-mig-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-3691133321315a2a9958c88783232fab",
+        "role": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for high-risk AI under Annex III point 1.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [
+            "de-ki-mig-2026"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026",
+            "de-ki-mig-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      },
+      {
+        "name": "Zentralstelle der Länder für Gesundheitsschutz bei Arzneimitteln und Medizinprodukten (ZLG)",
+        "name_en": "Central Authority of the Länder for Health Protection regarding Medicinal Products and Medical Devices (ZLG)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "de-bnetza-notifying-authorities",
+          "de-ki-mig-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-d1b9be1654f05dd39b51600931e78fc4",
+        "role": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for Annex I Section A points 11 and 12.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "designation_state": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "designation_basis": [
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      },
+      {
+        "name": "Bayerisches Staatsministerium für Wohnen, Bau und Verkehr",
+        "name_en": "Bavarian State Ministry for Housing, Construction and Transport",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "de-bnetza-notifying-authorities",
+          "de-ki-mig-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "designation_note": "The law code records the statutory allocation mechanism in §3(1) KI-MIG, alongside Bundesnetzagentur's explicit identification of this ministry. KI-MIG does not name the ministry individually; the individual Land appointment instrument was not retrieved.",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-3bcdf1206feb5293826eab1060d7f1dd",
+        "role": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for cableways (Annex I Section A point 8).",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "designation_state": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "designation_basis": [
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ],
+          "designation_note": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      },
+      {
+        "name": "Zentralstelle der Länder für Sicherheitstechnik (ZLS)",
+        "name_en": "Central Authority of the Länder for Safety Technology (ZLS)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "de-bnetza-notifying-authorities",
+          "de-ki-mig-2026",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-28b4121e14c756dbb9146baaedddf010",
+        "role": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for the other areas of Annex I Section A.",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "authority_roles": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "designation_state": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "designation_basis": [
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "de-ki-mig-2026",
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      }
+    ],
+    "claims": [
+      {
+        "id": "claims-3471353e22c8451ba08064730b29dd3f",
+        "kind": "fact",
+        "text": "The ministries' announcement says BSI and the Federal Network Agency form the institute's virtual core in a first phase.",
+        "source_ids": [
+          "de-bmds"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "de-bmds"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "de-bmds"
+          ]
+        }
+      },
+      {
+        "id": "claims-152ad39acb034344bd4965bfa7eafb67",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-3691133321315a2a9958c88783232fab",
+        "text": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for high-risk AI under Annex III point 1.",
+        "source_ids": [
+          "de-bnetza-notifying-authorities"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      },
+      {
+        "id": "claims-a7a66365aa494dd38f58f9df3c293569",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-d1b9be1654f05dd39b51600931e78fc4",
+        "text": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for Annex I Section A points 11 and 12.",
+        "source_ids": [
+          "de-bnetza-notifying-authorities"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      },
+      {
+        "id": "claims-e211d9b3009d4d45af08511da21c6aee",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-3bcdf1206feb5293826eab1060d7f1dd",
+        "text": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for cableways (Annex I Section A point 8).",
+        "source_ids": [
+          "de-bnetza-notifying-authorities"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      },
+      {
+        "id": "claims-e93b60c2385746d293650baed8961f54",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "body_id": "related_bodies-28b4121e14c756dbb9146baaedddf010",
+        "text": "The Federal Network Agency lists it as one of Germany's notifying authorities under section 3 of the KI-MIG, for the other areas of Annex I Section A.",
+        "source_ids": [
+          "de-bnetza-notifying-authorities"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "de-bnetza-notifying-authorities"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "de-bnetza-notifying-authorities"
+          ]
+        }
+      }
+    ],
+    "status": "established",
+    "status_since": "2026-08-31",
+    "summary": "AISI Deutschland was set up on 31 August 2026. The institute is a network of existing bodies. It analyses leading AI models, especially their cyber capabilities and risks.",
+    "notes": "Checked in full on or before 16 October 2026, searching in German and English.\n\nNext check due by 1 December 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "eu_member": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "institute_id": [],
+      "next_check": [
+        "de-bt-8727-2026"
+      ],
+      "check": [],
+      "region": [],
+      "status_confidence": [],
+      "timeline": [
+        "de-bmds",
+        "de-nsr-2026"
+      ],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026",
+        "de-ki-mig-2026",
+        "de-bnetza-notifying-authorities"
+      ],
+      "claims": [
+        "de-bmds",
+        "de-bnetza-notifying-authorities"
+      ],
+      "status": [
+        "de-bmds"
+      ],
+      "status_since": [
+        "de-bmds"
+      ],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "de-bmds",
+        "eurostat-pop",
+        "de-bsi-aisi",
+        "de-nsr-2026",
+        "eu-ai-act-authorities-2026",
+        "de-ki-mig-2026",
+        "de-bnetza-notifying-authorities",
+        "de-bt-8727-2026"
+      ],
+      "since": [
+        "de-bmds"
+      ],
+      "finding": [
+        "de-bmds",
+        "de-bsi-aisi"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "de-bmds",
+        "de-breg",
+        "eurostat-pop",
+        "de-bsi-aisi",
+        "de-nsr-2026",
+        "eu-ai-act-authorities-2026",
+        "de-ki-mig-2026",
+        "de-bnetza-notifying-authorities",
+        "de-bt-8727-2026",
+        "fr-elysee-paris-call-2026"
+      ]
+    }
+  },
+  "institute": {
+    "aisi_json_pointer": "/institutes/2",
+    "record": {
+      "id": "de-aisi",
+      "name": "AISI Deutschland",
+      "jurisdiction_id": "DE",
+      "host": "Federation set up and tasked by BMDS and BMI",
+      "legal_form": "federation_of_existing_bodies",
+      "mandate": "Analyses and assesses leading AI models, especially cyber capabilities and risks; phase 2 to expand scope and capacity.",
+      "website": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/AISI/aisi_node.html",
+      "funding": [
+        {
+          "kind": "none_disclosed",
+          "source_ids": [
+            "de-bmds",
+            "de-bt-8727-2026"
+          ],
+          "confidence": "high",
+          "commitment": "not_applicable",
+          "funding_source": "unknown",
+          "id": "funding-ec218d998f89595bba604d03e1c3f308",
+          "coverage": "whole_institute",
+          "notes": "The government's answer of 19 October 2026 refers the question on the institute's 2026 budget funds to its answers to questions 8 and 9. The answer says that budget questions, among others, are the subject of continuing discussions within government.",
+          "eur_per_year_est": null,
+          "description": "No budget published for the institute as a whole.",
+          "citations": {
+            "kind": [],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "id": [],
+            "coverage": [],
+            "notes": [
+              "de-bt-8727-2026"
+            ],
+            "eur_per_year_est": [],
+            "description": [],
+            "display": [
+              "de-bt-8727-2026"
+            ],
+            "amount": [],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "Not published",
+            "qualifiers": [],
+            "native_value": "Not published",
+            "native_qualifiers": [],
+            "budget_citations": [],
+            "generated_description": true
+          }
+        },
+        {
+          "kind": "not_institute_specific",
+          "amount": 81200000,
+          "currency": "EUR",
+          "period": "2027 government draft budget",
+          "description": "EUR 81.2m in the 2027 government draft for the BMDS budget title Souveräne Dateninfrastruktur, Datenverfügbarkeit und Künstliche Intelligenz (2401 686 12), from which the institute is to be funded in 2027; the line is broader than the institute.",
+          "source_ids": [
+            "de-bt-wa-153-2026",
+            "de-hib-653-2026",
+            "de-bt-8727-2026"
+          ],
+          "confidence": "high",
+          "commitment": "proposed",
+          "funding_source": "national_government",
+          "annual_amount": 81200000,
+          "annual_basis": "Proposed 2027 amount for the whole budget title in the government draft; broader than the institute and not adopted funding or expenditure. The institute's share is not stated.",
+          "annual_basis_code": "other",
+          "annual_period": {
+            "start": "2027-01-01",
+            "end": "2027-12-31"
+          },
+          "notes": "The government's written answer of 5 October 2026 names the title as the institute's 2027 funding source, and says organisational and budget questions that shape staffing are still being settled within government. The amount for the title is from the Bundestag press service's summary of the draft (2026: EUR 89m), which gives the title by name; the title number is from the written answer. The answer of 19 October 2026 leaves budget questions under discussion.",
+          "coverage": "not_institute_specific",
+          "id": "funding-4d2b8e6f1a3c47d9b5e0c8a2f6d1b937",
+          "eur_per_year_est": 81200000,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "de-hib-653-2026"
+            ],
+            "currency": [],
+            "period": [
+              "de-bt-wa-153-2026",
+              "de-hib-653-2026"
+            ],
+            "description": [
+              "de-bt-wa-153-2026",
+              "de-hib-653-2026"
+            ],
+            "confidence": [],
+            "commitment": [
+              "de-hib-653-2026"
+            ],
+            "funding_source": [],
+            "annual_amount": [
+              "de-hib-653-2026"
+            ],
+            "annual_basis": [
+              "de-hib-653-2026"
+            ],
+            "annual_basis_code": [],
+            "annual_period": [
+              "de-hib-653-2026"
+            ],
+            "notes": [
+              "de-bt-wa-153-2026",
+              "de-hib-653-2026",
+              "de-bt-8727-2026"
+            ],
+            "coverage": [],
+            "id": [],
+            "eur_per_year_est": [
+              "de-hib-653-2026"
+            ],
+            "display": [
+              "de-bt-wa-153-2026",
+              "de-hib-653-2026",
+              "de-bt-8727-2026"
+            ]
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "~EUR 81m",
+            "qualifiers": [
+              "2027 government draft budget",
+              "proposed"
+            ],
+            "native_value": "~EUR 81m",
+            "native_qualifiers": [
+              "2027 government draft budget",
+              "proposed"
+            ],
+            "budget_citations": [
+              "de-bt-wa-153-2026",
+              "de-hib-653-2026"
+            ]
+          }
+        }
+      ],
+      "check": {
+        "last_checked": "2026-10-16",
+        "method": "individual",
+        "partial": [
+          {
+            "date": "2026-10-17",
+            "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Rechecked mandate wording against de-bmds; restored the wording on phase 2 expansion."
+          },
+          {
+            "date": "2026-10-19",
+            "scope": "Funding scope classification and Budget selection review; full institute check date unchanged."
+          },
+          {
+            "date": "2026-10-20",
+            "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Agreement wording and a source title corrected. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Host recorded as the federation the two ministries set up and task, so the member bodies are no longer also the host. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Mandate and staff texts rechecked against their sources in a blind meaning check; drifted wording corrected and the supporting quotes bound. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Post-release re-check of the BSI AISI page and BMDS press releases: the Franco-German joint statement added as a source for the agreement; the BSI monthly digests are left for review. The BMI press page refused automated access. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Search-protocol pilot: institute, host, parliament and budget pages read, then logged queries in German and English. Added the 2027 budget title named in the written answer of 5 October 2026 as related funding; the budget portal refused automated access. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-02",
+            "scope": "Read the government's answer 21/8727 of 19 October 2026 on staffing, funds, testing, model access, parliamentary scrutiny and further build-up; added its source and excerpts. No confirmation of network membership or phase 2 completion found. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-07",
+            "scope": "News re-check since 2 November 2026: BSI's institute page and digests 09 and 10/2026, ministry press, the AI taskforce report 'Deutschland als KI-Nation 2030' (2 November) and Bundestag Drucksache 21/8810. Added the build-up phase II plan and the 75 per cent frontier-model target to the notes; the digests are cited as sources, not outputs. The latest network member list does not include Germany. Left for review: interior ministry press and further parliamentary documents after 2 November. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-09",
+            "scope": "Post-release news re-check from 6 November 2026: BSI's institute page (newest digest 10/2026) and its news list to 4 November, and the digital ministry's press releases to 4 November. Nothing new. Left for review: the interior ministry's press pages, BSI's press-release list and Bundestag documents after 2 November, which could not be read. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-10",
+            "scope": "Post-release news re-check from 8 November 2026: BSI's institute page (newest digest 1 November) and news (4 November), the digital ministry's press (4 November), and the Bundestag proceeding on the institute with the opposition motion of 27 October, which is not adopted. Nothing new. BSI's press-release list, the interior ministry's current press and Bundestag documents after 2 November could not be fully read. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-13",
+            "scope": "Post-release news re-check from 10 November 2026: BSI's institute page (newest digest 1 November) and news (11 November), the digital ministry's press (11 November) and the interior ministry's home page (11 November). The Bundestag's notice dated 6 November of a debate on 13 November on the existing motion about the institute was read; the notice announces the debate, and its outcome was not checked. Current BSI and interior-ministry press lists could not be read, and coverage of parliamentary documents since 3 November is incomplete. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-14",
+            "scope": "Sources checked for developments from 13 November 2026: BSI's institute page (newest digest 1 November) and news (11 November), the digital ministry's press (13 November) and its budget release of that day, which gives no allocation for the institute, the interior ministry's home page (11 November) and its archived press search (newest 30 June). The Bundestag's record of 13 November says motion 21/8810 was referred to committees after the debate; it was neither adopted nor rejected, and is not recorded as a change for the institute. No new institute output was found. BSI's current press list, the interior ministry's current press list and the plenary record could not be read. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-20",
+            "scope": "Sources checked for developments from 14 November 2026: BSI's institute page (newest digest 1 November), BSI's news (17 November), the digital ministry's press (18 November) and the interior ministry's home page (newest release 16 November). No new institute output, funding, staff or status fact was found. BSI's press list and the interior ministry's press search could not be read, so coverage is incomplete. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-23",
+            "scope": "Post-release news re-check from 20 November 2026: BSI's AISI page (newest 1 November), BSI news (17 November) and its annual IT security report of 19 November, which names the institute and confirms recorded values, and BMDS press (20 November). Added the Japan-Germany leaders' texts of 28 October 2026, which name the institute for cooperation with the Japan AI Safety Institute. The interior ministry's press could not be read on any route. Partial check, not a full record re-check."
+          }
+        ],
+        "last_checked_basis": "historical_upper_bound",
+        "log": [
+          {
+            "date": "2026-11-14",
+            "text": "Searched for a budget amount or staff count for AISI Deutschland itself: the government's answers in Bundestag papers 21/8727 and 21/8470, budget section 24 of the 2027 draft and the budget committee's November papers, BSI and federal government pages and ministry press, in German and English."
+          },
+          {
+            "date": "2026-10-19",
+            "text": "Cyber agency searched on 19 October 2026 in German and English: BSI; the BMDS announcement, BSI's institute page and the National Security Council decision were read for its relation to the institute."
+          }
+        ],
+        "functions": {
+          "date": "2026-11-14",
+          "codes": [
+            "model_testing",
+            "evaluation_methods",
+            "research",
+            "standards_guidance",
+            "regulatory_enforcement",
+            "regulatory_support",
+            "risk_monitoring",
+            "foresight",
+            "policy_advice",
+            "incident_response",
+            "international_cooperation",
+            "convening",
+            "capacity_building",
+            "talent",
+            "adoption",
+            "public_access_continuity",
+            "certification",
+            "sandbox"
+          ]
+        }
+      },
+      "source_ids": [
+        "de-bmds",
+        "de-breg",
+        "depth-de-fr-cooperation",
+        "depth-de-uk-statement",
+        "de-bsi-aisi",
+        "j8-de-bsi-mission",
+        "de-bt-wa-153-2026",
+        "de-hib-653-2026",
+        "de-bsi-ki-themen-2026-08",
+        "de-bt-8727-2026",
+        "de-bsi-ki-themen-2026-09",
+        "de-bsi-ki-themen-2026-10",
+        "de-ki-taskforce-2030"
+      ],
+      "notes": "Intends to take an active part in the international network. The BSI institute page describes AISI Deutschland as still being set up. BSI publishes a digest, 'Aktuelle KI-Sicherheitsthemen' (issues 08, 09 and 10/2026), as part of setting up the institute; the August issue names AISI Deutschland as recommending in-depth investigation of frontier models but not their broad deployment. The digests are BSI's, not counted as institute outputs. The government's answer of 19 October 2026 leaves the institute's further design, remit, organisational and legal form, staffing, technical equipment and budget under discussion. Parliamentary scrutiny runs through the responsible ministries. The federal government's AI taskforce report of 2 November 2026 calls the current stage an initiation phase and plans to expand the institute step by step into an independent national competence and evaluation institute (build-up phase II).",
+      "name_local": "AI Safety and Security Institute Deutschland",
+      "short_name": "AISI Deutschland",
+      "mandate_short": "Analyses leading AI models, especially their cyber capabilities and risks.",
+      "legal_basis": {
+        "type": "cabinet_decision",
+        "state": "in_force",
+        "source_ids": [
+          "de-nsr-2026",
+          "de-bmds"
+        ],
+        "citations": {
+          "type": [
+            "de-nsr-2026"
+          ],
+          "state": [
+            "de-bmds"
+          ],
+          "display": [
+            "de-bmds",
+            "de-nsr-2026"
+          ]
+        }
+      },
+      "placement": {
+        "host_type": "multiple",
+        "source_ids": [
+          "de-bmds"
+        ],
+        "citations": {
+          "host_type": [
+            "de-bmds"
+          ],
+          "display": [
+            "de-bmds"
+          ]
+        }
+      },
+      "wikidata": null,
+      "identifier_notes": "No matching Wikidata institute item verified in label and official-name searches on 17 October 2026; null does not establish that no item exists.",
+      "agreements": [
+        {
+          "counterparty_type": "government",
+          "counterparty": "Government of France, for INESIA",
+          "state": "announced",
+          "date": "2026-07-17",
+          "scope": "Governments agree future collaboration between INESIA and its German counterpart, sharing best practices and building capability through exchanges of knowledge and expertise. Announced by the French Presidency on behalf of the French government.",
+          "source_ids": [
+            "depth-de-fr-cooperation",
+            "fr-de-joint-statement-2026"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "id": "agreements-790e6ab176945621b12c10cacff608da",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "depth-de-fr-cooperation"
+            ],
+            "state": [
+              "depth-de-fr-cooperation"
+            ],
+            "date": [
+              "depth-de-fr-cooperation"
+            ],
+            "scope": [
+              "depth-de-fr-cooperation",
+              "fr-de-joint-statement-2026"
+            ],
+            "participation": [
+              "depth-de-fr-cooperation",
+              "fr-de-joint-statement-2026"
+            ],
+            "domestic_interagency": [],
+            "id": [],
+            "display": [
+              "depth-de-fr-cooperation",
+              "fr-de-joint-statement-2026"
+            ]
+          }
+        },
+        {
+          "counterparty_type": "government",
+          "counterparty": "UK Department for Science, Innovation and Technology, for the UK AI Security Institute",
+          "state": "signed",
+          "date": "2026-07-01",
+          "scope": "Joint statement signed during the German minister's visit to London, setting out close cooperation between the UK AI Security Institute and the German AI Safety and Security Institute, then planned, on advanced AI risks.",
+          "source_ids": [
+            "r3-de-uk-ai-security",
+            "depth-de-uk-statement"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "id": "agreements-7ef25b269b075f109986bd8579fda9b5",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "depth-de-uk-statement"
+            ],
+            "state": [
+              "depth-de-uk-statement"
+            ],
+            "date": [
+              "depth-de-uk-statement"
+            ],
+            "scope": [
+              "depth-de-uk-statement",
+              "r3-de-uk-ai-security"
+            ],
+            "participation": [
+              "depth-de-uk-statement"
+            ],
+            "domestic_interagency": [],
+            "id": [],
+            "display": [
+              "depth-de-uk-statement",
+              "r3-de-uk-ai-security"
+            ]
+          }
+        },
+        {
+          "counterparty_type": "government",
+          "counterparty": "Government of Japan, for the Japan AI Safety Institute",
+          "state": "announced",
+          "date": "2026-10-28",
+          "scope": "Joint leaders' declaration on economic security cooperation: the two governments will explore cooperation on AI safety and security through their institutes, with particular attention to the misuse of AI against critical infrastructure.",
+          "source_ids": [
+            "de-jp-statement-2026",
+            "jp-de-declaration-2026"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "id": "agreements-6f3c1e8a2b9d4c57a0e4d81b93f2c6a5",
+          "news": "The leaders of Japan and Germany say they will explore cooperation on AI safety and security through their two institutes, with particular attention to the misuse of AI against critical infrastructure.",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "jp-de-declaration-2026",
+              "de-jp-statement-2026"
+            ],
+            "state": [
+              "jp-de-declaration-2026",
+              "de-jp-statement-2026"
+            ],
+            "date": [
+              "jp-de-declaration-2026",
+              "de-jp-statement-2026"
+            ],
+            "scope": [
+              "jp-de-declaration-2026"
+            ],
+            "participation": [
+              "jp-de-declaration-2026",
+              "de-jp-statement-2026"
+            ],
+            "domestic_interagency": [],
+            "id": [],
+            "news": [
+              "jp-de-declaration-2026"
+            ],
+            "display": [
+              "jp-de-declaration-2026",
+              "de-jp-statement-2026"
+            ]
+          }
+        }
+      ],
+      "outputs": [],
+      "head": {
+        "state": "not_published",
+        "notes": "Searched BSI’s current AISI page, the BMDS founding release, the June 2026 National Security Council decision and German and English leadership queries on 19 October 2026 for a named top executive of the institute."
+      },
+      "reports_to": {
+        "state": "stated",
+        "name": "Bundesministerium für Digitales und Staatsmodernisierung; Bundesministerium des Innern",
+        "name_en": "Federal Ministry for Digital Transformation and Government Modernisation; Federal Ministry of the Interior",
+        "source_ids": [
+          "de-bmds",
+          "de-bsi-aisi"
+        ],
+        "citations": {
+          "state": [],
+          "name": [
+            "de-bmds",
+            "de-bsi-aisi"
+          ],
+          "name_en": [],
+          "display": [
+            "de-bmds",
+            "de-bsi-aisi"
+          ]
+        }
+      },
+      "national_partners": {
+        "state": "stated",
+        "entries": [
+          {
+            "id": "np-de-bsi",
+            "name": "Bundesamt für Sicherheit in der Informationstechnik",
+            "name_en": "Federal Office for Information Security",
+            "acronym": "BSI",
+            "what": "federal information security agency",
+            "relation": "member",
+            "cyber_agency": true,
+            "how": "Forms the institute's virtual nucleus with BNetzA in a first phase, taking on the cybersecurity side of the division of tasks.",
+            "source_ids": [
+              "de-bmds",
+              "de-bsi-aisi",
+              "j8-de-bsi-mission"
+            ],
+            "citations": {
+              "id": [],
+              "name": [
+                "de-bmds",
+                "de-bsi-aisi"
+              ],
+              "name_en": [],
+              "acronym": [],
+              "what": [
+                "de-bmds"
+              ],
+              "relation": [
+                "de-bmds",
+                "de-bsi-aisi"
+              ],
+              "cyber_agency": [
+                "j8-de-bsi-mission"
+              ],
+              "how": [
+                "de-bmds",
+                "de-bsi-aisi"
+              ],
+              "display": [
+                "de-bmds",
+                "de-bsi-aisi",
+                "j8-de-bsi-mission"
+              ]
+            }
+          },
+          {
+            "id": "np-de-bnetza",
+            "name": "Bundesnetzagentur",
+            "name_en": "Federal Network Agency",
+            "acronym": "BNetzA",
+            "what": "federal network agency",
+            "relation": "member",
+            "how": "Forms the institute's virtual nucleus with BSI in a first phase, taking on the safety side of the division of tasks.",
+            "source_ids": [
+              "de-bmds",
+              "de-bsi-aisi"
+            ],
+            "citations": {
+              "id": [],
+              "name": [
+                "de-bmds",
+                "de-bsi-aisi"
+              ],
+              "name_en": [],
+              "acronym": [],
+              "what": [
+                "de-bmds"
+              ],
+              "relation": [
+                "de-bmds",
+                "de-bsi-aisi"
+              ],
+              "how": [
+                "de-bmds",
+                "de-bsi-aisi"
+              ],
+              "display": [
+                "de-bmds",
+                "de-bsi-aisi"
+              ]
+            }
+          }
+        ]
+      },
+      "testing_capacity": {
+        "state": "planned",
+        "notes": "Focus statement, not counted as testing: in the first phase of operation 'liegt ein wichtiger Schwerpunkt in der Analyse und Bewertung führender KI-Modelle' (an important focus is the analysis and assessment of leading AI models). In a first phase the Federal Office for Information Security (BSI) and the Federal Network Agency form a virtual nucleus of the institute. BSI's institute page says 'Zurzeit befindet sich das Institut noch im Aufbau. Der Fokus liegt zunächst auf der Beratung von Verwaltung und Politik' (the institute is still being set up; the initial focus is advising government and policy-makers). The government's answer of 19 October 2026 says the institute initially pools existing BSI and BNetzA capabilities and uses and develops existing testing and evaluation methods. It says no separate posts are allocated for the first phase, and that technical equipment and further capacity remain under discussion. The UK-Germany joint statement of 30 June 2026 says both countries 'will share best practice on AI evaluation'. The federal government's AI taskforce report 'Deutschland als KI-Nation 2030' of 2 November 2026 sets a target for 2030 that the institute examine and assess at least 75 per cent of new frontier AI models for security-policy impact within four months.",
+        "source_ids": [
+          "de-breg",
+          "de-bmds",
+          "de-bsi-aisi",
+          "de-uk-statement-full-2026",
+          "de-bt-8727-2026",
+          "de-ki-taskforce-2030"
+        ],
+        "citations": {
+          "state": [
+            "de-breg"
+          ],
+          "notes": [
+            "de-bmds",
+            "de-bsi-aisi",
+            "de-uk-statement-full-2026",
+            "de-bt-8727-2026",
+            "de-ki-taskforce-2030"
+          ],
+          "display": [
+            "de-bmds",
+            "de-breg",
+            "de-bsi-aisi",
+            "de-uk-statement-full-2026",
+            "de-bt-8727-2026",
+            "de-ki-taskforce-2030"
+          ]
+        }
+      },
+      "model_access": {
+        "notes": "BSI states 'Das AISI Deutschland übernimmt ausdrücklich keine Regulierungs- oder Marktüberwachungsfunktion' (AISI Deutschland expressly takes on no regulatory or market-surveillance function). The government's written answer of 6 October 2026 to a parliamentary question says the institute has 'eine wichtige Rolle beim Zugang zu Frontier-KI-Modellen, der internationalen Vernetzung und bei der Bewertung von Sicherheitsrisiken und -anforderungen' (an important role in access to frontier AI models, international networking and assessing security risks and requirements). In the answer of 19 October 2026, the government reports discussions with leading developers and providers to secure access to the most capable models for the institute. It says no independent institute power to compel information or model access is envisaged; any necessary public-authority access rights follow the competent authorities' statutory powers, especially the AI Act.",
+        "source_ids": [
+          "de-bsi-aisi",
+          "de-bt-wa-153-2026",
+          "de-bt-8727-2026"
+        ],
+        "searches": [
+          {
+            "date": "2026-10-21",
+            "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+            "language": "en",
+            "sources_read": [
+              "https://epoch.ai/data/ai-models",
+              "https://epoch.ai/data/ai-models-documentation",
+              "https://epoch.ai/data/all_ai_models.csv",
+              "https://epoch.ai/data/frontier_ai_models.csv",
+              "https://epoch.ai/data/notable_ai_models.csv"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Recorded sources re-read for testing and access wording",
+            "language": "de, en",
+            "sources_read": [
+              "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/aisi-deutschland-gegruendet",
+              "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/AISI/aisi_node.html",
+              "https://www.bundesregierung.de/breg-de/aktuelles/eroeffnung-ki-sicherheitsinstitut-2449410",
+              "https://www.bundesregierung.de/breg-de/aktuelles/pressemitteilungen/sitzung-des-nationalen-sicherheitsrates-im-juni-2026-2438050",
+              "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/deutschland-und-grossbritannien-vereinbaren-zusammenarbeit-bei-ki-sicherheit",
+              "https://www.gov.uk/government/publications/uk-germany-joint-statement-on-advanced-ai-safety-and-security",
+              "https://www.gesetze-im-internet.de/ki-mig/BJNR0DF0B0026.html",
+              "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/KI/13_Notifizierung/start.html"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Full text of the UK-Germany joint statement (gov.uk HTML attachment), fetched and cached",
+            "language": "en",
+            "sources_read": [
+              "https://www.gov.uk/government/publications/uk-germany-joint-statement-on-advanced-ai-safety-and-security/united-kingdom-germany-joint-statement-on-the-safety-and-security-of-advanced-artificial-intelligence"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "AISI Deutschland BSI Bundesnetzagentur Zugang KI-Modelle Evaluation Frontier-Modelle",
+            "language": "de",
+            "sources_read": [
+              "web search result list (it-daily.net, boersen-zeitung.de, channelpartner.de, cio.de, forschung-und-lehre.de, techzeitgeist.de, borncity.com)"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "\"AISI Deutschland\" Evaluierung Modell getestet BSI Oktober 2026",
+            "language": "de",
+            "sources_read": [
+              "web search result list; no published AISI Deutschland evaluation found",
+              "https://www.techzeitgeist.de/aisi-deutschland-ki-sicherheitsinstitut-tests-zugang-zustaendigkeiten-2026/"
+            ]
+          },
+          {
+            "date": "2026-10-24",
+            "query": "Saved copy of printed paper 21/8470 re-read for testing and access wording (written answers 71 and 153)",
+            "language": "de",
+            "sources_read": [
+              "https://dserver.bundestag.de/btd/21/084/2108470.pdf"
+            ]
+          }
+        ],
+        "value": "none_found",
+        "citations": {
+          "notes": [
+            "de-bsi-aisi",
+            "de-bt-wa-153-2026",
+            "de-bt-8727-2026"
+          ],
+          "searches": [],
+          "value": [],
+          "display": [
+            "de-bsi-aisi",
+            "de-bt-wa-153-2026",
+            "de-bt-8727-2026"
+          ]
+        }
+      },
+      "staffing_model": {
+        "code": "member_bodies",
+        "named_as": "KI-Sicherheitsinstituts",
+        "source_ids": [
+          "de-bsi-aisi",
+          "de-bmds",
+          "de-bt-8727-2026"
+        ],
+        "notes": "In the first phase BSI covers (cyber) security and BNetzA safety, and other security-sector bodies are to be closely involved; a second phase is to expand the institute's capacity. The government's answer of 19 October 2026 confirms that no separate posts are allocated for the first phase: the virtual BSI/BNetzA nucleus uses the two bodies' existing resources and expertise. This is not a staff count.",
+        "citations": {
+          "code": [
+            "de-bsi-aisi",
+            "de-bt-8727-2026"
+          ],
+          "named_as": [],
+          "notes": [
+            "de-bmds",
+            "de-bsi-aisi",
+            "de-bt-8727-2026"
+          ],
+          "display": [
+            "de-bmds",
+            "de-bsi-aisi",
+            "de-bt-8727-2026"
+          ]
+        }
+      },
+      "claims": [
+        {
+          "id": "claims-4899423fbe8f468abc4f746b5a0e7f16",
+          "kind": "function",
+          "code": "model_testing",
+          "basis": "mandate",
+          "text": "Is to focus in its current first phase on analysing and evaluating leading AI models, especially their cybersecurity capabilities and risks.",
+          "source_ids": [
+            "de-bmds"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "de-bmds"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "de-bmds"
+            ]
+          }
+        },
+        {
+          "id": "claims-866d5377003a4ca4b18da0427f9b056c",
+          "kind": "function",
+          "code": "risk_monitoring",
+          "basis": "mandate",
+          "text": "Its core tasks include international technology watch and situation analysis.",
+          "source_ids": [
+            "de-bsi-aisi"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "de-bsi-aisi"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "de-bsi-aisi"
+            ]
+          }
+        },
+        {
+          "id": "claims-6252a1aee1ce47e5934c14e2f6414ee9",
+          "kind": "function",
+          "code": "foresight",
+          "basis": "mandate",
+          "text": "Under the report's target picture for 2030, it is to provide current situation pictures with early-warning indicators.",
+          "source_ids": [
+            "de-ki-taskforce-2030"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "de-ki-taskforce-2030"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "de-ki-taskforce-2030"
+            ]
+          }
+        },
+        {
+          "id": "claims-732aa6558a8f4026946a3db397f09e36",
+          "kind": "function",
+          "code": "policy_advice",
+          "basis": "mandate",
+          "text": "Its core tasks include strategic advice to the federal government on AI-related security and sovereignty questions.",
+          "source_ids": [
+            "de-bsi-aisi"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "de-bsi-aisi"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "de-bsi-aisi"
+            ]
+          }
+        },
+        {
+          "id": "claims-96eb21a1b34e413ea7b8bee6184d7ec3",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "mandate",
+          "text": "Is to work closely with comparable institutions in other states and with multilateral structures.",
+          "source_ids": [
+            "de-bmds"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "de-bmds"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "de-bmds"
+            ]
+          }
+        },
+        {
+          "id": "claims-b9096da85c9740b981c2915bd324605a",
+          "kind": "function",
+          "code": "convening",
+          "basis": "mandate",
+          "text": "Is to act as the central interface for analysing and countering the new security risks that rapid progress in AI brings.",
+          "source_ids": [
+            "de-breg"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "de-breg"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "de-breg"
+            ]
+          }
+        },
+        {
+          "id": "claims-1c74cce9dbee43f88ab46829071a01ac",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "activity",
+          "text": "The participating authorities are already holding technical exchanges with international partner institutions, including those in France and the UK, and the EU AI Office.",
+          "source_ids": [
+            "de-bmds"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "de-bmds"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "de-bmds"
+            ]
+          }
+        }
+      ],
+      "status": "established",
+      "established": "2026-08-31",
+      "announced": "2026-06-08",
+      "functions": [
+        {
+          "code": "model_testing",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-4899423fbe8f468abc4f746b5a0e7f16"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "evaluation_methods",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "research",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "standards_guidance",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "regulatory_enforcement",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "regulatory_support",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "risk_monitoring",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-866d5377003a4ca4b18da0427f9b056c"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "foresight",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-6252a1aee1ce47e5934c14e2f6414ee9"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "policy_advice",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-732aa6558a8f4026946a3db397f09e36"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "incident_response",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "international_cooperation",
+          "value": "both",
+          "claim_ids": [
+            "claims-96eb21a1b34e413ea7b8bee6184d7ec3",
+            "claims-1c74cce9dbee43f88ab46829071a01ac"
+          ],
+          "since": null,
+          "newest": "claims-1c74cce9dbee43f88ab46829071a01ac"
+        },
+        {
+          "code": "convening",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-b9096da85c9740b981c2915bd324605a"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "capacity_building",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "talent",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "adoption",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "public_access_continuity",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "certification",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "sandbox",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        }
+      ],
+      "operating": [],
+      "intervals": {
+        "announced_to_established": {
+          "days_min": 84,
+          "days_max": 84
+        },
+        "established_to_first_qualifying_activity": null,
+        "announced_to_first_qualifying_activity": null
+      },
+      "citations": {
+        "id": [],
+        "name": [],
+        "jurisdiction_id": [],
+        "host": [
+          "de-bmds",
+          "de-bsi-aisi"
+        ],
+        "legal_form": [
+          "de-bmds"
+        ],
+        "mandate": [
+          "de-bmds"
+        ],
+        "website": [],
+        "funding": [
+          "de-bt-wa-153-2026",
+          "de-hib-653-2026",
+          "de-bt-8727-2026"
+        ],
+        "check": [],
+        "notes": [
+          "de-bmds",
+          "de-bsi-aisi",
+          "de-bsi-ki-themen-2026-08",
+          "de-bt-8727-2026",
+          "de-bsi-ki-themen-2026-09",
+          "de-bsi-ki-themen-2026-10",
+          "de-ki-taskforce-2030"
+        ],
+        "name_local": [],
+        "short_name": [],
+        "mandate_short": [
+          "de-bmds"
+        ],
+        "legal_basis": [
+          "de-bmds",
+          "de-nsr-2026"
+        ],
+        "placement": [
+          "de-bmds"
+        ],
+        "wikidata": [],
+        "identifier_notes": [],
+        "agreements": [
+          "depth-de-fr-cooperation",
+          "depth-de-uk-statement",
+          "r3-de-uk-ai-security",
+          "fr-de-joint-statement-2026",
+          "jp-de-declaration-2026",
+          "de-jp-statement-2026"
+        ],
+        "outputs": [],
+        "head": [],
+        "reports_to": [
+          "de-bmds",
+          "de-bsi-aisi"
+        ],
+        "national_partners": [
+          "de-bmds",
+          "de-bsi-aisi",
+          "j8-de-bsi-mission"
+        ],
+        "testing_capacity": [
+          "de-bmds",
+          "de-breg",
+          "de-bsi-aisi",
+          "de-uk-statement-full-2026",
+          "de-bt-8727-2026",
+          "de-ki-taskforce-2030"
+        ],
+        "model_access": [
+          "de-bsi-aisi",
+          "de-bt-wa-153-2026",
+          "de-bt-8727-2026"
+        ],
+        "staffing_model": [
+          "de-bmds",
+          "de-bsi-aisi",
+          "de-bt-8727-2026"
+        ],
+        "claims": [
+          "de-bmds",
+          "de-breg",
+          "de-bsi-aisi",
+          "de-ki-taskforce-2030"
+        ],
+        "status": [
+          "de-bmds"
+        ],
+        "established": [
+          "de-bmds"
+        ],
+        "announced": [],
+        "functions": [],
+        "operating": [],
+        "intervals": [],
+        "display": [
+          "de-bmds",
+          "de-bsi-aisi",
+          "de-nsr-2026",
+          "depth-de-fr-cooperation",
+          "depth-de-uk-statement",
+          "r3-de-uk-ai-security",
+          "j8-de-bsi-mission",
+          "fr-de-joint-statement-2026",
+          "de-bt-wa-153-2026",
+          "de-hib-653-2026",
+          "de-bsi-ki-themen-2026-08",
+          "de-bt-8727-2026",
+          "de-bsi-ki-themen-2026-09",
+          "de-bsi-ki-themen-2026-10",
+          "de-ki-taskforce-2030",
+          "jp-de-declaration-2026",
+          "de-jp-statement-2026"
+        ],
+        "form": [
+          "de-bmds",
+          "de-bsi-aisi",
+          "de-nsr-2026"
+        ],
+        "inst": [],
+        "institute": [],
+        "announced_to_established": [
+          "de-bmds"
+        ],
+        "established_to_first_qualifying_activity": [],
+        "announced_to_first_qualifying_activity": []
+      },
+      "display": {
+        "intervals": {
+          "status_since": "Announced on 8 Jun 2026, about 3 months earlier",
+          "known_activity": null
+        },
+        "comparison_funding": null,
+        "budget": null,
+        "staff": null,
+        "total_staff": null,
+        "technical_staff": null,
+        "funding_records": {
+          "funding-ec218d998f89595bba604d03e1c3f308": {
+            "kind": "none_disclosed",
+            "source_ids": [
+              "de-bmds",
+              "de-bt-8727-2026"
+            ],
+            "confidence": "high",
+            "commitment": "not_applicable",
+            "funding_source": "unknown",
+            "id": "funding-ec218d998f89595bba604d03e1c3f308",
+            "coverage": "whole_institute",
+            "notes": "The government's answer of 19 October 2026 refers the question on the institute's 2026 budget funds to its answers to questions 8 and 9. The answer says that budget questions, among others, are the subject of continuing discussions within government.",
+            "eur_per_year_est": null,
+            "description": "No budget published for the institute as a whole.",
+            "citations": {
+              "kind": [],
+              "confidence": [],
+              "commitment": [],
+              "funding_source": [],
+              "id": [],
+              "coverage": [],
+              "notes": [
+                "de-bt-8727-2026"
+              ],
+              "eur_per_year_est": [],
+              "description": [],
+              "display": [
+                "de-bt-8727-2026"
+              ],
+              "amount": [],
+              "annual_amount": []
+            },
+            "display": {
+              "annual_estimate": false,
+              "value": "Not published",
+              "qualifiers": [],
+              "native_value": "Not published",
+              "native_qualifiers": [],
+              "budget_citations": [],
+              "generated_description": true
+            }
+          },
+          "funding-4d2b8e6f1a3c47d9b5e0c8a2f6d1b937": {
+            "kind": "not_institute_specific",
+            "amount": 81200000,
+            "currency": "EUR",
+            "period": "2027 government draft budget",
+            "description": "EUR 81.2m in the 2027 government draft for the BMDS budget title Souveräne Dateninfrastruktur, Datenverfügbarkeit und Künstliche Intelligenz (2401 686 12), from which the institute is to be funded in 2027; the line is broader than the institute.",
+            "source_ids": [
+              "de-bt-wa-153-2026",
+              "de-hib-653-2026",
+              "de-bt-8727-2026"
+            ],
+            "confidence": "high",
+            "commitment": "proposed",
+            "funding_source": "national_government",
+            "annual_amount": 81200000,
+            "annual_basis": "Proposed 2027 amount for the whole budget title in the government draft; broader than the institute and not adopted funding or expenditure. The institute's share is not stated.",
+            "annual_basis_code": "other",
+            "annual_period": {
+              "start": "2027-01-01",
+              "end": "2027-12-31"
+            },
+            "notes": "The government's written answer of 5 October 2026 names the title as the institute's 2027 funding source, and says organisational and budget questions that shape staffing are still being settled within government. The amount for the title is from the Bundestag press service's summary of the draft (2026: EUR 89m), which gives the title by name; the title number is from the written answer. The answer of 19 October 2026 leaves budget questions under discussion.",
+            "coverage": "not_institute_specific",
+            "id": "funding-4d2b8e6f1a3c47d9b5e0c8a2f6d1b937",
+            "eur_per_year_est": 81200000,
+            "citations": {
+              "kind": [],
+              "amount": [
+                "de-hib-653-2026"
+              ],
+              "currency": [],
+              "period": [
+                "de-bt-wa-153-2026",
+                "de-hib-653-2026"
+              ],
+              "description": [
+                "de-bt-wa-153-2026",
+                "de-hib-653-2026"
+              ],
+              "confidence": [],
+              "commitment": [
+                "de-hib-653-2026"
+              ],
+              "funding_source": [],
+              "annual_amount": [
+                "de-hib-653-2026"
+              ],
+              "annual_basis": [
+                "de-hib-653-2026"
+              ],
+              "annual_basis_code": [],
+              "annual_period": [
+                "de-hib-653-2026"
+              ],
+              "notes": [
+                "de-bt-wa-153-2026",
+                "de-hib-653-2026",
+                "de-bt-8727-2026"
+              ],
+              "coverage": [],
+              "id": [],
+              "eur_per_year_est": [
+                "de-hib-653-2026"
+              ],
+              "display": [
+                "de-bt-wa-153-2026",
+                "de-hib-653-2026",
+                "de-bt-8727-2026"
+              ]
+            },
+            "display": {
+              "annual_estimate": false,
+              "value": "~EUR 81m",
+              "qualifiers": [
+                "2027 government draft budget",
+                "proposed"
+              ],
+              "native_value": "~EUR 81m",
+              "native_qualifiers": [
+                "2027 government draft budget",
+                "proposed"
+              ],
+              "budget_citations": [
+                "de-bt-wa-153-2026",
+                "de-hib-653-2026"
+              ]
+            }
+          }
+        },
+        "funding_ids": [
+          "funding-4d2b8e6f1a3c47d9b5e0c8a2f6d1b937",
+          "funding-ec218d998f89595bba604d03e1c3f308"
+        ],
+        "staff_records": {},
+        "staff_ids": [],
+        "related_funding_ids": [
+          "funding-4d2b8e6f1a3c47d9b5e0c8a2f6d1b937"
+        ],
+        "operating": {
+          "since": null,
+          "first_lineage": null,
+          "items": []
+        },
+        "rows": {
+          "head": {
+            "state": "not_published",
+            "text": null,
+            "cited": []
+          },
+          "reports_to": {
+            "state": "stated",
+            "text": "Federal Ministry for Digital Transformation and Government Modernisation; Federal Ministry of the Interior",
+            "cited": [
+              "de-bmds",
+              "de-bsi-aisi"
+            ],
+            "original": "Bundesministerium für Digitales und Staatsmodernisierung; Bundesministerium des Innern"
+          },
+          "members": {
+            "state": "stated",
+            "items": [
+              {
+                "id": "np-de-bsi",
+                "text": "BSI (federal information security agency)",
+                "name": "BSI",
+                "how": "Forms the institute's virtual nucleus with BNetzA in a first phase, taking on the cybersecurity side of the division of tasks.",
+                "cited": [
+                  "de-bmds",
+                  "de-bsi-aisi"
+                ]
+              },
+              {
+                "id": "np-de-bnetza",
+                "text": "BNetzA (federal network agency)",
+                "name": "BNetzA",
+                "how": "Forms the institute's virtual nucleus with BSI in a first phase, taking on the safety side of the division of tasks.",
+                "cited": [
+                  "de-bmds",
+                  "de-bsi-aisi"
+                ]
+              }
+            ],
+            "fold_items": [
+              {
+                "id": "np-de-bsi",
+                "text": "BSI (federal information security agency)",
+                "name": "BSI",
+                "how": "Forms the institute's virtual nucleus with BNetzA in a first phase, taking on the cybersecurity side of the division of tasks.",
+                "cited": [
+                  "de-bmds",
+                  "de-bsi-aisi"
+                ]
+              },
+              {
+                "id": "np-de-bnetza",
+                "text": "BNetzA (federal network agency)",
+                "name": "BNetzA",
+                "how": "Forms the institute's virtual nucleus with BSI in a first phase, taking on the safety side of the division of tasks.",
+                "cited": [
+                  "de-bmds",
+                  "de-bsi-aisi"
+                ]
+              }
+            ],
+            "tail": null,
+            "cited": [
+              "de-bmds",
+              "de-bsi-aisi",
+              "j8-de-bsi-mission"
+            ]
+          }
+        },
+        "source_links": [
+          "de-bmds",
+          "de-breg",
+          "de-bsi-aisi",
+          "de-nsr-2026",
+          "depth-de-fr-cooperation",
+          "depth-de-uk-statement",
+          "r3-de-uk-ai-security",
+          "j8-de-bsi-mission",
+          "fr-de-joint-statement-2026",
+          "de-bt-wa-153-2026",
+          "de-hib-653-2026",
+          "de-bsi-ki-themen-2026-08",
+          "de-bt-8727-2026",
+          "de-bsi-ki-themen-2026-09",
+          "de-bsi-ki-themen-2026-10",
+          "de-ki-taskforce-2030",
+          "jp-de-declaration-2026",
+          "de-jp-statement-2026"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "de-bmds",
+      "title": "AISI Deutschland gegründet (PM 50/2026)",
+      "title_en": "AISI Germany established (press release 50/2026)",
+      "url": "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/aisi-deutschland-gegruendet",
+      "archive_url": "https://web.archive.org/web/20260904100503/https://bmds.bund.de/aktuelles/pressemitteilungen/detail/aisi-deutschland-gegruendet",
+      "excerpts": [
+        {
+          "text": "31.08.2026",
+          "gloss": "31 August 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/date",
+            "/record/timeline/2/date"
+          ]
+        },
+        {
+          "text": "bilden in einer ersten Phase den „virtuellen“ Nukleus",
+          "gloss": "form the “virtual” core in an initial phase",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/legal_form",
+            "/institute/record/placement/host_type",
+            "/record/timeline/1/description"
+          ]
+        },
+        {
+          "text": "Analyse und Bewertung führender KI-Modelle",
+          "gloss": "Analysis and evaluation of leading AI models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate"
+          ]
+        },
+        {
+          "text": "Das Bundesministerium für Digitales und Staatsmodernisierung (BMDS) und das Bundesministerium des Innern (BMI) richten das AISI Deutschland in Berlin ein.",
+          "accessed": "2026-10-17",
+          "gloss": "The Federal Ministry for Digital Transformation and Government Modernisation (BMDS) and the Federal Ministry of the Interior (BMI) are setting up AISI Deutschland in Berlin.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/event",
+            "/institute/record/legal_basis/state",
+            "/institute/record/reports_to/name",
+            "/institute/record/host",
+            "/record/timeline/1/description"
+          ]
+        },
+        {
+          "text": "In der jetzt laufenden ersten Phase des Institutsbetriebs liegt ein wichtiger Schwerpunkt in der Analyse und Bewertung führender KI-Modelle – vor allem hinsichtlich ihrer Fähigkeiten und Risiken für die Cybersicherheit.",
+          "accessed": "2026-10-18",
+          "url": "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/aisi-deutschland-gegruendet",
+          "gloss": "In the current first phase of the institute’s operation, an important focus is analysing and evaluating leading AI models, especially their capabilities and risks in cybersecurity.",
+          "anchors": [
+            {
+              "text": "richten das AISI Deutschland in Berlin ein",
+              "kind": "definition",
+              "gloss": "are setting up AISI Deutschland in Berlin"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short",
+            "/institute/record/mandate",
+            "/institute/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "Das Bundesamt für Sicherheit in der Informationstechnik (BSI) und die Bundesnetzagentur (BNetzA) bilden in einer ersten Phase den „virtuellen“ Nukleus des KI-Sicherheitsinstituts",
+          "gloss": "The Federal Office for Information Security (BSI) and the Federal Network Agency (BNetzA) form, in a first phase, the “virtual” nucleus of the AI security institute",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/name",
+            "/institute/record/national_partners/entries/0/relation",
+            "/institute/record/national_partners/entries/0/how",
+            "/institute/record/national_partners/entries/1/name",
+            "/institute/record/national_partners/entries/1/relation",
+            "/institute/record/national_partners/entries/1/how",
+            "/record/claims/0/text",
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Das Bundesamt für Sicherheit in der Informationstechnik (BSI) und die Bundesnetzagentur (BNetzA)",
+          "accessed": "2026-10-20",
+          "gloss": "The Federal Office for Information Security (BSI) and the Federal Network Agency (BNetzA)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/what",
+            "/institute/record/national_partners/entries/1/what"
+          ]
+        },
+        {
+          "text": "Zudem werden weitere Akteure aus dem Sicherheitsbereich eng eingebunden.",
+          "accessed": "2026-10-21",
+          "gloss": "In addition, further actors from the security sector will be closely involved.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "In einer zweiten Phase wird das KI-Sicherheitsinstitut thematisch und kapazitär weiter ausgebaut.",
+          "accessed": "2026-10-24",
+          "gloss": "In a second phase the AI security institute will be expanded further in scope and capacity.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate",
+            "/institute/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Das Institut ist von Beginn an international anschlussfähig und wird eng mit vergleichbaren Einrichtungen anderer Staaten sowie mit multilateralen Strukturen zusammenarbeiten.",
+          "accessed": "2026-10-17",
+          "gloss": "From the outset the institute is internationally connectable and will work closely with comparable institutions in other states and with multilateral structures.",
+          "anchors": [
+            {
+              "text": "richten das AISI Deutschland in Berlin ein",
+              "kind": "definition",
+              "gloss": "are setting up AISI Deutschland in Berlin"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "Deutsches KI-Sicherheitsinstitut \"AISI Deutschland\" nimmt Arbeit auf",
+          "gloss": "German AI security institute \"AISI Deutschland\" starts work",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/2/description"
+          ]
+        },
+        {
+          "text": "Bereits jetzt findet ein fachlicher Austausch zwischen den beteiligten Behörden sowie mit internationalen Partnerinstitutionen, unter anderem mit Frankreich, dem Vereinigten Königreich und dem EU AI Office, statt.",
+          "gloss": "Technical exchanges are already taking place between participating authorities and international partner institutions, including France, the UK and the EU AI Office.",
+          "anchors": [
+            {
+              "text": "Deutsches KI-Sicherheitsinstitut „AISI Deutschland“ nimmt Arbeit auf",
+              "kind": "heading",
+              "gloss": "German AI Safety Institute “AISI Deutschland” starts work"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/6/text"
+          ]
+        },
+        {
+          "text": "Sie setzen damit einen Beschluss des Nationalen Sicherheitsrates vom Juni 2026 um.",
+          "gloss": "In doing so they implement a decision of the National Security Council of June 2026.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description"
+          ]
+        },
+        {
+          "text": "Das Bundesamt für Sicherheit in der Informationstechnik (BSI) und die Bundesnetzagentur (BNetzA) bilden in einer ersten Phase den \"virtuellen\" Nukleus des KI-Sicherheitsinstituts",
+          "gloss": "In a first phase the Federal Office for Information Security (BSI) and the Federal Network Agency (BNetzA) form the \"virtual\" nucleus of the AI safety institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/description"
+          ]
+        },
+        {
+          "text": "Das deutsche KI-Sicherheitsinstitut wird sich ferner aktiv in das internationale Netzwerk von KI-Sicherheitsinstituten einbringen",
+          "gloss": "The German AI security institute will take an active part in the international network of AI safety institutes.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "In der jetzt laufenden ersten Phase des Institutsbetriebs liegt ein wichtiger Schwerpunkt in der Analyse und Bewertung führender KI-Modelle",
+          "gloss": "In the current first phase of the institute's operation, an important focus is the analysis and assessment of leading AI models.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-bnetza-notifying-authorities",
+      "title": "Notifizierende Behörden",
+      "title_en": "Notifying authorities",
+      "url": "https://www.bundesnetzagentur.de/DE/Fachthemen/Digitales/KI/13_Notifizierung/start.html",
+      "excerpts": [
+        {
+          "text": "Gemäß § 3 des deutschen KI-Marktüberwachungs- und Innovationsförderungs-Gesetzes (KI-MIG) gibt es in Deutschland fünf Notifizierende Behörden:",
+          "accessed": "2026-10-17",
+          "gloss": "Under section 3 of the German AI Market Surveillance and Innovation Promotion Act (KI-MIG), there are five notifying authorities in Germany:",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/3/designation_state",
+            "/record/related_bodies/3/designation_basis",
+            "/record/related_bodies/4/designation_state",
+            "/record/related_bodies/4/designation_basis",
+            "/record/related_bodies/5/designation_state",
+            "/record/related_bodies/5/designation_basis"
+          ]
+        },
+        {
+          "text": "Die Zentralstelle der Länder für Gesundheitsschutz bei Arzneimitteln und Medizinprodukten (ZLG) für Anhang I Teil A Nr. 11 und 12",
+          "accessed": "2026-10-17",
+          "gloss": "The Central Authority of the Länder for Health Protection with regard to Medicinal Products and Medical Devices (ZLG), for Annex I Section A points 11 and 12",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/3/authority_roles",
+            "/record/related_bodies/3/designation_state"
+          ]
+        },
+        {
+          "text": "Das Bayerisches Staatsministerium für Wohnen, Bau und Verkehr (STMB) für Seilbahnen (Anhang I Teil A Nr. 8)",
+          "accessed": "2026-10-17",
+          "gloss": "The Bavarian State Ministry for Housing, Construction and Transport (STMB), for cableways (Annex I Section A point 8)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/4/authority_roles",
+            "/record/related_bodies/4/designation_state"
+          ]
+        },
+        {
+          "text": "Die Zentralstelle der Länder für Sicherheitstechnik (ZLS) für die anderen Bereiche des Anhang I Teil A",
+          "accessed": "2026-10-17",
+          "gloss": "The Central Authority of the Länder for Safety Engineering (ZLS), for the other areas of Annex I Section A",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/5/authority_roles",
+            "/record/related_bodies/5/designation_state"
+          ]
+        },
+        {
+          "text": "Das Bundesamt für Sicherheit in der Informationstechnik (BSI) für Hochrisiko-KI nach Anhang III Nr. 1",
+          "gloss": "The Federal Office for Information Security (BSI), for high-risk AI under Annex III point 1",
+          "anchors": [
+            {
+              "text": "Gemäß § 3 des deutschen KI-Marktüberwachungs- und Innovationsförderungs-Gesetzes (KI-MIG) gibt es in Deutschland fünf Notifizierende Behörden:",
+              "kind": "heading",
+              "gloss": "Under section 3 of the German AI Market Surveillance and Innovation Promotion Act (KI-MIG), there are five notifying authorities in Germany:"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "Die Zentralstelle der Länder für Gesundheitsschutz bei Arzneimitteln und Medizinprodukten (ZLG) für Anhang I Teil A Nr. 11 und 12",
+          "gloss": "The Central Authority of the Länder for Health Protection with regard to Medicinal Products and Medical Devices (ZLG), for Annex I Section A points 11 and 12",
+          "anchors": [
+            {
+              "text": "Gemäß § 3 des deutschen KI-Marktüberwachungs- und Innovationsförderungs-Gesetzes (KI-MIG) gibt es in Deutschland fünf Notifizierende Behörden:",
+              "kind": "heading",
+              "gloss": "Under section 3 of the German AI Market Surveillance and Innovation Promotion Act (KI-MIG), there are five notifying authorities in Germany:"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "Das Bayerisches Staatsministerium für Wohnen, Bau und Verkehr (STMB) für Seilbahnen (Anhang I Teil A Nr. 8)",
+          "gloss": "The Bavarian State Ministry for Housing, Construction and Transport (STMB), for cableways (Annex I Section A point 8)",
+          "anchors": [
+            {
+              "text": "Gemäß § 3 des deutschen KI-Marktüberwachungs- und Innovationsförderungs-Gesetzes (KI-MIG) gibt es in Deutschland fünf Notifizierende Behörden:",
+              "kind": "heading",
+              "gloss": "Under section 3 of the German AI Market Surveillance and Innovation Promotion Act (KI-MIG), there are five notifying authorities in Germany:"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "Die Zentralstelle der Länder für Sicherheitstechnik (ZLS) für die anderen Bereiche des Anhang I Teil A",
+          "gloss": "The Central Authority of the Länder for Safety Engineering (ZLS), for the other areas of Annex I Section A",
+          "anchors": [
+            {
+              "text": "Gemäß § 3 des deutschen KI-Marktüberwachungs- und Innovationsförderungs-Gesetzes (KI-MIG) gibt es in Deutschland fünf Notifizierende Behörden:",
+              "kind": "heading",
+              "gloss": "Under section 3 of the German AI Market Surveillance and Innovation Promotion Act (KI-MIG), there are five notifying authorities in Germany:"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-breg",
+      "title": "Eröffnung KI-Sicherheitsinstitut",
+      "title_en": "Opening of the AI Safety Institute",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/eroeffnung-ki-sicherheitsinstitut-2449410",
+      "archive_url": "https://web.archive.org/web/20260904101617/https://www.bundesregierung.de/breg-de/aktuelles/eroeffnung-ki-sicherheitsinstitut-2449410",
+      "excerpts": [
+        {
+          "text": "Hierfür werden bestehende Kapazitäten zur Risiko- und Fähigkeitsanalyse moderner KI-Modelle durch das AISI Deutschland zentral gebündelt und ausgebaut.",
+          "gloss": "To this end, existing capacities for risk and capability analysis of modern AI models are pooled centrally and expanded by AISI Deutschland.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/state"
+          ]
+        },
+        {
+          "text": "Rasante Fortschritte in der künstlichen Intelligenz bieten zahlreiche Chancen, bringen aber auch neue Sicherheitsrisiken mit sich: Das neu eröffnete KI-Sicherheitsinstitut AISI Deutschland soll künftig als zentrale Schnittstelle für die Analyse und Abwehr dieser Gefahren agieren.",
+          "accessed": "2026-10-17",
+          "gloss": "Rapid progress in artificial intelligence offers many opportunities but also brings new security risks: the newly opened AI security institute AISI Deutschland is in future to act as the central interface for analysing and countering these dangers.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/5/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-bsi-aisi",
+      "title": "AISI Deutschland",
+      "title_en": "AISI Germany",
+      "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/AISI/aisi_node.html",
+      "archive_url": "https://web.archive.org/web/20261017004754/https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/AISI/aisi_node.html",
+      "excerpts": [
+        {
+          "text": "Zurzeit befindet sich das Institut noch im Aufbau.",
+          "gloss": "The institute is currently still being established.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "BSI und die BNetzA bilden in einer ersten Phase einen „virtuellen“ Nukleus des KI-Sicherheitsinstituts und wurden von BMI und BMDS mit den entsprechenden Aufgaben betraut.",
+          "gloss": "In a first phase, BSI and BNetzA form a “virtual” nucleus of the AI security institute and were entrusted with the corresponding tasks by BMI and BMDS.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/reports_to/name",
+            "/institute/record/staffing_model/code",
+            "/institute/record/host"
+          ]
+        },
+        {
+          "text": "Dabei erfolgt eine Aufgabenteilung entlang der Dimensionen (Cyber-)Security (BSI) und Safety (BNetzA).",
+          "gloss": "Tasks are divided along the dimensions of (cyber)security (BSI) and safety (BNetzA).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/name",
+            "/institute/record/national_partners/entries/0/relation",
+            "/institute/record/national_partners/entries/0/how",
+            "/institute/record/national_partners/entries/1/name",
+            "/institute/record/national_partners/entries/1/relation",
+            "/institute/record/national_partners/entries/1/how",
+            "/institute/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "internationale Technologiebeobachtung und Lageanalyse",
+          "accessed": "2026-10-17",
+          "gloss": "international technology watch and situation analysis",
+          "anchors": [
+            {
+              "text": "Das AISI Deutschland bündelt technische, strategische und sicherheitspolitische Expertise in einer zentralen Einrichtung. Zu den Kernaufgaben zählen insbesondere:",
+              "kind": "heading",
+              "gloss": "AISI Deutschland brings together technical, strategic and security-policy expertise in one central body. Its core tasks include in particular:"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "strategische Beratung der Bundesregierung zu KI-bezogenen Sicherheits- und Souveränitätsfragen",
+          "accessed": "2026-10-17",
+          "gloss": "strategic advice to the federal government on AI-related security and sovereignty questions",
+          "anchors": [
+            {
+              "text": "Das AISI Deutschland bündelt technische, strategische und sicherheitspolitische Expertise in einer zentralen Einrichtung. Zu den Kernaufgaben zählen insbesondere:",
+              "kind": "heading",
+              "gloss": "AISI Deutschland brings together technical, strategic and security-policy expertise in one central body. Its core tasks include in particular:"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "Zurzeit befindet sich das Institut noch im Aufbau. Der Fokus liegt zunächst auf der Beratung von Verwaltung und Politik",
+          "gloss": "The institute is currently still being set up. Its initial focus is advising government administration and policy-makers.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Das AISI Deutschland übernimmt ausdrücklich keine Regulierungs- oder Marktüberwachungsfunktion.",
+          "gloss": "AISI Deutschland expressly takes on no regulatory or market-surveillance function.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-bsi-ki-themen-2026-08",
+      "title": "Aktuelle KI-Sicherheitsthemen 08/2026",
+      "title_en": "Current AI security topics 08/2026",
+      "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/AISI/Blogeintraege/AISI-News_2026-08.html",
+      "excerpts": [
+        {
+          "text": "AI Frontier Modelle eignen sich dafür jedoch nicht",
+          "gloss": "AI frontier models are not suitable for this, however",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Das AISI Deutschland empfiehlt daher die eingehende Untersuchung ihrer Fähigkeiten und Sicherheitseigenschaften, jedoch keinen flächendeckenden Einsatz dieser Modelle.",
+          "gloss": "AISI Deutschland therefore recommends investigating their capabilities and security properties in depth, but not deploying these models across the board.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Ein Produkt des BSI im Rahmen des Aufbaus des AISI Deutschland.",
+          "gloss": "A BSI product, made as part of setting up AISI Deutschland.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-bsi-ki-themen-2026-09",
+      "title": "Aktuelle KI-Sicherheitsthemen 09/2026",
+      "title_en": "Current AI security topics 09/2026",
+      "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/AISI/Blogeintraege/AISI-News_2026-09.html",
+      "excerpts": [
+        {
+          "text": "Ein Produkt des BSI im Rahmen des Aufbaus des AISI Deutschland.",
+          "gloss": "A BSI product as part of setting up AISI Deutschland.",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-bsi-ki-themen-2026-10",
+      "title": "Aktuelle KI-Sicherheitsthemen 10/2026",
+      "title_en": "Current AI security topics 10/2026",
+      "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/AISI/Blogeintraege/AISI-News_2026-10.html",
+      "excerpts": [
+        {
+          "text": "Ein Produkt des BSI im Rahmen des Aufbaus des AISI Deutschland.",
+          "gloss": "A BSI product as part of setting up AISI Deutschland.",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-bt-8727-2026",
+      "title": "Antwort der Bundesregierung auf die Kleine Anfrage 21/8351: Das AI Safety and Security Institute Deutschland – Organisationsstruktur, Ressourcen und parlamentarische Kontrolle (Drucksache 21/8727)",
+      "title_en": "Government response to minor interpellation 21/8351: The AI Safety and Security Institute Germany: organisational structure, resources and parliamentary scrutiny (printed paper 21/8727)",
+      "url": "https://dserver.bundestag.de/btd/21/087/2108727.pdf",
+      "excerpts": [
+        {
+          "text": "Zu weitergehenden Detailplanungen des späteren Ausbaus können derzeit noch keine Angaben gemacht werden.",
+          "gloss": "No information can yet be given on more detailed planning of the later expansion.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes",
+            "/institute/record/testing_capacity/notes",
+            "/institute/record/funding/1/notes",
+            "/record/next_check/reason"
+          ]
+        },
+        {
+          "text": "die konkrete Ausgestaltung des Instituts, seines Aufgabenzuschnitts, seiner organisatorischen und rechtlichen Form, seiner personellen und technischen Ausstattung",
+          "gloss": "the specific design of the institute, its remit, its organisational and legal form, its staffing and technical equipment",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes",
+            "/institute/record/testing_capacity/notes",
+            "/institute/record/funding/0/notes",
+            "/institute/record/funding/1/notes",
+            "/record/next_check/reason"
+          ]
+        },
+        {
+          "text": "sowie weiterer organisatorischer, rechtlicher und haushalterischer Fragen Gegenstand laufender regierungsinterner Abstimmungen.",
+          "gloss": "and further organisational, legal and budget questions are the subject of continuing discussions within government.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes",
+            "/institute/record/testing_capacity/notes",
+            "/institute/record/funding/0/notes",
+            "/institute/record/funding/1/notes",
+            "/record/next_check/reason"
+          ]
+        },
+        {
+          "text": "Für die erste Phase des AISI Deutschland sind keine gesonderten Personalstellen ausgewiesen, vielmehr baut der virtuelle BSI/BNetzA-Nukleus auf den bestehenden Ressourcen und Kompetenzen des BSI und der Bundesnetzagentur auf.",
+          "gloss": "No separate staff posts are allocated for the first phase of AISI Deutschland; the virtual BSI/BNetzA nucleus instead uses the existing resources and expertise of BSI and the Federal Network Agency.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staffing_model/code",
+            "/institute/record/staffing_model/notes",
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Welche Haushaltsmittel hat die Bundesregierung für die Tätigkeit des AISI Deutschland im Jahr 2026 bereitgestellt",
+          "gloss": "What budget funds has the federal government provided for the work of AISI Deutschland in 2026",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "Es wird auf die Antworten zu den Fragen 8 und 9 verwiesen.",
+          "gloss": "Reference is made to the answers to questions 8 and 9.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/notes",
+            "/institute/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Das AISI Deutschland bündelt zunächst bestehende Kompetenzen und Kapazitäten, insbesondere des BSI und der Bundesnetzagentur, zur technischen Analyse und Evaluierung fortgeschrittener KI-Modelle und ihrer Risiken. Hierzu werden vorhandene Prüf- und Evaluierungsmethoden genutzt und weiterentwickelt.",
+          "gloss": "AISI Deutschland initially pools existing expertise and capacity, particularly of BSI and the Federal Network Agency, for the technical analysis and evaluation of advanced AI models and their risks. Existing testing and evaluation methods are used and developed for this purpose.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Die Bundesregierung steht in engem Austausch mit den führenden KI-Entwicklern und Anbietern, um einen Zugang zu den leistungsfähigsten KI-Modellen für das AISI Deutschland sicherzustellen.",
+          "gloss": "The government is in close dialogue with leading AI developers and providers to secure access to the most capable AI models for AISI Deutschland.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Das AISI Deutschland ist als Kompetenzzentrum und nicht als Regulierungsbehörde ausgestaltet.",
+          "gloss": "AISI Deutschland is a competence centre, not a regulator.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Eine eigenständige Befugnis des AISI Deutschland, gegen den Willen von Entwicklern, Anbietern oder Betreibern fortgeschrittener KI-\nModelle Informationen oder Modellzugang zu verlangen, ist daher nicht vorge-\nsehen.",
+          "gloss": "An independent power for AISI Deutschland to require information or model access against the wishes of developers, providers or operators of advanced AI models is therefore not envisaged.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Soweit für technische Evaluierungen hoheitliche Informations- oder Zugriffsrechte erforderlich sind, richten sich diese nach den jeweils einschlägigen gesetzlichen Befugnissen der zuständigen Behörden, insbesondere nach der europäischen KI-Verordnung (KI-VO).",
+          "gloss": "Where public-authority information or access rights are required for technical evaluations, these follow the relevant statutory powers of the competent authorities in each case, in particular the European AI Regulation (KI-VO).",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Das AISI Deutschland unterliegt dabei insbesondere der parlamentarischen Kontrolle über die für seinen Aufbau und seine Steuerung zuständigen Ressorts. Ein eigenständiger regelmäßiger Bericht des AISI Deutschland an den Deutschen Bundestag ist nicht vorgesehen.",
+          "gloss": "AISI Deutschland is subject in particular to parliamentary scrutiny through the ministries responsible for its establishment and direction. No separate regular report by AISI Deutschland to the Bundestag is envisaged.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Der weitere organisatorische, personelle und finanzielle Auf- und Ausbau des AISI Deutschland erfolgt schrittweise, ein konkreter Zeitpunkt für dessen Abschluss ist daher bislang nicht festgelegt.",
+          "gloss": "The further organisational, staffing and financial development and expansion of AISI Deutschland proceeds step by step; no specific date for its completion has therefore yet been set.",
+          "accessed": "2026-11-02",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes",
+            "/record/next_check/reason"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-bt-wa-153-2026",
+      "title": "Schriftliche Fragen mit den in der Woche vom 5. Oktober 2026 eingegangenen Antworten der Bundesregierung (Drucksache 21/8470), Fragen 71 und 153",
+      "title_en": "Written questions with the government's answers received in the week of 5 October 2026 (printed paper 21/8470), questions 71 and 153",
+      "url": "https://dserver.bundestag.de/btd/21/084/2108470.pdf",
+      "excerpts": [
+        {
+          "text": "wird 2027 aus dem Einzelplan 24 finanziert werden",
+          "gloss": "will be financed in 2027 from budget section 24",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/description",
+            "/institute/record/funding/1/notes",
+            "/institute/record/funding/1/period"
+          ]
+        },
+        {
+          "text": "2401 686 12",
+          "accessed": "2026-10-24",
+          "gloss": "2401 686 12",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/description",
+            "/institute/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Gegenstand laufender regierungsinterner Abstimmungen",
+          "gloss": "the subject of ongoing coordination within government",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "eine wichtige Rolle beim Zugang zu Frontier-KI-Modellen, der internationalen Vernetzung und bei der Bewertung von Sicherheitsrisiken und -anforderungen",
+          "gloss": "an important role in access to frontier AI models, international networking and assessing security risks and requirements",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Antwort des Parlamentarischen Staatssekretärs Thomas Jarzombek vom 5. Oktober 2026",
+          "gloss": "Answer by Parliamentary State Secretary Thomas Jarzombek of 5 October 2026.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Die konkrete Ausgestaltung des Instituts, seines Aufgabenzuschnitts sowie weiterer organisatorischer und haushalterischer Fragen, die den Personalbedarf maßgeblich beeinflussen, sind Gegenstand laufender regierungsinterner Abstimmungen.",
+          "gloss": "The institute's design, remit and further organisational and budget questions that materially influence staffing needs are subject to continuing discussions within government.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Antwort des Staatssekretärs Dr. Géza Andreas von Geyr vom 6. Oktober 2026",
+          "gloss": "Answer by State Secretary Dr Géza Andreas von Geyr of 6 October 2026.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-hib-653-2026",
+      "title": "Haushalt 2027: Digitaletat steigt auf 1,44 Milliarden Euro (hib 653/2026)",
+      "title_en": "Budget 2027: digital budget rises to EUR 1.44 billion (parliamentary news service 653/2026)",
+      "url": "https://www.bundestag.de/presse/hib/kurzmeldungen-1205418",
+      "excerpts": [
+        {
+          "text": "Davon entfallen 81,2 Millionen Euro auf „Souveräne Dateninfrastruktur, Datenverfügbarkeit und Künstliche Intelligenz“ (2026: 89 Millionen Euro)",
+          "gloss": "Of this, EUR 81.2 million goes to “Sovereign data infrastructure, data availability and artificial intelligence” (2026: EUR 89 million)",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/amount",
+            "/institute/record/funding/1/annual_amount",
+            "/institute/record/funding/1/description",
+            "/institute/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "im Regierungsentwurf für den Bundeshaushalt 2027",
+          "gloss": "in the government draft of the 2027 federal budget",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/period",
+            "/institute/record/funding/1/commitment",
+            "/institute/record/funding/1/annual_basis",
+            "/institute/record/funding/1/annual_period"
+          ]
+        },
+        {
+          "text": "Für das Bundesministerium für Digitales und Staatsmodernisierung (BMDS) sind im Regierungsentwurf für den Bundeshaushalt 2027 Ausgaben in Höhe von rund 1,44 Milliarden Euro vorgesehen.",
+          "gloss": "The government draft federal budget for 2027 provides expenditure of around €1.44 billion for the Federal Ministry for Digitalisation and State Modernisation (BMDS).",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-jp-statement-2026",
+      "title": "Japan-Germany Joint Leaders’ Statement",
+      "url": "https://www.bundeskanzler.de/resource/blob/1832584/2458850/43e62f8c2dee120691e3c4e03e3fbad4/2026-10-28-japan-germany-joint-leaders-statement-data.pdf?download=1",
+      "excerpts": [
+        {
+          "text": "Both leaders took note of recent AI related incidents and concurred on the collaboration between Japan AI Safety Institute and German AI Safety and Security Institute.",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/state",
+            "/institute/record/agreements/2/counterparty",
+            "/institute/record/agreements/2/participation"
+          ]
+        },
+        {
+          "text": "October 28, 2026",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-ki-mig-2026",
+      "title": "KI-Marktüberwachungs-und-Innovationsförderungs-Gesetz",
+      "title_en": "AI Market Surveillance and Innovation Promotion Act",
+      "url": "https://www.gesetze-im-internet.de/ki-mig/BJNR0DF0B0026.html",
+      "excerpts": [
+        {
+          "text": "Für KI-Systeme, die mit solchen Produkten in Zusammenhang stehen, auf die die Verordnung (EU) 2016/424 anzuwenden ist, bestimmen die Länder die zuständigen notifizierenden Behörden.",
+          "accessed": "2026-10-17",
+          "gloss": "For AI systems associated with products to which Regulation (EU) 2016/424 applies, the Länder determine the competent notifying authorities.",
+          "url": "https://www.gesetze-im-internet.de/ki-mig/__3.html",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/4/designation_basis"
+          ]
+        },
+        {
+          "text": "Die Behörden, die durch Bundes- oder Landesrecht zu notifizierenden Behörden zur Ausführung der in Anhang I Abschnitt A der Verordnung (EU) 2024/1689 genannten Harmonisierungsrechtsvorschriften bestimmt wurden,",
+          "accessed": "2026-10-17",
+          "gloss": "The authorities designated under federal or Land law as notifying authorities for the harmonisation legislation listed in Annex I Section A of Regulation (EU) 2024/1689,",
+          "url": "https://www.gesetze-im-internet.de/ki-mig/__3.html",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/3/designation_basis",
+            "/record/related_bodies/5/designation_basis"
+          ]
+        },
+        {
+          "text": "nehmen auch die Aufgaben als zuständige notifizierende Behörden gemäß Artikel 28 Absatz 1 der Verordnung (EU) 2024/1689 wahr",
+          "accessed": "2026-10-17",
+          "gloss": "also perform the tasks of competent notifying authorities under Article 28(1) of Regulation (EU) 2024/1689",
+          "url": "https://www.gesetze-im-internet.de/ki-mig/__3.html",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/3/designation_basis",
+            "/record/related_bodies/5/designation_basis"
+          ]
+        },
+        {
+          "text": "Bis zur Benennung der Marktüberwachungsbehörde nach Artikel 52 Absatz 2 der Verordnung (EU) 2024/2847 nimmt das Bundesamt für Sicherheit in der Informationstechnik die in Satz 1 genannte Aufgabe wahr.",
+          "accessed": "2026-10-17",
+          "gloss": "Until designation of the market-surveillance authority under Article 52(2) of Regulation (EU) 2024/2847, the Federal Office for Information Security performs the task specified in sentence 1.",
+          "url": "https://www.gesetze-im-internet.de/ki-mig/__3.html",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/designation_basis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-ki-taskforce-2030",
+      "title": "Deutschland als KI-Nation 2030",
+      "title_en": "Germany as an AI nation 2030",
+      "url": "https://bmds.bund.de/fileadmin/BMDS/Dokumente/Publikationen/Deutschland_als_KI-Nation_2030_barrierefrei-Nov2026.pdf",
+      "excerpts": [
+        {
+          "text": "Wir bauen das vom Nationalen Sicherheitsrat am 8. Juni 2026 beschlossene und am 31. August 2026 offiziell gestartete AISI Deutschland (Initiierungsphase) schrittweise zu einem eigenständigen und leistungsfähigen nationalen Kompetenz- und Evaluierungsinstitut aus (Aufbauphase II).",
+          "gloss": "We are expanding AISI Deutschland, decided by the National Security Council on 8 June 2026 and officially launched on 31 August 2026 (initiation phase), step by step into an independent and capable national competence and evaluation institute (build-up phase II).",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Anteil von neuen Frontier AI Modellen, die das AISI auf sicherheitspolitische Auswirkungen innerhalb von 4 Monaten untersucht und bewertet ≥ 75 Prozent",
+          "gloss": "Share of new frontier AI models that the AISI examines and assesses for security-policy impact within 4 months: at least 75 per cent",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Das AISI Deutschland stellt aktuelle Lagebilder mit Frühwarnindikatoren zur Verfügung",
+          "accessed": "2026-11-07",
+          "gloss": "AISI Deutschland provides current situation pictures with early-warning indicators",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-nsr-2026",
+      "title": "Sitzung des Nationalen Sicherheitsrates im Juni 2026 (Pressemitteilung 103)",
+      "title_en": "Meeting of the National Security Council in June 2026 (press release 103)",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/pressemitteilungen/sitzung-des-nationalen-sicherheitsrates-im-juni-2026-2438050",
+      "archive_url": "https://web.archive.org/web/20261017042229/https://www.bundesregierung.de/breg-de/aktuelles/pressemitteilungen/sitzung-des-nationalen-sicherheitsrates-im-juni-2026-2438050",
+      "excerpts": [
+        {
+          "text": "beschlossen, ein KI-Sicherheitsinstitut zu gründen.",
+          "gloss": "decided to establish an AI security institute.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/description",
+            "/record/timeline/0/event"
+          ]
+        },
+        {
+          "text": "Kapazitäten zur Analyse der Fähigkeiten moderner KI-Modelle inkl. ihrer Risiken bündeln",
+          "gloss": "pool capacities for analysing the capabilities of modern AI models, including their risks",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "Des Weiteren hat der Nationale Sicherheitsrat die Folgen fortgeschrittener KI-Modelle für die Cybersicherheit in Deutschland bewertet und beschlossen, ein KI-Sicherheitsinstitut zu gründen.",
+          "accessed": "2026-10-17",
+          "gloss": "Furthermore, the National Security Council assessed the consequences of advanced AI models for cybersecurity in Germany and decided to establish an AI safety institute.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/legal_basis/type",
+            "/record/timeline/0/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "de-uk-statement-full-2026",
+      "title": "United Kingdom-Germany joint statement on the safety and security of advanced artificial intelligence",
+      "url": "https://www.gov.uk/government/publications/uk-germany-joint-statement-on-advanced-ai-safety-and-security/united-kingdom-germany-joint-statement-on-the-safety-and-security-of-advanced-artificial-intelligence",
+      "excerpts": [
+        {
+          "text": "Both countries will share best practice on AI evaluation to improve collective understanding of advanced AI systems (inter alia including the implication of advanced AI systems for cybersecurity) and contribute to the international evidence base.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-de-fr-cooperation",
+      "title": "Conclusion of the 26th Franco-German Ministerial Council",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/07/17/conclusion-of-the-26th-franco-german-ministerial-council",
+      "excerpts": [
+        {
+          "text": "France and Germany have agreed to step up their cooperation on AI safety and security by means of future collaboration between their respective AI safety institutes (INESIA and its German counterpart).",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/counterparty",
+            "/institute/record/agreements/0/state",
+            "/institute/record/agreements/0/scope",
+            "/institute/record/agreements/0/participation"
+          ]
+        },
+        {
+          "text": "17 July 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-de-uk-statement",
+      "title": "UK-Germany joint statement on advanced AI safety and security",
+      "url": "https://www.gov.uk/government/publications/uk-germany-joint-statement-on-advanced-ai-safety-and-security",
+      "excerpts": [
+        {
+          "text": "The statement was signed during Minister Wildberger’s visit to London on 1 July.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/state",
+            "/institute/record/agreements/1/date"
+          ]
+        },
+        {
+          "text": "expresses a desire for the UK and German AISIs to work closely together.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/participation",
+            "/institute/record/agreements/1/scope"
+          ]
+        },
+        {
+          "text": "A statement signed by the Secretary of State for Science, Innovation and Technology of the United Kingdom (DSIT) and the Federal Minister for Digital Transformation and Government Modernisation of the Federal Republic of Germany (BMDS).",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/counterparty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Germany Bundesnetzagentur",
+          "accessed": "2026-11-10",
+          "gloss": "Germany Federal Network Agency",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/2/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,DE,2025,83577140",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-de-joint-statement-2026",
+      "title": "Déclaration conjointe de la République fédérale d’Allemagne et de la République française sur la coopération en matière de sûreté et de sécurité de l’IA / Joint Statement by the Federal Republic of Germany and the French Republic on Cooperation in AI Safety and Security",
+      "title_en": "Joint Statement by the Federal Republic of Germany and the French Republic on Cooperation in AI Safety and Security",
+      "url": "https://presse.economie.gouv.fr/declaration-conjointe-de-la-republique-federale-dallemagne-et-de-la-republique-francaise-sur-la-cooperation-en-matiere-de-surete-et-de-securite-de-lia-joint-statement-by-the-federal-republic-of-germa/",
+      "excerpts": [
+        {
+          "text": "conjointement avec l'Institut allemand de sûreté et de sécurité de l'IA, coopéreront avec le Ministère en charge de l'IA et du Numérique",
+          "accessed": "2026-10-24",
+          "gloss": "together with the German AI Safety and Security Institute, will cooperate with the Ministry in charge of AI and Digital",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/participation"
+          ]
+        },
+        {
+          "text": "dans le cadre de l'Institut national pour l'évaluation et la sécurité de l'intelligence artificielle (INESIA), afin d'approfondir la coopération institutionnelle",
+          "accessed": "2026-10-24",
+          "gloss": "in the framework of the National Institute for the Evaluation and Security of Artificial Intelligence (INESIA), to deepen institutional cooperation",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-elysee-paris-call-2026",
+      "title": "Paris Call for AI safety and security.",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+      "excerpts": []
+    },
+    {
+      "id": "j8-de-bsi-mission",
+      "title": "BSI - The BSI's Mandate",
+      "url": "https://www.bsi.bund.de/EN/Das-BSI/Auftrag/auftrag_node.html",
+      "excerpts": [
+        {
+          "text": "The BSI is the Federal Cyber Security Authority and the chief architect of secure digitalisation in Germany.",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/cyber_agency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jp-de-declaration-2026",
+      "title": "Japan-Germany Joint Leaders’ Declaration on Economic Security Cooperation",
+      "url": "https://japan.kantei.go.jp/contents/topics/30706_ext_20_3.pdf",
+      "excerpts": [
+        {
+          "text": "including through cooperation on AI safety and security via our AISIs, namely the Japan AI Safety Institute (J-AISI) and the AI Safety and Security Institute Deutschland (AISI Deutschland), with particular attention to the misuse of AI against critical infrastructure.",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/state",
+            "/institute/record/agreements/2/counterparty",
+            "/institute/record/agreements/2/scope",
+            "/institute/record/agreements/2/participation",
+            "/institute/record/agreements/2/news"
+          ]
+        },
+        {
+          "text": "Explore cooperation to harness the opportunities, while minimising risks, provided by highly capable AI models and light AI models",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/scope",
+            "/institute/record/agreements/2/news"
+          ]
+        },
+        {
+          "text": "We, the Prime Minister of Japan and the Chancellor of Germany",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/counterparty"
+          ]
+        },
+        {
+          "text": "October 28, 2026",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/2/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-de-uk-ai-security",
+      "title": "Deutschland und Großbritannien vereinbaren Zusammenarbeit bei KI-Sicherheit",
+      "title_en": "Germany and the United Kingdom agree to cooperate on AI security",
+      "url": "https://bmds.bund.de/aktuelles/pressemitteilungen/detail/deutschland-und-grossbritannien-vereinbaren-zusammenarbeit-bei-ki-sicherheit",
+      "excerpts": [
+        {
+          "text": "KI-Sicherheitsinstitute von Großbritannien und Deutschland wollen bei Evaluation von Frontier-Modellen eng zusammenarbeiten",
+          "accessed": "2026-10-17",
+          "gloss": "The AI security institutes of the United Kingdom and Germany intend to cooperate closely on evaluation of frontier models.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

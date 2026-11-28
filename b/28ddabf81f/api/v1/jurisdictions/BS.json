@@ -1,0 +1,421 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "28ddabf81fe50aab749c330c3a137746d5886e68",
+      "built": "2026-11-25T18:17:56Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/92",
+  "record": {
+    "id": "BS",
+    "name": "The Bahamas",
+    "summary": "No qualifying institute identified. In the Speech from the Throne of May 2026 the government said it would introduce an Artificial Intelligence Governance Act providing for a National AI Commission, with no evaluation remit described. Ministers said in June 2026 that AI-specific legislation, with governance structures to regulate deployment and manage risks, is planned; no bill, regulator or institute has been published.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Added the National AI Commission proposed in the government's Speech from the Throne of May 2026; status unchanged. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the planned AI Governance Act and National AI Commission and the attorney general's 2025 expert committee to draft a first national AI policy. Reviewed the Speech from the Throne as primary governance evidence. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "\"The Bahamas\" \"AI\" institute safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "The Bahamas national AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "au-industry",
+            "ov-wikipedia",
+            "catalogue-jp-23-9"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Bahamas Artificial Intelligence Governance Act National AI Commission 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": true,
+          "query": "The Bahamas national AI safety institute model evaluation government 2026",
+          "source_ids": [
+            "il-r6-atih-catalogue"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. On 24 October 2026 the record was searched again in English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "bs-opm-throne-2026"
+      ],
+      "governance_note": "The government's Speech from the Throne of May 2026 says it will introduce an Artificial Intelligence Governance Act providing for a National AI Commission and setting out ethical safeguards for AI. No evaluation remit for advanced models is described."
+    },
+    "source_ids": [
+      "bs-opm-throne-2026",
+      "bs-ewnews-ai-law",
+      "bs-tribune-ilc"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Innovation and National Development",
+        "role": "It announced planned AI legislation and governance structures in June 2026; no evaluation body was described.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "bs-ewnews-ai-law"
+        ],
+        "kind": "other",
+        "id": "related_bodies-acccaf4b3cfc5b13a9ffa065a15d1dc1",
+        "citations": {
+          "name": [],
+          "role": [
+            "bs-ewnews-ai-law"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "bs-ewnews-ai-law"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "bs-ewnews-ai-law"
+          ]
+        }
+      },
+      {
+        "name": "National AI Commission",
+        "role": "It is proposed in the Speech from the Throne of 20 May 2026, to be established under a planned Artificial Intelligence Governance Act; no evaluation or testing remit was described.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "bs-opm-throne-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-5b58b0a5f3bd5c0aba3596f1751f361f",
+        "citations": {
+          "name": [
+            "bs-opm-throne-2026"
+          ],
+          "role": [
+            "bs-opm-throne-2026"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "bs-opm-throne-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "bs-opm-throne-2026"
+          ]
+        }
+      }
+    ],
+    "notes": "Based on the government's Speech from the Throne (primary) and two press reports of ministerial statements (secondary). The National AI Commission is recorded from the government's Speech from the Throne. An earlier search summary also referred to a planned 'Artificial Intelligence Authority', which no source opened mentioned, so it is not recorded as fact. A 2025 report said a white paper on AI policy was being prepared for Cabinet.",
+    "next_check": {
+      "date": "2027-01-16",
+      "reason": "Check whether an AI bill or authority has been published; reassess as exploring or proposed if a draft names a testing or evaluation body."
+    },
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 403033,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "BHS",
+    "m49": "044",
+    "wikidata": "Q778",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [
+        "bs-opm-throne-2026"
+      ],
+      "check": [
+        "bs-opm-throne-2026"
+      ],
+      "related_bodies": [
+        "bs-ewnews-ai-law",
+        "bs-opm-throne-2026"
+      ],
+      "notes": [],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "bs-ewnews-ai-law",
+        "bs-opm-throne-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "bs-opm-throne-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "au-industry",
+        "bs-ewnews-ai-law",
+        "bs-tribune-ilc",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "catalogue-jp-23-9",
+        "il-r6-atih-catalogue",
+        "bs-opm-throne-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "au-industry",
+      "title": "AI Safety Institute",
+      "url": "https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261015131505/https://www.industry.gov.au/science-technology-and-innovation/technology/artificial-intelligence/ai-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "bs-ewnews-ai-law",
+      "title": "Government advances digital economy push with national ID, AI law and skills drive",
+      "url": "https://ewnews.com/government-advances-digital-economy-push-with-national-id-ai-law-and-skills-drive/",
+      "archive_url": "https://web.archive.org/web/20261017020620/https://ewnews.com/government-advances-digital-economy-push-with-national-id-ai-law-and-skills-drive/",
+      "excerpts": [
+        {
+          "text": "the minister confirmed that government is advancing dedicated AI legislation alongside the creation of governance structures to regulate deployment, manage risks,",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bs-opm-throne-2026",
+      "title": "Speech From The Throne Delivered at The State Opening of Parliament 2026",
+      "url": "https://opm.gov.bs/speech-from-the-throne-delivered-at-the-state-opening-of-parliament-2026/",
+      "archive_url": "https://web.archive.org/web/20260613094818/https://opm.gov.bs/speech-from-the-throne-delivered-at-the-state-opening-of-parliament-2026/",
+      "excerpts": [
+        {
+          "text": "establishment of a National AI Commission",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/1/name",
+            "/record/related_bodies/1/role",
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "My Government will introduce an Artificial Intelligence",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/1/role",
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "and set out clear ethical safeguards governing artificial intelligence",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "Governance Act. This will provide for the establishment of a National AI Commission",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bs-tribune-ilc",
+      "title": "Minister: Bahamas ready for AI age",
+      "url": "https://www.tribune242.com/news/2026/jun/10/minister-bahamas-ready-for-ai-age/",
+      "archive_url": "https://web.archive.org/web/20260616065331/https://www.tribune242.com/news/2026/jun/10/minister-bahamas-ready-for-ai-age/",
+      "excerpts": []
+    },
+    {
+      "id": "catalogue-jp-23-9",
+      "title": "Guide to Evaluation Perspectives on AI Safety, version 1.01",
+      "url": "https://aisi.go.jp/assets/pdf/ai_safety_eval_v1.01_en.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "il-r6-atih-catalogue",
+      "title": "The Global Landscape of AI Safety Institutes",
+      "url": "https://alltechishuman.org/all-tech-is-human-blog/the-global-landscape-of-ai-safety-institutes",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

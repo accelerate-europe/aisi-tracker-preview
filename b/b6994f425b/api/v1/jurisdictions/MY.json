@@ -1,0 +1,1991 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "b6994f425b29443fc61aa5a0a60a708674cdce7d",
+      "built": "2026-11-25T16:48:16Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/41",
+  "record": {
+    "id": "MY",
+    "name": "Malaysia",
+    "kind": "state",
+    "institute_id": "my-aisafe",
+    "summary": "The government announced the Malaysia AI Safety Institute (MY-AISafe) in July 2026 as a function of AI Malaysia Berhad, a national AI entity under the Ministry of Digital.",
+    "related_bodies": [
+      {
+        "name": "AI Malaysia Berhad",
+        "role": "Serving as the national AI Safety Institute is one of its pillars. It is a national AI entity under the Ministry of Digital.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-82a98300434f584c997273949537a132",
+        "source_ids": [
+          "my-digital-2026-07"
+        ],
+        "citations": {
+          "name": [
+            "my-digital-2026-07"
+          ],
+          "role": [
+            "my-digital-2026-07"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "my-digital-2026-07"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "my-digital-2026-07"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-01-31",
+      "reason": "Whether MY-AISafe has staff, a head and a budget; AI Governance Bill."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, authority designations and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Added ministry quotations for the summary, related body and timeline description; replaced agency wording with national entity and removed the parenthetical identification with the National AI Office. This was a partial evidence check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Status confidence raised to high: the Ministry of Digital release states the establishment. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound"
+    },
+    "source_ids": [
+      "my-digital-2026-07",
+      "my-plan-2026",
+      "my-digital-asean-secretariat-2026",
+      "my-bernama-2026-07",
+      "my-scoop-2026-09",
+      "eap-asean-ai-safe-2025",
+      "my-bernama-asean-2026"
+    ],
+    "notes": "The government release says the institute has been established. In September 2026, AI Malaysia's chair still listed the institute as a priority; the sources reviewed do not identify its staff, budget or head. The ASEAN AI Safety Network secretariat is to be based in Kuala Lumpur, as announced in January 2026.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "035",
+      "subregion": "South-eastern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 35977838,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "high",
+    "timeline": [
+      {
+        "id": "my-2026-07-28-designated",
+        "date": "2026-07-28",
+        "event": "designated",
+        "instrument": "administrative",
+        "description": "The Ministry of Digital states that Malaysia has established the Malaysia AI Safety Institute, covering safety evaluations, testing and red teaming.",
+        "source_ids": [
+          "my-digital-2026-07",
+          "my-bernama-2026-07"
+        ],
+        "short": "Ministry confirms Malaysia AI Safety Institute established.",
+        "citations": {
+          "id": [],
+          "date": [
+            "my-digital-2026-07"
+          ],
+          "event": [
+            "my-digital-2026-07",
+            "my-bernama-2026-07"
+          ],
+          "instrument": [],
+          "description": [
+            "my-digital-2026-07"
+          ],
+          "short": [
+            "my-digital-2026-07"
+          ],
+          "display": [
+            "my-digital-2026-07",
+            "my-bernama-2026-07"
+          ]
+        }
+      }
+    ],
+    "iso3": "MYS",
+    "m49": "458",
+    "wikidata": "Q833",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "established",
+    "status_since": "2026-07-28",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "institute_id": [],
+      "summary": [
+        "my-digital-2026-07"
+      ],
+      "related_bodies": [
+        "my-digital-2026-07"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [
+        "my-scoop-2026-09",
+        "my-bernama-asean-2026",
+        "my-digital-asean-secretariat-2026"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "timeline": [
+        "my-digital-2026-07",
+        "my-bernama-2026-07"
+      ],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [
+        "my-digital-2026-07",
+        "my-bernama-2026-07"
+      ],
+      "status_since": [
+        "my-digital-2026-07"
+      ],
+      "display": [
+        "my-digital-2026-07",
+        "my-bernama-2026-07",
+        "my-scoop-2026-09",
+        "my-bernama-asean-2026",
+        "my-digital-asean-secretariat-2026"
+      ],
+      "since": [
+        "my-digital-2026-07"
+      ],
+      "finding": [
+        "my-digital-2026-07"
+      ],
+      "inst": [
+        "my-digital-2026-07"
+      ]
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "my-digital-2026-07",
+        "my-plan-2026",
+        "my-bernama-2026-07",
+        "my-scoop-2026-09",
+        "eap-asean-ai-safe-2025",
+        "my-bernama-asean-2026",
+        "my-digital-asean-secretariat-2026"
+      ]
+    }
+  },
+  "institute": {
+    "aisi_json_pointer": "/institutes/12",
+    "record": {
+      "id": "my-aisafe",
+      "name": "Malaysia AI Safety Institute",
+      "name_local": "Institut Keselamatan AI Malaysia",
+      "acronym": "MY-AISafe",
+      "short_name": "MY-AISafe",
+      "jurisdiction_id": "MY",
+      "host": "AI Malaysia Berhad, under the Ministry of Digital",
+      "legal_form": "unknown",
+      "mandate": "Conducts safety evaluations, testing and AI red teaming; develops talent and technology-transfer partnerships; supports standards, risk management and regulation; its AI governance remit covers safety benchmarking, risk assessment and incident reporting for corrective action.",
+      "funding": [
+        {
+          "kind": "none_disclosed",
+          "description": "No budget for the institute published",
+          "source_ids": [
+            "my-digital-2026-07"
+          ],
+          "confidence": "high",
+          "commitment": "not_applicable",
+          "funding_source": "unknown",
+          "id": "funding-e0bbc501458f5e98b1de48188017e135",
+          "coverage": "whole_institute",
+          "notes": "The absence of a published budget concerns MY-AISafe itself. This record supplies no amount.",
+          "eur_per_year_est": null,
+          "citations": {
+            "kind": [],
+            "description": [],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "id": [],
+            "coverage": [],
+            "notes": [],
+            "eur_per_year_est": [],
+            "display": [],
+            "amount": [],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "Not published",
+            "qualifiers": [],
+            "native_value": "Not published",
+            "native_qualifiers": [],
+            "budget_citations": []
+          }
+        },
+        {
+          "kind": "not_institute_specific",
+          "amount": 15000000,
+          "currency": "MYR",
+          "period": "2027 budget proposal",
+          "commitment": "proposed",
+          "confidence": "high",
+          "funding_source": "national_government",
+          "description": "Nearly MYR 15m proposed for parent body AI Malaysia Berhad in Budget 2027.",
+          "decision_date": "2026-10-09",
+          "source_ids": [
+            "r5-my-budget2027-ms",
+            "r5-my-budget2027-en"
+          ],
+          "notes": "The budget speech names AI Malaysia Berhad, the parent body, as recipient and states no MY-AISafe earmark or share, so the proposal is not an institute budget.",
+          "annual_amount": 15000000,
+          "annual_basis_code": "other",
+          "annual_basis": "Nearly MYR 15m proposed for parent body AI Malaysia Berhad in the 2027 budget; approximate annual parent-body amount, not a MY-AISafe allocation or expenditure.",
+          "id": "funding-a911e70079da5c01af610ef8ccf3e001",
+          "coverage": "not_institute_specific",
+          "amount_qualifier": "nearly",
+          "eur_per_year_est": 3103110,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ],
+            "currency": [],
+            "period": [],
+            "commitment": [],
+            "confidence": [],
+            "funding_source": [],
+            "description": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ],
+            "decision_date": [],
+            "notes": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ],
+            "annual_amount": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ],
+            "annual_basis_code": [],
+            "annual_basis": [],
+            "id": [],
+            "coverage": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ],
+            "amount_qualifier": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ],
+            "eur_per_year_est": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en",
+              "eu-ecb-exchange-rates-2025"
+            ],
+            "display": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ]
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "nearly MYR 15m",
+            "qualifiers": [
+              "2027 budget proposal"
+            ],
+            "native_value": "nearly MYR 15m",
+            "native_qualifiers": [
+              "2027 budget proposal"
+            ],
+            "budget_citations": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ]
+          }
+        }
+      ],
+      "check": {
+        "last_checked": "2026-10-16",
+        "method": "individual",
+        "partial": [
+          {
+            "date": "2026-10-17",
+            "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Verified newly added funding or leadership evidence, preserving source scope and date limits. This is a partial check, not a full record recheck."
+          },
+          {
+            "date": "2026-10-19",
+            "scope": "Funding scope classification and Budget selection review; full institute check date unchanged."
+          },
+          {
+            "date": "2026-10-19",
+            "scope": "Added ministry quotations for host and remit; removed unsupported legal-form and host-category classifications and the parenthetical identification with the National AI Office. This was a partial evidence check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-20",
+            "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Post-release re-check of the AI Malaysia institute page and news and Ministry of Digital releases: nothing new. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-07",
+            "scope": "News re-check since 24 October 2026: the institute page and ai.gov.my, the digital ministry's releases, the Dewan Rakyat Hansard for 5, 28 and 29 October and press coverage. The minister's answer of 5 October on the institute's remit (safety benchmarking, risk assessment, incident reporting) is a further source, left for review; the AI bill is still pending. Left for review: passage of the Supply Bill 2027 and the final Hansard for 28 October. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-09",
+            "scope": "Post-release news re-check from 6 November 2026: the institute page, AI Malaysia news, the digital ministry's releases to 5 November and the Dewan Rakyat Hansard for 5 and 28 October and 5 November. The minister's answers of 5 and 28 October describe the institute's remit (safety benchmarking, risk assessment, incident reporting); left for review as mandate evidence. The Supply Bill 2027 is still in committee. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-09",
+            "scope": "Added safety benchmarking, risk assessment and incident reporting for corrective action to the mandate, from the Digital Minister's answer in the Dewan Rakyat on 5 October 2026. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-10",
+            "scope": "Post-release news re-check from 8 November 2026: the institute page, AI Malaysia news (11 September), the ministry's releases (5 November) and its official account (posts to 9 November), and the draft Hansard of 28 October. The ministry's release of 5 November invites Google to collaborate on AI safety research and evaluation; it is an invitation, not an agreement. Left for review: the minister's account of an academic roundtable on the institute, reported on 5 November (the ministry's own release was not found), and the minister's answer of 28 October. The final Hansard and the Supply Bill 2027 schedules could not be read. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-13",
+            "scope": "Post-release news re-check from 10 November 2026: the institute page, AI Malaysia news (the listing returned was stale, newest 14 May), the ministry's releases (5 November) and the digital Hansard of 28 October. No update was found in the material checked. Whether that Hansard is final could not be confirmed; the allocation it mentions is for the parent body, and the Supply Bill 2027 schedules were not found, so no institute allocation is recorded. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-14",
+            "scope": "Sources checked for developments from 13 November 2026: the institute page (undated), AI Malaysia's news (stale, newest 14 May), the digital ministry's releases list (stale, newest 17 June 2025) and home page (13 November), its release of 13 November, which still describes the institute as being established, and its budget release of 6 November. The 2027 budget estimates give AI Malaysia, the host, RM9,000,000 for 2026 and RM13,663,400 for 2027, as the host's estimates rather than an institute allocation. Neither finding has been added to the data. The new sources report no testing, staff, output or agreement. The Hansard of 28 October is still marked draft; the Supply Bill schedules, their adoption and how the estimates relate to the recorded nearly MYR15m are unresolved. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-20",
+            "scope": "Sources checked for developments from 14 November 2026: the institute page (undated), AI Malaysia's news (stale, newest 11 September), the digital ministry's releases list (stale, newest 17 June 2025) and home pages, a press report of 17 November on the deputy minister's remarks, the Hansard of 28 October (still marked draft) and the 2027 budget estimates. No new institute fact was found. Current ministry releases were not recovered; the final Hansard, the Supply Bill schedules and their adoption remain unverified. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-23",
+            "scope": "Post-release news re-check from 20 November 2026: the MY-AISafe page (unchanged), AI Malaysia news and the Ministry of Digital's pages (stale copies only) and the digital Hansard of 28 October. The Supply Bill 2027 is at committee stage, with no institute line found. AI Malaysia's appointment of a chief executive, known only from press, is not entered. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-25",
+            "scope": "Post-release news re-check from 23 November 2026: AI Malaysia's institute page and news (newest 11 September), the Ministry of Digital's releases (25 November, titles only) and the Dewan Rakyat Hansard of 23 and 24 November. Added the Digital Minister's answer of 24 November, which says the government is developing the institute and that it will focus on, among other things, developing evaluation methods. No institute line was found in the ministry's 2027 budget schedule read, and passage of the Supply Bill 2027 was not established. Partial check, not a full record re-check."
+          }
+        ],
+        "last_checked_basis": "historical_upper_bound",
+        "functions": {
+          "date": "2026-11-14",
+          "codes": [
+            "model_testing",
+            "evaluation_methods",
+            "research",
+            "standards_guidance",
+            "regulatory_enforcement",
+            "regulatory_support",
+            "risk_monitoring",
+            "foresight",
+            "policy_advice",
+            "incident_response",
+            "international_cooperation",
+            "convening",
+            "capacity_building",
+            "talent",
+            "adoption",
+            "public_access_continuity",
+            "certification",
+            "sandbox"
+          ]
+        }
+      },
+      "source_ids": [
+        "my-digital-2026-07",
+        "my-plan-2026",
+        "depth-my-site",
+        "my-bernama-2026-07",
+        "my-scoop-2026-09",
+        "network-2025",
+        "network-nist-2026",
+        "my-csm-about",
+        "my-csm-events",
+        "my-hansard-dr-2026-10-05",
+        "my-aisafe-overview",
+        "my-hansard-dr-2026-11-24"
+      ],
+      "notes": "AI Malaysia Berhad was itself created the same day from the National AI Office. The 2026-2030 National AI Action Plan does not mention the institute; it calls instead for a national 'AI Trust Function' to evaluate, monitor and respond to AI risks. In September 2026 AI Malaysia's chair still described setting up the institute as a priority in the works. On 24 November 2026 the Minister of Digital told the Dewan Rakyat that the government is developing the institute under AI Malaysia. This is the weakest 'established' record in the dataset: designation and mandate are stated in a primary government release, but no head, staff, budget or launch is published.\n\nThe ministry identifies AI Malaysia Berhad as a national AI entity under the Ministry of Digital and assigns it the national AI Safety Institute role. The institute's separate legal form and host classification are not specified in this announcement.",
+      "website": "https://ai.gov.my/my-aisafe/",
+      "mandate_short": "Evaluates, tests and red-teams AI systems; supports standards and regulation.",
+      "legal_basis": {
+        "type": "administrative",
+        "state": "in_force",
+        "source_ids": [
+          "my-digital-2026-07"
+        ],
+        "citations": {
+          "type": [
+            "my-digital-2026-07"
+          ],
+          "state": [
+            "my-digital-2026-07"
+          ],
+          "display": [
+            "my-digital-2026-07"
+          ]
+        }
+      },
+      "placement": {
+        "host_type": "unknown",
+        "source_ids": [
+          "my-digital-2026-07"
+        ],
+        "citations": {
+          "host_type": [],
+          "display": []
+        }
+      },
+      "agreements": [],
+      "wikidata": null,
+      "identifier_notes": "No matching Wikidata institute item verified in label and official-name searches on 17 October 2026; null does not establish that no item exists.",
+      "outputs": [],
+      "head": {
+        "state": "not_published",
+        "notes": "Searched 19 Oct 2026 (en, ms): MY-AISafe page on ai.gov.my, the MY-AISafe overview PDF, the AI Malaysia home page and news list, the 11 Sep 2026 inaugural board statement (names the AI Malaysia board only: chair Aireen Omar; no MY-AISafe head and no AI Malaysia chief executive), the 28 Jul 2026 launch release (EN on digital.gov.my, MS PDF), the National AI Action Plan 2026-2030 (E12 AI Trust Function: only a recruitment plan for a \"specialised multidisciplinary team\"). No named director or head of MY-AISafe in any of them. The contact route is a generic AI Malaysia mailbox."
+      },
+      "reports_to": {
+        "state": "stated",
+        "name": "Kementerian Digital",
+        "name_en": "Ministry of Digital",
+        "source_ids": [
+          "my-aisafe-overview",
+          "depth-my-site"
+        ],
+        "citations": {
+          "state": [],
+          "name": [
+            "depth-my-site",
+            "my-aisafe-overview"
+          ],
+          "name_en": [],
+          "display": [
+            "depth-my-site",
+            "my-aisafe-overview"
+          ]
+        }
+      },
+      "national_partners": {
+        "state": "stated",
+        "entries": [
+          {
+            "id": "np-my-mcmc",
+            "name": "Suruhanjaya Komunikasi dan Multimedia Malaysia",
+            "name_en": "Malaysian Communications and Multimedia Commission",
+            "acronym": "MCMC",
+            "what": "communications and multimedia commission",
+            "relation": "planned",
+            "how": "Is to sit with the AI Trust Function on a committee supporting the Ministry of Digital as lead, and to collaborate on AI risk communications.",
+            "source_ids": [
+              "my-aisafe-overview",
+              "my-plan-2026"
+            ],
+            "citations": {
+              "id": [],
+              "name": [
+                "my-plan-2026"
+              ],
+              "name_en": [],
+              "acronym": [],
+              "what": [
+                "my-plan-2026"
+              ],
+              "relation": [
+                "my-plan-2026",
+                "my-aisafe-overview"
+              ],
+              "how": [
+                "my-plan-2026",
+                "my-aisafe-overview"
+              ],
+              "display": [
+                "my-plan-2026",
+                "my-aisafe-overview"
+              ]
+            }
+          },
+          {
+            "id": "np-my-ministry-of-communications",
+            "name": "Kementerian Komunikasi",
+            "name_en": "Ministry of Communications",
+            "what": "communications ministry",
+            "relation": "planned",
+            "how": "Is to sit with the AI Trust Function on a committee supporting the Ministry of Digital as lead.",
+            "source_ids": [
+              "my-aisafe-overview",
+              "my-plan-2026"
+            ],
+            "citations": {
+              "id": [],
+              "name": [
+                "my-plan-2026"
+              ],
+              "name_en": [],
+              "what": [
+                "my-plan-2026"
+              ],
+              "relation": [
+                "my-plan-2026",
+                "my-aisafe-overview"
+              ],
+              "how": [
+                "my-plan-2026",
+                "my-aisafe-overview"
+              ],
+              "display": [
+                "my-plan-2026",
+                "my-aisafe-overview"
+              ]
+            }
+          }
+        ],
+        "notes": "Cyber agency searched: NACSA (National Cyber Security Agency, under the National Security Council, Prime Minister's Department); CyberSecurity Malaysia as second, 2026-10-19 (en, ms); none found. No NACSA, CyberSecurity Malaysia or MyCERT link to MY-AISafe in any fetched document. Searched: MY-AISafe page and overview PDF, AI Malaysia home page, launch release (EN and MS), board statement, National AI Action Plan 2026-2030 (full text grep for NACSA, cyber, CERT: NACSA appears only in the abbreviations list, never in the text; the E12 row speaks generically of integrating \"cybersecurity, communications, financial and law enforcement agencies\" into a coordinated response framework), nacsa.gov.my Act 854 page (Cyber Security Act 2024, in force 26 Aug 2024; contact block: National Security Council, Prime Minister's Department; no AI wording). Not published, not absence of any link. CyberSecurity Malaysia corporate overview and events pages were fetched on 20 October 2026; neither named cooperation with MY-AISafe. The institute overview and action plan also named no such cooperation."
+      },
+      "testing_capacity": {
+        "state": "planned",
+        "notes": "The institute's overview, marked for reference only, uses the present tense ('MY-AISafe tests systems before release, then manages incidents and tracks emerging threats once they are in use'), but it describes a body launched on 28 July 2026 that was still in preparation in September 2026; this is read as its mandate, not as reported testing. The plan's E12 items sit under its proposed actions, which the overview says the institute delivers. No joint network testing credited to Malaysia was found.",
+        "source_ids": [
+          "my-plan-2026",
+          "my-aisafe-overview",
+          "my-scoop-2026-09"
+        ],
+        "citations": {
+          "state": [
+            "my-plan-2026",
+            "my-aisafe-overview"
+          ],
+          "notes": [],
+          "display": [
+            "my-plan-2026",
+            "my-aisafe-overview"
+          ]
+        }
+      },
+      "model_access": {
+        "notes": "No access event, legal power or agreement providing for access to, or evaluation of, the models of a developer that has a model in Epoch AI's frontier set was found. The AI Governance Bill was in public consultation from 10 to 31 July 2026, with tabling in Parliament targeted for 2027.",
+        "source_ids": [
+          "my-aisafe-overview"
+        ],
+        "searches": [
+          {
+            "date": "2026-10-21",
+            "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+            "language": "en",
+            "sources_read": [
+              "https://epoch.ai/data/ai-models",
+              "https://epoch.ai/data/ai-models-documentation",
+              "https://epoch.ai/data/all_ai_models.csv",
+              "https://epoch.ai/data/frontier_ai_models.csv",
+              "https://epoch.ai/data/notable_ai_models.csv"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Recorded sources re-read for: Safety Institute/AISafe/E12/red team/evaluat/testing/access/bill",
+            "language": "en",
+            "sources_read": [
+              "https://strapi.naio.okie.my/uploads/Malaysia_AI_Safety_Institute_Overview_1_86540498a4.pdf",
+              "https://strapi.naio.okie.my/uploads/AI_Nation_2030_National_AI_Action_Plan_2026_2030_EN_V_180826_ddf0221683.pdf",
+              "https://ai.gov.my/my-aisafe/",
+              "https://www.digital.gov.my/en-GB/siaran/AI-Malaysia-Pemacu-Utama-Menuju-Negara-AI-2030",
+              "https://www.bernama.com/en/news.php?id=2587122",
+              "https://www.scoop.my/news/298296/governance-bill-and-safety-institute-to-guide-ai-use-in-the-works-ai-malaysia/"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Malaysia AI Safety Institute MY-AISafe model testing red teaming evaluation 2026",
+            "language": "en",
+            "sources_read": [
+              "search snippets: govinsider, dig.watch, af.net (aggregator, Oct 2026 KL red-teaming workshop, no MY-AISafe detail)"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Rang Undang-Undang Tadbir Urus AI Malaysia MY-AISafe pengujian model akses",
+            "language": "ms",
+            "sources_read": [
+              "search snippets: bernama (BM), bharian, utusan, rtm, cyberpeace"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "\"MY-AISafe\" October 2026",
+            "language": "en",
+            "sources_read": [
+              "no relevant results"
+            ]
+          }
+        ],
+        "value": "none_found",
+        "citations": {
+          "notes": [],
+          "searches": [],
+          "value": [],
+          "display": []
+        }
+      },
+      "staffing_model": {
+        "code": "planned",
+        "source_ids": [
+          "my-plan-2026",
+          "my-aisafe-overview"
+        ],
+        "notes": "The adopted National AI Action Plan 2026-2030 (revision of 18 August 2026) provides under the AI Trust Function (E12) to 'Recruit and train a specialised multidisciplinary team, including AI risk analysts, adversarial machine learning engineers and incident response leads', and AI Malaysia's overview says MY-AISafe delivers that function. No source yet states staff of its own, a host body's staff or posts (searched: the AI Malaysia site and careers page, Ministry of Digital releases, the Budget 2027 speech and Dewan Rakyat answers); the overview says 'The institute draws on expertise from government, industry, academia and research institutions'.",
+        "citations": {
+          "code": [
+            "my-plan-2026",
+            "my-aisafe-overview"
+          ],
+          "notes": [],
+          "display": [
+            "my-plan-2026",
+            "my-aisafe-overview"
+          ]
+        }
+      },
+      "claims": [
+        {
+          "id": "claims-e0b0c7a90d0743e0a8ac7c0cae15b3e8",
+          "kind": "function",
+          "code": "model_testing",
+          "basis": "mandate",
+          "text": "Its planned work includes a pillar covering safety evaluations, testing and AI red teaming.",
+          "source_ids": [
+            "my-digital-2026-07"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "my-digital-2026-07"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "my-digital-2026-07"
+            ]
+          }
+        },
+        {
+          "id": "claims-a867aab2cc294349922476268ff28da1",
+          "kind": "function",
+          "code": "regulatory_support",
+          "basis": "mandate",
+          "text": "Is to provide governance, safety and regulatory support through the development of standards, risk management and compliance assurance.",
+          "source_ids": [
+            "my-digital-2026-07"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "my-digital-2026-07"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "my-digital-2026-07"
+            ]
+          }
+        },
+        {
+          "id": "claims-a6703736497f468aa19df991c9eb39d4",
+          "kind": "function",
+          "code": "policy_advice",
+          "basis": "mandate",
+          "text": "The Minister of Digital, Gobind Singh Deo, told the Dewan Rakyat that the government set it up, through the Ministry of Digital and AI Malaysia Berhad, to study clear mechanisms for regulating the use of AI in organisations across sectors.",
+          "source_ids": [
+            "my-hansard-dr-2026-10-05"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "my-hansard-dr-2026-10-05"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "my-hansard-dr-2026-10-05"
+            ]
+          }
+        },
+        {
+          "id": "claims-5a18937b6f3d4613be9d6863dd84a75d",
+          "kind": "function",
+          "code": "incident_response",
+          "basis": "mandate",
+          "text": "The Minister of Digital, Gobind Singh Deo, told the Dewan Rakyat that it is responsible for AI governance work covering safety benchmarking, risk assessment and incident reporting for corrective action.",
+          "source_ids": [
+            "my-hansard-dr-2026-10-05"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "my-hansard-dr-2026-10-05"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "my-hansard-dr-2026-10-05"
+            ]
+          }
+        },
+        {
+          "id": "claims-11f2d9b2361b4866a2f17dc24acd4b71",
+          "kind": "function",
+          "code": "risk_monitoring",
+          "basis": "mandate",
+          "text": "The Ministry of Digital's national AI action plan calls for a national AI Trust Function to evaluate, monitor, anticipate and respond to AI risks, and AI Malaysia's overview says MY-AISafe delivers that function.",
+          "source_ids": [
+            "my-plan-2026"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "my-plan-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "my-plan-2026"
+            ]
+          }
+        },
+        {
+          "id": "claims-f59ff46521b346b4807be58f5ad6696b",
+          "kind": "function",
+          "code": "talent",
+          "basis": "mandate",
+          "text": "Is to work through strategic collaborations for talent development, expertise sharing and technology transfer at national and international levels.",
+          "source_ids": [
+            "my-digital-2026-07"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "my-digital-2026-07"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "my-digital-2026-07"
+            ]
+          }
+        },
+        {
+          "id": "claims-c34782f2ad204c7bb807217b511c32a0",
+          "kind": "function",
+          "code": "evaluation_methods",
+          "basis": "mandate",
+          "text": "The Minister of Digital, Gobind Singh Deo, told the Dewan Rakyat that it will focus on developing evaluation methods, alongside research, testing and assessment of AI safety risks.",
+          "source_ids": [
+            "my-hansard-dr-2026-11-24"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-25",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "my-hansard-dr-2026-11-24"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "my-hansard-dr-2026-11-24"
+            ]
+          }
+        }
+      ],
+      "status": "established",
+      "established": "2026-07-28",
+      "announced": null,
+      "functions": [
+        {
+          "code": "model_testing",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-e0b0c7a90d0743e0a8ac7c0cae15b3e8"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "evaluation_methods",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-c34782f2ad204c7bb807217b511c32a0"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "research",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "standards_guidance",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "regulatory_enforcement",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "regulatory_support",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-a867aab2cc294349922476268ff28da1"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "risk_monitoring",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-11f2d9b2361b4866a2f17dc24acd4b71"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "foresight",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "policy_advice",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-a6703736497f468aa19df991c9eb39d4"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "incident_response",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-5a18937b6f3d4613be9d6863dd84a75d"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "international_cooperation",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "convening",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "capacity_building",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "talent",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-f59ff46521b346b4807be58f5ad6696b"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "adoption",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "public_access_continuity",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "certification",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "sandbox",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        }
+      ],
+      "operating": [],
+      "intervals": {
+        "announced_to_established": null,
+        "established_to_first_qualifying_activity": null,
+        "announced_to_first_qualifying_activity": null
+      },
+      "citations": {
+        "id": [],
+        "name": [
+          "my-digital-2026-07"
+        ],
+        "name_local": [],
+        "acronym": [],
+        "short_name": [],
+        "jurisdiction_id": [],
+        "host": [
+          "my-digital-2026-07"
+        ],
+        "legal_form": [],
+        "mandate": [
+          "my-digital-2026-07",
+          "my-hansard-dr-2026-10-05"
+        ],
+        "funding": [
+          "r5-my-budget2027-ms",
+          "r5-my-budget2027-en"
+        ],
+        "check": [],
+        "notes": [
+          "my-digital-2026-07",
+          "my-hansard-dr-2026-11-24"
+        ],
+        "website": [],
+        "mandate_short": [
+          "my-digital-2026-07"
+        ],
+        "legal_basis": [
+          "my-digital-2026-07"
+        ],
+        "placement": [],
+        "agreements": [],
+        "wikidata": [],
+        "identifier_notes": [],
+        "outputs": [],
+        "head": [],
+        "reports_to": [
+          "depth-my-site",
+          "my-aisafe-overview"
+        ],
+        "national_partners": [
+          "my-plan-2026",
+          "my-aisafe-overview"
+        ],
+        "testing_capacity": [
+          "my-plan-2026",
+          "my-aisafe-overview"
+        ],
+        "model_access": [],
+        "staffing_model": [
+          "my-plan-2026",
+          "my-aisafe-overview"
+        ],
+        "claims": [
+          "my-digital-2026-07",
+          "my-plan-2026",
+          "my-hansard-dr-2026-10-05",
+          "my-hansard-dr-2026-11-24"
+        ],
+        "status": [
+          "my-digital-2026-07",
+          "my-bernama-2026-07"
+        ],
+        "established": [
+          "my-digital-2026-07"
+        ],
+        "announced": [],
+        "functions": [],
+        "operating": [],
+        "intervals": [],
+        "display": [
+          "my-digital-2026-07",
+          "my-plan-2026",
+          "my-bernama-2026-07",
+          "depth-my-site",
+          "r5-my-budget2027-ms",
+          "r5-my-budget2027-en",
+          "my-aisafe-overview",
+          "my-hansard-dr-2026-10-05",
+          "my-hansard-dr-2026-11-24"
+        ],
+        "form": [
+          "my-digital-2026-07"
+        ],
+        "inst": [
+          "my-digital-2026-07"
+        ],
+        "institute": [
+          "my-digital-2026-07"
+        ],
+        "announced_to_established": [],
+        "established_to_first_qualifying_activity": [],
+        "announced_to_first_qualifying_activity": []
+      },
+      "display": {
+        "intervals": {
+          "status_since": null,
+          "known_activity": null
+        },
+        "comparison_funding": null,
+        "budget": null,
+        "staff": null,
+        "total_staff": null,
+        "technical_staff": null,
+        "funding_records": {
+          "funding-e0bbc501458f5e98b1de48188017e135": {
+            "kind": "none_disclosed",
+            "description": "No budget for the institute published",
+            "source_ids": [
+              "my-digital-2026-07"
+            ],
+            "confidence": "high",
+            "commitment": "not_applicable",
+            "funding_source": "unknown",
+            "id": "funding-e0bbc501458f5e98b1de48188017e135",
+            "coverage": "whole_institute",
+            "notes": "The absence of a published budget concerns MY-AISafe itself. This record supplies no amount.",
+            "eur_per_year_est": null,
+            "citations": {
+              "kind": [],
+              "description": [],
+              "confidence": [],
+              "commitment": [],
+              "funding_source": [],
+              "id": [],
+              "coverage": [],
+              "notes": [],
+              "eur_per_year_est": [],
+              "display": [],
+              "amount": [],
+              "annual_amount": []
+            },
+            "display": {
+              "annual_estimate": false,
+              "value": "Not published",
+              "qualifiers": [],
+              "native_value": "Not published",
+              "native_qualifiers": [],
+              "budget_citations": []
+            }
+          },
+          "funding-a911e70079da5c01af610ef8ccf3e001": {
+            "kind": "not_institute_specific",
+            "amount": 15000000,
+            "currency": "MYR",
+            "period": "2027 budget proposal",
+            "commitment": "proposed",
+            "confidence": "high",
+            "funding_source": "national_government",
+            "description": "Nearly MYR 15m proposed for parent body AI Malaysia Berhad in Budget 2027.",
+            "decision_date": "2026-10-09",
+            "source_ids": [
+              "r5-my-budget2027-ms",
+              "r5-my-budget2027-en"
+            ],
+            "notes": "The budget speech names AI Malaysia Berhad, the parent body, as recipient and states no MY-AISafe earmark or share, so the proposal is not an institute budget.",
+            "annual_amount": 15000000,
+            "annual_basis_code": "other",
+            "annual_basis": "Nearly MYR 15m proposed for parent body AI Malaysia Berhad in the 2027 budget; approximate annual parent-body amount, not a MY-AISafe allocation or expenditure.",
+            "id": "funding-a911e70079da5c01af610ef8ccf3e001",
+            "coverage": "not_institute_specific",
+            "amount_qualifier": "nearly",
+            "eur_per_year_est": 3103110,
+            "citations": {
+              "kind": [],
+              "amount": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ],
+              "currency": [],
+              "period": [],
+              "commitment": [],
+              "confidence": [],
+              "funding_source": [],
+              "description": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ],
+              "decision_date": [],
+              "notes": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ],
+              "annual_amount": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ],
+              "annual_basis_code": [],
+              "annual_basis": [],
+              "id": [],
+              "coverage": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ],
+              "amount_qualifier": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ],
+              "eur_per_year_est": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en",
+                "eu-ecb-exchange-rates-2025"
+              ],
+              "display": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ]
+            },
+            "display": {
+              "annual_estimate": false,
+              "value": "nearly MYR 15m",
+              "qualifiers": [
+                "2027 budget proposal"
+              ],
+              "native_value": "nearly MYR 15m",
+              "native_qualifiers": [
+                "2027 budget proposal"
+              ],
+              "budget_citations": [
+                "r5-my-budget2027-ms",
+                "r5-my-budget2027-en"
+              ]
+            }
+          }
+        },
+        "funding_ids": [
+          "funding-a911e70079da5c01af610ef8ccf3e001",
+          "funding-e0bbc501458f5e98b1de48188017e135"
+        ],
+        "staff_records": {},
+        "staff_ids": [],
+        "related_funding_ids": [
+          "funding-a911e70079da5c01af610ef8ccf3e001"
+        ],
+        "operating": {
+          "since": null,
+          "first_lineage": null,
+          "items": []
+        },
+        "rows": {
+          "head": {
+            "state": "not_published",
+            "text": null,
+            "cited": []
+          },
+          "reports_to": {
+            "state": "stated",
+            "text": "Ministry of Digital",
+            "cited": [
+              "depth-my-site",
+              "my-aisafe-overview"
+            ],
+            "original": "Kementerian Digital"
+          },
+          "partners": {
+            "state": "stated",
+            "items": [
+              {
+                "id": "np-my-mcmc",
+                "text": "MCMC (communications and multimedia commission, planned)",
+                "name": "MCMC",
+                "how": "Is to sit with the AI Trust Function on a committee supporting the Ministry of Digital as lead, and to collaborate on AI risk communications.",
+                "cited": [
+                  "my-plan-2026",
+                  "my-aisafe-overview"
+                ]
+              },
+              {
+                "id": "np-my-ministry-of-communications",
+                "text": "Ministry of Communications (communications ministry, planned)",
+                "name": "Ministry of Communications",
+                "how": "Is to sit with the AI Trust Function on a committee supporting the Ministry of Digital as lead.",
+                "cited": [
+                  "my-plan-2026",
+                  "my-aisafe-overview"
+                ]
+              }
+            ],
+            "fold_items": [
+              {
+                "id": "np-my-mcmc",
+                "text": "MCMC (communications and multimedia commission, planned)",
+                "name": "MCMC",
+                "how": "Is to sit with the AI Trust Function on a committee supporting the Ministry of Digital as lead, and to collaborate on AI risk communications.",
+                "cited": [
+                  "my-plan-2026",
+                  "my-aisafe-overview"
+                ]
+              },
+              {
+                "id": "np-my-ministry-of-communications",
+                "text": "Ministry of Communications (communications ministry, planned)",
+                "name": "Ministry of Communications",
+                "how": "Is to sit with the AI Trust Function on a committee supporting the Ministry of Digital as lead.",
+                "cited": [
+                  "my-plan-2026",
+                  "my-aisafe-overview"
+                ]
+              }
+            ],
+            "tail": "cyber agency not published",
+            "cited": [
+              "my-plan-2026",
+              "my-aisafe-overview"
+            ]
+          }
+        },
+        "source_links": [
+          "network-2025",
+          "network-nist-2026",
+          "my-digital-2026-07",
+          "my-plan-2026",
+          "my-bernama-2026-07",
+          "my-scoop-2026-09",
+          "depth-my-site",
+          "r5-my-budget2027-ms",
+          "r5-my-budget2027-en",
+          "eu-ecb-exchange-rates-2025",
+          "my-aisafe-overview",
+          "my-csm-about",
+          "my-csm-events",
+          "my-hansard-dr-2026-10-05",
+          "my-hansard-dr-2026-11-24"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "depth-my-site",
+      "title": "Malaysia AI Safety Institute (MY-AISafe)",
+      "url": "https://ai.gov.my/my-aisafe/",
+      "excerpts": [
+        {
+          "text": "AI Malaysia Berhad is the national agency under the Digital Ministry",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/reports_to/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eap-asean-ai-safe-2025",
+      "title": "Declaration on the Establishment of an ASEAN AI Safety Network (ASEAN AI Safe)",
+      "url": "https://asean.org/wp-content/uploads/2025/10/11.-Declaration-on-the-Establishment-of-an-ASEAN-AI-Safe.pdf",
+      "archive_url": "https://web.archive.org/web/20260722133019/https://asean.org/wp-content/uploads/2025/10/11.-Declaration-on-the-Establishment-of-an-ASEAN-AI-Safe.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ecb-exchange-rates-2025",
+      "title": "ECB euro foreign exchange reference rates, annual averages for 2025",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.AUD+CAD+GBP+INR+JPY+KRW+MYR+NOK+SGD+USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+      "excerpts": []
+    },
+    {
+      "id": "my-aisafe-overview",
+      "title": "Malaysia AI Safety Institute (MY-AISafe) overview",
+      "url": "https://strapi.naio.okie.my/uploads/Malaysia_AI_Safety_Institute_Overview_1_86540498a4.pdf",
+      "excerpts": [
+        {
+          "text": "MY-AISafe forms part of Malaysia’s national AI ecosystem under Kementerian Digital",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/reports_to/name"
+          ]
+        },
+        {
+          "text": "MY-AISAFE DELIVERS E12 AI TRUST FUNCTION",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/relation",
+            "/institute/record/national_partners/entries/0/how",
+            "/institute/record/national_partners/entries/1/relation",
+            "/institute/record/national_partners/entries/1/how",
+            "/institute/record/testing_capacity/state",
+            "/institute/record/staffing_model/code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-bernama-2026-07",
+      "title": "AI Malaysia to spearhead AI Nation 2030 with safe, trustworthy systems: Digital Ministry",
+      "url": "https://www.bernama.com/en/news.php?id=2587122",
+      "archive_url": "https://web.archive.org/web/20261016201530/https://www.bernama.com/en/news.php?id=2587122",
+      "excerpts": [
+        {
+          "text": "the Ministry of Digital announced the establishment of the Malaysia AI Safety Institute (MY-AISafe) as a strategic initiative to enhance technical capabilities",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-bernama-asean-2026",
+      "title": "Secretariat of the ASEAN AI Safety Network to be based in Kuala Lumpur",
+      "url": "https://www.bernama.com/en/news.php?id=2513540",
+      "archive_url": "https://web.archive.org/web/20260207005350/https://bernama.com/en/news.php?id=2513540",
+      "excerpts": [
+        {
+          "text": "The Secretariat of the ASEAN Artificial Intelligence (AI) Safety Network will be based in Kuala Lumpur",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-csm-about",
+      "title": "About Us",
+      "url": "https://www.cybersecurity.my/portal-main/about-us/corporate-overview",
+      "excerpts": []
+    },
+    {
+      "id": "my-csm-events",
+      "title": "Events",
+      "url": "https://www.cybersecurity.my/portal-main/events?type=past",
+      "excerpts": []
+    },
+    {
+      "id": "my-digital-2026-07",
+      "title": "AI Malaysia: Driving the journey towards an AI nation by 2030",
+      "url": "https://www.digital.gov.my/en-GB/siaran/AI-Malaysia-Pemacu-Utama-Menuju-Negara-AI-2030",
+      "archive_url": "https://web.archive.org/web/20261016201248/https://www.digital.gov.my/en-GB/siaran/AI-Malaysia-Pemacu-Utama-Menuju-Negara-AI-2030",
+      "excerpts": [
+        {
+          "text": "Malaysia has established the Malaysia AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/name",
+            "/record/timeline/0/event",
+            "/record/summary",
+            "/record/timeline/0/description",
+            "/institute/record/legal_basis/type",
+            "/institute/record/legal_basis/state"
+          ]
+        },
+        {
+          "text": "28 Jul 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/date"
+          ]
+        },
+        {
+          "text": "RDCI (Research, Development, Commercialisation, and Innovation), which encompasses safety evaluations, testing, and AI Red Teaming;",
+          "accessed": "2026-10-18",
+          "url": "https://web.archive.org/web/20261016201248/https://www.digital.gov.my/en-GB/siaran/AI-Malaysia-Pemacu-Utama-Menuju-Negara-AI-2030",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short"
+          ]
+        },
+        {
+          "text": "governance, safety, and regulatory support through the development of standards, risk management, and compliance assurance.",
+          "accessed": "2026-10-19",
+          "url": "https://web.archive.org/web/20261016201248/https://www.digital.gov.my/en-GB/siaran/AI-Malaysia-Pemacu-Utama-Menuju-Negara-AI-2030",
+          "anchors": [
+            {
+              "text": "The Malaysia AI Safety Institute will reinforce a safe, trusted, and responsible AI ecosystem through three main pillars:",
+              "kind": "heading"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short",
+            "/institute/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "the establishment of AI Malaysia Berhad, a national artificial intelligence entity under the Ministry of Digital.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/host",
+            "/institute/record/notes",
+            "/record/summary",
+            "/record/related_bodies/0/name",
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "Malaysia AI Safety Institute: Fulfilling the role of the national AI Safety Institute to strengthen Digital Trust.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/host",
+            "/institute/record/notes",
+            "/record/summary",
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "AI RDCI (Research, Development, Commercialisation, and Innovation), which encompasses safety evaluations, testing, and AI Red Teaming",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short",
+            "/record/timeline/0/description"
+          ]
+        },
+        {
+          "text": "Malaysia has established the Malaysia AI Safety Institute as a strategic initiative to strengthen technical capabilities",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/0/description",
+            "/record/timeline/0/short"
+          ]
+        },
+        {
+          "text": "The Malaysia AI Safety Institute will reinforce a safe, trusted, and responsible AI ecosystem through three main pillars: AI RDCI (Research, Development, Commercialisation, and Innovation), which encompasses safety evaluations, testing, and AI Red Teaming",
+          "accessed": "2026-10-17",
+          "url": "https://web.archive.org/web/20261016201248/https://www.digital.gov.my/en-GB/siaran/AI-Malaysia-Pemacu-Utama-Menuju-Negara-AI-2030",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "strategic collaborations for talent development, expertise sharing, and technology transfer at both national and international levels;",
+          "anchors": [
+            {
+              "text": "The Malaysia AI Safety Institute will reinforce a safe, trusted, and responsible AI ecosystem through three main pillars:",
+              "kind": "heading"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/5/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-digital-asean-secretariat-2026",
+      "title": "ADGMIN welcomes adoption of ASEAN Digital Masterplan 2030 and ASEAN AI Safety Network",
+      "url": "https://www.digital.gov.my/en-GB/siaran/ADGMIN-Sambut-Baik-Pendekatan-Pelan-Induk-Digital-ASEAN-2030-Serta-Rangkaian-Keselamatan-AI-ASEAN%3BKuala-Lumpur-Dipilih-Sebagai-Tuan-Rumah-Sekretariat",
+      "excerpts": [
+        {
+          "text": "the Secretariat of the ASEAN AI Safety Network will be based in Kuala Lumpur",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-hansard-dr-2026-10-05",
+      "title": "Dewan Rakyat Hansard, 5 October 2026 (draft Hansard)",
+      "url": "https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2026-10-05",
+      "excerpts": [
+        {
+          "text": "Malaysia AI Safety Institute bertanggungjawab untuk melihat secara spesifik kepada aspek tadbir urus AI ataupun AI governance yang merangkumi aspek penandaarasan keselamatan, penilaian risiko dan pelaporan insiden untuk tindakan pembetulan",
+          "accessed": "2026-11-10",
+          "gloss": "The Malaysia AI Safety Institute is responsible for looking specifically at AI governance, covering safety benchmarking, risk assessment and incident reporting for corrective action",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate",
+            "/institute/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "Kerajaan juga melalui Kementerian Digital dan AI Malaysia Berhad telah menubuhkan Malaysia AI Safety Institute untuk mengkaji mekanisme yang jelas dan teratur bagi mengawal selia penerapan modul AI dalam operasi organisasi rentas sektor.",
+          "accessed": "2026-11-10",
+          "gloss": "The government, through the Ministry of Digital and AI Malaysia Berhad, has also established the Malaysia AI Safety Institute to study clear and orderly mechanisms for regulating the application of AI modules in organisations' operations across sectors.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-hansard-dr-2026-11-24",
+      "title": "Dewan Rakyat Hansard, 24 November 2026 (draft Hansard)",
+      "url": "https://hansard.parlimen.gov.my/hansard/dewan-rakyat/2026-11-24",
+      "excerpts": [
+        {
+          "text": "kerajaan juga sedang membangunkan Institut Keselamatan AI Malaysia atau Malaysia AI Safety Institute di bawah AI Malaysia dan ini bagi memperkukuhkan keupayaan negara dalam aspek-aspek keselamatan AI.",
+          "accessed": "2026-11-25",
+          "gloss": "the government is also developing the Malaysia AI Safety Institute under AI Malaysia, to strengthen the country's capability in AI safety.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-25",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Institut ini Tuan Yang di-Pertua, akan memberikan tumpuan yang khusus kepada penyelidikan, pengujian dan juga penilaian risiko keselamatan teknologi AI dan juga serta pembangunan kaedah- kaedah penilaian dan piawaian keselamatan",
+          "accessed": "2026-11-25",
+          "gloss": "This institute, Mr Speaker, will focus specifically on research, testing and assessment of the safety risks of AI technology, and on developing evaluation methods and safety standards",
+          "anchors": [
+            {
+              "text": "Institut Keselamatan AI Malaysia atau Malaysia AI Safety Institute di bawah AI Malaysia",
+              "kind": "definition",
+              "gloss": "the Malaysia AI Safety Institute under AI Malaysia"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-25",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/6/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-plan-2026",
+      "title": "AI Nation 2030: National AI Action Plan 2026-2030",
+      "url": "https://strapi.naio.okie.my/uploads/AI_Nation_2030_National_AI_Action_Plan_2026_2030_EN_V_180826_ddf0221683.pdf",
+      "archive_url": "https://web.archive.org/web/20261016201346if_/https://strapi.naio.okie.my/uploads/AI_Nation_2030_National_AI_Action_Plan_2026_2030_EN_V_180826_ddf0221683.pdf",
+      "excerpts": [
+        {
+          "text": "Position the Ministry of Digital as lead, supported by a committee comprising representatives from the AI Trust Function, AI Malaysia (National AI Office), Ministry of Communications and Malaysian Communications and Multimedia Commission (MCMC).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/name",
+            "/institute/record/national_partners/entries/0/relation",
+            "/institute/record/national_partners/entries/0/how",
+            "/institute/record/national_partners/entries/1/name",
+            "/institute/record/national_partners/entries/1/relation",
+            "/institute/record/national_partners/entries/1/how"
+          ]
+        },
+        {
+          "text": "Proactively share clear and accessible information on how emerging AI risks are mitigated, in collaboration with the AI Trust Function, AI Malaysia (National AI Office) and Malaysian Communications and Multimedia Commission (MCMC).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/name",
+            "/institute/record/national_partners/entries/0/relation",
+            "/institute/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "MCMC - Malaysian Communications and Multimedia Commission.",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/what"
+          ]
+        },
+        {
+          "text": "Ministry of Communications",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/1/what"
+          ]
+        },
+        {
+          "text": "Evaluation and Certification Oversee AI model and application testing, certification and assessor accreditation, and maintain a public AI incident registry.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/state"
+          ]
+        },
+        {
+          "text": "Recruit and train a specialised multidisciplinary team, including AI risk analysts, adversarial machine learning engineers and incident response leads.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/state",
+            "/institute/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "Establish a national AI Trust Function to evaluate, monitor, anticipate and respond to AI risks.",
+          "anchors": [
+            {
+              "text": "AI TRUST FUNCTION",
+              "kind": "heading"
+            },
+            {
+              "text": "MY-AISAFE DELIVERS E12 AI TRUST FUNCTION, ONE OF THE PLAN’S 28 INITIATIVES",
+              "kind": "membership",
+              "source_id": "my-aisafe-overview"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "my-scoop-2026-09",
+      "title": "Governance bill and safety institute to guide AI use in the works: AI Malaysia",
+      "url": "https://www.scoop.my/news/298296/governance-bill-and-safety-institute-to-guide-ai-use-in-the-works-ai-malaysia/",
+      "archive_url": "https://web.archive.org/web/20261016201747/https://www.scoop.my/news/298296/governance-bill-and-safety-institute-to-guide-ai-use-in-the-works-ai-malaysia/",
+      "excerpts": [
+        {
+          "text": "An AI Governance Bill and a Malaysia AI Safety Institute are the priorities of AI Malaysia Bhd",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "r5-my-budget2027-en",
+      "title": "Speech The Fifth MADANI Budget 2027",
+      "url": "https://www.mof.gov.my/portal/en/news/speech/speech-the-fifth-madani-budget-2027",
+      "excerpts": [
+        {
+          "text": "AI Malaysia Berhad will receive almost 15 million ringgit",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/amount",
+            "/institute/record/funding/1/description",
+            "/institute/record/funding/1/annual_amount",
+            "/institute/record/funding/1/amount_qualifier",
+            "/institute/record/funding/1/coverage",
+            "/institute/record/funding/1/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-my-budget2027-ms",
+      "title": "UCAPAN BELANJAWAN MADANI KELIMA TAHUN 2027 : BELANJAWAN MADANI KELIMA MENGGAPAI DI LANGIT , MENGAKAR DI BUMI",
+      "title_en": "Fifth MADANI Budget Speech 2027: Reaching for the sky, rooted in the earth",
+      "url": "https://www.pmo.gov.my/en/speeches-en/ucapan-belanjawan-madani-kelima-tahun-2027-belanjawan-madani-kelima-menggapai-di-langit-mengakar-di-bumi/",
+      "excerpts": [
+        {
+          "text": "AI Malaysia Berhad menerima hampir 15 juta ringgit",
+          "gloss": "AI Malaysia Berhad receives nearly 15 million ringgit.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/1/amount",
+            "/institute/record/funding/1/description",
+            "/institute/record/funding/1/annual_amount",
+            "/institute/record/funding/1/amount_qualifier",
+            "/institute/record/funding/1/coverage",
+            "/institute/record/funding/1/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

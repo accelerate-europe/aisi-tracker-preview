@@ -1,0 +1,971 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "eedd44e7732be5295bf71ca853200c028de2fdeb",
+      "built": "2026-11-25T03:02:59Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/39",
+  "record": {
+    "id": "CN",
+    "name": "People's Republic of China",
+    "kind": "state",
+    "summary": "No qualifying institute identified. CnAISDA conducts frontier AI safety evaluation research and international dialogue with reported government support, but no government designation of it as a national institute was found.",
+    "related_bodies": [
+      {
+        "name": "China AI Safety and Development Association (CnAISDA)",
+        "kind": "other",
+        "counts_as_aisi": false,
+        "role": "Tsinghua describes the association's frontier AI safety evaluation research and representation of China in international dialogue. It is a research network jointly created by Chinese universities, institutes and think tanks, with reported government support. No national government designation act was identified in the reviewed sources.",
+        "source_ids": [
+          "cn-ciss-fuying-2025",
+          "cn-ciss-frontier-dialogue-2026",
+          "cn-tsinghua-aiig-2026",
+          "cn-zhejiang-government-support-2026"
+        ],
+        "id": "related_bodies-1bd7b9d42ab55f11b3c6c1b1e532ba59",
+        "citations": {
+          "name": [],
+          "kind": [],
+          "counts_as_aisi": [],
+          "role": [
+            "cn-ciss-fuying-2025",
+            "cn-ciss-frontier-dialogue-2026",
+            "cn-zhejiang-government-support-2026"
+          ],
+          "id": [],
+          "display": [
+            "cn-ciss-fuying-2025",
+            "cn-ciss-frontier-dialogue-2026",
+            "cn-zhejiang-government-support-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "cn-ciss-fuying-2025",
+            "cn-tsinghua-aiig-2026",
+            "cn-ciss-frontier-dialogue-2026",
+            "cn-zhejiang-government-support-2026"
+          ]
+        }
+      },
+      {
+        "name": "China Academy of Information and Communications Technology (CAICT)",
+        "role": "It runs voluntary, opt-in AI safety benchmark evaluations with certificates through the industry alliance AIIA. It is a state research institute under the industry ministry.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-0cf0cda18aa35b519b753c2ba2d7eb70",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "TC260",
+        "role": "It publishes the AI Safety Governance Framework. It is a national cybersecurity standards committee.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "source_ids": [
+          "cn-tc260-framework-3"
+        ],
+        "id": "related_bodies-e2aefc7076215ddcbc1ec67accbd93c8",
+        "citations": {
+          "name": [],
+          "role": [
+            "cn-tc260-framework-3"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "cn-tc260-framework-3"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "cn-tc260-framework-3"
+          ]
+        }
+      },
+      {
+        "name": "Cyberspace Administration of China (CAC)",
+        "role": "It runs security filing for generative AI services. It is an internet regulator.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-bd0a2c105d755699a024f1d5438c2be0",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2027-02-01",
+      "reason": "Seek a national government act assigning CnAISDA the institute role; frontier AI safety evaluation research is documented and government support reported, but designation remains unresolved."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English follow-ups retrieved Tsinghua's July 2026 account of CnAISDA's frontier AI safety evaluation work and its representation of China in international dialogue. It describes a collaborative network of research institutions; a national government designation was not established. The existing summary's evaluation-mandate wording needs review against this evidence. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Focused primary-source review of the national AI institute candidate, government designation and remit to evaluate advanced models. Other fields were not fully rechecked; last_checked is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Focused Chinese and English status review of CnAISDA, government designation and later official acts; not a full record recheck."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Verified the NDRC essay byline, original journal issue and repost date; corrected attribution without changing status or the last full-check date."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Selected the closest body against retrieved source text and excerpts; recorded its stage, evidence gap and limits. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Changed status confidence from low to medium because the individual check has recorded English and national or official-language queries and retrieved primary governance evidence; classification disagreement no longer lowers confidence. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Checked the retained TC260 framework as primary governance evidence and the English Tsinghua account for the network name. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Chinese, with the science and technology ministry's listing (newest dated item 10 November) and the National Development and Reform Commission's press conference transcript of 3 November. Left for review: a report by Guandian of 5 November that the China Academy of Information and Communications Technology organised its 2026 Q3 test of sycophancy risk in large models. The academy's original release was not found, so no new mandate or model access is claimed. Standards, prospective laws and sandboxes found did not establish a national evaluator or Network accession. No full review of official gazettes was made. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "中国 人工智能安全研究所 政府 指定 前沿模型 评估",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"People's Republic of China\" national \"AI safety\" institute evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "China CnAISDA AI safety institute government designation evaluation 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"CnAISDA\" official China AI safety association evaluation",
+          "source_ids": [
+            "cn-tsinghua-aiig-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"CnAISDA\" 政府 评估 指定",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" 政府",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"CnAISDA\" site.aiig.tsinghua.edu.cn",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" \"前沿\" \"2026\"",
+          "source_ids": [
+            "cn-ciss-frontier-dialogue-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" site.gov.cn",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" site.miit.gov.cn",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" \"傅莹\" \"政府支持\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" \"统筹发展与安全\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"CnAISDA\" government designation national institute",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" site:gov.cn",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"CnAISDA\" \"government\" designation",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"傅莹\" \"对应AISI\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" \"指定\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" \"国务院\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "site:gov.cn \"中国人工智能发展与安全研究网络\" 指定",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "China CnAISDA national government designation institute 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "\"中国人工智能发展与安全研究网络\" 政府 2026",
+          "source_ids": [
+            "cn-r6-ndrc-research-commentary",
+            "cn-zhejiang-government-support-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"CnAISDA\" \"government\" 2026",
+          "source_ids": [
+            "cn-r6-ndrc-research-commentary",
+            "cn-zhejiang-government-support-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "site:gov.cn \"人工智能安全研究所\" 2026",
+          "source_ids": [
+            "cn-r6-ndrc-research-commentary",
+            "cn-zhejiang-government-support-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "zh",
+          "national_or_official": true,
+          "query": "site:cac.gov.cn \"中国人工智能发展与安全研究网络\"",
+          "source_ids": [
+            "cn-r6-ndrc-research-commentary",
+            "cn-zhejiang-government-support-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded zh queries use a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. The additional status review used Chinese and English queries focused on national designation and later official acts; the network site was not freshly accessible. Search batches for the additional status review, using 1-based positions in check.searches: 19, 20; 21, 22, 23, 24. Each group records the same exact registered URLs found in its combined search results, without attribution to an individual query. Explicit page opens and finds and unverified URL variants are excluded. Groups list the recorded queries; some requests also contained additional queries retained in the research evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "cn-ciss-frontier-dialogue-2026",
+        "cn-zhejiang-government-support-2026",
+        "cn-tsinghua-aiig-2026",
+        "cn-tc260-framework-3"
+      ],
+      "governance_note": "TC260's AI Safety Governance Framework 3.0, retrieved from the CAC website, recommends national standards and risk classification by sector regulators. Tsinghua documents the research network, while a government-hosted account reports support for its formation with unclear chronology. None of these retrieved texts assigns the network a qualifying national institute role."
+    },
+    "source_ids": [
+      "cn-ciss-fuying-2025",
+      "cn-tsinghua-aiig-2026",
+      "cn-tc260-framework-3",
+      "cn-caict-notice-2026",
+      "cn-carnegie-2025",
+      "cn-digichina-2025",
+      "cn-chinai-caict-2026",
+      "cn-ciss-frontier-dialogue-2026",
+      "cn-zhejiang-government-support-2026",
+      "cn-cnaisda-home-r5",
+      "cn-r6-ndrc-research-commentary"
+    ],
+    "notes": "Borderline. Chinese-language primary accounts document government support, a collaborative network and frontier AI safety evaluation research. The network's own rendered site includes testing methods and audits in its research remit. These sources do not establish the government designation required by the tracker; they also do not prove that no designation exists. A standalone organisation, separate staff or budget, and already-published model tests are not status requirements. Older secondary descriptions saying the network has no model-testing function of its own are dated reports and do not exclude it now. Tsinghua dates its public debut to February 2025; this is not necessarily its constitution or designation date.\n\nTsinghua's Chinese account describes frontier-safety evaluation research and representation of China; its English account confirms CnAISDA organised the dialogue. The Zhejiang government-hosted speech reports government support for formation. No national designation act was identified. An essay by Zhao Yifan of the Xi Jinping Economic Thought Research Centre, first published in 科技中国 (2025, no. 7) and reposted on the NDRC website on 3 December 2025, recommends exploring government AI safety institutes. The repost identifies the original journal issue but gives no exact original publication date. This attributed commentary does not identify a commissioned study or review of the option, an appointed advisory inquiry, or an adopted government proposal. Its call for domestic AI safety institutes to join international cooperation does not name or designate such a body. The uncertainty is government designation, not whether a network can qualify or whether it has published evaluations.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "030",
+      "subregion": "Eastern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 1406585000,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "CHN",
+    "m49": "156",
+    "wikidata": "Q148",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "closest_body": {
+      "name": "China AI Safety and Development Association (CnAISDA)",
+      "stage": "exists",
+      "gap": "designation",
+      "note": "Tsinghua's English account names CnAISDA as the China AI Safety and Development Association; the Chinese account calls it a research network. A reproduced magazine piece on a government site, with an unidentified speaker and date, reports government support for its formation, and Tsinghua describes frontier AI safety evaluation research and international representation. No national assignment was identified. The support account's chronology remains unclear.",
+      "source_ids": [
+        "cn-zhejiang-government-support-2026",
+        "cn-ciss-frontier-dialogue-2026",
+        "cn-tsinghua-aiig-2026"
+      ],
+      "body_id": "related_bodies-1bd7b9d42ab55f11b3c6c1b1e532ba59",
+      "citations": {
+        "name": [
+          "cn-tsinghua-aiig-2026",
+          "cn-zhejiang-government-support-2026"
+        ],
+        "stage": [
+          "cn-zhejiang-government-support-2026"
+        ],
+        "gap": [],
+        "note": [
+          "cn-tsinghua-aiig-2026",
+          "cn-ciss-frontier-dialogue-2026",
+          "cn-zhejiang-government-support-2026"
+        ],
+        "body_id": [],
+        "display": [
+          "cn-tsinghua-aiig-2026",
+          "cn-ciss-frontier-dialogue-2026",
+          "cn-zhejiang-government-support-2026"
+        ]
+      },
+      "display": {
+        "source_links": [
+          "cn-tsinghua-aiig-2026",
+          "cn-ciss-frontier-dialogue-2026",
+          "cn-zhejiang-government-support-2026"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-a8350d8c00694e07854dd48af9c2396c",
+        "kind": "function",
+        "code": "research",
+        "basis": "activity",
+        "body_id": "related_bodies-1bd7b9d42ab55f11b3c6c1b1e532ba59",
+        "lead": true,
+        "text": "CnAISDA says it conducts and supports research on \"all aspects of AI safety, from theoretical foundations to testing methods, audits, governance and social impacts\".",
+        "source_ids": [
+          "cn-cnaisda-home-r5"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "lead": [],
+          "text": [
+            "cn-cnaisda-home-r5"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "cn-cnaisda-home-r5"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [
+        "cn-ciss-frontier-dialogue-2026"
+      ],
+      "related_bodies": [
+        "cn-ciss-fuying-2025",
+        "cn-tc260-framework-3",
+        "cn-ciss-frontier-dialogue-2026",
+        "cn-zhejiang-government-support-2026"
+      ],
+      "next_check": [],
+      "check": [
+        "cn-tc260-framework-3"
+      ],
+      "notes": [
+        "cn-zhejiang-government-support-2026",
+        "cn-cnaisda-home-r5",
+        "cn-r6-ndrc-research-commentary"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "closest_body": [
+        "cn-tsinghua-aiig-2026",
+        "cn-ciss-frontier-dialogue-2026",
+        "cn-zhejiang-government-support-2026"
+      ],
+      "claims": [
+        "cn-cnaisda-home-r5"
+      ],
+      "status": [],
+      "display": [
+        "cn-ciss-fuying-2025",
+        "cn-tsinghua-aiig-2026",
+        "cn-tc260-framework-3",
+        "cn-ciss-frontier-dialogue-2026",
+        "cn-zhejiang-government-support-2026",
+        "cn-cnaisda-home-r5",
+        "cn-r6-ndrc-research-commentary"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "cn-ciss-frontier-dialogue-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "cn-carnegie-2025",
+        "cn-digichina-2025",
+        "cn-ciss-fuying-2025",
+        "cn-tsinghua-aiig-2026",
+        "cn-tc260-framework-3",
+        "cn-chinai-caict-2026",
+        "cn-caict-notice-2026",
+        "cn-ciss-frontier-dialogue-2026",
+        "cn-zhejiang-government-support-2026",
+        "cn-cnaisda-home-r5",
+        "cn-r6-ndrc-research-commentary"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "cn-caict-notice-2026",
+      "title": "CAICT AI Safety Benchmark 2026 evaluation notice",
+      "url": "https://mp.weixin.qq.com/s/sysShusPIw8O8j3wWvX8CQ",
+      "archive_url": "https://web.archive.org/web/20260418095312/https://mp.weixin.qq.com/s/sysShusPIw8O8j3wWvX8CQ",
+      "excerpts": []
+    },
+    {
+      "id": "cn-carnegie-2025",
+      "title": "How Some of China's Top AI Thinkers Built Their Own AI Safety Institute",
+      "url": "https://carnegieendowment.org/research/2025/06/how-some-of-chinas-top-ai-thinkers-built-their-own-ai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261016200201/https://carnegieendowment.org/research/2025/06/how-some-of-chinas-top-ai-thinkers-built-their-own-ai-safety-institute",
+      "excerpts": []
+    },
+    {
+      "id": "cn-chinai-caict-2026",
+      "title": "ChinAI #351: CAICT launches 2026 AI Safety Evaluations",
+      "url": "https://chinai.substack.com/p/chinai-351-caict-launches-2026-ai",
+      "archive_url": "https://web.archive.org/web/20260907200601/https://chinai.substack.com/p/chinai-351-caict-launches-2026-ai",
+      "excerpts": []
+    },
+    {
+      "id": "cn-ciss-frontier-dialogue-2026",
+      "title": "上海世界人工智能大会“前沿人工智能安全与关键基础设施保护：评测、标准与合作”闭门研讨会成功举行",
+      "title_en": "Closed-door seminar on frontier AI safety and critical infrastructure protection: evaluation, standards and cooperation held during the Shanghai World Artificial Intelligence Conference",
+      "url": "https://ciss.tsinghua.edu.cn/info/yw/3296000027495",
+      "excerpts": [
+        {
+          "text": "中国人工智能发展与安全研究网络将持续推动前沿人工智能安全领域的评估研究、标准建设与国际对话，代表中国与世界各国人工智能安全研究机构深化交流合作，为全球人工智能安全治理贡献力量。",
+          "accessed": "2026-10-17",
+          "gloss": "The China AI Development and Safety Research Network will continue advancing frontier AI safety evaluation research, standards and international dialogue, and will deepen exchanges and cooperation with AI safety research institutions worldwide on China's behalf, contributing to global AI safety governance.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/related_bodies/0/role",
+            "/record/closest_body/note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cn-ciss-fuying-2025",
+      "title": "傅莹在巴黎AI行动峰会期间谈AI安全与治理",
+      "title_en": "Fu Ying discusses AI safety and governance during the Paris AI Action Summit",
+      "url": "https://ciss.tsinghua.edu.cn/info/wzjx/7913",
+      "archive_url": "https://web.archive.org/web/20261016200345/https://ciss.tsinghua.edu.cn/info/wzjx/7913",
+      "excerpts": [
+        {
+          "text": "中方已经在政府支持下成立了对应AISI的“中国人工智能发展与安全研究网络”。",
+          "gloss": "China has established, with government support, the China AI Development and Safety Research Network as its counterpart to AISI.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cn-cnaisda-home-r5",
+      "title": "China Al Safety & Development Association-0 Home",
+      "url": "https://cnaisi.cn/",
+      "excerpts": [
+        {
+          "text": "We conduct and support research on all aspects of AI safety, from theoretical foundations to testing methods, audits, governance and social impacts.",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://cnaisi.cn/",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text",
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cn-digichina-2025",
+      "title": "What do we know about China's new AI safety institute?",
+      "url": "https://digichina.stanford.edu/work/what-do-we-know-about-chinas-new-ai-safety-institute/",
+      "archive_url": "https://web.archive.org/web/20260310142353/https://digichina.stanford.edu/work/what-do-we-know-about-chinas-new-ai-safety-institute/",
+      "excerpts": []
+    },
+    {
+      "id": "cn-r6-ndrc-research-commentary",
+      "title": "人工智能安全治理的国际经验和启示",
+      "title_en": "International experience and lessons in AI safety governance",
+      "url": "https://www.ndrc.gov.cn/wsdwhfz/202512/t20251203_1402185_ext.html",
+      "excerpts": [
+        {
+          "text": "探索在国家和地方行政部门成立下属人工智能安全研究院所",
+          "gloss": "Explore establishing affiliated AI safety research institutes in national and local administrative departments.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "作者：习近平经济思想研究中心 赵一帆；本文发表于《科技中国》杂志2025年第7期",
+          "gloss": "Author: Zhao Yifan, Xi Jinping Economic Thought Research Centre; this article was published in 科技中国, 2025 issue 7.",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "2025/12/03",
+          "gloss": "3 December 2025.",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cn-tc260-framework-3",
+      "title": "AI Safety Governance Framework 3.0",
+      "url": "https://www.cac.gov.cn/rootimages/uploadimg/1791137114683961/1791137114683961.pdf",
+      "archive_url": "https://web.archive.org/web/20260925150011if_/https://www.cac.gov.cn/rootimages/uploadimg/1791137114683961/1791137114683961.pdf",
+      "excerpts": [
+        {
+          "text": "人工智能 安全治理框架3.0 AI Safety Governance Framework 3.0 全国网络安全标准化技术委员会 National Technical Committee 260 on Cybersecurity of SAC",
+          "accessed": "2026-10-18",
+          "gloss": "AI Safety Governance Framework 3.0, National Technical Committee 260 on Cybersecurity of SAC.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note",
+            "/record/related_bodies/2/role"
+          ]
+        },
+        {
+          "text": "Competent (regulatory) authorities of the respective industry or sector should, in accordance with their respective classification and grading standards for AI safety risks, organize relevant AI entities to perform this classification and grading work.",
+          "accessed": "2026-10-18",
+          "gloss": "Sector regulators should organise AI entities to classify and grade AI safety risks under their respective standards.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cn-tsinghua-aiig-2026",
+      "title": "Closed-door dialogue on frontier AI safety and critical infrastructure held during WAIC 2026",
+      "url": "https://aiig.tsinghua.edu.cn/en/info/1025/1700.htm",
+      "archive_url": "https://web.archive.org/web/20261016200525/https://aiig.tsinghua.edu.cn/en/info/1025/1700.htm",
+      "excerpts": [
+        {
+          "text": "The workshop was organized by the China AI Safety and Development Association (CnAISDA)",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/name",
+            "/record/closest_body/note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cn-zhejiang-government-support-2026",
+      "title": "统筹发展与安全 共创人工智能发展新未来",
+      "title_en": "Coordinating development and safety to create a new future for artificial intelligence",
+      "url": "https://zjic.zj.gov.cn/ywdh/jjyx/202602/t20260225_23962054.shtml",
+      "excerpts": [
+        {
+          "text": "在政府支持下，清华大学、北京大学、中国电子信息产业发展研究院等重要研究机构，共同组建了中国人工智能发展与安全研究网络。",
+          "accessed": "2026-10-17",
+          "gloss": "With government support, important research institutions including Tsinghua University, Peking University and the China Center for Information Industry Development jointly established the China AI Development and Safety Research Network.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/0/role",
+            "/record/closest_body/name",
+            "/record/closest_body/stage",
+            "/record/closest_body/note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "eedd44e7732be5295bf71ca853200c028de2fdeb",
+      "built": "2026-11-25T03:02:59Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/54",
+  "record": {
+    "id": "KP",
+    "name": "North Korea",
+    "summary": "No qualifying institute identified. Official information is scarce, and reputable outside sources describe state AI work as research institutes plus military and cyber applications, with no safety or evaluation body reported.",
+    "next_check": {
+      "date": "2027-04-30",
+      "reason": "Any new reporting on a state AI institution or regulation."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English search returned outside analysis of military, civilian and cyber AI development, but no qualifying institute or institute-specific commitment. No substantive domestic primary account of national AI governance was retrieved; keep the evidence limitation explicit. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in Korean and English for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; Korean and English results concerned South Korea's AI Safety Institute and AI Basic Act, and outside analysis of North Korean military and cyber AI research. Kept low: no primary source from the jurisdiction on its AI governance set-up could be found or retrieved. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "ko",
+          "national_or_official": true,
+          "query": "조선 인공지능 안전 연구소 모델 평가 정부",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"North Korea\" national AI safety security institute evaluation government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ko",
+          "national_or_official": true,
+          "query": "북한 인공지능 안전 평가 연구소 정부 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "North Korea artificial intelligence law institute government 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ko",
+          "national_or_official": true,
+          "query": "조선 인공지능 법 채택 최고인민회의 상임위원회 인공지능연구소",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "North Korea AI safety institute evaluation advanced AI models government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded ko query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in Korean and English; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Reports of drone priorities and an intelligence-service assessment do not establish two substantive sources about qualifying institute status. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence."
+    },
+    "source_ids": [
+      "kp-aljazeera-2025-09",
+      "kp-rfa-2026-06"
+    ],
+    "notes": "Cited foreign sources for the governance context: Al Jazeera; Radio Free Asia (Korean service). Official information is scarce and the picture rests on state media quotations and outside analysts (Al Jazeera citing 38 North and US intelligence; a South Korean state-linked institute's 2026 assessment as reported by RFA). A negative finding here is weak. 38 North's own page was blocked to automated readers. Searched in English and Korean.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "030",
+      "subregion": "Eastern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 26571036,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "low",
+    "iso3": "PRK",
+    "m49": "408",
+    "wikidata": "Q423",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [
+        "kp-aljazeera-2025-09"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "kp-aljazeera-2025-09"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "kp-aljazeera-2025-09"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "kp-aljazeera-2025-09",
+        "kp-rfa-2026-06"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "kp-aljazeera-2025-09",
+      "title": "Kim Jong Un declares AI military drone development a top priority",
+      "url": "https://www.aljazeera.com/amp/news/2025/9/19/kim-jong-un-declares-ai-military-drone-development-a-top-priority",
+      "archive_url": "https://web.archive.org/web/20261017010036/https://www.aljazeera.com/amp/news/2025/9/19/kim-jong-un-declares-ai-military-drone-development-a-top-priority",
+      "excerpts": [
+        {
+          "text": "emphasised “rapidly developing the newly-introduced artificial intelligence technology” as a “top priority” in order to increase his military’s unmanned weapons systems.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kp-rfa-2026-06",
+      "title": "North Korean AI should be viewed like nuclear development (report by INSS Advanced Technology Strategy Center)",
+      "url": "https://www.rfa.org:443/korean/in-focus/2026/06/19/north-korea-ai-nuclear-development/",
+      "archive_url": "https://web.archive.org/web/20260620090436/https://www.rfa.org/korean/in-focus/2026/06/19/north-korea-ai-nuclear-development/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

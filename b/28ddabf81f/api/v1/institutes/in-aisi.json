@@ -1,0 +1,1746 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "28ddabf81fe50aab749c330c3a137746d5886e68",
+      "built": "2026-11-25T18:17:56Z"
+    }
+  },
+  "aisi_json_pointer": "/institutes/13",
+  "record": {
+    "id": "in-aisi",
+    "name": "IndiaAI Safety Institute",
+    "acronym": "AISI",
+    "short_name": "India AISI",
+    "jurisdiction_id": "IN",
+    "host": "IndiaAI Mission, Ministry of Electronics and Information Technology (MeitY), with partner institutions in a hub-and-spoke model",
+    "legal_form": "unknown",
+    "mandate": "Its announced role includes indigenous AI research through a partner network. The guidelines propose risk assessment, testing and evaluation of AI systems; draft standards, metrics and testing frameworks; advice to policymakers and industry; and international collaboration.",
+    "website": null,
+    "funding": [
+      {
+        "kind": "none_disclosed",
+        "description": "No dedicated budget published; the November 2025 governance guidelines recommend giving it adequate resources",
+        "source_ids": [
+          "in-guidelines-2025"
+        ],
+        "confidence": "medium",
+        "commitment": "not_applicable",
+        "funding_source": "unknown",
+        "id": "funding-6e6d3f865072561abd59e69a6074094e",
+        "coverage": "whole_institute",
+        "notes": "The absence of a dedicated budget concerns India AISI as a whole. A recommendation to resource it does not supply a funding amount.",
+        "eur_per_year_est": null,
+        "citations": {
+          "kind": [],
+          "description": [],
+          "confidence": [],
+          "commitment": [],
+          "funding_source": [],
+          "id": [],
+          "coverage": [],
+          "notes": [],
+          "eur_per_year_est": [],
+          "display": [],
+          "amount": [],
+          "annual_amount": []
+        },
+        "display": {
+          "annual_estimate": false,
+          "value": "Not published",
+          "qualifiers": [
+            "indirect or secondary"
+          ],
+          "native_value": "Not published",
+          "native_qualifiers": [],
+          "budget_citations": []
+        }
+      },
+      {
+        "kind": "not_institute_specific",
+        "amount": 204600000,
+        "currency": "INR",
+        "years": 5,
+        "period": "IndiaAI Mission outlay over 5 years from March 2024",
+        "description": "INR 204.6m (Rs 20.46 crore) for the IndiaAI Mission's Safe & Trusted AI pillar over the mission's five years.",
+        "source_ids": [
+          "in-rs-usq-1668-2026",
+          "in-indiaai-partners-2025"
+        ],
+        "confidence": "high",
+        "commitment": "adopted",
+        "funding_source": "national_government",
+        "decision_date": "2024-03",
+        "annual_basis": "Arithmetic mean of the five-year pillar outlay; the pillar is broader than the institute, and the figure is not expenditure.",
+        "annual_basis_code": "period_mean",
+        "notes": "The answer gives the pillar outlay, not an institute allocation, and does not name the institute. IndiaAI places the institute within this pillar. The mission was launched in March 2024 with a five-year outlay; the answer does not give exact start and end dates, so no annual period is recorded.",
+        "coverage": "not_institute_specific",
+        "id": "funding-c93e1a7d5b2f4e80a6d4b9c1e7f3a512",
+        "annual_amount": 40920000,
+        "eur_per_year_est": 415331,
+        "citations": {
+          "kind": [],
+          "amount": [
+            "in-rs-usq-1668-2026"
+          ],
+          "currency": [],
+          "years": [
+            "in-rs-usq-1668-2026"
+          ],
+          "period": [
+            "in-rs-usq-1668-2026"
+          ],
+          "description": [
+            "in-rs-usq-1668-2026"
+          ],
+          "confidence": [],
+          "commitment": [
+            "in-rs-usq-1668-2026"
+          ],
+          "funding_source": [],
+          "decision_date": [
+            "in-rs-usq-1668-2026"
+          ],
+          "annual_basis": [
+            "in-indiaai-partners-2025",
+            "in-rs-usq-1668-2026"
+          ],
+          "annual_basis_code": [],
+          "notes": [
+            "in-indiaai-partners-2025",
+            "in-rs-usq-1668-2026"
+          ],
+          "coverage": [
+            "in-indiaai-partners-2025"
+          ],
+          "id": [],
+          "annual_amount": [
+            "in-rs-usq-1668-2026"
+          ],
+          "eur_per_year_est": [
+            "eu-ecb-exchange-rates-2025",
+            "in-rs-usq-1668-2026"
+          ],
+          "display": [
+            "in-indiaai-partners-2025",
+            "in-rs-usq-1668-2026"
+          ]
+        },
+        "display": {
+          "annual_estimate": false,
+          "value": "~INR 200m",
+          "qualifiers": [
+            "IndiaAI Mission outlay over 5 years from March 2024",
+            "adopted"
+          ],
+          "native_value": "~INR 200m",
+          "native_qualifiers": [
+            "IndiaAI Mission outlay over 5 years from March 2024",
+            "adopted"
+          ],
+          "budget_citations": [
+            "in-rs-usq-1668-2026"
+          ]
+        }
+      }
+    ],
+    "staffing_profile": "A contract director post covering model evaluation and red-teaming was advertised in May 2026 and a general manager post to build out the institute in September 2026; no appointment found.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Funding scope classification and Budget selection review; full institute check date unchanged."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Added retained primary quotations for hub-and-spoke placement and proposed duties; set unspecified legal form to unknown and distinguished proposed guidelines duties from operating functions. This was a partial evidence check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Dated funding, staff, outputs and agreements searches (search-log run); added the Safe & Trusted AI pillar outlay as related funding. Funding only, not a full re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Post-release re-check of IndiaAI and MeitY news through searches, since the IndiaAI pages refused automated access: nothing new from an official source. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "News re-check since 24 October 2026: press releases of 30 and 31 October and 3 November, press coverage, and searches for the head, calls for interest, outputs and agreements. Nothing official on the institute found. Left for review: a press report of 7 October that the IndiaAI COO spoke of the institute's formal constitution as still to come; the IndiaAI news pages (blocked on every route) and the ministry's consultation paper (not yet released). Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Post-release news re-check from 6 November 2026: the ministry's acts and policies, what's new and press pages; IndiaAI news and the ministry's consultations page could not be read. No official item on the institute and no released consultation paper found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "Post-release news re-check from 8 November 2026: MeitY's What's New (newest 30 October) and its acts and policies pages (29 October); MeitY's press list could be read only in a copy of January 2025, and IndiaAI news could not be read. No released consultation paper on AI regulation was found. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-13",
+          "scope": "Post-release news re-check from 10 November 2026: MeitY's What's New (12 November) and press releases (newest 21 January 2025). Current IndiaAI news and the ministry's notices and publications pages could not be read. No released consultation paper on AI regulation was found, which does not establish that none has been released. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-14",
+          "scope": "Sources checked for developments from 13 November 2026: MeitY's What's New (12 November), press releases (newest 21 January 2025), orders and notices (21 October) and gazette notifications (16 December 2025), and IndiaAI's news, which was stale (newest 17 September 2024; archived copy 9 September 2024). IndiaAI's current news could not be recovered, and its current publications remain unverified. A Moneycontrol report of 4 November describes a consultation paper as forthcoming; no released paper was found, which does not establish that none has been released. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-20",
+          "scope": "Sources checked for developments from 14 November 2026: IndiaAI's news and research pages (stale, newest 2024), and the IT ministry's What's New (19 November), publications (17 July) and acts and policies (29 October). No new institute fact was found. A press report of 16 November, citing unnamed sources, says a consultation on AI regulation is expected as early as next month; no official release was found and whether it has been released is unresolved. The ministry's press and consultation pages could not be read. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-23",
+          "scope": "Post-release news re-check from 20 November 2026: MeitY's home page announcements and the PIB release list (to 22 November, MeitY section not reached). IndiaAI's pages could not be read on any route. No release of the consultation paper on AI regulation was found in the sources read. No new institute fact. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-25",
+          "scope": "Post-release news re-check from 23 November 2026: MeitY's announcements and its acts and policies page (newest 29 October) and PIB's MeitY releases (newest 21 November). IndiaAI's news and MeitY's consultations page could not be read. No release of the consultation paper on AI regulation was found in the sources read. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "functions": {
+        "date": "2026-11-14",
+        "codes": [
+          "model_testing",
+          "evaluation_methods",
+          "research",
+          "standards_guidance",
+          "regulatory_enforcement",
+          "regulatory_support",
+          "risk_monitoring",
+          "foresight",
+          "policy_advice",
+          "incident_response",
+          "international_cooperation",
+          "convening",
+          "capacity_building",
+          "talent",
+          "adoption",
+          "public_access_continuity",
+          "certification",
+          "sandbox"
+        ]
+      }
+    },
+    "source_ids": [
+      "in-indiaai-2025",
+      "in-guidelines-2025",
+      "in-dic-director",
+      "in-indiaai-partners-2025",
+      "in-dic-gm-2026",
+      "in-pib-transforming-2025",
+      "in-pib-guidelines-date-2025",
+      "in-medianama-2026",
+      "network-2025",
+      "network-nist-2026",
+      "sas-mena-arcadia-2026",
+      "in-storyboard-2026",
+      "in-rs-usq-1668-2026",
+      "in-ht-explainer-2026-08",
+      "in-pib-2026-07-27",
+      "in-dic-director-jd"
+    ],
+    "notes": "Announced by the IT minister in January 2025; the November 2025 India AI Governance Guidelines call it recently established and propose testing and evaluation of AI systems for risks. The 9 May date concerns a call for partner institutions, not a verified designation date. The exact founding date remains unknown. Not a member of the international network. Projects funded under the IndiaAI Mission's safe and trusted AI pillar are mission grants, not output credited to the institute. A Hindustan Times explainer of 8 August 2026 says the institute is yet to be formally set up.",
+    "mandate_short": "Guidelines propose research, risk assessment, testing and draft standards.",
+    "legal_basis": {
+      "type": "administrative",
+      "state": "in_force",
+      "source_ids": [
+        "in-indiaai-partners-2025",
+        "in-indiaai-2025",
+        "in-guidelines-2025"
+      ],
+      "citations": {
+        "type": [
+          "in-guidelines-2025"
+        ],
+        "state": [
+          "in-guidelines-2025"
+        ],
+        "display": [
+          "in-guidelines-2025"
+        ]
+      }
+    },
+    "placement": {
+      "host_type": "multiple",
+      "source_ids": [
+        "in-indiaai-partners-2025",
+        "in-indiaai-2025"
+      ],
+      "citations": {
+        "host_type": [
+          "in-indiaai-2025"
+        ],
+        "display": [
+          "in-indiaai-2025"
+        ]
+      }
+    },
+    "agreements": [],
+    "wikidata": null,
+    "identifier_notes": "No matching Wikidata institute item verified in label and official-name searches on 17 October 2026; null does not establish that no item exists.",
+    "outputs": [],
+    "head": {
+      "state": "not_published",
+      "notes": "Searched 19 Oct 2026 (en): Digital India Corporation (DIC) vacancy page and the advertisement PDF (also hosted on meity.gov.in): post \"Director - IndiaAI Safety Institute\", one contractual position, advertised 19 May 2026, applications to 2 Jun 2026, reporting to COO-IndiaAI; PIB release of 30 Jan 2025 (announcement, no head); IndiaAI article and call-for-partners page (via Wayback, as indiaai.gov.in did not respond); three web searches (director appointed / head named / CERT-In cooperation) returned only the vacancy, its press coverage and the Wayback-archived IndiaAI pages. No appointee published. A separate DIC advertisement for a General Manager, Safe and Trusted AI pillar (held in-dic-gm-2026, re-fetched) mentions supporting build-out of the Institute; not a head."
+    },
+    "reports_to": {
+      "state": "stated",
+      "name": "Ministry of Electronics and Information Technology",
+      "source_ids": [
+        "in-dic-director-jd",
+        "in-pib-2025-01-30"
+      ],
+      "citations": {
+        "state": [],
+        "name": [
+          "in-pib-2025-01-30",
+          "in-dic-director-jd"
+        ],
+        "display": [
+          "in-pib-2025-01-30",
+          "in-dic-director-jd"
+        ]
+      }
+    },
+    "national_partners": {
+      "state": "not_published",
+      "notes": "Cyber agency searched: CERT-In (NCIIPC as second), 2026-10-19 (en); none found. No CERT-In or NCIIPC link to the IndiaAI Safety Institute in any fetched document. Access: cert-in.org.in and nciipc.gov.in did not respond; read through Wayback: CERT-In capture of 13 Oct 2026 is a frameset, read via the fw_ frame URL (home page; text \"CERT-In has been designated to serve as the national agency\" for cyber security under IT Amendment Act 2008, \"Directions ... under Section 70B\"), NCIIPC capture of 23 Mar 2026 is an Airtel court-order block page (no content). One r.jina.ai fetch of meity.gov.in/content/cert-in returned only the path (page is a JS shell; direct curl also an empty Next.js shell): flagged, no quote taken. Other fetches: IndiaAI call-for-partners and Institute articles (Wayback), PIB release, DIC job description. Recorded as not published; CERT-In status as national agency is held in the Wayback frame text only."
+    },
+    "testing_capacity": {
+      "state": "planned",
+      "notes": "The guidelines' section on the institute is recommendatory ('should'): a published government document setting a future task. The May 2025 call says 'The various IndiaAI Safety Institute Cells will function as decentralised capacity of the IndiaAI Safety Institute, executing the assigned technical mandate', but names no partner and assigns no testing. The institute 'oversees the implementation of projects selected under the two rounds of Expressions of Interest (EoIs) under the Safe & Trusted AI pillar', which is oversight of grant projects, not testing for the institute. India is not a member of the international network, so no joint testing is credited.",
+      "source_ids": [
+        "in-guidelines-2025",
+        "in-indiaai-partners-2025",
+        "in-pib-2026-07-27"
+      ],
+      "citations": {
+        "state": [
+          "in-guidelines-2025"
+        ],
+        "notes": [],
+        "display": [
+          "in-guidelines-2025"
+        ]
+      }
+    },
+    "model_access": {
+      "notes": "No access event, legal power or agreement providing for access to, or evaluation of, the models of a developer that has a model in Epoch AI's frontier set was found. India has no AI statute; the guidelines leave enforcement with sector regulators ('while sector regulators continue to exercise enforcement powers').",
+      "source_ids": [
+        "in-guidelines-2025"
+      ],
+      "searches": [
+        {
+          "date": "2026-10-21",
+          "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+          "language": "en",
+          "sources_read": [
+            "https://epoch.ai/data/ai-models",
+            "https://epoch.ai/data/ai-models-documentation",
+            "https://epoch.ai/data/all_ai_models.csv",
+            "https://epoch.ai/data/frontier_ai_models.csv",
+            "https://epoch.ai/data/notable_ai_models.csv"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Recorded sources re-read for testing and access wording",
+          "language": "en",
+          "sources_read": [
+            "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf",
+            "https://diccdnmedia.digitalindiacorporation.in/Director-%E2%80%93-IndiaAI-Safety-Institute-JD.pdf",
+            "https://indiaai.gov.in/article/call-for-partnerships-as-part-of-the-indiaai-safety-institute",
+            "https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+            "https://www.storyboard18.com/special-coverage/ashwini-vaishnaw-sets-ai-mission-2-0-agenda-sovereign-models-safety-and-mass-diffusion-90307.htm",
+            "https://www.medianama.com/2026/07/223-meity-india-ai-safety-institute-director-hiring/",
+            "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2097709&reg=48&lang=2"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "\"IndiaAI Safety Institute\" evaluation models red-teaming 2026",
+          "language": "en",
+          "sources_read": [
+            "https://dic.gov.in/jobs/director-indiaai-safety-institute/ (result only)",
+            "https://af.net/realtime/india-launches-ai-red-teaming-initiative-to-enhance-safety-in-language-models/",
+            "https://af.net/realtime/india-launches-nationwide-red-teaming-program-for-ai-safety/",
+            "https://www.orfonline.org/research/between-safe-and-secure-what-next-for-india-s-ai-safety-institute"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "IndiaAI Safety Institute partner institutions selected cells testing evaluation of AI models 2026",
+          "language": "en",
+          "sources_read": [
+            "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289946&lang=1&reg=3",
+            "https://www.thehindubusinessline.com/info-tech/indiaai-scales-up-safe-ai-efforts-with-cutting-edge-solutions-for-deepfake-detection-bias-mitigation-and-ai-penetration-testing/article70134503.ece (highlights)",
+            "https://ddnews.gov.in/en/indiaai-missions-safe-trusted-ai-pillar-advances-responsible-ai-13-projects-approved-to-tackle-deepfakes-and-bias/ (highlights)",
+            "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2065579&lang=2&reg=48 (highlights)",
+            "https://www.atlanticcouncil.org/blogs/new-atlanticist/safety-should-be-front-and-center-in-indias-vision-for-its-ai-impact-summit/ (highlights)"
+          ]
+        }
+      ],
+      "value": "none_found",
+      "citations": {
+        "notes": [],
+        "searches": [],
+        "value": [],
+        "display": []
+      }
+    },
+    "staffing_model": {
+      "code": "host_unit",
+      "source_ids": [
+        "in-dic-director",
+        "in-dic-director-jd",
+        "in-indiaai-partners-2025",
+        "in-pib-2026-07-27"
+      ],
+      "notes": "The May 2025 partner call assigns technical work to decentralised institute cells; the July 2026 release describes a hub-and-spoke model.",
+      "citations": {
+        "code": [
+          "in-dic-director",
+          "in-dic-director-jd"
+        ],
+        "notes": [
+          "in-indiaai-partners-2025",
+          "in-pib-2026-07-27"
+        ],
+        "display": [
+          "in-dic-director",
+          "in-indiaai-partners-2025",
+          "in-dic-director-jd",
+          "in-pib-2026-07-27"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-05eb0f44ebc64a3c955d10a0eba34ba5",
+        "kind": "fact",
+        "source_ids": [
+          "in-aisi-director-advert-2026"
+        ],
+        "text": "IndiaAI invited applications for one contract post of Director of the IndiaAI Safety Institute.",
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "in-aisi-director-advert-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-aisi-director-advert-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-0c61be81bf5343eca02c81f51c1f5aa1",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "mandate",
+        "text": "Should test and evaluate AI systems for risks.",
+        "source_ids": [
+          "in-guidelines-2025"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-guidelines-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-guidelines-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-2dce8dac197d4dd990af3d35147c9938",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "mandate",
+        "text": "Is to drive research and development on indigenous tools, benchmarks and measurement systems to mitigate AI risks.",
+        "source_ids": [
+          "in-indiaai-partners-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-17",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-indiaai-partners-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-indiaai-partners-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-48510410ae62492887c2d7f97e44c9df",
+        "kind": "function",
+        "code": "standards_guidance",
+        "basis": "mandate",
+        "text": "The national AI governance guidelines recommend resourcing it to develop draft standards and provide technical guidance to regulators and industry.",
+        "source_ids": [
+          "in-guidelines-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-guidelines-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-guidelines-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-cd4e3c781bb8419aa01f547962211a18",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "text": "The national AI governance guidelines recommend resourcing it to provide technical guidance to regulators.",
+        "source_ids": [
+          "in-guidelines-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-guidelines-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-guidelines-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-ccfdba5cb8ef48dea4f5c32de099a15b",
+        "kind": "function",
+        "code": "policy_advice",
+        "basis": "mandate",
+        "text": "Should advise policymakers and industry actors on AI safety.",
+        "source_ids": [
+          "in-guidelines-2025"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-guidelines-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-guidelines-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-a56175f3fa3247d89cab92cc2e568333",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "mandate",
+        "text": "Should anchor India's participation in global forums such as the International Network of AI Safety Institutes.",
+        "source_ids": [
+          "in-guidelines-2025"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-guidelines-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-guidelines-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-90ea78599f6547bb9af5d1dfcb33887b",
+        "kind": "function",
+        "code": "convening",
+        "basis": "mandate",
+        "text": "Is to be set up on a hub and spoke model, with research and academic institutions and private sector partners joining the hub and taking up projects.",
+        "source_ids": [
+          "in-indiaai-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-17",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-indiaai-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-indiaai-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-0d84e7a94b694c27878e455980ca8454",
+        "kind": "function",
+        "code": "talent",
+        "basis": "mandate",
+        "text": "Is to lead training and awareness programmes for key stakeholders.",
+        "source_ids": [
+          "in-indiaai-partners-2025"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-17",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-indiaai-partners-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-indiaai-partners-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-51c485e110c84c559876506dcd425b52",
+        "kind": "function",
+        "code": "adoption",
+        "basis": "mandate",
+        "text": "Is responsible for promoting the safe, secure, inclusive and trustworthy development, deployment and adoption of AI in India.",
+        "source_ids": [
+          "in-pib-2026-07-27"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-pib-2026-07-27"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-pib-2026-07-27"
+          ]
+        }
+      },
+      {
+        "id": "claims-1859ac5e328e48f5b4eecd0f5b26b258",
+        "kind": "function",
+        "code": "foresight",
+        "basis": "mandate",
+        "text": "Its suggested functions include conducting forecasting research on the potential impact of AI and issues in online safety, privacy, data governance, labour and competition.",
+        "source_ids": [
+          "in-guidelines-2025"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "in-guidelines-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "in-guidelines-2025"
+          ]
+        }
+      }
+    ],
+    "status": "established",
+    "established": "2025",
+    "announced": "2025-01-30",
+    "functions": [
+      {
+        "code": "model_testing",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-0c61be81bf5343eca02c81f51c1f5aa1"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "evaluation_methods",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-2dce8dac197d4dd990af3d35147c9938"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "research",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "standards_guidance",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-48510410ae62492887c2d7f97e44c9df"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "regulatory_enforcement",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "regulatory_support",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-cd4e3c781bb8419aa01f547962211a18"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "risk_monitoring",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "foresight",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-1859ac5e328e48f5b4eecd0f5b26b258"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "policy_advice",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-ccfdba5cb8ef48dea4f5c32de099a15b"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "incident_response",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "international_cooperation",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-a56175f3fa3247d89cab92cc2e568333"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "convening",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-90ea78599f6547bb9af5d1dfcb33887b"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "capacity_building",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "talent",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-0d84e7a94b694c27878e455980ca8454"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "adoption",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-51c485e110c84c559876506dcd425b52"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "public_access_continuity",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "certification",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "sandbox",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      }
+    ],
+    "operating": [],
+    "intervals": {
+      "announced_to_established": {
+        "days_min": -29,
+        "days_max": 335
+      },
+      "established_to_first_qualifying_activity": null,
+      "announced_to_first_qualifying_activity": null
+    },
+    "citations": {
+      "id": [],
+      "name": [
+        "in-guidelines-2025"
+      ],
+      "acronym": [],
+      "short_name": [],
+      "jurisdiction_id": [],
+      "host": [
+        "in-indiaai-2025"
+      ],
+      "legal_form": [],
+      "mandate": [
+        "in-indiaai-2025",
+        "in-guidelines-2025"
+      ],
+      "website": [],
+      "funding": [
+        "in-indiaai-partners-2025",
+        "in-rs-usq-1668-2026"
+      ],
+      "staffing_profile": [],
+      "check": [],
+      "notes": [
+        "in-guidelines-2025",
+        "in-ht-explainer-2026-08"
+      ],
+      "mandate_short": [
+        "in-guidelines-2025"
+      ],
+      "legal_basis": [
+        "in-guidelines-2025"
+      ],
+      "placement": [
+        "in-indiaai-2025"
+      ],
+      "agreements": [],
+      "wikidata": [],
+      "identifier_notes": [],
+      "outputs": [],
+      "head": [],
+      "reports_to": [
+        "in-pib-2025-01-30",
+        "in-dic-director-jd"
+      ],
+      "national_partners": [],
+      "testing_capacity": [
+        "in-guidelines-2025"
+      ],
+      "model_access": [],
+      "staffing_model": [
+        "in-dic-director",
+        "in-indiaai-partners-2025",
+        "in-dic-director-jd",
+        "in-pib-2026-07-27"
+      ],
+      "claims": [
+        "in-indiaai-2025",
+        "in-guidelines-2025",
+        "in-indiaai-partners-2025",
+        "in-pib-2026-07-27",
+        "in-aisi-director-advert-2026"
+      ],
+      "status": [
+        "in-guidelines-2025",
+        "in-indiaai-partners-2025",
+        "in-pib-2025-01-30",
+        "in-pib-guidelines-date-2025"
+      ],
+      "established": [
+        "in-guidelines-2025",
+        "in-pib-2025-01-30",
+        "in-pib-guidelines-date-2025"
+      ],
+      "announced": [],
+      "functions": [],
+      "operating": [],
+      "intervals": [],
+      "display": [
+        "in-indiaai-2025",
+        "in-guidelines-2025",
+        "in-indiaai-partners-2025",
+        "in-pib-2025-01-30",
+        "in-pib-guidelines-date-2025",
+        "in-dic-director-jd",
+        "in-rs-usq-1668-2026",
+        "in-ht-explainer-2026-08"
+      ],
+      "form": [
+        "in-indiaai-2025",
+        "in-guidelines-2025"
+      ],
+      "inst": [
+        "in-guidelines-2025"
+      ],
+      "institute": [
+        "in-guidelines-2025"
+      ],
+      "announced_to_established": [
+        "in-guidelines-2025",
+        "in-pib-2025-01-30",
+        "in-pib-guidelines-date-2025"
+      ],
+      "established_to_first_qualifying_activity": [],
+      "announced_to_first_qualifying_activity": []
+    },
+    "display": {
+      "intervals": {
+        "status_since": "Announced on 30 Jan 2025",
+        "known_activity": null
+      },
+      "comparison_funding": null,
+      "budget": null,
+      "staff": null,
+      "total_staff": null,
+      "technical_staff": null,
+      "funding_records": {
+        "funding-6e6d3f865072561abd59e69a6074094e": {
+          "kind": "none_disclosed",
+          "description": "No dedicated budget published; the November 2025 governance guidelines recommend giving it adequate resources",
+          "source_ids": [
+            "in-guidelines-2025"
+          ],
+          "confidence": "medium",
+          "commitment": "not_applicable",
+          "funding_source": "unknown",
+          "id": "funding-6e6d3f865072561abd59e69a6074094e",
+          "coverage": "whole_institute",
+          "notes": "The absence of a dedicated budget concerns India AISI as a whole. A recommendation to resource it does not supply a funding amount.",
+          "eur_per_year_est": null,
+          "citations": {
+            "kind": [],
+            "description": [],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "id": [],
+            "coverage": [],
+            "notes": [],
+            "eur_per_year_est": [],
+            "display": [],
+            "amount": [],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "Not published",
+            "qualifiers": [
+              "indirect or secondary"
+            ],
+            "native_value": "Not published",
+            "native_qualifiers": [],
+            "budget_citations": []
+          }
+        },
+        "funding-c93e1a7d5b2f4e80a6d4b9c1e7f3a512": {
+          "kind": "not_institute_specific",
+          "amount": 204600000,
+          "currency": "INR",
+          "years": 5,
+          "period": "IndiaAI Mission outlay over 5 years from March 2024",
+          "description": "INR 204.6m (Rs 20.46 crore) for the IndiaAI Mission's Safe & Trusted AI pillar over the mission's five years.",
+          "source_ids": [
+            "in-rs-usq-1668-2026",
+            "in-indiaai-partners-2025"
+          ],
+          "confidence": "high",
+          "commitment": "adopted",
+          "funding_source": "national_government",
+          "decision_date": "2024-03",
+          "annual_basis": "Arithmetic mean of the five-year pillar outlay; the pillar is broader than the institute, and the figure is not expenditure.",
+          "annual_basis_code": "period_mean",
+          "notes": "The answer gives the pillar outlay, not an institute allocation, and does not name the institute. IndiaAI places the institute within this pillar. The mission was launched in March 2024 with a five-year outlay; the answer does not give exact start and end dates, so no annual period is recorded.",
+          "coverage": "not_institute_specific",
+          "id": "funding-c93e1a7d5b2f4e80a6d4b9c1e7f3a512",
+          "annual_amount": 40920000,
+          "eur_per_year_est": 415331,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "in-rs-usq-1668-2026"
+            ],
+            "currency": [],
+            "years": [
+              "in-rs-usq-1668-2026"
+            ],
+            "period": [
+              "in-rs-usq-1668-2026"
+            ],
+            "description": [
+              "in-rs-usq-1668-2026"
+            ],
+            "confidence": [],
+            "commitment": [
+              "in-rs-usq-1668-2026"
+            ],
+            "funding_source": [],
+            "decision_date": [
+              "in-rs-usq-1668-2026"
+            ],
+            "annual_basis": [
+              "in-indiaai-partners-2025",
+              "in-rs-usq-1668-2026"
+            ],
+            "annual_basis_code": [],
+            "notes": [
+              "in-indiaai-partners-2025",
+              "in-rs-usq-1668-2026"
+            ],
+            "coverage": [
+              "in-indiaai-partners-2025"
+            ],
+            "id": [],
+            "annual_amount": [
+              "in-rs-usq-1668-2026"
+            ],
+            "eur_per_year_est": [
+              "eu-ecb-exchange-rates-2025",
+              "in-rs-usq-1668-2026"
+            ],
+            "display": [
+              "in-indiaai-partners-2025",
+              "in-rs-usq-1668-2026"
+            ]
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "~INR 200m",
+            "qualifiers": [
+              "IndiaAI Mission outlay over 5 years from March 2024",
+              "adopted"
+            ],
+            "native_value": "~INR 200m",
+            "native_qualifiers": [
+              "IndiaAI Mission outlay over 5 years from March 2024",
+              "adopted"
+            ],
+            "budget_citations": [
+              "in-rs-usq-1668-2026"
+            ]
+          }
+        }
+      },
+      "funding_ids": [
+        "funding-c93e1a7d5b2f4e80a6d4b9c1e7f3a512",
+        "funding-6e6d3f865072561abd59e69a6074094e"
+      ],
+      "staff_records": {},
+      "staff_ids": [],
+      "related_funding_ids": [
+        "funding-c93e1a7d5b2f4e80a6d4b9c1e7f3a512"
+      ],
+      "operating": {
+        "since": null,
+        "first_lineage": null,
+        "items": []
+      },
+      "rows": {
+        "head": {
+          "state": "not_published",
+          "text": null,
+          "cited": []
+        },
+        "reports_to": {
+          "state": "stated",
+          "text": "Ministry of Electronics and Information Technology",
+          "cited": [
+            "in-pib-2025-01-30",
+            "in-dic-director-jd"
+          ]
+        },
+        "partners": {
+          "state": "not_published",
+          "items": [],
+          "fold_items": [],
+          "tail": null,
+          "cited": []
+        }
+      },
+      "source_links": [
+        "network-2025",
+        "network-nist-2026",
+        "in-indiaai-2025",
+        "in-guidelines-2025",
+        "in-dic-director",
+        "in-medianama-2026",
+        "sas-mena-arcadia-2026",
+        "in-indiaai-partners-2025",
+        "in-dic-gm-2026",
+        "in-storyboard-2026",
+        "in-pib-2025-01-30",
+        "in-pib-transforming-2025",
+        "in-pib-guidelines-date-2025",
+        "eu-ecb-exchange-rates-2025",
+        "in-dic-director-jd",
+        "in-pib-2026-07-27",
+        "in-rs-usq-1668-2026",
+        "in-ht-explainer-2026-08"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "eu-ecb-exchange-rates-2025",
+      "title": "ECB euro foreign exchange reference rates, annual averages for 2025",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.AUD+CAD+GBP+INR+JPY+KRW+MYR+NOK+SGD+USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+      "excerpts": []
+    },
+    {
+      "id": "in-aisi-director-advert-2026",
+      "title": "Advertisement: Director, IndiaAI Safety Institute",
+      "url": "https://www.meity.gov.in/static/uploads/2026/05/5188ada2f926aebc544d26a28dc22413.pdf",
+      "excerpts": [
+        {
+          "text": "India AI is currently inviting applications for the below position purely on Contract/ Consolidated basis. Sr.No Name of the Post No. of Positions 1. Director – IndiaAI Safety Institute 1",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-dic-director",
+      "title": "Director - IndiaAI Safety Institute (job advertisement)",
+      "url": "https://dic.gov.in/jobs/director-indiaai-safety-institute/",
+      "archive_url": "https://web.archive.org/web/20260605232533/https://dic.gov.in/jobs/director-indiaai-safety-institute/",
+      "excerpts": [
+        {
+          "text": "India AI is currently inviting applications for the position of Director – IndiaAI Safety Institute on a purely contractual/ consolidated basis.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "Build institutional capacity by recruiting, mentoring and developing a high-quality multidisciplinary team of researchers, engineers, and policy specialists under the Institute.",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-dic-director-jd",
+      "title": "Director - IndiaAI Safety Institute (job description)",
+      "url": "https://diccdnmedia.digitalindiacorporation.in/Director-%E2%80%93-IndiaAI-Safety-Institute-JD.pdf",
+      "excerpts": [
+        {
+          "text": "Ministry of Electronics, and Information Technology, MeitY, has established India AI Independent Business Division (India AI) under Digital India Corporation for implementing the India AI mission",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name"
+          ]
+        },
+        {
+          "text": "The positions are purely temporary in nature for the project of DIC/IndiaAI and the appointees shall not derive any right or claim for permanent appointment at DIC/IndiaAI",
+          "accessed": "2026-11-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-dic-gm-2026",
+      "title": "General Manager, Safe & Trust (AI Pillar)",
+      "url": "https://dic.gov.in/jobs/general-manager-safe-trust-ai-pillar/",
+      "archive_url": "https://web.archive.org/web/20261017002253/https://dic.gov.in/jobs/general-manager-safe-trust-ai-pillar/",
+      "excerpts": []
+    },
+    {
+      "id": "in-guidelines-2025",
+      "title": "India AI Governance Guidelines: Enabling Safe and Trusted AI Innovation",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf",
+      "archive_url": "https://web.archive.org/web/20261011214547/https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf",
+      "excerpts": [
+        {
+          "text": "the Mission has instituted the AI Safety Institute (AISI), which provides the critical technical expertise needed to conduct research, develop draft standards, and perform safety testing, ensuring governance is resilient, scientiﬁcally informed, and capable of addressing risks as they emerge.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Safety Institute (AISI)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/name"
+          ]
+        },
+        {
+          "text": "The recently established AI Safety Institute (AISI) should act as the main body responsible for guiding the safe and trusted development and use of AI in India.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/legal_basis/type",
+            "/record/legal_basis/state"
+          ]
+        },
+        {
+          "text": "The AISI should be involved in research, risk assessment, and capacity-building. It should test and evaluate AI systems for risks and provide advice to policymakers and industry actors on issues of AI safety.",
+          "accessed": "2026-10-19",
+          "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc2025115685601.pdf",
+          "anchors": [
+            {
+              "text": "The recently established AI Safety Institute (AISI)",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short",
+            "/record/mandate",
+            "/record/notes",
+            "/record/testing_capacity/state",
+            "/record/claims/1/text",
+            "/record/claims/5/text"
+          ]
+        },
+        {
+          "text": "Develop draft guidelines, codes, standards, respective evaluation metrics and testing frameworks in collaboration with relevant agencies and sectoral regulators.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short",
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "The AISI should also anchor India’s participation in global forums and facilitate collaborations, such as in the International Network of AI Safety Institutes.",
+          "accessed": "2026-10-19",
+          "anchors": [
+            {
+              "text": "The recently established AI Safety Institute (AISI)",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate",
+            "/record/claims/6/text"
+          ]
+        },
+        {
+          "text": "Provide adequate resources to the IndiaAI Safety Institute to conduct research, develop draft standards and their evaluation metrics and testing methods and benchmarks, collaborate with international bodies, national standard making bodies and provide technical guidance to regulators and industry.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text",
+            "/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "Conduct forecasting research on the potential impact of AI and issues in online safety, privacy, data governance, labour, and competition.",
+          "anchors": [
+            {
+              "text": "Key functions of the AISI are suggested as follows:",
+              "kind": "heading"
+            },
+            {
+              "text": "The recently established AI Safety Institute (AISI)",
+              "kind": "definition"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/10/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-ht-explainer-2026-08",
+      "title": "Not Skynet — yet: Four AI firms, multiple escape routes, and a debate about how close human intelligence is",
+      "url": "https://www.hindustantimes.com/ht-explainers/rogue-ai-kimi-k3-moonshot-openai-chatgpt-anthropic-claude-artificial-intelligence-human-agi-development-what-it-means-101786185716204.html",
+      "excerpts": [
+        {
+          "text": "The Ministry of Electronics and Information Technology (MeitY) held a first consultation in October 2024 on establishing an Indian AI Safety Institute along the UK and US lines. That body is yet to be formally set up.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-indiaai-2025",
+      "title": "India Takes the Lead: Establishing the IndiaAI Safety Institute for Responsible AI Innovation",
+      "url": "https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+      "archive_url": "https://web.archive.org/web/20260831050900/https://indiaai.gov.in/article/india-takes-the-lead-establishing-the-indiaai-safety-institute-for-responsible-ai-innovation",
+      "excerpts": [
+        {
+          "text": "The Institute, incubated by IndiaAI Mission will be set up on a hub and spoke model with various research and academic institutions, private sector partners joining the hub and taking up projects under the Safe and Trusted Pillar of IndiaAI Mission.",
+          "accessed": "2026-10-19",
+          "anchors": [
+            {
+              "text": "The Hon'ble Minister has announced the setting up of IndiaAI Safety Institute",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/host",
+            "/record/placement/host_type",
+            "/record/mandate",
+            "/record/claims/7/text"
+          ]
+        },
+        {
+          "text": "The Institute will advance indigenous research and development, based on Indian datasets and contextualized to India’s social, economic, cultural, and linguistic diversity.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-indiaai-partners-2025",
+      "title": "Call for partnerships as part of the IndiaAI Safety Institute",
+      "url": "https://indiaai.gov.in/article/call-for-partnerships-as-part-of-the-indiaai-safety-institute",
+      "archive_url": "https://web.archive.org/web/20260719035551/https://indiaai.gov.in/article/call-for-partnerships-as-part-of-the-indiaai-safety-institute",
+      "excerpts": [
+        {
+          "text": "The various IndiaAI Safety Institute Cells will function as decentralised capacity of the IndiaAI Safety Institute, executing the assigned technical mandate.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "The IndiaAI Safety Institute will: Drive R&D on indigenous tools, technologies, benchmarks, measurement systems, and other outputs to mitigate AI risks",
+          "accessed": "2026-10-17",
+          "url": "https://web.archive.org/web/20260719035551/https://indiaai.gov.in/article/call-for-partnerships-as-part-of-the-indiaai-safety-institute",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "Lead training and awareness programs for key stakeholders",
+          "accessed": "2026-10-17",
+          "url": "https://web.archive.org/web/20260719035551/https://indiaai.gov.in/article/call-for-partnerships-as-part-of-the-indiaai-safety-institute",
+          "anchors": [
+            {
+              "text": "The IndiaAI Safety Institute will:",
+              "kind": "heading"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/8/text"
+          ]
+        },
+        {
+          "text": "As part of the Safe & Trusted AI pillar of the IndiaAI Mission, the IndiaAI Safety Institute has been established to advance science-based and indigenous research on AI governance, pioneering innovative approaches to AI safety that are relevant to the developing world.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-17",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/funding/1/notes",
+            "/record/funding/1/coverage",
+            "/record/funding/1/annual_basis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-medianama-2026",
+      "title": "Govt. was hiring Director for its IndiaAI Safety Institute",
+      "url": "https://www.medianama.com/2026/07/223-meity-india-ai-safety-institute-director-hiring/",
+      "archive_url": "https://web.archive.org/web/20261016235857/https://www.medianama.com/2026/07/223-meity-india-ai-safety-institute-director-hiring/",
+      "excerpts": []
+    },
+    {
+      "id": "in-pib-2025-01-30",
+      "title": "Union Minister announces AI Safety Institute (press release)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2097709&reg=48&lang=2",
+      "archive_url": "https://web.archive.org/web/20251118032034/https://www.pib.gov.in/PressReleasePage.aspx?PRID=2097709",
+      "excerpts": [
+        {
+          "text": "The Institute, incubated by IndiaAI Mission will be set up on a hub and spoke model",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-pib-2026-07-27",
+      "title": "Safe & Trusted AI Pillar under IndiaAI Mission Strengthens Citizen Trust through Secure, Fair and Responsible AI Solutions",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2289946&lang=1&reg=3",
+      "excerpts": [
+        {
+          "text": "The AI Safety Institute has been established for AI safety, security and developing trust with diverse stakeholders, engaging academia, startups, industry and Government bodies through a hub-and-spoke model.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "The IndiaAI Safety Institute was announced in January 2025 to advance science-based and indigenous research on AI safety and governance. The Institute is responsible for promoting the safe, secure, inclusive and trustworthy development, deployment and adoption of AI in India.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/9/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-pib-guidelines-date-2025",
+      "title": "India AI Governance Guidelines do not allow unrestricted deployment of high-risk AI systems",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2206769&lang=2&reg=48",
+      "excerpts": []
+    },
+    {
+      "id": "in-pib-transforming-2025",
+      "title": "Transforming India with AI",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/oct/doc20251012664501.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "in-rs-usq-1668-2026",
+      "title": "Rajya Sabha Unstarred Question No. 1668, Progress of IndiaAI Mission, answered 13 February 2026",
+      "url": "https://sansad.in/getFile/annex/270/AU1668_ajohnN.pdf?source=pqars",
+      "excerpts": [
+        {
+          "text": "Safe & Trusted AI 20.46",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/amount",
+            "/record/funding/1/description"
+          ]
+        },
+        {
+          "text": "Total Outlay (₹ Cr)",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/amount"
+          ]
+        },
+        {
+          "text": "5 years. The detailed allocation of budgetary outlay among its seven key pillars is as follows:",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/years",
+            "/record/funding/1/period",
+            "/record/funding/1/annual_basis"
+          ]
+        },
+        {
+          "text": "In March 2024, Government of India launched IndiaAI mission with outlay of Rs 10,372 Cr",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/decision_date",
+            "/record/funding/1/period",
+            "/record/funding/1/commitment",
+            "/record/funding/1/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "in-storyboard-2026",
+      "title": "Ashwini Vaishnaw sets AI Mission 2.0 agenda",
+      "url": "https://www.storyboard18.com/special-coverage/ashwini-vaishnaw-sets-ai-mission-2-0-agenda-sovereign-models-safety-and-mass-diffusion-90307.htm",
+      "archive_url": "https://web.archive.org/web/20261017002440/https://www.storyboard18.com/special-coverage/ashwini-vaishnaw-sets-ai-mission-2-0-agenda-sovereign-models-safety-and-mass-diffusion-90307.htm",
+      "excerpts": []
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "sas-mena-arcadia-2026",
+      "title": "Mapping General-Purpose AI Governance in Twenty AI Middle-Power Jurisdictions",
+      "url": "https://arxiv.org/abs/2608.19278",
+      "archive_url": "https://web.archive.org/web/20261004095433/https://arxiv.org/abs/2608.19278",
+      "excerpts": []
+    }
+  ]
+}

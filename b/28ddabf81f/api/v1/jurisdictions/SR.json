@@ -1,0 +1,292 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "28ddabf81fe50aab749c330c3a137746d5886e68",
+      "built": "2026-11-25T18:17:56Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/114",
+  "record": {
+    "id": "SR",
+    "name": "Suriname",
+    "summary": "No qualifying institute identified. Suriname started UNESCO's AI readiness assessment in August 2026, which is meant to inform a future AI policy; no AI strategy, law or regulator exists yet.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. English results concern UNESCO readiness assessment and government AI-policy preparation. The cached government summit account and UNESCO RAM article describe institutional readiness and future governance work. RAM evaluates the country's preparedness, not advanced models; no national AISI was identified. Partial check only; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "nl",
+          "national_or_official": true,
+          "query": "Suriname instituut veiligheid kunstmatige intelligentie modellen overheid",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Suriname national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Suriname\" \"AI safety\" institute government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded nl query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "r3-sr-ezoti-ai-readiness",
+        "sr-devdiscourse-ram-primary-proposal"
+      ],
+      "governance_note": "EZOTI's own account announces the forthcoming AI readiness assessment; UNESCO's account describes its national AI-governance assessment process."
+    },
+    "source_ids": [
+      "r3-sr-ezoti-ai-readiness",
+      "sr-devdiscourse-ram",
+      "sr-devdiscourse-ram-primary-proposal"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Economic Affairs, Entrepreneurship and Technological Innovation (EZOTI)",
+        "role": "EZOTI's official report announced the forthcoming UNESCO AI readiness assessment; no mandate to evaluate advanced models was identified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "r3-sr-ezoti-ai-readiness",
+          "sr-devdiscourse-ram-primary-proposal"
+        ],
+        "kind": "other",
+        "id": "related_bodies-25e12af5dc0252718ec83600ee8d161f",
+        "citations": {
+          "name": [
+            "sr-devdiscourse-ram-primary-proposal"
+          ],
+          "role": [
+            "r3-sr-ezoti-ai-readiness"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "sr-devdiscourse-ram-primary-proposal",
+            "r3-sr-ezoti-ai-readiness"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "sr-devdiscourse-ram-primary-proposal",
+            "r3-sr-ezoti-ai-readiness"
+          ]
+        }
+      }
+    ],
+    "notes": "The government's account of the AI Impact Summit announced a forthcoming UNESCO AI Readiness Assessment. The August start and absence of a dedicated strategy or regulator remain based on the cited foreign account; no evaluation institute was found. Earlier narrative searches covered Dutch and English and surfaced the 2023-2030 National Digital Strategy without opening it; only the Dutch query is retained in the structured search log. A UNESCO consultant notice was title-only.",
+    "next_check": {
+      "date": "2027-04-16",
+      "reason": "Check for the readiness report and any resulting AI policy."
+    },
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 639850,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "SUR",
+    "m49": "740",
+    "wikidata": "Q730",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [],
+      "related_bodies": [
+        "sr-devdiscourse-ram-primary-proposal",
+        "r3-sr-ezoti-ai-readiness"
+      ],
+      "notes": [
+        "r3-sr-ezoti-ai-readiness"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "sr-devdiscourse-ram-primary-proposal",
+        "r3-sr-ezoti-ai-readiness"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "sr-devdiscourse-ram",
+        "sr-devdiscourse-ram-primary-proposal",
+        "r3-sr-ezoti-ai-readiness"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "r3-sr-ezoti-ai-readiness",
+      "title": "Het Ministerie van Economische Zaken, Ondernemerschap en Technologische Innovatie (EZOTI) heeft deelgenomen aan de AI Impact Summit in New Delhi.",
+      "title_en": "The Ministry of Economic Affairs, Entrepreneurship and Technological Innovation (EZOTI) participated in the AI Impact Summit in New Delhi.",
+      "url": "https://gov.sr/het-ministerie-van-economische-zaken-ondernemerschap-en-technologische-innovatie-ezoti-heeft-deelgenomen-aan-de-ai-impact-summit-in-new-delhi/",
+      "excerpts": [
+        {
+          "text": "Suriname in samenwerking met UNESCO binnenkort starten met een AI Readiness Assessment",
+          "accessed": "2026-10-17",
+          "gloss": "Suriname will soon start an AI Readiness Assessment in collaboration with UNESCO.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sr-devdiscourse-ram",
+      "title": "Suriname Takes Caribbean Lead With UNESCO's New AI Readiness Review",
+      "url": "https://www.devdiscourse.com/article/technology/3972480-suriname-takes-caribbean-lead-with-unescos-new-ai-readiness-review",
+      "archive_url": "https://web.archive.org/web/20260905091428/https://www.devdiscourse.com/article/technology/3972480-suriname-takes-caribbean-lead-with-unescos-new-ai-readiness-review",
+      "excerpts": []
+    },
+    {
+      "id": "sr-devdiscourse-ram-primary-proposal",
+      "title": "Suriname Advances Responsible AI Governance with UNESCO’s RAM 2.0",
+      "url": "https://www.unesco.org/en/articles/suriname-advances-responsible-ai-governance-unescos-ram-20",
+      "archive_url": "https://web.archive.org/web/20260906235443/https://www.unesco.org/en/articles/suriname-advances-responsible-ai-governance-unescos-ram-20",
+      "excerpts": [
+        {
+          "text": "Minister of Economic Affairs, Entrepreneurship and Technological Innovation of Suriname",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

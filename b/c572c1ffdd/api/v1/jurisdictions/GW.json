@@ -1,0 +1,287 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "c572c1ffdd46d378d378da0f4eb1a6037d8be85f",
+      "built": "2026-11-28T16:04:06Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/165",
+  "record": {
+    "id": "GW",
+    "name": "Guinea-Bissau",
+    "summary": "No qualifying institute or commitment identified. The 2025 digital transformation strategy addresses public services, infrastructure and governance; the cited sections of the strategy name no institute to evaluate advanced models.",
+    "next_check": {
+      "date": "2028-08-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-17",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. No qualifying institute was identified. The official gazette provides the digital-transformation strategy and government adoption context; the material reviewed does not designate a national institute to evaluate advanced models. Partial check only; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "recorded_full_check",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "pt",
+          "national_or_official": true,
+          "query": "\"Guiné-Bissau\" instituto segurança inteligência artificial",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Guinea-Bissau national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded pt query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: The digital-transformation decree and AI Policy Lab governance profile establish policy context. A second substantive independent account of qualifying institute status was not established; the UNDP strategy account is co-produced. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence.",
+      "governance_source_ids": [
+        "gw-bo-10-2025"
+      ],
+      "governance_note": "The retrieved digital-transformation decree and annex include AI references and institutional responsibilities. This is limited national digital/AI governance context rather than a dedicated AI policy inventory."
+    },
+    "source_ids": [
+      "gw-bo-10-2025",
+      "gw-aipolicy-2026",
+      "gw-undp-entd-2025"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Transport, Telecommunications and Digital Economy",
+        "role": "It proposed the national digital transformation strategy approved by decree 10/2025. No designation to evaluate advanced models was identified in the retrieved governance evidence.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "gw-bo-10-2025",
+          "gw-undp-entd-2025"
+        ],
+        "kind": "other",
+        "id": "related_bodies-485e4831b27a5051856f44aee4f9459d",
+        "citations": {
+          "name": [],
+          "role": [
+            "gw-bo-10-2025",
+            "gw-undp-entd-2025"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "gw-bo-10-2025",
+            "gw-undp-entd-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "gw-bo-10-2025",
+            "gw-undp-entd-2025"
+          ]
+        }
+      },
+      {
+        "name": "Instituto Tecnológico para a Modernização Administrativa (ITMA)",
+        "role": "It handles administrative modernisation and public digital services; the strategy envisages a cybersecurity unit, without assigning advanced AI model evaluation.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-db2cbb1eacef58d09ac8726fb0c06ac8",
+        "display": {
+          "source_links": []
+        }
+      }
+    ],
+    "notes": "The re-check read Decree 10/2025 and searched the attached strategy for inteligência, Inteligência, Centro and ITMA; inspected the institutional and cybersecurity interventions, especially intervention 50. The decree was approved on 13 March and published on 28 March 2025; these are digital-strategy events, not qualifying AISI timeline events. Read the Portuguese UNDP account of the 29 January 2025 strategy launch (gw-undp-entd-2025), which names MTTED, ITMA and ARN as participants. A later Zenysis health-AI partnership page returned an empty framework; one attempt to retrieve a text copy failed. Its search snippet was not treated as verified evidence. Search results for Guinea were excluded where they concerned the different jurisdiction. Portuguese was covered; Kriol and other national languages were not comprehensively checked. The previous UNDP access gap is resolved.",
+    "kind": "state",
+    "status_confidence": "medium",
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 2249515,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "iso3": "GNB",
+    "m49": "624",
+    "wikidata": "Q1007",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "next_check": [],
+      "check": [],
+      "related_bodies": [
+        "gw-bo-10-2025",
+        "gw-undp-entd-2025"
+      ],
+      "notes": [],
+      "kind": [],
+      "status_confidence": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "gw-bo-10-2025",
+        "gw-undp-entd-2025"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "gw-aipolicy-2026",
+        "gw-bo-10-2025",
+        "gw-undp-entd-2025"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "gw-aipolicy-2026",
+      "title": "Country Profile on AI Governance: Guinea-Bissau (Africa AI Governance Index 2026, v1.2)",
+      "url": "https://www.aipolicy.africa/country-profiles/guinea-bissau",
+      "archive_url": "https://web.archive.org/web/20261017033145/https://www.aipolicy.africa/country-profiles/guinea-bissau",
+      "excerpts": []
+    },
+    {
+      "id": "gw-bo-10-2025",
+      "title": "Decreto n.º 10/2025: Estratégia Nacional para a Transformação Digital",
+      "title_en": "Decree No. 10/2025: National Strategy for Digital Transformation",
+      "url": "https://faolex.fao.org/docs/pdf/gbs235634.pdf",
+      "archive_url": "https://web.archive.org/web/20261004121323/https://faolex.fao.org/docs/pdf/gbs235634.pdf",
+      "excerpts": [
+        {
+          "text": "Sob proposta do Ministro dos Transportes, Telecomunicações e Economia Digital",
+          "accessed": "2026-10-17",
+          "gloss": "On the proposal of the Minister of Transport, Telecommunications and Digital Economy.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gw-undp-entd-2025",
+      "title": "Lançamento da Estratégia Nacional para a Transformação Digital",
+      "title_en": "Launch of the National Strategy for Digital Transformation",
+      "url": "https://www.undp.org/pt/guinea-bissau/news/lancamento-da-estrategia-nacional-para-transformacao-digital",
+      "archive_url": "https://web.archive.org/web/20250316164151/https://www.undp.org/pt/guinea-bissau/news/lancamento-da-estrategia-nacional-para-transformacao-digital",
+      "excerpts": [
+        {
+          "text": "Esta estratégia é fruto de um trabalho conjunto do Ministério dos Transportes, Telecomunicações e Economia Digital (MTTED)",
+          "gloss": "The strategy results from joint work by the transport, telecommunications and digital economy ministry.",
+          "url": "https://web.archive.org/web/20250316164151/https://www.undp.org/pt/guinea-bissau/news/lancamento-da-estrategia-nacional-para-transformacao-digital",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

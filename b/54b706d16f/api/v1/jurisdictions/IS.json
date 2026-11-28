@@ -1,0 +1,284 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "54b706d16fe00d80e98c4bef221a3db4bb1fd442",
+      "built": "2026-11-25T16:05:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/18",
+  "record": {
+    "id": "IS",
+    "name": "Iceland",
+    "institute_id": null,
+    "next_check": {
+      "date": "2027-10-16",
+      "reason": "Routine yearly re-check of a state where an institute is plausible (in Europe, the G20 or the OECD, or a signatory of the Bletchley Declaration)."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English country queries did not identify a qualifying institute, commitment, proposal or institute-specific study. The selected official action-plan announcement describes a centre for AI and language technology, computing access and responsible sectoral adoption. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Icelandic, with the Government Offices pages of the finance ministry (newest 4 November) and the front-page news (newest 10 November). Left for review: the announcement of 4 November that Umbra and CERT-IS received access to a specialist OpenAI cybersecurity model for authorised defensive tasks, with humans taking the decisions. The announcement gives no model name, funding or frontier-evaluation mandate, and no new AI Act incorporation or designation was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "is",
+          "national_or_official": true,
+          "query": "Ísland öryggisstofnun gervigreind mat líkana ríkisstjórn",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Iceland national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Iceland\" \"AI safety institute\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded is query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "is-stjornarradid-action-plan-2025"
+      ],
+      "governance_note": "The ministry describes the funded AI action plan and a centre for AI and language technology; this is adoption and research infrastructure rather than evaluation of the safety of advanced models.",
+      "log": []
+    },
+    "source_ids": [
+      "is-stjornarradid-action-plan-2025",
+      "is-stjornarradid-ai-plan",
+      "is-ai-implementation-review-2026",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026",
+      "is-umbra-cert-openai-2026"
+    ],
+    "related_bodies": [],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "154",
+      "subregion": "Northern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 389444,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "ISL",
+    "m49": "352",
+    "wikidata": "Q189",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Icelandic and English.\n\nNext check due by 16 October 2027.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "next_check": [],
+      "check": [],
+      "related_bodies": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "is-stjornarradid-ai-plan",
+        "is-stjornarradid-action-plan-2025",
+        "eu-ai-act-authorities-2026",
+        "is-ai-implementation-review-2026",
+        "is-umbra-cert-openai-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": []
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,IS,2025,389444",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "is-ai-implementation-review-2026",
+      "title": "Gervigreind til góðs, section 8: Regluverk og lagaleg umgjörð",
+      "title_en": "AI for Good, section 8: Regulations and legal framework",
+      "url": "https://gervigreind-til-gods.github.io/",
+      "excerpts": []
+    },
+    {
+      "id": "is-stjornarradid-action-plan-2025",
+      "title": "Verðmætasköpun og velferð leiðarstef í fyrstu aðgerðaáætluninni um gervigreind",
+      "title_en": "Value creation and welfare are the guiding principles of the first artificial intelligence action plan",
+      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/07/02/Verdmaetaskopun-og-velferd-leidarstef-i-fyrstu-adgerdaaaetluninni-um-gervigreind-/",
+      "archive_url": "https://web.archive.org/web/20260114072412/https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/2025/07/02/Verdmaetaskopun-og-velferd-leidarstef-i-fyrstu-adgerdaaaetluninni-um-gervigreind-/",
+      "excerpts": []
+    },
+    {
+      "id": "is-stjornarradid-ai-plan",
+      "title": "Iceland's AI Action Plan 2025-2027",
+      "url": "https://www.stjornarradid.is/frettir/grein/2025-07-01-Icelands-AI-Action-Plan-2025-2027/",
+      "archive_url": "https://web.archive.org/web/20261017010904/https://www.stjornarradid.is/frettir/grein/2025-07-01-Icelands-AI-Action-Plan-2025-2027/",
+      "excerpts": []
+    },
+    {
+      "id": "is-umbra-cert-openai-2026",
+      "title": "Umbra og CERT-IS fá aðgang að sérhæfðri gervigreind OpenAI til netvarna",
+      "title_en": "Umbra and CERT-IS get access to specialised OpenAI artificial intelligence for cyber defence",
+      "url": "https://www.stjornarradid.is/efst-a-baugi/frettir/stok-frett/umbra-og-cert-is-fa-adgang-ad-serhaefdri-gervigreind-openai-til-netvarna/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

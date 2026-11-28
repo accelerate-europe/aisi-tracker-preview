@@ -1,0 +1,463 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.4-dev",
+    "as_of": "2026-11-24",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "70be9530734e2d53638c86fafb0a6fd7b8ad33cc",
+      "built": "2026-11-25T00:26:08Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/43",
+  "record": {
+    "id": "TH",
+    "name": "Thailand",
+    "kind": "state",
+    "summary": "No qualifying institute identified. ETDA tested an 'Ethical LLM' with the banking sector and, through its AI Governance Practice Center (AIGPC), plans Thai-language test prompts to assess chatbot responses to risky situations.",
+    "related_bodies": [
+      {
+        "name": "AI Governance Practice Center (AIGPC), ETDA",
+        "role": "It provides guidance, training and some language-model testing with the banking sector. It is the AI governance centre of the Electronic Transactions Development Agency. A governance sandbox is planned for 2027. The centre has no mandate to evaluate advanced models.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "th-etda-aigpc-2027"
+        ],
+        "kind": "other",
+        "id": "related_bodies-6e5dda272a7556cb85bc981b9de88d5d",
+        "citations": {
+          "name": [
+            "th-etda-aigpc-2027"
+          ],
+          "role": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "th-etda-aigpc-2027"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "th-etda-aigpc-2027"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2028-03-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English query found ETDA governance work, national AI strategy implementation and cybersecurity guidance, without a qualifying institute or institute-specific commitment. The selected ETDA announcement concerns a draft law focused on high-risk use, rights and responsible adoption. The new strategy and cybersecurity results were search excerpts only. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Selected the closest body against retrieved source text and excerpts; recorded its stage, evidence gap and limits. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-19",
+          "scope": "Checked the note on the draft AI law against its sources and searched in Thai and English for the draft's latest step. Corrected the note: the committee the draft names already exists, the 2025 consultation was on draft principles, and the hearing on the full draft ran in July and August 2026 as a law firm reports it. Added the committee's resolution of 7 September 2026; no later step was found. The consultation listing for the full draft could not be read (HTTP 403). Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "th",
+          "national_or_official": true,
+          "query": "ประเทศไทย สถาบันความปลอดภัย ปัญญาประดิษฐ์ ประเมินโมเดล รัฐบาล",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Thailand\" national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded th query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "th-etda-draft-law-2025"
+      ],
+      "governance_note": "ETDA's consultation describes proposed AI-law governance and support structures; this is not an adopted mandate for an institute to evaluate advanced models."
+    },
+    "source_ids": [
+      "th-etda-aigpc-2027",
+      "th-etda-draft-law-2025",
+      "th-thaipbs-2026",
+      "th-mdes-ai-committee-2026",
+      "th-lawplus-draft-ai-act-2026"
+    ],
+    "notes": "The ETDA notice invited comments on draft principles of an AI law until 24 June 2025; the principles specify an organisation to support the law's operation. The law firm LawPlus reports a public hearing on the full draft Act from 9 July to 14 August 2026. Thai PBS reports that the draft defines its committee as the existing Specialised Committee for Driving the National AI Plan. No source read describes an institute for evaluating advanced models in the draft. At its meeting of 7 September 2026 that committee resolved that restructuring of the draft Act be considered; our searches found no later step.",
+    "region": {
+      "id": "142",
+      "name": "Asia",
+      "subregion_id": "035",
+      "subregion": "South-eastern Asia",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 71619863,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "THA",
+    "m49": "764",
+    "wikidata": "Q869",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "closest_body": {
+      "name": "AI Governance Practice Center (AIGPC), ETDA",
+      "stage": "exists",
+      "gap": "remit",
+      "note": "ETDA, a government agency, tested an 'Ethical LLM' with the banking sector and plans, with Singapore, Thai-language test prompts to assess how chatbots respond to risky situations; AIGPC is its AI governance centre. This is ethics and conformance testing, without an identified assignment of a qualifying national evaluation role.",
+      "source_ids": [
+        "th-etda-aigpc-2027"
+      ],
+      "citations": {
+        "name": [
+          "th-etda-aigpc-2027"
+        ],
+        "stage": [
+          "th-etda-aigpc-2027"
+        ],
+        "gap": [],
+        "note": [
+          "th-etda-aigpc-2027"
+        ],
+        "display": [
+          "th-etda-aigpc-2027"
+        ]
+      },
+      "display": {
+        "source_links": [
+          "th-etda-aigpc-2027"
+        ]
+      }
+    },
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [
+        "th-etda-aigpc-2027"
+      ],
+      "related_bodies": [
+        "th-etda-aigpc-2027"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [
+        "th-etda-draft-law-2025",
+        "th-thaipbs-2026",
+        "th-mdes-ai-committee-2026",
+        "th-lawplus-draft-ai-act-2026"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "closest_body": [
+        "th-etda-aigpc-2027"
+      ],
+      "status": [],
+      "display": [
+        "th-etda-aigpc-2027",
+        "th-etda-draft-law-2025",
+        "th-thaipbs-2026",
+        "th-mdes-ai-committee-2026",
+        "th-lawplus-draft-ai-act-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "th-etda-aigpc-2027"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "th-etda-aigpc-2027",
+        "th-etda-draft-law-2025",
+        "th-thaipbs-2026",
+        "th-mdes-ai-committee-2026",
+        "th-lawplus-draft-ai-act-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "th-etda-aigpc-2027",
+      "title": "ETDA upgrades AIGPC into central mechanism for an AI Governance Sandbox",
+      "url": "https://www.etda.or.th/th/pr-news/aigc/etda-aigpc-ai-governance-sandbox-2027.aspx",
+      "archive_url": "https://web.archive.org/web/20261016203829/https://www.etda.or.th/th/pr-news/aigc/etda-aigpc-ai-governance-sandbox-2027.aspx",
+      "excerpts": [
+        {
+          "text": "สำนักงานพัฒนาธุรกรรมทางอิเล็กทรอนิกส์ (ETDA) เดินหน้ายกระดับศูนย์ AI Governance Practice Center (AIGPC)",
+          "gloss": "ETDA is upgrading its AI Governance Practice Center.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/name",
+            "/record/closest_body/name",
+            "/record/closest_body/stage",
+            "/record/closest_body/note"
+          ]
+        },
+        {
+          "text": "ตลอดจนร่วมกับภาคธนาคารในการทดสอบ Ethical LLM",
+          "accessed": "2026-10-18",
+          "gloss": "As well as working with the banking sector to test ethical LLMs.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/summary"
+          ]
+        },
+        {
+          "text": "เพื่อประเมินว่า Chatbot จะตอบสนองต่อสถานการณ์เสี่ยงอย่างไร เช่น เด็กสอบถามเรื่องการหนีออกจากบ้าน ผู้ใช้ถามถึงแนวทางทำร้ายตัวเอง หรือ AI ให้คำแนะนำที่อาจนำไปสู่อันตราย",
+          "accessed": "2026-10-18",
+          "gloss": "To assess how a chatbot responds to risky situations, such as a child asking about running away, a user asking how to harm themselves, or AI giving advice that could lead to harm.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/summary"
+          ]
+        },
+        {
+          "text": "ETDA เตรียมร่วมกับประเทศสิงคโปร์พัฒนาชุดคำสั่งทดสอบ หรือ “Test Prompt ภาษาไทย”",
+          "accessed": "2026-10-18",
+          "gloss": "ETDA plans to work with Singapore to develop test prompts, or Thai-language Test Prompts.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/closest_body/note",
+            "/record/summary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "th-etda-draft-law-2025",
+      "title": "MDES and ETDA open consultation on draft principles of Thailand's AI law",
+      "url": "https://www.etda.or.th/th/pr-news/law_ai.aspx",
+      "archive_url": "https://web.archive.org/web/20260703164127/https://www.etda.or.th/th/pr-news/law_ai.aspx",
+      "excerpts": [
+        {
+          "text": "ตั้งแต่วันนี้จนถึง 24 มิถุนายน 2568",
+          "gloss": "from today until 24 June 2025",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "การกำหนดองค์กรสนับสนุนการทำงานของกฎหมายฉบับนี้",
+          "gloss": "specifying an organisation to support the operation of this law",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "th-lawplus-draft-ai-act-2026",
+      "title": "Thailand Holds Public Hearings on Draft of Artificial Intelligence Act",
+      "url": "https://www.lawplusltd.com/2026/10/thailand-holds-public-hearings-on-draft-of-artificial-intelligence-act/",
+      "excerpts": [
+        {
+          "text": "released the Draft Act on Artificial Intelligence (Draft AI Act) for public hearing during 9 July to 14 August 2026",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "th-mdes-ai-committee-2026",
+      "title": "รมว.ดีอี ประชุมคกก.เฉพาะด้านการขับเคลื่อนแผนด้าน AI แห่งชาติ นัดแรก ติดตามสถานะการพัฒนา AI ไทย พร้อมแผนปฏิบัติการด้าน AI ชาติ",
+      "title_en": "Digital economy minister chairs first meeting of the Specialised Committee for Driving the National AI Plan, reviewing the state of Thai AI development and the national AI action plan",
+      "url": "https://mdes.go.th/news/detail/11489-%E0%B8%A3%E0%B8%A1%E0%B8%A7-%E0%B8%94%E0%B8%B5%E0%B8%AD%E0%B8%B5-%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B8%81%E0%B8%81-%E0%B9%80%E0%B8%89%E0%B8%9E%E0%B8%B2%E0%B8%B0%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%82%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99-AI-%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4-%E0%B8%99%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%A3%E0%B8%81-%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B2%E0%B8%A1%E0%B8%AA%E0%B8%96%E0%B8%B2%E0%B8%99%E0%B8%B0%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2-AI-%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%81%E0%B8%9C%E0%B8%99%E0%B8%9B%E0%B8%8F%E0%B8%B4%E0%B8%9A%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%94%E0%B9%89%E0%B8%B2%E0%B8%99-AI-%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4",
+      "excerpts": [
+        {
+          "text": "วันที่ 7 กันยายน 2569",
+          "gloss": "On 7 September 2026 (B.E. 2569)",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "ประธานการประชุมคณะกรรมการเฉพาะด้านการขับเคลื่อนแผนด้านปัญญาประดิษฐ์แห่งชาติ ครั้งที่ 1/2569",
+          "gloss": "chaired meeting 1/2569 of the Specialised Committee for Driving the National AI Plan",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "มีมติให้มีการพิจารณาการปรับโครงสร้างของ ร่าง พ.ร.บ.",
+          "gloss": "resolved that restructuring of the draft Act be considered",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "th-thaipbs-2026",
+      "title": "First draft AI law aims to regulate high-risk uses",
+      "url": "https://policywatch.thaipbs.or.th/article/government-364",
+      "archive_url": "https://web.archive.org/web/20261016204009/https://policywatch.thaipbs.or.th/article/government-364",
+      "excerpts": [
+        {
+          "text": "คณะกรรมการ ซึ่งหมายถึง คณะกรรมการเฉพาะด้านการขับเคลื่อนแผนด้านปัญญาประดิษฐ์แห่งชาติ",
+          "gloss": "the Committee, which means the Specialised Committee for Driving the National AI Plan",
+          "accessed": "2026-11-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

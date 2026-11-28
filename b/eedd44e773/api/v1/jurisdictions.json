@@ -1,0 +1,1384 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "title": "AI Security Institutes tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "eedd44e7732be5295bf71ca853200c028de2fdeb",
+      "built": "2026-11-25T03:02:59Z"
+    }
+  },
+  "jurisdictions": [
+    {
+      "id": "GB",
+      "name": "United Kingdom",
+      "status": "established",
+      "status_since": "2023-11-02",
+      "institute": "gb-aisi"
+    },
+    {
+      "id": "FR",
+      "name": "France",
+      "status": "established",
+      "status_since": "2025-01-31",
+      "institute": "fr-inesia"
+    },
+    {
+      "id": "DE",
+      "name": "Germany",
+      "status": "established",
+      "status_since": "2026-08-31",
+      "institute": "de-aisi"
+    },
+    {
+      "id": "ES",
+      "name": "Spain",
+      "status": "planned",
+      "status_since": "2026-09-21",
+      "institute": "es-isia"
+    },
+    {
+      "id": "NO",
+      "name": "Norway",
+      "status": "proposed",
+      "status_since": "2026-10-07",
+      "institute": "no-ki-norge"
+    },
+    {
+      "id": "NL",
+      "name": "Netherlands",
+      "status": "exploring",
+      "status_since": "2026-06-01",
+      "institute": null
+    },
+    {
+      "id": "SE",
+      "name": "Sweden",
+      "status": "exploring",
+      "status_since": "2024-11-26",
+      "institute": null
+    },
+    {
+      "id": "CH",
+      "name": "Switzerland",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "IT",
+      "name": "Italy",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PL",
+      "name": "Poland",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "IE",
+      "name": "Ireland",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AT",
+      "name": "Austria",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "FI",
+      "name": "Finland",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "DK",
+      "name": "Denmark",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BE",
+      "name": "Belgium",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CZ",
+      "name": "Czechia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "EE",
+      "name": "Estonia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PT",
+      "name": "Portugal",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "IS",
+      "name": "Iceland",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LI",
+      "name": "Liechtenstein",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LU",
+      "name": "Luxembourg",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GR",
+      "name": "Greece",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "HR",
+      "name": "Croatia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SI",
+      "name": "Slovenia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SK",
+      "name": "Slovakia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "HU",
+      "name": "Hungary",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "RO",
+      "name": "Romania",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BG",
+      "name": "Bulgaria",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LT",
+      "name": "Lithuania",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LV",
+      "name": "Latvia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CY",
+      "name": "Cyprus",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MT",
+      "name": "Malta",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "EU",
+      "name": "European Union",
+      "status": "established",
+      "status_since": "2024-02-21",
+      "institute": "eu-ai-office"
+    },
+    {
+      "id": "US",
+      "name": "United States",
+      "status": "established",
+      "status_since": "2024-02-07",
+      "institute": "us-caissi"
+    },
+    {
+      "id": "CA",
+      "name": "Canada",
+      "status": "established",
+      "status_since": "2024-11-12",
+      "institute": "ca-caisi"
+    },
+    {
+      "id": "JP",
+      "name": "Japan",
+      "status": "established",
+      "status_since": "2024-02-14",
+      "institute": "jp-aisi"
+    },
+    {
+      "id": "KR",
+      "name": "South Korea",
+      "status": "established",
+      "status_since": "2024-11-27",
+      "institute": "kr-aisi"
+    },
+    {
+      "id": "SG",
+      "name": "Singapore",
+      "status": "established",
+      "status_since": "2024-05-22",
+      "institute": "sg-aisi"
+    },
+    {
+      "id": "AU",
+      "name": "Australia",
+      "status": "established",
+      "status_since": "2026",
+      "institute": "au-aisi"
+    },
+    {
+      "id": "CN",
+      "name": "People's Republic of China",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TW",
+      "name": "Taiwan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MY",
+      "name": "Malaysia",
+      "status": "established",
+      "status_since": "2026-07-28",
+      "institute": "my-aisafe"
+    },
+    {
+      "id": "ID",
+      "name": "Indonesia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TH",
+      "name": "Thailand",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "VN",
+      "name": "Vietnam",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PH",
+      "name": "Philippines",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "NZ",
+      "name": "New Zealand",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MN",
+      "name": "Mongolia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PG",
+      "name": "Papua New Guinea",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BN",
+      "name": "Brunei",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KH",
+      "name": "Cambodia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LA",
+      "name": "Laos",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MM",
+      "name": "Myanmar",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TL",
+      "name": "Timor-Leste",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KP",
+      "name": "North Korea",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "FJ",
+      "name": "Fiji",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "FM",
+      "name": "Federated States of Micronesia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KI",
+      "name": "Kiribati",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MH",
+      "name": "Marshall Islands",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "NR",
+      "name": "Nauru",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PW",
+      "name": "Palau",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SB",
+      "name": "Solomon Islands",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TO",
+      "name": "Tonga",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TV",
+      "name": "Tuvalu",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "VU",
+      "name": "Vanuatu",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "WS",
+      "name": "Samoa",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AD",
+      "name": "Andorra",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AL",
+      "name": "Albania",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AM",
+      "name": "Armenia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AZ",
+      "name": "Azerbaijan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BA",
+      "name": "Bosnia and Herzegovina",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BY",
+      "name": "Belarus",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GE",
+      "name": "Georgia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KG",
+      "name": "Kyrgyzstan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KZ",
+      "name": "Kazakhstan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MC",
+      "name": "Monaco",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MD",
+      "name": "Moldova",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ME",
+      "name": "Montenegro",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MK",
+      "name": "North Macedonia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "RS",
+      "name": "Serbia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "RU",
+      "name": "Russia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SM",
+      "name": "San Marino",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TJ",
+      "name": "Tajikistan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TM",
+      "name": "Turkmenistan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TR",
+      "name": "Turkey",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "UA",
+      "name": "Ukraine",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "UZ",
+      "name": "Uzbekistan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AG",
+      "name": "Antigua and Barbuda",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AR",
+      "name": "Argentina",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BB",
+      "name": "Barbados",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BO",
+      "name": "Bolivia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BR",
+      "name": "Brazil",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BS",
+      "name": "The Bahamas",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BZ",
+      "name": "Belize",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CL",
+      "name": "Chile",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CO",
+      "name": "Colombia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CR",
+      "name": "Costa Rica",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CU",
+      "name": "Cuba",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "DM",
+      "name": "Dominica",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "DO",
+      "name": "Dominican Republic",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "EC",
+      "name": "Ecuador",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GD",
+      "name": "Grenada",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GT",
+      "name": "Guatemala",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GY",
+      "name": "Guyana",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "HN",
+      "name": "Honduras",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "HT",
+      "name": "Haiti",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "JM",
+      "name": "Jamaica",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KN",
+      "name": "Saint Kitts and Nevis",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LC",
+      "name": "Saint Lucia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MX",
+      "name": "Mexico",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "NI",
+      "name": "Nicaragua",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PA",
+      "name": "Panama",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PE",
+      "name": "Peru",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PY",
+      "name": "Paraguay",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SR",
+      "name": "Suriname",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SV",
+      "name": "El Salvador",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TT",
+      "name": "Trinidad and Tobago",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "UY",
+      "name": "Uruguay",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "VE",
+      "name": "Venezuela",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "IN",
+      "name": "India",
+      "status": "established",
+      "status_since": "2025",
+      "institute": "in-aisi"
+    },
+    {
+      "id": "AE",
+      "name": "United Arab Emirates",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SA",
+      "name": "Saudi Arabia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "IL",
+      "name": "Israel",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "QA",
+      "name": "Qatar",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "EG",
+      "name": "Egypt",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MA",
+      "name": "Morocco",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TN",
+      "name": "Tunisia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "JO",
+      "name": "Jordan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "PK",
+      "name": "Pakistan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BD",
+      "name": "Bangladesh",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LK",
+      "name": "Sri Lanka",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BH",
+      "name": "Bahrain",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "IR",
+      "name": "Iran",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AF",
+      "name": "Afghanistan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BT",
+      "name": "Bhutan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "DJ",
+      "name": "Djibouti",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "DZ",
+      "name": "Algeria",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "IQ",
+      "name": "Iraq",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KW",
+      "name": "Kuwait",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LB",
+      "name": "Lebanon",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LY",
+      "name": "Libya",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MV",
+      "name": "Maldives",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "NP",
+      "name": "Nepal",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "OM",
+      "name": "Oman",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SY",
+      "name": "Syria",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "YE",
+      "name": "Yemen",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "AO",
+      "name": "Angola",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BF",
+      "name": "Burkina Faso",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BI",
+      "name": "Burundi",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BJ",
+      "name": "Benin",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "BW",
+      "name": "Botswana",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CD",
+      "name": "Democratic Republic of the Congo",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CF",
+      "name": "Central African Republic",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CG",
+      "name": "Republic of the Congo",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CI",
+      "name": "Ivory Coast",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CM",
+      "name": "Cameroon",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "CV",
+      "name": "Cape Verde",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ER",
+      "name": "Eritrea",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ET",
+      "name": "Ethiopia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GA",
+      "name": "Gabon",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GH",
+      "name": "Ghana",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GM",
+      "name": "The Gambia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GN",
+      "name": "Guinea",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GQ",
+      "name": "Equatorial Guinea",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "GW",
+      "name": "Guinea-Bissau",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "KE",
+      "name": "Kenya",
+      "status": "planned",
+      "status_since": "2025-03-27",
+      "institute": "ke-ai-safety-institute"
+    },
+    {
+      "id": "KM",
+      "name": "Comoros",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LR",
+      "name": "Liberia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "LS",
+      "name": "Lesotho",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MG",
+      "name": "Madagascar",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ML",
+      "name": "Mali",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MR",
+      "name": "Mauritania",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MU",
+      "name": "Mauritius",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MW",
+      "name": "Malawi",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "MZ",
+      "name": "Mozambique",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "NA",
+      "name": "Namibia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "NE",
+      "name": "Niger",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "NG",
+      "name": "Nigeria",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "RW",
+      "name": "Rwanda",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SC",
+      "name": "Seychelles",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SD",
+      "name": "Sudan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SL",
+      "name": "Sierra Leone",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SN",
+      "name": "Senegal",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SO",
+      "name": "Somalia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SS",
+      "name": "South Sudan",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ST",
+      "name": "São Tomé and Príncipe",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "SZ",
+      "name": "Eswatini",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TD",
+      "name": "Chad",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TG",
+      "name": "Togo",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "TZ",
+      "name": "Tanzania",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "UG",
+      "name": "Uganda",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ZA",
+      "name": "South Africa",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ZM",
+      "name": "Zambia",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    },
+    {
+      "id": "ZW",
+      "name": "Zimbabwe",
+      "status": "none_identified",
+      "status_since": null,
+      "institute": null
+    }
+  ]
+}

@@ -1,0 +1,722 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.4-dev",
+    "as_of": "2026-11-24",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "7a68afb51a8c1fd7bd857ddd8404c0bd3e7e650b",
+      "built": "2026-11-25T00:56:00Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/29",
+  "record": {
+    "id": "LV",
+    "name": "Latvia",
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Artificial Intelligence Centre (MIC)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lv-lvportals-sandbox-primary-proposal",
+          "lv-likumi-ai-centre",
+          "lv-r6-centre-overview",
+          "lv-r6-centre-defence"
+        ],
+        "kind": "other",
+        "id": "related_bodies-dfe423ca3f655331836f4c5ef5c43a20",
+        "role": "The Artificial Intelligence Centre Law tasks it with organising, with the competent institutions, a special regulatory environment in which rules different from those in force may apply, so that AI systems can be developed, tested and improved. The Artificial Intelligence Centre Law tasks it with promoting the application of AI technologies in the public and private sectors.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": []
+        },
+        "display": {
+          "source_links": [
+            "lv-likumi-ai-centre",
+            "lv-lvportals-sandbox-primary-proposal",
+            "lv-r6-centre-overview",
+            "lv-r6-centre-defence"
+          ]
+        }
+      },
+      {
+        "name": "Patērētāju tiesību aizsardzības centrs (PTAC)",
+        "name_en": "Consumer Rights Protection Centre (PTAC)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lv-cabinet-ai-authorities-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "designated",
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_basis": "cabinet_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-0ac057d6004e5ebba0c33e2542dab524",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "authority_roles": [],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lv-cabinet-ai-authorities-2025"
+          ]
+        }
+      },
+      {
+        "name": "Datu valsts inspekcija",
+        "name_en": "Data State Inspectorate",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lv-dvi-ai-market-surveillance-2026",
+          "lv-cabinet-ai-authorities-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "designated",
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_basis": "cabinet_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-e300a3e28f9d5b3cab3b7fcb1007b159",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "lv-cabinet-ai-authorities-2025"
+          ],
+          "authority_roles": [],
+          "designation_basis": [
+            "lv-cabinet-ai-authorities-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "lv-cabinet-ai-authorities-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lv-dvi-ai-market-surveillance-2026",
+            "lv-cabinet-ai-authorities-2025"
+          ]
+        }
+      },
+      {
+        "name": "Ekonomikas ministrija",
+        "name_en": "Ministry of Economics",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lv-cabinet-ai-authorities-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "designation_state": "designated",
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_basis": "cabinet_decision",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-b6417ce54fe5574a92f19a8f2f110b25",
+        "role": "",
+        "citations": {
+          "name": [],
+          "name_en": [],
+          "counts_as_aisi": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "authority_roles": [],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lv-cabinet-ai-authorities-2025"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-31",
+      "reason": "Check for a published mandate or technical programme to evaluate advanced models at the AI Centre beyond applied testing, risk advice and regulatory-sandbox coordination."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English query and AI Centre Law confirm a national centre with AI security-risk identification and research-capacity functions. The reviewed statutory tasks concern responsible use and applied risk management, without an explicit mandate to evaluate advanced models for severe risks; flag the boundary for review. The broader query returned the same AI Centre Law and practical pilot-project calls; it did not resolve the existing mandate-scope flag. Partial check only; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Latvian and English review of the AI Centre's current statutory tasks, sandbox rules and later defence/adoption functions; not a full record recheck."
+        },
+        {
+          "date": "2026-10-18",
+          "scope": "Aligned current rationale wording with the consolidated capability-or-behaviour-risk test, removing the old severity requirement. This editorial consistency pass adds no research claim and does not change status or the last full-check date."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Latvian, with the regional development ministry's news page (newest 6 November). Left for review: the president's participation on 28 October in a virtual leaders' meeting on international AI safety cooperation, and Latvia's place on the endorsement list of the French presidency's Paris Call for AI Safety and Security, published on 9 November and since updated. The Latvian release gives 31 countries for the meeting where Finland's correction says 29. No new AI Centre evaluation mandate, authority act or Latvian announcement of the endorsement was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "lv",
+          "national_or_official": true,
+          "query": "Latvija mākslīgā intelekta drošības institūts modeļu novērtēšana valdība",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Latvia\" national \"AI safety\" institute evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Latvia national artificial intelligence security evaluation institute proposal study",
+          "source_ids": [
+            "lv-likumi-ai-centre"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "lv",
+          "national_or_official": true,
+          "query": "site:gov.lv mākslīgā intelekta centrs drošības modeļu novērtēšana 2026",
+          "source_ids": [
+            "lv-dvi-ai-market-surveillance-2026",
+            "lv-lvportals-sandbox-primary-proposal",
+            "lv-r6-centre-defence",
+            "lv-r6-centre-overview",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Latvia Artificial Intelligence Centre safety frontier model evaluation 2026",
+          "source_ids": [
+            "lv-dvi-ai-market-surveillance-2026",
+            "lv-lvportals-sandbox-primary-proposal",
+            "lv-r6-centre-defence",
+            "lv-r6-centre-overview",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "lv",
+          "national_or_official": true,
+          "query": "\"Mākslīgā intelekta centrs\" \"modeļu\" \"drošības\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Latvia\" \"AI Centre\" \"evaluation\" 2026 safety",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded lv queries use a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. The additional status review used Latvian and English searches, the Latvian consolidated law and an English ministry account of sandbox rules. Search batches for the additional status review, using 1-based positions in check.searches: 4, 5; 6, 7. Each group records the same exact registered URLs found in its combined search results, without attribution to an individual query. Explicit page opens and finds and unverified URL variants are excluded. Groups list the recorded queries; some requests also contained additional queries retained in the research evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "lv-likumi-ai-centre",
+        "lv-lvportals-sandbox-primary-proposal",
+        "lv-r6-centre-overview",
+        "lv-r6-centre-defence"
+      ],
+      "governance_note": "The current consolidated law and Latvian and English ministry accounts establish national governance, applied risk management and sandbox testing. They do not establish the qualifying remit to evaluate advanced models; confidence is medium following both language searches.",
+      "log": []
+    },
+    "source_ids": [
+      "lv-likumi-ai-centre",
+      "lv-lvportals-sandbox-primary-proposal",
+      "lv-dvi-ai-market-surveillance-2026",
+      "lv-cabinet-ai-authorities-2025",
+      "lv-lvportals-sandbox",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026",
+      "lv-r6-centre-overview",
+      "lv-r6-centre-defence",
+      "fr-elysee-paris-call-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "154",
+      "subregion": "Northern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 1860565,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": true,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "LVA",
+    "m49": "428",
+    "wikidata": "Q211",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [
+      {
+        "id": "claims-7b25fd5a6fa3419d89caa9b84da9f18a",
+        "kind": "function",
+        "code": "sandbox",
+        "basis": "mandate",
+        "body_id": "related_bodies-dfe423ca3f655331836f4c5ef5c43a20",
+        "text": "The Artificial Intelligence Centre Law tasks it with organising, with the competent institutions, a special regulatory environment in which rules different from those in force may apply, so that AI systems can be developed, tested and improved.",
+        "source_ids": [
+          "lv-likumi-ai-centre"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "lv-likumi-ai-centre"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "lv-likumi-ai-centre"
+          ]
+        }
+      },
+      {
+        "id": "claims-06ddecfb054e4dcc8f069e55ffb17cae",
+        "kind": "function",
+        "code": "adoption",
+        "basis": "mandate",
+        "body_id": "related_bodies-dfe423ca3f655331836f4c5ef5c43a20",
+        "text": "The Artificial Intelligence Centre Law tasks it with promoting the application of AI technologies in the public and private sectors.",
+        "source_ids": [
+          "lv-likumi-ai-centre"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "lv-likumi-ai-centre"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "lv-likumi-ai-centre"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. Consumer Rights Protection Centre (PTAC) is its AI Act single point of contact and market-surveillance authority; two other AI Act bodies are listed below.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Latvian and English.\n\nNext check due by 31 December 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026",
+        "lv-cabinet-ai-authorities-2025"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [
+        "lv-likumi-ai-centre"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026",
+        "lv-cabinet-ai-authorities-2025"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "lv-likumi-ai-centre",
+        "lv-lvportals-sandbox",
+        "ov-wikipedia",
+        "lv-lvportals-sandbox-primary-proposal",
+        "eu-ai-act-authorities-2026",
+        "lv-dvi-ai-market-surveillance-2026",
+        "lv-cabinet-ai-authorities-2025",
+        "lv-r6-centre-overview",
+        "lv-r6-centre-defence",
+        "fr-elysee-paris-call-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Latvia Patērētāju tiesību aizsardzības centrs",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/3/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,LV,2025,1860565",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-elysee-paris-call-2026",
+      "title": "Paris Call for AI safety and security.",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/11/09/paris-call-for-ai-safety-and-security",
+      "excerpts": []
+    },
+    {
+      "id": "lv-cabinet-ai-authorities-2025",
+      "title": "Ministru kabineta 25.02.2025. sēdes protokols Nr. 8, 49.§",
+      "title_en": "Minutes No. 8 of the Cabinet meeting of 25 February 2025, item 49",
+      "url": "https://tapportals.mk.gov.lv/meetings/protocols/ae207d5e-3ee8-4e84-ae62-6f41ed54318e",
+      "excerpts": [
+        {
+          "text": "Datu valsts inspekcijai nodrošināt mākslīgā intelekta tirgus uzraudzību augsta riska mākslīgā intelekta sistēmām, kas uzskaitītas MI akta III pielikuma 1. punktā,",
+          "accessed": "2026-10-17",
+          "gloss": "The Data State Inspectorate is to ensure AI market surveillance for high-risk AI systems listed in point 1 of Annex III to the AI Act,",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/designation_state",
+            "/record/related_bodies/2/designation_basis"
+          ]
+        },
+        {
+          "text": "Ministru kabineta 25.02.2025. sēdes protokols Nr. 8",
+          "accessed": "2026-10-17",
+          "gloss": "Minutes No. 8 of the Cabinet meeting of 25 February 2025",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/designation_basis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lv-dvi-ai-market-surveillance-2026",
+      "title": "Mākslīgā intelekta akta uzraudzība",
+      "title_en": "AI Act supervision",
+      "url": "https://www.dvi.gov.lv/lv/maksliga-intelekta-akta-uzraudziba",
+      "excerpts": []
+    },
+    {
+      "id": "lv-likumi-ai-centre",
+      "title": "Mākslīgā intelekta centra likums (Artificial Intelligence Centre Law)",
+      "title_en": "Artificial Intelligence Centre Law",
+      "url": "https://m.likumi.lv/ta/id/359339",
+      "archive_url": "https://web.archive.org/web/20261017012425/https://m.likumi.lv/ta/id/359339",
+      "excerpts": [
+        {
+          "text": "Centrs sadarbībā ar kompetentajām institūcijām organizē speciālo regulatīvo vidi, kurā var darboties no spēkā esošiem normatīvajiem aktiem atšķirīgi noteikumi, lai nodrošinātu mākslīgā intelekta sistēmu izstrādi, pārbaudi un attīstību.",
+          "gloss": "The centre, in cooperation with the competent institutions, organises a special regulatory environment in which rules different from those of the regulations in force may apply, in order to ensure the development, testing and improvement of artificial intelligence systems.",
+          "anchors": [
+            {
+              "text": "nodibinājuma \"Mākslīgā intelekta centrs\" (turpmāk — centrs)",
+              "kind": "definition",
+              "gloss": "the foundation \"Artificial Intelligence Centre\" (the centre)"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "veicināt mākslīgā intelekta tehnoloģiju pielietojumu publiskajā un privātajā sektorā",
+          "gloss": "promote the application of artificial intelligence technologies in the public and private sectors",
+          "anchors": [
+            {
+              "text": "4. pants. Centra uzdevumi (1) Centram ir šādi uzdevumi:",
+              "kind": "heading",
+              "gloss": "Section 4. Tasks of the centre (1) The centre has the following tasks:"
+            },
+            {
+              "text": "nodibinājuma \"Mākslīgā intelekta centrs\" (turpmāk — centrs)",
+              "kind": "definition",
+              "gloss": "the foundation \"Artificial Intelligence Centre\" (the centre)"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lv-lvportals-sandbox",
+      "title": "VARAM has prepared rules for safe testing of AI solutions in a special regulatory environment",
+      "url": "https://lvportals.lv/dienaskartiba/384869-varam-izstradajusi-regulejumu-drosai-maksliga-intelekta-risinajumu-testesanai-specialaja-regulativaja-vide-2026",
+      "archive_url": "https://web.archive.org/web/20260215195347/https://lvportals.lv/dienaskartiba/384869-varam-izstradajusi-regulejumu-drosai-maksliga-intelekta-risinajumu-testesanai-specialaja-regulativaja-vide-2026",
+      "excerpts": []
+    },
+    {
+      "id": "lv-lvportals-sandbox-primary-proposal",
+      "title": "Regulatory framework for testing AI solutions in a special regulatory environment",
+      "url": "https://www.varam.gov.lv/en/article/ministry-smart-administration-and-regional-development-develops-regulatory-framework-safe-testing-artificial-intelligence-solutions-special-regulatory-environment",
+      "archive_url": "https://web.archive.org/web/20260515104227/https://www.varam.gov.lv/en/article/ministry-smart-administration-and-regional-development-develops-regulatory-framework-safe-testing-artificial-intelligence-solutions-special-regulatory-environment",
+      "excerpts": []
+    },
+    {
+      "id": "lv-r6-centre-defence",
+      "title": "Valdība piešķir finansējumu Mākslīgā intelekta centram valsts aizsardzības un drošības stiprināšanai",
+      "title_en": "Government allocates funding to the Artificial Intelligence Centre to strengthen national defence and security",
+      "url": "https://www.mod.gov.lv/lv/zinas/valdiba-pieskir-finansejumu-maksliga-intelekta-centram-valsts-aizsardzibas-un-drosibas",
+      "excerpts": []
+    },
+    {
+      "id": "lv-r6-centre-overview",
+      "title": "Mākslīgā intelekta centrs",
+      "title_en": "Artificial Intelligence Centre",
+      "url": "https://www.varam.gov.lv/lv/maksliga-intelekta-centrs",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

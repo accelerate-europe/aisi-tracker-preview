@@ -1,0 +1,360 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "54b706d16fe00d80e98c4bef221a3db4bb1fd442",
+      "built": "2026-11-25T16:05:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/28",
+  "record": {
+    "id": "LT",
+    "name": "Lithuania",
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Communications Regulatory Authority (RRT)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lt-ai-authorities-ministry",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "single_point_of_contact"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-8c4595e6d7515664b50c7ddcd5cab3a8",
+        "role": "",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lt-ai-authorities-ministry"
+          ]
+        }
+      },
+      {
+        "name": "Innovation Agency",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "lt-ai-authorities-ministry",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "notifying"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "law",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-871b94a361b75d9a9550525d7841cda6",
+        "role": "",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "lt-ai-authorities-ministry"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-31",
+      "reason": "Retry government sources."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. The English query did not identify a qualifying institute, commitment, proposal or institute-specific study. The ministry's primary governance page assigns notifying functions to the Innovation Agency and market surveillance and contact functions to RRT. The broader query returned LitAI infrastructure and AI-governance project excerpts; neither snippet establishes an evaluator of advanced models. Partial check only; the last full-check date is unchanged. The ministry passages were read through the web reader on 17 October 2026, despite separate complete-copy preservation failures."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Lithuanian, with the economy and innovation ministry's news page (newest 9 November). Left for review: the ministry's confirmation that the Seimas adopted the AI Act implementation law on 5 November, with commencement announced for 1 December. The promulgated act and its article-level allocations were not read, and adoption is not yet commencement. No national model evaluator was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "lt",
+          "national_or_official": true,
+          "query": "Lietuva dirbtinio intelekto saugos institutas modelių vertinimas vyriausybė",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Lithuania\" national \"AI safety\" institute evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Lithuania national artificial intelligence security evaluation institute proposal study",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded lt query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "lt-ai-authorities-ministry"
+      ],
+      "governance_note": "The ministry describes the Innovation Agency and Communications Regulatory Authority's AI Act functions; this is substantive national governance evidence.",
+      "log": []
+    },
+    "source_ids": [
+      "lt-ktu-centre",
+      "lt-ai-authorities-ministry",
+      "ai-act-tracker",
+      "eu-ai-act-authorities-2026"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "154",
+      "subregion": "Northern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 2890664,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": true,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "LTU",
+    "m49": "440",
+    "wikidata": "Q37",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. Communications Regulatory Authority (RRT) is its AI Act single point of contact and market-surveillance authority; one other AI Act body is listed below.",
+    "notes": "Checked in full on or before 16 October 2026, searching in Lithuanian and English.\n\nNext check due by 31 December 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "lt-ktu-centre",
+        "eu-ai-act-authorities-2026",
+        "lt-ai-authorities-ministry"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Lithuania Lietuvos Respublikos ryšių reguliavimo tarnyba",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state",
+            "/record/related_bodies/1/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,LT,2025,2890664",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lt-ai-authorities-ministry",
+      "title": "Artificial Intelligence",
+      "url": "https://eimin.lrv.lt/en/sector-activities/digital-policy/artificial-intelligence/",
+      "archive_url": "https://web.archive.org/web/20260310160244/https://eimin.lrv.lt/en/sector-activities/digital-policy/artificial-intelligence/",
+      "excerpts": []
+    },
+    {
+      "id": "lt-ktu-centre",
+      "title": "New centre in Kaunas: a strategic investment in sustainable artificial intelligence in Lithuania",
+      "url": "https://en.ktu.edu/news/new-centre-in-kaunas-a-strategic-investment-in-sustainable-artificial-intelligence-in-lithuania/",
+      "archive_url": "https://web.archive.org/web/20261017012232/https://en.ktu.edu/news/new-centre-in-kaunas-a-strategic-investment-in-sustainable-artificial-intelligence-in-lithuania/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

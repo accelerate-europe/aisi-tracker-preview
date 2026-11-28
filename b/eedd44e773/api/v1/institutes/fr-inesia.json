@@ -1,0 +1,2944 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "eedd44e7732be5295bf71ca853200c028de2fdeb",
+      "built": "2026-11-25T03:02:59Z"
+    }
+  },
+  "aisi_json_pointer": "/institutes/1",
+  "record": {
+    "id": "fr-inesia",
+    "name": "National Institute for AI Evaluation and Security",
+    "name_local": "Institut national pour l'évaluation et la sécurité de l'intelligence artificielle",
+    "acronym": "INESIA",
+    "short_name": "INESIA",
+    "jurisdiction_id": "FR",
+    "host": "Federation steered by SGDSN and DGE",
+    "legal_form": "federation_of_existing_bodies",
+    "mandate": "Analyses systemic risks to national security, supports the implementation of AI regulation and evaluates the performance and reliability of AI models; federates existing bodies without a new legal structure.",
+    "website": "https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+    "funding": [
+      {
+        "kind": "none_disclosed",
+        "source_ids": [
+          "fr-dge",
+          "fr-sgdsn-aisi"
+        ],
+        "confidence": "medium",
+        "commitment": "not_applicable",
+        "funding_source": "unknown",
+        "id": "funding-5900b7d819c0501a83196d3281da8527",
+        "coverage": "whole_institute",
+        "eur_per_year_est": null,
+        "description": "No budget published for the institute as a whole.",
+        "citations": {
+          "kind": [],
+          "confidence": [],
+          "commitment": [],
+          "funding_source": [],
+          "id": [],
+          "coverage": [],
+          "eur_per_year_est": [],
+          "description": [],
+          "display": [],
+          "amount": [],
+          "annual_amount": []
+        },
+        "display": {
+          "annual_estimate": false,
+          "value": "Not published",
+          "qualifiers": [
+            "indirect or secondary"
+          ],
+          "native_value": "Not published",
+          "native_qualifiers": [],
+          "budget_citations": [],
+          "generated_description": true
+        }
+      },
+      {
+        "kind": "not_institute_specific",
+        "amount": 13500000,
+        "currency": "EUR",
+        "description": "€13.5m from France 2030 for Inria's AI Evaluation research programme, launched on 22 September 2026 and described as INESIA's scientific roadmap. This funds the programme.",
+        "source_ids": [
+          "r4-fr-inria-evaluation-funding"
+        ],
+        "confidence": "high",
+        "commitment": "announced",
+        "funding_source": "national_government",
+        "notes": "Inria identifies itself as the programme operator and France 2030 as funder. The source's à hauteur de is read as stating the allocated amount, not a maximum, so no amount bound is recorded.",
+        "id": "funding-ff6f1638b2625427bba577f6303e0621",
+        "coverage": "not_institute_specific",
+        "eur_per_year_est": null,
+        "citations": {
+          "kind": [],
+          "amount": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "currency": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "description": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "confidence": [],
+          "commitment": [],
+          "funding_source": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "notes": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "id": [],
+          "coverage": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "eur_per_year_est": [],
+          "display": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "annual_amount": []
+        },
+        "display": {
+          "annual_estimate": false,
+          "value": "~EUR 14m",
+          "qualifiers": [
+            "announced"
+          ],
+          "native_value": "~EUR 14m",
+          "native_qualifiers": [
+            "announced"
+          ],
+          "budget_citations": [
+            "r4-fr-inria-evaluation-funding"
+          ]
+        }
+      }
+    ],
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Verified Inria's programme announcement through its rendered primary text: France 2030 funding of €13.5m for the AI Evaluation programme, not a standalone INESIA budget. Funding only, not a full re-check."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Checked the full multilingual report and its Singapore publication date. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Funding scope classification and Budget selection review; full institute check date unchanged."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Added retained primary quotations for the federation and its placement, and corrected the English glosses. This was a partial evidence check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Mandate texts rechecked against the founding announcement and the SGDSN page; unsupported wording removed. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "National partner entries rechecked against the works-with rule; entries without a task assigned with the institute removed. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Post-release re-check of SGDSN publications and the INESIA page, DGE, ministry and numerique.gouv.fr press pages: the Franco-German joint statement of 17 July 2026 added as a source for the agreement. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "News re-check since 24 October 2026: SGDSN publications, the enterprise directorate's and the digital ministry's press, the economy ministry's press through search, Senate question 10119 (unanswered) and coverage of the minister's Senate hearing of 4 November. Nothing new found. Left for review: the body of SGDSN's INESIA page (not retrievable). Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-08",
+          "scope": "Staff and budget pass of 7 November 2026: Inria's PentestIA vacancy, which works with INESIA's members, added to the staffing-model notes. A second Inria vacancy (2026-10579, LLM evaluation) found by the pass had been removed when re-read on 8 November and is not cited. Staffing only, not a full record re-check."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Post-release news re-check from 6 November 2026: SGDSN publications and its INESIA page, the economy ministry's press pages and the digital minister's agenda for 9 to 13 November, and the DGE and DINUM news pages, whose newest items were from June and August, supplemented by searches. Nothing new on the institute; the public AI procurement guide of 6 November is credited to other bodies. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "Post-release news re-check from 8 November 2026: SGDSN publications (newest 27 October) and its INESIA page, DGE news (21 October), DINUM news and press (7 August and 30 July), and the economy ministry's press (10 November). Left for review: the report of the government's commission on generative AI, presented on 10 November, which recommends strengthening the institute's mandate and resources (recommendations, not adopted changes), and the network-wide Paris Call of 9 November. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-13",
+          "scope": "Post-release news re-check from 10 November 2026: SGDSN publications (newest 27 October) and its INESIA page (dated 5 February 2026), DGE news (21 October) and press (22 June), the economy ministry's press (12 November) and DINUM news (7 August) and press (10 September). The presidency's handover statement of 10 November reports recommendations already in the record; no adopted or announced government response strengthening INESIA was found. A newsletter of 12 November on the state's AI site could not be opened, and the DGE and DINUM listings returned were stale. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-14",
+          "scope": "Sources checked for developments from 13 November 2026: SGDSN's publications (newest 27 October), the institute's page (5 February 2026), DGE's news (21 October) and press (22 June), the economy and digital ministry's press (13 November), DINUM's news page (news 7 August, press 30 July) and information page (news 28 July, press 10 July), and the Elysée's account of the expert report handed over on 10 November. No adopted or announced government decision to strengthen the institute was found; the report's recommendations are not a decision. No new institute publication was found. The DGE and DINUM listings were stale, so coverage of 13 and 14 November there is incomplete. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-20",
+          "scope": "Sources checked for developments from 14 November 2026: SGDSN's publications (newest 27 October), the institute's page (5 February 2026), DGE's news (3 November) and press (22 June), the economy and digital ministry's press (19 November), and DINUM's news (12 November) and press (10 September). No new institute publication was found, and no adopted or announced government decision to strengthen the institute. Several listings were stale, so coverage is incomplete. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-23",
+          "scope": "Post-release news re-check from 20 November 2026: SGDSN publications (newest 27 October) and its INESIA page, DGE press (newest 17 November), the digital ministry's press (newest 10 September) and the Prime Minister's speech of 19 November. The government's cyber plan of 19 November says INESIA's development will continue; it gives no new mandate, power or budget, so nothing is entered. The plan's primary page was not found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "log": [
+        {
+          "date": "2026-11-14",
+          "text": "Searched for a budget amount or staff count for INESIA itself: Senate and National Assembly reports on the 2026 and 2027 finance bills for programmes 129 and 134, parliamentary written questions, SGDSN, DGE and economy ministry press releases, the SGDSN roadmap and a parliamentary mission report to the Prime Minister, in French and English."
+        },
+        {
+          "date": "2026-10-19",
+          "text": "Cyber agency searched on 19 October 2026 in French and English: ANSSI; the DGE announcement, the roadmap and ANSSI's own page were read for its relation to the institute. Failed fetches are in the sources' access notes."
+        },
+        {
+          "date": "2026-10-20",
+          "text": "Testing: the multilingual exercise report of 26 June 2025 and the roadmap announcement were read for testing credited to the institute or its members, and searched for a stand-alone evaluation of a named model."
+        },
+        {
+          "date": "2026-10-21",
+          "text": "Model access: searched on 21 October 2026 in French and English for an access event, legal power or agreement with a developer that has a model in Epoch AI's frontier set, and the joint testing report was read for an access arrangement."
+        }
+      ],
+      "functions": {
+        "date": "2026-11-14",
+        "codes": [
+          "model_testing",
+          "evaluation_methods",
+          "research",
+          "standards_guidance",
+          "regulatory_enforcement",
+          "regulatory_support",
+          "risk_monitoring",
+          "foresight",
+          "policy_advice",
+          "incident_response",
+          "international_cooperation",
+          "convening",
+          "capacity_building",
+          "talent",
+          "adoption",
+          "public_access_continuity",
+          "certification",
+          "sandbox"
+        ]
+      }
+    },
+    "source_ids": [
+      "fr-dge",
+      "fr-roadmap",
+      "depth-de-fr-cooperation",
+      "network-2025",
+      "network-nist-2026",
+      "network-multilingual-2025",
+      "catalogue-agentic-report",
+      "gb-joint-testing",
+      "r4-fr-inria-evaluation-funding",
+      "fr-sgdsn-aisi",
+      "j7-fr-inria-about",
+      "j8-fr-anssi-home-render",
+      "fr-elysee-commission-ia-2026",
+      "fr-commission-ia-report-2026",
+      "r3-gb-network-best-practice-release"
+    ],
+    "notes": "Adopted a 2026-27 roadmap in Feb 2026. Other French testing work is credited to Inria, LNE and PEReN rather than to INESIA.\n\nOn 10 November 2026 the French presidency announced the handover of the report of the expert commission on generative AI and vulnerabilities; the report recommends strengthening INESIA's mandate and resources, with lasting funding and recruitment of experts. These are recommendations.",
+    "mandate_short": "Builds public expertise in evaluating and securing advanced AI, and supports AI Act implementation.",
+    "legal_basis": {
+      "type": "administrative",
+      "state": "in_force",
+      "source_ids": [
+        "fr-dge"
+      ],
+      "citations": {
+        "type": [
+          "fr-dge"
+        ],
+        "state": [
+          "fr-dge"
+        ],
+        "display": [
+          "fr-dge"
+        ]
+      }
+    },
+    "placement": {
+      "host_type": "multiple",
+      "source_ids": [
+        "fr-dge"
+      ],
+      "citations": {
+        "host_type": [
+          "fr-dge"
+        ],
+        "display": [
+          "fr-dge"
+        ]
+      }
+    },
+    "wikidata": "Q132127655",
+    "identifier_source_ids": [
+      "wikidata-fr-inesia-identifier"
+    ],
+    "outputs": [
+      {
+        "date": "2025-02-10",
+        "type": "joint_testing",
+        "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+        "source_ids": [
+          "network-multilingual-2025",
+          "fix-output-network-multilingual-arxiv",
+          "r3-jp-activity-index",
+          "fix-output-sg-multilingual-summary",
+          "r3-jp-multilingual-full-report-notice",
+          "r5-sg-multilingual-full-report-page"
+        ],
+        "lineage": "network-multilingual-2025",
+        "attribution": "named_contributor",
+        "attribution_note": "The February summary and June full report are one lineage, dated from the summary. The full report names this institute as a contributor; Singapore AISI dates its full-report page 26 June 2025. Credit begins with that dated version, rather than the later Japanese publication notice.",
+        "qualifies_as": "joint_testing",
+        "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report. Use the recorded credit date, not an earlier version without established institute credit.",
+        "credit": {
+          "institute_id": "fr-inesia",
+          "date": "2025-06-26"
+        },
+        "functions": [
+          "international_cooperation"
+        ],
+        "credited_from": "2025-06-26",
+        "citations": {
+          "date": [
+            "fix-output-sg-multilingual-summary"
+          ],
+          "type": [],
+          "title": [
+            "network-multilingual-2025"
+          ],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "network-multilingual-2025"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "functions": [],
+          "credited_from": [],
+          "display": [
+            "network-multilingual-2025",
+            "fix-output-sg-multilingual-summary",
+            "r5-sg-multilingual-full-report-page"
+          ]
+        }
+      },
+      {
+        "date": "2025-07-17",
+        "type": "joint_testing",
+        "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+        "source_ids": [
+          "catalogue-agentic-report",
+          "gb-joint-testing",
+          "fix-output-network-agentic-arxiv",
+          "depth-gb-blog",
+          "eu-joint-testing-2025"
+        ],
+        "lineage": "network-agentic-2025",
+        "attribution": "named_contributor",
+        "attribution_note": "The original report names the institute as a contributing organisation or, for the EU AI Office, as a participant running cybersecurity evaluations. Documented in the international network report.",
+        "qualifies_as": "joint_testing",
+        "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report.",
+        "credit": {
+          "institute_id": "fr-inesia",
+          "date": "2025-07-17"
+        },
+        "citations": {
+          "date": [
+            "depth-gb-blog"
+          ],
+          "type": [],
+          "title": [
+            "fix-output-network-agentic-arxiv"
+          ],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "eu-joint-testing-2025",
+            "catalogue-agentic-report"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "catalogue-agentic-report",
+            "depth-gb-blog"
+          ],
+          "display": [
+            "eu-joint-testing-2025",
+            "catalogue-agentic-report",
+            "depth-gb-blog",
+            "fix-output-network-agentic-arxiv"
+          ]
+        }
+      },
+      {
+        "date": "2026-02-12",
+        "type": "report",
+        "title": "Feuille de route INESIA 2026-2027",
+        "source_ids": [
+          "fr-roadmap"
+        ],
+        "lineage": "roadmap-2026-2027",
+        "attribution": "institutional_author",
+        "attribution_note": "The official DGE announcement explicitly identifies this as the roadmap adopted by INESIA and links the named document. It is a formal original institute roadmap, not a generic government AI strategy. The publication and attribution are supported by the dated official announcement.",
+        "qualifies_as": "none",
+        "qualification_note": "Institute programme roadmap, not reported testing or technical research.",
+        "credit": {
+          "institute_id": "fr-inesia",
+          "date": "2026-02-12"
+        },
+        "functions": [],
+        "citations": {
+          "date": [
+            "fr-roadmap"
+          ],
+          "type": [],
+          "title": [
+            "fr-roadmap"
+          ],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "fr-roadmap"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "fr-roadmap"
+          ],
+          "functions": [],
+          "display": [
+            "fr-roadmap"
+          ]
+        }
+      },
+      {
+        "title": "What should evaluators prioritise when resources are limited?",
+        "date": "2026-07-08",
+        "type": "guidance",
+        "source_ids": [
+          "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+          "rb-fr-publications",
+          "r3-gb-network-best-practice-release"
+        ],
+        "lineage": "evaluation-prioritisation-guidance",
+        "attribution": "institutional_author",
+        "attribution_note": "The official SGDSN search-index text explicitly names INESIA as publishing the blog post and supplies its title and date.",
+        "qualifies_as": "none",
+        "qualification_note": "Substantive guidance remains in the publication catalogue but does not itself report a qualifying evaluation, test result, benchmark or technical research result.",
+        "credit": {
+          "institute_id": "fr-inesia",
+          "date": "2026-07-08"
+        },
+        "functions": [
+          "evaluation_methods",
+          "international_cooperation"
+        ],
+        "citations": {
+          "title": [
+            "fix-output-fr-inesia-evaluation-prioritisation-guidance"
+          ],
+          "date": [
+            "fix-output-fr-inesia-evaluation-prioritisation-guidance"
+          ],
+          "type": [],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "fix-output-fr-inesia-evaluation-prioritisation-guidance"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "r3-gb-network-best-practice-release",
+            "rb-fr-publications"
+          ],
+          "functions": [],
+          "display": [
+            "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+            "r3-gb-network-best-practice-release",
+            "rb-fr-publications"
+          ]
+        }
+      }
+    ],
+    "agreements": [
+      {
+        "counterparty_type": "government",
+        "counterparty": "Government of Germany, for its planned AI safety institute",
+        "state": "announced",
+        "date": "2026-07-17",
+        "scope": "Governments agree future collaboration between INESIA and its German counterpart, sharing best practices and building capability through exchanges of knowledge and expertise.",
+        "source_ids": [
+          "fr-de-joint-statement-2026",
+          "depth-de-fr-cooperation"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-bfab34c6f4f75378ac068793ab21054a",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "depth-de-fr-cooperation",
+            "fr-de-joint-statement-2026"
+          ],
+          "state": [
+            "depth-de-fr-cooperation"
+          ],
+          "date": [
+            "depth-de-fr-cooperation"
+          ],
+          "scope": [
+            "depth-de-fr-cooperation",
+            "fr-de-joint-statement-2026"
+          ],
+          "participation": [
+            "depth-de-fr-cooperation"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "depth-de-fr-cooperation",
+            "fr-de-joint-statement-2026"
+          ]
+        }
+      }
+    ],
+    "head": {
+      "state": "not_published",
+      "notes": "Searched the DGE founding announcement, the current roadmap announcement and French and English leadership queries on 19 October 2026 for a named top executive. The SGDSN roadmap PDF and its one alternative copy were blocked."
+    },
+    "reports_to": {
+      "state": "stated",
+      "name": "Secrétariat général de la défense et de la sécurité nationale; Direction générale des Entreprises",
+      "name_en": "Secretariat-General for Defence and National Security; Directorate-General for Enterprise",
+      "source_ids": [
+        "fr-roadmap"
+      ],
+      "citations": {
+        "state": [],
+        "name": [
+          "fr-roadmap"
+        ],
+        "name_en": [],
+        "display": [
+          "fr-roadmap"
+        ]
+      }
+    },
+    "national_partners": {
+      "state": "stated",
+      "entries": [
+        {
+          "id": "np-fr-anssi",
+          "name": "Agence nationale de la sécurité des systèmes d'information",
+          "name_en": "National Cybersecurity Agency of France",
+          "acronym": "ANSSI",
+          "what": "national information systems security agency",
+          "relation": "member",
+          "cyber_agency": true,
+          "how": "Is first among the national evaluation and security bodies the institute federates without a new legal structure.",
+          "source_ids": [
+            "fr-dge",
+            "j8-fr-anssi-home-render"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "fr-dge"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "fr-dge"
+            ],
+            "relation": [
+              "fr-dge"
+            ],
+            "cyber_agency": [
+              "j8-fr-anssi-home-render"
+            ],
+            "how": [
+              "fr-dge"
+            ],
+            "display": [
+              "fr-dge",
+              "j8-fr-anssi-home-render"
+            ]
+          }
+        },
+        {
+          "id": "np-fr-lne",
+          "name": "Laboratoire National de Métrologie et d’Essais",
+          "name_en": "National Metrology and Testing Laboratory",
+          "acronym": "LNE",
+          "what": "national metrology and testing laboratory",
+          "relation": "member",
+          "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+          "source_ids": [
+            "fr-dge"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "fr-dge"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "fr-dge"
+            ],
+            "relation": [
+              "fr-dge"
+            ],
+            "how": [
+              "fr-dge"
+            ],
+            "display": [
+              "fr-dge"
+            ]
+          }
+        },
+        {
+          "id": "np-fr-inria",
+          "name": "Institut national de recherche en sciences et technologies du numérique",
+          "name_en": "National Institute for Research in Digital Science and Technology",
+          "acronym": "Inria",
+          "what": "public digital science research institute",
+          "relation": "member",
+          "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+          "source_ids": [
+            "fr-dge",
+            "j7-fr-inria-about"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "fr-dge"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "j7-fr-inria-about"
+            ],
+            "relation": [
+              "fr-dge"
+            ],
+            "how": [
+              "fr-dge"
+            ],
+            "display": [
+              "fr-dge",
+              "j7-fr-inria-about"
+            ]
+          }
+        },
+        {
+          "id": "np-fr-peren",
+          "name": "Pôle d’expertise de la régulation numérique",
+          "name_en": "Digital Regulation Expertise Centre",
+          "acronym": "PEReN",
+          "what": "digital regulation expertise centre",
+          "relation": "member",
+          "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+          "source_ids": [
+            "fr-dge"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "fr-dge"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "fr-dge"
+            ],
+            "relation": [
+              "fr-dge"
+            ],
+            "how": [
+              "fr-dge"
+            ],
+            "display": [
+              "fr-dge"
+            ]
+          }
+        },
+        {
+          "id": "np-fr-amiad",
+          "name": "Agence ministérielle pour l’intelligence artificielle de défense",
+          "name_en": "Ministerial Agency for Defence Artificial Intelligence",
+          "acronym": "AMIAD",
+          "what": "defence AI agency",
+          "relation": "works_with",
+          "how": "Takes part in work led by ANSSI with the other INESIA parties to design evaluation methods for the cybersecurity of AI systems.",
+          "source_ids": [
+            "fr-roadmap"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "fr-roadmap"
+            ],
+            "name_en": [],
+            "acronym": [],
+            "what": [
+              "fr-roadmap"
+            ],
+            "relation": [
+              "fr-roadmap"
+            ],
+            "how": [
+              "fr-roadmap"
+            ],
+            "display": [
+              "fr-roadmap"
+            ]
+          }
+        }
+      ]
+    },
+    "testing_capacity": {
+      "modes": [
+        {
+          "code": "in_house",
+          "source_ids": [
+            "catalogue-agentic-report"
+          ],
+          "named_as": "France AISI",
+          "citations": {
+            "code": [
+              "catalogue-agentic-report"
+            ],
+            "named_as": [],
+            "display": [
+              "catalogue-agentic-report"
+            ]
+          }
+        }
+      ],
+      "notes": "The roadmap announcement says Inria, the LNE and PEReN carried out joint testing exercises on advanced AI models, with results published in July 2025.",
+      "source_ids": [
+        "catalogue-agentic-report",
+        "network-multilingual-2025",
+        "fr-sgdsn-aisi",
+        "fr-roadmap"
+      ],
+      "citations": {
+        "modes": [
+          "catalogue-agentic-report"
+        ],
+        "notes": [
+          "fr-roadmap"
+        ],
+        "display": [
+          "fr-roadmap",
+          "catalogue-agentic-report"
+        ]
+      }
+    },
+    "model_access": {
+      "notes": "The joint testing report says France ran a variation of the test using a different model from the main exercise.",
+      "source_ids": [
+        "catalogue-agentic-report"
+      ],
+      "searches": [
+        {
+          "date": "2026-10-21",
+          "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+          "language": "en",
+          "sources_read": [
+            "https://epoch.ai/data/ai-models",
+            "https://epoch.ai/data/ai-models-documentation",
+            "https://epoch.ai/data/all_ai_models.csv",
+            "https://epoch.ai/data/frontier_ai_models.csv",
+            "https://epoch.ai/data/notable_ai_models.csv"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Recorded sources re-read for testing and access wording",
+          "language": "fr, en",
+          "sources_read": [
+            "https://www.entreprises.gouv.fr/espace-presse/le-gouvernement-annonce-la-creation-de-linstitut-national-pour-levaluation-et-la",
+            "https://www.entreprises.gouv.fr/espace-presse/linstitut-national-pour-levaluation-et-la-securite-de-lia-adopte-sa-feuille-de-route",
+            "https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+            "https://www.sgdsn.gouv.fr/publications/what-should-evaluators-prioritise-when-resources-are-limited",
+            "https://www.inria.fr/fr/france-2030-lancement-programme-evaluation-de-ia",
+            "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+            "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+            "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+            "https://www.senat.fr/seances/s202602/s20260217/s20260217015.html",
+            "https://www.entreprises.gouv.fr/priorites-et-actions/transition-numerique/soutenir-le-developpement-de-lia-au-service-de-0",
+            "https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/ia-la-dgccrf-coordonnera-laction-des-autorites-de-surveillance-en-france",
+            "https://www.inria.fr/sites/default/files/2025-07/Annual%20report%202024%20-%20Inria.pdf"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "INESIA accès aux modèles évaluation pré-déploiement",
+          "language": "fr",
+          "sources_read": [
+            "web search result list (siecledigital.fr, acteurspublics.fr, economie.gouv.fr, leclubdesjuristes.com); no access statement found"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "INESIA Mistral AI accord accès modèles avant publication évaluation sécurité",
+          "language": "fr",
+          "sources_read": [
+            "web search result list; only Mistral procurement and administration deals, no INESIA access agreement"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "France AISI INESIA pre-deployment access frontier models agreement developers",
+          "language": "en",
+          "sources_read": [
+            "web search result list; no access agreement found"
+          ]
+        }
+      ],
+      "value": "none_found",
+      "citations": {
+        "notes": [
+          "catalogue-agentic-report"
+        ],
+        "searches": [],
+        "value": [],
+        "display": [
+          "catalogue-agentic-report"
+        ]
+      }
+    },
+    "staffing_model": {
+      "code": "member_bodies",
+      "source_ids": [
+        "fr-sgdsn-aisi",
+        "fr-dge",
+        "fr-inria-vacancy-2026-10640"
+      ],
+      "notes": "Inria recruits for its part in INESIA: an Inria vacancy for an AI evaluation engineer (PentestIA, Rennes; two-year contract; applications until 20 December 2026) is to work with INESIA's members on agentic benchmarks for the AI evaluation platform. These are posts of a member body, not INESIA headcount.",
+      "citations": {
+        "code": [
+          "fr-dge",
+          "fr-sgdsn-aisi"
+        ],
+        "notes": [
+          "fr-inria-vacancy-2026-10640"
+        ],
+        "display": [
+          "fr-dge",
+          "fr-sgdsn-aisi",
+          "fr-inria-vacancy-2026-10640"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-6d8d07bf504546f58c99af50c830d313",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "activity",
+        "text": "Ran a variation of the network's joint agentic test on a different model from the main exercise.",
+        "source_ids": [
+          "catalogue-agentic-report"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "catalogue-agentic-report"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "catalogue-agentic-report"
+          ]
+        }
+      },
+      {
+        "id": "claims-1cf4500b70b8438ca7946698ff873a3f",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "mandate",
+        "text": "Is to develop evaluation methods suited to the cybersecurity of systems and products that integrate AI.",
+        "source_ids": [
+          "fr-sgdsn-aisi"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "fr-sgdsn-aisi"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "fr-sgdsn-aisi"
+          ]
+        }
+      },
+      {
+        "id": "claims-52c093ce32d642879dd28ea647b28d19",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "activity",
+        "text": "Published 'What should evaluators prioritise when resources are limited?'",
+        "source_ids": [
+          "r3-gb-network-best-practice-release"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "r3-gb-network-best-practice-release"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "r3-gb-network-best-practice-release"
+          ]
+        }
+      },
+      {
+        "id": "claims-32e010da038b46058d94d1fb8559e8ac",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "activity",
+        "text": "Designed an alternate judge-LLM prompt for the network's joint agentic testing.",
+        "source_ids": [
+          "catalogue-agentic-report"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "catalogue-agentic-report"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "catalogue-agentic-report"
+          ]
+        }
+      },
+      {
+        "id": "claims-62959b7a64a34b44bf10782f382529e4",
+        "kind": "function",
+        "code": "research",
+        "basis": "mandate",
+        "text": "Is to conduct research to better understand, characterise and control systemic risks and to inform public decision-making.",
+        "source_ids": [
+          "fr-sgdsn-aisi"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "fr-sgdsn-aisi"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "fr-sgdsn-aisi"
+          ]
+        }
+      },
+      {
+        "id": "claims-7061fc9f8cf94badb86bf0f48b814009",
+        "kind": "function",
+        "code": "regulatory_support",
+        "basis": "mandate",
+        "text": "Is to help implement the AI regulatory framework effectively.",
+        "source_ids": [
+          "fr-sgdsn-aisi"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-11-16",
+          "since": "2026-11-23"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "fr-sgdsn-aisi"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "fr-sgdsn-aisi"
+          ]
+        }
+      },
+      {
+        "id": "claims-dfc050ba4d914cea9513bf82f7938dbc",
+        "kind": "function",
+        "code": "convening",
+        "basis": "mandate",
+        "text": "Is tasked with bringing together the national evaluation and security bodies.",
+        "source_ids": [
+          "fr-dge"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "fr-dge"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "fr-dge"
+          ]
+        }
+      },
+      {
+        "id": "claims-4db48655ee52407d90628660b344d8c0",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "activity",
+        "text": "Published a blog post on evaluators' priorities as part of the evaluation work of the International Network for Advanced AI Measurement, Evaluation and Science.",
+        "source_ids": [
+          "fix-output-fr-inesia-evaluation-prioritisation-guidance"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-21",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "fix-output-fr-inesia-evaluation-prioritisation-guidance"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "fix-output-fr-inesia-evaluation-prioritisation-guidance"
+          ]
+        }
+      },
+      {
+        "id": "claims-6ed1707d20e04958805f588f3fc1ac24",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "mandate",
+        "text": "France and Germany have agreed to step up their cooperation on AI safety and security through future collaboration between INESIA and its German counterpart.",
+        "source_ids": [
+          "depth-de-fr-cooperation"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "depth-de-fr-cooperation"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "depth-de-fr-cooperation"
+          ]
+        }
+      },
+      {
+        "id": "claims-71e93d19fa3d43a59aff3cf92fea6c78",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "activity",
+        "text": "Found that, in the network's joint multilingual testing, both models showed acceptability rates above 90% in French on the MLCommons and AnswerCarefully datasets.",
+        "source_ids": [
+          "network-multilingual-2025",
+          "fix-output-fr-inesia-evaluation-prioritisation-guidance"
+        ],
+        "reread": {
+          "state": "blocked_or_failed",
+          "last_found": "2026-10-21",
+          "since": "2026-11-10"
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "network-multilingual-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "network-multilingual-2025"
+          ]
+        }
+      }
+    ],
+    "status": "established",
+    "established": "2025-01-31",
+    "announced": null,
+    "functions": [
+      {
+        "code": "model_testing",
+        "value": "activity",
+        "claim_ids": [
+          "claims-6d8d07bf504546f58c99af50c830d313"
+        ],
+        "since": null,
+        "newest": "claims-6d8d07bf504546f58c99af50c830d313"
+      },
+      {
+        "code": "evaluation_methods",
+        "value": "both",
+        "claim_ids": [
+          "claims-1cf4500b70b8438ca7946698ff873a3f",
+          "claims-52c093ce32d642879dd28ea647b28d19",
+          "claims-32e010da038b46058d94d1fb8559e8ac"
+        ],
+        "since": "2026-07-23",
+        "newest": "claims-52c093ce32d642879dd28ea647b28d19"
+      },
+      {
+        "code": "research",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-62959b7a64a34b44bf10782f382529e4"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "standards_guidance",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "regulatory_enforcement",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "regulatory_support",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-7061fc9f8cf94badb86bf0f48b814009"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "risk_monitoring",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "foresight",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "policy_advice",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "incident_response",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "international_cooperation",
+        "value": "both",
+        "claim_ids": [
+          "claims-6ed1707d20e04958805f588f3fc1ac24",
+          "claims-4db48655ee52407d90628660b344d8c0",
+          "claims-71e93d19fa3d43a59aff3cf92fea6c78"
+        ],
+        "since": "2025-06",
+        "newest": "claims-4db48655ee52407d90628660b344d8c0"
+      },
+      {
+        "code": "convening",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-dfc050ba4d914cea9513bf82f7938dbc"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "capacity_building",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "talent",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "adoption",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "public_access_continuity",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "certification",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "sandbox",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      }
+    ],
+    "operating": [
+      {
+        "kind": "joint_testing",
+        "date": "2025-06-26",
+        "lineage": "network-multilingual-2025",
+        "source_ids": [
+          "network-multilingual-2025",
+          "r5-sg-multilingual-full-report-page"
+        ],
+        "citations": {
+          "date": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "kind": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "display": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ]
+        }
+      }
+    ],
+    "intervals": {
+      "announced_to_established": null,
+      "established_to_first_qualifying_activity": {
+        "days_min": 146,
+        "days_max": 146
+      },
+      "announced_to_first_qualifying_activity": null
+    },
+    "citations": {
+      "id": [],
+      "name": [],
+      "name_local": [],
+      "acronym": [],
+      "short_name": [],
+      "jurisdiction_id": [],
+      "host": [
+        "fr-roadmap"
+      ],
+      "legal_form": [
+        "fr-dge"
+      ],
+      "mandate": [
+        "fr-dge",
+        "fr-sgdsn-aisi"
+      ],
+      "website": [],
+      "funding": [
+        "r4-fr-inria-evaluation-funding"
+      ],
+      "check": [],
+      "notes": [
+        "fr-roadmap",
+        "fr-elysee-commission-ia-2026",
+        "fr-commission-ia-report-2026"
+      ],
+      "mandate_short": [
+        "fr-sgdsn-aisi"
+      ],
+      "legal_basis": [
+        "fr-dge"
+      ],
+      "placement": [
+        "fr-dge"
+      ],
+      "wikidata": [],
+      "outputs": [
+        "fr-roadmap",
+        "eu-joint-testing-2025",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "depth-gb-blog",
+        "fix-output-network-agentic-arxiv",
+        "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+        "fix-output-sg-multilingual-summary",
+        "r3-gb-network-best-practice-release",
+        "r5-sg-multilingual-full-report-page",
+        "rb-fr-publications"
+      ],
+      "agreements": [
+        "depth-de-fr-cooperation",
+        "fr-de-joint-statement-2026"
+      ],
+      "head": [],
+      "reports_to": [
+        "fr-roadmap"
+      ],
+      "national_partners": [
+        "fr-dge",
+        "fr-roadmap",
+        "j7-fr-inria-about",
+        "j8-fr-anssi-home-render"
+      ],
+      "testing_capacity": [
+        "fr-roadmap",
+        "catalogue-agentic-report"
+      ],
+      "model_access": [
+        "catalogue-agentic-report"
+      ],
+      "staffing_model": [
+        "fr-dge",
+        "fr-sgdsn-aisi",
+        "fr-inria-vacancy-2026-10640"
+      ],
+      "claims": [
+        "fr-dge",
+        "fr-sgdsn-aisi",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "depth-de-fr-cooperation",
+        "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+        "r3-gb-network-best-practice-release"
+      ],
+      "status": [
+        "fr-dge"
+      ],
+      "established": [
+        "fr-dge"
+      ],
+      "announced": [],
+      "functions": [],
+      "operating": [],
+      "intervals": [],
+      "display": [
+        "fr-dge",
+        "fr-roadmap",
+        "eu-joint-testing-2025",
+        "fr-sgdsn-aisi",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "depth-de-fr-cooperation",
+        "depth-gb-blog",
+        "fix-output-network-agentic-arxiv",
+        "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+        "fix-output-sg-multilingual-summary",
+        "r3-gb-network-best-practice-release",
+        "r4-fr-inria-evaluation-funding",
+        "r5-sg-multilingual-full-report-page",
+        "rb-fr-publications",
+        "j7-fr-inria-about",
+        "j8-fr-anssi-home-render",
+        "fr-de-joint-statement-2026",
+        "fr-elysee-commission-ia-2026",
+        "fr-commission-ia-report-2026"
+      ],
+      "form": [
+        "fr-dge",
+        "fr-roadmap"
+      ],
+      "inst": [],
+      "institute": [],
+      "announced_to_established": [],
+      "established_to_first_qualifying_activity": [
+        "fr-dge",
+        "network-multilingual-2025",
+        "r5-sg-multilingual-full-report-page"
+      ],
+      "announced_to_first_qualifying_activity": []
+    },
+    "display": {
+      "intervals": {
+        "status_since": null,
+        "known_activity": {
+          "kind": "joint_testing",
+          "lineage": "network-multilingual-2025",
+          "text": "about 5 months after it was established"
+        }
+      },
+      "comparison_funding": null,
+      "budget": null,
+      "staff": null,
+      "total_staff": null,
+      "technical_staff": null,
+      "funding_records": {
+        "funding-5900b7d819c0501a83196d3281da8527": {
+          "kind": "none_disclosed",
+          "source_ids": [
+            "fr-dge",
+            "fr-sgdsn-aisi"
+          ],
+          "confidence": "medium",
+          "commitment": "not_applicable",
+          "funding_source": "unknown",
+          "id": "funding-5900b7d819c0501a83196d3281da8527",
+          "coverage": "whole_institute",
+          "eur_per_year_est": null,
+          "description": "No budget published for the institute as a whole.",
+          "citations": {
+            "kind": [],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "id": [],
+            "coverage": [],
+            "eur_per_year_est": [],
+            "description": [],
+            "display": [],
+            "amount": [],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "Not published",
+            "qualifiers": [
+              "indirect or secondary"
+            ],
+            "native_value": "Not published",
+            "native_qualifiers": [],
+            "budget_citations": [],
+            "generated_description": true
+          }
+        },
+        "funding-ff6f1638b2625427bba577f6303e0621": {
+          "kind": "not_institute_specific",
+          "amount": 13500000,
+          "currency": "EUR",
+          "description": "€13.5m from France 2030 for Inria's AI Evaluation research programme, launched on 22 September 2026 and described as INESIA's scientific roadmap. This funds the programme.",
+          "source_ids": [
+            "r4-fr-inria-evaluation-funding"
+          ],
+          "confidence": "high",
+          "commitment": "announced",
+          "funding_source": "national_government",
+          "notes": "Inria identifies itself as the programme operator and France 2030 as funder. The source's à hauteur de is read as stating the allocated amount, not a maximum, so no amount bound is recorded.",
+          "id": "funding-ff6f1638b2625427bba577f6303e0621",
+          "coverage": "not_institute_specific",
+          "eur_per_year_est": null,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "r4-fr-inria-evaluation-funding"
+            ],
+            "currency": [
+              "r4-fr-inria-evaluation-funding"
+            ],
+            "description": [
+              "r4-fr-inria-evaluation-funding"
+            ],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [
+              "r4-fr-inria-evaluation-funding"
+            ],
+            "notes": [
+              "r4-fr-inria-evaluation-funding"
+            ],
+            "id": [],
+            "coverage": [
+              "r4-fr-inria-evaluation-funding"
+            ],
+            "eur_per_year_est": [],
+            "display": [
+              "r4-fr-inria-evaluation-funding"
+            ],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "~EUR 14m",
+            "qualifiers": [
+              "announced"
+            ],
+            "native_value": "~EUR 14m",
+            "native_qualifiers": [
+              "announced"
+            ],
+            "budget_citations": [
+              "r4-fr-inria-evaluation-funding"
+            ]
+          }
+        }
+      },
+      "funding_ids": [
+        "funding-5900b7d819c0501a83196d3281da8527",
+        "funding-ff6f1638b2625427bba577f6303e0621"
+      ],
+      "staff_records": {},
+      "staff_ids": [],
+      "related_funding_ids": [
+        "funding-ff6f1638b2625427bba577f6303e0621"
+      ],
+      "operating": {
+        "since": "2025-06-26",
+        "first_lineage": "network-multilingual-2025",
+        "items": [
+          {
+            "kind": "joint_testing",
+            "date": "2025-06-26",
+            "lineage": "network-multilingual-2025",
+            "source_ids": [
+              "network-multilingual-2025",
+              "r5-sg-multilingual-full-report-page"
+            ],
+            "citations": {
+              "date": [
+                "network-multilingual-2025",
+                "r5-sg-multilingual-full-report-page"
+              ],
+              "kind": [
+                "network-multilingual-2025",
+                "r5-sg-multilingual-full-report-page"
+              ],
+              "display": [
+                "network-multilingual-2025",
+                "r5-sg-multilingual-full-report-page"
+              ]
+            }
+          }
+        ]
+      },
+      "rows": {
+        "head": {
+          "state": "not_published",
+          "text": null,
+          "cited": []
+        },
+        "reports_to": {
+          "state": "stated",
+          "text": "Secretariat-General for Defence and National Security; Directorate-General for Enterprise",
+          "cited": [
+            "fr-roadmap"
+          ],
+          "original": "Secrétariat général de la défense et de la sécurité nationale; Direction générale des Entreprises"
+        },
+        "members": {
+          "state": "stated",
+          "items": [
+            {
+              "id": "np-fr-anssi",
+              "text": "ANSSI (national information systems security agency)",
+              "name": "ANSSI",
+              "how": "Is first among the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            },
+            {
+              "id": "np-fr-lne",
+              "text": "LNE (national metrology and testing laboratory)",
+              "name": "LNE",
+              "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            },
+            {
+              "id": "np-fr-inria",
+              "text": "Inria (public digital science research institute)",
+              "name": "Inria",
+              "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            },
+            {
+              "id": "np-fr-peren",
+              "text": "PEReN (digital regulation expertise centre)",
+              "name": "PEReN",
+              "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            }
+          ],
+          "fold_items": [
+            {
+              "id": "np-fr-anssi",
+              "text": "ANSSI (national information systems security agency)",
+              "name": "ANSSI",
+              "how": "Is first among the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            },
+            {
+              "id": "np-fr-lne",
+              "text": "LNE (national metrology and testing laboratory)",
+              "name": "LNE",
+              "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            },
+            {
+              "id": "np-fr-inria",
+              "text": "Inria (public digital science research institute)",
+              "name": "Inria",
+              "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            },
+            {
+              "id": "np-fr-peren",
+              "text": "PEReN (digital regulation expertise centre)",
+              "name": "PEReN",
+              "how": "Is one of the national evaluation and security bodies the institute federates without a new legal structure.",
+              "cited": [
+                "fr-dge"
+              ]
+            }
+          ],
+          "tail": null,
+          "cited": [
+            "fr-dge",
+            "j8-fr-anssi-home-render",
+            "j7-fr-inria-about"
+          ]
+        },
+        "partners": {
+          "state": "stated",
+          "items": [
+            {
+              "id": "np-fr-amiad",
+              "text": "AMIAD (defence AI agency, works with)",
+              "name": "AMIAD",
+              "how": "Takes part in work led by ANSSI with the other INESIA parties to design evaluation methods for the cybersecurity of AI systems.",
+              "cited": [
+                "fr-roadmap"
+              ]
+            }
+          ],
+          "fold_items": [
+            {
+              "id": "np-fr-amiad",
+              "text": "AMIAD (defence AI agency, works with)",
+              "name": "AMIAD",
+              "how": "Takes part in work led by ANSSI with the other INESIA parties to design evaluation methods for the cybersecurity of AI systems.",
+              "cited": [
+                "fr-roadmap"
+              ]
+            }
+          ],
+          "tail": null,
+          "cited": [
+            "fr-roadmap"
+          ]
+        }
+      },
+      "source_links": [
+        "network-2025",
+        "network-nist-2026",
+        "fr-dge",
+        "fr-roadmap",
+        "eu-joint-testing-2025",
+        "gb-joint-testing",
+        "fr-sgdsn-aisi",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "depth-de-fr-cooperation",
+        "depth-gb-blog",
+        "fix-output-network-multilingual-arxiv",
+        "fix-output-network-agentic-arxiv",
+        "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+        "fix-output-sg-multilingual-summary",
+        "r3-jp-activity-index",
+        "r3-gb-network-best-practice-release",
+        "r3-jp-multilingual-full-report-notice",
+        "r4-fr-inria-evaluation-funding",
+        "r5-sg-multilingual-full-report-page",
+        "rb-fr-publications",
+        "j7-fr-inria-about",
+        "j8-fr-anssi-home-render",
+        "fr-de-joint-statement-2026",
+        "fr-elysee-commission-ia-2026",
+        "fr-commission-ia-report-2026"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "catalogue-agentic-report",
+      "title": "International Joint Testing Exercise: Agentic Testing",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+      "excerpts": [
+        {
+          "text": "Contributed by France AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/attribution_note",
+            "/record/outputs/1/credit/institute_id"
+          ]
+        },
+        {
+          "text": "France ran a variation of the test using a different model from the main exercise.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/testing_capacity/modes/0/code",
+            "/record/model_access/notes",
+            "/record/claims/0/text"
+          ]
+        },
+        {
+          "text": "France AISI therefore designed an alternate judge-LLM prompt taking this observation into account.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/testing_capacity/modes/0/code",
+            "/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "The alternate judge-LLM prompt was tested as a proof-of-concept with a complete benchmark run on a self-hosted model.",
+          "accessed": "2026-10-21",
+          "anchors": [
+            {
+              "text": "France AISI Variation",
+              "kind": "heading"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/testing_capacity/modes/0/code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-de-fr-cooperation",
+      "title": "Conclusion of the 26th Franco-German Ministerial Council",
+      "url": "https://www.elysee.fr/en/emmanuel-macron/2026/07/17/conclusion-of-the-26th-franco-german-ministerial-council",
+      "excerpts": [
+        {
+          "text": "France and Germany have agreed to step up their cooperation on AI safety and security by means of future collaboration between their respective AI safety institutes (INESIA and its German counterpart).",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/counterparty",
+            "/record/agreements/0/state",
+            "/record/agreements/0/scope",
+            "/record/agreements/0/participation",
+            "/record/claims/8/text"
+          ]
+        },
+        {
+          "text": "17 July 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-gb-blog",
+      "title": "AISI Blog",
+      "url": "https://www.aisi.gov.uk/blog",
+      "excerpts": [
+        {
+          "text": "International joint testing exercise: Agentic testing Blog Organisation • Jul 17, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/date",
+            "/record/outputs/1/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-joint-testing-2025",
+      "title": "AI Office contributes to the third joint testing exercise of the International Network of AI Safety Institutes",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+      "archive_url": "https://web.archive.org/web/20260420092204/https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+      "excerpts": [
+        {
+          "text": "It was one of the three Network’s members that ran the agentic evaluations for the cybersecurity strand.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+      "title": "What should evaluators prioritise when resources are limited?",
+      "url": "https://www.sgdsn.gouv.fr/publications/what-should-evaluators-prioritise-when-resources-are-limited",
+      "archive_url": "https://web.archive.org/web/20260922162018/https://www.sgdsn.gouv.fr/publications/what-should-evaluators-prioritise-when-resources-are-limited",
+      "excerpts": [
+        {
+          "text": "What should evaluators prioritise when resources are limited?",
+          "accessed": "2026-10-17",
+          "gloss": "What should evaluators prioritise when resources are limited?",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/outputs/3/title"
+          ]
+        },
+        {
+          "text": "INESIA - the French AISI - has published a blog post on evaluators' priorities.",
+          "accessed": "2026-10-17",
+          "gloss": "INESIA - the French AISI - has published a blog post on evaluators' priorities.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/outputs/3/attribution_note"
+          ]
+        },
+        {
+          "text": "08 juillet 2026",
+          "accessed": "2026-10-17",
+          "gloss": "8 July 2026.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/outputs/3/date"
+          ]
+        },
+        {
+          "text": "In the context of the evaluation work carried out by the International Network for Advanced AI Measurement, Evaluation and Science (NAAIMES), INESIA - the French AISI - has published a blog post on evaluators' priorities.",
+          "gloss": "In the context of the evaluation work carried out by the International Network for Advanced AI Measurement, Evaluation and Science (NAAIMES), INESIA - the French AISI - has published a blog post on evaluators' priorities.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/7/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-network-agentic-arxiv",
+      "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+      "url": "https://arxiv.org/abs/2601.15679",
+      "excerpts": [
+        {
+          "text": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-network-multilingual-arxiv",
+      "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+      "url": "https://arxiv.org/abs/2601.15706",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-sg-multilingual-summary",
+      "title": "Improving Methodologies for AI Model Evaluations Across Global Languages",
+      "url": "https://sgaisi.sg/resources/improving-methodologies-for-ai-model-evaluations-across-global-languages/",
+      "excerpts": [
+        {
+          "text": "February 10, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-commission-ia-report-2026",
+      "title": "Protéger sans empêcher : nos vulnérabilités à l’ère de l’IA générative",
+      "title_en": "Protect without preventing: our vulnerabilities in the age of generative AI",
+      "url": "https://www.conseil-ia-numerique.fr/files/uploads/2026/Rapport_Commission_IA_generative_vulnerabilites_2026.pdf",
+      "excerpts": [
+        {
+          "text": "Renforcer le mandat et les moyens de l’INESIA pour en faire une force propre",
+          "gloss": "Strengthen INESIA's mandate and resources to make it a force of its own",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "via un financement pérenne et un recrutement d’experts",
+          "gloss": "through lasting funding and recruitment of experts",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-de-joint-statement-2026",
+      "title": "Déclaration conjointe de la République fédérale d’Allemagne et de la République française sur la coopération en matière de sûreté et de sécurité de l’IA / Joint Statement by the Federal Republic of Germany and the French Republic on Cooperation in AI Safety and Security",
+      "title_en": "Joint Statement by the Federal Republic of Germany and the French Republic on Cooperation in AI Safety and Security",
+      "url": "https://presse.economie.gouv.fr/declaration-conjointe-de-la-republique-federale-dallemagne-et-de-la-republique-francaise-sur-la-cooperation-en-matiere-de-surete-et-de-securite-de-lia-joint-statement-by-the-federal-republic-of-germa/",
+      "excerpts": [
+        {
+          "text": "conjointement avec l'Institut allemand de sûreté et de sécurité de l'IA, coopéreront avec le Ministère en charge de l'IA et du Numérique",
+          "accessed": "2026-10-24",
+          "gloss": "together with the German AI Safety and Security Institute, will cooperate with the Ministry in charge of AI and Digital",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/counterparty"
+          ]
+        },
+        {
+          "text": "dans le cadre de l'Institut national pour l'évaluation et la sécurité de l'intelligence artificielle (INESIA), afin d'approfondir la coopération institutionnelle",
+          "accessed": "2026-10-24",
+          "gloss": "in the framework of the National Institute for the Evaluation and Security of Artificial Intelligence (INESIA), to deepen institutional cooperation",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-dge",
+      "title": "Le Gouvernement annonce la création de l'INESIA",
+      "title_en": "The government announces the creation of INESIA",
+      "url": "https://www.entreprises.gouv.fr/espace-presse/le-gouvernement-annonce-la-creation-de-linstitut-national-pour-levaluation-et-la",
+      "archive_url": "https://web.archive.org/web/20260616155140/https://www.entreprises.gouv.fr/espace-presse/le-gouvernement-annonce-la-creation-de-linstitut-national-pour-levaluation-et-la",
+      "excerpts": [
+        {
+          "text": "sans création de nouvelle structure juridique",
+          "gloss": "without creating a new legal structure",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/legal_form"
+          ]
+        },
+        {
+          "text": "l'analyse des risques systémiques dans le champ de la sécurité nationale",
+          "gloss": "the analysis of systemic risks in the field of national security",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "Le Gouvernement annonce la création de l’Institut national pour l’évaluation et la sécurité de l’intelligence artificielle (INESIA)",
+          "accessed": "2026-10-17",
+          "gloss": "The Government announces the creation of the National Institute for the Evaluation and Security of Artificial Intelligence (INESIA).",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/legal_basis/type",
+            "/record/legal_basis/state"
+          ]
+        },
+        {
+          "text": "Cet institut a pour mission de fédérer, sans création de nouvelle structure juridique, les acteurs nationaux de l’évaluation et de la sécurité",
+          "gloss": "The institute's mission is to bring together the national evaluation and security bodies, without creating a new legal structure.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/placement/host_type",
+            "/record/legal_form",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how",
+            "/record/national_partners/entries/2/relation",
+            "/record/national_partners/entries/2/how",
+            "/record/national_partners/entries/3/relation",
+            "/record/national_partners/entries/3/how",
+            "/record/staffing_model/code",
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "l’Agence nationale de la sécurité des systèmes d'information (ANSSI), l’Institut national de recherche en sciences et technologies du numérique (Inria), le Laboratoire National de Métrologie et d’Essais (LNE) et le Pôle d’expertise de la régulation numérique (PEReN).",
+          "gloss": "The National Cybersecurity Agency (ANSSI), the National Institute for Research in Digital Science and Technology (Inria), the National Metrology and Testing Laboratory (LNE) and the Digital Regulation Expertise Centre (PEReN).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/placement/host_type"
+          ]
+        },
+        {
+          "text": "Cet institut a pour mission de fédérer, sans création de nouvelle structure juridique, les acteurs nationaux de l’évaluation et de la sécurité, au premier rang desquels l’Agence nationale de la sécurité des systèmes d'information (ANSSI)",
+          "gloss": "This institute's mission is to federate, without creating a new legal structure, the national evaluation and security actors, foremost among them the National Cybersecurity Agency of France (ANSSI)",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name",
+            "/record/national_partners/entries/0/relation",
+            "/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "l’Institut national de recherche en sciences et technologies du numérique (Inria), le Laboratoire National de Métrologie et d’Essais (LNE) et le Pôle d’expertise de la régulation numérique (PEReN).",
+          "gloss": "the National Institute for Research in Digital Science and Technology (Inria), the National Metrology and Testing Laboratory (LNE) and the Digital Regulation Expertise Centre (PEReN).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how",
+            "/record/national_partners/entries/2/name",
+            "/record/national_partners/entries/2/relation",
+            "/record/national_partners/entries/2/how",
+            "/record/national_partners/entries/3/name",
+            "/record/national_partners/entries/3/relation",
+            "/record/national_partners/entries/3/how"
+          ]
+        },
+        {
+          "text": "l’Agence nationale de la sécurité des systèmes d'information (ANSSI)",
+          "accessed": "2026-10-20",
+          "gloss": "National Information Systems Security Agency (ANSSI)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/what"
+          ]
+        },
+        {
+          "text": "le Laboratoire National de Métrologie et d’Essais (LNE)",
+          "accessed": "2026-10-20",
+          "gloss": "National Metrology and Testing Laboratory (LNE)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/what"
+          ]
+        },
+        {
+          "text": "le Pôle d’expertise de la régulation numérique (PEReN)",
+          "accessed": "2026-10-20",
+          "gloss": "Digital Regulation Expertise Centre (PEReN)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/3/what"
+          ]
+        },
+        {
+          "text": "Leur travail portera sur l'analyse des risques systémiques dans le champ de la sécurité nationale, le soutien à la mise en œuvre de la régulation de l'IA, et l'évaluation de la performance et de la fiabilité des modèles d'IA.",
+          "accessed": "2026-10-24",
+          "gloss": "Their work will cover the analysis of systemic risks in the field of national security, support for implementing AI regulation, and the evaluation of the performance and reliability of AI models.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "(INESIA), l'État matérialise son engagement en faveur d'un développement maîtrisé de l'IA dans un cadre de confiance et de sécurité. Cet institut a pour mission de fédérer, sans création de nouvelle structure juridique, les acteurs nationaux de l'évaluation et de la sécurité",
+          "accessed": "2026-10-17",
+          "gloss": "(INESIA), the State gives concrete form to its commitment to a controlled development of AI within a framework of trust and security. This institute has the mission of federating, without creating a new legal structure, the national actors in evaluation and security",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/6/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-elysee-commission-ia-2026",
+      "title": "Remise du rapport de la Commission d’experts « IA générative et vulnérabilités »",
+      "title_en": "Presentation of the report of the expert commission on generative AI and vulnerabilities",
+      "url": "https://www.elysee.fr/emmanuel-macron/2026/11/10/remise-du-rapport-de-la-commission-dexperts-ia-generative-et-vulnerabilites",
+      "excerpts": [
+        {
+          "text": "Publié le 10 novembre 2026",
+          "gloss": "Published 10 November 2026",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "Remise du rapport de la Commission d’experts « IA générative et vulnérabilités »",
+          "gloss": "Handover of the report of the expert commission on generative AI and vulnerabilities",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-inria-vacancy-2026-10640",
+      "title": "2026-10640 - Ingénieur.e évaluation de l'IA / PentestIA",
+      "url": "https://recrutement.inria.fr/public/classic/fr/offres/2026-10640",
+      "excerpts": [
+        {
+          "text": "Dans ce cadre Inria contribue principalement sur les axes de l'analyse des risques systémiques dans le champ de la sécurité nationale et l'évaluation de la performance et de la fiabilité des modèles d'IA.",
+          "gloss": "In this context Inria contributes mainly to the analysis of systemic risks in the field of national security and to evaluating the performance and reliability of AI models.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "en collaboration avec les membres de l'INESIA, l’ingénieur aura pour mission principale de maintenir et faire évoluer la chaine de développement pour faire des benchmarks agentiques",
+          "gloss": "in collaboration with INESIA's members, the engineer's main task will be to maintain and develop the development pipeline for agentic benchmarks",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Il devra porter cette chaine de développement dans le cadre de production de la plateforme d’évaluation de l’IA.",
+          "gloss": "He or she will carry this pipeline into production on the AI evaluation platform.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Ville : Rennes Centre Inria : Centre Inria de l'Université de Rennes",
+          "gloss": "City: Rennes. Inria centre: Inria Centre at the University of Rennes",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Durée de contrat : 2 ans Date limite pour postuler : 2026-12-20",
+          "gloss": "Contract length: 2 years. Closing date for applications: 2026-12-20",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Ingénieur.e évaluation de l'IA / PentestIA",
+          "gloss": "AI evaluation engineer / PentestIA",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-roadmap",
+      "title": "L'INESIA adopte sa feuille de route",
+      "title_en": "INESIA adopts its roadmap",
+      "url": "https://www.entreprises.gouv.fr/espace-presse/linstitut-national-pour-levaluation-et-la-securite-de-lia-adopte-sa-feuille-de-route",
+      "archive_url": "https://web.archive.org/web/20260616145648/https://www.entreprises.gouv.fr/espace-presse/linstitut-national-pour-levaluation-et-la-securite-de-lia-adopte-sa-feuille-de-route",
+      "excerpts": [
+        {
+          "text": "Publié le : 12 Fév 2026",
+          "accessed": "2026-10-17",
+          "gloss": "Published 12 February 2026.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/date",
+            "/record/outputs/2/credit/date"
+          ]
+        },
+        {
+          "text": "feuille de route INESIA 2026-2027",
+          "accessed": "2026-10-17",
+          "gloss": "INESIA roadmap 2026-2027.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/title"
+          ]
+        },
+        {
+          "text": "l’Institut national pour l’évaluation et la sécurité de l’IA (INESIA) a adopté sa feuille de route 2026-2027.",
+          "accessed": "2026-10-17",
+          "gloss": "The National Institute for AI Evaluation and Security (INESIA) adopted its 2026-2027 roadmap.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/attribution_note",
+            "/record/outputs/2/credit/institute_id",
+            "/record/notes"
+          ]
+        },
+        {
+          "text": "Sous le pilotage conjoint de la Direction générale des Entreprises (DGE) et du Secrétariat général de la défense et de la sécurité nationale (SGDSN), l’Institut national pour l’évaluation et la sécurité de l’IA (INESIA) a adopté sa feuille de route 2026-2027.",
+          "gloss": "Under the joint steering of the Directorate-General for Enterprise (DGE) and the Secretariat-General for Defence and National Security (SGDSN), the National Institute for AI Evaluation and Security (INESIA) has adopted its 2026-2027 roadmap.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name",
+            "/record/host"
+          ]
+        },
+        {
+          "text": "l’ANSSI pilote des travaux en lien avec les autres parties de l’INESIA ainsi que l’Agence ministérielle pour l’intelligence artificielle de défense (AMIAD) et les centres d'Évaluation de la Sécurité des Technologies de l'Information (CESTI) afin de concevoir les méthodes d’évaluation",
+          "gloss": "ANSSI is leading work together with the other parties of INESIA as well as the Ministerial Agency for Defence Artificial Intelligence (AMIAD) and the Information Technology Security Evaluation Centres (CESTI) to design the evaluation methods",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/name",
+            "/record/national_partners/entries/4/relation",
+            "/record/national_partners/entries/4/how"
+          ]
+        },
+        {
+          "text": "qui assureront demain la cybersécurité des systèmes d’IA et des produits intégrant de l’IA.",
+          "gloss": "that will in future ensure the cybersecurity of AI systems and of products incorporating AI.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/relation",
+            "/record/national_partners/entries/4/how"
+          ]
+        },
+        {
+          "text": "l’Agence ministérielle pour l’intelligence artificielle de défense (AMIAD)",
+          "accessed": "2026-10-20",
+          "gloss": "The Ministerial Agency for Defence Artificial Intelligence (AMIAD)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/what"
+          ]
+        },
+        {
+          "text": "Inria, le LNE et le PEReN ont mené des exercices d’essais conjoints de modèles d’IA avancés, dont les résultats ont été publiés en juillet 2025",
+          "gloss": "Inria, the LNE and PEReN carried out joint testing exercises on advanced AI models, whose results were published in July 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Inria, le LNE et le PEReN ont mené des exercices d'essais conjoints de modèles d'IA avancés, dont les résultats ont été publiés en juillet 2025",
+          "gloss": "Inria, LNE and PEReN carried out joint testing exercises on advanced AI models, with results published in July 2025.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sgdsn-aisi",
+      "title": "Évaluer et sécuriser l'IA",
+      "title_en": "Evaluating and securing AI",
+      "url": "https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+      "archive_url": "https://web.archive.org/web/20261017005049/https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+      "excerpts": [
+        {
+          "text": "Créé en 2025, l’Institut national pour l’évaluation et la sécurité de l’intelligence artificielle (INESIA) structure une capacité publique d’expertise sur l’évaluation et la sécurité des IA avancées.",
+          "accessed": "2026-10-18",
+          "url": "https://web.archive.org/web/20261017005049/https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+          "gloss": "Created in 2025, the National Institute for AI Evaluation and Security (INESIA) organises public expertise in the evaluation and security of advanced AI.",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Des points de situation réguliers permettront de suivre les travaux normatifs accompagnant la mise en œuvre du règlement européen sur l’intelligence artificielle (RIA) (Projet n°2.).",
+          "accessed": "2026-10-18",
+          "url": "https://web.archive.org/web/20261017005049/https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+          "gloss": "Regular updates will track standards work accompanying implementation of the European AI regulation (project 2).",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Pôle 1 – Appui à la régulation : pour participer à une mise en œuvre efficace du cadre réglementaire de l’IA, qui protège les citoyens et soutienne l’innovation.",
+          "accessed": "2026-10-18",
+          "url": "https://web.archive.org/web/20261017005049/https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+          "gloss": "Pillar 1, regulatory support: to contribute to effective implementation of the AI regulatory framework, protecting citizens and supporting innovation.",
+          "anchors": [
+            {
+              "text": "L'action de l'INESIA repose sur quatre principes fondamentaux : construire une démarche scientifique et stratégique, structurer une capacité souveraine d'évaluation, coordonner les expertises publiques et mutualiser les moyens, être lisible et actif dans les réseaux internationaux. Ces quatre axes sont déclinés en trois pôles stratégiques et un axe transverse, qui se traduisent par onze projets opérationnels, décrits au sein de sa feuille de route 2026-2027 :",
+              "kind": "heading",
+              "gloss": "INESIA's action rests on four fundamental principles: building a scientific and strategic approach, structuring a sovereign evaluation capacity, coordinating public expertise and pooling resources, being visible and active in international networks. These four lines are set out in three strategic pillars and one cross-cutting line, which translate into eleven operational projects, described in its 2026-2027 roadmap:"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/mandate_short",
+            "/record/claims/5/text"
+          ]
+        },
+        {
+          "text": "L’INESIA fédère un écosystème de chercheurs et d’ingénieurs issus de l’Agence nationale de la sécurité des systèmes d’information (ANSSI), de l’Institut national de recherche en sciences et technologies du numérique (Inria), du Laboratoire national de métrologie et d’essais (LNE)",
+          "accessed": "2026-10-21",
+          "gloss": "INESIA brings together an ecosystem of researchers and engineers from the National Agency for the Security of Information Systems (ANSSI), the National Institute for Research in Digital Science and Technology (Inria), the National Laboratory of Metrology and Testing (LNE)",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "Enfin, des méthodes d'évaluation adaptées à la cybersécurité des systèmes et des produits intégrant de l'IA seront développées (Projet n°4.).",
+          "accessed": "2026-10-18",
+          "url": "https://web.archive.org/web/20261017005049/https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+          "gloss": "Finally, evaluation methods suited to the cybersecurity of systems and products that integrate AI will be developed (Project no. 4).",
+          "anchors": [
+            {
+              "text": "L'action de l'INESIA repose sur quatre principes fondamentaux : construire une démarche scientifique et stratégique, structurer une capacité souveraine d'évaluation, coordonner les expertises publiques et mutualiser les moyens, être lisible et actif dans les réseaux internationaux. Ces quatre axes sont déclinés en trois pôles stratégiques et un axe transverse, qui se traduisent par onze projets opérationnels, décrits au sein de sa feuille de route 2026-2027 :",
+              "kind": "heading",
+              "gloss": "INESIA's action rests on four fundamental principles: building a scientific and strategic approach, structuring a sovereign evaluation capacity, coordinating public expertise and pooling resources, being visible and active in international networks. These four lines are set out in three strategic pillars and one cross-cutting line, which translate into eleven operational projects, described in its 2026-2027 roadmap:"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "Des activités de recherches seront conduites afin de mieux comprendre les risques systémiques, les caractériser, les maîtriser, et informer la décision publique (Projet n°5.).",
+          "accessed": "2026-10-18",
+          "url": "https://web.archive.org/web/20261017005049/https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+          "gloss": "Research activities will be conducted to better understand systemic risks, characterise them, control them and inform public decision-making (Project 5).",
+          "anchors": [
+            {
+              "text": "L'action de l'INESIA repose sur quatre principes fondamentaux : construire une démarche scientifique et stratégique, structurer une capacité souveraine d'évaluation, coordonner les expertises publiques et mutualiser les moyens, être lisible et actif dans les réseaux internationaux. Ces quatre axes sont déclinés en trois pôles stratégiques et un axe transverse, qui se traduisent par onze projets opérationnels, décrits au sein de sa feuille de route 2026-2027 :",
+              "kind": "heading",
+              "gloss": "INESIA's action rests on four fundamental principles: building a scientific and strategic approach, structuring a sovereign evaluation capacity, coordinating public expertise and pooling resources, being visible and active in international networks. These four lines are set out in three strategic pillars and one cross-cutting line, which translate into eleven operational projects, described in its 2026-2027 roadmap:"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-16",
+            "since": "2026-11-23"
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-joint-testing",
+      "title": "International joint testing exercise: agentic testing",
+      "url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "archive_url": "https://web.archive.org/web/20250905113943/https://www.aisi.gov.uk/work/international-joint-testing-exercise-agentic-testing",
+      "excerpts": []
+    },
+    {
+      "id": "j7-fr-inria-about",
+      "title": "Organisation - Inria | data.gouv.fr",
+      "url": "https://www.data.gouv.fr/organizations/inria/",
+      "excerpts": [
+        {
+          "text": "Créé en 1967, Inria est le seul institut public de recherche entièrement dédié aux sciences du numérique.",
+          "accessed": "2026-10-20",
+          "gloss": "Founded in 1967, Inria is the only public research institute devoted entirely to digital science.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "j8-fr-anssi-home-render",
+      "title": "Au cœur d'un collectif, pour une nation cyber-résiliente",
+      "url": "https://cyber.gouv.fr/",
+      "excerpts": [
+        {
+          "text": "Autorité nationale en matière de cybersécurité et de cyberdéfense en France, l'ANSSI",
+          "accessed": "2026-10-20",
+          "gloss": "ANSSI, the national authority for cybersecurity and cyber defence in France",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-20",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/national_partners/entries/0/cyber_agency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-multilingual-2025",
+      "title": "Multilingual joint testing exercise: Improving Methodologies for LLM Evaluations Across Global Languages (evaluation report)",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "archive_url": "https://web.archive.org/web/20260919113540/https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "excerpts": [
+        {
+          "text": "Improving Methodologies for LLM Evaluations Across Global Languages",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/title"
+          ]
+        },
+        {
+          "text": "Contributed by France AISI",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/attribution_note",
+            "/record/outputs/0/credit/institute_id"
+          ]
+        },
+        {
+          "text": "Both models showcase high acceptability rates in French (above 90%) for both the MLCommons and the AnswerCarefully datasets.",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "Contributed by France AISI",
+              "kind": "heading"
+            },
+            {
+              "text": "INESIA - the French AISI",
+              "kind": "definition",
+              "source_id": "fix-output-fr-inesia-evaluation-prioritisation-guidance",
+              "gloss": "INESIA - the French AISI"
+            }
+          ],
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-10-21",
+            "since": "2026-11-10"
+          },
+          "supports": [
+            "/record/claims/9/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "r3-gb-network-best-practice-release",
+      "title": "International evaluation best practice and open questions in AI measurement",
+      "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+      "excerpts": [
+        {
+          "text": "The French National Institute for AI Evaluation and Security (INESIA) published 'What should evaluators prioritise when resources are limited?'",
+          "accessed": "2026-10-18",
+          "url": "https://www.aisi.gov.uk/blog/international-evaluation-best-practice-and-open-questions-in-ai-measurement",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/credit/institute_id",
+            "/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-jp-activity-index",
+      "title": "AISI activity index",
+      "url": "https://aisi.go.jp/activity/",
+      "excerpts": []
+    },
+    {
+      "id": "r3-jp-multilingual-full-report-notice",
+      "title": "共同テスト演習の評価レポートが公表されました。 Evaluation reports for the 2nd and 3rd joint testing exercise has been published.",
+      "title_en": "Evaluation reports for the second and third joint testing exercises have been published.",
+      "url": "https://aisi.go.jp/activity/activity_international/250718/",
+      "excerpts": []
+    },
+    {
+      "id": "r4-fr-inria-evaluation-funding",
+      "title": "France 2030 | Lancement du programme Évaluation de l’IA : une feuille de route scientifique pour l’évaluation et la sécurité de l’intelligence artificielle",
+      "title_en": "France 2030 | Launch of the AI Evaluation programme: a scientific roadmap for artificial intelligence evaluation and security",
+      "url": "https://www.inria.fr/fr/france-2030-lancement-programme-evaluation-de-ia",
+      "excerpts": [
+        {
+          "text": "Financé par France 2030 à hauteur de 13,5 millions d’euros",
+          "gloss": "Funded by France 2030 with €13.5 million.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/amount",
+            "/record/funding/1/funding_source",
+            "/record/funding/1/currency",
+            "/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "lancé le 22 septembre 2026",
+          "gloss": "launched on 22 September 2026",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/description",
+            "/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "feuille de route scientifique de l’INESIA",
+          "gloss": "INESIA's scientific roadmap",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/description",
+            "/record/funding/1/coverage",
+            "/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "ce programme est porté par Inria dans le cadre de sa mission d’Agence de programmes dans le numérique.",
+          "accessed": "2026-10-19",
+          "gloss": "This programme is run by Inria as part of its remit as the digital programme agency.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/coverage",
+            "/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Financé par France 2030 à hauteur de 13,5 millions d'euros, ce programme est porté par Inria",
+          "gloss": "Funded by France 2030 with EUR 13.5 million, this programme is run by Inria",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/description"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-sg-multilingual-full-report-page",
+      "title": "Evaluation Report on “Improving Methodologies for LLM Evaluations Across Global Languages”",
+      "url": "https://sgaisi.sg/resources/improving-methodologies-for-llm-evaluations-across-global-languages-evaluation-report/",
+      "excerpts": [
+        {
+          "text": "June 26, 2025",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/credit/date"
+          ]
+        },
+        {
+          "text": "June 26, 2025 0 min read",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/resources/improving-methodologies-for-llm-evaluations-across-global-languages-evaluation-report/",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rb-fr-publications",
+      "title": "Publications",
+      "url": "https://www.sgdsn.gouv.fr/publications",
+      "excerpts": [
+        {
+          "text": "[What should evaluators prioritise when resources are limited?](https://www.sgdsn.gouv.fr/publications/what-should-evaluators-prioritise-when-resources-are-limited \"What should evaluators prioritise when resources are limited?\")\n\n*   INESIA\n\nInformations | 08 juillet 2026",
+          "accessed": "2026-10-18",
+          "url": "https://r.jina.ai/https://www.sgdsn.gouv.fr/publications",
+          "gloss": "What should evaluators prioritise when resources are limited? INESIA. Information, 8 July 2026.",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-18",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wikidata-fr-inesia-identifier",
+      "title": "Institut national pour l’évaluation et la sécurité de l’intelligence artificielle: Wikidata identity",
+      "title_en": "National Institute for the Evaluation and Security of Artificial Intelligence: Wikidata identity",
+      "url": "https://www.wikidata.org/wiki/Q132127655",
+      "excerpts": []
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "c572c1ffdd46d378d378da0f4eb1a6037d8be85f",
+      "built": "2026-11-28T16:04:06Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/127",
+  "record": {
+    "id": "TN",
+    "name": "Tunisia",
+    "kind": "state",
+    "institute_id": null,
+    "summary": "No qualifying institute identified. A national AI strategy for 2026-2030 has been presented; press accounts of it name no evaluation body.",
+    "next_check": {
+      "date": "2028-04-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English and Arabic for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; a March 2026 commentary in the results says Tunisia has no equivalent of the British institute. Reviewed the state news agency's account as primary governance evidence. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "ar",
+          "national_or_official": true,
+          "query": "site.tunisie.gov.tn الذكاء الاصطناعي سلامة معهد",
+          "source_ids": [
+            "negative-second-tn-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "ar",
+          "national_or_official": true,
+          "query": "site.tap.info.tn الذكاء الاصطناعي استراتيجية 2026",
+          "source_ids": [
+            "negative-second-tn-2026"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Tunisia AI safety institute government",
+          "source_ids": [
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": false,
+          "query": "Tunisie institut sécurité intelligence artificielle stratégie nationale",
+          "source_ids": [
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Tunisia AI safety institute evaluation of models government national AI strategy 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "ar",
+          "national_or_official": true,
+          "query": "تونس معهد سلامة الذكاء الاصطناعي تقييم النماذج الاستراتيجية الوطنية 2026 وزارة تكنولوجيات الاتصال",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded ar queries use a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Some submitted strings contain site. rather than site:; these literal strings are preserved and are not treated as domain-restricted searches. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: TN-ar-search = searches 1, 2 (ar, ar); TN-search = searches 3, 4 (en, fr). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger. On 24 October 2026 the record was searched again in English and Arabic; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "negative-second-tn-2026"
+      ],
+      "governance_note": "The state news agency's July 2026 account of the draft 2026-2030 development plan says Tunisia intends to adopt a national AI strategy with a governance system for responsible and ethical use. It names no body to evaluate advanced models. This is thin evidence of a set-up still being planned."
+    },
+    "source_ids": [
+      "negative-second-tn-2026",
+      "tn-lapresse-2026"
+    ],
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "015",
+      "subregion": "Northern Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 12348573,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "TUN",
+    "m49": "788",
+    "wikidata": "Q948",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "notes": "The state news agency's account of 3 July 2026 describes intended adoption of the AI strategy during the 2026-2030 development plan. Searches covered indexed public English and French and Arabic sources for a government-designated AI safety institute with a remit to evaluate advanced models.",
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "institute_id": [],
+      "summary": [],
+      "next_check": [],
+      "check": [
+        "negative-second-tn-2026"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "notes": [
+        "negative-second-tn-2026"
+      ],
+      "status": [],
+      "display": [
+        "negative-second-tn-2026"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "tn-lapresse-2026",
+        "ov-wikipedia",
+        "negative-second-tn-2026"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "negative-second-tn-2026",
+      "title": "تونس تعتمد استراتيجية وطنية للذكاء الاصطناعي خلال مخطط التنمية 2026-2030 لدعم التحول الرقمي والاقتصاد المعرفي",
+      "title_en": "Tunisia adopts a national artificial intelligence strategy within the 2026-2030 development plan to support digital transformation and the knowledge economy",
+      "url": "https://www.tap.info.tn/ar/%D9%88%D9%8A%D8%A8-%D8%B3%D9%8A%D8%AA-%D8%A3%D9%87%D9%85-%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-Portal-Top-News/20355705-%D8%AA%D9%88%D9%86%D8%B3-%D8%AA%D8%B9%D8%AA%D9%85%D8%AF",
+      "excerpts": [
+        {
+          "text": "تعتزم تونس اعتماد استراتيجية وطنية للذكاء الاصطناعي",
+          "gloss": "Tunisia intends to adopt a national AI strategy.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "مع إرساء منظومة حوكمة تضمن الاستخدام المسؤول والأخلاقي للذكاء الاصطناعي",
+          "accessed": "2026-10-24",
+          "gloss": "while establishing a governance system that ensures the responsible and ethical use of artificial intelligence",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "تونس 3 جويلية 2026 (وات)",
+          "accessed": "2026-10-24",
+          "gloss": "Tunis, 3 July 2026 (TAP)",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        },
+        {
+          "text": "وفق ما ورد في مشروع المخطط",
+          "accessed": "2026-10-24",
+          "gloss": "according to the draft plan",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "tn-lapresse-2026",
+      "title": "IA : la Tunisie entre dans le Top 30 mondial des publications scientifiques",
+      "title_en": "AI: Tunisia enters the global top 30 for scientific publications",
+      "url": "https://www.lapresse.tn/2026/08/15/ia-la-tunisie-entre-dans-le-top-30-mondial-des-publications-scientifiques/",
+      "archive_url": "https://web.archive.org/web/20261017001246/https://www.lapresse.tn/2026/08/15/ia-la-tunisie-entre-dans-le-top-30-mondial-des-publications-scientifiques/",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

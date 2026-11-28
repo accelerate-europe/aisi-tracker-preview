@@ -1,0 +1,324 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "28ddabf81fe50aab749c330c3a137746d5886e68",
+      "built": "2026-11-25T18:17:56Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/100",
+  "record": {
+    "id": "EC",
+    "name": "Ecuador",
+    "kind": "state",
+    "summary": "No qualifying institute identified. The National Assembly archived a comprehensive AI bill on 15 September 2026 and admitted a separate AI-governance bill on 28 September; El Diario counted 12 AI-related initiatives on 27 October.",
+    "next_check": {
+      "date": "2027-04-15",
+      "reason": "Routine re-check on a two-year rotation of states with no reported plans."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Ecuador AI safety institute government",
+          "source_ids": [
+            "negative-second-ec-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "es",
+          "national_or_official": true,
+          "query": "Ecuador instituto seguridad inteligencia artificial estrategia gobierno 2026",
+          "source_ids": [
+            "negative-second-ec-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded es query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. Preserved result batches, using 1-based positions in check.searches: EC-search = searches 1, 2 (en, es). Each multi-query batch has only a combined returned result set; its source_ids cannot be attributed to individual queries. Historical query dates are recorded as 17 October 2026 in the phase6 search-boundary ledger.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "negative-second-ec-2026"
+      ],
+      "governance_note": "The National Assembly reports archiving the AI-regulation bill. This is primary evidence about the legislative governance process, not a denial of an institute."
+    },
+    "source_ids": [
+      "ec-an-bill-98762",
+      "ec-an-bill-119270",
+      "ec-an-2026-09-30-education",
+      "negative-second-ec-2026",
+      "ec-eldiario-leyes"
+    ],
+    "notes": "Ecuador adopted a national AI strategy in December 2025 and launched it in March 2026. The archived bill would have created a national AI control authority with algorithm-audit access; the bill text was not read directly.\n\nThe National Assembly confirms that the comprehensive AI bill was archived on 15 September 2026. Searches covered indexed public English and Spanish sources for a government-designated AI safety institute with a remit to evaluate advanced models. The Assembly's 30 September report says a resolution directed the Education Committee to begin considering the bill admitted on 28 September and allowed it to combine related proposals.",
+    "region": {
+      "id": "019",
+      "name": "Americas",
+      "subregion_id": "419",
+      "subregion": "Latin America and the Caribbean",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "population": {
+      "value": 18289896,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "status_confidence": "medium",
+    "iso3": "ECU",
+    "m49": "218",
+    "wikidata": "Q736",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "summary": [
+        "ec-eldiario-leyes",
+        "ec-an-bill-98762",
+        "ec-an-bill-119270"
+      ],
+      "next_check": [],
+      "check": [],
+      "notes": [
+        "negative-second-ec-2026",
+        "ec-an-bill-98762",
+        "ec-an-bill-119270",
+        "ec-an-2026-09-30-education"
+      ],
+      "region": [],
+      "europe_scope": [],
+      "population": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "ec-eldiario-leyes",
+        "negative-second-ec-2026",
+        "ec-an-bill-98762",
+        "ec-an-bill-119270",
+        "ec-an-2026-09-30-education"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "ec-eldiario-leyes",
+        "ec-an-bill-98762",
+        "ec-an-bill-119270"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "ec-eldiario-leyes",
+        "ov-wikipedia",
+        "negative-second-ec-2026",
+        "ec-an-bill-98762",
+        "ec-an-bill-119270",
+        "ec-an-2026-09-30-education"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ec-an-2026-09-30-education",
+      "title": "Comisión de Educación conoce propuesta para regular el desarrollo y uso ético de la inteligencia artificial",
+      "title_en": "Education Committee takes up a proposal to regulate the development and ethical use of artificial intelligence",
+      "url": "https://www.asambleanacional.gob.ec/es/noticia/119810-comision-de-educacion-conoce-propuesta-para-regular-el",
+      "excerpts": [
+        {
+          "text": "La resolución dispone iniciar su tratamiento y faculta a la comisión a unificarlo con otras propuestas relacionadas.",
+          "accessed": "2026-11-10",
+          "gloss": "The resolution orders consideration to begin and allows the committee to combine it with related proposals.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ec-an-bill-119270",
+      "title": "Proyecto de Ley Orgánica para el desarrollo, uso ético y gobernanza de la inteligencia artificial en el Ecuador",
+      "title_en": "Organic Bill on the development, ethical use and governance of artificial intelligence in Ecuador, legislative file",
+      "url": "https://www.asambleanacional.gob.ec/es/multimedios-legislativos/119270-proyecto-de-ley-organica-para-el",
+      "excerpts": [
+        {
+          "text": "Calificación del CAL: 2026-09-28: cal-mdma-2025-2027-600",
+          "accessed": "2026-11-10",
+          "gloss": "Admission by the Council of Legislative Administration: 28 September 2026, resolution cal-mdma-2025-2027-600",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ec-an-bill-98762",
+      "title": "Proyecto de Ley para el Fomento y Desarrollo de la Inteligencia Artificial (unificado)",
+      "title_en": "Bill for the Promotion and Development of Artificial Intelligence (unified), legislative file",
+      "url": "https://www.asambleanacional.gob.ec/es/multimedios-legislativos/98762-proyecto-de-ley-para-el-fomento-y",
+      "excerpts": [
+        {
+          "text": "2026-09-15 ARCHIVADO",
+          "accessed": "2026-11-10",
+          "gloss": "15 September 2026: archived",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary",
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ec-eldiario-leyes",
+      "title": "Ecuador busca definir reglas para el uso de la inteligencia artificial: estas son las propuestas de ley",
+      "title_en": "Ecuador seeks to define rules for artificial intelligence use: these are the proposed laws",
+      "url": "https://www.eldiario.ec/ecuador/ecuador-reglas-leyes-inteligencia-artificial-27102026/",
+      "excerpts": [
+        {
+          "text": "Ecuador busca definir reglas para el uso de la inteligencia artificial mediante 12 iniciativas legislativas.",
+          "accessed": "2026-11-10",
+          "gloss": "Ecuador seeks to define rules for the use of artificial intelligence through 12 legislative initiatives.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negative-second-ec-2026",
+      "title": "Sesión N.º 123: Pleno archivó proyecto de ley sobre IA y aprobó informe sobre Segura EP",
+      "title_en": "Session No. 123: plenary shelved AI bill and approved report on Segura EP",
+      "url": "https://www.asambleanacional.gob.ec/es/node/119939",
+      "excerpts": [
+        {
+          "text": "Pleno archivó proyecto de ley sobre IA",
+          "gloss": "The plenary archived an AI bill.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

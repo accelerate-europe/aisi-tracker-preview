@@ -1,0 +1,4529 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "54b706d16fe00d80e98c4bef221a3db4bb1fd442",
+      "built": "2026-11-25T16:05:42Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/32",
+  "record": {
+    "id": "EU",
+    "name": "European Union",
+    "kind": "supranational",
+    "europe_scope": false,
+    "institute_id": "eu-ai-office",
+    "summary": "The EU AI Office evaluates general-purpose AI models with systemic risk for all 27 member states.",
+    "next_check": {
+      "date": "2027-04-16",
+      "reason": "Routine full re-check of an institute record, every six months."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, authority designations and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound"
+    },
+    "source_ids": [
+      "eu-decision",
+      "eu-aioffice",
+      "eu-decision-oj",
+      "eu-office-structure-2024",
+      "eu-joint-testing-2025",
+      "gb-joint-testing",
+      "catalogue-agentic-report",
+      "fix-output-network-agentic-arxiv",
+      "depth-gb-blog",
+      "eu-midday-briefing-2026-09-11",
+      "eu-tnw-enisa-mythos-2026",
+      "eu-techzine-enisa-mythos-2026"
+    ],
+    "memberships": [
+      {
+        "body": "intl-network",
+        "source_ids": [
+          "r3-eu-first-network-meeting",
+          "network-2025",
+          "network-nist-2026",
+          "gb-aisi-network-consensus-2026"
+        ],
+        "citations": {
+          "body": [
+            "r3-eu-first-network-meeting",
+            "gb-aisi-network-consensus-2026"
+          ],
+          "display": [
+            "r3-eu-first-network-meeting",
+            "gb-aisi-network-consensus-2026"
+          ]
+        }
+      }
+    ],
+    "status_confidence": "high",
+    "timeline": [
+      {
+        "id": "eu-2024-01-24-commitment",
+        "date": "2024-01-24",
+        "event": "commitment",
+        "instrument": "decision",
+        "description": "The Commission adopts its decision to establish the European AI Office within the Commission; the decision will enter into force on 21 February 2024.",
+        "source_ids": [
+          "eu-decision-oj",
+          "eu-decision"
+        ],
+        "short": "Commission adopts decision to establish the European AI Office.",
+        "citations": {
+          "id": [],
+          "date": [],
+          "event": [
+            "eu-decision"
+          ],
+          "instrument": [],
+          "description": [
+            "eu-decision"
+          ],
+          "short": [],
+          "display": [
+            "eu-decision"
+          ]
+        }
+      },
+      {
+        "id": "eu-1",
+        "date": "2024-02-21",
+        "event": "designated",
+        "instrument": "decision",
+        "description": "Commission Decision of 24 January 2024 establishing the European AI Office, tasked among other things with tools and benchmarks for evaluating general-purpose AI models, enters into force.",
+        "source_ids": [
+          "eu-decision-oj",
+          "eu-decision"
+        ],
+        "short": "Decision establishing the European AI Office enters into force.",
+        "citations": {
+          "id": [],
+          "date": [
+            "eu-decision-oj"
+          ],
+          "event": [
+            "eu-decision-oj"
+          ],
+          "instrument": [],
+          "description": [
+            "eu-decision-oj"
+          ],
+          "short": [],
+          "display": [
+            "eu-decision-oj"
+          ]
+        }
+      },
+      {
+        "id": "eu-2024-06-16-launched",
+        "date": "2024-06-16",
+        "event": "launched",
+        "instrument": "administrative",
+        "description": "The AI Office organisational structure, including the AI Safety unit for systemic-risk identification and evaluation/testing approaches, takes effect.",
+        "source_ids": [
+          "eu-office-structure-2024"
+        ],
+        "short": "AI Office organisational structure, including its AI Safety unit, takes effect.",
+        "citations": {
+          "id": [],
+          "date": [
+            "eu-office-structure-2024"
+          ],
+          "event": [],
+          "instrument": [],
+          "description": [
+            "eu-office-structure-2024"
+          ],
+          "short": [],
+          "display": [
+            "eu-office-structure-2024"
+          ]
+        }
+      },
+      {
+        "id": "eu-first-output",
+        "date": "2025-07-17",
+        "event": "first_output",
+        "instrument": "publication",
+        "description": "Earliest identified institutionally credited output: Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+        "short": "First published work credited to the institute.",
+        "output_lineage": "network-agentic-2025",
+        "source_ids": [
+          "eu-joint-testing-2025"
+        ],
+        "citations": {
+          "event": [
+            "eu-joint-testing-2025"
+          ],
+          "date": [
+            "eu-joint-testing-2025"
+          ],
+          "short": [
+            "eu-joint-testing-2025"
+          ],
+          "description": [
+            "eu-joint-testing-2025"
+          ],
+          "display": [
+            "eu-joint-testing-2025"
+          ]
+        }
+      }
+    ],
+    "iso3": null,
+    "m49": null,
+    "wikidata": "Q458",
+    "identifier_source_ids": [
+      "wikidata-eu-identifier"
+    ],
+    "identifier_notes": "EU is a supranational union, not an ISO 3166 country or M49 statistical country/area. EU is not assigned country-equivalent ISO3/M49 codes; both remain null.",
+    "related_bodies": [
+      {
+        "name": "European Union Agency for Cybersecurity (ENISA)",
+        "role": "The EU cybersecurity agency; the EU's institute record is the AI Office. A Commission spokesperson said on 11 September 2026 that, after safeguards and terms were agreed with Anthropic, the Commission had official access to its model Mythos 5 and the cybersecurity agency was testing it. The Next Web reported on 10 September that access came more than three months after Anthropic agreed in principle in June; Techzine reported the same day that the access was limited to defensive use and that the agency did not have access to Mythos 5.1.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "eu-midday-briefing-2026-09-11",
+          "eu-tnw-enisa-mythos-2026",
+          "eu-techzine-enisa-mythos-2026",
+          "eu-enisa-about"
+        ],
+        "kind": "other",
+        "id": "related_bodies-37c9ea7f5e1b74ab17d6fcc2295fb100",
+        "citations": {
+          "name": [],
+          "role": [
+            "eu-midday-briefing-2026-09-11",
+            "eu-tnw-enisa-mythos-2026",
+            "eu-techzine-enisa-mythos-2026"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "eu-midday-briefing-2026-09-11",
+            "eu-tnw-enisa-mythos-2026",
+            "eu-techzine-enisa-mythos-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-enisa-about",
+            "eu-midday-briefing-2026-09-11",
+            "eu-tnw-enisa-mythos-2026",
+            "eu-techzine-enisa-mythos-2026"
+          ]
+        }
+      }
+    ],
+    "status": "established",
+    "status_since": "2024-02-21",
+    "citations": {
+      "id": [],
+      "name": [],
+      "kind": [],
+      "europe_scope": [],
+      "institute_id": [],
+      "summary": [
+        "eu-decision-oj"
+      ],
+      "next_check": [],
+      "check": [],
+      "memberships": [
+        "r3-eu-first-network-meeting",
+        "gb-aisi-network-consensus-2026"
+      ],
+      "status_confidence": [],
+      "timeline": [
+        "eu-decision",
+        "eu-decision-oj",
+        "eu-office-structure-2024"
+      ],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "identifier_notes": [],
+      "related_bodies": [
+        "eu-midday-briefing-2026-09-11",
+        "eu-tnw-enisa-mythos-2026",
+        "eu-techzine-enisa-mythos-2026"
+      ],
+      "status": [
+        "eu-decision-oj"
+      ],
+      "status_since": [
+        "eu-decision-oj"
+      ],
+      "display": [
+        "eu-decision",
+        "eu-decision-oj",
+        "eu-office-structure-2024",
+        "r3-eu-first-network-meeting",
+        "gb-aisi-network-consensus-2026",
+        "eu-midday-briefing-2026-09-11",
+        "eu-tnw-enisa-mythos-2026",
+        "eu-techzine-enisa-mythos-2026"
+      ],
+      "since": [
+        "eu-decision-oj"
+      ],
+      "finding": [
+        "eu-decision-oj"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": false,
+      "advisory": false,
+      "source_links": [
+        "network-2025",
+        "network-nist-2026",
+        "eu-aioffice",
+        "eu-decision",
+        "eu-joint-testing-2025",
+        "gb-joint-testing",
+        "eu-decision-oj",
+        "eu-office-structure-2024",
+        "catalogue-agentic-report",
+        "depth-gb-blog",
+        "fix-output-network-agentic-arxiv",
+        "r3-eu-first-network-meeting",
+        "eu-enisa-about",
+        "gb-aisi-network-consensus-2026",
+        "eu-midday-briefing-2026-09-11",
+        "eu-tnw-enisa-mythos-2026",
+        "eu-techzine-enisa-mythos-2026"
+      ]
+    }
+  },
+  "institute": {
+    "aisi_json_pointer": "/institutes/5",
+    "record": {
+      "id": "eu-ai-office",
+      "name": "EU AI Office",
+      "jurisdiction_id": "EU",
+      "host": "European Commission",
+      "legal_form": "unit_in_existing_body",
+      "mandate": "Enforces the AI Act rules for general-purpose AI models, including evaluating models with systemic risk.",
+      "website": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "check": {
+        "last_checked": "2026-10-16",
+        "method": "individual",
+        "partial": [
+          {
+            "date": "2026-10-17",
+            "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+          },
+          {
+            "date": "2026-10-17",
+            "scope": "Checked the authorship of the first General-Purpose AI Code of Practice draft against the Commission publication page. This is a partial check, not a full record recheck."
+          },
+          {
+            "date": "2026-10-19",
+            "scope": "Added retained decision clauses for the short mandate. This was a partial evidence check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-20",
+            "scope": "Leadership checked against official sources and newer-appointment searches from the 20 October evidence review; name and title unchanged."
+          },
+          {
+            "date": "2026-10-20",
+            "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Staff conflict and the interval basis noted. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-10-24",
+            "scope": "Post-release re-check of the AI Office page, its library and Commission digital news: the external evaluators workshop report of 21 October 2026 added. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-07",
+            "scope": "News re-check since 24 October 2026: the AI Office page (still more than 125 staff), the library listing, news, the Commissioner's progress-report page and Capgemini's release of 5 November on its tender lot. Nothing new found. Left for review: the progress report itself. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-08",
+            "scope": "Staff and budget pass of 7 November 2026: POLITICO's report of 31 July 2026 on two units' combined staff and expected 2027 openings, and the EUR 9m GPAI-safety tender with its lot ceilings, added to the notes; staff figure and funding unchanged. Staff and funding only, not a full record re-check."
+          },
+          {
+            "date": "2026-11-08",
+            "scope": "Staff and budget pass of 7 November 2026: POLITICO's report of 6 March 2024 on the Office's EUR 46.5m starting budget, as stated by an MEP and not confirmed by the Commission, added to the notes; no funding record. Funding only, not a full record re-check."
+          },
+          {
+            "date": "2026-11-09",
+            "scope": "Post-release news re-check from 6 November 2026: the AI Office page, the digital-strategy library and news to 6 November, and the Official Journal for 6 and 9 November. No new act under the AI Act and no new output. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-10",
+            "scope": "Post-release news re-check from 8 November 2026: the AI Office page, Commission digital-strategy news (6 November) and library (4 November), the Official Journal L series of 10 November, ENISA news (10 November) and the Commission's midday briefings of 18 June, 20 July, 1 September and 11 September 2026. Added ENISA's access to Mythos 5 to the EU record as a related body; it is ENISA's access, not the Office's. No primary source for the June agreement or the defensive-use terms was found in the material checked. The Official Journal of 9 November, corrigenda in other languages and ENISA's report of 10 November were not fully read. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-13",
+            "scope": "Post-release news re-check from 10 November 2026: the AI Office page, Commission digital-strategy news (6 November) and library (4 November), and the Official Journal L series of 12 and 13 November and C series of 12 November. The sandbox implementing regulation (adopted 10 November, published 11 November) and the Article 50 guidelines of 12 November are not Office outputs and add no access evidence. In ENISA's release and State of Cybersecurity report of 10 November, no statement of ENISA's own testing of or access to advanced models was found; the report's later AI passages were read only as extracted text, not checked against the original pages. The L series of 10 and 11 November, the C series of 13 November and corrigenda in other languages were not fully read. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-14",
+            "scope": "Sources checked for developments from 13 November 2026: the AI Office page (undated), the Commission's digital-strategy news (6 November) and library (13 November), and the Official Journal's L and C series of 13 November. No new institute fact and no AI Act instrument was found in the material read. An Official Journal homepage displayed 14 November, but no issue contents for that date were recovered, so coverage of 14 November is incomplete. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-20",
+            "scope": "Sources checked for developments from 14 November 2026: the AI Office's page (undated), the Commission's digital strategy library (newest 13 November) and news (19 November), and the Official Journal's daily listings of 16 to 20 November. The Commission's call of 16 November for feedback on a draft template for fundamental rights impact assessments, developed by the AI Office with input from the EU Agency for Fundamental Rights, was read; the template itself could not be retrieved and it is not entered as an output. No new AI Act act was identified by title. The listings of 14 and 15 November and some corrigenda were not covered. Partial check, not a full record re-check."
+          },
+          {
+            "date": "2026-11-23",
+            "scope": "Post-release news re-check from 20 November 2026: the AI Office page (still more than 125 staff), Commission digital-strategy news (newest 20 November) and library (13 November), and the Official Journal's L series of 20 and 23 November. Added the draft fundamental rights impact assessment template of 16 November 2026, developed by the AI Office, as an output. The C series of 23 November was read only in part. Partial check, not a full record re-check."
+          }
+        ],
+        "last_checked_basis": "historical_upper_bound",
+        "log": [
+          {
+            "date": "2026-11-14",
+            "text": "Searched for a budget amount for the AI Office: the Commission decision establishing it, the Commission's own pages, answers to Parliament's written questions, the budgetary statement of the 2025 AI Act amendment package and the press. No Commission figure was found; in the material read, a starting budget of EUR 46.5m was found only in press reports attributing it to a Member of the European Parliament."
+          }
+        ],
+        "functions": {
+          "date": "2026-11-14",
+          "codes": [
+            "model_testing",
+            "evaluation_methods",
+            "research",
+            "standards_guidance",
+            "regulatory_enforcement",
+            "regulatory_support",
+            "risk_monitoring",
+            "foresight",
+            "policy_advice",
+            "incident_response",
+            "international_cooperation",
+            "convening",
+            "capacity_building",
+            "talent",
+            "adoption",
+            "public_access_continuity",
+            "certification",
+            "sandbox"
+          ]
+        }
+      },
+      "source_ids": [
+        "eu-decision",
+        "eu-aioffice",
+        "eu-sioli",
+        "eu-joint-testing-2025",
+        "eu-decision-oj",
+        "catalogue-eu-artifact-prohibited",
+        "catalogue-eu-artifact-gpai",
+        "catalogue-eu-artifact-template",
+        "catalogue-eu-transparency-pdf",
+        "depth-sg-eu-mou",
+        "network-2025",
+        "network-nist-2026",
+        "gb-joint-testing",
+        "catalogue-agentic-report",
+        "r5-eu-code-first-draft",
+        "eu-enisa-about",
+        "eu-pq-p001672-2026",
+        "eu-politico-ai-office-hiring-2026",
+        "eu-ai-office-tender-gpai-2025",
+        "eu-tender-op-0032-specifications",
+        "eu-politico-tudorache-2024",
+        "r5-eu-ai-act-article74",
+        "eu-virkkunen-dublin-2026"
+      ],
+      "staff": [
+        {
+          "total": 140,
+          "total_qualifier": "at_least",
+          "as_of": "2026-06-03",
+          "description": "More than 140 staff, including over 40 in the AI safety unit, most of them with technical profiles (Commission answer to parliamentary question P-001672/2026). The AI Office's own page (updated 8 September 2026) gives more than 125 staff; the answer to Parliament is kept as the more specific source.",
+          "source_ids": [
+            "eu-pq-p001672-2026",
+            "eu-aioffice"
+          ],
+          "confidence": "high",
+          "id": "staff-2e8b5d0c7a4f4e19b6c3d8a1f05e7b92",
+          "citations": {
+            "total": [
+              "eu-pq-p001672-2026"
+            ],
+            "total_qualifier": [
+              "eu-pq-p001672-2026"
+            ],
+            "as_of": [
+              "eu-pq-p001672-2026"
+            ],
+            "description": [
+              "eu-aioffice",
+              "eu-pq-p001672-2026"
+            ],
+            "confidence": [],
+            "id": [],
+            "display": [
+              "eu-aioffice",
+              "eu-pq-p001672-2026"
+            ]
+          },
+          "display": {
+            "total": "140+",
+            "technical": null,
+            "target": null
+          }
+        }
+      ],
+      "people": [
+        {
+          "name": "Lucilla Sioli",
+          "role": "Director AI Office (DG CONNECT)",
+          "source_ids": [
+            "eu-sioli",
+            "eu-sioli-connect-2020"
+          ],
+          "confidence": "high",
+          "title_status": "published",
+          "id": "people-ff3044c04c6d5bc490489df29a84f83a",
+          "background": "A European Commission civil servant since 1997, Sioli was listed in August 2020 as Director for Artificial Intelligence and Digital Industry in DG CONNECT.",
+          "citations": {
+            "name": [
+              "eu-sioli"
+            ],
+            "role": [
+              "eu-sioli"
+            ],
+            "confidence": [],
+            "title_status": [],
+            "id": [],
+            "background": [
+              "eu-sioli",
+              "eu-sioli-connect-2020"
+            ],
+            "display": [
+              "eu-sioli",
+              "eu-sioli-connect-2020"
+            ]
+          }
+        }
+      ],
+      "mandate_short": "Enforces the AI Act's rules for general-purpose AI models; evaluates those with systemic risk.",
+      "legal_basis": {
+        "type": "administrative",
+        "state": "in_force",
+        "source_ids": [
+          "eu-decision-oj"
+        ],
+        "citations": {
+          "type": [
+            "eu-decision-oj"
+          ],
+          "state": [
+            "eu-decision-oj"
+          ],
+          "display": [
+            "eu-decision-oj"
+          ]
+        }
+      },
+      "placement": {
+        "host_type": "supranational",
+        "source_ids": [
+          "eu-decision-oj"
+        ],
+        "citations": {
+          "host_type": [],
+          "display": []
+        }
+      },
+      "name_local": "European AI Office",
+      "short_name": "EU AI Office",
+      "wikidata": "Q135841125",
+      "identifier_source_ids": [
+        "wikidata-eu-ai-office-identifier"
+      ],
+      "identifier_notes": "P17 is Belgium (physical seat); institutional jurisdiction is EU, verified by P749 European Commission Q8880 and exact official AI Office website. Do not interpret P17 as national ownership.",
+      "outputs": [
+        {
+          "date": "2025-07-17",
+          "type": "joint_testing",
+          "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "source_ids": [
+            "eu-joint-testing-2025",
+            "gb-joint-testing",
+            "catalogue-agentic-report",
+            "fix-output-network-agentic-arxiv",
+            "depth-gb-blog"
+          ],
+          "lineage": "network-agentic-2025",
+          "attribution": "named_contributor",
+          "attribution_note": "The original report names the institute as a contributing organisation or, for the EU AI Office, as a participant running cybersecurity evaluations.",
+          "qualifies_as": "joint_testing",
+          "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report.",
+          "credit": {
+            "institute_id": "eu-ai-office",
+            "date": "2025-07-17"
+          },
+          "functions": [
+            "model_testing",
+            "international_cooperation"
+          ],
+          "citations": {
+            "date": [
+              "eu-joint-testing-2025",
+              "depth-gb-blog"
+            ],
+            "type": [],
+            "title": [
+              "fix-output-network-agentic-arxiv"
+            ],
+            "lineage": [],
+            "attribution": [],
+            "attribution_note": [
+              "eu-joint-testing-2025",
+              "catalogue-agentic-report"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "eu-joint-testing-2025"
+            ],
+            "functions": [],
+            "display": [
+              "eu-joint-testing-2025",
+              "catalogue-agentic-report",
+              "depth-gb-blog",
+              "fix-output-network-agentic-arxiv"
+            ]
+          }
+        },
+        {
+          "date": "2026-10-21",
+          "type": "report",
+          "title": "Requirements for qualified independent external evaluators of general-purpose AI models",
+          "source_ids": [
+            "eu-external-evaluators-2026"
+          ],
+          "lineage": "requirements-qualified-independent-external-evaluators",
+          "attribution": "institutional_author",
+          "attribution_note": "Workshop report written by the AI Office, which states that it expresses the AI Office’s current views.",
+          "qualifies_as": "none",
+          "qualification_note": "Proposes requirements and a scoring system for external evaluators; it reports no evaluation, test result or benchmark.",
+          "credit": {
+            "institute_id": "eu-ai-office",
+            "date": "2026-10-21"
+          },
+          "functions": [],
+          "citations": {
+            "date": [
+              "eu-external-evaluators-2026"
+            ],
+            "type": [],
+            "title": [],
+            "lineage": [],
+            "attribution": [
+              "eu-external-evaluators-2026"
+            ],
+            "attribution_note": [
+              "eu-external-evaluators-2026"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "eu-external-evaluators-2026"
+            ],
+            "functions": [],
+            "display": [
+              "eu-external-evaluators-2026"
+            ]
+          }
+        },
+        {
+          "date": "2026-11-16",
+          "type": "guidance",
+          "title": "Draft Explanatory Notice and template for the fundamental rights impact assessment under Article 27(5) of Regulation (EU) 2024/1689 (the ‘AI Act’)",
+          "source_ids": [
+            "eu-fria-template-2026",
+            "eu-fria-news-2026"
+          ],
+          "lineage": "fria-template-article-27",
+          "attribution": "institutional_author",
+          "attribution_note": "Draft template and explanatory notice developed by the AI Office with input from the EU Agency for Fundamental Rights, published for feedback; the draft is not adopted by the Commission.",
+          "qualifies_as": "none",
+          "qualification_note": "Guidance for deployers of high-risk AI systems on the fundamental rights impact assessment; it reports no evaluation, test result or benchmark.",
+          "credit": {
+            "institute_id": "eu-ai-office",
+            "date": "2026-11-16"
+          },
+          "functions": [
+            "standards_guidance"
+          ],
+          "citations": {
+            "date": [
+              "eu-fria-news-2026"
+            ],
+            "type": [],
+            "title": [],
+            "lineage": [],
+            "attribution": [
+              "eu-fria-template-2026",
+              "eu-fria-news-2026"
+            ],
+            "attribution_note": [
+              "eu-fria-template-2026",
+              "eu-fria-news-2026"
+            ],
+            "qualifies_as": [],
+            "qualification_note": [],
+            "credit": [
+              "eu-fria-template-2026",
+              "eu-fria-news-2026"
+            ],
+            "functions": [],
+            "display": [
+              "eu-fria-template-2026",
+              "eu-fria-news-2026"
+            ]
+          }
+        }
+      ],
+      "agreements": [
+        {
+          "counterparty_type": "government",
+          "counterparty": "Singapore Ministry of Digital Development and Information, for Singapore AI Safety Institute",
+          "state": "signed",
+          "date": "2024-11-20",
+          "scope": "Administrative Arrangement establishing institute cooperation on AI safety, evaluation and exchange of technical knowledge.",
+          "source_ids": [
+            "depth-sg-eu-mou"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "id": "agreements-d61ad4a4377453a193363176ffefe56a",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "depth-sg-eu-mou"
+            ],
+            "state": [
+              "depth-sg-eu-mou"
+            ],
+            "date": [
+              "depth-sg-eu-mou"
+            ],
+            "scope": [
+              "depth-sg-eu-mou"
+            ],
+            "participation": [
+              "depth-sg-eu-mou"
+            ],
+            "domestic_interagency": [],
+            "id": [],
+            "display": [
+              "depth-sg-eu-mou"
+            ]
+          }
+        },
+        {
+          "counterparty_type": "institute",
+          "counterparty": "US AI Safety Institute",
+          "state": "announced",
+          "date": "2024-04-05",
+          "scope": "TTC commitment to establish a Dialogue between the EU AI Office and US AI Safety Institute for scientific information exchange on benchmarks, potential risks and technological trends.",
+          "source_ids": [
+            "eu-us-ttc-summary-2024",
+            "eu-us-ttc-dialogue-2024"
+          ],
+          "participation": "named_implementer",
+          "domestic_interagency": false,
+          "peer_institute_id": "us-caissi",
+          "id": "agreements-8ca5744acde3539a888e75c7d1c28dcb",
+          "citations": {
+            "counterparty_type": [],
+            "counterparty": [
+              "eu-us-ttc-dialogue-2024"
+            ],
+            "state": [
+              "eu-us-ttc-dialogue-2024"
+            ],
+            "date": [
+              "eu-us-ttc-summary-2024"
+            ],
+            "scope": [
+              "eu-us-ttc-dialogue-2024",
+              "eu-us-ttc-summary-2024"
+            ],
+            "participation": [
+              "eu-us-ttc-dialogue-2024"
+            ],
+            "domestic_interagency": [],
+            "peer_institute_id": [],
+            "id": [],
+            "display": [
+              "eu-us-ttc-dialogue-2024",
+              "eu-us-ttc-summary-2024"
+            ]
+          }
+        }
+      ],
+      "notes": "The first General-Purpose AI Code of Practice draft is excluded from the output catalogue: independent experts drafted it and the AI Office published it as facilitator. This does not meet the institute-authorship or own-work credit rule. The announcement-to-establishment interval counts from the Commission decision of 24 January 2024; earlier announcements of the AI Act's political agreement are not counted. POLITICO reported on 31 July 2026 that the Commission was hiring contract agents for two units of the Office, one for AI regulation and compliance and one for the risks of cutting-edge models, which had a combined staff of 71, and that it expected 40 jobs to open in the two units during 2027; this press report does not change the staff figure. The Office's call for tenders EC-CNECT/2025/OP/0032 of 10 July 2025 for technical support on general-purpose AI safety has a total budget of EUR 9m from the Digital Europe Programme, in six lots with maximum values of EUR 1.08m to EUR 2m and durations of 24 or 36 months. This is a procurement ceiling, not a funding record. POLITICO reported on 6 March 2024 that the MEP Dragoș Tudorache, citing conversations with Commission officials, said the Office's starting budget would be EUR 46.5m; a Commission spokesperson said its funding would be reallocated from the Digital Europe Programme but declined to give specifics. This press report is not a funding record. The same report said that a Commission spokesperson had put the Office's planned total staff at 98, two of them working at the European Data Protection Supervisor, with 18 coming from other Commission units and 80 hired externally as contract staff or seconded national experts; this press report does not change the staff figure.",
+      "head": {
+        "state": "stated",
+        "person_id": "people-ff3044c04c6d5bc490489df29a84f83a",
+        "source_ids": [
+          "eu-sioli"
+        ],
+        "citations": {
+          "state": [],
+          "person_id": [
+            "eu-sioli"
+          ],
+          "display": [
+            "eu-sioli"
+          ]
+        }
+      },
+      "reports_to": {
+        "state": "stated",
+        "name": "European Commission, Directorate-General for Communications Networks, Content and Technology",
+        "source_ids": [
+          "eu-decision-oj"
+        ],
+        "citations": {
+          "state": [],
+          "name": [
+            "eu-decision-oj"
+          ],
+          "display": [
+            "eu-decision-oj"
+          ]
+        }
+      },
+      "national_partners": {
+        "state": "stated",
+        "entries": [
+          {
+            "id": "np-eu-enisa",
+            "name": "European Union Agency for Cybersecurity",
+            "acronym": "ENISA",
+            "what": "EU cybersecurity agency",
+            "relation": "works_with",
+            "cyber_agency": true,
+            "how": "Lists the AI Office among partners of its 2026–2028 product and technology security activity, which covers AI.",
+            "source_ids": [
+              "eu-enisa-spd-2026",
+              "eu-enisa-about"
+            ],
+            "citations": {
+              "id": [],
+              "name": [
+                "eu-enisa-spd-2026",
+                "eu-enisa-about"
+              ],
+              "acronym": [],
+              "what": [
+                "eu-enisa-about"
+              ],
+              "relation": [
+                "eu-enisa-spd-2026"
+              ],
+              "cyber_agency": [
+                "eu-enisa-about"
+              ],
+              "how": [
+                "eu-enisa-spd-2026"
+              ],
+              "display": [
+                "eu-enisa-spd-2026",
+                "eu-enisa-about"
+              ]
+            }
+          },
+          {
+            "id": "np-eu-ai-board",
+            "name": "European Artificial Intelligence Board",
+            "acronym": "AI Board",
+            "what": "EU advisory body",
+            "relation": "works_with",
+            "how": "Is an advisory body supported by the AI Office, with representatives from each EU member state.",
+            "source_ids": [
+              "eu-aioffice"
+            ],
+            "citations": {
+              "id": [],
+              "name": [
+                "eu-aioffice"
+              ],
+              "acronym": [],
+              "what": [
+                "eu-aioffice"
+              ],
+              "relation": [
+                "eu-aioffice"
+              ],
+              "how": [
+                "eu-aioffice"
+              ],
+              "display": [
+                "eu-aioffice"
+              ]
+            }
+          },
+          {
+            "id": "np-eu-ecat",
+            "name": "European Centre for Algorithmic Transparency",
+            "acronym": "ECAT",
+            "what": "Commission algorithmic transparency centre",
+            "relation": "works_with",
+            "how": "Works with the Office on the evaluation and testing of general-purpose AI models and systems under the Commission decision.",
+            "source_ids": [
+              "eu-decision-oj"
+            ],
+            "citations": {
+              "id": [],
+              "name": [
+                "eu-decision-oj"
+              ],
+              "acronym": [],
+              "what": [
+                "eu-decision-oj"
+              ],
+              "relation": [
+                "eu-decision-oj"
+              ],
+              "how": [
+                "eu-decision-oj"
+              ],
+              "display": [
+                "eu-decision-oj"
+              ]
+            }
+          }
+        ],
+        "notes": "Cyber agency searched: ENISA, 2026-10-19 (en); found. ENISA programme explicitly lists EC AI Office among Partners. Six cyber-search fetches reached the stop rule; two 2026 strategy responses unusable. No bilateral signed instrument claimed. Count includes multipurpose sources; exact source IDs: eu-enisa-webinar, eu-enisa-about, eu-enisa-opinion, eu-cyber-ai-strategy, eu-enisa-spd-2026, eu-cyber-ai-strategy-pdf."
+      },
+      "testing_capacity": {
+        "modes": [
+          {
+            "code": "in_house",
+            "source_ids": [
+              "catalogue-agentic-report",
+              "eu-joint-testing-2025"
+            ],
+            "citations": {
+              "code": [
+                "eu-joint-testing-2025",
+                "catalogue-agentic-report"
+              ],
+              "display": [
+                "eu-joint-testing-2025",
+                "catalogue-agentic-report"
+              ]
+            }
+          },
+          {
+            "code": "via_other_bodies",
+            "source_ids": [
+              "eu-ted-864574-2025",
+              "eu-tender-op-0032-specifications"
+            ],
+            "named_as": "AI Office",
+            "citations": {
+              "code": [
+                "eu-tender-op-0032-specifications",
+                "eu-ted-864574-2025"
+              ],
+              "named_as": [],
+              "display": [
+                "eu-tender-op-0032-specifications",
+                "eu-ted-864574-2025"
+              ]
+            }
+          }
+        ],
+        "notes": "Testing reported, 2025-07-17: the AI Office ran the agentic evaluations for the cybersecurity strand of the network's joint testing. External evaluation support was procured under EC-CNECT/2025/OP/0032: lots 1 to 5 (CBRN, cyber offence, loss of control, harmful manipulation and sociotechnical risks) include ad hoc evaluations of general-purpose AI models chosen by the AI Office, and lot 6 builds an agentic evaluation interface for it. The award notice (OJ S 249/2025, 26 December 2025) lists the contractors by lot: lot 1 FAR AI, SecureBio and SaferAI; lot 2 Capgemini Consulting, Wavestone and the Laboratoire national de métrologie et d'essais; lot 3 EquiStamp, Model Evaluation and Threat Research and Epoch Artificial Intelligence; lot 4 EquiStamp, Clarity AI Research and the Centre pour la Sécurité de l'IA; lot 5 Technopolis Consulting Group Belgium, WIK-Consult and TNO; lot 6 the French ministry responsible for the budget and the Laboratoire national de métrologie et d'essais.",
+        "source_ids": [
+          "eu-joint-testing-2025",
+          "eu-ted-864574-2025",
+          "eu-tender-op-0032-specifications"
+        ],
+        "citations": {
+          "modes": [
+            "eu-joint-testing-2025",
+            "catalogue-agentic-report",
+            "eu-tender-op-0032-specifications",
+            "eu-ted-864574-2025"
+          ],
+          "notes": [
+            "eu-joint-testing-2025",
+            "eu-tender-op-0032-specifications",
+            "eu-ted-864574-2025"
+          ],
+          "display": [
+            "eu-joint-testing-2025",
+            "catalogue-agentic-report",
+            "eu-tender-op-0032-specifications",
+            "eu-ted-864574-2025"
+          ]
+        }
+      },
+      "model_access": {
+        "legal_power": {
+          "act": "Regulation (EU) 2024/1689",
+          "provision": "Article 92(3)",
+          "conditions": "Only for an evaluation under Article 92(1), which the AI Office conducts after consulting the Board, to assess a provider's compliance where information gathered under Article 91 is insufficient or to investigate systemic risks at Union level of general-purpose AI models with systemic risk; the request states its legal basis, purpose and reasons and the period for access, and the provider must provide the access requested.",
+          "named_as": "AI Office",
+          "source_ids": [
+            "r5-eu-ai-act-article74",
+            "eu-ir-2026-1755"
+          ],
+          "citations": {
+            "act": [],
+            "provision": [
+              "r5-eu-ai-act-article74"
+            ],
+            "conditions": [
+              "r5-eu-ai-act-article74",
+              "eu-ir-2026-1755"
+            ],
+            "named_as": [],
+            "display": [
+              "r5-eu-ai-act-article74",
+              "eu-ir-2026-1755"
+            ]
+          }
+        },
+        "notes": "Commission Implementing Regulation (EU) 2026/1755 sets the arrangements: the access 'shall be appropriate to the objectives of the evaluation' and may include access through APIs, internal access, source code and model weights. The network joint testing used open-weight models. Signing the general-purpose AI Code of Practice is not counted as an access agreement. The tender specifications make the contractor responsible for 'the API costs associated with the GPAI model' and say 'Where not feasible, the AI Office shall aim to provide the required access.'",
+        "source_ids": [
+          "eu-ir-2026-1755",
+          "eu-tender-op-0032-specifications",
+          "catalogue-agentic-report"
+        ],
+        "searches": [
+          {
+            "date": "2026-10-21",
+            "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+            "language": "en",
+            "sources_read": [
+              "https://epoch.ai/data/ai-models",
+              "https://epoch.ai/data/ai-models-documentation",
+              "https://epoch.ai/data/all_ai_models.csv",
+              "https://epoch.ai/data/frontier_ai_models.csv",
+              "https://epoch.ai/data/notable_ai_models.csv"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "AI Office tender 'Technical assistance for AI safety' EC-CNECT/2025/OP/0032: prior information notice, contract notice, tender specifications, award notice (TED 864574-2025)",
+            "language": "en",
+            "sources_read": [
+              "https://ted.europa.eu/en/notice/450513-2025/pdf",
+              "https://ted.europa.eu/en/notice/864574-2025/pdf",
+              "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/docs/76f9edf2-d9e2-4db2-931e-a72c5ab356d2-CN/EN_TENDER_SPECIFICATIONS_EC-CNECT-2025-OP-0032_AI%20Safety%20Tools_V1.pdf",
+              "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/docs/76f9edf2-d9e2-4db2-931e-a72c5ab356d2-PIN/Prior%20Information%20Notice_V1.pdf"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "Recorded sources re-read for: 'evaluat|test|access|tender|contract'",
+            "language": "en",
+            "sources_read": [
+              "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+              "https://digital-strategy.ec.europa.eu/en/library/commission-decision-establishing-european-ai-office",
+              "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202401459",
+              "https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+              "https://www.eeas.europa.eu/delegations/singapore/eu-singapore-strengthen-collaboration-ai-safety-new-administrative-arrangement_en",
+              "https://eic.ec.europa.eu/lucilla-sioli_en"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "AI Act consolidated text 02024R1689-20260727, Articles 3(47), 88, 91, 92, 93, 101, 113",
+            "language": "en",
+            "sources_read": [
+              "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02024R1689-20260727"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "AI Office implementing act Article 92 evaluations general-purpose AI models 2026 adopted",
+            "language": "en",
+            "sources_read": [
+              "artificialintelligenceact.eu/article/92 (result list)",
+              "eur-lex CELEX:32026R1755 (fetched)"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "\"AI Office\" pre-deployment access model evaluation provider agreed Code of Practice signatories access 2026",
+            "language": "en",
+            "sources_read": [
+              "web search result list: digital-strategy FAQ on signing the GPAI Code, globalpolicywatch.com, artificialintelligenceact.eu; no access agreement found"
+            ]
+          },
+          {
+            "date": "2026-10-21",
+            "query": "AI Office tender \"technical assistance for AI safety\" awarded contractor evaluation general-purpose AI systemic risk",
+            "language": "en",
+            "sources_read": [
+              "technopolis-group.com wp-json post 64196 (fetched)"
+            ]
+          }
+        ],
+        "value": "by_law",
+        "citations": {
+          "legal_power": [
+            "r5-eu-ai-act-article74",
+            "eu-ir-2026-1755"
+          ],
+          "notes": [
+            "catalogue-agentic-report",
+            "eu-tender-op-0032-specifications",
+            "eu-ir-2026-1755"
+          ],
+          "searches": [],
+          "value": [],
+          "display": [
+            "catalogue-agentic-report",
+            "r5-eu-ai-act-article74",
+            "eu-tender-op-0032-specifications",
+            "eu-ir-2026-1755"
+          ]
+        }
+      },
+      "staffing_model": {
+        "code": "own_staff",
+        "named_as": "AI Office",
+        "source_ids": [
+          "eu-pq-p001672-2026",
+          "eu-decision-oj"
+        ],
+        "notes": "The Commission decision establishing the Office provides that its officials are staff of the Directorate-General for Communication Networks, Content and Technology already assigned to the work or redeployed within it, and that the costs of its external staff are covered from the Digital Europe Programme's administrative budget.",
+        "citations": {
+          "code": [
+            "eu-pq-p001672-2026"
+          ],
+          "named_as": [],
+          "notes": [
+            "eu-decision-oj"
+          ],
+          "display": [
+            "eu-decision-oj",
+            "eu-pq-p001672-2026"
+          ]
+        }
+      },
+      "claims": [
+        {
+          "id": "claims-e862178394584c1f9013e3776f86525b",
+          "kind": "fact",
+          "source_ids": [
+            "eu-ai-office-jobs-2024"
+          ],
+          "text": "The Commission announced the AI Office's first job opportunities.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "text": [
+              "eu-ai-office-jobs-2024"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-ai-office-jobs-2024"
+            ]
+          }
+        },
+        {
+          "id": "claims-3374546e32fa4592968daabf382324ba",
+          "kind": "function",
+          "code": "evaluation_methods",
+          "basis": "mandate",
+          "text": "Is tasked with developing tools, methodologies and benchmarks for evaluating the capabilities of general-purpose AI models.",
+          "source_ids": [
+            "eu-decision-oj"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-decision-oj"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-decision-oj"
+            ]
+          }
+        },
+        {
+          "id": "claims-650dbbebba8640e99e6994a11b842883",
+          "kind": "function",
+          "code": "regulatory_enforcement",
+          "basis": "mandate",
+          "text": "Is tasked with investigating possible infringements of the rules on general-purpose AI models and systems.",
+          "source_ids": [
+            "eu-decision-oj"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-decision-oj"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-decision-oj"
+            ]
+          }
+        },
+        {
+          "id": "claims-d69e2908557d4a308594526b6087b03f",
+          "kind": "function",
+          "code": "regulatory_support",
+          "basis": "mandate",
+          "text": "Is tasked with supporting the implementation of the rules on prohibited AI practices and high-risk AI systems, in coordination with sectoral bodies.",
+          "source_ids": [
+            "eu-decision-oj"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-decision-oj"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-decision-oj"
+            ]
+          }
+        },
+        {
+          "id": "claims-6d5ede87534242fdb578e48a25a1ac09",
+          "kind": "function",
+          "code": "risk_monitoring",
+          "basis": "mandate",
+          "text": "Is tasked with monitoring the emergence of unforeseen risks from general-purpose AI models.",
+          "source_ids": [
+            "eu-decision-oj"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-decision-oj"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-decision-oj"
+            ]
+          }
+        },
+        {
+          "id": "claims-bcc719ee44f2495cafbac63b914bf830",
+          "kind": "function",
+          "code": "incident_response",
+          "basis": "mandate",
+          "text": "Under the AI Act, relevant information about serious incidents is to be reported to it without undue delay.",
+          "source_ids": [
+            "r5-eu-ai-act-article74"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "r5-eu-ai-act-article74"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "r5-eu-ai-act-article74"
+            ]
+          }
+        },
+        {
+          "id": "claims-ca0e1ac83f8e4698bbf1b1ff1b2264b9",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "mandate",
+          "text": "Is tasked with contributing to the Commission's international cooperation on AI with third countries and international organisations.",
+          "source_ids": [
+            "eu-decision-oj"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-decision-oj"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-decision-oj"
+            ]
+          }
+        },
+        {
+          "id": "claims-d2a39520239642d5bf05275cd06a7ea5",
+          "kind": "function",
+          "code": "international_cooperation",
+          "basis": "activity",
+          "text": "Was one of the three network members that ran the agentic evaluations for the cybersecurity strand.",
+          "source_ids": [
+            "eu-joint-testing-2025"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-joint-testing-2025"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-joint-testing-2025"
+            ]
+          }
+        },
+        {
+          "id": "claims-b9d973a760464f5ea3a367e0a4ea77cd",
+          "kind": "function",
+          "code": "convening",
+          "basis": "activity",
+          "text": "Oversees the AI Pact, which allows businesses to engage with the Commission and other stakeholders to share best practices and join activities.",
+          "source_ids": [
+            "eu-aioffice"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-aioffice"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-aioffice"
+            ]
+          }
+        },
+        {
+          "id": "claims-24ab68433afd407ca2953ebfdb19c431",
+          "kind": "function",
+          "code": "adoption",
+          "basis": "mandate",
+          "text": "Is tasked with supporting the accelerated development, roll-out and use of trustworthy AI systems that contribute to the Union's competitiveness and economic growth.",
+          "source_ids": [
+            "eu-decision-oj"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-decision-oj"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-decision-oj"
+            ]
+          }
+        },
+        {
+          "id": "claims-7837462af5794561911284da8b49e812",
+          "kind": "function",
+          "code": "certification",
+          "basis": "mandate",
+          "text": "Is tasked with conformity assessments and tests of AI systems referred to in Article 74(1) of the AI Act that are classified as high-risk and subject to third-party conformity assessment.",
+          "source_ids": [
+            "r5-eu-ai-act-article74"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "r5-eu-ai-act-article74"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "r5-eu-ai-act-article74"
+            ]
+          }
+        },
+        {
+          "id": "claims-86e416a30b5f41cab44bbdd966e98f18",
+          "kind": "function",
+          "code": "adoption",
+          "basis": "activity",
+          "text": "Supports innovators through the GenAI4EU initiative, which contributes to novel use cases and emerging applications in 14 industrial sectors and the public sector.",
+          "source_ids": [
+            "eu-aioffice"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-aioffice"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-aioffice"
+            ]
+          }
+        },
+        {
+          "id": "claims-29f61078fac540f5b278ee99c76bc57d",
+          "kind": "function",
+          "code": "convening",
+          "basis": "mandate",
+          "text": "Is tasked with providing the secretariat for the Board, convening the Board's meetings at the Chair's request and preparing the agenda.",
+          "source_ids": [
+            "r5-eu-ai-act-article74"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "r5-eu-ai-act-article74"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "r5-eu-ai-act-article74"
+            ]
+          }
+        },
+        {
+          "id": "claims-e9326b90cca642e88a8cabbb3bbffe7b",
+          "kind": "function",
+          "code": "model_testing",
+          "basis": "mandate",
+          "text": "Is to conduct testing and evaluation of general-purpose AI models.",
+          "source_ids": [
+            "eu-office-structure-2024"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-office-structure-2024"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-office-structure-2024"
+            ]
+          }
+        },
+        {
+          "id": "claims-73ee56ac3a9f48dba6b8f261ec59e75d",
+          "kind": "function",
+          "code": "regulatory_support",
+          "basis": "activity",
+          "text": "The Commission's answer says the AI Office has held numerous technical meetings with Anthropic to support implementation of the Code.",
+          "source_ids": [
+            "eu-pq-p001672-2026"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-pq-p001672-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-pq-p001672-2026"
+            ]
+          }
+        },
+        {
+          "id": "claims-7b80080e17d6465cbaeaa5e9b0663ba1",
+          "kind": "function",
+          "code": "standards_guidance",
+          "basis": "mandate",
+          "text": "Is tasked with developing a questionnaire template, including through an automated tool, to help deployers comply more easily with their obligations under Article 27 of the AI Act.",
+          "source_ids": [
+            "r5-eu-ai-act-article74"
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "r5-eu-ai-act-article74"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "r5-eu-ai-act-article74"
+            ]
+          }
+        },
+        {
+          "id": "claims-0d80aec6de694ed39df817d81ed3777c",
+          "kind": "function",
+          "code": "standards_guidance",
+          "basis": "activity",
+          "text": "Developed a draft template, put out for feedback, that sets out questions to guide deployers through the fundamental rights impact assessment.",
+          "source_ids": [
+            "eu-fria-news-2026"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-fria-news-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-fria-news-2026"
+            ]
+          }
+        },
+        {
+          "id": "claims-5ad34bd4030d47c0851583a0a40a9879",
+          "kind": "function",
+          "code": "model_testing",
+          "basis": "activity",
+          "text": "With UK AISI and Australia, it ran evaluations on two open-source models.",
+          "source_ids": [
+            "catalogue-agentic-report"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "catalogue-agentic-report"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "catalogue-agentic-report"
+            ]
+          }
+        },
+        {
+          "id": "claims-4388813297314e63aa98e43db6bf2b19",
+          "kind": "function",
+          "code": "model_testing",
+          "basis": "activity",
+          "text": "Was one of the three network members that ran the agentic evaluations for the cybersecurity strand.",
+          "source_ids": [
+            "eu-joint-testing-2025"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-joint-testing-2025"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-joint-testing-2025"
+            ]
+          }
+        },
+        {
+          "id": "claims-8dd06cb022f34a19bcf111cf0da4ba0a",
+          "kind": "function",
+          "code": "regulatory_enforcement",
+          "basis": "activity",
+          "text": "Executive Vice-President Henna Virkkunen said that it has started enforcing the rules and sent requests for information on issues such as security, external evaluation and monitoring how models are used.",
+          "source_ids": [
+            "eu-virkkunen-dublin-2026"
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-25",
+            "since": null
+          },
+          "expired": false,
+          "citations": {
+            "id": [],
+            "kind": [],
+            "code": [],
+            "basis": [],
+            "text": [
+              "eu-virkkunen-dublin-2026"
+            ],
+            "reread": [],
+            "expired": [],
+            "display": [
+              "eu-virkkunen-dublin-2026"
+            ]
+          }
+        }
+      ],
+      "funding": [
+        {
+          "kind": "none_disclosed",
+          "description": "The decision assigns external statutory staff costs and operational expenditure to Digital Europe Programme appropriations.",
+          "source_ids": [
+            "eu-decision-oj"
+          ],
+          "confidence": "high",
+          "commitment": "not_applicable",
+          "funding_source": "supranational",
+          "coverage": "whole_institute",
+          "id": "funding-7507fd8b7767470bbecb06ab3f94cca2",
+          "notes": "The Commission decision of 24 January 2024 covers the human resources costs of the Office's external statutory staff by redeploying Digital Europe Programme administrative support appropriations, and its operational expenditure from the Programme's Specific Objective 2.",
+          "eur_per_year_est": null,
+          "citations": {
+            "kind": [],
+            "description": [
+              "eu-decision-oj"
+            ],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "coverage": [],
+            "id": [],
+            "notes": [
+              "eu-decision-oj"
+            ],
+            "eur_per_year_est": [],
+            "display": [
+              "eu-decision-oj"
+            ],
+            "amount": [],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "Not published",
+            "qualifiers": [],
+            "native_value": "Not published",
+            "native_qualifiers": [],
+            "budget_citations": []
+          }
+        }
+      ],
+      "status": "established",
+      "established": "2024-02-21",
+      "announced": "2024-01-24",
+      "functions": [
+        {
+          "code": "model_testing",
+          "value": "both",
+          "claim_ids": [
+            "claims-e9326b90cca642e88a8cabbb3bbffe7b",
+            "claims-4388813297314e63aa98e43db6bf2b19",
+            "claims-5ad34bd4030d47c0851583a0a40a9879"
+          ],
+          "since": "2025-07-17",
+          "newest": "claims-4388813297314e63aa98e43db6bf2b19"
+        },
+        {
+          "code": "evaluation_methods",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-3374546e32fa4592968daabf382324ba"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "research",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "standards_guidance",
+          "value": "both",
+          "claim_ids": [
+            "claims-7b80080e17d6465cbaeaa5e9b0663ba1",
+            "claims-0d80aec6de694ed39df817d81ed3777c"
+          ],
+          "since": "2026-11-16",
+          "newest": "claims-0d80aec6de694ed39df817d81ed3777c"
+        },
+        {
+          "code": "regulatory_enforcement",
+          "value": "both",
+          "claim_ids": [
+            "claims-650dbbebba8640e99e6994a11b842883",
+            "claims-8dd06cb022f34a19bcf111cf0da4ba0a"
+          ],
+          "since": "2026-10-14",
+          "newest": "claims-8dd06cb022f34a19bcf111cf0da4ba0a"
+        },
+        {
+          "code": "regulatory_support",
+          "value": "both",
+          "claim_ids": [
+            "claims-d69e2908557d4a308594526b6087b03f",
+            "claims-73ee56ac3a9f48dba6b8f261ec59e75d"
+          ],
+          "since": "2026-06-03",
+          "newest": "claims-73ee56ac3a9f48dba6b8f261ec59e75d"
+        },
+        {
+          "code": "risk_monitoring",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-6d5ede87534242fdb578e48a25a1ac09"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "foresight",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "policy_advice",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "incident_response",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-bcc719ee44f2495cafbac63b914bf830"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "international_cooperation",
+          "value": "both",
+          "claim_ids": [
+            "claims-ca0e1ac83f8e4698bbf1b1ff1b2264b9",
+            "claims-d2a39520239642d5bf05275cd06a7ea5"
+          ],
+          "since": null,
+          "newest": "claims-d2a39520239642d5bf05275cd06a7ea5"
+        },
+        {
+          "code": "convening",
+          "value": "both",
+          "claim_ids": [
+            "claims-29f61078fac540f5b278ee99c76bc57d",
+            "claims-b9d973a760464f5ea3a367e0a4ea77cd"
+          ],
+          "since": "2026-09-08",
+          "newest": "claims-b9d973a760464f5ea3a367e0a4ea77cd"
+        },
+        {
+          "code": "capacity_building",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "talent",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "adoption",
+          "value": "both",
+          "claim_ids": [
+            "claims-24ab68433afd407ca2953ebfdb19c431",
+            "claims-86e416a30b5f41cab44bbdd966e98f18"
+          ],
+          "since": "2026-09-08",
+          "newest": "claims-86e416a30b5f41cab44bbdd966e98f18"
+        },
+        {
+          "code": "public_access_continuity",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "certification",
+          "value": "mandate",
+          "claim_ids": [
+            "claims-7837462af5794561911284da8b49e812"
+          ],
+          "since": null,
+          "newest": null
+        },
+        {
+          "code": "sandbox",
+          "value": "not_found",
+          "claim_ids": [],
+          "since": null,
+          "newest": null
+        }
+      ],
+      "operating": [
+        {
+          "kind": "joint_testing",
+          "date": "2025-07-17",
+          "lineage": "network-agentic-2025",
+          "source_ids": [
+            "eu-joint-testing-2025"
+          ],
+          "citations": {
+            "date": [
+              "eu-joint-testing-2025"
+            ],
+            "kind": [
+              "eu-joint-testing-2025"
+            ],
+            "display": [
+              "eu-joint-testing-2025"
+            ]
+          }
+        }
+      ],
+      "intervals": {
+        "announced_to_established": {
+          "days_min": 28,
+          "days_max": 28
+        },
+        "established_to_first_qualifying_activity": {
+          "days_min": 512,
+          "days_max": 512
+        },
+        "announced_to_first_qualifying_activity": {
+          "days_min": 540,
+          "days_max": 540
+        }
+      },
+      "citations": {
+        "id": [],
+        "name": [],
+        "jurisdiction_id": [],
+        "host": [
+          "eu-decision"
+        ],
+        "legal_form": [
+          "eu-decision"
+        ],
+        "mandate": [
+          "eu-aioffice",
+          "eu-decision-oj"
+        ],
+        "website": [],
+        "check": [],
+        "staff": [
+          "eu-aioffice",
+          "eu-pq-p001672-2026"
+        ],
+        "people": [
+          "eu-sioli",
+          "eu-sioli-connect-2020"
+        ],
+        "mandate_short": [
+          "eu-aioffice",
+          "eu-decision-oj"
+        ],
+        "legal_basis": [
+          "eu-decision-oj"
+        ],
+        "placement": [],
+        "name_local": [],
+        "short_name": [],
+        "wikidata": [],
+        "identifier_notes": [],
+        "outputs": [
+          "eu-joint-testing-2025",
+          "catalogue-agentic-report",
+          "depth-gb-blog",
+          "fix-output-network-agentic-arxiv",
+          "eu-external-evaluators-2026",
+          "eu-fria-template-2026",
+          "eu-fria-news-2026"
+        ],
+        "agreements": [
+          "depth-sg-eu-mou",
+          "eu-us-ttc-dialogue-2024",
+          "eu-us-ttc-summary-2024"
+        ],
+        "notes": [
+          "eu-decision-oj",
+          "r5-eu-code-first-draft",
+          "eu-tender-op-0032-specifications",
+          "eu-politico-ai-office-hiring-2026",
+          "eu-ai-office-tender-gpai-2025",
+          "eu-politico-tudorache-2024"
+        ],
+        "head": [
+          "eu-sioli"
+        ],
+        "reports_to": [
+          "eu-decision-oj"
+        ],
+        "national_partners": [
+          "eu-aioffice",
+          "eu-decision-oj",
+          "eu-enisa-spd-2026",
+          "eu-enisa-about"
+        ],
+        "testing_capacity": [
+          "eu-joint-testing-2025",
+          "catalogue-agentic-report",
+          "eu-tender-op-0032-specifications",
+          "eu-ted-864574-2025"
+        ],
+        "model_access": [
+          "catalogue-agentic-report",
+          "r5-eu-ai-act-article74",
+          "eu-tender-op-0032-specifications",
+          "eu-ir-2026-1755"
+        ],
+        "staffing_model": [
+          "eu-decision-oj",
+          "eu-pq-p001672-2026"
+        ],
+        "claims": [
+          "eu-aioffice",
+          "eu-joint-testing-2025",
+          "eu-decision-oj",
+          "eu-office-structure-2024",
+          "catalogue-agentic-report",
+          "r5-eu-ai-act-article74",
+          "eu-pq-p001672-2026",
+          "eu-ai-office-jobs-2024",
+          "eu-fria-news-2026",
+          "eu-virkkunen-dublin-2026"
+        ],
+        "funding": [
+          "eu-decision-oj"
+        ],
+        "status": [
+          "eu-decision-oj"
+        ],
+        "established": [
+          "eu-decision-oj"
+        ],
+        "announced": [],
+        "functions": [],
+        "operating": [],
+        "intervals": [],
+        "display": [
+          "eu-aioffice",
+          "eu-decision",
+          "eu-sioli",
+          "eu-joint-testing-2025",
+          "eu-decision-oj",
+          "catalogue-agentic-report",
+          "depth-sg-eu-mou",
+          "depth-gb-blog",
+          "eu-us-ttc-dialogue-2024",
+          "eu-us-ttc-summary-2024",
+          "fix-output-network-agentic-arxiv",
+          "r5-eu-code-first-draft",
+          "eu-enisa-spd-2026",
+          "eu-enisa-about",
+          "eu-tender-op-0032-specifications",
+          "eu-pq-p001672-2026",
+          "eu-external-evaluators-2026",
+          "eu-politico-ai-office-hiring-2026",
+          "eu-ai-office-tender-gpai-2025",
+          "eu-politico-tudorache-2024",
+          "eu-sioli-connect-2020",
+          "eu-fria-template-2026",
+          "eu-fria-news-2026"
+        ],
+        "form": [
+          "eu-decision",
+          "eu-decision-oj"
+        ],
+        "inst": [],
+        "institute": [],
+        "announced_to_established": [
+          "eu-decision-oj"
+        ],
+        "established_to_first_qualifying_activity": [
+          "eu-joint-testing-2025",
+          "eu-decision-oj"
+        ],
+        "announced_to_first_qualifying_activity": [
+          "eu-joint-testing-2025"
+        ]
+      },
+      "display": {
+        "intervals": {
+          "status_since": "Announced on 24 Jan 2024, 28 days earlier",
+          "known_activity": {
+            "kind": "joint_testing",
+            "lineage": "network-agentic-2025",
+            "text": "about 17 months after it was established"
+          }
+        },
+        "comparison_funding": null,
+        "budget": null,
+        "staff": "staff-2e8b5d0c7a4f4e19b6c3d8a1f05e7b92",
+        "total_staff": "staff-2e8b5d0c7a4f4e19b6c3d8a1f05e7b92",
+        "technical_staff": null,
+        "funding_records": {
+          "funding-7507fd8b7767470bbecb06ab3f94cca2": {
+            "kind": "none_disclosed",
+            "description": "The decision assigns external statutory staff costs and operational expenditure to Digital Europe Programme appropriations.",
+            "source_ids": [
+              "eu-decision-oj"
+            ],
+            "confidence": "high",
+            "commitment": "not_applicable",
+            "funding_source": "supranational",
+            "coverage": "whole_institute",
+            "id": "funding-7507fd8b7767470bbecb06ab3f94cca2",
+            "notes": "The Commission decision of 24 January 2024 covers the human resources costs of the Office's external statutory staff by redeploying Digital Europe Programme administrative support appropriations, and its operational expenditure from the Programme's Specific Objective 2.",
+            "eur_per_year_est": null,
+            "citations": {
+              "kind": [],
+              "description": [
+                "eu-decision-oj"
+              ],
+              "confidence": [],
+              "commitment": [],
+              "funding_source": [],
+              "coverage": [],
+              "id": [],
+              "notes": [
+                "eu-decision-oj"
+              ],
+              "eur_per_year_est": [],
+              "display": [
+                "eu-decision-oj"
+              ],
+              "amount": [],
+              "annual_amount": []
+            },
+            "display": {
+              "annual_estimate": false,
+              "value": "Not published",
+              "qualifiers": [],
+              "native_value": "Not published",
+              "native_qualifiers": [],
+              "budget_citations": []
+            }
+          }
+        },
+        "funding_ids": [
+          "funding-7507fd8b7767470bbecb06ab3f94cca2"
+        ],
+        "staff_records": {
+          "staff-2e8b5d0c7a4f4e19b6c3d8a1f05e7b92": {
+            "total": 140,
+            "total_qualifier": "at_least",
+            "as_of": "2026-06-03",
+            "description": "More than 140 staff, including over 40 in the AI safety unit, most of them with technical profiles (Commission answer to parliamentary question P-001672/2026). The AI Office's own page (updated 8 September 2026) gives more than 125 staff; the answer to Parliament is kept as the more specific source.",
+            "source_ids": [
+              "eu-pq-p001672-2026",
+              "eu-aioffice"
+            ],
+            "confidence": "high",
+            "id": "staff-2e8b5d0c7a4f4e19b6c3d8a1f05e7b92",
+            "citations": {
+              "total": [
+                "eu-pq-p001672-2026"
+              ],
+              "total_qualifier": [
+                "eu-pq-p001672-2026"
+              ],
+              "as_of": [
+                "eu-pq-p001672-2026"
+              ],
+              "description": [
+                "eu-aioffice",
+                "eu-pq-p001672-2026"
+              ],
+              "confidence": [],
+              "id": [],
+              "display": [
+                "eu-aioffice",
+                "eu-pq-p001672-2026"
+              ]
+            },
+            "display": {
+              "total": "140+",
+              "technical": null,
+              "target": null
+            }
+          }
+        },
+        "staff_ids": [
+          "staff-2e8b5d0c7a4f4e19b6c3d8a1f05e7b92"
+        ],
+        "related_funding_ids": [],
+        "operating": {
+          "since": "2025-07-17",
+          "first_lineage": "network-agentic-2025",
+          "items": [
+            {
+              "kind": "joint_testing",
+              "date": "2025-07-17",
+              "lineage": "network-agentic-2025",
+              "source_ids": [
+                "eu-joint-testing-2025"
+              ],
+              "citations": {
+                "date": [
+                  "eu-joint-testing-2025"
+                ],
+                "kind": [
+                  "eu-joint-testing-2025"
+                ],
+                "display": [
+                  "eu-joint-testing-2025"
+                ]
+              }
+            }
+          ]
+        },
+        "rows": {
+          "head": {
+            "state": "stated",
+            "text": "Lucilla Sioli, Director AI Office (DG CONNECT)",
+            "cited": [
+              "eu-sioli"
+            ]
+          },
+          "reports_to": {
+            "state": "stated",
+            "text": "European Commission, Directorate-General for Communications Networks, Content and Technology",
+            "cited": [
+              "eu-decision-oj"
+            ]
+          },
+          "partners": {
+            "state": "stated",
+            "items": [
+              {
+                "id": "np-eu-enisa",
+                "text": "ENISA (EU cybersecurity agency, works with)",
+                "name": "ENISA",
+                "how": "Lists the AI Office among partners of its 2026–2028 product and technology security activity, which covers AI.",
+                "cited": [
+                  "eu-enisa-spd-2026",
+                  "eu-enisa-about"
+                ]
+              },
+              {
+                "id": "np-eu-ai-board",
+                "text": "AI Board (EU advisory body, works with)",
+                "name": "AI Board",
+                "how": "Is an advisory body supported by the AI Office, with representatives from each EU member state.",
+                "cited": [
+                  "eu-aioffice"
+                ]
+              },
+              {
+                "id": "np-eu-ecat",
+                "text": "ECAT (Commission algorithmic transparency centre, works with)",
+                "name": "ECAT",
+                "how": "Works with the Office on the evaluation and testing of general-purpose AI models and systems under the Commission decision.",
+                "cited": [
+                  "eu-decision-oj"
+                ]
+              }
+            ],
+            "fold_items": [
+              {
+                "id": "np-eu-enisa",
+                "text": "ENISA (EU cybersecurity agency, works with)",
+                "name": "ENISA",
+                "how": "Lists the AI Office among partners of its 2026–2028 product and technology security activity, which covers AI.",
+                "cited": [
+                  "eu-enisa-spd-2026",
+                  "eu-enisa-about"
+                ]
+              },
+              {
+                "id": "np-eu-ai-board",
+                "text": "AI Board (EU advisory body, works with)",
+                "name": "AI Board",
+                "how": "Is an advisory body supported by the AI Office, with representatives from each EU member state.",
+                "cited": [
+                  "eu-aioffice"
+                ]
+              },
+              {
+                "id": "np-eu-ecat",
+                "text": "ECAT (Commission algorithmic transparency centre, works with)",
+                "name": "ECAT",
+                "how": "Works with the Office on the evaluation and testing of general-purpose AI models and systems under the Commission decision.",
+                "cited": [
+                  "eu-decision-oj"
+                ]
+              }
+            ],
+            "tail": null,
+            "cited": [
+              "eu-enisa-spd-2026",
+              "eu-enisa-about",
+              "eu-aioffice",
+              "eu-decision-oj"
+            ]
+          }
+        },
+        "source_links": [
+          "network-2025",
+          "network-nist-2026",
+          "eu-aioffice",
+          "eu-decision",
+          "eu-sioli",
+          "eu-joint-testing-2025",
+          "gb-joint-testing",
+          "eu-decision-oj",
+          "catalogue-agentic-report",
+          "catalogue-eu-artifact-prohibited",
+          "catalogue-eu-artifact-gpai",
+          "catalogue-eu-artifact-template",
+          "catalogue-eu-transparency-pdf",
+          "depth-sg-eu-mou",
+          "depth-gb-blog",
+          "eu-us-ttc-dialogue-2024",
+          "eu-us-ttc-summary-2024",
+          "fix-output-network-agentic-arxiv",
+          "r5-eu-code-first-draft",
+          "r5-eu-ai-act-article74",
+          "eu-enisa-spd-2026",
+          "eu-enisa-about",
+          "eu-tender-op-0032-specifications",
+          "eu-pq-p001672-2026",
+          "eu-external-evaluators-2026",
+          "eu-politico-ai-office-hiring-2026",
+          "eu-ai-office-tender-gpai-2025",
+          "eu-politico-tudorache-2024",
+          "eu-sioli-connect-2020",
+          "eu-fria-template-2026",
+          "eu-fria-news-2026",
+          "eu-virkkunen-dublin-2026"
+        ]
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": "catalogue-agentic-report",
+      "title": "International Joint Testing Exercise: Agentic Testing",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+      "excerpts": [
+        {
+          "text": "To do this, UK AISI, EU AI Office and Australia ran evaluations on two open-source models, here labelled Model E and Model F.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/attribution_note",
+            "/institute/record/testing_capacity/modes/0/code",
+            "/institute/record/claims/17/text",
+            "/institute/record/model_access/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-eu-artifact-gpai",
+      "title": "Guidelines on obligations for providers of general-purpose AI models, final communication C(2025) 7719",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/118340",
+      "excerpts": []
+    },
+    {
+      "id": "catalogue-eu-artifact-prohibited",
+      "title": "Guidelines on prohibited artificial intelligence practices, final communication C(2025) 5052",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/112367",
+      "excerpts": []
+    },
+    {
+      "id": "catalogue-eu-artifact-template",
+      "title": "Public summary of training content: explanatory notice and template, final communication C(2025) 8311",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/118480",
+      "excerpts": []
+    },
+    {
+      "id": "catalogue-eu-transparency-pdf",
+      "title": "Guidelines on transparency obligations for certain AI systems, approved draft C(2026) 5054",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/131215",
+      "excerpts": []
+    },
+    {
+      "id": "depth-gb-blog",
+      "title": "AISI Blog",
+      "url": "https://www.aisi.gov.uk/blog",
+      "excerpts": [
+        {
+          "text": "International joint testing exercise: Agentic testing Blog Organisation • Jul 17, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-sg-eu-mou",
+      "title": "EU and Singapore strengthen collaboration on AI safety with a new Administrative Arrangement",
+      "url": "https://www.eeas.europa.eu/delegations/singapore/eu-singapore-strengthen-collaboration-ai-safety-new-administrative-arrangement_en",
+      "excerpts": [
+        {
+          "text": "Today (20th Nov 2024), the Commission services and Singapore's Ministry of Digital Development and Information have signed an Administrative Arrangement",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/counterparty",
+            "/institute/record/agreements/0/state",
+            "/institute/record/agreements/0/date"
+          ]
+        },
+        {
+          "text": "cooperation between the EU's artificial intelligence (AI) Office and Singapore's AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/0/participation",
+            "/institute/record/agreements/0/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ai-office-jobs-2024",
+      "title": "Job opportunities at the European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/job-opportunities-european-ai-office",
+      "excerpts": [
+        {
+          "text": "The European AI Office launched its first job opportunities.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ai-office-tender-gpai-2025",
+      "title": "EU AI Office Launches €9 million tender for Technical Support on GPAI Safety",
+      "url": "https://digital-strategy.ec.europa.eu/en/funding/eu-ai-office-launches-eu9-million-tender-technical-support-gpai-safety",
+      "excerpts": [
+        {
+          "text": "The AI Office has launched a call for tenders to procure technical support for the enforcement of the AI Act, focusing on assessing and monitoring systemic risks posed by General-Purpose AI (GPAI) models at EU level.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "This project will be funded under the Digital Europe Programme, with a total budget of €9 million",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "The call is divided into 6 lots",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-aioffice",
+      "title": "European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "archive_url": "https://web.archive.org/web/20261016192441/https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+      "excerpts": [
+        {
+          "text": "This is underpinned by the powers given to the Commission by the AI Act, including the ability to conduct evaluations of GPAI models, request information and measures from model providers, and apply sanctions.",
+          "accessed": "2026-10-18",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short"
+          ]
+        },
+        {
+          "text": "Developing tools, methodologies and benchmarks for evaluating capabilities and reach of general-purpose AI models, and classifying models with systemic risks",
+          "accessed": "2026-10-18",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short"
+          ]
+        },
+        {
+          "text": "The European Artificial Intelligence Board (AI Board) is a key advisory body supported by the AI Office that includes representatives from each EU Member States and the European Centre for Algorithmic Transparency (ECAT).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/1/name",
+            "/institute/record/national_partners/entries/1/relation",
+            "/institute/record/national_partners/entries/1/how",
+            "/institute/record/national_partners/entries/1/what"
+          ]
+        },
+        {
+          "text": "The AI Office employs more than 125 staff",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staff/0/description"
+          ]
+        },
+        {
+          "text": "The AI Office also oversees the AI Pact, which allows businesses to engage with the Commission and other stakeholders to share best practices and join activities.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/8/text"
+          ]
+        },
+        {
+          "text": "The ‘GenAI4EU' initiative, part of the 2024 AI innovation package, contributes to the development of novel use cases and emerging applications in 14 industrial sectors and the public sector.",
+          "anchors": [
+            {
+              "text": "The European AI Office was established within the European Commission as the foundation for a single AI governance system.",
+              "kind": "definition"
+            },
+            {
+              "text": "The AI Office actively supports innovators through policies and initiatives that spur growth across the EU:",
+              "kind": "heading"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/11/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-decision",
+      "title": "Commission Decision establishing the European AI Office",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/commission-decision-establishing-european-ai-office",
+      "archive_url": "https://web.archive.org/web/20261016195721/https://digital-strategy.ec.europa.eu/en/library/commission-decision-establishing-european-ai-office",
+      "excerpts": [
+        {
+          "text": "A European Artificial Intelligence Office will be established within the Commission as part of the administrative structure",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/host",
+            "/institute/record/legal_form",
+            "/record/timeline/0/description",
+            "/record/timeline/0/event"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-decision-oj",
+      "title": "Commission Decision of 24 January 2024 establishing the European Artificial Intelligence Office (C/2024/1459)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202401459",
+      "archive_url": "https://web.archive.org/web/20240812105728/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ%3AC_202401459",
+      "excerpts": [
+        {
+          "text": "This Decision shall enter into force on 21 February 2024.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/date"
+          ]
+        },
+        {
+          "text": "The European Artificial Intelligence Office (the ‘Office’) is established.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/event",
+            "/record/timeline/1/description"
+          ]
+        },
+        {
+          "text": "general-purpose AI models",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/summary"
+          ]
+        },
+        {
+          "text": "The European Artificial Intelligence Office (the ‘Office’) is established.",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202401459",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/event"
+          ]
+        },
+        {
+          "text": "The Office shall be part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202401459",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/legal_basis/type"
+          ]
+        },
+        {
+          "text": "This Decision shall enter into force on 21 February 2024.",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:C_202401459",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/1/date",
+            "/institute/record/legal_basis/state"
+          ]
+        },
+        {
+          "text": "developing tools, methodologies and benchmarks for evaluating capabilities of general-purpose AI models, in particular for very large general purpose AI models with systemic risks;",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short"
+          ]
+        },
+        {
+          "text": "conducting evaluations pursuant to the forthcoming Regulation.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/mandate_short"
+          ]
+        },
+        {
+          "text": "The Office shall be part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology (the ‘Directorate-General’).",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/reports_to/name"
+          ]
+        },
+        {
+          "text": "work with other relevant Directorate-Generals and services of the Commission in the performance of its tasks pursuant to Article 2, notably with the European Centre for Algorithmic Transparency as regards the evaluation and testing of general-purpose AI models and systems;",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/2/name",
+            "/institute/record/national_partners/entries/2/relation",
+            "/institute/record/national_partners/entries/2/how",
+            "/institute/record/national_partners/entries/2/what"
+          ]
+        },
+        {
+          "text": "For officials working in the Office, the human resources required shall be met by staff from the Directorate-General who are already assigned to management of the action or have been redeployed within the Directorate-General",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "For external statutory staff working in the Office, the human resources costs shall be covered by a redeployment of budget appropriations from the administrative support expenditure from the Digital Europe Programme.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/description",
+            "/institute/record/funding/0/notes",
+            "/institute/record/staffing_model/notes"
+          ]
+        },
+        {
+          "text": "Operational expenditure of the Office shall be covered by the financial resources allocated to Specific Objective 2 'Artificial Intelligence' of the Digital Europe Programme.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/funding/0/description",
+            "/institute/record/funding/0/notes"
+          ]
+        },
+        {
+          "text": "The Office shall perform the following tasks stemming from the forthcoming Regulation: (a) developing tools, methodologies and benchmarks for evaluating capabilities of general-purpose AI models, in particular for very large general purpose AI models with systemic risks;",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "The European Artificial Intelligence Office (the 'Office') is established.",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "investigating possible infringements of rules on general-purpose AI models and systems, including by collecting complaints and alerts, assisting in the preparation of decisions of the Commission and conducting evaluations pursuant to the forthcoming Regulation.",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "The Office shall perform the following tasks stemming from the forthcoming Regulation:",
+              "kind": "heading"
+            },
+            {
+              "text": "The European Artificial Intelligence Office (the 'Office') is established.",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/2/text"
+          ]
+        },
+        {
+          "text": "supporting the implementation of rules on prohibited AI practices and high-risk AI systems in coordination with relevant bodies responsible under sectoral legislation",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "The Office shall perform the following tasks stemming from the forthcoming Regulation:",
+              "kind": "heading"
+            },
+            {
+              "text": "The European Artificial Intelligence Office (the 'Office') is established.",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/3/text"
+          ]
+        },
+        {
+          "text": "monitoring the emergence of unforeseen risks stemming from general-purpose AI models, including by responding to alerts from the scientific panel;",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "The Office shall perform the following tasks stemming from the forthcoming Regulation:",
+              "kind": "heading"
+            },
+            {
+              "text": "The European Artificial Intelligence Office (the 'Office') is established.",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/4/text"
+          ]
+        },
+        {
+          "text": "The Office shall contribute to international cooperation on AI by the Commission, including innovation and excellence policy, with third countries and international organisations, in particular by:",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "The European Artificial Intelligence Office (the 'Office') is established.",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/6/text"
+          ]
+        },
+        {
+          "text": "support the accelerated development, roll-out and use of trustworthy AI systems and applications that bring societal and economic benefits and that contribute to the competitiveness and the economic growth of the Union.",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "The Office shall have the following additional tasks:",
+              "kind": "heading"
+            },
+            {
+              "text": "The European Artificial Intelligence Office (the 'Office') is established.",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/9/text"
+          ]
+        },
+        {
+          "text": "following the political agreement of the co-legislators achieved on 8 December 2023",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "The Office shall be part of the administrative structure of the Directorate-General for Communication Networks, Content and Technology (the 'Directorate-General').",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staffing_model/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-enisa-about",
+      "title": "Who we are",
+      "url": "https://www.enisa.europa.eu/about-enisa/who-we-are",
+      "excerpts": [
+        {
+          "text": "The European Union Agency for Cybersecurity, ENISA, is the Union’s agency dedicated to achieving a high common level of cybersecurity across Europe.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/name",
+            "/institute/record/national_partners/entries/0/what",
+            "/institute/record/national_partners/entries/0/cyber_agency"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-enisa-spd-2026",
+      "title": "ENISA Single Programming Document 2026-2028 (Management Board Decision No MB/2025/18)",
+      "url": "https://www.enisa.europa.eu/sites/default/files/2025-12/MB%20Decision%202025-18%20on%20adopting%20ENISA%20SPD%202026-2028%20with%20Annexes.pdf",
+      "excerpts": [
+        {
+          "text": "Partners: EU Member States (incl. market surveillance authorities and entities with an interest in cybersecurity market monitoring e.g. NCCA, National Standardisation Organisations)",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/name",
+            "/institute/record/national_partners/entries/0/relation",
+            "/institute/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "European Cybersecurity Competence Centre and National Cybersecurity Coordination Centre’s, EC AI Office, European Digital Identity Cooperation Group, European Data Innovation Board.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/name",
+            "/institute/record/national_partners/entries/0/relation",
+            "/institute/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "ENISA SINGLE PROGRAMMING DOCUMENT 2026-2028",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "new emerging technologies (including supporting MS and the COM in tackling challenges regarding AI and post-quantum cryptography and 6G)",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "Activity 8 Supporting market, technology and product-security",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/national_partners/entries/0/how"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-external-evaluators-2026",
+      "title": "Requirements for qualified independent external evaluators of General-Purpose AI models",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/requirements-qualified-independent-external-evaluators-general-purpose-ai-models",
+      "excerpts": [
+        {
+          "text": "This report expresses the current views of the AI Office",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution",
+            "/institute/record/outputs/1/credit/institute_id"
+          ]
+        },
+        {
+          "text": "Publication 21 October 2026",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/date",
+            "/institute/record/outputs/1/credit/date"
+          ]
+        },
+        {
+          "text": "The AI Office addressed the raised points both orally during the workshop and through a written report (that you can download below).",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note"
+          ]
+        },
+        {
+          "text": "This report expresses the current views of the AI Office, which may be subject to change as the field of AI evaluations develops.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/1/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-fria-news-2026",
+      "title": "Commission seeks feedback on draft template for the fundamental rights impact assessment under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-seeks-feedback-draft-template-fundamental-rights-impact-assessment-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Publication 16 November 2026",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/date",
+            "/institute/record/outputs/2/credit/date"
+          ]
+        },
+        {
+          "text": "This draft template has been developed by the AI Office pursuant to Article 27(5) AI Act with input from the EU Agency for Fundamental Rights (FRA).",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/attribution",
+            "/institute/record/outputs/2/attribution_note"
+          ]
+        },
+        {
+          "text": "This draft template has been developed by the AI Office pursuant to Article 27(5) AI Act with input from the EU Agency for Fundamental Rights (FRA). It follows the structure of Article 27(1) and sets out questions to guide deployers through the assessment to simplify compliance.",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/16/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-fria-template-2026",
+      "title": "Draft Explanatory Notice and template for the fundamental rights impact assessment under Article 27(5) of Regulation (EU) 2024/1689 (the ‘AI Act’)",
+      "url": "https://ec.europa.eu/newsroom/dae/redirection/document/135051",
+      "excerpts": [
+        {
+          "text": "This template has been developed by the AI Office",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/attribution",
+            "/institute/record/outputs/2/credit/institute_id",
+            "/institute/record/outputs/2/attribution_note"
+          ]
+        },
+        {
+          "text": "This draft has not been adopted or endorsed by the European Commission.",
+          "accessed": "2026-11-23",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/2/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ir-2026-1755",
+      "title": "Commission Implementing Regulation (EU) 2026/1755 on detailed arrangements for the conduct of certain proceedings by the Commission pursuant to Regulation (EU) 2024/1689",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32026R1755",
+      "excerpts": [
+        {
+          "text": "Where the Commission adopts a decision requesting access to a general-purpose AI model pursuant to Article 92(3) of Regulation (EU) 2024/1689, that decision shall specify the technical means, tools, components, and conditions, including the time limit, by which the provider shall provide such access",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/legal_power/conditions"
+          ]
+        },
+        {
+          "text": "The access requested shall be appropriate to the objectives of the evaluation.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Such access may include access through application programming interfaces ('APIs'), internal access, access to source code, access to model weights",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-joint-testing-2025",
+      "title": "AI Office contributes to the third joint testing exercise of the International Network of AI Safety Institutes",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+      "archive_url": "https://web.archive.org/web/20260420092204/https://digital-strategy.ec.europa.eu/en/news/ai-office-contributes-third-joint-testing-exercise-international-network-ai-safety-institutes",
+      "excerpts": [
+        {
+          "text": "Publication 17 July 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/date",
+            "/institute/record/outputs/0/credit/date"
+          ]
+        },
+        {
+          "text": "The AI Office, as a member of the Network, is actively participating, contributing with deep technical expertise on the evaluation of general-purpose AI models. It was one of the three Network’s members that ran the agentic evaluations for the cybersecurity strand.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/attribution_note",
+            "/institute/record/outputs/0/credit/institute_id",
+            "/institute/record/testing_capacity/modes/0/code",
+            "/institute/record/claims/7/text",
+            "/institute/record/testing_capacity/notes",
+            "/institute/record/claims/18/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-midday-briefing-2026-09-11",
+      "title": "Midday press briefing from 11/09/2026",
+      "url": "https://audiovisual.ec.europa.eu/en/media/video/I-294322",
+      "excerpts": [
+        {
+          "text": "ENISA's recently unveiled access to Anthropics Mythos model",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "we had constructive engagement with a company like Anthropic and we needed of course to put in place appropriate safeguards and terms and conditions for a safe access that has now been achieved and this materialized in us having now official access.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "we're focusing on 5 and that one now which we're currently testing",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "our cybersecurity Agency is currently testing it",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-office-structure-2024",
+      "title": "Commission establishes AI Office to strengthen EU leadership in safe and trustworthy Artificial Intelligence",
+      "url": "https://luxembourg.representation.ec.europa.eu/actualites-et-evenements/actualites/kommission-richtet-ki-amt-ein-um-die-fuhrungsrolle-der-eu-im-bereich-der-sicheren-und-2024-05-29_en",
+      "excerpts": [
+        {
+          "text": "The organisational changes outlined above will take effect on 16 June.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/2/date",
+            "/record/timeline/2/description"
+          ]
+        },
+        {
+          "text": "Today the Commission has unveiled the AI Office",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/timeline/2/description"
+          ]
+        },
+        {
+          "text": "In cooperation with AI developers, the scientific community and other stakeholders, the AI Office will coordinate the drawing up of state-of-the-art codes of practice, conduct testing and evaluation of general-purpose AI models, request information as well as apply sanctions, when necessary.",
+          "anchors": [
+            {
+              "text": "Today the Commission has unveiled the AI Office, established within the Commission.",
+              "kind": "definition"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/13/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-politico-ai-office-hiring-2026",
+      "title": "Commission launches major hiring push for AI Office",
+      "url": "https://www.politico.eu/article/commission-launches-major-hiring-push-for-ai-office/",
+      "excerpts": [
+        {
+          "text": "The EU's executive confirmed Friday that it is seeking contract agents for two units within the two-year-old Artificial Intelligence Office",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "One of the units seeking staffing is in charge of AI regulation and compliance, while another is specifically focused on policing how cutting-edge AI models handle risks such as cybersecurity attacks or loss of control.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Both units currently have a combined staff of 71 people. The Commission expects 40 jobs to open up in both units over the course of 2027.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-politico-tudorache-2024",
+      "title": "EU needs ‘Oppenheimers’ to run AI policy",
+      "url": "https://www.politico.eu/article/eu-needs-oppenheimer-to-run-ai-policy-key-lawmaker-tudorache-romania-says/",
+      "excerpts": [
+        {
+          "text": "Tudorache, based on conversations with Commission officials, said the AI Office’s starting budget will be €46.5 million",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Commission spokesperson Bahrke said that the funding for the AI Office would be reallocated from the EU tech-funding initiative Digital Europe Programme, but declined to give specifics about the budget.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Commission spokesperson Johannes Bahrke said its total staff would number 98 people",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "with two working out of the EU’s privacy regulator, the European Data Protection Supervisor.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Of those 98, 18 people will come from other Commission units and 80 will be hired externally, either as fixed-term contractors or as national experts dispatched from EU countries.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Dragoș Tudorache, the liberal Romanian member of the European Parliament",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-pq-p001672-2026",
+      "title": "Answer for question P-001672/26",
+      "url": "https://www.europarl.europa.eu/doceo/document/P-10-2026-001672-ASW_EN.html",
+      "excerpts": [
+        {
+          "text": "The AI Office employs more than 140 staff members, including over 40 in its AI safety unit, the majority of whom have technical profiles, including in cybersecurity.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staff/0/total",
+            "/institute/record/staff/0/total_qualifier",
+            "/institute/record/staff/0/description",
+            "/institute/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "Last updated: 3 June 2026",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/staff/0/as_of"
+          ]
+        },
+        {
+          "text": "As a regulator, the AI Office has held numerous technical meetings with Anthropic to support implementation of the Code.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/14/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-sioli",
+      "title": "Lucilla Sioli",
+      "url": "https://eic.ec.europa.eu/lucilla-sioli_en",
+      "archive_url": "https://web.archive.org/web/20260608043936/https://eic.ec.europa.eu/lucilla-sioli_en",
+      "excerpts": [
+        {
+          "text": "Lucilla Sioli",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/name"
+          ]
+        },
+        {
+          "text": "Director AI Office (DG CONNECT)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/role"
+          ]
+        },
+        {
+          "text": "Ms Lucilla Sioli is the Director of the \"EU AI Office\" within Directorate-General CONNECT at the European Commission.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/head/person_id"
+          ]
+        },
+        {
+          "text": "Ms Lucilla Sioli is the Director of the \"EU AI Office\"",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/head/person_id",
+            "/institute/record/people/0/name",
+            "/institute/record/people/0/role"
+          ]
+        },
+        {
+          "text": "has been a civil servant with the European Commission since 1997",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/background"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-sioli-connect-2020",
+      "title": "Artificial Intelligence meets the health sector | CONNECT University",
+      "url": "https://digital-strategy.ec.europa.eu/en/events/artificial-intelligence-meets-health-sector-connect-university",
+      "excerpts": [
+        {
+          "text": "Ms Lucilla Sioli is the Director for \"Artificial Intelligence and Digital Industry\" within Directorate-General CONNECT at the European Commission.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/background"
+          ]
+        },
+        {
+          "text": "Publication 20 August 2020",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/people/0/background"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-techzine-enisa-mythos-2026",
+      "title": "EU cybersecurity agency gains access to Mythos 5 after a 3-month delay",
+      "url": "https://www.techzine.eu/news/security/144207/eu-cybersecurity-agency-gains-access-to-mythos-5-after-a-3-month-delay/",
+      "excerpts": [
+        {
+          "text": "ENISA’s access is explicitly limited to defensive use.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        },
+        {
+          "text": "ENISA does not have access to the latest version, Mythos 5.1",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-ted-864574-2025",
+      "title": "864574-2025: Artificial Intelligence Act: technical assistance for AI safety, contract award notice",
+      "url": "https://ted.europa.eu/en/notice/864574-2025/pdf",
+      "excerpts": [
+        {
+          "text": "In order to carry out these enforcement tasks in relation the AI Act, the AI Office is seeking support of suitable third-party contractors to provide technical assistance aimed at supporting the monitoring of compliance, in particular in its assessment of risks posed by GPAI models at Union level.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/1/code"
+          ]
+        },
+        {
+          "text": "Ad hoc and on demand services for complex evaluations, including for example red-teaming and uplift studies.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/1/code"
+          ]
+        },
+        {
+          "text": "Winner: Leader of tendering party: FAR AI, Inc.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/1/code"
+          ]
+        },
+        {
+          "text": "Winner: Leader of tendering party: CAPGEMINI CONSULTING",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/1/code"
+          ]
+        },
+        {
+          "text": "Winner: Leader of tendering party: EquiStamp Inc.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/1/code"
+          ]
+        },
+        {
+          "text": "Winner: Leader of tendering party: TECHNOPOLIS CONSULTING GROUP BELGIUM",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/1/code"
+          ]
+        },
+        {
+          "text": "OJ S 249/2025 26/12/2025 Contract or concession award notice – standard regime",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Result lot identifier: LOT-0001 Winner selection status: At least one winner was chosen. 6.1.2. Information about winners Winner: Leader of tendering party: FAR AI, Inc. Official name: SecureBio Official name: SaferAI",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Leader of tendering party: CAPGEMINI CONSULTING Official name: WAVESTONE Official name: LABORATOIRE NATIONAL DE METROLOGIE ET D'ESSAIS Tender: Tender identifier: CAPGEMINI CONSULTING Identifier of lot or group of lots: LOT-0002",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Leader of tendering party: EquiStamp Inc. 864574-2025 Page 11/20 Official name: Model Evaluation and Threat Research, Inc. Official name: Epoch Artificial Intelligence, Inc. Tender: Tender identifier: EquiStamp Inc. Identifier of lot or group of lots: LOT-0003",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Leader of tendering party: EquiStamp Inc. Official name: Clarity AI Research Inc Official name: Centre pour la Sécurité de l'IA Tender: Tender identifier: EquiStamp Inc. Identifier of lot or group of lots: LOT-0004",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Result lot identifier: LOT-0005 Winner selection status: At least one winner was chosen.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Leader of tendering party: TECHNOPOLIS CONSULTING GROUP BELGIUM Official name: WIK-CONSULT GMBH Official name: NEDERLANDSE ORGANISATIE VOOR TOEGEPAST NATUURWETENSCHAPPELIJK ONDERZOEK TNO",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Result lot identifier: LOT-0006 Winner selection status: At least one winner was chosen.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Leader of tendering party: MINISTERE DU BUDGET DES COMPTES PUBLICS ET DE LA FONCTION PUBLIQUE ET DE LA REFORME DE L'ETAT Official name: LABORATOIRE NATIONAL DE METROLOGIE ET D'ESSAIS",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-tender-op-0032-specifications",
+      "title": "Call for tenders EC-CNECT/2025/OP/0032: Artificial Intelligence Act: technical assistance for AI safety, tender specifications",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/docs/76f9edf2-d9e2-4db2-931e-a72c5ab356d2-CN/EN_TENDER_SPECIFICATIONS_EC-CNECT-2025-OP-0032_AI%20Safety%20Tools_V1.pdf",
+      "excerpts": [
+        {
+          "text": "To quickly respond to changes in the AI risk landscape, the AI Office will need to evaluate particular GPAI models on short notice. Therefore, the AI Office expects to request the contractor to conduct ad hoc evaluations at certain points in time. A maximum of 3 such evaluations may be commissioned.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/modes/1/code"
+          ]
+        },
+        {
+          "text": "The volumes/values of the purchases for each lot over the total duration of the contract are:",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 2 - Cyber Offence Risk Modelling and Evaluation 2,000,000€",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 6 - Agentic Evaluation Interface 1,080,000€",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 1 - CBRN Risk Modelling and Evaluation 36 months",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 6 - Agentic Evaluation Interface 24 months",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot Maximum value",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 1 - CBRN Risk Modelling and Evaluation 1,850,000€ Lot 2 - Cyber Offence Risk Modelling and Evaluation 2,000,000€ Lot 3 - Loss of Control Risk Modelling and Evaluation 1,800,000€",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 4 - Harmful Manipulation Risk Modelling and Evaluation 1,300,000€ Lot 5 - Sociotechnical Risk Modelling and Evaluation 1,300,000€ Lot 6 - Agentic Evaluation Interface 1,080,000€",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 1 - CBRN Risk Modelling and Evaluation 36 months Lot 2 - Cyber Offence Risk Modelling and Evaluation 36 months Lot 3 - Loss of Control Risk Modelling and Evaluation 36 months",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "Lot 4 - Harmful Manipulation Risk Modelling and Evaluation 36 months Lot 5 - Sociotechnical Risk Modelling and Evaluation 36 months Lot 6 - Agentic Evaluation Interface 24 months",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "This tender has been split into six lots. Five of those lots are dedicated to specific systemic risks, namely (i) CBRN risks, (ii) cyber offence risks, (iii) loss of control risks, (iv) harmful manipulation risks and (v) sociotechnical risks.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Ad hoc and on demand services for complex evaluations, including for example redteaming and uplift evaluations.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "to coordinate \"uplift evaluations\" for a GPAI model of the AI Office's choosing",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Lot 6: agentic evaluation interface Software, Cloud infrastructure support, and methodology to evaluate GPAI on diverse types of benchmarks, focusing on agentic interaction and complex agentic benchmarks.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Every risk-specific lot has a similar structure, containing the following services:",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "to execute evaluations with a GPAI model of the AI Office's choosing",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "to coordinate an evaluation of a GPAI model of the AI Office's choosing",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "The contractor is responsible for any costs associated with the requested evaluation, including but not limited to, the API costs associated with the GPAI model.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        },
+        {
+          "text": "Where reasonably feasibly, the contractor should ensure they have permission from the GPAI model provider to temporarily break the terms of service for the purpose of the exercise. Where not feasible, the AI Office shall aim to provide the required access.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-tnw-enisa-mythos-2026",
+      "title": "EU cybersecurity agency is now testing Mythos 5 and GPT-6 Astra, the Commission says",
+      "url": "https://thenextweb.com/news/eu-cybersecurity-agency-is-now-testing-mythos-5-and-gpt-6-astra-the-commission-says",
+      "excerpts": [
+        {
+          "text": "more than three months from June, when the company agreed in principle to give ENISA access.",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-us-ttc-dialogue-2024",
+      "title": "U.S.-EU Joint Statement of the Trade and Technology Council",
+      "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/april/us-eu-joint-statement-trade-and-technology-council",
+      "excerpts": [
+        {
+          "text": "leaders from the European AI Office and the U.S. AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/counterparty",
+            "/institute/record/agreements/1/participation"
+          ]
+        },
+        {
+          "text": "These institutions today committed to establishing a Dialogue to deepen their collaboration",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/state",
+            "/institute/record/agreements/1/scope"
+          ]
+        },
+        {
+          "text": "particularly to foster scientific information exchange among their respective scientific entities and affiliates on topics such as, benchmarks, potential risks, and future technological trends.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-us-ttc-summary-2024",
+      "title": "EU-US Trade and Technology Council (2021-2024)",
+      "url": "https://digital-strategy.ec.europa.eu/en/factpages/eu-us-trade-and-technology-council-2021-2024",
+      "excerpts": [
+        {
+          "text": "Sixth TTC Ministerial, Leuven, 5 April 2024",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/date"
+          ]
+        },
+        {
+          "text": "Dialogue between the EU AI Office and the US AI Safety Institute established",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/agreements/1/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eu-virkkunen-dublin-2026",
+      "title": "Speech by Executive Vice-President Virkkunen at the International AI Summit in Dublin",
+      "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/speech_26_2150/SPEECH_26_2150_EN.pdf",
+      "excerpts": [
+        {
+          "text": "Our AI Office has started enforcing these rules, and sent Requests for Information addressing issues such as security, external evaluation and monitoring how models are used.",
+          "accessed": "2026-11-25",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-25",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/19/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-network-agentic-arxiv",
+      "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+      "url": "https://arxiv.org/abs/2601.15679",
+      "excerpts": [
+        {
+          "text": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/outputs/0/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-aisi-network-consensus-2026",
+      "title": "International consensus and open questions in AI evaluations",
+      "url": "https://www.aisi.gov.uk/blog/international-ai-network-consensus-and-open-questions",
+      "excerpts": [
+        {
+          "text": "the Network brings together Australia, Canada, the European Union, France, Japan, Kenya, the Republic of Korea, Singapore, the United Kingdom and the United States",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        },
+        {
+          "text": "the International Network for Advanced AI Measurement, Evaluation and Science — formerly the International Network of AI Safety Institutes",
+          "accessed": "2026-11-10",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-joint-testing",
+      "title": "International joint testing exercise: agentic testing",
+      "url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "archive_url": "https://web.archive.org/web/20250905113943/https://www.aisi.gov.uk/work/international-joint-testing-exercise-agentic-testing",
+      "excerpts": []
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "r3-eu-first-network-meeting",
+      "title": "First meeting of the International Network of AI Safety Institutes",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/first-meeting-international-network-ai-safety-institutes",
+      "excerpts": [
+        {
+          "text": "government-mandated offices from Australia, Canada, the European Commission",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/memberships/0/body"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-eu-ai-act-article74",
+      "title": "Regulation (EU) 2024/1689, consolidated text",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02024R1689-20260727",
+      "excerpts": [
+        {
+          "text": "The AI Office, after consulting the Board, may conduct evaluations of the general-purpose AI model concerned:",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/legal_power/provision",
+            "/institute/record/model_access/legal_power/conditions"
+          ]
+        },
+        {
+          "text": "For the purposes of paragraph 1, the Commission may request access to the general-purpose AI model concerned through APIs or further appropriate technical means and tools, including source code.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/legal_power/provision",
+            "/institute/record/model_access/legal_power/conditions"
+          ]
+        },
+        {
+          "text": "The Commission shall entrust the implementation of these tasks to the AI Office",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/legal_power/provision"
+          ]
+        },
+        {
+          "text": "(a) to assess compliance of the provider with obligations under this Regulation, where the information gathered pursuant to Article 91 is insufficient; or (b) to investigate systemic risks at Union level of general-purpose AI models with systemic risk",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/legal_power/conditions"
+          ]
+        },
+        {
+          "text": "The request for access shall state the legal basis, the purpose and reasons of the request and set the period within which the access is to be provided",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/legal_power/conditions"
+          ]
+        },
+        {
+          "text": "shall provide the access requested on behalf of the provider of the general-purpose AI model concerned",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/model_access/legal_power/conditions"
+          ]
+        },
+        {
+          "text": "keep track of, document, and report, without undue delay, to the AI Office and, as appropriate, to national competent authorities, relevant information about serious incidents and possible corrective measures to address them;",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02024R1689-20260727",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/5/text"
+          ]
+        },
+        {
+          "text": "The AI Office shall be responsible for conformity assessments and tests of AI systems referred to in paragraph 1 of this Article that are classified as high-risk and subject to a third-party conformity assessment pursuant to Article 43",
+          "accessed": "2026-10-17",
+          "url": "https://r.jina.ai/https://eur-lex.europa.eu/legal-content/EN/AUTO/?uri=CELEX:02024R1689-20260727",
+          "anchors": [
+            {
+              "text": "Article 74 Market surveillance and control of AI systems in the Union market",
+              "kind": "provision"
+            }
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/10/text"
+          ]
+        },
+        {
+          "text": "The AI Office shall provide the secretariat for the Board, convene the meetings upon request of the Chair, and prepare the agenda in accordance with the tasks of the Board pursuant to this Regulation and its rules of procedure.",
+          "anchors": [
+            {
+              "text": "‘AI Office’ means the Commission’s function of contributing to the implementation, monitoring and supervision of AI systems and general-purpose AI models, and AI governance, provided for in Commission Decision of 24 January 2024",
+              "kind": "definition"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/12/text"
+          ]
+        },
+        {
+          "text": "The AI Office shall develop a template for a questionnaire, including through an automated tool, to facilitate deployers in complying with their obligations under this Article in a simplified manner.",
+          "anchors": [
+            {
+              "text": "‘AI Office’ means the Commission’s function of contributing to the implementation, monitoring and supervision of AI systems and general-purpose AI models, and AI governance, provided for in Commission Decision of 24 January 2024",
+              "kind": "definition"
+            },
+            {
+              "text": "Article 27 Fundamental rights impact assessment for high-risk AI systems",
+              "kind": "provision"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/claims/15/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-eu-code-first-draft",
+      "title": "First Draft of the General-Purpose AI Code of Practice published, written by independent experts",
+      "url": "https://digital-strategy.ec.europa.eu/en/library/first-draft-general-purpose-ai-code-practice-published-written-independent-experts",
+      "excerpts": [
+        {
+          "text": "The first draft of the Code was prepared by independent experts",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        },
+        {
+          "text": "As facilitator of the Code drawing-up, the European AI Office publishes the draft today.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/institute/record/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wikidata-eu-ai-office-identifier",
+      "title": "European Artificial Intelligence Office: Wikidata identity",
+      "url": "https://www.wikidata.org/wiki/Q135841125",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-eu-identifier",
+      "title": "European Union: Wikidata identity",
+      "url": "https://www.wikidata.org/wiki/Q458",
+      "excerpts": []
+    }
+  ]
+}

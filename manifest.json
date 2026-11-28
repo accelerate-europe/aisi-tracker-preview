@@ -1,0 +1,174 @@
+{
+  "folders": {
+    "next": {
+      "branch": "next",
+      "run_id": 46163065899,
+      "run_attempt": 1,
+      "attempt": {
+        "commit": "c572c1ffdd46d378d378da0f4eb1a6037d8be85f",
+        "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/46163065899",
+        "time": "2026-11-28T16:06:04Z",
+        "status": "built"
+      },
+      "current": {
+        "notice": "This build is unpublished. Do not cite it.",
+        "branch": "next",
+        "commit": "c572c1ffdd46d378d378da0f4eb1a6037d8be85f",
+        "built": "2026-11-28T16:04:06Z",
+        "as_of": "2026-11-25",
+        "version": "1.2.1-dev",
+        "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/46163065899",
+        "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+        "run_id": 46163065899,
+        "run_attempt": 1,
+        "size": 25045980
+      },
+      "size": 25045980
+    }
+  },
+  "frozen": {
+    "70be953073": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "70be9530734e2d53638c86fafb0a6fd7b8ad33cc",
+      "built": "2026-11-25T00:26:08Z",
+      "as_of": "2026-11-24",
+      "version": "1.1.4-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45517947647",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45517947647,
+      "run_attempt": 1,
+      "size": 24946607
+    },
+    "7a68afb51a": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "7a68afb51a8c1fd7bd857ddd8404c0bd3e7e650b",
+      "built": "2026-11-25T00:56:00Z",
+      "as_of": "2026-11-24",
+      "version": "1.1.4-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45521784567",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45521784567,
+      "run_attempt": 1,
+      "size": 24947155
+    },
+    "05e26f87d6": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "05e26f87d675804d0ab9b44de3c2dcce1cbeb754",
+      "built": "2026-11-25T01:47:43Z",
+      "as_of": "2026-11-24",
+      "version": "1.1.4-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45528207244",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45528207244,
+      "run_attempt": 1,
+      "size": 24896114
+    },
+    "d562ac45ff": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "d562ac45ff0995995338fbc25e21697d11faed7c",
+      "built": "2026-11-25T02:26:13Z",
+      "as_of": "2026-11-24",
+      "version": "1.1.4-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45532790170",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45532790170,
+      "run_attempt": 1,
+      "size": 24897150
+    },
+    "30caf48bbd": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "30caf48bbdf56fa0a4b50a0f35572144bfd98f0b",
+      "built": "2026-11-25T02:40:45Z",
+      "as_of": "2026-11-25",
+      "version": "1.2.0",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45534555268",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45534555268,
+      "run_attempt": 1,
+      "size": 24923632
+    },
+    "eedd44e773": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "eedd44e7732be5295bf71ca853200c028de2fdeb",
+      "built": "2026-11-25T03:02:59Z",
+      "as_of": "2026-11-25",
+      "version": "1.2.1-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45537095212",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45537095212,
+      "run_attempt": 1,
+      "size": 24924528
+    },
+    "54b706d16f": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "54b706d16fe00d80e98c4bef221a3db4bb1fd442",
+      "built": "2026-11-25T16:05:42Z",
+      "as_of": "2026-11-25",
+      "version": "1.2.1-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45650860924",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45650860924,
+      "run_attempt": 1,
+      "size": 24991853
+    },
+    "b6994f425b": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "b6994f425b29443fc61aa5a0a60a708674cdce7d",
+      "built": "2026-11-25T16:48:16Z",
+      "as_of": "2026-11-25",
+      "version": "1.2.1-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45657651844",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45657651844,
+      "run_attempt": 1,
+      "size": 25084026
+    },
+    "c20cd8628c": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "c20cd8628c8be11d8a8d29c9052723ff48cac3b7",
+      "built": "2026-11-25T17:01:23Z",
+      "as_of": "2026-11-25",
+      "version": "1.2.1-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45660045036",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45660045036,
+      "run_attempt": 1,
+      "size": 25069351
+    },
+    "28ddabf81f": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "28ddabf81fe50aab749c330c3a137746d5886e68",
+      "built": "2026-11-25T18:17:56Z",
+      "as_of": "2026-11-25",
+      "version": "1.2.1-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/45673540093",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 45673540093,
+      "run_attempt": 1,
+      "size": 25068914
+    },
+    "c572c1ffdd": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "c572c1ffdd46d378d378da0f4eb1a6037d8be85f",
+      "built": "2026-11-28T16:04:06Z",
+      "as_of": "2026-11-25",
+      "version": "1.2.1-dev",
+      "run_url": "https://github.com/accelerate-europe/aisi-tracker/actions/runs/46163065899",
+      "preview_url": "https://accelerate-europe.github.io/aisi-tracker-preview/",
+      "run_id": 46163065899,
+      "run_attempt": 1,
+      "size": 25045980
+    }
+  }
+}

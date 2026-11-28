@@ -1,0 +1,601 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.1.4-dev",
+    "as_of": "2026-11-24",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "05e26f87d675804d0ab9b44de3c2dcce1cbeb754",
+      "built": "2026-11-25T01:47:43Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/154",
+  "record": {
+    "id": "CG",
+    "name": "Republic of the Congo",
+    "summary": "No qualifying institute identified. A technical committee began drafting a national AI strategy in May 2026 with UNDP support; no evaluation body is described.",
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. No retained English query. The retrieved material does not sufficiently establish the national AI governance arrangements. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "English searches for a national AI safety, security or evaluation institute, commitment, proposal or study. No qualifying institute was identified. The retrieved existing secondary account describes a technical committee preparing the national AI strategy with UNDP; no model-evaluation body is specified. Targeted English searches did not yield a retrievable primary national strategy account. Partial check only; the last full-check date is unchanged. A recorded query uses site. rather than the valid site: operator; it was a general search, not a reliable domain restriction."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Re-ran searches in English and French for a government-designated institute that evaluates advanced models, or a commitment, proposal or study naming one. No qualifying institute or commitment was identified; results described the technical committee drafting the national AI strategy with UNDP (May 2026), a January 2026 ARPCE digital-regulation seminar covering AI, and the statutes of the African Research Centre for AI. Retrieved the decree approving ARCAI's statutes as new primary governance evidence. Raised confidence to medium under the status-confidence rule: recorded queries in English and a national or official language, and cited primary governance evidence consistent with no qualifying institute. Partial check; the last full-check date is unchanged."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Read Law 14-2024 of 23 May 2024 (Journal officiel n° 23 of 6 June 2024), which creates the African Research Centre for AI (CARIA), and the visas of décret 2025-279, which cite it. Its missions are research, certified training, strategy proposals and laboratories; none is to test or evaluate AI models. Added the law and the French acronym. Partial check; the last full-check date is unchanged."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "\"Congo Brazzaville\" \"intelligence artificielle\" institut sécurité",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Congo Brazzaville institut sécurité intelligence artificielle évaluation modèles gouvernement",
+          "source_ids": [
+            "fr-sgdsn-aisi"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Republic of the Congo national AI safety security institute advanced model evaluation proposal government",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Republic Congo government national artificial intelligence strategy committee UNDP 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "site.undp.org/congo \"artificial intelligence\" strategy 2026",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": false,
+          "query": "\"Republic of Congo\" \"artificial intelligence\" \"committee\" \"2026\"",
+          "source_ids": [],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "en",
+          "national_or_official": false,
+          "query": "Republic of the Congo AI safety institute evaluation advanced models government 2026",
+          "source_ids": [
+            "fix-output-international-safety-report-2026",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        },
+        {
+          "date": "2026-10-24",
+          "language": "fr",
+          "national_or_official": true,
+          "query": "Congo Brazzaville stratégie nationale intelligence artificielle comité technique ministère postes économie numérique 2026",
+          "source_ids": [
+            "cd-mediacongo-2026",
+            "cd-osiris-academie-2025",
+            "cg-allafrica-2026",
+            "cg-jo-decree-2025-279-arcai"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "The recorded fr query uses a national or official language selected for this country-specific check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence. English queries were also run on 17 October 2026; the previously recorded national or official-language coverage and its limits are unchanged. On 24 October 2026 the record was searched again in English and French; the result links of each query were matched against registered sources in the same way.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: The Lawyers Hub desk-research profile was read, but independence of its underlying citations from the paired national or press source was not verified. It is not counted as a second evidence origin. Confidence was low under that rule; none_identified is a bounded search finding, not proof of absence.",
+      "governance_source_ids": [
+        "cg-jo-decree-2025-279-arcai"
+      ],
+      "governance_note": "The July 2025 decree approving the statutes of the African Research Centre for Artificial Intelligence makes it a research, training and development establishment under the administrative and technical supervision of the minister responsible for the digital economy. None of its listed missions is the evaluation of advanced models."
+    },
+    "source_ids": [
+      "cg-allafrica-2026",
+      "cg-aipolicy-2026",
+      "cg-jo-decree-2025-279-arcai",
+      "cg-jo-2024-23-law-14-2024"
+    ],
+    "related_bodies": [
+      {
+        "name": "Ministry of Posts, Telecommunications and the Digital Economy",
+        "role": "It owns digital and AI policy.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-217241b8036f5dd29aedcb8cf017882f",
+        "display": {
+          "source_links": []
+        }
+      },
+      {
+        "name": "ARPCE",
+        "role": "It convened a January 2026 seminar on digital regulation, including AI. It is a telecommunications regulator. No mandate to evaluate advanced models was identified.",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "r3-cg-arpce-regulation-seminar",
+          "cg-aipolicy-2026"
+        ],
+        "kind": "other",
+        "id": "related_bodies-87e8f9bcf58d58e692aca98393a53954",
+        "citations": {
+          "name": [],
+          "role": [
+            "cg-aipolicy-2026",
+            "r3-cg-arpce-regulation-seminar"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "cg-aipolicy-2026",
+            "r3-cg-arpce-regulation-seminar"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "cg-aipolicy-2026",
+            "r3-cg-arpce-regulation-seminar"
+          ]
+        }
+      },
+      {
+        "name": "African Research Centre for Artificial Intelligence (CARIA)",
+        "role": "Created by Law 14-2024 as a public research, training and development establishment, under the digital economy minister's administrative and technical supervision and the scientific research minister's scientific supervision; it is not an evaluation body.",
+        "counts_as_aisi": false,
+        "kind": "other",
+        "id": "related_bodies-315abbc04ab2562297161007b0e7d39d",
+        "source_ids": [
+          "cg-jo-2024-23-law-14-2024",
+          "cg-jo-decree-2025-279-arcai"
+        ],
+        "citations": {
+          "name": [
+            "cg-jo-2024-23-law-14-2024"
+          ],
+          "role": [
+            "cg-jo-decree-2025-279-arcai",
+            "cg-jo-2024-23-law-14-2024"
+          ],
+          "counts_as_aisi": [],
+          "kind": [],
+          "id": [],
+          "display": [
+            "cg-jo-decree-2025-279-arcai",
+            "cg-jo-2024-23-law-14-2024"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "cg-jo-decree-2025-279-arcai",
+            "cg-jo-2024-23-law-14-2024"
+          ]
+        }
+      }
+    ],
+    "notes": "Evidence is a press report of the committee's inaugural meeting plus a secondary profile; no government text on the strategy was found. Law 14-2024 of 23 May 2024 creates the African Research Centre for AI (CARIA, its French acronym) as a public research, training and development establishment under the digital economy minister's supervision, and a July 2025 decree approves its statutes. Neither text gives it a task to test or evaluate AI models. Searched in French.",
+    "next_check": {
+      "date": "2027-03-31",
+      "reason": "The committee has six months from May 2026; check whether a strategy is adopted."
+    },
+    "region": {
+      "id": "002",
+      "name": "Africa",
+      "subregion_id": "202",
+      "subregion": "Sub-Saharan Africa",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 6484437,
+      "year": 2025,
+      "source_ids": [
+        "wb-pop"
+      ],
+      "citations": {
+        "value": [],
+        "year": [],
+        "display": []
+      }
+    },
+    "europe_scope": false,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "COG",
+    "m49": "178",
+    "wikidata": "Q971",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "status": "none_identified",
+    "citations": {
+      "id": [],
+      "name": [],
+      "summary": [],
+      "check": [
+        "cg-jo-decree-2025-279-arcai"
+      ],
+      "related_bodies": [
+        "cg-aipolicy-2026",
+        "r3-cg-arpce-regulation-seminar",
+        "cg-jo-decree-2025-279-arcai",
+        "cg-jo-2024-23-law-14-2024"
+      ],
+      "notes": [
+        "cg-jo-decree-2025-279-arcai",
+        "cg-jo-2024-23-law-14-2024"
+      ],
+      "next_check": [],
+      "region": [],
+      "population": [],
+      "europe_scope": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "status": [],
+      "display": [
+        "cg-aipolicy-2026",
+        "r3-cg-arpce-regulation-seminar",
+        "cg-jo-decree-2025-279-arcai",
+        "cg-jo-2024-23-law-14-2024"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "fr-sgdsn-aisi",
+        "cg-aipolicy-2026",
+        "cd-mediacongo-2026",
+        "cg-allafrica-2026",
+        "cd-osiris-academie-2025",
+        "ov-wikipedia",
+        "fix-output-international-safety-report-2026",
+        "r3-cg-arpce-regulation-seminar",
+        "cg-jo-decree-2025-279-arcai",
+        "cg-jo-2024-23-law-14-2024"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "cd-mediacongo-2026",
+      "title": "Économie numérique: les participants à l'atelier de validation technique approuvent le projet de la stratégie nationale de l'intelligence artificielle",
+      "title_en": "Digital economy: technical validation workshop participants approve the draft national artificial intelligence strategy",
+      "url": "https://www.mediacongo.net/article-actualite-166058_economie_numerique_les_participants_a_l_atelier_de_validation_technique_approuvent_le_projet_de_la_strategie_nationale_de_l_intelligence_artificielle.html",
+      "archive_url": "https://web.archive.org/web/20261017033714/https://www.mediacongo.net/article-actualite-166058_economie_numerique_les_participants_a_l_atelier_de_validation_technique_approuvent_le_projet_de_la_strategie_nationale_de_l_intelligence_artificielle.html",
+      "excerpts": []
+    },
+    {
+      "id": "cd-osiris-academie-2025",
+      "title": "RDC : vers la création d'une Académie nationale dédiée à l'intelligence artificielle",
+      "title_en": "DRC: towards the creation of a national academy dedicated to artificial intelligence",
+      "url": "https://www.osiris.sn/rdc-vers-la-creation-d-une-academie-nationale-dediee-a-l-intelligence.html",
+      "archive_url": "https://web.archive.org/web/20261017034436/https://www.osiris.sn/rdc-vers-la-creation-d-une-academie-nationale-dediee-a-l-intelligence.html",
+      "excerpts": []
+    },
+    {
+      "id": "cg-aipolicy-2026",
+      "title": "Country Profile on AI Governance: Republic of the Congo (Africa AI Governance Index 2026, v1.2)",
+      "url": "https://www.aipolicy.africa/country-profiles/congo",
+      "archive_url": "https://web.archive.org/web/20261017032513/https://www.aipolicy.africa/country-profiles/congo",
+      "excerpts": [
+        {
+          "text": "the regulator ARPCE held a seminar in January 2026 to develop an AI regulatory roadmap",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cg-allafrica-2026",
+      "title": "Congo-Brazzaville: Intelligence artificielle et langues nationales - Le pays lance les travaux de sa stratégie nationale avec l'appui du Pnud",
+      "title_en": "Congo-Brazzaville: artificial intelligence and national languages, the country begins work on its national strategy with UNDP support",
+      "url": "https://fr.allafrica.com/stories/202605070096.html",
+      "archive_url": "https://web.archive.org/web/20261017033815/https://fr.allafrica.com/stories/202605070096.html",
+      "excerpts": []
+    },
+    {
+      "id": "cg-jo-2024-23-law-14-2024",
+      "title": "Loi n° 14-2024 du 23 mai 2024 portant création du centre africain de recherche en intelligence artificielle",
+      "title_en": "Law No. 14-2024 of 23 May 2024 creating the African Research Centre for Artificial Intelligence",
+      "url": "https://sgg.cg/JO/2024/congo-jo-2024-23.pdf",
+      "excerpts": [
+        {
+          "text": "Loi n° 14-2024 du 23 mai 2024 portant création du centre africain de recherche en intelligence",
+          "gloss": "Law No. 14-2024 of 23 May 2024 creating the African Research Centre for Artificial Intelligence",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/2/role"
+          ]
+        },
+        {
+          "text": "en sigle « CARIA »",
+          "gloss": "abbreviated CARIA",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/2/name"
+          ]
+        },
+        {
+          "text": "est un établissement de recherche, de formation et de développement",
+          "gloss": "is a research, training and development establishment",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/2/role"
+          ]
+        },
+        {
+          "text": "placé sous la tutelle administrative et technique du ministre chargé de l’économie numérique",
+          "gloss": "placed under the administrative and technical supervision of the minister responsible for the digital economy",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/notes",
+            "/record/related_bodies/2/role"
+          ]
+        },
+        {
+          "text": "du ministre chargé de la recherche",
+          "gloss": "(scientific supervision) of the minister responsible for scientific research",
+          "accessed": "2026-11-09",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/2/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cg-jo-decree-2025-279-arcai",
+      "title": "Décret n° 2025-279 du 2 juillet 2025 portant approbation des statuts du centre africain de recherche en intelligence artificielle",
+      "title_en": "Decree No. 2025-279 of 2 July 2025 approving the statutes of the African Research Centre for Artificial Intelligence",
+      "url": "https://www.sgg.cg/textes-officiels/decrets/2025/congo-decret-2025-279.pdf",
+      "excerpts": [
+        {
+          "text": "est un établissement de recherche, de formation et de dévelopement",
+          "accessed": "2026-10-24",
+          "gloss": "is a research, training and development establishment",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note",
+            "/record/notes",
+            "/record/related_bodies/2/role"
+          ]
+        },
+        {
+          "text": "sous la tutelle administrative et technique du ministre chargé de l’économie numérique",
+          "accessed": "2026-10-24",
+          "gloss": "under the administrative and technical supervision of the minister responsible for the digital economy",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/check/governance_note",
+            "/record/notes",
+            "/record/related_bodies/2/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-international-safety-report-2026",
+      "title": "International AI Safety Report 2026",
+      "url": "https://internationalaisafetyreport.org/publication/international-ai-safety-report-2026",
+      "excerpts": []
+    },
+    {
+      "id": "fr-sgdsn-aisi",
+      "title": "Évaluer et sécuriser l'IA",
+      "title_en": "Evaluating and securing AI",
+      "url": "https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+      "archive_url": "https://web.archive.org/web/20261017005049/https://www.sgdsn.gouv.fr/nos-missions/anticiper-et-prevenir/evaluer-et-securiser-lia",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "r3-cg-arpce-regulation-seminar",
+      "title": "Technologies numériques : l’ARPCE au cœur de la construction d’une régulation moderne et anticipatrice au Congo",
+      "title_en": "Digital technologies: ARPCE at the centre of building modern, forward-looking regulation in Congo",
+      "url": "https://drsce.arpce.cg/activites/technologies-numeriques-larpce-au-coeur-de-la-construction-dune-regulation-moderne-et-anticipatrice-au-congo",
+      "excerpts": [
+        {
+          "text": "L’Agence de Régulation des Postes et des Communications Électroniques (ARPCE) a organisé, du 12 au 16 janvier 2026, un séminaire stratégique réunissant de hauts responsables publics, des experts internationaux de renom ainsi que des acteurs majeurs du secteur privé congolais.",
+          "accessed": "2026-10-17",
+          "gloss": "ARPCE organised a strategic seminar from 12 to 16 January 2026 bringing together senior public officials, international experts and major private-sector participants.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/role"
+          ]
+        },
+        {
+          "text": "L'initiative de l'ARPCE a démontré la volonté de l'Autorité de régulation d'anticiper les transformations induites par la donnée, l'intelligence artificielle, la finance numérique et les nouvelles plateformes technologiques.",
+          "accessed": "2026-10-17",
+          "gloss": "The initiative demonstrated the regulator's intention to anticipate changes driven by data, AI, digital finance and new technology platforms.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

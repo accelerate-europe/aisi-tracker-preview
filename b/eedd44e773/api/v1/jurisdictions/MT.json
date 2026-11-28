@@ -1,0 +1,519 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "eedd44e7732be5295bf71ca853200c028de2fdeb",
+      "built": "2026-11-25T03:02:59Z"
+    }
+  },
+  "aisi_json_pointer": "/jurisdictions/31",
+  "record": {
+    "id": "MT",
+    "name": "Malta",
+    "institute_id": null,
+    "related_bodies": [
+      {
+        "name": "Malta Digital Innovation Authority",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "mt-ai-regulations-ln226-2025",
+          "mt-mdia-ai-authorities",
+          "mt-regulations-ln226",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance",
+          "notifying",
+          "single_point_of_contact"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "ministerial_act",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-0d7ba905bff754c7b2d682718d6218d8",
+        "role": "Legal Notice 226 of 2025 makes it the national authority responsible for the establishment and functioning of a national AI regulatory sandbox.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [],
+          "designation_state": [
+            "eu-ai-act-authorities-2026"
+          ],
+          "designation_basis": [],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "eu-ai-act-authorities-2026"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "mt-regulations-ln226",
+            "eu-ai-act-authorities-2026",
+            "mt-mdia-ai-authorities",
+            "mt-ai-regulations-ln226-2025"
+          ]
+        }
+      },
+      {
+        "name": "Information and Data Protection Commissioner (IDPC)",
+        "counts_as_aisi": false,
+        "source_ids": [
+          "mt-mdia-ai-authorities",
+          "mt-idpc-ai-regulations-ln227-2025",
+          "eu-ai-act-authorities-2026"
+        ],
+        "authority_roles": [
+          "market_surveillance"
+        ],
+        "designation_state": "designated",
+        "designation_basis": "ministerial_act",
+        "kind": "ai_act_authority",
+        "id": "related_bodies-d5ac427a128a5f599eb55bb15a23c283",
+        "role": "Legal Notice 227 of 2025 makes it the market-surveillance authority for listed high-risk AI systems, among them high-risk systems used for law enforcement in so far as their use is permitted by law.",
+        "citations": {
+          "name": [],
+          "counts_as_aisi": [],
+          "authority_roles": [
+            "mt-idpc-ai-regulations-ln227-2025"
+          ],
+          "designation_state": [
+            "mt-idpc-ai-regulations-ln227-2025"
+          ],
+          "designation_basis": [
+            "mt-idpc-ai-regulations-ln227-2025"
+          ],
+          "kind": [],
+          "id": [],
+          "role": [],
+          "display": [
+            "mt-idpc-ai-regulations-ln227-2025"
+          ]
+        },
+        "display": {
+          "source_links": [
+            "eu-ai-act-authorities-2026",
+            "mt-mdia-ai-authorities",
+            "mt-idpc-ai-regulations-ln227-2025"
+          ]
+        }
+      }
+    ],
+    "next_check": {
+      "date": "2026-12-31",
+      "reason": "Read the full realigned strategy and its measures list for any assurance or evaluation body."
+    },
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Negative-status confidence, preserved query provenance, national/official-language search coverage and source-independence audit; this is not a full recheck of all record fields."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Reassessed negative confidence under the revised rule using saved research. Recorded English and national or official-language queries and retrieved primary governance evidence support medium confidence. No new search or full recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "News search from 17 October 2026 in English and Maltese, with the Department of Information press release listing (newest 10 November). Left for review: the ministry release of 29 October announcing an updated national AI strategy to 2030 for the following month, distinct from the strategy page of November 2025 already in the record. The revised strategy itself had not been found by 10 November. No new evaluator, access arrangement or change to the MDIA designation was found. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "searches": [
+        {
+          "date": "2026-10-17",
+          "language": "en",
+          "national_or_official": true,
+          "query": "Malta AI safety institute advanced model evaluation government",
+          "source_ids": [
+            "gb-approach-2024",
+            "mt-mdia-ai-authorities",
+            "depth-gb-inspect",
+            "ov-wikipedia"
+          ],
+          "citations": {
+            "date": [],
+            "language": [],
+            "national_or_official": [],
+            "query": [],
+            "display": []
+          }
+        }
+      ],
+      "independent_source_ids": [],
+      "language_note": "English is an official language or an official language of national administration; it is a practical national search language for this check. Other national or official languages were not exhaustively searched. Search source_ids identify registered source URLs matched in the retrieved result set, which may include irrelevant hits. An empty list means no registered source URL was matched, not that the web response was empty. The earlier audit used independent_source_ids for substantive corroboration; governance_source_ids, where present, identifies the selected primary governance evidence.",
+      "independence_note": "Historical audit under the superseded two-independent-sources rule: Two substantively independent evidence origins were not established. Multiple pages from one owner, mirrors, reports of the same underlying announcement and general regional coverage are not counted as independent corroboration.",
+      "governance_source_ids": [
+        "mt-mdia-ai-authorities"
+      ],
+      "governance_note": "MDIA describes its lead AI Act market-surveillance and single-contact responsibilities, consistent with an authority rather than a qualifying evaluation institute.",
+      "log": []
+    },
+    "source_ids": [
+      "mt-mdia-strategy-2025",
+      "mt-ai-regulations-ln226-2025",
+      "mt-mdia-ai-authorities",
+      "mt-regulations-ln226",
+      "ai-act-tracker"
+    ],
+    "region": {
+      "id": "150",
+      "name": "Europe",
+      "subregion_id": "039",
+      "subregion": "Southern Europe",
+      "source_ids": [
+        "un-m49"
+      ],
+      "citations": {
+        "id": [],
+        "name": [],
+        "subregion_id": [],
+        "subregion": [],
+        "display": []
+      }
+    },
+    "population": {
+      "value": 574250,
+      "year": 2025,
+      "source_ids": [
+        "eurostat-pop"
+      ],
+      "citations": {
+        "value": [
+          "eurostat-pop"
+        ],
+        "year": [
+          "eurostat-pop"
+        ],
+        "display": [
+          "eurostat-pop"
+        ]
+      }
+    },
+    "europe_scope": true,
+    "eu_member": true,
+    "kind": "state",
+    "status_confidence": "medium",
+    "iso3": "MLT",
+    "m49": "470",
+    "wikidata": "Q233",
+    "identifier_source_ids": [
+      "un-m49",
+      "wikidata-jurisdiction-identifiers"
+    ],
+    "claims": [
+      {
+        "id": "claims-d7029e85995e4469a0c9bfe7c61c7d36",
+        "kind": "function",
+        "code": "sandbox",
+        "basis": "mandate",
+        "body_id": "related_bodies-0d7ba905bff754c7b2d682718d6218d8",
+        "text": "Legal Notice 226 of 2025 makes it the national authority responsible for the establishment and functioning of a national AI regulatory sandbox.",
+        "source_ids": [
+          "mt-ai-regulations-ln226-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "mt-ai-regulations-ln226-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "mt-ai-regulations-ln226-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-d0eb3be864b3449696cc6a0783a412e5",
+        "kind": "function",
+        "code": "regulatory_enforcement",
+        "basis": "mandate",
+        "body_id": "related_bodies-d5ac427a128a5f599eb55bb15a23c283",
+        "text": "Legal Notice 227 of 2025 makes it the market-surveillance authority for listed high-risk AI systems, among them high-risk systems used for law enforcement in so far as their use is permitted by law.",
+        "source_ids": [
+          "mt-idpc-ai-regulations-ln227-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "body_id": [],
+          "text": [
+            "mt-idpc-ai-regulations-ln227-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "mt-idpc-ai-regulations-ln227-2025"
+          ]
+        }
+      }
+    ],
+    "status": "none_identified",
+    "summary": "No qualifying institute identified as of October 2026. Malta Digital Innovation Authority is its AI Act single point of contact, market-surveillance authority and notifying authority; one other AI Act body is listed below.",
+    "notes": "Checked in full on or before 16 October 2026, searching in English.\n\nNext check due by 31 December 2026.",
+    "citations": {
+      "id": [],
+      "name": [],
+      "institute_id": [],
+      "related_bodies": [
+        "eu-ai-act-authorities-2026",
+        "mt-idpc-ai-regulations-ln227-2025"
+      ],
+      "next_check": [],
+      "check": [],
+      "region": [],
+      "population": [
+        "eurostat-pop"
+      ],
+      "europe_scope": [],
+      "eu_member": [],
+      "kind": [],
+      "status_confidence": [],
+      "iso3": [],
+      "m49": [],
+      "wikidata": [],
+      "claims": [
+        "mt-ai-regulations-ln226-2025",
+        "mt-idpc-ai-regulations-ln227-2025"
+      ],
+      "status": [],
+      "summary": [],
+      "notes": [],
+      "display": [
+        "eurostat-pop",
+        "eu-ai-act-authorities-2026",
+        "mt-idpc-ai-regulations-ln227-2025"
+      ],
+      "since": [],
+      "status_since": [],
+      "finding": [
+        "eu-ai-act-authorities-2026"
+      ],
+      "inst": []
+    },
+    "display": {
+      "small_state": true,
+      "advisory": false,
+      "source_links": [
+        "ai-act-tracker",
+        "eurostat-pop",
+        "mt-regulations-ln226",
+        "mt-mdia-strategy-2025",
+        "ov-wikipedia",
+        "gb-approach-2024",
+        "depth-gb-inspect",
+        "eu-ai-act-authorities-2026",
+        "mt-mdia-ai-authorities",
+        "mt-ai-regulations-ln226-2025",
+        "mt-idpc-ai-regulations-ln227-2025"
+      ]
+    }
+  },
+  "institute": null,
+  "sources": [
+    {
+      "id": "ai-act-tracker",
+      "title": "National implementation plans",
+      "url": "https://artificialintelligenceact.eu/national-implementation-plans/",
+      "archive_url": "https://web.archive.org/web/20260928103758/https://artificialintelligenceact.eu/national-implementation-plans/",
+      "excerpts": []
+    },
+    {
+      "id": "depth-gb-inspect",
+      "title": "AI Safety Institute releases new AI safety evaluations platform",
+      "url": "https://www.gov.uk/government/news/ai-safety-institute-releases-new-ai-safety-evaluations-platform",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ai-act-authorities-2026",
+      "title": "Market surveillance authorities under the AI Act",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/market-surveillance-authorities-under-ai-act",
+      "excerpts": [
+        {
+          "text": "Malta L-Awtorità Maltija għall-Innovazzjoni Diġitali",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/0/designation_state"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eurostat-pop",
+      "title": "Population on 1 January (tps00001), 2025",
+      "url": "https://ec.europa.eu/eurostat/api/dissemination/sdmx/2.1/data/tps00001/?format=SDMX-CSV&startPeriod=2025&endPeriod=2025",
+      "excerpts": [
+        {
+          "text": "A,JAN,MT,2025,574250",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/population/value",
+            "/record/population/year"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-approach-2024",
+      "title": "AI Safety Institute approach to evaluations",
+      "url": "https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "archive_url": "https://web.archive.org/web/20261017042410/https://www.gov.uk/government/publications/ai-safety-institute-approach-to-evaluations/ai-safety-institute-approach-to-evaluations",
+      "excerpts": []
+    },
+    {
+      "id": "mt-ai-regulations-ln226-2025",
+      "title": "Artificial Intelligence Regulations, S.L.591.05, Legal Notice 226 of 2025",
+      "url": "https://legislation.mt/getpdf/69036141d91c8321f4b77dfb",
+      "excerpts": [
+        {
+          "text": "The Malta Digital Innovation Authority shall be the national authority responsible for the establishment and functioning of a national AI regulatory sandbox",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/0/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mt-idpc-ai-regulations-ln227-2025",
+      "title": "Legal Notice 227 of 2025: AI Act designation of the Information and Data Protection Commissioner",
+      "url": "https://legislation.mt/getpdf/6901d197afa59620bca3388a",
+      "excerpts": [
+        {
+          "text": "The Commissioner shall be designated as the market surveillance authority for the purpose of Regulation (EU) 2024/1689",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_state",
+            "/record/related_bodies/1/authority_roles"
+          ]
+        },
+        {
+          "text": "high-risk systems used for law enforcement, in so far as their use is permitted by law",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "3. The Commissioner shall be designated as the market surveillance authority for the purpose of Regulation (EU) 2024/1689 for the following high-risk AI systems:",
+              "kind": "heading"
+            },
+            {
+              "text": "\"Commissioner\" means the Information and Data Protection Commissioner",
+              "kind": "definition"
+            }
+          ],
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text"
+          ]
+        },
+        {
+          "text": "the Minister responsible for data protection after consultation with the Information and Data Protection Commissioner, has made the following regulations:-",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/related_bodies/1/designation_basis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mt-mdia-ai-authorities",
+      "title": "Artificial Intelligence",
+      "url": "https://mdia.gov.mt/services/artificial-intelligence/",
+      "archive_url": "https://web.archive.org/web/20261013194657/https://mdia.gov.mt/services/artificial-intelligence/",
+      "excerpts": []
+    },
+    {
+      "id": "mt-mdia-strategy-2025",
+      "title": "2025 Strategy and Vision",
+      "url": "https://mdia.gov.mt/?p=7326",
+      "excerpts": []
+    },
+    {
+      "id": "mt-regulations-ln226",
+      "title": "Malta - Artificial Intelligence Regulations (LN 226/2025)",
+      "url": "https://regulations.ai/regulations/RAI-MT-NA-22AIRXX-2025",
+      "archive_url": "https://web.archive.org/web/20261017013018/https://regulations.ai/regulations/RAI-MT-NA-22AIRXX-2025",
+      "excerpts": []
+    },
+    {
+      "id": "ov-wikipedia",
+      "title": "Artificial intelligence safety institute",
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "archive_url": "https://web.archive.org/web/20261017040903/https://en.wikipedia.org/wiki/Artificial_intelligence_safety_institute",
+      "excerpts": []
+    },
+    {
+      "id": "un-m49",
+      "title": "Standard country or area codes for statistical use (M49): overview",
+      "url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+      "archive_url": "https://web.archive.org/web/20261004085234/https://unstats.un.org/unsd/methodology/m49/overview/",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-jurisdiction-identifiers",
+      "title": "Wikidata jurisdiction ISO codes, labels and instance types",
+      "url": "https://query.wikidata.org/sparql?query=SELECT+%3Fitem+%3FitemLabel+%3FitemDescription+%3Fiso2+%3Fiso3+%3Fm49+%3Ftype+%3FtypeLabel+WHERE+%7B+%3Fitem+wdt%3AP297+%3Fiso2.+OPTIONAL+%7B+%3Fitem+wdt%3AP298+%3Fiso3+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP299+%3Fm49+%7D+OPTIONAL+%7B+%3Fitem+wdt%3AP31+%3Ftype+%7D+SERVICE+wikibase%3Alabel+%7B+bd%3AserviceParam+wikibase%3Alanguage+%22en%22+%7D+%7D&format=json",
+      "excerpts": []
+    }
+  ]
+}

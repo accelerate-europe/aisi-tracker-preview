@@ -1,0 +1,4856 @@
+{
+  "dataset": {
+    "name": "aisi-tracker",
+    "version": "1.2.1-dev",
+    "as_of": "2026-11-25",
+    "license": "CC BY 4.0",
+    "license_note": "Quotations from sources remain with their rights holders and are reproduced as quotations; the licence covers our own compilation, text and data.",
+    "citation": "This build is unpublished. Do not cite it.",
+    "preview": {
+      "notice": "This build is unpublished. Do not cite it.",
+      "branch": "next",
+      "commit": "c572c1ffdd46d378d378da0f4eb1a6037d8be85f",
+      "built": "2026-11-28T16:04:06Z"
+    }
+  },
+  "aisi_json_pointer": "/institutes/7",
+  "record": {
+    "id": "ca-caisi",
+    "name": "Canadian AI Safety Institute",
+    "acronym": "CAISI",
+    "short_name": "CAISI",
+    "jurisdiction_id": "CA",
+    "host": "Innovation, Science and Economic Development Canada (ISED)",
+    "legal_form": "unit_in_existing_body",
+    "mandate": "Researches risks from advanced AI systems and develops measures to address them.",
+    "website": "https://ised-isde.canada.ca/site/ised/canadian-artificial-intelligence-safety-institute",
+    "funding": [
+      {
+        "kind": "multi_year",
+        "amount": 50000000,
+        "currency": "CAD",
+        "years": 5,
+        "period": "2024-25 to 2028-29",
+        "description": "CAD 50m over five years",
+        "source_ids": [
+          "ca-budget",
+          "ca-launch",
+          "r11-ca-fiscal-year"
+        ],
+        "confidence": "high",
+        "commitment": "adopted",
+        "funding_source": "national_government",
+        "annual_basis": "Arithmetic mean of the explicitly stated CAD 50m five-year allocation; annual disbursements and spending are not stated. Budget 2024 chapter 4 gives a yearly profile only for the combined Safe and Responsible Use of AI measures, not a separate institute profile.",
+        "annual_basis_code": "period_mean",
+        "annual_period": {
+          "start": "2024-04-01",
+          "end": "2029-03-31"
+        },
+        "coverage": "whole_institute",
+        "id": "funding-360a59a37fde5cc8ba0a03ce3a00ea5f",
+        "annual_amount": 10000000,
+        "eur_per_year_est": 6334220,
+        "eur_per_person_est": 0.152076,
+        "share_of_gdp_est": 3.08312e-06,
+        "ratio_denominators": {
+          "population": {
+            "value": 41651653,
+            "year": 2025
+          },
+          "gdp": {
+            "value": 3243465000000,
+            "currency": "CAD",
+            "year": 2025
+          }
+        },
+        "citations": {
+          "kind": [],
+          "amount": [
+            "ca-budget",
+            "ca-launch"
+          ],
+          "currency": [],
+          "years": [
+            "ca-budget",
+            "ca-launch"
+          ],
+          "period": [
+            "ca-budget"
+          ],
+          "description": [],
+          "confidence": [],
+          "commitment": [],
+          "funding_source": [],
+          "annual_basis": [
+            "ca-budget"
+          ],
+          "annual_basis_code": [],
+          "annual_period": [
+            "r11-ca-fiscal-year"
+          ],
+          "coverage": [],
+          "id": [],
+          "annual_amount": [
+            "ca-budget",
+            "ca-launch"
+          ],
+          "eur_per_year_est": [
+            "ca-budget",
+            "ca-launch",
+            "eu-ecb-exchange-rates-2025"
+          ],
+          "eur_per_person_est": [
+            "ca-budget",
+            "ca-launch",
+            "wb-pop",
+            "eu-ecb-exchange-rates-2025"
+          ],
+          "share_of_gdp_est": [
+            "ca-budget",
+            "ca-launch",
+            "wb-gdp-lcu-2025"
+          ],
+          "ratio_denominators": [
+            "wb-pop",
+            "wb-gdp-lcu-2025"
+          ],
+          "display": [
+            "ca-budget",
+            "ca-launch",
+            "eu-ecb-exchange-rates-2025",
+            "r11-ca-fiscal-year"
+          ]
+        },
+        "display": {
+          "annual_estimate": true,
+          "per_person": "~EUR 0.15 per person",
+          "value": "~EUR 6.3m (CAD 10m)",
+          "qualifiers": [
+            "a year",
+            "average over period",
+            "2024-25 to 2028-29",
+            "adopted"
+          ],
+          "native_value": "CAD 50m",
+          "native_qualifiers": [
+            "multi-year",
+            "2024-25 to 2028-29",
+            "adopted"
+          ],
+          "budget_citations": [
+            "ca-budget",
+            "ca-launch",
+            "eu-ecb-exchange-rates-2025"
+          ]
+        }
+      },
+      {
+        "kind": "one_off",
+        "amount": 50000000,
+        "currency": "CAD",
+        "commitment": "announced",
+        "confidence": "high",
+        "funding_source": "national_government",
+        "description": "An additional CAD 50m announced through AI for All to expand CAISI capabilities.",
+        "source_ids": [
+          "r5-ca-additional-funding-qp",
+          "r5-ca-ai-for-all"
+        ],
+        "notes": "The retrieved sources publish no funding period or annual profile, so we do not annualise it, do not use it in place of the 2024 five-year allocation, and do not add the two envelopes to a current annual budget. The one-off label denotes this additional fixed envelope, not payment in one fiscal year. The strategy names CAISI as the recipient, and the Question Period Note explicitly calls this additional funding. It is an institute-wide envelope, kept separate from the earlier five-year allocation rather than added to its annual mean. The Question Period Note also associates the envelope with AI transparency and a Canada Trusted AI Certification programme. It gives no split; the explicit CAISI allocation supports the whole-institute classification while the scope of certification spending remains uncertain.",
+        "id": "funding-f9ea264762c8593293364a58539295d9",
+        "coverage": "whole_institute",
+        "eur_per_year_est": null,
+        "citations": {
+          "kind": [],
+          "amount": [
+            "r5-ca-additional-funding-qp",
+            "r5-ca-ai-for-all"
+          ],
+          "currency": [],
+          "commitment": [],
+          "confidence": [],
+          "funding_source": [],
+          "description": [
+            "r5-ca-additional-funding-qp",
+            "r5-ca-ai-for-all"
+          ],
+          "notes": [
+            "r5-ca-additional-funding-qp",
+            "r5-ca-ai-for-all"
+          ],
+          "id": [],
+          "coverage": [
+            "r5-ca-additional-funding-qp",
+            "r5-ca-ai-for-all"
+          ],
+          "eur_per_year_est": [],
+          "display": [
+            "r5-ca-additional-funding-qp",
+            "r5-ca-ai-for-all"
+          ],
+          "annual_amount": []
+        },
+        "display": {
+          "annual_estimate": false,
+          "value": "CAD 50m",
+          "qualifiers": [
+            "one-off",
+            "announced"
+          ],
+          "native_value": "CAD 50m",
+          "native_qualifiers": [
+            "one-off",
+            "announced"
+          ],
+          "budget_citations": [
+            "r5-ca-additional-funding-qp",
+            "r5-ca-ai-for-all"
+          ]
+        }
+      },
+      {
+        "kind": "multi_year",
+        "amount": 26999545,
+        "currency": "CAD",
+        "years": 5,
+        "period": "2024-25 to 2028-29 (2024-25 and 2025-26 actual spending, later years planned spending)",
+        "description": "Contributions to CIFAR for CAISI's applied and investigator-led research stream, 2024-25 to 2028-29: CAD 2,999,545 actual spending in 2024-25 (funding received in-year, none planned), CAD 6m actual spending in 2025-26 and CAD 6m planned for each later year.",
+        "source_ids": [
+          "ca-ised-dp-2026-27-tpp",
+          "ca-ised-drr-2024-25-tpp",
+          "ca-ised-drr-2025-26-tpp",
+          "ca-ised-dp-2025-26-tpp",
+          "r11-ca-fiscal-year",
+          "ca-cifar-year-of-impact-2026"
+        ],
+        "confidence": "high",
+        "commitment": "announced",
+        "funding_source": "national_government",
+        "annual_basis": "Planned contribution for 2026-27, the fiscal year containing the dataset date, in ISED's 2026-27 Departmental Plan; planned spending, not expenditure. One research stream only.",
+        "annual_basis_code": "allocation_current_year",
+        "annual_profile": [
+          {
+            "start": "2024-04-01",
+            "end": "2025-03-31",
+            "amount": 2999545,
+            "source_ids": [
+              "ca-ised-drr-2024-25-tpp",
+              "r11-ca-fiscal-year"
+            ],
+            "id": "annual_profile-a33b0f9c8ee141ffb043b6d9a2fcb563",
+            "citations": {
+              "start": [
+                "r11-ca-fiscal-year",
+                "ca-ised-drr-2024-25-tpp"
+              ],
+              "end": [
+                "r11-ca-fiscal-year",
+                "ca-ised-drr-2024-25-tpp"
+              ],
+              "amount": [
+                "ca-ised-drr-2024-25-tpp"
+              ],
+              "id": [],
+              "display": [
+                "r11-ca-fiscal-year",
+                "ca-ised-drr-2024-25-tpp"
+              ]
+            }
+          },
+          {
+            "start": "2025-04-01",
+            "end": "2026-03-31",
+            "amount": 6000000,
+            "source_ids": [
+              "ca-ised-drr-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp",
+              "ca-ised-dp-2025-26-tpp",
+              "r11-ca-fiscal-year"
+            ],
+            "id": "annual_profile-4f1a9c2e7b3d46e08a5c1f9d2b7e6a13",
+            "citations": {
+              "start": [
+                "r11-ca-fiscal-year"
+              ],
+              "end": [
+                "r11-ca-fiscal-year"
+              ],
+              "amount": [
+                "ca-ised-dp-2025-26-tpp",
+                "ca-ised-drr-2025-26-tpp",
+                "ca-ised-dp-2026-27-tpp"
+              ],
+              "id": [],
+              "display": [
+                "r11-ca-fiscal-year",
+                "ca-ised-dp-2025-26-tpp",
+                "ca-ised-drr-2025-26-tpp",
+                "ca-ised-dp-2026-27-tpp"
+              ]
+            }
+          },
+          {
+            "start": "2026-04-01",
+            "end": "2027-03-31",
+            "amount": 6000000,
+            "source_ids": [
+              "ca-ised-dp-2026-27-tpp",
+              "ca-ised-dp-2025-26-tpp",
+              "r11-ca-fiscal-year"
+            ],
+            "id": "annual_profile-9e2b7d4a1c6f48b3a0d5e8c2f7a1b964",
+            "citations": {
+              "start": [
+                "r11-ca-fiscal-year"
+              ],
+              "end": [
+                "r11-ca-fiscal-year"
+              ],
+              "amount": [
+                "ca-ised-dp-2025-26-tpp",
+                "ca-ised-dp-2026-27-tpp"
+              ],
+              "id": [],
+              "display": [
+                "r11-ca-fiscal-year",
+                "ca-ised-dp-2025-26-tpp",
+                "ca-ised-dp-2026-27-tpp"
+              ]
+            }
+          },
+          {
+            "start": "2027-04-01",
+            "end": "2028-03-31",
+            "amount": 6000000,
+            "source_ids": [
+              "ca-ised-dp-2026-27-tpp",
+              "ca-ised-dp-2025-26-tpp",
+              "r11-ca-fiscal-year"
+            ],
+            "id": "annual_profile-2c8f5a1e9d3b47c6b1e4a7d0f9c3e582",
+            "citations": {
+              "start": [
+                "r11-ca-fiscal-year"
+              ],
+              "end": [
+                "r11-ca-fiscal-year"
+              ],
+              "amount": [
+                "ca-ised-dp-2025-26-tpp",
+                "ca-ised-dp-2026-27-tpp"
+              ],
+              "id": [],
+              "display": [
+                "r11-ca-fiscal-year",
+                "ca-ised-dp-2025-26-tpp",
+                "ca-ised-dp-2026-27-tpp"
+              ]
+            }
+          },
+          {
+            "start": "2028-04-01",
+            "end": "2029-03-31",
+            "amount": 6000000,
+            "source_ids": [
+              "ca-ised-dp-2026-27-tpp",
+              "r11-ca-fiscal-year"
+            ],
+            "id": "annual_profile-a6cb2b90cb4c464a9be20f9b57f9bf3d",
+            "citations": {
+              "start": [
+                "r11-ca-fiscal-year",
+                "ca-ised-dp-2026-27-tpp"
+              ],
+              "end": [
+                "r11-ca-fiscal-year",
+                "ca-ised-dp-2026-27-tpp"
+              ],
+              "amount": [
+                "ca-ised-dp-2026-27-tpp"
+              ],
+              "id": [],
+              "display": [
+                "r11-ca-fiscal-year",
+                "ca-ised-dp-2026-27-tpp"
+              ]
+            }
+          }
+        ],
+        "notes": "ISED's 2026-27 Departmental Plan lists the CAISI project under the Advanced and Emerging Technology programme with a start of 2024-25 and an end of 2028-29 (CAISI Budget 2024), as does its 2025-26 results report, so this stream sits inside the CAD 50m five-year allocation and is not additional to it. ISED's 2024-25 results report and its 2025-26 Departmental Plan give the start as 2025-26, but the 2024-25 results report also records CAD 2,999,545 of actual spending in 2024-25 against nothing planned, as funding received in-year, and says the stream was launched in November 2024; the record therefore starts in 2024-25. ISED's 2025-26 Departmental Results Report gives CAD 6m as 2025-26 actual spending (authorities used), equal to planned spending. CIFAR reported on 21 January 2026 that the government awarded it CAD 27m through the institute for its AI safety research programme, with no period stated, and that the programme awarded CAD 2.4m in 2025 to 12 projects; both concern this stream and are not added to it.",
+        "coverage": "component",
+        "id": "funding-b61e4d8a2f0c4937a8d5c2e7f1b3a046",
+        "annual_amount": 6000000,
+        "annual_period": {
+          "start": "2026-04-01",
+          "end": "2027-03-31"
+        },
+        "eur_per_year_est": 3800530,
+        "citations": {
+          "kind": [],
+          "amount": [
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "currency": [],
+          "years": [
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "period": [
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-drr-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "description": [
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-drr-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "confidence": [],
+          "commitment": [
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "funding_source": [],
+          "annual_basis": [
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "annual_basis_code": [],
+          "annual_profile": [
+            "r11-ca-fiscal-year",
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-drr-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "notes": [
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-drr-2025-26-tpp",
+            "ca-cifar-year-of-impact-2026",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "coverage": [
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "id": [],
+          "annual_amount": [
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "annual_period": [
+            "r11-ca-fiscal-year"
+          ],
+          "eur_per_year_est": [
+            "eu-ecb-exchange-rates-2025",
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ],
+          "display": [
+            "eu-ecb-exchange-rates-2025",
+            "r11-ca-fiscal-year",
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-drr-2025-26-tpp",
+            "ca-cifar-year-of-impact-2026",
+            "ca-ised-dp-2026-27-tpp"
+          ]
+        },
+        "display": {
+          "annual_estimate": true,
+          "value": "~CAD 27m",
+          "qualifiers": [
+            "multi-year",
+            "2024-25 to 2028-29 (2024-25 and 2025-26 actual spending, later years planned spending)",
+            "announced"
+          ],
+          "native_value": "~CAD 27m",
+          "native_qualifiers": [
+            "multi-year",
+            "2024-25 to 2028-29 (2024-25 and 2025-26 actual spending, later years planned spending)",
+            "announced"
+          ],
+          "budget_citations": [
+            "ca-ised-dp-2025-26-tpp",
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-drr-2025-26-tpp",
+            "ca-ised-dp-2026-27-tpp"
+          ]
+        }
+      }
+    ],
+    "check": {
+      "last_checked": "2026-10-16",
+      "method": "individual",
+      "partial": [
+        {
+          "date": "2026-10-17",
+          "scope": "Outputs, agreements, funding, leadership and decisive-source evidence audit; not a full recheck of every record field."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Attempted preservation of cited source copies and checked saved-copy hashes; failures remain in source access notes. This source-evidence work is not a full factual recheck of the record."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Verified newly added funding or leadership evidence, preserving source scope and date limits. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Rechecked institutional output credit against the original publication and dated listing. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-17",
+          "scope": "Rechecked the distinction between access pledges, named implementing roles and historical agreements whose current terms were not retrieved. This is a partial check, not a full record recheck."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Funding scope classification and Budget selection review; full institute check date unchanged."
+        },
+        {
+          "date": "2026-10-19",
+          "scope": "Added retained primary quotations for the office, departmental placement and short mandate. This was a partial evidence check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Leadership checked against official sources and newer-appointment searches from the 20 October evidence review; name and title unchanged. The retained confirmation is historical, not confirmation of tenure on the check date."
+        },
+        {
+          "date": "2026-10-20",
+          "scope": "Head source eligibility and national partner relations and descriptions reviewed; host wording shortened where applicable. Partial row check only."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Agreements rechecked; the July 2026 memorandum with the Korea AI Safety Institute added. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Dated funding and staff searches (search-log run); added the planned CIFAR research-stream contributions. Funding only, not a full re-check."
+        },
+        {
+          "date": "2026-10-24",
+          "scope": "Post-release re-check of the institute page, ISED and NRC news, CIFAR and aisafety.ca: nothing new. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-07",
+          "scope": "News re-check since 24 October 2026: the ISED institute page, ISED news, the Prime Minister's Cohere release of 29 October, the Canada-EU summit statements of 30 October, the Digital Partnership Council statement of December 2025, the aisafety.ca and CIFAR items and the National Research Council's AI safety page. Testing capacity now records the National Research Council as testing through the institute. Left for review: Cohere's commitment of 29 October to keep working with the institute, the December 2025 Canada-EU intent to deepen engagement between the institute and the EU AI Office, and the period of CIFAR's CAD 27m. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-08",
+          "scope": "Staff and budget pass of 7 November 2026: re-read ISED's 2025-26 results tables (the CIFAR stream's 2025-26 outturn added to the funding notes; the duplicated year header affects only the other actual-spending column, not used) and CIFAR's report of 21 January 2026 (CAD 27m award and CAD 2.4m of 2025 grants added to the notes, not to the amount). Funding only, not a full record re-check."
+        },
+        {
+          "date": "2026-11-08",
+          "scope": "Staff and budget pass of 7 November 2026: ISED's 2026-27 Departmental Plan re-read; the CIFAR stream now runs 2025-26 to 2028-29 (CAD 6m forecast for 2025-26 and CAD 6m planned for each later year) and the stream's start year is corrected to 2024-25. Funding only, not a full record re-check."
+        },
+        {
+          "date": "2026-11-08",
+          "scope": "Added ISED's 2024-25 results report for the CIFAR research stream's 2024-25 actual spending; funding only, not a full re-check."
+        },
+        {
+          "date": "2026-11-09",
+          "scope": "Post-release news re-check from 6 November 2026: ISED's institute page and media room, the research programme's newsroom (three features of 6 November on funded research networks), CIFAR news and NRC stories. No institute output, funding, staff or agreement change. Left for review: whether a funded network's testing counts as testing for the institute. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-10",
+          "scope": "Post-release news re-check from 8 November 2026: the institute page (newest linked blog 8 July), ISED's media room (9 November), NRC news (14 October; NRC stories only to June), CIFAR (newest linked AI safety news 28 March) and the research programme newsroom (6 November), and Canada's endorsement of the Paris Call of 9 November, which gives the institute no role. Nothing new. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-13",
+          "scope": "Post-release news re-check from 10 November 2026: the institute page (newest linked blog 8 July), ISED's media room (9 November), CIFAR news (16 September) and its programme page, and the research programme newsroom (6 November). No update was found in the material checked. NRC news could be read only to 11 June, the CIFAR and ISED listings returned were stale, and unlisted publications may exist. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-14",
+          "scope": "Sources checked for developments from 13 November 2026: the institute page (its linked blog dated 8 July), the research programme's newsroom (news 6 November, insights 28 October), CIFAR's two news listings (16 September and 8 June) and the Government of Canada's news results (9 October). No new institute fact was found. NRC's stories listing was stale (newest 11 June) and its news page returned an empty table; ISED's media room returned no news list. The stale ISED, CIFAR and NRC listings leave coverage incomplete. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-20",
+          "scope": "Sources checked for developments from 14 November 2026: the institute's page (newest blog 8 July), CIFAR's programme page and news (16 September), the research programme's newsroom (6 November), ISED's media room (no dated releases returned), and the NRC's stories (28 October) and news (14 October). No new institute item was found. The Korea-Canada summit statement of 19 November names neither country's institute. The ISED and NRC listings were stale, so coverage is incomplete. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-23",
+          "scope": "Post-release news re-check from 20 November 2026: the institute's ISED page, the CAISI Research Program site and newsroom (newest 6 November) and CIFAR news. No new institute item. ISED's media room and NRC news could not be read on any route. Partial check, not a full record re-check."
+        },
+        {
+          "date": "2026-11-25",
+          "scope": "Post-release news re-check from 23 November 2026: the institute page (newest blog 8 July), the research programme's newsroom (18 November), CIFAR news (12 November) and ISED's news through the Canada.ca news search (24 November). No new institute item was found. NRC's news could not be read as a current listing. Partial check, not a full record re-check."
+        }
+      ],
+      "last_checked_basis": "historical_upper_bound",
+      "functions": {
+        "date": "2026-11-14",
+        "codes": [
+          "model_testing",
+          "evaluation_methods",
+          "research",
+          "standards_guidance",
+          "regulatory_enforcement",
+          "regulatory_support",
+          "risk_monitoring",
+          "foresight",
+          "policy_advice",
+          "incident_response",
+          "international_cooperation",
+          "convening",
+          "capacity_building",
+          "talent",
+          "adoption",
+          "public_access_continuity",
+          "certification",
+          "sandbox"
+        ]
+      }
+    },
+    "source_ids": [
+      "ca-launch",
+      "ca-budget",
+      "ca-cifar",
+      "ca-ised",
+      "ca-cifar-call-2025",
+      "depth-ca-au-mou",
+      "depth-ca-community",
+      "depth-ca-newsroom",
+      "catalogue-ca-review-pdf",
+      "catalogue-ca-agenda",
+      "ca-qp-caisi-2025",
+      "ca-cohere-2025",
+      "network-2025",
+      "network-nist-2026",
+      "network-multilingual-2025",
+      "catalogue-agentic-report",
+      "gb-joint-testing",
+      "ca-caisi-srsr-briefing",
+      "rows-what-ca-nrc",
+      "rows-what-ca-mila",
+      "rows-what-ca-vector",
+      "rows-what-ca-amii",
+      "ca-cse-annual-en",
+      "ca-cse-annual-fr",
+      "ca-ised-dp-2025-26-tpp",
+      "r11-ca-fiscal-year",
+      "ca-nrc-ai-safety",
+      "r5-ca-ai-for-all",
+      "ca-uk-alignment-2025",
+      "ca-kr-mou-2026"
+    ],
+    "mandate_short": "Researches risks from advanced artificial intelligence and ways to reduce them.",
+    "legal_basis": {
+      "type": "ministerial_act",
+      "state": "in_force",
+      "source_ids": [
+        "ca-launch",
+        "ca-qp-caisi-2025"
+      ],
+      "citations": {
+        "type": [
+          "ca-launch"
+        ],
+        "state": [
+          "ca-launch"
+        ],
+        "display": [
+          "ca-launch"
+        ]
+      }
+    },
+    "placement": {
+      "host_type": "ministry",
+      "source_ids": [
+        "ca-launch",
+        "ca-qp-caisi-2025"
+      ],
+      "citations": {
+        "host_type": [
+          "ca-launch"
+        ],
+        "display": [
+          "ca-launch"
+        ]
+      }
+    },
+    "name_local": "Institut canadien de la sécurité de l'intelligence artificielle",
+    "agreements": [
+      {
+        "state": "announced",
+        "date": "2025-06-15",
+        "scope": "Government MOU with Cohere, announced on 15 June 2025, to deepen understanding of AI risks and their evaluation and mitigation. The joint government statement names CAISI as collaborator; ISED's briefing for a February 2026 appearance says CAISI concluded the MOU in June 2025. No signed institute document was retrieved, so the recorded role is named implementer and the state remains announced.",
+        "source_ids": [
+          "ca-cohere-2025",
+          "ca-qp-caisi-2025",
+          "ca-caisi-srsr-briefing",
+          "gb-ca-joint-statement-2025"
+        ],
+        "counterparty_type": "developer",
+        "counterparty": "Cohere",
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-8ef36eb7d4595fc3a1d19c9e0e97c36a",
+        "citations": {
+          "state": [
+            "gb-ca-joint-statement-2025",
+            "ca-caisi-srsr-briefing"
+          ],
+          "date": [
+            "gb-ca-joint-statement-2025"
+          ],
+          "scope": [
+            "ca-caisi-srsr-briefing"
+          ],
+          "counterparty_type": [],
+          "counterparty": [
+            "ca-caisi-srsr-briefing"
+          ],
+          "participation": [
+            "gb-ca-joint-statement-2025",
+            "ca-caisi-srsr-briefing"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "gb-ca-joint-statement-2025",
+            "ca-caisi-srsr-briefing"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "government",
+        "counterparty": "Australian Department of Industry, Science and Resources, for the Australian AI Safety Institute",
+        "state": "signed",
+        "date": "2026-02-20",
+        "scope": "MOU signed in New Delhi for technical cooperation, information exchange, measurement science, synthetic-content research and talent exchanges between the institutes.",
+        "source_ids": [
+          "depth-ca-au-mou"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-d5bc534826ee5014a76f045d50822a08",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "depth-ca-au-mou"
+          ],
+          "state": [
+            "depth-ca-au-mou"
+          ],
+          "date": [
+            "depth-ca-au-mou"
+          ],
+          "scope": [
+            "depth-ca-au-mou"
+          ],
+          "participation": [
+            "depth-ca-au-mou"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "depth-ca-au-mou"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "institute",
+        "counterparty": "UK AI Security Institute",
+        "state": "signed",
+        "date": "2025-07",
+        "scope": "Partnership signed in July 2025: CAISI will contribute CAD 1m through CIFAR to the UK AI Security Institute's Alignment Project. The contribution was announced on 30 July; the signing day is not stated.",
+        "source_ids": [
+          "ca-qp-caisi-2025",
+          "ca-uk-alignment-2025"
+        ],
+        "participation": "institute_party",
+        "domestic_interagency": false,
+        "peer_institute_id": "gb-aisi",
+        "id": "agreements-dd408de818c75a0da2b99614b479409c",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "ca-qp-caisi-2025"
+          ],
+          "state": [
+            "ca-qp-caisi-2025"
+          ],
+          "date": [
+            "ca-qp-caisi-2025"
+          ],
+          "scope": [
+            "ca-qp-caisi-2025",
+            "ca-uk-alignment-2025"
+          ],
+          "participation": [
+            "ca-qp-caisi-2025"
+          ],
+          "domestic_interagency": [],
+          "peer_institute_id": [],
+          "id": [],
+          "display": [
+            "ca-qp-caisi-2025",
+            "ca-uk-alignment-2025"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "government",
+        "counterparty": "UK Government, for the UK AI Safety Institute",
+        "state": "announced",
+        "date": "2024-05-20",
+        "scope": "Announced intent to collaborate through the two AI Safety Institutes on testing, evaluations, expertise, exchanges and compute resources; the partners were working towards an MOU. The statement names a prospective Canadian AISI, with further details to follow. Announced by the UK government counterparty.",
+        "source_ids": [
+          "gb-ca-partnership-2024"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-c7195434081e55feab9711e8daa013ff",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "gb-ca-partnership-2024"
+          ],
+          "state": [
+            "gb-ca-partnership-2024"
+          ],
+          "date": [
+            "gb-ca-partnership-2024"
+          ],
+          "scope": [
+            "gb-ca-partnership-2024"
+          ],
+          "participation": [
+            "gb-ca-partnership-2024"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "display": [
+            "gb-ca-partnership-2024"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "government",
+        "counterparty": "UK Government, for the UK AI Security Institute",
+        "state": "announced",
+        "date": "2026-10-13",
+        "scope": "Renewed partnership committing the institutes to cooperation on frontier AI risks, evaluations and safeguards, including information sharing and exploring staff exchanges and coordinated evaluations.",
+        "source_ids": [
+          "r3-ca-uk-renewal-domestic",
+          "gb-ca-renewal-2026"
+        ],
+        "participation": "named_implementer",
+        "domestic_interagency": false,
+        "id": "agreements-8b43e005f085573a92243e7ef94a1427",
+        "news": "The two governments renew their AI security partnership, recommitting their institutes to cooperate on frontier AI risks and evaluation.",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "gb-ca-renewal-2026"
+          ],
+          "state": [
+            "gb-ca-renewal-2026"
+          ],
+          "date": [
+            "gb-ca-renewal-2026"
+          ],
+          "scope": [
+            "gb-ca-renewal-2026",
+            "r3-ca-uk-renewal-domestic"
+          ],
+          "participation": [
+            "gb-ca-renewal-2026"
+          ],
+          "domestic_interagency": [],
+          "id": [],
+          "news": [
+            "gb-ca-renewal-2026"
+          ],
+          "display": [
+            "gb-ca-renewal-2026",
+            "r3-ca-uk-renewal-domestic"
+          ]
+        }
+      },
+      {
+        "counterparty_type": "institute",
+        "counterparty": "Korea AI Safety Institute",
+        "state": "signed",
+        "date": "2026-07-08",
+        "scope": "Memorandum of understanding between the two institutes to exchange information on AI risks, methods, tools and evaluations, support interoperable guidelines and standards for evaluating frontier AI, and hold regular consultations.",
+        "source_ids": [
+          "ca-kr-mou-2026"
+        ],
+        "participation": "institute_party",
+        "domestic_interagency": false,
+        "peer_institute_id": "kr-aisi",
+        "id": "agreements-98e55099d0ff5b20895ad87dbf2c59a0",
+        "citations": {
+          "counterparty_type": [],
+          "counterparty": [
+            "ca-kr-mou-2026"
+          ],
+          "state": [
+            "ca-kr-mou-2026"
+          ],
+          "date": [
+            "ca-kr-mou-2026"
+          ],
+          "scope": [
+            "ca-kr-mou-2026"
+          ],
+          "participation": [
+            "ca-kr-mou-2026"
+          ],
+          "domestic_interagency": [],
+          "peer_institute_id": [],
+          "id": [],
+          "display": [
+            "ca-kr-mou-2026"
+          ]
+        }
+      }
+    ],
+    "wikidata": "Q139585166",
+    "identifier_source_ids": [
+      "wikidata-ca-caisi-identifier"
+    ],
+    "people": [
+      {
+        "name": "Alexandra Dostal",
+        "role": "Executive Director, Canadian AI Safety Institute",
+        "source_ids": [
+          "depth-ca-au-mou",
+          "ca-ised-transition-book-2025"
+        ],
+        "confidence": "high",
+        "title_status": "published",
+        "id": "people-e51819a0b781512099c82d5c0352b7c9",
+        "background": "Dostal is also Senior Assistant Deputy Minister, Strategic Policy Sector, at ISED, a post held since September 2024, and earlier held posts at Fisheries and Oceans Canada, the Treasury Board Secretariat, Finance Canada and Global Affairs Canada.",
+        "citations": {
+          "name": [
+            "depth-ca-au-mou"
+          ],
+          "role": [
+            "depth-ca-au-mou"
+          ],
+          "confidence": [],
+          "title_status": [],
+          "id": [],
+          "background": [
+            "depth-ca-au-mou",
+            "ca-ised-transition-book-2025"
+          ],
+          "display": [
+            "depth-ca-au-mou",
+            "ca-ised-transition-book-2025"
+          ]
+        }
+      },
+      {
+        "name": "Nicolas Papernot",
+        "role": "Co-Director, Canadian AI Safety Institute Research Program (CAISI) at CIFAR",
+        "since": "2024-12-12",
+        "source_ids": [
+          "depth-ca-community",
+          "depth-ca-newsroom"
+        ],
+        "confidence": "high",
+        "title_status": "published",
+        "id": "people-398cbfa2764d5b16ab2e0c6c29648e01",
+        "citations": {
+          "name": [
+            "depth-ca-community",
+            "depth-ca-newsroom"
+          ],
+          "role": [
+            "depth-ca-community",
+            "depth-ca-newsroom"
+          ],
+          "since": [
+            "depth-ca-newsroom"
+          ],
+          "confidence": [],
+          "title_status": [],
+          "id": [],
+          "display": [
+            "depth-ca-community",
+            "depth-ca-newsroom"
+          ]
+        }
+      },
+      {
+        "name": "Catherine Régis",
+        "role": "Co-Director, Canadian AI Safety Institute Research Program (CAISI) at CIFAR",
+        "since": "2024-12-12",
+        "source_ids": [
+          "depth-ca-community",
+          "depth-ca-newsroom"
+        ],
+        "confidence": "high",
+        "title_status": "published",
+        "id": "people-8c6012f34cb05221b278bf84f13d7415",
+        "citations": {
+          "name": [
+            "depth-ca-community",
+            "depth-ca-newsroom"
+          ],
+          "role": [
+            "depth-ca-community",
+            "depth-ca-newsroom"
+          ],
+          "since": [
+            "depth-ca-newsroom"
+          ],
+          "confidence": [],
+          "title_status": [],
+          "id": [],
+          "display": [
+            "depth-ca-community",
+            "depth-ca-newsroom"
+          ]
+        }
+      }
+    ],
+    "outputs": [
+      {
+        "date": "2025-02-10",
+        "type": "joint_testing",
+        "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+        "source_ids": [
+          "ca-qp-caisi-2025",
+          "network-multilingual-2025",
+          "fix-output-network-multilingual-arxiv",
+          "jp-joint-2025",
+          "r3-jp-activity-index",
+          "fix-output-sg-multilingual-summary",
+          "r5-sg-multilingual-full-report-page"
+        ],
+        "lineage": "network-multilingual-2025",
+        "attribution": "named_contributor",
+        "attribution_note": "The full report explicitly credits Canada AISI. Credit begins with its retrieved 26 June 2025 publication listing. The earlier February summary does not name Canada AISI; Canada's retrospective briefing mentions multilingual participation and February testing results without naming this report, so it does not establish earlier credit for this lineage.",
+        "qualifies_as": "joint_testing",
+        "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report. Use the recorded credit date, not an earlier version without established institute credit.",
+        "credit": {
+          "institute_id": "ca-caisi",
+          "date": "2025-06-26"
+        },
+        "functions": [
+          "model_testing",
+          "international_cooperation"
+        ],
+        "credited_from": "2025-06-26",
+        "citations": {
+          "date": [
+            "fix-output-sg-multilingual-summary"
+          ],
+          "type": [],
+          "title": [
+            "network-multilingual-2025"
+          ],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "network-multilingual-2025",
+            "ca-qp-caisi-2025"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "functions": [],
+          "credited_from": [],
+          "display": [
+            "network-multilingual-2025",
+            "ca-qp-caisi-2025",
+            "fix-output-sg-multilingual-summary",
+            "r5-sg-multilingual-full-report-page"
+          ]
+        }
+      },
+      {
+        "date": "2025-07",
+        "type": "report",
+        "title": "Research Agenda on Risks from Synthetic Content",
+        "source_ids": [
+          "catalogue-ca-agenda",
+          "ca-qp-caisi-2025"
+        ],
+        "lineage": "synthetic-content-research-agenda",
+        "attribution": "institutional_author",
+        "attribution_note": "Canada's official parliamentary briefing explicitly states that CAISI co-led and published the Network's Synthetic Content Research Agenda in July 2025.",
+        "qualifies_as": "none",
+        "qualification_note": "Network research agenda setting future priorities, not a technical report or testing result.",
+        "credit": {
+          "institute_id": "ca-caisi",
+          "date": "2025-07"
+        },
+        "citations": {
+          "date": [
+            "ca-qp-caisi-2025"
+          ],
+          "type": [],
+          "title": [
+            "catalogue-ca-agenda"
+          ],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "ca-qp-caisi-2025"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "ca-qp-caisi-2025"
+          ],
+          "display": [
+            "ca-qp-caisi-2025",
+            "catalogue-ca-agenda"
+          ]
+        }
+      },
+      {
+        "date": "2025-07-17",
+        "type": "joint_testing",
+        "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+        "source_ids": [
+          "catalogue-agentic-report",
+          "gb-joint-testing",
+          "fix-output-network-agentic-arxiv",
+          "depth-gb-blog"
+        ],
+        "lineage": "network-agentic-2025",
+        "attribution": "named_contributor",
+        "attribution_note": "The original report names the institute as a contributing organisation or, for the EU AI Office, as a participant running cybersecurity evaluations. Documented in the international network report.",
+        "qualifies_as": "joint_testing",
+        "qualification_note": "The cited exercise names the institute as a testing participant. Classified as joint testing even when the institute also authored the report.",
+        "credit": {
+          "institute_id": "ca-caisi",
+          "date": "2025-07-17"
+        },
+        "citations": {
+          "date": [
+            "depth-gb-blog"
+          ],
+          "type": [],
+          "title": [
+            "fix-output-network-agentic-arxiv"
+          ],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "catalogue-agentic-report"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "catalogue-agentic-report",
+            "depth-gb-blog"
+          ],
+          "display": [
+            "catalogue-agentic-report",
+            "depth-gb-blog",
+            "fix-output-network-agentic-arxiv"
+          ]
+        }
+      },
+      {
+        "title": "What information should AI evaluators share?",
+        "date": "2026-07-08",
+        "type": "guidance",
+        "source_ids": [
+          "fix-output-ca-caisi-evaluation-reporting-guidance",
+          "ca-ised"
+        ],
+        "lineage": "evaluation-reporting-guidance",
+        "attribution": "institutional_author",
+        "attribution_note": "CAISI's named official page calls this its own first blog post and links the full original guidance in its institute section. That institutional self-credit supports authorship; the generic host domain alone is insufficient.",
+        "qualifies_as": "none",
+        "qualification_note": "Substantive guidance remains in the publication catalogue but does not itself report a qualifying evaluation, test result, benchmark or technical research result.",
+        "credit": {
+          "institute_id": "ca-caisi",
+          "date": "2026-07-08"
+        },
+        "functions": [
+          "evaluation_methods"
+        ],
+        "citations": {
+          "title": [
+            "fix-output-ca-caisi-evaluation-reporting-guidance"
+          ],
+          "date": [
+            "ca-ised"
+          ],
+          "type": [],
+          "lineage": [],
+          "attribution": [],
+          "attribution_note": [
+            "ca-ised",
+            "fix-output-ca-caisi-evaluation-reporting-guidance"
+          ],
+          "qualifies_as": [],
+          "qualification_note": [],
+          "credit": [
+            "ca-ised"
+          ],
+          "functions": [],
+          "display": [
+            "ca-ised",
+            "fix-output-ca-caisi-evaluation-reporting-guidance"
+          ]
+        }
+      }
+    ],
+    "notes": "Research is also funded through CIFAR and NRC.",
+    "head": {
+      "state": "stated",
+      "person_id": "people-e51819a0b781512099c82d5c0352b7c9",
+      "source_ids": [
+        "depth-ca-au-mou"
+      ],
+      "citations": {
+        "state": [],
+        "person_id": [
+          "depth-ca-au-mou"
+        ],
+        "display": [
+          "depth-ca-au-mou"
+        ]
+      }
+    },
+    "reports_to": {
+      "state": "stated",
+      "name": "Innovation, Science and Economic Development Canada",
+      "source_ids": [
+        "ca-ised",
+        "ca-launch"
+      ],
+      "citations": {
+        "state": [],
+        "name": [
+          "ca-launch",
+          "ca-ised"
+        ],
+        "display": [
+          "ca-launch",
+          "ca-ised"
+        ]
+      }
+    },
+    "national_partners": {
+      "state": "stated",
+      "entries": [
+        {
+          "id": "np-ca-nrc",
+          "name": "National Research Council of Canada",
+          "acronym": "NRC",
+          "what": "federal research organisation",
+          "relation": "works_with",
+          "how": "Implements the institute's government-directed projects through a research programme on national priorities like cybersecurity and security.",
+          "source_ids": [
+            "ca-launch",
+            "ca-cifar",
+            "rows-what-ca-nrc"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "ca-launch",
+              "ca-cifar"
+            ],
+            "acronym": [],
+            "what": [
+              "rows-what-ca-nrc"
+            ],
+            "relation": [
+              "ca-launch",
+              "ca-cifar"
+            ],
+            "how": [
+              "ca-launch",
+              "ca-cifar"
+            ],
+            "display": [
+              "ca-launch",
+              "ca-cifar",
+              "rows-what-ca-nrc"
+            ]
+          }
+        },
+        {
+          "id": "np-ca-cifar",
+          "name": "Canadian Institute for Advanced Research",
+          "acronym": "CIFAR",
+          "what": "research institute",
+          "relation": "works_with",
+          "how": "Hosts the CAISI Research Program, which is one component of the institute.",
+          "source_ids": [
+            "ca-cifar",
+            "ca-launch"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "ca-launch",
+              "ca-cifar"
+            ],
+            "acronym": [],
+            "what": [
+              "ca-launch"
+            ],
+            "relation": [
+              "ca-launch",
+              "ca-cifar"
+            ],
+            "how": [
+              "ca-launch",
+              "ca-cifar"
+            ],
+            "display": [
+              "ca-launch",
+              "ca-cifar"
+            ]
+          }
+        },
+        {
+          "id": "np-ca-mila",
+          "name": "Mila - Quebec Artificial Intelligence Institute",
+          "acronym": "Mila",
+          "what": "national AI institute",
+          "relation": "works_with",
+          "how": "Is listed among the institute's partners.",
+          "source_ids": [
+            "ca-ised",
+            "rows-what-ca-mila"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "ca-ised"
+            ],
+            "acronym": [],
+            "what": [
+              "rows-what-ca-mila"
+            ],
+            "relation": [
+              "ca-ised"
+            ],
+            "how": [
+              "ca-ised"
+            ],
+            "display": [
+              "ca-ised",
+              "rows-what-ca-mila"
+            ]
+          }
+        },
+        {
+          "id": "np-ca-vector",
+          "name": "Vector Institute",
+          "acronym": "Vector",
+          "what": "national AI institute",
+          "relation": "works_with",
+          "how": "Is listed among the institute's partners.",
+          "source_ids": [
+            "ca-ised",
+            "rows-what-ca-vector"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "ca-ised"
+            ],
+            "acronym": [],
+            "what": [
+              "rows-what-ca-vector"
+            ],
+            "relation": [
+              "ca-ised"
+            ],
+            "how": [
+              "ca-ised"
+            ],
+            "display": [
+              "ca-ised",
+              "rows-what-ca-vector"
+            ]
+          }
+        },
+        {
+          "id": "np-ca-amii",
+          "name": "Alberta Machine Intelligence Institute",
+          "acronym": "Amii",
+          "what": "national AI institute",
+          "relation": "works_with",
+          "how": "Is listed among the institute's partners.",
+          "source_ids": [
+            "ca-ised",
+            "rows-what-ca-amii"
+          ],
+          "citations": {
+            "id": [],
+            "name": [
+              "ca-ised"
+            ],
+            "acronym": [],
+            "what": [
+              "rows-what-ca-amii"
+            ],
+            "relation": [
+              "ca-ised"
+            ],
+            "how": [
+              "ca-ised"
+            ],
+            "display": [
+              "ca-ised",
+              "rows-what-ca-amii"
+            ]
+          }
+        },
+        {
+          "id": "np-ca-cse",
+          "name": "Communications Security Establishment Canada",
+          "what": "national cryptologic and cyber security agency",
+          "relation": "works_with",
+          "how": "Provided strategic direction on the institute's plans, priorities and research projects in 2024–25.",
+          "source_ids": [
+            "ca-cse-annual-en",
+            "ca-cse-annual-fr"
+          ],
+          "acronym": "CSE",
+          "cyber_agency": true,
+          "citations": {
+            "id": [],
+            "name": [
+              "ca-cse-annual-en"
+            ],
+            "what": [
+              "ca-cse-annual-en"
+            ],
+            "relation": [
+              "ca-cse-annual-en",
+              "ca-cse-annual-fr"
+            ],
+            "how": [
+              "ca-cse-annual-en",
+              "ca-cse-annual-fr"
+            ],
+            "acronym": [],
+            "cyber_agency": [
+              "ca-cse-annual-en"
+            ],
+            "display": [
+              "ca-cse-annual-en",
+              "ca-cse-annual-fr"
+            ]
+          }
+        }
+      ],
+      "notes": "Cyber agency searched: Canadian Centre for Cyber Security (CCCS) and its parent Communications Security Establishment Canada (CSE), 2026-10-20 (en, fr). The CSE annual report names strategic direction for CAISI; no separate CCCS cooperation was found in its English or French about pages or targeted searches."
+    },
+    "testing_capacity": {
+      "notes": "Function statement, not counted as testing: 'We conduct projects supporting the government's priorities on AI safety, including joint testing with international counterparts' (ISED institute page). ISED says the institute 'directly conducts projects supporting the Government's priorities on AI safety through the National Research Council', a stream 'implemented through a Memorandum of Understanding (MOU) with the National Research Council (NRC)'. The National Research Council says its researchers took part in a joint testing exercise through the institute, evaluating AI agents and how well AI prevents harmful content in nine languages. No headcount or technical staff is published. Joint network testing reported, 2025-06-26 (multilingual exercise) and 2025-07-17 (agentic exercise); the multilingual report's Cantonese section, contributed by Canada AISI, says 'Our evaluation involved testing the two models using a translated subset of the original datasets', and the agentic report credits Canada with analysis. The renewed UK-Canada partnership of 13 October 2026 mentions 'exploring staff exchanges and coordinated evaluation activities'. The national AI strategy says Canada will invest $50 million to expand the institute's capabilities, including to conduct transparent evaluations of AI models.",
+      "source_ids": [
+        "r5-ca-ai-for-all",
+        "ca-ised",
+        "r5-ca-additional-funding-qp",
+        "ca-qp-caisi-2025",
+        "network-multilingual-2025",
+        "catalogue-agentic-report",
+        "gb-ca-renewal-2026",
+        "ca-nrc-ai-safety"
+      ],
+      "modes": [
+        {
+          "code": "via_other_bodies",
+          "source_ids": [
+            "ca-nrc-ai-safety"
+          ],
+          "named_as": "Canadian Artificial Intelligence Safety Institute",
+          "citations": {
+            "code": [
+              "ca-nrc-ai-safety"
+            ],
+            "named_as": [],
+            "display": [
+              "ca-nrc-ai-safety"
+            ]
+          }
+        }
+      ],
+      "citations": {
+        "notes": [
+          "r5-ca-ai-for-all",
+          "ca-nrc-ai-safety"
+        ],
+        "modes": [
+          "ca-nrc-ai-safety"
+        ],
+        "display": [
+          "r5-ca-ai-for-all",
+          "ca-nrc-ai-safety"
+        ]
+      }
+    },
+    "model_access": {
+      "notes": "No access event, legal power or agreement providing for access to, or evaluation of, the models of a developer that has a model in Epoch AI's frontier set was found. Under the Cohere MOU of June 2025 'Cohere will collaborate with the Canadian AI Safety Institute'; no access term was retrieved, and Cohere has no model in Epoch AI's frontier set. No statute gives the institute access powers.",
+      "source_ids": [
+        "gb-ca-joint-statement-2025",
+        "epoch-frontier-models"
+      ],
+      "searches": [
+        {
+          "date": "2026-10-21",
+          "query": "Epoch AI frontier and notable models: criterion text, the frontier flag of every model named in the access evidence, and the leading-developer test for each event's developer at its date",
+          "language": "en",
+          "sources_read": [
+            "https://epoch.ai/data/ai-models",
+            "https://epoch.ai/data/ai-models-documentation",
+            "https://epoch.ai/data/all_ai_models.csv",
+            "https://epoch.ai/data/frontier_ai_models.csv",
+            "https://epoch.ai/data/notable_ai_models.csv"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Recorded sources re-read for: test, evaluat, in-house, access, pre-deployment, Cohere",
+          "language": "en",
+          "sources_read": [
+            "https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/canada-launches-canadian-artificial-intelligence-safety-institute.html",
+            "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+            "https://search.open.canada.ca/qpnotes/record/ic,AIDI-2026-QP-00001",
+            "https://ised-isde.canada.ca/site/ised/en/parliamentary-committee-briefing-materials/minister-solomons-appearance-standing-committee-science-and-research-srsr-mandate",
+            "https://cohere.com/blog/canada-uk-government-partnerships",
+            "https://report.buildingsafeai.ca/caisi-2025-year-in-review",
+            "https://cifar.ca/ai/caisi/",
+            "https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all",
+            "https://search.open.canada.ca/qpnotes/record/ic,AIDI-2026-QP-00004",
+            "https://www.gov.uk/government/news/joint-statement-between-the-prime-minister-of-the-united-kingdom-and-the-prime-minister-of-canada",
+            "https://www.gov.uk/government/publications/uk-canada-science-of-ai-safety-partnership/uk-canada-science-of-ai-safety-partnership",
+            "https://www.gov.uk/government/news/uk-canada-renewed-ai-security-partnership",
+            "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+            "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Live re-check of https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+          "language": "en",
+          "sources_read": [
+            "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute"
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "query": "Canada Cohere memorandum of understanding June 2025 Canadian AI Safety Institute \"Cohere\" statement ISED",
+          "language": "en",
+          "sources_read": [
+            "search result list only: betakit.com, canada.ca 2025/08 Cohere release (public-service deployment MOU, not CAISI), search.open.canada.ca QP note"
+          ]
+        }
+      ],
+      "value": "none_found",
+      "citations": {
+        "notes": [],
+        "searches": [],
+        "value": [],
+        "display": []
+      }
+    },
+    "staffing_model": {
+      "code": "core_with_partners",
+      "source_ids": [
+        "ca-caisi-srsr-briefing"
+      ],
+      "notes": "The office in ISED leads policy coordination and international engagement; research runs through an investigator-led stream funded through CIFAR and government-directed projects at the National Research Council.",
+      "citations": {
+        "code": [
+          "ca-caisi-srsr-briefing"
+        ],
+        "notes": [],
+        "display": [
+          "ca-caisi-srsr-briefing"
+        ]
+      }
+    },
+    "claims": [
+      {
+        "id": "claims-011aed607ef34dc2a65b68ef6fc62095",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "mandate",
+        "text": "Canada will invest $50 million to expand the institute's capabilities to conduct transparent evaluations of AI models.",
+        "source_ids": [
+          "r5-ca-ai-for-all"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "r5-ca-ai-for-all"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "r5-ca-ai-for-all"
+          ]
+        }
+      },
+      {
+        "id": "claims-245b002026c242a8ab07de33f41e19a9",
+        "kind": "function",
+        "code": "model_testing",
+        "basis": "activity",
+        "text": "Tested two models on a translated subset of the original datasets in the network's joint multilingual testing exercise.",
+        "source_ids": [
+          "network-multilingual-2025"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "network-multilingual-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "network-multilingual-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-d286d5a1123d4fb4abdc1ed5e1cdf157",
+        "kind": "function",
+        "code": "risk_monitoring",
+        "basis": "mandate",
+        "text": "Canada will invest $50 million to expand the institute's capabilities to track emerging AI risks.",
+        "source_ids": [
+          "r5-ca-ai-for-all"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "r5-ca-ai-for-all"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "r5-ca-ai-for-all"
+          ]
+        }
+      },
+      {
+        "id": "claims-8e1176a760f640f49fbb87fec5a33d24",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "mandate",
+        "text": "Is to collaborate with safety institutes in other jurisdictions as part of the International Network of AI Safety Institutes.",
+        "source_ids": [
+          "ca-launch"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "ca-launch"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "ca-launch"
+          ]
+        }
+      },
+      {
+        "id": "claims-925c4fe0370a4c4bab32d1e90083f6ce",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "activity",
+        "text": "With the Korean AI Safety Institute, it signed a memorandum of understanding to strengthen international cooperation on AI safety.",
+        "source_ids": [
+          "ca-kr-mou-2026"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-24",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "ca-kr-mou-2026"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "ca-kr-mou-2026"
+          ]
+        }
+      },
+      {
+        "id": "claims-6163465b322d421a93bd0e7e1ee3b71e",
+        "kind": "function",
+        "code": "international_cooperation",
+        "basis": "activity",
+        "text": "Tested two models on a translated subset of the original datasets in the network's joint multilingual testing exercise.",
+        "source_ids": [
+          "network-multilingual-2025"
+        ],
+        "reread": {
+          "state": "not_attempted",
+          "last_found": "2026-10-17",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "network-multilingual-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "network-multilingual-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-5725067e50384146bf7e45737230a3f5",
+        "kind": "function",
+        "code": "evaluation_methods",
+        "basis": "activity",
+        "text": "Initiated 13 projects, including on developing benchmarks and evaluations for AI models.",
+        "source_ids": [
+          "ca-qp-caisi-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "ca-qp-caisi-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "ca-qp-caisi-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-4443e68d347e4141a9158269d10c0846",
+        "kind": "function",
+        "code": "research",
+        "basis": "activity",
+        "text": "Provides a non-repayable contribution to CIFAR to deliver the institute's applied and investigator-led research stream.",
+        "source_ids": [
+          "ca-ised-dp-2025-26-tpp"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "ca-ised-dp-2025-26-tpp"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "ca-ised-dp-2025-26-tpp"
+          ]
+        }
+      },
+      {
+        "id": "claims-70e39d9878c14aee94c21a6858ee9afa",
+        "kind": "function",
+        "code": "research",
+        "basis": "activity",
+        "text": "Has initiated 13 AI safety projects, including work exploring the risks of autonomous AI agents.",
+        "source_ids": [
+          "ca-qp-caisi-2025"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "code": [],
+          "basis": [],
+          "text": [
+            "ca-qp-caisi-2025"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "ca-qp-caisi-2025"
+          ]
+        }
+      },
+      {
+        "id": "claims-0424f35f5f8047f3bc784ca59f9b9eea",
+        "kind": "fact",
+        "text": "Its page on the ISED site says it provides guidance to AI developers and users and to the public on the risks of advanced AI systems and how to address them.",
+        "source_ids": [
+          "ca-ised"
+        ],
+        "reread": {
+          "state": "confirmed",
+          "last_found": "2026-11-23",
+          "since": null
+        },
+        "expired": false,
+        "citations": {
+          "id": [],
+          "kind": [],
+          "text": [
+            "ca-ised"
+          ],
+          "reread": [],
+          "expired": [],
+          "display": [
+            "ca-ised"
+          ]
+        }
+      }
+    ],
+    "status": "established",
+    "established": "2024-11-12",
+    "announced": "2024-04-16",
+    "functions": [
+      {
+        "code": "model_testing",
+        "value": "both",
+        "claim_ids": [
+          "claims-011aed607ef34dc2a65b68ef6fc62095",
+          "claims-245b002026c242a8ab07de33f41e19a9"
+        ],
+        "since": "2025-06",
+        "newest": "claims-245b002026c242a8ab07de33f41e19a9"
+      },
+      {
+        "code": "evaluation_methods",
+        "value": "activity",
+        "claim_ids": [
+          "claims-5725067e50384146bf7e45737230a3f5"
+        ],
+        "since": null,
+        "newest": "claims-5725067e50384146bf7e45737230a3f5"
+      },
+      {
+        "code": "research",
+        "value": "activity",
+        "claim_ids": [
+          "claims-4443e68d347e4141a9158269d10c0846",
+          "claims-70e39d9878c14aee94c21a6858ee9afa"
+        ],
+        "since": "2025-06-17",
+        "newest": "claims-4443e68d347e4141a9158269d10c0846"
+      },
+      {
+        "code": "standards_guidance",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "regulatory_enforcement",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "regulatory_support",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "risk_monitoring",
+        "value": "mandate",
+        "claim_ids": [
+          "claims-d286d5a1123d4fb4abdc1ed5e1cdf157"
+        ],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "foresight",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "policy_advice",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "incident_response",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "international_cooperation",
+        "value": "both",
+        "claim_ids": [
+          "claims-8e1176a760f640f49fbb87fec5a33d24",
+          "claims-925c4fe0370a4c4bab32d1e90083f6ce",
+          "claims-6163465b322d421a93bd0e7e1ee3b71e"
+        ],
+        "since": "2025-06",
+        "newest": "claims-925c4fe0370a4c4bab32d1e90083f6ce"
+      },
+      {
+        "code": "convening",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "capacity_building",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "talent",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "adoption",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "public_access_continuity",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "certification",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      },
+      {
+        "code": "sandbox",
+        "value": "not_found",
+        "claim_ids": [],
+        "since": null,
+        "newest": null
+      }
+    ],
+    "operating": [
+      {
+        "kind": "joint_testing",
+        "date": "2025-06-26",
+        "lineage": "network-multilingual-2025",
+        "source_ids": [
+          "network-multilingual-2025",
+          "r5-sg-multilingual-full-report-page"
+        ],
+        "citations": {
+          "date": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "kind": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ],
+          "display": [
+            "network-multilingual-2025",
+            "r5-sg-multilingual-full-report-page"
+          ]
+        }
+      }
+    ],
+    "intervals": {
+      "announced_to_established": {
+        "days_min": 210,
+        "days_max": 210
+      },
+      "established_to_first_qualifying_activity": {
+        "days_min": 226,
+        "days_max": 226
+      },
+      "announced_to_first_qualifying_activity": {
+        "days_min": 436,
+        "days_max": 436
+      }
+    },
+    "citations": {
+      "id": [],
+      "name": [],
+      "acronym": [],
+      "short_name": [],
+      "jurisdiction_id": [],
+      "host": [
+        "ca-launch"
+      ],
+      "legal_form": [
+        "ca-launch"
+      ],
+      "mandate": [
+        "ca-ised",
+        "ca-caisi-srsr-briefing"
+      ],
+      "website": [],
+      "funding": [
+        "ca-budget",
+        "ca-launch",
+        "r5-ca-additional-funding-qp",
+        "r5-ca-ai-for-all",
+        "r11-ca-fiscal-year",
+        "ca-ised-dp-2025-26-tpp",
+        "ca-ised-drr-2024-25-tpp",
+        "ca-ised-drr-2025-26-tpp",
+        "ca-cifar-year-of-impact-2026",
+        "ca-ised-dp-2026-27-tpp"
+      ],
+      "check": [],
+      "mandate_short": [
+        "ca-ised",
+        "ca-caisi-srsr-briefing"
+      ],
+      "legal_basis": [
+        "ca-launch"
+      ],
+      "placement": [
+        "ca-launch"
+      ],
+      "name_local": [],
+      "agreements": [
+        "ca-qp-caisi-2025",
+        "depth-ca-au-mou",
+        "gb-ca-partnership-2024",
+        "gb-ca-renewal-2026",
+        "ca-uk-alignment-2025",
+        "gb-ca-joint-statement-2025",
+        "ca-caisi-srsr-briefing",
+        "r3-ca-uk-renewal-domestic",
+        "ca-kr-mou-2026"
+      ],
+      "wikidata": [],
+      "people": [
+        "depth-ca-au-mou",
+        "depth-ca-community",
+        "depth-ca-newsroom",
+        "ca-ised-transition-book-2025"
+      ],
+      "outputs": [
+        "ca-ised",
+        "network-multilingual-2025",
+        "ca-qp-caisi-2025",
+        "catalogue-ca-agenda",
+        "catalogue-agentic-report",
+        "depth-gb-blog",
+        "fix-output-network-agentic-arxiv",
+        "fix-output-ca-caisi-evaluation-reporting-guidance",
+        "fix-output-sg-multilingual-summary",
+        "r5-sg-multilingual-full-report-page"
+      ],
+      "notes": [],
+      "head": [
+        "depth-ca-au-mou"
+      ],
+      "reports_to": [
+        "ca-launch",
+        "ca-ised"
+      ],
+      "national_partners": [
+        "ca-launch",
+        "ca-cifar",
+        "ca-ised",
+        "rows-what-ca-nrc",
+        "rows-what-ca-mila",
+        "rows-what-ca-vector",
+        "rows-what-ca-amii",
+        "ca-cse-annual-en",
+        "ca-cse-annual-fr"
+      ],
+      "testing_capacity": [
+        "r5-ca-ai-for-all",
+        "ca-nrc-ai-safety"
+      ],
+      "model_access": [],
+      "staffing_model": [
+        "ca-caisi-srsr-briefing"
+      ],
+      "claims": [
+        "ca-launch",
+        "ca-ised",
+        "network-multilingual-2025",
+        "ca-qp-caisi-2025",
+        "r5-ca-ai-for-all",
+        "ca-kr-mou-2026",
+        "ca-ised-dp-2025-26-tpp"
+      ],
+      "status": [
+        "ca-launch"
+      ],
+      "established": [
+        "ca-launch"
+      ],
+      "announced": [
+        "ca-budget"
+      ],
+      "functions": [],
+      "operating": [],
+      "intervals": [],
+      "display": [
+        "ca-budget",
+        "ca-launch",
+        "ca-cifar",
+        "ca-ised",
+        "network-multilingual-2025",
+        "ca-qp-caisi-2025",
+        "depth-ca-au-mou",
+        "depth-ca-community",
+        "depth-ca-newsroom",
+        "catalogue-ca-agenda",
+        "catalogue-agentic-report",
+        "depth-gb-blog",
+        "gb-ca-partnership-2024",
+        "gb-ca-renewal-2026",
+        "ca-uk-alignment-2025",
+        "gb-ca-joint-statement-2025",
+        "ca-caisi-srsr-briefing",
+        "fix-output-network-agentic-arxiv",
+        "fix-output-ca-caisi-evaluation-reporting-guidance",
+        "fix-output-sg-multilingual-summary",
+        "r3-ca-uk-renewal-domestic",
+        "r5-ca-additional-funding-qp",
+        "r5-ca-ai-for-all",
+        "r5-sg-multilingual-full-report-page",
+        "r11-ca-fiscal-year",
+        "rows-what-ca-nrc",
+        "rows-what-ca-mila",
+        "rows-what-ca-vector",
+        "rows-what-ca-amii",
+        "ca-cse-annual-en",
+        "ca-cse-annual-fr",
+        "ca-kr-mou-2026",
+        "ca-ised-dp-2025-26-tpp",
+        "ca-ised-drr-2024-25-tpp",
+        "ca-ised-drr-2025-26-tpp",
+        "ca-cifar-year-of-impact-2026",
+        "ca-ised-dp-2026-27-tpp",
+        "ca-ised-transition-book-2025"
+      ],
+      "form": [
+        "ca-launch"
+      ],
+      "inst": [],
+      "institute": [],
+      "announced_to_established": [
+        "ca-budget",
+        "ca-launch"
+      ],
+      "established_to_first_qualifying_activity": [
+        "ca-launch",
+        "network-multilingual-2025",
+        "r5-sg-multilingual-full-report-page"
+      ],
+      "announced_to_first_qualifying_activity": [
+        "ca-budget",
+        "network-multilingual-2025",
+        "r5-sg-multilingual-full-report-page"
+      ]
+    },
+    "display": {
+      "intervals": {
+        "status_since": "Proposed on 16 Apr 2024, about 7 months earlier",
+        "known_activity": {
+          "kind": "joint_testing",
+          "lineage": "network-multilingual-2025",
+          "text": "about 7 months after it was established"
+        }
+      },
+      "comparison_funding": "funding-360a59a37fde5cc8ba0a03ce3a00ea5f",
+      "budget": "funding-360a59a37fde5cc8ba0a03ce3a00ea5f",
+      "staff": null,
+      "total_staff": null,
+      "technical_staff": null,
+      "funding_records": {
+        "funding-360a59a37fde5cc8ba0a03ce3a00ea5f": {
+          "kind": "multi_year",
+          "amount": 50000000,
+          "currency": "CAD",
+          "years": 5,
+          "period": "2024-25 to 2028-29",
+          "description": "CAD 50m over five years",
+          "source_ids": [
+            "ca-budget",
+            "ca-launch",
+            "r11-ca-fiscal-year"
+          ],
+          "confidence": "high",
+          "commitment": "adopted",
+          "funding_source": "national_government",
+          "annual_basis": "Arithmetic mean of the explicitly stated CAD 50m five-year allocation; annual disbursements and spending are not stated. Budget 2024 chapter 4 gives a yearly profile only for the combined Safe and Responsible Use of AI measures, not a separate institute profile.",
+          "annual_basis_code": "period_mean",
+          "annual_period": {
+            "start": "2024-04-01",
+            "end": "2029-03-31"
+          },
+          "coverage": "whole_institute",
+          "id": "funding-360a59a37fde5cc8ba0a03ce3a00ea5f",
+          "annual_amount": 10000000,
+          "eur_per_year_est": 6334220,
+          "eur_per_person_est": 0.152076,
+          "share_of_gdp_est": 3.08312e-06,
+          "ratio_denominators": {
+            "population": {
+              "value": 41651653,
+              "year": 2025
+            },
+            "gdp": {
+              "value": 3243465000000,
+              "currency": "CAD",
+              "year": 2025
+            }
+          },
+          "citations": {
+            "kind": [],
+            "amount": [
+              "ca-budget",
+              "ca-launch"
+            ],
+            "currency": [],
+            "years": [
+              "ca-budget",
+              "ca-launch"
+            ],
+            "period": [
+              "ca-budget"
+            ],
+            "description": [],
+            "confidence": [],
+            "commitment": [],
+            "funding_source": [],
+            "annual_basis": [
+              "ca-budget"
+            ],
+            "annual_basis_code": [],
+            "annual_period": [
+              "r11-ca-fiscal-year"
+            ],
+            "coverage": [],
+            "id": [],
+            "annual_amount": [
+              "ca-budget",
+              "ca-launch"
+            ],
+            "eur_per_year_est": [
+              "ca-budget",
+              "ca-launch",
+              "eu-ecb-exchange-rates-2025"
+            ],
+            "eur_per_person_est": [
+              "ca-budget",
+              "ca-launch",
+              "wb-pop",
+              "eu-ecb-exchange-rates-2025"
+            ],
+            "share_of_gdp_est": [
+              "ca-budget",
+              "ca-launch",
+              "wb-gdp-lcu-2025"
+            ],
+            "ratio_denominators": [
+              "wb-pop",
+              "wb-gdp-lcu-2025"
+            ],
+            "display": [
+              "ca-budget",
+              "ca-launch",
+              "eu-ecb-exchange-rates-2025",
+              "r11-ca-fiscal-year"
+            ]
+          },
+          "display": {
+            "annual_estimate": true,
+            "per_person": "~EUR 0.15 per person",
+            "value": "~EUR 6.3m (CAD 10m)",
+            "qualifiers": [
+              "a year",
+              "average over period",
+              "2024-25 to 2028-29",
+              "adopted"
+            ],
+            "native_value": "CAD 50m",
+            "native_qualifiers": [
+              "multi-year",
+              "2024-25 to 2028-29",
+              "adopted"
+            ],
+            "budget_citations": [
+              "ca-budget",
+              "ca-launch",
+              "eu-ecb-exchange-rates-2025"
+            ]
+          }
+        },
+        "funding-f9ea264762c8593293364a58539295d9": {
+          "kind": "one_off",
+          "amount": 50000000,
+          "currency": "CAD",
+          "commitment": "announced",
+          "confidence": "high",
+          "funding_source": "national_government",
+          "description": "An additional CAD 50m announced through AI for All to expand CAISI capabilities.",
+          "source_ids": [
+            "r5-ca-additional-funding-qp",
+            "r5-ca-ai-for-all"
+          ],
+          "notes": "The retrieved sources publish no funding period or annual profile, so we do not annualise it, do not use it in place of the 2024 five-year allocation, and do not add the two envelopes to a current annual budget. The one-off label denotes this additional fixed envelope, not payment in one fiscal year. The strategy names CAISI as the recipient, and the Question Period Note explicitly calls this additional funding. It is an institute-wide envelope, kept separate from the earlier five-year allocation rather than added to its annual mean. The Question Period Note also associates the envelope with AI transparency and a Canada Trusted AI Certification programme. It gives no split; the explicit CAISI allocation supports the whole-institute classification while the scope of certification spending remains uncertain.",
+          "id": "funding-f9ea264762c8593293364a58539295d9",
+          "coverage": "whole_institute",
+          "eur_per_year_est": null,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "r5-ca-additional-funding-qp",
+              "r5-ca-ai-for-all"
+            ],
+            "currency": [],
+            "commitment": [],
+            "confidence": [],
+            "funding_source": [],
+            "description": [
+              "r5-ca-additional-funding-qp",
+              "r5-ca-ai-for-all"
+            ],
+            "notes": [
+              "r5-ca-additional-funding-qp",
+              "r5-ca-ai-for-all"
+            ],
+            "id": [],
+            "coverage": [
+              "r5-ca-additional-funding-qp",
+              "r5-ca-ai-for-all"
+            ],
+            "eur_per_year_est": [],
+            "display": [
+              "r5-ca-additional-funding-qp",
+              "r5-ca-ai-for-all"
+            ],
+            "annual_amount": []
+          },
+          "display": {
+            "annual_estimate": false,
+            "value": "CAD 50m",
+            "qualifiers": [
+              "one-off",
+              "announced"
+            ],
+            "native_value": "CAD 50m",
+            "native_qualifiers": [
+              "one-off",
+              "announced"
+            ],
+            "budget_citations": [
+              "r5-ca-additional-funding-qp",
+              "r5-ca-ai-for-all"
+            ]
+          }
+        },
+        "funding-b61e4d8a2f0c4937a8d5c2e7f1b3a046": {
+          "kind": "multi_year",
+          "amount": 26999545,
+          "currency": "CAD",
+          "years": 5,
+          "period": "2024-25 to 2028-29 (2024-25 and 2025-26 actual spending, later years planned spending)",
+          "description": "Contributions to CIFAR for CAISI's applied and investigator-led research stream, 2024-25 to 2028-29: CAD 2,999,545 actual spending in 2024-25 (funding received in-year, none planned), CAD 6m actual spending in 2025-26 and CAD 6m planned for each later year.",
+          "source_ids": [
+            "ca-ised-dp-2026-27-tpp",
+            "ca-ised-drr-2024-25-tpp",
+            "ca-ised-drr-2025-26-tpp",
+            "ca-ised-dp-2025-26-tpp",
+            "r11-ca-fiscal-year",
+            "ca-cifar-year-of-impact-2026"
+          ],
+          "confidence": "high",
+          "commitment": "announced",
+          "funding_source": "national_government",
+          "annual_basis": "Planned contribution for 2026-27, the fiscal year containing the dataset date, in ISED's 2026-27 Departmental Plan; planned spending, not expenditure. One research stream only.",
+          "annual_basis_code": "allocation_current_year",
+          "annual_profile": [
+            {
+              "start": "2024-04-01",
+              "end": "2025-03-31",
+              "amount": 2999545,
+              "source_ids": [
+                "ca-ised-drr-2024-25-tpp",
+                "r11-ca-fiscal-year"
+              ],
+              "id": "annual_profile-a33b0f9c8ee141ffb043b6d9a2fcb563",
+              "citations": {
+                "start": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-drr-2024-25-tpp"
+                ],
+                "end": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-drr-2024-25-tpp"
+                ],
+                "amount": [
+                  "ca-ised-drr-2024-25-tpp"
+                ],
+                "id": [],
+                "display": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-drr-2024-25-tpp"
+                ]
+              }
+            },
+            {
+              "start": "2025-04-01",
+              "end": "2026-03-31",
+              "amount": 6000000,
+              "source_ids": [
+                "ca-ised-drr-2025-26-tpp",
+                "ca-ised-dp-2026-27-tpp",
+                "ca-ised-dp-2025-26-tpp",
+                "r11-ca-fiscal-year"
+              ],
+              "id": "annual_profile-4f1a9c2e7b3d46e08a5c1f9d2b7e6a13",
+              "citations": {
+                "start": [
+                  "r11-ca-fiscal-year"
+                ],
+                "end": [
+                  "r11-ca-fiscal-year"
+                ],
+                "amount": [
+                  "ca-ised-dp-2025-26-tpp",
+                  "ca-ised-drr-2025-26-tpp",
+                  "ca-ised-dp-2026-27-tpp"
+                ],
+                "id": [],
+                "display": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-dp-2025-26-tpp",
+                  "ca-ised-drr-2025-26-tpp",
+                  "ca-ised-dp-2026-27-tpp"
+                ]
+              }
+            },
+            {
+              "start": "2026-04-01",
+              "end": "2027-03-31",
+              "amount": 6000000,
+              "source_ids": [
+                "ca-ised-dp-2026-27-tpp",
+                "ca-ised-dp-2025-26-tpp",
+                "r11-ca-fiscal-year"
+              ],
+              "id": "annual_profile-9e2b7d4a1c6f48b3a0d5e8c2f7a1b964",
+              "citations": {
+                "start": [
+                  "r11-ca-fiscal-year"
+                ],
+                "end": [
+                  "r11-ca-fiscal-year"
+                ],
+                "amount": [
+                  "ca-ised-dp-2025-26-tpp",
+                  "ca-ised-dp-2026-27-tpp"
+                ],
+                "id": [],
+                "display": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-dp-2025-26-tpp",
+                  "ca-ised-dp-2026-27-tpp"
+                ]
+              }
+            },
+            {
+              "start": "2027-04-01",
+              "end": "2028-03-31",
+              "amount": 6000000,
+              "source_ids": [
+                "ca-ised-dp-2026-27-tpp",
+                "ca-ised-dp-2025-26-tpp",
+                "r11-ca-fiscal-year"
+              ],
+              "id": "annual_profile-2c8f5a1e9d3b47c6b1e4a7d0f9c3e582",
+              "citations": {
+                "start": [
+                  "r11-ca-fiscal-year"
+                ],
+                "end": [
+                  "r11-ca-fiscal-year"
+                ],
+                "amount": [
+                  "ca-ised-dp-2025-26-tpp",
+                  "ca-ised-dp-2026-27-tpp"
+                ],
+                "id": [],
+                "display": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-dp-2025-26-tpp",
+                  "ca-ised-dp-2026-27-tpp"
+                ]
+              }
+            },
+            {
+              "start": "2028-04-01",
+              "end": "2029-03-31",
+              "amount": 6000000,
+              "source_ids": [
+                "ca-ised-dp-2026-27-tpp",
+                "r11-ca-fiscal-year"
+              ],
+              "id": "annual_profile-a6cb2b90cb4c464a9be20f9b57f9bf3d",
+              "citations": {
+                "start": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-dp-2026-27-tpp"
+                ],
+                "end": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-dp-2026-27-tpp"
+                ],
+                "amount": [
+                  "ca-ised-dp-2026-27-tpp"
+                ],
+                "id": [],
+                "display": [
+                  "r11-ca-fiscal-year",
+                  "ca-ised-dp-2026-27-tpp"
+                ]
+              }
+            }
+          ],
+          "notes": "ISED's 2026-27 Departmental Plan lists the CAISI project under the Advanced and Emerging Technology programme with a start of 2024-25 and an end of 2028-29 (CAISI Budget 2024), as does its 2025-26 results report, so this stream sits inside the CAD 50m five-year allocation and is not additional to it. ISED's 2024-25 results report and its 2025-26 Departmental Plan give the start as 2025-26, but the 2024-25 results report also records CAD 2,999,545 of actual spending in 2024-25 against nothing planned, as funding received in-year, and says the stream was launched in November 2024; the record therefore starts in 2024-25. ISED's 2025-26 Departmental Results Report gives CAD 6m as 2025-26 actual spending (authorities used), equal to planned spending. CIFAR reported on 21 January 2026 that the government awarded it CAD 27m through the institute for its AI safety research programme, with no period stated, and that the programme awarded CAD 2.4m in 2025 to 12 projects; both concern this stream and are not added to it.",
+          "coverage": "component",
+          "id": "funding-b61e4d8a2f0c4937a8d5c2e7f1b3a046",
+          "annual_amount": 6000000,
+          "annual_period": {
+            "start": "2026-04-01",
+            "end": "2027-03-31"
+          },
+          "eur_per_year_est": 3800530,
+          "citations": {
+            "kind": [],
+            "amount": [
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "currency": [],
+            "years": [
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "period": [
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-drr-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "description": [
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-drr-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "confidence": [],
+            "commitment": [
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "funding_source": [],
+            "annual_basis": [
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "annual_basis_code": [],
+            "annual_profile": [
+              "r11-ca-fiscal-year",
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-drr-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "notes": [
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-drr-2025-26-tpp",
+              "ca-cifar-year-of-impact-2026",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "coverage": [
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "id": [],
+            "annual_amount": [
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "annual_period": [
+              "r11-ca-fiscal-year"
+            ],
+            "eur_per_year_est": [
+              "eu-ecb-exchange-rates-2025",
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ],
+            "display": [
+              "eu-ecb-exchange-rates-2025",
+              "r11-ca-fiscal-year",
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-drr-2025-26-tpp",
+              "ca-cifar-year-of-impact-2026",
+              "ca-ised-dp-2026-27-tpp"
+            ]
+          },
+          "display": {
+            "annual_estimate": true,
+            "value": "~CAD 27m",
+            "qualifiers": [
+              "multi-year",
+              "2024-25 to 2028-29 (2024-25 and 2025-26 actual spending, later years planned spending)",
+              "announced"
+            ],
+            "native_value": "~CAD 27m",
+            "native_qualifiers": [
+              "multi-year",
+              "2024-25 to 2028-29 (2024-25 and 2025-26 actual spending, later years planned spending)",
+              "announced"
+            ],
+            "budget_citations": [
+              "ca-ised-dp-2025-26-tpp",
+              "ca-ised-drr-2024-25-tpp",
+              "ca-ised-drr-2025-26-tpp",
+              "ca-ised-dp-2026-27-tpp"
+            ]
+          }
+        }
+      },
+      "funding_ids": [
+        "funding-360a59a37fde5cc8ba0a03ce3a00ea5f",
+        "funding-b61e4d8a2f0c4937a8d5c2e7f1b3a046",
+        "funding-f9ea264762c8593293364a58539295d9"
+      ],
+      "staff_records": {},
+      "staff_ids": [],
+      "related_funding_ids": [],
+      "operating": {
+        "since": "2025-06-26",
+        "first_lineage": "network-multilingual-2025",
+        "items": [
+          {
+            "kind": "joint_testing",
+            "date": "2025-06-26",
+            "lineage": "network-multilingual-2025",
+            "source_ids": [
+              "network-multilingual-2025",
+              "r5-sg-multilingual-full-report-page"
+            ],
+            "citations": {
+              "date": [
+                "network-multilingual-2025",
+                "r5-sg-multilingual-full-report-page"
+              ],
+              "kind": [
+                "network-multilingual-2025",
+                "r5-sg-multilingual-full-report-page"
+              ],
+              "display": [
+                "network-multilingual-2025",
+                "r5-sg-multilingual-full-report-page"
+              ]
+            }
+          }
+        ]
+      },
+      "rows": {
+        "head": {
+          "state": "stated",
+          "text": "Alexandra Dostal, Executive Director",
+          "cited": [
+            "depth-ca-au-mou"
+          ]
+        },
+        "reports_to": {
+          "state": "stated",
+          "text": "Innovation, Science and Economic Development Canada",
+          "cited": [
+            "ca-launch",
+            "ca-ised"
+          ]
+        },
+        "partners": {
+          "state": "stated",
+          "items": [
+            {
+              "id": "np-ca-cse",
+              "text": "CSE (national cryptologic and cyber security agency, works with)",
+              "name": "CSE",
+              "how": "Provided strategic direction on the institute's plans, priorities and research projects in 2024–25.",
+              "cited": [
+                "ca-cse-annual-en",
+                "ca-cse-annual-fr"
+              ]
+            },
+            {
+              "id": "np-ca-nrc",
+              "text": "NRC (federal research organisation, works with)",
+              "name": "NRC",
+              "how": "Implements the institute's government-directed projects through a research programme on national priorities like cybersecurity and security.",
+              "cited": [
+                "ca-launch",
+                "ca-cifar"
+              ]
+            },
+            {
+              "id": "np-ca-cifar",
+              "text": "CIFAR (research institute, works with)",
+              "name": "CIFAR",
+              "how": "Hosts the CAISI Research Program, which is one component of the institute.",
+              "cited": [
+                "ca-launch",
+                "ca-cifar"
+              ]
+            }
+          ],
+          "fold_items": [
+            {
+              "id": "np-ca-cse",
+              "text": "CSE (national cryptologic and cyber security agency, works with)",
+              "name": "CSE",
+              "how": "Provided strategic direction on the institute's plans, priorities and research projects in 2024–25.",
+              "cited": [
+                "ca-cse-annual-en",
+                "ca-cse-annual-fr"
+              ]
+            },
+            {
+              "id": "np-ca-nrc",
+              "text": "NRC (federal research organisation, works with)",
+              "name": "NRC",
+              "how": "Implements the institute's government-directed projects through a research programme on national priorities like cybersecurity and security.",
+              "cited": [
+                "ca-launch",
+                "ca-cifar"
+              ]
+            },
+            {
+              "id": "np-ca-cifar",
+              "text": "CIFAR (research institute, works with)",
+              "name": "CIFAR",
+              "how": "Hosts the CAISI Research Program, which is one component of the institute.",
+              "cited": [
+                "ca-launch",
+                "ca-cifar"
+              ]
+            },
+            {
+              "id": "np-ca-mila",
+              "text": "Mila (national AI institute, works with)",
+              "name": "Mila",
+              "how": "Is listed among the institute's partners.",
+              "cited": [
+                "ca-ised"
+              ]
+            },
+            {
+              "id": "np-ca-vector",
+              "text": "Vector (national AI institute, works with)",
+              "name": "Vector",
+              "how": "Is listed among the institute's partners.",
+              "cited": [
+                "ca-ised"
+              ]
+            },
+            {
+              "id": "np-ca-amii",
+              "text": "Amii (national AI institute, works with)",
+              "name": "Amii",
+              "how": "Is listed among the institute's partners.",
+              "cited": [
+                "ca-ised"
+              ]
+            }
+          ],
+          "tail": null,
+          "cited": [
+            "ca-cse-annual-en",
+            "ca-cse-annual-fr",
+            "ca-launch",
+            "ca-cifar",
+            "rows-what-ca-nrc"
+          ]
+        }
+      },
+      "source_links": [
+        "network-2025",
+        "network-nist-2026",
+        "ca-budget",
+        "ca-launch",
+        "ca-cifar",
+        "ca-ised",
+        "gb-joint-testing",
+        "network-multilingual-2025",
+        "jp-joint-2025",
+        "ca-qp-caisi-2025",
+        "ca-cohere-2025",
+        "ca-cifar-call-2025",
+        "depth-ca-au-mou",
+        "depth-ca-community",
+        "depth-ca-newsroom",
+        "catalogue-ca-review-pdf",
+        "catalogue-ca-agenda",
+        "catalogue-agentic-report",
+        "depth-gb-blog",
+        "gb-ca-partnership-2024",
+        "gb-ca-renewal-2026",
+        "ca-uk-alignment-2025",
+        "gb-ca-joint-statement-2025",
+        "ca-caisi-srsr-briefing",
+        "fix-output-network-multilingual-arxiv",
+        "fix-output-network-agentic-arxiv",
+        "fix-output-ca-caisi-evaluation-reporting-guidance",
+        "fix-output-sg-multilingual-summary",
+        "r3-jp-activity-index",
+        "r3-ca-uk-renewal-domestic",
+        "r5-ca-additional-funding-qp",
+        "r5-ca-ai-for-all",
+        "r5-sg-multilingual-full-report-page",
+        "eu-ecb-exchange-rates-2025",
+        "r11-ca-fiscal-year",
+        "rows-what-ca-nrc",
+        "rows-what-ca-mila",
+        "rows-what-ca-vector",
+        "rows-what-ca-amii",
+        "ca-cse-annual-en",
+        "ca-cse-annual-fr",
+        "ca-kr-mou-2026",
+        "ca-ised-dp-2025-26-tpp",
+        "ca-nrc-ai-safety",
+        "ca-ised-drr-2024-25-tpp",
+        "ca-ised-drr-2025-26-tpp",
+        "ca-cifar-year-of-impact-2026",
+        "ca-ised-dp-2026-27-tpp",
+        "ca-ised-transition-book-2025"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "ca-budget",
+      "title": "Budget 2024, chapter 4",
+      "url": "https://budget.canada.ca/2024/report-rapport/chap4-en.html",
+      "archive_url": "https://web.archive.org/web/20261016192907/https://budget.canada.ca/2024/report-rapport/chap4-en.html",
+      "excerpts": [
+        {
+          "text": "$50 million over five years, starting in 2024-25",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/0/amount",
+            "/record/funding/0/period",
+            "/record/funding/0/years"
+          ]
+        },
+        {
+          "text": "Safe and Responsible Use of AI\n0 11 17 10 10 10 59",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/0/annual_basis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-caisi-srsr-briefing",
+      "title": "Minister Solomon's appearance before the Standing Committee on Science and Research (SRSR) on mandate",
+      "url": "https://ised-isde.canada.ca/site/ised/en/parliamentary-committee-briefing-materials/minister-solomons-appearance-standing-committee-science-and-research-srsr-mandate",
+      "excerpts": [
+        {
+          "text": "CAISI concluded an MOU with Canadian model developer Cohere in June 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/counterparty",
+            "/record/agreements/0/state",
+            "/record/agreements/0/participation"
+          ]
+        },
+        {
+          "text": "to work together to enhance understanding of AI risks and how to evaluate and mitigate them to foster trust in AI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        },
+        {
+          "text": "February 2, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/scope"
+          ]
+        },
+        {
+          "text": "The Institute advances scientific understanding of the risks associated with the most advanced AI systems and develops measures to address those risks.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short",
+            "/record/mandate"
+          ]
+        },
+        {
+          "text": "Ultimately, CAISI's operational model is designed to leverage existing resources and partnerships, including the three national AI Institutes (Amii, MILA and Vector) as well as the government researchers, to conduct cutting edge research on AI safety issues",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        },
+        {
+          "text": "CAISI is housed at Innovation, Science and Economic Development (ISED), with a dedicated office responsible for leading policy coordination and international engagement",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/staffing_model/code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-cifar",
+      "title": "CAISI Research Program at CIFAR",
+      "url": "https://cifar.ca/ai/caisi/",
+      "archive_url": "https://web.archive.org/web/20261016195132/https://cifar.ca/ai/caisi/",
+      "excerpts": [
+        {
+          "text": "The National Research Council of Canada supports this effort through a government-led research program focused on national priorities like cybersecurity and security.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-24",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name",
+            "/record/national_partners/entries/0/relation",
+            "/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "The CAISI Research Program at CIFAR is one component of the Canadian AI Safety Institute, launched by Innovation, Science and Economic Development Canada.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-24",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-cifar-call-2025",
+      "title": "Solution Networks in AI Safety (call for proposals)",
+      "url": "https://cifar.ca/wp-content/uploads/2025/03/solution-networks-in-ai-safety-en-250304.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "ca-cifar-year-of-impact-2026",
+      "title": "A Year of Impact for AI Safety in Canada",
+      "url": "https://cifar.ca/cifarnews/2026/01/21/a-year-of-impact-for-ai-safety-in-canada/",
+      "excerpts": [
+        {
+          "text": "Through CAISI, the government awarded CIFAR $27M to lead an independent, multidisciplinary program dedicated to advancing AI safety research.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        },
+        {
+          "text": "In 2025, the CAISI Research Program at CIFAR awarded $2.4M in funding to advance innovative research in AI safety",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        },
+        {
+          "text": "$2.4M was deployed to catalyze 12 groundbreaking research projects designed to identify and mitigate the risks of advanced artificial intelligence (AI) systems.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-cohere-2025",
+      "title": "Cohere partners with Canada and UK Governments on secure AI",
+      "url": "https://cohere.com/blog/canada-uk-government-partnerships",
+      "archive_url": "https://web.archive.org/web/20260513191105/https://cohere.com/blog/canada-uk-government-partnerships",
+      "excerpts": []
+    },
+    {
+      "id": "ca-cse-annual-en",
+      "title": "Communications Security Establishment Canada Annual Report 2024-2025 - Communications Security Establishment Canada",
+      "url": "https://www.cse-cst.gc.ca/en/accountability/transparency/reports/communications-security-establishment-canada-annual-report-2024-2025",
+      "excerpts": [
+        {
+          "text": "providing strategic direction on plans, priorities and research projects for CAISI",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/5/relation",
+            "/record/national_partners/entries/5/how"
+          ]
+        },
+        {
+          "text": "The Communications Security Establishment Canada (CSE) is Canada’s cryptologic agency, responsible for foreign signals intelligence, cyber security and foreign cyber operations.",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/5/name",
+            "/record/national_partners/entries/5/what",
+            "/record/national_partners/entries/5/cyber_agency"
+          ]
+        },
+        {
+          "text": "In 2024 to 2025, this work included:",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/5/how"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-cse-annual-fr",
+      "title": "Rapport annuel du Centre de la sécurité des télécommunications Canada 2024 à 2025 - Centre de la sécurité des télécommunications Canada",
+      "url": "https://www.cse-cst.gc.ca/fr/reddition-comptes/transparence/rapports/rapport-annuel-centre-securite-telecommunications-canada-2024-2025",
+      "excerpts": [
+        {
+          "text": "fournir de l’orientation stratégique sur les plans, les priorités et les projets de recherche pour l’ICSIA.",
+          "accessed": "2026-10-20",
+          "gloss": "Provide strategic direction on plans, priorities and research projects for CAISI.",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/5/relation",
+            "/record/national_partners/entries/5/how"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-ised",
+      "title": "Canadian Artificial Intelligence Safety Institute",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+      "archive_url": "https://web.archive.org/web/20261016195313/https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+      "excerpts": [
+        {
+          "text": "July 8, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/date",
+            "/record/outputs/3/credit/date"
+          ]
+        },
+        {
+          "text": "Read our first blog post for information and best practices on AI safety and model evaluation.\nThe Canadian Artificial Intelligence Safety Institute (CAISI)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/attribution_note",
+            "/record/outputs/3/credit/institute_id"
+          ]
+        },
+        {
+          "text": "What information should AI evaluators share?\n\nJuly 8, 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/date"
+          ]
+        },
+        {
+          "text": "We study how advanced AI systems work and provide tools to ensure that the Government of Canada is well positioned to address AI safety risks as they arise.",
+          "accessed": "2026-10-18",
+          "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/mandate_short"
+          ]
+        },
+        {
+          "text": "CAISI is led by Innovation, Science and Economic Development Canada",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name"
+          ]
+        },
+        {
+          "text": "Our partners National Research Council of Canada – Digital Technologies Research Centre Canadian Institute for Advanced Research (CIFAR) Mila – Quebec Artificial Intelligence Institute",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/name",
+            "/record/national_partners/entries/2/relation",
+            "/record/national_partners/entries/2/how"
+          ]
+        },
+        {
+          "text": "Our partners National Research Council of Canada – Digital Technologies Research Centre Canadian Institute for Advanced Research (CIFAR) Mila – Quebec Artificial Intelligence Institute The Vector Institute",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/3/name",
+            "/record/national_partners/entries/3/relation",
+            "/record/national_partners/entries/3/how"
+          ]
+        },
+        {
+          "text": "Our partners National Research Council of Canada – Digital Technologies Research Centre Canadian Institute for Advanced Research (CIFAR) Mila – Quebec Artificial Intelligence Institute The Vector Institute Amii – Alberta Machine Intelligence Institute",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/name",
+            "/record/national_partners/entries/4/relation",
+            "/record/national_partners/entries/4/how"
+          ]
+        },
+        {
+          "text": "Government-directed projects: We conduct projects supporting the government's priorities on AI safety, including joint testing with international counterparts, and provide guidance to AI developers and users and to the public on the risks of advanced AI systems and how to address them.",
+          "anchors": [
+            {
+              "text": "Canadian Artificial Intelligence Safety Institute",
+              "kind": "heading"
+            }
+          ],
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/9/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-ised-dp-2025-26-tpp",
+      "title": "2025–26 Departmental Plan: Supplementary information tables",
+      "url": "https://ised-isde.canada.ca/site/planning-performance-reporting/en/node/98",
+      "excerpts": [
+        {
+          "text": "Total contributions 0 6,000,000 6,000,000 6,000,000",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/description",
+            "/record/funding/2/annual_profile/1/amount",
+            "/record/funding/2/annual_profile/2/amount",
+            "/record/funding/2/annual_profile/3/amount"
+          ]
+        },
+        {
+          "text": "2024–25 forecast spending 2025–26 planned spending 2026–27 planned spending 2027-28 planned spending",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/commitment"
+          ]
+        },
+        {
+          "text": "providing a non-repayable contribution to the Canadian Institute for Advanced Research (CIFAR), to deliver the applied and investigator-led research stream of the CAISI",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/description",
+            "/record/funding/2/coverage"
+          ]
+        },
+        {
+          "text": "Start date 2025-26 End date 2028-29 (CAISI Budget 2024)",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        },
+        {
+          "text": "One initiative under AET is the Canadian AI Safety Institute (CAISI) project, which is providing a non-repayable contribution to the Canadian Institute for Advanced Research (CIFAR), to deliver the applied and investigator-led research stream of the CAISI.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/7/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-ised-dp-2026-27-tpp",
+      "title": "2026–27 Departmental Plan: Supplementary information tables",
+      "url": "https://ised-isde.canada.ca/site/planning-performance-reporting/en/departmental-plans/2026-27-departmental-plan/2026-27-departmental-plan-supplementary-information-tables",
+      "excerpts": [
+        {
+          "text": "ISED provides a non-repayable contribution to the Canadian Institute for Advanced Research (CIFAR) to support the Canadian Artificial Intelligence Safety Institute (CAISI) project.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/description",
+            "/record/funding/2/coverage"
+          ]
+        },
+        {
+          "text": "2025-26 forecast spending 2026-27 planned spending 2027-28 planned spending 2028-29 planned spending",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/period",
+            "/record/funding/2/annual_basis",
+            "/record/funding/2/commitment",
+            "/record/funding/2/annual_profile/4/start",
+            "/record/funding/2/annual_profile/4/end",
+            "/record/funding/2/description"
+          ]
+        },
+        {
+          "text": "Total contributions 6,000,000 6,000,000 6,000,000 6,000,000",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/amount",
+            "/record/funding/2/years",
+            "/record/funding/2/period",
+            "/record/funding/2/description",
+            "/record/funding/2/annual_profile/1/amount",
+            "/record/funding/2/annual_profile/2/amount",
+            "/record/funding/2/annual_profile/3/amount",
+            "/record/funding/2/annual_profile/4/amount"
+          ]
+        },
+        {
+          "text": "Start date 2024-25 End date 2028-29 (CAISI Budget 2024)",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-ised-drr-2024-25-tpp",
+      "title": "ISED's Supplementary Information Tables: 2024–25",
+      "url": "https://ised-isde.canada.ca/site/planning-performance-reporting/en/departmental-results-reports/iseds-supplementary-information-tables-2024-25",
+      "excerpts": [
+        {
+          "text": "Canadian Institute for Advanced Research – Advanced and Emerging Technology – Canadian Artificial Intelligence Safety Institute",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/description",
+            "/record/funding/2/amount",
+            "/record/funding/2/annual_profile/0/amount"
+          ]
+        },
+        {
+          "text": "2024‑25 planned spending 2024‑25 total authorities available for use 2024‑25 actual spending (authorities used)",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/period",
+            "/record/funding/2/amount",
+            "/record/funding/2/description",
+            "/record/funding/2/annual_profile/0/amount",
+            "/record/funding/2/annual_profile/0/start",
+            "/record/funding/2/annual_profile/0/end",
+            "/record/funding/2/notes"
+          ]
+        },
+        {
+          "text": "Total contributions 0 0 0 3,000,000 2,999,545 2,999,545",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/amount",
+            "/record/funding/2/years",
+            "/record/funding/2/period",
+            "/record/funding/2/description",
+            "/record/funding/2/annual_profile/0/amount",
+            "/record/funding/2/notes"
+          ]
+        },
+        {
+          "text": "Variance represents funding received in-year to enhance AI safety research capacity in Canada and support government policy priorities related to AI safety.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/description",
+            "/record/funding/2/notes",
+            "/record/funding/2/annual_profile/0/amount"
+          ]
+        },
+        {
+          "text": "The CAISI CIFAR research stream was launched in November 2024.",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes",
+            "/record/funding/2/period",
+            "/record/funding/2/annual_profile/0/start"
+          ]
+        },
+        {
+          "text": "Start date 2025-26 End date 2028-29 (CAISI Budget 2024)",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-ised-drr-2025-26-tpp",
+      "title": "2025–26 Supplementary information tables",
+      "url": "https://ised-isde.canada.ca/site/planning-performance-reporting/en/planning-and-performance-reporting/departmental-results-reports/2025-26-departmental-results-report/2025-26-supplementary-information-tables",
+      "excerpts": [
+        {
+          "text": "Contributions to the Canadian Institute for Advanced Research—Canadian Artificial Intelligence Safety Institute",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        },
+        {
+          "text": "2025‑26 actual spending (authorities used)",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes",
+            "/record/funding/2/period",
+            "/record/funding/2/description",
+            "/record/funding/2/annual_profile/1/amount"
+          ]
+        },
+        {
+          "text": "Total contributions 0 2,999,545 6,000,000 6,000,000 6,000,000 0",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes",
+            "/record/funding/2/description",
+            "/record/funding/2/period",
+            "/record/funding/2/annual_profile/1/amount"
+          ]
+        },
+        {
+          "text": "Start date 2024-25 End date 2028-29 (CAISI Budget 2024)",
+          "accessed": "2026-11-08",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/2/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-ised-transition-book-2025",
+      "title": "Ministerial transition book: March 2025 — Minister of Innovation, Science and Industry",
+      "url": "https://ised-isde.canada.ca/site/ised/en/transition-materials/ministerial-transition-book-march-2025-minister-innovation-science-and-industry",
+      "excerpts": [
+        {
+          "text": "Alexandra is the Senior Assistant Deputy Minister, Strategic Policy Sector, at ISED since September 2024.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/background"
+          ]
+        },
+        {
+          "text": "Previously, she has held positions with Government of Canada at Fisheries and Oceans Canada, Treasury Board Secretariat, Finance Canada and Global Affairs Canada.",
+          "accessed": "2026-11-14",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/background"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-kr-mou-2026",
+      "title": "Canada and Republic of Korea sign memorandum of understanding to advance AI innovation and safety",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/canada-and-republic-of-korea-sign-memorandum-of-understanding-to-advance-ai-innovation-and-safety.html",
+      "excerpts": [
+        {
+          "text": "The Canadian and Korean AI Safety Institutes",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/5/counterparty",
+            "/record/agreements/5/participation"
+          ]
+        },
+        {
+          "text": "have signed a memorandum of understanding (MOU) to strengthen international cooperation on artificial intelligence (AI) safety.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/5/counterparty",
+            "/record/agreements/5/state",
+            "/record/agreements/5/participation"
+          ]
+        },
+        {
+          "text": "July 8, 2026",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/5/date"
+          ]
+        },
+        {
+          "text": "Under this agreement, the institutes will exchange information on AI technologies, risks, methodologies, tools and evaluations, as well as frameworks and guidelines related to the safe development and application of AI.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/5/scope"
+          ]
+        },
+        {
+          "text": "They will also work together to support internationally recognized and interoperable guidelines and standards for the evaluation of frontier AI technologies.",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/5/scope"
+          ]
+        },
+        {
+          "text": "The two institutes will maintain regular consultations",
+          "accessed": "2026-10-24",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/5/scope"
+          ]
+        },
+        {
+          "text": "The Canadian and Korean AI Safety Institutes (AISI)have signed a memorandum of understanding (MOU) to strengthen international cooperation on artificial intelligence (AI) safety.",
+          "accessed": "2026-10-24",
+          "url": "https://r.jina.ai/https://www.canada.ca/en/innovation-science-economic-development/news/2026/07/canada-and-republic-of-korea-sign-memorandum-of-understanding-to-advance-ai-innovation-and-safety.html",
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-24",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/4/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-launch",
+      "title": "Canada launches Canadian Artificial Intelligence Safety Institute",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/canada-launches-canadian-artificial-intelligence-safety-institute.html",
+      "archive_url": "https://web.archive.org/web/20261016194417/https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/canada-launches-canadian-artificial-intelligence-safety-institute.html",
+      "excerpts": [
+        {
+          "text": "$50 million over five years",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/0/amount",
+            "/record/funding/0/years"
+          ]
+        },
+        {
+          "text": "Minister of Innovation, Science and Industry, announced the launch of the Canadian Artificial Intelligence Safety Institute (CAISI)",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/legal_basis/type",
+            "/record/legal_basis/state"
+          ]
+        },
+        {
+          "text": "CAISI will be housed at Innovation, Science and Economic Development Canada, with a dedicated office responsible for overseeing the research agenda and engaging with international partners.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/legal_form",
+            "/record/placement/host_type"
+          ]
+        },
+        {
+          "text": "CAISI will be housed at Innovation, Science and Economic Development Canada",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/reports_to/name",
+            "/record/host"
+          ]
+        },
+        {
+          "text": "Government-directed projects will be implemented by the National Research Council of Canada, focusing on AI projects that address direct government priorities like cybersecurity",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/0/name",
+            "/record/national_partners/entries/0/relation",
+            "/record/national_partners/entries/0/how"
+          ]
+        },
+        {
+          "text": "It will leverage existing expertise at the National Research Council of Canada, the Canadian Institute for Advanced Research (CIFAR)",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/1/name",
+            "/record/national_partners/entries/1/relation",
+            "/record/national_partners/entries/1/how",
+            "/record/national_partners/entries/1/what"
+          ]
+        },
+        {
+          "text": "CAISI will also collaborate with safety institutes in other jurisdictions as part of the new International Network of AI Safety Institutes",
+          "accessed": "2026-10-17",
+          "url": "https://web.archive.org/web/20261016194417/https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/canada-launches-canadian-artificial-intelligence-safety-institute.html",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/3/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-nrc-ai-safety",
+      "title": "AI safety and responsible AI",
+      "url": "https://nrc.canada.ca/en/research-development/products-services/technical-advisory-services/ai-safety-responsible-ai",
+      "excerpts": [
+        {
+          "text": "Through the Canadian Artificial Intelligence Safety Institute, we're working with an international network of AI safety institutes to develop globally recognized methods for testing the safety and security of AI systems.",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/testing_capacity/modes/0/code",
+            "/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "In a recent joint testing exercise, NRC researchers worked with experts from 8 other countries to evaluate autonomous AI systems that can interact with the world and make decisions, known as AI agents.",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/testing_capacity/modes/0/code",
+            "/record/testing_capacity/notes"
+          ]
+        },
+        {
+          "text": "Our experts helped the international research team evaluate the effectiveness of AI at preventing harmful content in 9 different languages",
+          "accessed": "2026-11-07",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/testing_capacity/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-qp-caisi-2025",
+      "title": "Question Period note: Why did the Government of Canada create the Canadian Artificial Intelligence Safety Institute?",
+      "url": "https://search.open.canada.ca/qpnotes/record/ic,AIDI-2026-QP-00001",
+      "archive_url": "https://web.archive.org/web/20260519012514/https://search.open.canada.ca/qpnotes/record/ic,AIDI-2026-QP-00001",
+      "excerpts": [
+        {
+          "text": "$1 million collaborative partnership signed with the UK AI Security Institute in July 2025 to fund research on AI alignment",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/2/counterparty",
+            "/record/agreements/2/state",
+            "/record/agreements/2/date",
+            "/record/agreements/2/scope",
+            "/record/agreements/2/participation"
+          ]
+        },
+        {
+          "text": "published the Network’s Synthetic Content Research Agenda in July 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/date",
+            "/record/outputs/1/credit/date"
+          ]
+        },
+        {
+          "text": "CAISI co-leads the Network’s research track on the risks posed by AI-generated synthetic content with Australia, and published the Network’s Synthetic Content Research Agenda in July 2025.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/attribution_note",
+            "/record/outputs/1/credit/institute_id"
+          ]
+        },
+        {
+          "text": "CAISI is also participating in multilingual model evaluations led by Singapore and the UK, with contributions in Cantonese, Farsi, and Telugu; and jointly published model testing results and a risk assessment tool inventory at the Paris AI Action Summit (Feb 2025).",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/attribution_note"
+          ]
+        },
+        {
+          "text": "To date, CAISI hasinitiated13 projects.which focus on AI safety issues, such as deepfake detection, safe robotic automation, exploring the risks with autonomous AI agents, as well as developing benchmarks and evaluations for AI models.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/6/text",
+            "/record/claims/8/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ca-uk-alignment-2025",
+      "title": "Government of Canada partners with United Kingdom to invest in groundbreaking AI alignment research",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2025/07/government-of-canada-partners-with-united-kingdom-to-invest-in-groundbreaking-ai-alignment-research.html",
+      "archive_url": "https://web.archive.org/web/20261013105254/https://www.canada.ca/en/innovation-science-economic-development/news/2025/07/government-of-canada-partners-with-united-kingdom-to-invest-in-groundbreaking-ai-alignment-research.html",
+      "excerpts": [
+        {
+          "text": "Canadian AI Safety Institute, through the Canadian Institute for Advanced Research, will contribute $1 million to the UK AI Security Institute’s Alignment Project",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/2/scope"
+          ]
+        },
+        {
+          "text": "July 30, 2025 – Ottawa, Ontario",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/2/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-agentic-report",
+      "title": "International Joint Testing Exercise: Agentic Testing",
+      "url": "https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6878c8b1533d0962494e651c_International%20Joint%20Testing%20Exercise_3JT%20Eval%20Report%20v2.pdf",
+      "excerpts": [
+        {
+          "text": "Contributed by Canada AISI",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/attribution_note",
+            "/record/outputs/2/credit/institute_id"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-ca-agenda",
+      "title": "Research Agenda on Risks from Synthetic Content",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute/research-agenda-risks-synthetic-content",
+      "excerpts": [
+        {
+          "text": "Research Agenda on Risks from Synthetic Content",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/1/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "catalogue-ca-review-pdf",
+      "title": "CAISI Research Program at CIFAR: 2025 Year in Review",
+      "url": "https://report.buildingsafeai.ca/caisi-2025-year-in-review",
+      "excerpts": []
+    },
+    {
+      "id": "depth-ca-au-mou",
+      "title": "Memorandum of understanding on AI safety collaboration between Australia and Canada",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute/memorandum-understanding-between-department-industry-science-and-resources-australia-and-department",
+      "excerpts": [
+        {
+          "text": "Alexandra Dostal",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/name"
+          ]
+        },
+        {
+          "text": "Executive Director, Canadian AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/0/role"
+          ]
+        },
+        {
+          "text": "Signed in duplicate at New Delhi, India, on the 20th day of February 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/1/state",
+            "/record/agreements/1/date"
+          ]
+        },
+        {
+          "text": "respective AI Safety Institutes",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/1/participation"
+          ]
+        },
+        {
+          "text": "a framework for technical cooperation in the field of AI safety",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/1/scope"
+          ]
+        },
+        {
+          "text": "The Department of Industry, Science and Resources of Australia, and the Department of Industry of Canada ('the Participants' and each a 'Participant') have reached the following understanding:",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/1/counterparty"
+          ]
+        },
+        {
+          "text": "on behalf of Alexandra Dostal, Senior Assistant Deputy Minister, Strategic Policy Sector, ISED and Executive Director, Canadian AI Safety Institute",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/head/person_id"
+          ]
+        },
+        {
+          "text": "Alexandra Dostal, Senior Assistant Deputy Minister, Strategic Policy Sector, ISED and Executive Director, Canadian AI Safety Institute",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/head/person_id",
+            "/record/people/0/name",
+            "/record/people/0/role",
+            "/record/people/0/background"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-ca-community",
+      "title": "Our Community",
+      "url": "https://aisafety.ca/about/our-community/",
+      "excerpts": [
+        {
+          "text": "Nicolas Papernot",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/1/name"
+          ]
+        },
+        {
+          "text": "Catherine Régis",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/2/name"
+          ]
+        },
+        {
+          "text": "Co-Director, Canadian AI Safety Institute Research Program (CAISI) at CIFAR",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/1/role",
+            "/record/people/2/role"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-ca-newsroom",
+      "title": "Nicolas Papernot and Catherine Régis appointed Co-Directors of the CAISI Research Program at CIFAR",
+      "url": "https://cifar.ca/cifarnews/2024/12/12/nicolas-papernot-and-catherine-regis-appointed-co-directors-of-the-caisi-research-program-at-cifar/",
+      "excerpts": [
+        {
+          "text": "Nicolas Papernot and Catherine Régis appointed Co-Directors of the CAISI Research Program at CIFAR",
+          "accessed": "2026-11-04",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/people/1/name",
+            "/record/people/1/role",
+            "/record/people/1/since",
+            "/record/people/2/name",
+            "/record/people/2/role",
+            "/record/people/2/since"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "depth-gb-blog",
+      "title": "AISI Blog",
+      "url": "https://www.aisi.gov.uk/blog",
+      "excerpts": [
+        {
+          "text": "International joint testing exercise: Agentic testing Blog Organisation • Jul 17, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/date",
+            "/record/outputs/2/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "epoch-frontier-models",
+      "title": "Data on AI models: frontier models (CSV)",
+      "url": "https://epoch.ai/data/frontier_ai_models.csv",
+      "excerpts": []
+    },
+    {
+      "id": "eu-ecb-exchange-rates-2025",
+      "title": "ECB euro foreign exchange reference rates, annual averages for 2025",
+      "url": "https://data-api.ecb.europa.eu/service/data/EXR/A.AUD+CAD+GBP+INR+JPY+KRW+MYR+NOK+SGD+USD.EUR.SP00.A?startPeriod=2025&endPeriod=2025&format=csvdata",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-ca-caisi-evaluation-reporting-guidance",
+      "title": "What information should AI evaluators share?",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadian-artificial-intelligence-safety-institute/what-information-should-ai-evaluators-share",
+      "excerpts": [
+        {
+          "text": "What information should AI evaluators share?",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/title"
+          ]
+        },
+        {
+          "text": "This blog post is part of a series of posts by members of the Network for Advanced AI Measurement, Evaluation, and Science",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/3/attribution_note"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-network-agentic-arxiv",
+      "title": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+      "url": "https://arxiv.org/abs/2601.15679",
+      "excerpts": [
+        {
+          "text": "Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/2/title"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fix-output-network-multilingual-arxiv",
+      "title": "Improving Methodologies for LLM Evaluations Across Global Languages",
+      "url": "https://arxiv.org/abs/2601.15706",
+      "excerpts": []
+    },
+    {
+      "id": "fix-output-sg-multilingual-summary",
+      "title": "Improving Methodologies for AI Model Evaluations Across Global Languages",
+      "url": "https://sgaisi.sg/resources/improving-methodologies-for-ai-model-evaluations-across-global-languages/",
+      "excerpts": [
+        {
+          "text": "February 10, 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-ca-joint-statement-2025",
+      "title": "Joint statement between the Prime Minister of the United Kingdom and the Prime Minister of Canada",
+      "url": "https://www.gov.uk/government/news/joint-statement-between-the-prime-minister-of-the-united-kingdom-and-the-prime-minister-of-canada",
+      "excerpts": [
+        {
+          "text": "15 June 2025",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/date"
+          ]
+        },
+        {
+          "text": "Under the Canadian MOU, Cohere will collaborate with the Canadian AI Safety Institute",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/0/state",
+            "/record/agreements/0/participation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-ca-partnership-2024",
+      "title": "UK-Canada science of AI safety partnership",
+      "url": "https://www.gov.uk/government/publications/uk-canada-science-of-ai-safety-partnership/uk-canada-science-of-ai-safety-partnership",
+      "excerpts": [
+        {
+          "text": "The governments of the United Kingdom and Canada have today announced their intent to advance collaboration",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/state",
+            "/record/agreements/3/counterparty"
+          ]
+        },
+        {
+          "text": "including between their respective AI Safety Institutes",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/participation",
+            "/record/agreements/3/scope"
+          ]
+        },
+        {
+          "text": "Published 20 May 2024",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/date"
+          ]
+        },
+        {
+          "text": "the countries will commit to creating pathways for the sharing of expertise to bolster existing testing and evaluations work and to jointly identify other priority areas for research collaboration.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/scope"
+          ]
+        },
+        {
+          "text": "The two countries will put measures in place to facilitate professional exchanges and secondments, and to leverage and share their respective computational resources.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/scope"
+          ]
+        },
+        {
+          "text": "including by working toward a Memorandum of Understanding on AI safety collaboration between our countries.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/scope"
+          ]
+        },
+        {
+          "text": "As more details are announced on the Canadian AISI over the coming months, Canada and the UK will continue to engage to further specify the details of their collaboration",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/3/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-ca-renewal-2026",
+      "title": "UK-Canada renewed AI security partnership",
+      "url": "https://www.gov.uk/government/news/uk-canada-renewed-ai-security-partnership",
+      "excerpts": [
+        {
+          "text": "The partnership recommits to cooperation between the Canadian AI Safety Institute and the UK AI Security Institute as frontier AI capabilities continue to advance.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/state",
+            "/record/agreements/4/counterparty",
+            "/record/agreements/4/scope",
+            "/record/agreements/4/participation",
+            "/record/agreements/4/news"
+          ]
+        },
+        {
+          "text": "13 October 2026",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/date"
+          ]
+        },
+        {
+          "text": "including establishing regular exchanges on frontier AI capabilities, emerging risks, evaluation methodologies and best practice; and, exploring staff exchanges and coordinated evaluation activities to strengthen institutional links and knowledge-sharing.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/scope",
+            "/record/agreements/4/news"
+          ]
+        },
+        {
+          "text": "The governments of the United Kingdom and Canada are renewing their partnership on AI security,",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/counterparty",
+            "/record/agreements/4/news"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gb-joint-testing",
+      "title": "International joint testing exercise: agentic testing",
+      "url": "https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing",
+      "archive_url": "https://web.archive.org/web/20250905113943/https://www.aisi.gov.uk/work/international-joint-testing-exercise-agentic-testing",
+      "excerpts": []
+    },
+    {
+      "id": "jp-joint-2025",
+      "title": "Joint Testing Exercise: Improving Methodologies for AI Model Evaluations Across Global Languages",
+      "url": "https://aisi.go.jp/assets/pdf/International-Network-of-AI-Safety-Institutes-Joint-Testing-Exercise-Improving-Methodologies-for-AI-Model-Evaluations-Across-Global-Languages.pdf",
+      "archive_url": "https://web.archive.org/web/20250318174208/https://aisi.go.jp/assets/pdf/International-Network-of-AI-Safety-Institutes-Joint-Testing-Exercise-Improving-Methodologies-for-AI-Model-Evaluations-Across-Global-Languages.pdf",
+      "excerpts": []
+    },
+    {
+      "id": "network-2025",
+      "title": "International Network for Advanced AI Measurement, Evaluation and Science",
+      "url": "https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "archive_url": "https://web.archive.org/web/20261016191445/https://www.gov.uk/government/news/efforts-to-share-best-practices-on-ai-measurement-and-evaluations-driven-forward-through-the-international-network-for-advanced-ai-measurement-evalua",
+      "excerpts": []
+    },
+    {
+      "id": "network-multilingual-2025",
+      "title": "Multilingual joint testing exercise: Improving Methodologies for LLM Evaluations Across Global Languages (evaluation report)",
+      "url": "https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "archive_url": "https://web.archive.org/web/20260919113540/https://sgaisi.sg/wp-api/wp-content/uploads/2025/06/Improving-Methodologies-for-LLM-Evaluations-Across-Global-Languages-Evaluation-Report-1.pdf",
+      "excerpts": [
+        {
+          "text": "Improving Methodologies for LLM Evaluations Across Global Languages",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/title"
+          ]
+        },
+        {
+          "text": "Contributed by Canada AISI",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/attribution_note",
+            "/record/outputs/0/credit/institute_id"
+          ]
+        },
+        {
+          "text": "Our evaluation involved testing the two models using a translated subset of the original datasets.",
+          "accessed": "2026-10-17",
+          "anchors": [
+            {
+              "text": "Contributed by Canada AISI",
+              "kind": "heading"
+            }
+          ],
+          "reread": {
+            "state": "not_attempted",
+            "last_found": "2026-10-17",
+            "since": null
+          },
+          "supports": [
+            "/record/claims/1/text",
+            "/record/claims/5/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "network-nist-2026",
+      "title": "International Network publishes consensus areas on automated evaluations",
+      "url": "https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "archive_url": "https://web.archive.org/web/20260922154030/https://www.nist.gov/news-events/news/2026/02/international-network-advanced-ai-measurement-evaluation-and-science",
+      "excerpts": []
+    },
+    {
+      "id": "r11-ca-fiscal-year",
+      "title": "The Reporting Cycle for Government Expenditures",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/expenditure-management-system/reporting-cycle.html",
+      "archive_url": "https://web.archive.org/web/20260104121610/https://www.canada.ca/en/treasury-board-secretariat/services/planned-government-spending/expenditure-management-system/reporting-cycle.html",
+      "excerpts": [
+        {
+          "text": "fiscal year begins on April 1 and ends on March 31 in the following calendar year.",
+          "accessed": "2026-10-18",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/0/annual_period/start",
+            "/record/funding/0/annual_period/end",
+            "/record/funding/2/annual_profile/1/start",
+            "/record/funding/2/annual_profile/1/end",
+            "/record/funding/2/annual_profile/2/start",
+            "/record/funding/2/annual_profile/2/end",
+            "/record/funding/2/annual_profile/3/start",
+            "/record/funding/2/annual_profile/3/end",
+            "/record/funding/2/annual_profile/4/start",
+            "/record/funding/2/annual_profile/4/end",
+            "/record/funding/2/annual_profile/0/start",
+            "/record/funding/2/annual_profile/0/end"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-ca-uk-renewal-domestic",
+      "title": "Canada and the United Kingdom renew their partnership on artificial intelligence security",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/10/canada-and-the-united-kingdom-renew-their-partnership-on-artificial-intelligence-security.html",
+      "archive_url": "https://web.archive.org/web/20261018090832/https://www.canada.ca/en/innovation-science-economic-development/news/2026/10/canada-and-the-united-kingdom-renew-their-partnership-on-artificial-intelligence-security.html",
+      "excerpts": [
+        {
+          "text": "The United Kingdom and Canada announce a renewed AI security partnership with a strengthened focus on sharing of information on frontier AI risks and capabilities, best practices in AI evaluation, exploring staff exchanges and coordinated evaluations,",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/scope"
+          ]
+        },
+        {
+          "text": "furthering societal resilience, and collaborating on technical standards.",
+          "accessed": "2026-10-17",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/agreements/4/scope"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r3-jp-activity-index",
+      "title": "AISI activity index",
+      "url": "https://aisi.go.jp/activity/",
+      "excerpts": []
+    },
+    {
+      "id": "r5-ca-additional-funding-qp",
+      "title": "Question Period Note: SECURING CANADA’S GLOBAL AI ADVANTAGE",
+      "url": "https://search.open.canada.ca/qpnotes/record/ic,AIDI-2026-QP-00004",
+      "excerpts": [
+        {
+          "text": "AI for All will also invest an additional $50 million to CAISI",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/amount",
+            "/record/funding/1/description",
+            "/record/funding/1/coverage",
+            "/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Canada will also invest $50 million to expand the capabilities of the Canadian AI Safety Institute (CAISI), as well as advance work on AI transparency and a Canada Trusted AI Certification program so that Canadians can make informed decisions about how they engage with AI.",
+          "accessed": "2026-10-19",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/notes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-ca-ai-for-all",
+      "title": "Canada’s National Artificial Intelligence Strategy: AI for All",
+      "url": "https://ised-isde.canada.ca/site/ised/en/canadas-national-artificial-intelligence-strategy-ai-all",
+      "excerpts": [
+        {
+          "text": "Canada will invest $50 million to expand the capabilities of the Canadian AI Safety Institute",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/funding/1/amount",
+            "/record/funding/1/description",
+            "/record/funding/1/coverage",
+            "/record/funding/1/notes"
+          ]
+        },
+        {
+          "text": "Canada will invest $50 million to expand the capabilities of the Canadian AI Safety Institute to track emerging AI risks, advance technical research, and to conduct transparent evaluations of AI models.",
+          "accessed": "2026-10-21",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/testing_capacity/notes",
+            "/record/claims/0/text",
+            "/record/claims/2/text"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "r5-sg-multilingual-full-report-page",
+      "title": "Evaluation Report on “Improving Methodologies for LLM Evaluations Across Global Languages”",
+      "url": "https://sgaisi.sg/resources/improving-methodologies-for-llm-evaluations-across-global-languages-evaluation-report/",
+      "excerpts": [
+        {
+          "text": "June 26, 2025",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/credit/date"
+          ]
+        },
+        {
+          "text": "June 26, 2025 0 min read",
+          "accessed": "2026-10-18",
+          "url": "https://sgaisi.sg/resources/improving-methodologies-for-llm-evaluations-across-global-languages-evaluation-report/",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/outputs/0/credit/date"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-ca-amii",
+      "title": "Pan-Canadian AI Strategy — Alberta Machine Intelligence Institute",
+      "url": "https://www.amii.ca/about/pan-canadian-ai-strategy",
+      "excerpts": [
+        {
+          "text": "Amii is one of Canada’s national AI institutes, advancing the country’s leadership in AI innovation.",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/4/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-ca-mila",
+      "title": "Mila Hosts Launch Event for the Canadian Artificial Intelligence Safety Institute | Mila",
+      "url": "https://mila.quebec/en/news/mila-hosts-launch-event-for-the-canadian-artificial-intelligence-safety-institute",
+      "excerpts": [
+        {
+          "text": "Canada’s three national AI institutes—Amii in Edmonton, Mila in Montréal and the Vector Institute in Toronto",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/2/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-ca-nrc",
+      "title": "Statement on Research Security - National Research Council Canada",
+      "url": "https://www.nrc.canada.ca/en/corporate/values-ethics/statement-research-security",
+      "excerpts": [
+        {
+          "text": "The National Research Council of Canada (NRC) is Canada's largest federal research and development organization",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "blocked_or_failed",
+            "last_found": "2026-11-10",
+            "since": "2026-11-16"
+          },
+          "supports": [
+            "/record/national_partners/entries/0/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rows-what-ca-vector",
+      "title": "MOU between CIFAR, the National Research Council of Canada and Canada’s three national AI institutes opens doors to collaboration across sectors – CIFAR",
+      "url": "https://cifar.ca/cifarnews/2022/05/25/mou-between-cifar-the-nrc-and-canadas-three-national-ai-institutes-opens-doors-to-collaboration-across-sectors/",
+      "excerpts": [
+        {
+          "text": "Canada’s three national AI institutes (Amii, Mila and the Vector Institute)",
+          "accessed": "2026-10-20",
+          "reread": {
+            "state": "confirmed",
+            "last_found": "2026-11-23",
+            "since": null
+          },
+          "supports": [
+            "/record/national_partners/entries/3/what"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wb-gdp-lcu-2025",
+      "title": "GDP (current LCU) (NY.GDP.MKTP.CN), 2025, for Australia, Canada, Korea, United Kingdom and United States",
+      "url": "https://api.worldbank.org/v2/country/AUS;CAN;GBR;KOR;USA/indicator/NY.GDP.MKTP.CN?date=2025&format=json",
+      "excerpts": []
+    },
+    {
+      "id": "wb-pop",
+      "title": "Population, total (SP.POP.TOTL)",
+      "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "archive_url": "https://web.archive.org/web/20261011235042/https://data.worldbank.org/indicator/SP.POP.TOTL",
+      "excerpts": []
+    },
+    {
+      "id": "wikidata-ca-caisi-identifier",
+      "title": "Canadian Artificial Intelligence Safety Institute: Wikidata identity",
+      "url": "https://www.wikidata.org/wiki/Q139585166",
+      "excerpts": []
+    }
+  ]
+}
